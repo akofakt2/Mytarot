@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "locale": "en",
+  "pages": {
+    "landing": {
+      "title": "Tarot reading",
+      "start_button": "Start reading"
+    },
+    "reading": {
+      "question_label": "Question",
+      "submit_button": "Draw cards"
+    },
+    "card_detail": {
+      "upright_heading": "Upright",
+      "reversed_heading": "Reversed"
+    }
+  }
+}

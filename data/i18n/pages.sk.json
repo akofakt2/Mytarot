@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "locale": "sk",
+  "pages": {
+    "landing": {
+      "title": "Tarotovy vyklad",
+      "start_button": "Zacat vyklad"
+    },
+    "reading": {
+      "question_label": "Otazka",
+      "submit_button": "Vylozit karty"
+    },
+    "card_detail": {
+      "upright_heading": "Priama poloha",
+      "reversed_heading": "Obratena poloha"
+    }
+  }
+}

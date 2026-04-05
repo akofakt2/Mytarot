@@ -1,0 +1,708 @@
+:root {
+    /* Teplejšie „bordové“ pozadie pre kontrast s modrou */ 
+    --table-color: #1b0608;
+    --card-gold: #c5a059;
+    --accent-purple: #2d1b4d;
+    --text-light: #e0e0e0;
+    /* Tarot obrázky: 600 × 1028 */
+    --card-width: 220px;
+    --card-aspect: 600 / 1044;
+    --nav-bg: rgba(13, 13, 26, 0.9);
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'EB Garamond', serif;
+    /* Typografia: jednotný základ (bežný text ako .card-section p); 1.25rem ≈ predošlá veľkosť veštby / čitateľnejšie ako čisté 1rem */
+    --text-body: 1.25rem;
+    --text-body-line: 1.7;
+    --text-small: 0.9rem;
+    --text-meta: 1rem;
+    --text-ui: 0.95rem;
+    --text-section-title: 1.25rem;
+    --text-page-title: 2.5rem;
+    /* medzistupeň medzi bežným textom a titulkom (symboly slotov atď.) */
+    --text-slot-mark: calc(var(--text-page-title) * 0.75);
+}
+
+body, html {
+    margin: 0; padding: 0; min-height: 100vh;
+    font-family: var(--font-body);
+    font-size: var(--text-body);
+    line-height: var(--text-body-line);
+    background-color: var(--table-color);
+    color: var(--text-light);
+    overflow-x: hidden;
+}
+
+/* --- NAVIGÁCIA (responzívna) --- */
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    padding: 15px 20px;
+    background: var(--nav-bg);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+    position: relative;
+    z-index: 100;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: clamp(var(--text-body), 4vw, var(--text-slot-mark));
+    font-weight: bold;
+    color: var(--card-gold);
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    flex: 1;
+    min-width: 0;
+}
+
+.nav-toggle-input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    pointer-events: none;
+    appearance: none;
+    border: none;
+}
+
+.nav-burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgba(197, 160, 89, 0.35);
+    background: rgba(197, 160, 89, 0.08);
+}
+
+.nav-burger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--card-gold);
+    border-radius: 1px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-toggle-input:focus-visible + .nav-burger {
+    outline: 2px solid var(--card-gold);
+    outline-offset: 2px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 20px;
+}
+
+.nav-links a {
+    font-family: var(--font-heading);
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: var(--text-small);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    white-space: nowrap;
+}
+
+.nav-links a:hover { color: var(--card-gold); }
+
+@media (min-width: 769px) {
+    .site-nav { padding: 15px 30px; flex-wrap: nowrap; }
+    .logo { flex: 0 1 auto; }
+    .nav-burger { display: none !important; }
+    .nav-links {
+        display: flex !important;
+        flex-basis: auto;
+        width: auto;
+        padding: 0;
+        border: none;
+        background: transparent;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-burger { display: flex; }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        flex-basis: 100%;
+        width: 100%;
+        order: 3;
+        gap: 0;
+        padding: 8px 0 16px;
+        margin: 0 -4px;
+        border-top: 1px solid rgba(197, 160, 89, 0.2);
+        background: linear-gradient(180deg, rgba(13, 13, 26, 0.98), rgba(10, 10, 20, 0.95));
+    }
+
+    .nav-links a {
+        padding: 12px 16px;
+        border-bottom: 1px solid rgba(197, 160, 89, 0.12);
+        white-space: normal;
+    }
+
+    .nav-links a:last-child { border-bottom: none; }
+
+    .nav-toggle-input:checked ~ .nav-links { display: flex; }
+
+    .nav-toggle-input:checked + .nav-burger span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .nav-toggle-input:checked + .nav-burger span:nth-child(2) { opacity: 0; }
+    .nav-toggle-input:checked + .nav-burger span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+/* --- LAYOUT A STÔL --- */
+.main-layout { 
+    display: flex; flex-direction: column; align-items: center;
+    min-height: calc(100vh - 70px);
+    background: radial-gradient(circle at center, #161633 0%, var(--table-color) 100%);
+    padding: 40px 20px;
+}
+
+.question-input {
+    font-family: var(--font-body); font-style: italic; background: transparent;
+    border: none; border-bottom: 1px solid var(--card-gold); color: white;
+    font-size: var(--text-body); text-align: center; width: 100%; max-width: 450px;
+    padding: 10px; outline: none; margin-bottom: 60px;
+}
+
+/* --- INTERAKTÍVNY BALÍČEK --- */
+.deck-container { margin-bottom: 60px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+
+.deck {
+    width: 100px; height: 160px; aspect-ratio: 10 / 16;
+    position: relative; cursor: pointer;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.deck:hover { transform: translateY(-5px); }
+
+.deck-layer {
+    position: absolute; width: 100%; height: 100%;
+    background-color: var(--accent-purple);
+    background-image: var(--card-back-url);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid var(--card-gold); border-radius: 10px;
+    box-shadow: -2px 2px 0 rgba(197, 160, 89, 0.5);
+    display: flex; align-items: center; justify-content: center; font-size: var(--text-page-title);
+    transition: all 0.3s ease;
+}
+.deck-layer:nth-child(1) { top: 0; left: 0; z-index: 3; }
+.deck-layer:nth-child(2) { top: 4px; left: -4px; z-index: 2; opacity: 0.8; }
+.deck-layer:nth-child(3) { top: 8px; left: -8px; z-index: 1; opacity: 0.5; }
+
+.deck.is-shuffling .deck-layer:nth-child(1) { animation: shuffle-top 0.8s infinite ease-in-out; }
+.deck.is-shuffling .deck-layer:nth-child(2) { animation: shuffle-mid 0.8s infinite ease-in-out reverse; }
+
+@keyframes shuffle-top {
+    0% { transform: translate(0, 0) rotate(0); z-index: 3; }
+    50% { transform: translate(30px, -15px) rotate(5deg); z-index: 1; }
+    100% { transform: translate(0, 0) rotate(0); z-index: 3; }
+}
+@keyframes shuffle-mid {
+    0% { transform: translate(0, 0) rotate(0); }
+    50% { transform: translate(-30px, 15px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+}
+
+.deck-label {
+    font-family: var(--font-heading); font-size: var(--text-small); color: var(--card-gold);
+    margin-top: 25px; letter-spacing: 2px; text-transform: uppercase; transition: opacity 0.5s;
+}
+
+/* --- KARTY NA STOLE --- */
+.spread-area {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    perspective: 1000px;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 0;
+    /* kľúčové slová pod kartou (.card-keyword) je position:absolute → nezväčší výšku slotu; rezerva dole */
+    padding-bottom: 3rem;
+}
+
+/* --- Samotný slot (Obaluje Kartu + Text) --- */
+/* --- ZÁKLAD (Fáza 1: Všetko je schované) --- */
+.slot {
+    width: var(--card-width);
+    aspect-ratio: var(--card-aspect); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1px dashed rgba(197, 160, 89, 0.2); border-radius: 12px;
+    /* Na začiatku je celý slot neviditeľný */    
+    transform: translateY(20px); /* Karta je kúsok nižšie, aby sa mohla vynoriť */
+    transition: opacity 0.5s ease, transform 0.5s ease;    
+}
+
+.slot::before { content: attr(data-label); position: absolute; top: -35px; width: 100%; text-align: center; font-size: var(--text-slot-mark); color: var(--card-gold); opacity: 0.6; }
+
+.slot-caption {
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--font-body);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s ease;
+}
+.slot-caption.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.slot-title {
+    font-family: var(--font-heading);
+    color: var(--card-gold);
+    letter-spacing: 1px;
+    font-size: var(--text-meta);
+    line-height: 1.2;
+}
+.slot-meaning {
+    margin-top: 6px;
+    font-size: var(--text-meta);
+    line-height: 1.35;
+    opacity: 0.9;
+}
+
+/* Obal karty drží pevný rozmer a 3D priestor */
+.card {
+    width: 100%;
+    aspect-ratio: var(--card-aspect); /* Všetky karty sú rovnako veľké */
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.4, 0.0, 0.2, 1); /* Plynulé otočenie */
+    /*opacity: 0;
+    visibility: hidden;*/
+}
+
+.card.is-flipped { transform: rotateY(180deg); }
+
+/* Spoločný vzhľad pre obe strany karty */
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Skryje odvrátenú stranu */
+    border-radius: 10px;
+    border: 1px solid rgba(197, 160, 89, 0.35);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+/* Zadná strana (pozeráme sa na ňu ako prvú) */
+.card-back {
+    background-color: var(--accent-purple);
+    background-image: var(--card-back-url);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Predná strana (otočená chrbtom) */
+.card-front {
+    transform: rotateY(180deg); 
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garantuje nedeformovanie obrázka */
+    display: block;
+}
+
+
+/* --- OBLASŤ PRE VEŠTBU A LOADING --- */
+/* Rámik je na .reading-container (nie na vnorenom paneli), aby bol vždy viditeľný a zarovnaný */
+.reading-container {
+    position: relative;
+    width: 100%;    
+    max-width: 640px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    text-align: left;
+    z-index: 2;
+    clear: both;
+    box-sizing: border-box;
+    padding: 1.5rem 1.35rem 1.65rem;
+    border-radius: 14px;
+    border: 3px solid var(--card-gold);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+        0 0 0 1px rgba(0, 0, 0, 0.6),
+        0 0 40px rgba(197, 160, 89, 0.18),
+        0 20px 50px rgba(0, 0, 0, 0.55);
+    background-color: rgba(6, 6, 14, 0.97);
+    background-image:
+        radial-gradient(ellipse 130% 90% at 50% 0%, rgba(197, 160, 89, 0.22) 0%, transparent 58%),
+        linear-gradient(168deg, rgba(26, 26, 48, 0.98) 0%, rgba(12, 12, 28, 0.96) 50%, rgba(4, 4, 12, 0.95) 100%);
+}
+.reading-container::before {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border-radius: 9px;
+    pointer-events: none;
+    z-index: 0;
+    border: 1px solid rgba(197, 160, 89, 0.45);
+    box-shadow: inset 0 0 36px rgba(197, 160, 89, 0.1);
+}
+.reading-container::after {
+    content: "✦";
+    position: absolute;
+    top: -0.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: var(--text-body);
+    line-height: 1;
+    color: var(--card-gold);
+    text-shadow: 0 0 16px rgba(197, 160, 89, 0.75);
+    pointer-events: none;
+    background: rgba(6, 6, 14, 1);
+    padding: 0 0.6rem;
+}
+.reading-container .reading-panel {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    box-shadow: none;
+}
+
+.reading-panel > * {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes mystic-glow {
+    0% { opacity: 0.3; text-shadow: 0 0 10px rgba(197, 160, 89, 0.2); transform: scale(0.98); }
+    50% { opacity: 1; text-shadow: 0 0 20px rgba(197, 160, 89, 0.8), 0 0 40px var(--card-gold); transform: scale(1.02); }
+    100% { opacity: 0.3; text-shadow: 0 0 10px rgba(197, 160, 89, 0.2); transform: scale(0.98); }
+}
+
+.loading-state {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: var(--font-heading);
+    color: var(--card-gold);
+    font-size: var(--text-section-title);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.35;
+    padding: 0.35rem 0.75rem 0.5rem;
+    display: none;
+    transition: opacity 1s ease;
+}
+
+.loading-state.active {
+    display: block;
+    animation: mystic-glow 2.5s infinite ease-in-out;
+}
+
+.final-reading {
+    width: 100%;
+    font-size: var(--text-body);
+    line-height: var(--text-body-line);
+    text-align: left;
+    margin-top: 0;
+    opacity: 0; visibility: hidden; transform: translateY(20px); transition: all 1.5s ease;
+}
+.final-reading.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.final-reading p { margin: 0 0 0.9rem; }
+.final-reading p:last-child { margin-bottom: 0; }
+.final-reading code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.95em; /* relatívne k --text-body */
+    padding: 0.1em 0.35em;
+    border-radius: 6px;
+    background: rgba(197, 160, 89, 0.12);
+    border: 1px solid rgba(197, 160, 89, 0.22);
+}
+
+.final-reading .md-h3,
+.final-reading .md-strong {
+    font-family: var(--font-heading);
+    color: var(--card-gold);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.final-reading .md-h3 {
+    margin: 0.25rem 0 0.65rem;
+    font-size: var(--text-section-title);
+}
+
+.new-reading-btn {
+    margin-top: 18px;
+    display: none;
+    align-self: flex-start;
+    font-family: var(--font-heading);
+    font-size: var(--text-small);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(197, 160, 89, 0.45);
+    background: rgba(197, 160, 89, 0.10);
+    color: var(--text-light);
+    cursor: pointer;
+}
+.new-reading-btn:hover { border-color: rgba(197, 160, 89, 0.7); background: rgba(197, 160, 89, 0.14); }
+.new-reading-btn:focus-visible { outline: 2px solid var(--card-gold); outline-offset: 2px; }
+.new-reading-btn.visible { display: inline-flex; }
+
+/* --- STRÁNKA KARTY (template.html) --- */
+.card-detail {
+    /* min(100%, 720px) + margin auto: spoľahlivé centrovanie vo flex .main-layout (align-items: center) */
+    width: min(100%, 720px);
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    box-sizing: border-box;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.card-article { width: 100%; text-align: left; }
+.card-detail-header { margin-bottom: 1.5rem; }
+.card-id { margin: 0; font-size: var(--text-small); color: rgba(224, 224, 224, 0.5); }
+.card-detail-title { font-family: var(--font-heading); font-size: var(--text-page-title); color: var(--card-gold); margin: 0.25rem 0; }
+.card-archetype { margin: 0; font-style: italic; opacity: 0.85; }
+.card-detail-figure { margin: 0 0 1.5rem; text-align: center; }
+.card-detail-img { max-width: 220px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(197, 160, 89, 0.4); }
+.card-section h2 { font-family: var(--font-heading); font-size: var(--text-section-title); letter-spacing: 2px; text-transform: uppercase; color: var(--card-gold); margin: 0 0 0.5rem; }
+.card-section p { margin: 0 0 1.25rem; line-height: 1.7; }
+.keywords { font-style: italic; }
+
+.card-pager {
+    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+    margin: 2rem 0; padding: 1rem 0; border-top: 1px solid rgba(197, 160, 89, 0.2);
+}
+.pager-link { color: var(--card-gold); text-decoration: none; font-family: var(--font-heading); font-size: var(--text-ui); }
+.pager-link:hover { text-decoration: underline; }
+.pager-next { margin-left: auto; text-align: right; }
+.pager-muted { opacity: 0.35; }
+
+.all-cards-nav {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.25rem 1.25rem 1.5rem;
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    border-radius: 12px;
+    background: rgba(13, 13, 26, 0.55);
+    box-sizing: border-box;
+    align-self: center;
+}
+.all-cards-heading {
+    font-family: var(--font-heading);
+    font-size: var(--text-section-title);
+    letter-spacing: 2px;
+    color: var(--card-gold);
+    margin: 0 0 1rem;
+    text-align: center;
+}
+.all-cards-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.35rem 1rem;
+    font-size: var(--text-meta);
+}
+.all-cards-nav .all-cards-list {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.35rem 0.75rem;
+    justify-content: center;
+    justify-items: center;
+}
+.all-cards-nav .all-cards-list li {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+}
+.all-cards-list a { color: var(--text-light); text-decoration: none; }
+.all-cards-list a:hover { color: var(--card-gold); }
+.all-cards-list a.is-current { color: var(--card-gold); font-weight: bold; }
+
+/* Stránka /cards: nadpis + ul musia mať definovanú šírku, inak vo flex .main-layout pôsobia posunuté doľava */
+.cards-index-title {
+    font-family: var(--font-heading);
+    color: var(--card-gold);
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    font-size: clamp(1.4rem, 4vw, var(--text-page-title));
+    letter-spacing: 1px;
+    width: min(100%, 900px);
+    margin-left: auto;
+    margin-right: auto;    
+    box-sizing: border-box;
+}
+/* Šírka stĺpca: reaguje na šírku obrazovky, max. 900px; texty doľava */
+.all-cards-list--index {
+    width: min(900px, calc(100vw - 2.5rem));
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    align-self: center;
+    font-size: var(--text-body);
+    line-height: var(--text-body-line);
+    text-align: left;
+    justify-content: start;
+    justify-items: start;
+}
+.all-cards-list--index li {
+    text-align: left;
+}
+.all-cards-list--index a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem 0;
+    box-sizing: border-box;
+}
+.all-cards-list--index .mono {
+    opacity: 0.85;
+}
+/* Oddelovač: aria-hidden len pre SR; vizuálne vždy 1 px čiara (nie prázdna výška 0) */
+.all-cards-list--index li.cards-index-sep {
+    grid-column: 1 / -1;
+    list-style: none;
+    margin: 0.75rem 0;
+    padding: 0;
+    width: 100%;
+    height: 3px;
+    align-self: stretch;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        rgba(197, 160, 89, 0) 0%,
+        rgba(197, 160, 89, 0.6) 18%,
+        rgba(197, 160, 89, 0.75) 50%,
+        rgba(197, 160, 89, 0.6) 82%,
+        rgba(197, 160, 89, 0) 100%
+    );
+    border: none;
+}
+
+/* Oddeľovač aj v detaile karty (sekcia .all-cards-nav) */
+.all-cards-nav li.cards-index-sep {
+    grid-column: 1 / -1;
+    list-style: none;
+    margin: 0.6rem 0;
+    padding: 0;
+    width: 100%;
+    height: 3px;
+    align-self: stretch;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        rgba(197, 160, 89, 0) 0%,
+        rgba(197, 160, 89, 0.55) 18%,
+        rgba(197, 160, 89, 0.7) 50%,
+        rgba(197, 160, 89, 0.55) 82%,
+        rgba(197, 160, 89, 0) 100%
+    );
+    border: none;
+}
+.mono { font-variant-numeric: tabular-nums; opacity: 0.7; margin-right: 0.35rem; }
+
+@media (max-width: 768px) {
+    :root {
+        --card-width: 220px;
+    }
+    .main-layout {
+        padding-left: max(16px, env(safe-area-inset-left, 0px));
+        padding-right: max(16px, env(safe-area-inset-right, 0px));
+        padding-bottom: max(2.5rem, env(safe-area-inset-bottom, 0px));
+    }
+    .spread-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+        margin-bottom: 3.5rem;
+        padding-bottom: 4rem;
+    }
+    .slot {
+        padding-bottom: 3.25rem;
+    }
+    .reading-container {
+        margin-top: 1.75rem;
+        width: 100%;
+        max-width: min(19rem, calc(100vw - 2.25rem));
+    }
+    .reading-container {
+        padding: 1.2rem 0.95rem 1.35rem;
+    }
+    .deck { width: 80px; height: 128px; }
+
+    /* Stránka karty: zoznam „Všetky karty“ – na úzkych displejoch grid zarovnáva stĺpce k ľavému okraju */
+    .all-cards-nav {
+        max-width: 100%;
+        padding-left: max(1.25rem, env(safe-area-inset-left, 0px));
+        padding-right: max(1.25rem, env(safe-area-inset-right, 0px));
+    }
+    .all-cards-nav .all-cards-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.4rem;
+        width: 100%;
+        padding-inline: 0;
+        margin-inline: 0;
+    }
+    .all-cards-nav .all-cards-list li {
+        width: 100%;
+        max-width: 22rem;
+        text-align: center;
+    }
+    .all-cards-nav .all-cards-list a {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .all-cards-list--index {
+        width: min(900px, calc(100vw - 2.5rem));
+        max-width: 100%;
+        padding-inline: max(0px, env(safe-area-inset-left, 0px)) max(0px, env(safe-area-inset-right, 0px));
+    }
+}

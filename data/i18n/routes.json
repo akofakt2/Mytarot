@@ -1,0 +1,15 @@
+{
+  "en": {
+    "cards_list": "cards",
+    "card": "card",
+    "about_app": "about",
+    "about_tarot": "about-tarot"
+  },
+  "sk": {
+    "cards_list": "karty",
+    "card": "karta",
+    "about_app": "o-aplikacii",
+    "about_tarot": "o-tarote"
+  }
+}
+

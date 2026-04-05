@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Mentor - Rituálna Veštiareň so Zvukom</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        :root {
+            --card-back-url: url("{{ back_image_url }}");
+        }
+    </style>
+</head>
+
+<body>
+
+    {% include 'nav.html' %}
+
+    <div class="main-layout">
+        <input type="text" id="question" class="question-input" placeholder="{{ ui.question_placeholder }}">
+
+        <div class="deck-container">
+            <div class="deck" id="mainDeck" onclick="handleDeckInteraction()">
+                <div class="deck-layer"></div>
+                <div class="deck-layer"></div>
+                <div class="deck-layer"></div>
+            </div>
+            <div class="deck-label" id="deckLabel">{{ ui.deck_label_shuffle }}</div>
+        </div>
+
+        <div class="spread-area">
+            <div class="slot" id="slot-0" data-label="☾">
+
+            </div>
+            <div class="slot" id="slot-1" data-label="❍">
+            </div>
+
+            <div class="slot" id="slot-2" data-label="☽">
+            </div>
+
+        </div>
+
+        <div class="reading-container">
+            <div class="reading-panel">
+                <div class="loading-state" id="loadingState">{{ ui.loading }}</div>
+                <div class="final-reading" id="finalReading"></div>
+                <button class="new-reading-btn" id="newReadingBtn" type="button" aria-hidden="true">
+                    {{ ui.new_reading }}
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script id="tarot-data" type="application/json">{{ tarot_cards_json|safe }}</script>
+    <script id="ui-i18n" type="application/json">{{ ui_i18n_json|safe }}</script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

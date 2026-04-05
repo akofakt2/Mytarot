@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if locale == 'sk' %}O tarote{% else %}About tarot{% endif %} – Tarot Mentor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% include 'nav.html' %}
+
+    <div class="main-layout card-detail">
+        <article class="card-article">
+            <h1 class="card-detail-title">{% if locale == 'sk' %}Čo je tarot{% else %}What is tarot{% endif %}</h1>
+            <section class="card-section">
+                {% if locale == 'sk' %}
+                <p>Stránku o tarote všeobecne (história, štandardný balík 78 kariet, veštenie vs sebapoznanie) doplníš vlastným textom.</p>
+                {% else %}
+                <p>Fill this page with general tarot content — history, the 78-card deck, reading vs introspection.</p>
+                {% endif %}
+            </section>
+        </article>
+    </div>
+</body>
+</html>

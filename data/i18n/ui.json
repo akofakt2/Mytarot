@@ -1,0 +1,29 @@
+{
+  "en": {
+    "question_placeholder": "What do you ask of fate?",
+    "deck_label_shuffle": "Shuffle the cards",
+    "deck_label_need_question": "Write your question first ↑",
+    "deck_label_focus": "Focus on your question...",
+    "deck_label_deal": "Deal the cards",
+    "deck_label_flip": "Flip a card",
+    "new_reading": "New reading",
+    "loading": "The universe is weaving your answer...",
+    "error_llm_unavailable": "Could not reach the fortune teller (LLM). Please try again in a moment.",
+    "error_reading_failed": "Something went wrong while creating your reading. Please try again.",
+    "log_draw_failed": "Failed to load new cards:"
+  },
+  "sk": {
+    "question_placeholder": "Na čo sa pýtaš osudu?",
+    "deck_label_shuffle": "Zamiešať karty",
+    "deck_label_need_question": "Najprv napíš otázku ↑",
+    "deck_label_focus": "Sústreď sa na svoju otázku...",
+    "deck_label_deal": "Rozdať karty",
+    "deck_label_flip": "Otoč kartu",
+    "new_reading": "Nová veštba",
+    "loading": "Vesmír splieta tvoju odpoveď...",
+    "error_llm_unavailable": "Nepodarilo sa spojiť s veštiareňou (LLM). Skús to prosím znova o chvíľu.",
+    "error_reading_failed": "Nastala chyba pri spracovaní veštenia. Skús to prosím znova.",
+    "log_draw_failed": "Nepodarilo sa načítať nové karty:"
+  }
+}
+

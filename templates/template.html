@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ card.name }} – Tarot Mentor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    {% include 'nav.html' %}
+
+    <div class="main-layout card-detail">
+        <article class="card-article">
+            <header class="card-detail-header">
+                <p class="card-id">#{{ card.id }}</p>
+                <h1 class="card-detail-title">{{ card.name }}</h1>
+                {% if card.archetype %}
+                <p class="card-archetype">{{ card.archetype }}</p>
+                {% endif %}
+            </header>
+
+            <figure class="card-detail-figure">
+                <img
+                    src="{{ url_for('static', filename=card_images_dir ~ '/' ~ card.image_path) }}"
+                    alt="{{ card.name }}"
+                    class="card-detail-img"
+                    loading="lazy"
+                />
+            </figure>
+
+            {% if card.keywords %}
+            <section class="card-section">
+                <h2>Kľúčové slová</h2>
+                <p class="keywords">{{ card.keywords|join(', ') }}</p>
+            </section>
+            {% endif %}
+
+            <section class="card-section">
+                <h2>Priamy význam</h2>
+                <p>{{ card.meaning_upright }}</p>
+            </section>
+
+            <section class="card-section">
+                <h2>Obrátený</h2>
+                <p>{{ card.meaning_reversed }}</p>
+            </section>
+
+            {% if card.description %}
+            <section class="card-section">
+                <h2>Popis</h2>
+                <p>{{ card.description }}</p>
+            </section>
+            {% endif %}
+        </article>
+
+        <nav class="card-pager" aria-label="Predchádzajúca a nasledujúca karta">
+            {% if prev_card and prev_slug %}
+            <a class="pager-link" href="{{ url_for('card_page', slug=prev_slug) }}">← {{ prev_card.name }}</a>
+            {% else %}
+            <span class="pager-muted">—</span>
+            {% endif %}
+            {% if next_card and next_slug %}
+            <a class="pager-link pager-next" href="{{ url_for('card_page', slug=next_slug) }}">{{ next_card.name }} →</a>
+            {% else %}
+            <span class="pager-muted">—</span>
+            {% endif %}
+        </nav>
+
+        <section class="all-cards-nav" aria-label="Všetky karty">
+            <h2 class="all-cards-heading">Všetky karty</h2>
+            <ul class="all-cards-list">
+                {% for row in nav_rows %}
+                <li>
+                    <a href="{{ url_for('card_page', slug=row.slug) }}" class="{% if row.is_current %}is-current{% endif %}">{{ row.name }}</a>
+                </li>
+                {% if row.sep_after %}
+                <li class="cards-index-sep" aria-hidden="true"></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>

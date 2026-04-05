@@ -1,0 +1,1410 @@
+{
+  "version": 1,
+  "locale": "sk",
+  "cards": [
+    {
+      "id": 0,
+      "arcana": "veľká",
+      "number": 0,
+      "suit": null,
+      "rank": null,
+      "image_path": "0.png",
+      "name": "Blázon",
+      "keywords": [
+        "začiatky",
+        "nevinnosť",
+        "skok do neznáma"
+      ],
+      "meaning_upright": "Nové začiatky, spontánnosť a dôvera v cestu.",
+      "meaning_reversed": "Bezhlavosť, naivita alebo váhanie začať.",
+      "archetype": "Hľadač",
+      "description": "Krok do neznáma s otvorenosťou a zvedavosťou."
+    },
+    {
+      "id": 1,
+      "arcana": "veľká",
+      "number": 1,
+      "suit": null,
+      "rank": null,
+      "image_path": "1.png",
+      "name": "Mág",
+      "keywords": [
+        "vôľa",
+        "zručnosť",
+        "manifestácia"
+      ],
+      "meaning_upright": "Sústredený zámer, šikovné konanie a uskutočňovanie vecí.",
+      "meaning_reversed": "Rozptýlená energia, manipulácia alebo nevyužitý potenciál.",
+      "archetype": "Stvoriteľ",
+      "description": "Zosúladenie nástrojov, vôle a pozornosti k vytvoreniu zmeny."
+    },
+    {
+      "id": 2,
+      "arcana": "veľká",
+      "number": 2,
+      "suit": null,
+      "rank": null,
+      "image_path": "2.png",
+      "name": "Veľkňažka",
+      "keywords": [
+        "intuícia",
+        "tajomstvo",
+        "vnútorný hlas"
+      ],
+      "meaning_upright": "Intuícia, vnútorné poznanie a skryté pravdy.",
+      "meaning_reversed": "Ignorovanie intuície, zmätok alebo príliš dlho strážené tajomstvá.",
+      "archetype": "Mystik",
+      "description": "Tiché pozvanie počúvať to, čo je pod povrchom."
+    },
+    {
+      "id": 3,
+      "arcana": "veľká",
+      "number": 3,
+      "suit": null,
+      "rank": null,
+      "image_path": "3.png",
+      "name": "Cisárovná",
+      "keywords": [
+        "starostlivosť",
+        "hojnosť",
+        "rast"
+      ],
+      "meaning_upright": "Podpora rastu, kreativita a hojnosť.",
+      "meaning_reversed": "Tvorivý blok, zanedbávanie alebo prílišná závislosť.",
+      "archetype": "Matka",
+      "description": "Starostlivosť, krása a sila kultivácie."
+    },
+    {
+      "id": 4,
+      "arcana": "veľká",
+      "number": 4,
+      "suit": null,
+      "rank": null,
+      "image_path": "4.png",
+      "name": "Cisár",
+      "keywords": [
+        "štruktúra",
+        "autorita",
+        "stabilita"
+      ],
+      "meaning_upright": "Štruktúra, vodcovstvo a stabilné základy.",
+      "meaning_reversed": "Strata pružnosti, problémy s kontrolou alebo nestabilita v autorite.",
+      "archetype": "Vládca",
+      "description": "Poriadok a ochrana prostredníctvom jasných hraníc."
+    },
+    {
+      "id": 5,
+      "arcana": "veľká",
+      "number": 5,
+      "suit": null,
+      "rank": null,
+      "image_path": "5.png",
+      "name": "Veľkňaz",
+      "keywords": [
+        "tradícia",
+        "učenie",
+        "presvedčenia"
+      ],
+      "meaning_upright": "Tradícia, mentorstvo a zdieľané hodnoty.",
+      "meaning_reversed": "Rebélia, dogma alebo spochybňovanie starých pravidiel.",
+      "archetype": "Učiteľ",
+      "description": "Učenie sa v rámci línie významu a praxe."
+    },
+    {
+      "id": 6,
+      "arcana": "veľká",
+      "number": 6,
+      "suit": null,
+      "rank": null,
+      "image_path": "6.png",
+      "name": "Milenci",
+      "keywords": [
+        "voľba",
+        "spojenie",
+        "súlad hodnôt"
+      ],
+      "meaning_upright": "Spojenie, zmysluplná voľba a súlad hodnôt.",
+      "meaning_reversed": "Disharmónia, nesúlad alebo strach zo záväzku.",
+      "archetype": "Milovaný",
+      "description": "Výber srdcom a život podľa vlastných hodnôt."
+    },
+    {
+      "id": 7,
+      "arcana": "veľká",
+      "number": 7,
+      "suit": null,
+      "rank": null,
+      "image_path": "7.png",
+      "name": "Voz",
+      "keywords": [
+        "odhodlanie",
+        "víťazstvo",
+        "sebaovládanie"
+      ],
+      "meaning_upright": "Odhodlanie, hybná sila a disciplinovaný pokrok.",
+      "meaning_reversed": "Chýbajúci smer, konfliktné sily alebo vyhorenie.",
+      "archetype": "Víťaz",
+      "description": "Využitie protichodných energií na pohyb vpred."
+    },
+    {
+      "id": 8,
+      "arcana": "veľká",
+      "number": 8,
+      "suit": null,
+      "rank": null,
+      "image_path": "8.png",
+      "name": "Sila",
+      "keywords": [
+        "odvaha",
+        "trpezlivosť",
+        "vnútorná sila"
+      ],
+      "meaning_upright": "Odvaha, trpezlivosť a jemná vnútorná sila.",
+      "meaning_reversed": "Seba-pochybnosti, netrpezlivosť alebo uprednostnenie sily pred jemnosťou.",
+      "archetype": "Srdce",
+      "description": "Krotenie strachu prostredníctvom súcitu a vytrvalosti."
+    },
+    {
+      "id": 9,
+      "arcana": "veľká",
+      "number": 9,
+      "suit": null,
+      "rank": null,
+      "image_path": "9.png",
+      "name": "Pustovník",
+      "keywords": [
+        "samota",
+        "múdrosť",
+        "vedenie"
+      ],
+      "meaning_upright": "Samota, vhľad a vnútorné vedenie.",
+      "meaning_reversed": "Izolácia, vyhýbanie sa alebo odmietanie pomoci.",
+      "archetype": "Mudrc",
+      "description": "Ustúpenie do úzadia pre jasnejší pohľad."
+    },
+    {
+      "id": 10,
+      "arcana": "veľká",
+      "number": 10,
+      "suit": null,
+      "rank": null,
+      "image_path": "10.png",
+      "name": "Koleso šťastia",
+      "keywords": [
+        "cykly",
+        "zmena",
+        "osud"
+      ],
+      "meaning_upright": "Zlomové body, cykly a zmeny v šťastí.",
+      "meaning_reversed": "Odpor voči zmene, zdržania alebo opakovanie vzorcov.",
+      "archetype": "Koleso",
+      "description": "Život sa hýbe – prispôsobte sa a chopte sa okamihu."
+    },
+    {
+      "id": 11,
+      "arcana": "veľká",
+      "number": 11,
+      "suit": null,
+      "rank": null,
+      "image_path": "11.png",
+      "name": "Spravodlivosť",
+      "keywords": [
+        "pravda",
+        "férovosť",
+        "zodpovednosť"
+      ],
+      "meaning_upright": "Pravda, férovosť a zodpovedné rozhodnutia.",
+      "meaning_reversed": "Predpojatosť, popieranie alebo vyhýbanie sa následkom.",
+      "archetype": "Sudca",
+      "description": "Jasné videnie a konanie s integritou."
+    },
+    {
+      "id": 12,
+      "arcana": "veľká",
+      "number": 12,
+      "suit": null,
+      "rank": null,
+      "image_path": "12.png",
+      "name": "Viselec",
+      "keywords": [
+        "pauza",
+        "nová perspektíva",
+        "odovzdanie sa"
+      ],
+      "meaning_upright": "Pauza, odovzdanie sa a čerstvý pohľad na vec.",
+      "meaning_reversed": "Ustrnutie, tvrdohlavosť alebo strach z pustenia kontroly.",
+      "archetype": "Zasvätenec",
+      "description": "Dar vidieť veci inak."
+    },
+    {
+      "id": 13,
+      "arcana": "veľká",
+      "number": 13,
+      "suit": null,
+      "rank": null,
+      "image_path": "13.png",
+      "name": "Smrť",
+      "keywords": [
+        "konce",
+        "transformácia",
+        "prepustenie"
+      ],
+      "meaning_upright": "Konce, ktoré vytvárajú priestor pre transformáciu.",
+      "meaning_reversed": "Lipnutie, strach zo zmeny alebo predlžovaný prechod.",
+      "archetype": "Transformátor",
+      "description": "Pustite to, čo skončilo; obnovte to, čo zostáva."
+    },
+    {
+      "id": 14,
+      "arcana": "veľká",
+      "number": 14,
+      "suit": null,
+      "rank": null,
+      "image_path": "14.png",
+      "name": "Miernosť",
+      "keywords": [
+        "rovnováha",
+        "liečenie",
+        "striedmosť"
+      ],
+      "meaning_upright": "Rovnováha, liečenie a uvážlivá integrácia.",
+      "meaning_reversed": "Extrémy, nerovnováha alebo chýbajúca harmónia.",
+      "archetype": "Alchymista",
+      "description": "Spojte extrémy do jedného celku."
+    },
+    {
+      "id": 15,
+      "arcana": "veľká",
+      "number": 15,
+      "suit": null,
+      "rank": null,
+      "image_path": "15.png",
+      "name": "Diabol",
+      "keywords": [
+        "pripútanosť",
+        "tieň",
+        "pokušenie"
+      ],
+      "meaning_upright": "Pripútanosti, pokušenie a konfrontácia s vlastným tieňom.",
+      "meaning_reversed": "Oslobodenie sa, znovuzískanie sily alebo popieranie problémov.",
+      "archetype": "Tieň",
+      "description": "Uvidieť reťaz, aby ste ju mohli uvoľniť."
+    },
+    {
+      "id": 16,
+      "arcana": "veľká",
+      "number": 16,
+      "suit": null,
+      "rank": null,
+      "image_path": "16.png",
+      "name": "Veža",
+      "keywords": [
+        "odhalenie",
+        "otras",
+        "reštart"
+      ],
+      "meaning_upright": "Otras, odhalenie a odstránenie falošných štruktúr.",
+      "meaning_reversed": "Vyhýbanie sa nevyhnutnému, predlžovaný rozvrat alebo strach.",
+      "archetype": "Blesk",
+      "description": "Pravda udrie – stavajte znova na tom, čo je skutočné."
+    },
+    {
+      "id": 17,
+      "arcana": "veľká",
+      "number": 17,
+      "suit": null,
+      "rank": null,
+      "image_path": "17.png",
+      "name": "Hviezda",
+      "keywords": [
+        "nádej",
+        "obnova",
+        "vedenie"
+      ],
+      "meaning_upright": "Nádej, obnova a vodiace svetlo pred vami.",
+      "meaning_reversed": "Skľúčenosť, pochybnosti alebo tlmený optimizmus.",
+      "archetype": "Sprievodca",
+      "description": "Tiché „áno“ z budúcnosti."
+    },
+    {
+      "id": 18,
+      "arcana": "veľká",
+      "number": 18,
+      "suit": null,
+      "rank": null,
+      "image_path": "18.png",
+      "name": "Mesiac",
+      "keywords": [
+        "ilúzia",
+        "intuícia",
+        "neistota"
+      ],
+      "meaning_upright": "Neistota, intuícia a navigácia v neznámom.",
+      "meaning_reversed": "Vynárajúce sa jasno, ustupujúci strach alebo odhalené sebaklamy.",
+      "archetype": "Sen",
+      "description": "Nie všetko je jasné – hýbte sa pomocou vnútorného svetla."
+    },
+    {
+      "id": 19,
+      "arcana": "veľká",
+      "number": 19,
+      "suit": null,
+      "rank": null,
+      "image_path": "19.png",
+      "name": "Slnko",
+      "keywords": [
+        "radosť",
+        "úspech",
+        "vitalita"
+      ],
+      "meaning_upright": "Radosť, vitalita a sebaistý úspech.",
+      "meaning_reversed": "Dočasné prekážky, pesimizmus alebo tlmená sebadôvera.",
+      "archetype": "Svetlo",
+      "description": "Teplo, viditeľnosť a pravda v dennom svetle."
+    },
+    {
+      "id": 20,
+      "arcana": "veľká",
+      "number": 20,
+      "suit": null,
+      "rank": null,
+      "image_path": "20.png",
+      "name": "Súd",
+      "keywords": [
+        "prebudenie",
+        "zhodnotenie",
+        "volanie"
+      ],
+      "meaning_upright": "Prebudenie, zhodnotenie a vypočutie volania.",
+      "meaning_reversed": "Seba-pochybnosti, tvrdé odsudzovanie alebo vyhýbanie sa rozhodnutiu.",
+      "archetype": "Volanie",
+      "description": "Vyberte si svoju ďalšiu kapitolu úprimne."
+    },
+    {
+      "id": 21,
+      "arcana": "veľká",
+      "number": 21,
+      "suit": null,
+      "rank": null,
+      "image_path": "21.png",
+      "name": "Svet",
+      "keywords": [
+        "dokončenie",
+        "integrácia",
+        "majstrovstvo"
+      ],
+      "meaning_upright": "Dokončenie, integrácia a pocit celistvosti.",
+      "meaning_reversed": "Nedokončené záležitosti, zdržanie alebo neúplné uzavretie.",
+      "archetype": "Celok",
+      "description": "Dorazili ste a nový cyklus sa začína."
+    },
+    {
+      "id": 22,
+      "arcana": "malá",
+      "number": 1,
+      "suit": "palice",
+      "rank": "eso",
+      "image_path": "22.png",
+      "name": "Eso palíc",
+      "keywords": [
+        "iskra",
+        "inšpirácia",
+        "iniciatíva"
+      ],
+      "meaning_upright": "Nová iskra inšpirácie a túžba začať.",
+      "meaning_reversed": "Zdržania, chýbajúca motivácia alebo iskra, ktorá zhasne.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 23,
+      "arcana": "malá",
+      "number": 2,
+      "suit": "palice",
+      "rank": "dvojka",
+      "image_path": "23.png",
+      "name": "Dvojka palíc",
+      "keywords": [
+        "plánovanie",
+        "možnosti",
+        "vízia"
+      ],
+      "meaning_upright": "Plánovanie ďalšieho kroku a rozširovanie obzorov.",
+      "meaning_reversed": "Strach z neznámeho alebo prílišná opatrnosť.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 24,
+      "arcana": "malá",
+      "number": 3,
+      "suit": "palice",
+      "rank": "trojka",
+      "image_path": "24.png",
+      "name": "Trojka palíc",
+      "keywords": [
+        "expanzia",
+        "pokrok",
+        "hybná sila"
+      ],
+      "meaning_upright": "Expanzia, pokrok a prvé viditeľné výsledky.",
+      "meaning_reversed": "Zdržania, prekážky alebo chýbajúca vytrvalosť.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 25,
+      "arcana": "malá",
+      "number": 4,
+      "suit": "palice",
+      "rank": "štvorka",
+      "image_path": "25.png",
+      "name": "Štvorka palíc",
+      "keywords": [
+        "oslava",
+        "domov",
+        "míľnik"
+      ],
+      "meaning_upright": "Oslava, stabilita a radostný míľnik.",
+      "meaning_reversed": "Napätie v domove alebo oslava, ktorá nepôsobí dobre.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 26,
+      "arcana": "malá",
+      "number": 5,
+      "suit": "palice",
+      "rank": "päťka",
+      "image_path": "26.png",
+      "name": "Päťka palíc",
+      "keywords": [
+        "súťaž",
+        "trenie",
+        "skúška"
+      ],
+      "meaning_upright": "Súťaživosť, trenice a učenie sa cez výzvy.",
+      "meaning_reversed": "Vyhýbanie sa konfliktu alebo hádky, ktoré nikam nevedú.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 27,
+      "arcana": "malá",
+      "number": 6,
+      "suit": "palice",
+      "rank": "šestka",
+      "image_path": "27.png",
+      "name": "Šestka palíc",
+      "keywords": [
+        "uznanie",
+        "úspech",
+        "sebavedomie"
+      ],
+      "meaning_upright": "Uznanie, úspech a zaslúžené sebavedomie.",
+      "meaning_reversed": "Ego, neistota alebo neuznaný úspech.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 28,
+      "arcana": "malá",
+      "number": 7,
+      "suit": "palice",
+      "rank": "sedmička",
+      "image_path": "28.png",
+      "name": "Sedmička palíc",
+      "keywords": [
+        "obrana",
+        "odvaha",
+        "hranice"
+      ],
+      "meaning_upright": "Státie si za svojím a ochrana vlastnej pozície.",
+      "meaning_reversed": "Príliš skoré vzdanie sa alebo pocit zahltenia.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 29,
+      "arcana": "malá",
+      "number": 8,
+      "suit": "palice",
+      "rank": "osmička",
+      "image_path": "29.png",
+      "name": "Osmička palíc",
+      "keywords": [
+        "rýchlosť",
+        "pohyb",
+        "správy"
+      ],
+      "meaning_upright": "Rýchlosť, pohyb a prudký vývoj udalostí.",
+      "meaning_reversed": "Zdržania, nedorozumenia alebo rozptýlené úsilie.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 30,
+      "arcana": "malá",
+      "number": 9,
+      "suit": "palice",
+      "rank": "deviatka",
+      "image_path": "30.png",
+      "name": "Deviatka palíc",
+      "keywords": [
+        "odolnosť",
+        "vytrvalosť",
+        "ostražitosť"
+      ],
+      "meaning_upright": "Odolnosť a vytrvalosť napriek únave.",
+      "meaning_reversed": "Vyhorenie, defenzívnosť alebo odmietanie podpory.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 31,
+      "arcana": "malá",
+      "number": 10,
+      "suit": "palice",
+      "rank": "desiatka",
+      "image_path": "31.png",
+      "name": "Desiatka palíc",
+      "keywords": [
+        "bremeno",
+        "zodpovednosť",
+        "tlak"
+      ],
+      "meaning_upright": "Ťažká zodpovednosť a nesenie príliš veľkého nákladu.",
+      "meaning_reversed": "Delegovanie, uvoľnenie alebo kolaps pod tlakom.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 32,
+      "arcana": "malá",
+      "number": 11,
+      "suit": "palice",
+      "rank": "páža",
+      "image_path": "32.png",
+      "name": "Páža palíc",
+      "keywords": [
+        "zvedavosť",
+        "prieskum",
+        "správy"
+      ],
+      "meaning_upright": "Zvedavosť, skúmanie a vzrušujúce správy.",
+      "meaning_reversed": "Impulzívnosť, zdržania alebo chýbajúci smer.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 33,
+      "arcana": "malá",
+      "number": 12,
+      "suit": "palice",
+      "rank": "rytier",
+      "image_path": "33.png",
+      "name": "Rytier palíc",
+      "keywords": [
+        "dobrodružstvo",
+        "odvážnosť",
+        "pohyb"
+      ],
+      "meaning_upright": "Odvážne konanie, dobrodružstvo a pohyb vpred.",
+      "meaning_reversed": "Bezhlavosť, netrpezlivosť alebo nestálosť.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 34,
+      "arcana": "malá",
+      "number": 13,
+      "suit": "palice",
+      "rank": "kráľovná",
+      "image_path": "34.png",
+      "name": "Kráľovná palíc",
+      "keywords": [
+        "sebavedomie",
+        "vrelosť",
+        "vodcovstvo"
+      ],
+      "meaning_upright": "Sebavedomie, vrelosť a inšpiratívne vodcovstvo.",
+      "meaning_reversed": "Neistota, žiarlivosť alebo vyžadovanie pozornosti.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 35,
+      "arcana": "malá",
+      "number": 14,
+      "suit": "palice",
+      "rank": "kráľ",
+      "image_path": "35.png",
+      "name": "Kráľ palíc",
+      "keywords": [
+        "vízia",
+        "majstrovstvo",
+        "odvaha"
+      ],
+      "meaning_upright": "Vizionárske vodcovstvo a tvorivé majstrovstvo.",
+      "meaning_reversed": "Impulzívnosť, arogancia alebo dominantná energia.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 36,
+      "arcana": "malá",
+      "number": 1,
+      "suit": "poháre",
+      "rank": "eso",
+      "image_path": "36.png",
+      "name": "Eso pohárov",
+      "keywords": [
+        "láska",
+        "otvorenosť",
+        "obnova"
+      ],
+      "meaning_upright": "Emocionálna obnova, láska a otvorené srdce.",
+      "meaning_reversed": "Zablokované city alebo ťažkosti s prijímaním lásky.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 37,
+      "arcana": "malá",
+      "number": 2,
+      "suit": "poháre",
+      "rank": "dvojka",
+      "image_path": "37.png",
+      "name": "Dvojka pohárov",
+      "keywords": [
+        "spojenie",
+        "partnerstvo",
+        "zväzok"
+      ],
+      "meaning_upright": "Spojenie, partnerstvo a vzájomná výmena.",
+      "meaning_reversed": "Nerovnováha, nedorozumenie alebo napätie v putách.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 38,
+      "arcana": "malá",
+      "number": 3,
+      "suit": "poháre",
+      "rank": "trojka",
+      "image_path": "38.png",
+      "name": "Trojka pohárov",
+      "keywords": [
+        "priateľstvo",
+        "oslava",
+        "podpora"
+      ],
+      "meaning_upright": "Priateľstvo, oslava a zdieľaná podpora.",
+      "meaning_reversed": "Preháňanie to s pôžitkami alebo sociálne drámy.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 39,
+      "arcana": "malá",
+      "number": 4,
+      "suit": "poháre",
+      "rank": "štvorka",
+      "image_path": "39.png",
+      "name": "Štvorka pohárov",
+      "keywords": [
+        "apatia",
+        "reflexia",
+        "prehodnotenie"
+      ],
+      "meaning_upright": "Apatia, reflexia a prehodnocovanie možností.",
+      "meaning_reversed": "Nový záujem, opätovné zapojenie sa alebo čerstvá ponuka.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 40,
+      "arcana": "malá",
+      "number": 5,
+      "suit": "poháre",
+      "rank": "päťka",
+      "image_path": "40.png",
+      "name": "Päťka pohárov",
+      "keywords": [
+        "strata",
+        "žiaľ",
+        "ľútosť"
+      ],
+      "meaning_upright": "Strata, žiaľ a sústredenie sa na to, čo sa nepodarilo.",
+      "meaning_reversed": "Prijatie, liečenie a videnie toho, čo zostalo.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 41,
+      "arcana": "malá",
+      "number": 6,
+      "suit": "poháre",
+      "rank": "šestka",
+      "image_path": "41.png",
+      "name": "Šestka pohárov",
+      "keywords": [
+        "nostalgia",
+        "nevinnosť",
+        "spomienky"
+      ],
+      "meaning_upright": "Nostalgia, láskavosť a jemné spomienky.",
+      "meaning_reversed": "Uviaznutie v minulosti alebo idealizovanie si vecí.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 42,
+      "arcana": "malá",
+      "number": 7,
+      "suit": "poháre",
+      "rank": "sedmička",
+      "image_path": "42.png",
+      "name": "Sedmička pohárov",
+      "keywords": [
+        "voľby",
+        "fantázia",
+        "ilúzia"
+      ],
+      "meaning_upright": "Mnoho možností, fantázie a nejasné priority.",
+      "meaning_reversed": "Jasnosť, rozhodnutie a návrat sústredenia.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 43,
+      "arcana": "malá",
+      "number": 8,
+      "suit": "poháre",
+      "rank": "osmička",
+      "image_path": "43.png",
+      "name": "Osmička pohárov",
+      "keywords": [
+        "odchod",
+        "hľadanie",
+        "prechod"
+      ],
+      "meaning_upright": "Odchod za hľadaním hlbšieho zmyslu.",
+      "meaning_reversed": "Strach zo zmeny alebo návrat po naučení sa lekcie.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 44,
+      "arcana": "malá",
+      "number": 9,
+      "suit": "poháre",
+      "rank": "deviatka",
+      "image_path": "44.png",
+      "name": "Deviatka pohárov",
+      "keywords": [
+        "spokojnosť",
+        "prianie",
+        "naplnenie"
+      ],
+      "meaning_upright": "Spokojnosť, naplnenie a splnené prianie.",
+      "meaning_reversed": "Pôžitkárstvo alebo nespokojnosť pod rúškom komfortu.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 45,
+      "arcana": "malá",
+      "number": 10,
+      "suit": "poháre",
+      "rank": "desiatka",
+      "image_path": "45.png",
+      "name": "Desiatka pohárov",
+      "keywords": [
+        "harmónia",
+        "rodina",
+        "radosť"
+      ],
+      "meaning_upright": "Harmónia, radosť a emocionálne naplnenie.",
+      "meaning_reversed": "Nesúlad v domove alebo nerealistické očakávania.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 46,
+      "arcana": "malá",
+      "number": 11,
+      "suit": "poháre",
+      "rank": "páža",
+      "image_path": "46.png",
+      "name": "Páža pohárov",
+      "keywords": [
+        "správy",
+        "otvorenosť",
+        "prekvapenie"
+      ],
+      "meaning_upright": "Úprimná správa a otvorená emocionálna zvedavosť.",
+      "meaning_reversed": "Emocionálna nezrelosť alebo zmiešané signály.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 47,
+      "arcana": "malá",
+      "number": 12,
+      "suit": "poháre",
+      "rank": "rytier",
+      "image_path": "47.png",
+      "name": "Rytier pohárov",
+      "keywords": [
+        "romantika",
+        "pozvanie",
+        "idealizmus"
+      ],
+      "meaning_upright": "Romantika, pozvania a nasledovanie srdca.",
+      "meaning_reversed": "Náladovosť, sklamanie alebo naháňanie sa za ilúziami.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 48,
+      "arcana": "malá",
+      "number": 13,
+      "suit": "poháre",
+      "rank": "kráľovná",
+      "image_path": "48.png",
+      "name": "Kráľovná pohárov",
+      "keywords": [
+        "empatia",
+        "intuícia",
+        "starostlivosť"
+      ],
+      "meaning_upright": "Empatia, intuícia a emocionálna starostlivosť.",
+      "meaning_reversed": "Zahltenie, spoluzávislosť alebo slabé hranice.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 49,
+      "arcana": "malá",
+      "number": 14,
+      "suit": "poháre",
+      "rank": "kráľ",
+      "image_path": "49.png",
+      "name": "Kráľ pohárov",
+      "keywords": [
+        "pokoj",
+        "súcit",
+        "rovnováha"
+      ],
+      "meaning_upright": "Pokojný súcit a emocionálna rovnováha.",
+      "meaning_reversed": "Emocionálna manipulácia alebo potlačené city.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 50,
+      "arcana": "malá",
+      "number": 1,
+      "suit": "meče",
+      "rank": "eso",
+      "image_path": "50.png",
+      "name": "Eso mečov",
+      "keywords": [
+        "jasnosť",
+        "pravda",
+        "prelom"
+      ],
+      "meaning_upright": "Jasnosť, pravda a mentálny prelom.",
+      "meaning_reversed": "Zmätok, dezinformácie alebo zahmlený úsudok.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 51,
+      "arcana": "malá",
+      "number": 2,
+      "suit": "meče",
+      "rank": "dvojka",
+      "image_path": "51.png",
+      "name": "Dvojka mečov",
+      "keywords": [
+        "pat",
+        "voľba",
+        "vyhýbanie sa"
+      ],
+      "meaning_upright": "Patová situácia, ťažká voľba a ostražitosť.",
+      "meaning_reversed": "Koniec nerozhodnosti, odhalená pravda alebo preťaženie.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 52,
+      "arcana": "malá",
+      "number": 3,
+      "suit": "meče",
+      "rank": "trojka",
+      "image_path": "52.png",
+      "name": "Trojka mečov",
+      "keywords": [
+        "zlomené srdce",
+        "žiaľ",
+        "pravda"
+      ],
+      "meaning_upright": "Zlomené srdce, žiaľ a kruté pravdy.",
+      "meaning_reversed": "Liečenie, odpustenie a posun vpred.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 53,
+      "arcana": "malá",
+      "number": 4,
+      "suit": "meče",
+      "rank": "štvorka",
+      "image_path": "53.png",
+      "name": "Štvorka mečov",
+      "keywords": [
+        "odpočinok",
+        "zotavenie",
+        "pauza"
+      ],
+      "meaning_upright": "Odpočinok, zotavenie a nevyhnutná pauza.",
+      "meaning_reversed": "Nepokoj alebo príliš skorý návrat.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 54,
+      "arcana": "malá",
+      "number": 5,
+      "suit": "meče",
+      "rank": "päťka",
+      "image_path": "54.png",
+      "name": "Päťka mečov",
+      "keywords": [
+        "konflikt",
+        "ego",
+        "víťazstvo za každú cenu"
+      ],
+      "meaning_upright": "Konflikt, ego a víťazstvo za vysokú cenu.",
+      "meaning_reversed": "Uzmierenie alebo odchod od drámy.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 55,
+      "arcana": "malá",
+      "number": 6,
+      "suit": "meče",
+      "rank": "šestka",
+      "image_path": "55.png",
+      "name": "Šestka mečov",
+      "keywords": [
+        "prechod",
+        "liečenie",
+        "posun vpred"
+      ],
+      "meaning_upright": "Prechod, liečenie a smerovanie do pokojnejších vôd.",
+      "meaning_reversed": "Ťažkosti s posunom vpred alebo nesenie si starej záťaže.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 56,
+      "arcana": "malá",
+      "number": 7,
+      "suit": "meče",
+      "rank": "sedmička",
+      "image_path": "56.png",
+      "name": "Sedmička mečov",
+      "keywords": [
+        "stratégia",
+        "tajomstvo",
+        "vyhýbanie sa"
+      ],
+      "meaning_upright": "Stratégia, tajomstvo a nepriame konanie.",
+      "meaning_reversed": "Priznanie, odhalenie alebo zmena taktiky.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 57,
+      "arcana": "malá",
+      "number": 8,
+      "suit": "meče",
+      "rank": "osmička",
+      "image_path": "57.png",
+      "name": "Osmička mečov",
+      "keywords": [
+        "obmedzenie",
+        "strach",
+        "sebaobmedzovanie"
+      ],
+      "meaning_upright": "Pocit obmedzenia strachom alebo sebalimitujúcimi presvedčeniami.",
+      "meaning_reversed": "Uvoľnenie, nová perspektíva a uvoľnenie pút.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 58,
+      "arcana": "malá",
+      "number": 9,
+      "suit": "meče",
+      "rank": "deviatka",
+      "image_path": "58.png",
+      "name": "Deviatka mečov",
+      "keywords": [
+        "úzkosť",
+        "starosti",
+        "nespavosť"
+      ],
+      "meaning_upright": "Úzkosť, starosti a bezprebdené noci.",
+      "meaning_reversed": "Úľava, podpora alebo čelenie strachom.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 59,
+      "arcana": "malá",
+      "number": 10,
+      "suit": "meče",
+      "rank": "desiatka",
+      "image_path": "59.png",
+      "name": "Desiatka mečov",
+      "keywords": [
+        "koniec",
+        "zrada",
+        "prepustenie"
+      ],
+      "meaning_upright": "Koniec, bolestivá pravda a prepustenie starého.",
+      "meaning_reversed": "Zotavenie, odolnosť a opätovné povstanie.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 60,
+      "arcana": "malá",
+      "number": 11,
+      "suit": "meče",
+      "rank": "páža",
+      "image_path": "60.png",
+      "name": "Páža mečov",
+      "keywords": [
+        "zvedavosť",
+        "hľadanie pravdy",
+        "ostražitosť"
+      ],
+      "meaning_upright": "Zvedavosť, hľadanie pravdy a mentálna bdelosť.",
+      "meaning_reversed": "Ohováranie, unáhlenosť alebo skákanie k záverom.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 61,
+      "arcana": "malá",
+      "number": 12,
+      "suit": "meče",
+      "rank": "rytier",
+      "image_path": "61.png",
+      "name": "Rytier mečov",
+      "keywords": [
+        "priamosť",
+        "rýchlosť",
+        "odhodlanie"
+      ],
+      "meaning_upright": "Priame konanie, rýchlosť a rozhodné myslenie.",
+      "meaning_reversed": "Impulzívnosť, drsnosť alebo bezhlavé náhlenie sa.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 62,
+      "arcana": "malá",
+      "number": 13,
+      "suit": "meče",
+      "rank": "kráľovná",
+      "image_path": "62.png",
+      "name": "Kráľovná mečov",
+      "keywords": [
+        "rozlišovanie",
+        "nezávislosť",
+        "jasnosť"
+      ],
+      "meaning_upright": "Rozlišovanie, nezávislosť a jasné hranice.",
+      "meaning_reversed": "Chlad, zatrpknutosť alebo rezavé slová.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 63,
+      "arcana": "malá",
+      "number": 14,
+      "suit": "meče",
+      "rank": "kráľ",
+      "image_path": "63.png",
+      "name": "Kráľ mečov",
+      "keywords": [
+        "logika",
+        "autorita",
+        "pravda"
+      ],
+      "meaning_upright": "Logika, autorita a zásadová pravda.",
+      "meaning_reversed": "Zneužitie moci alebo strnulý, nespravodlivý úsudok.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 64,
+      "arcana": "malá",
+      "number": 1,
+      "suit": "pentakle",
+      "rank": "eso",
+      "image_path": "64.png",
+      "name": "Eso pentaklov",
+      "keywords": [
+        "príležitosť",
+        "rast",
+        "zdroje"
+      ],
+      "meaning_upright": "Hmatateľná príležitosť a semienko prosperity.",
+      "meaning_reversed": "Zmeškaná šanca alebo nestabilné základy.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 65,
+      "arcana": "malá",
+      "number": 2,
+      "suit": "pentakle",
+      "rank": "dvojka",
+      "image_path": "65.png",
+      "name": "Dvojka pentaklov",
+      "keywords": [
+        "rovnováha",
+        "adaptácia",
+        "žonglovanie"
+      ],
+      "meaning_upright": "Vyvažovanie priorít a prispôsobovanie sa zmene.",
+      "meaning_reversed": "Príliš veľa záväzkov alebo strata rovnováhy.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 66,
+      "arcana": "malá",
+      "number": 3,
+      "suit": "pentakle",
+      "rank": "trojka",
+      "image_path": "66.png",
+      "name": "Trojka pentaklov",
+      "keywords": [
+        "tímová práca",
+        "remeslo",
+        "učenie sa"
+      ],
+      "meaning_upright": "Tímová práca, zručnosť a učenie sa praxou.",
+      "meaning_reversed": "Chýbajúca spolupráca alebo odfláknutá práca.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 67,
+      "arcana": "malá",
+      "number": 4,
+      "suit": "pentakle",
+      "rank": "štvorka",
+      "image_path": "67.png",
+      "name": "Štvorka pentaklov",
+      "keywords": [
+        "bezpečnosť",
+        "kontrola",
+        "držanie sa"
+      ],
+      "meaning_upright": "Bezpečnosť, kontrola a pevné držanie sa vecí.",
+      "meaning_reversed": "Pustenie kontroly alebo strach zo straty ovplyvňujúci rozhodnutia.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 68,
+      "arcana": "malá",
+      "number": 5,
+      "suit": "pentakle",
+      "rank": "päťka",
+      "image_path": "68.png",
+      "name": "Päťka pentaklov",
+      "keywords": [
+        "ťažkosti",
+        "nedostatok",
+        "podpora"
+      ],
+      "meaning_upright": "Ťažkosti, nedostatok a hľadanie podpory.",
+      "meaning_reversed": "Zotavenie, pomoc a zlepšujúce sa podmienky.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 69,
+      "arcana": "malá",
+      "number": 6,
+      "suit": "pentakle",
+      "rank": "šestka",
+      "image_path": "69.png",
+      "name": "Šestka pentaklov",
+      "keywords": [
+        "dávanie",
+        "prijímanie",
+        "férovosť"
+      ],
+      "meaning_upright": "Dávanie a prijímanie s férovosťou a starostlivosťou.",
+      "meaning_reversed": "Skryté úmysly alebo nerovnováha vo výmene.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 70,
+      "arcana": "malá",
+      "number": 7,
+      "suit": "pentakle",
+      "rank": "sedmička",
+      "image_path": "70.png",
+      "name": "Sedmička pentaklov",
+      "keywords": [
+        "trpezlivosť",
+        "investícia",
+        "hodnotenie"
+      ],
+      "meaning_upright": "Trpezlivosť, dlhodobá investícia a hodnotenie výsledkov.",
+      "meaning_reversed": "Netrpezlivosť alebo príliš skoré pochybovanie o pokroku.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 71,
+      "arcana": "malá",
+      "number": 8,
+      "suit": "pentakle",
+      "rank": "osmička",
+      "image_path": "71.png",
+      "name": "Osmička pentaklov",
+      "keywords": [
+        "prax",
+        "zručnosť",
+        "oddanosť"
+      ],
+      "meaning_upright": "Prax, oddanosť a zdokonaľovanie remesla.",
+      "meaning_reversed": "Uľahčovanie si práce alebo nuda z rutiny.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 72,
+      "arcana": "malá",
+      "number": 9,
+      "suit": "pentakle",
+      "rank": "deviatka",
+      "image_path": "72.png",
+      "name": "Deviatka pentaklov",
+      "keywords": [
+        "nezávislosť",
+        "komfort",
+        "sebahodnota"
+      ],
+      "meaning_upright": "Nezávislosť, komfort a vedomie vlastnej hodnoty.",
+      "meaning_reversed": "Prílišná závislosť na iných alebo neistota napriek úspechu.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 73,
+      "arcana": "malá",
+      "number": 10,
+      "suit": "pentakle",
+      "rank": "desiatka",
+      "image_path": "73.png",
+      "name": "Desiatka pentaklov",
+      "keywords": [
+        "odkaz",
+        "rodina",
+        "stabilita"
+      ],
+      "meaning_upright": "Odkaz, rodinná stabilita a dlhodobé zabezpečenie.",
+      "meaning_reversed": "Nestabilita v základoch alebo rodinné napätie.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 74,
+      "arcana": "malá",
+      "number": 11,
+      "suit": "pentakle",
+      "rank": "páža",
+      "image_path": "74.png",
+      "name": "Páža pentaklov",
+      "keywords": [
+        "štúdium",
+        "príležitosť",
+        "plánovanie"
+      ],
+      "meaning_upright": "Štúdium, nová príležitosť a uzemnené plánovanie.",
+      "meaning_reversed": "Prokrastinácia alebo chýbajúca vytrvalosť.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 75,
+      "arcana": "malá",
+      "number": 12,
+      "suit": "pentakle",
+      "rank": "rytier",
+      "image_path": "75.png",
+      "name": "Rytier pentaklov",
+      "keywords": [
+        "stálosť",
+        "rutina",
+        "spoľahlivosť"
+      ],
+      "meaning_upright": "Stabilný pokrok a spoľahlivé úsilie.",
+      "meaning_reversed": "Stagnácia alebo tvrdohlavé lipnutie na rutine.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 76,
+      "arcana": "malá",
+      "number": 13,
+      "suit": "pentakle",
+      "rank": "kráľovná",
+      "image_path": "76.png",
+      "name": "Kráľovná pentaklov",
+      "keywords": [
+        "starostlivosť",
+        "praktickosť",
+        "domov"
+      ],
+      "meaning_upright": "Praktická starostlivosť, pohodlie a uzemnená podpora.",
+      "meaning_reversed": "Nerovnováha medzi prácou a domovom alebo zanedbávanie seba.",
+      "archetype": null,
+      "description": null
+    },
+    {
+      "id": 77,
+      "arcana": "malá",
+      "number": 14,
+      "suit": "pentakle",
+      "rank": "kráľ",
+      "image_path": "77.png",
+      "name": "Kráľ pentaklov",
+      "keywords": [
+        "hojnosť",
+        "stabilita",
+        "živiteľ"
+      ],
+      "meaning_upright": "Hojnosť, stabilita a zodpovedné zabezpečenie.",
+      "meaning_reversed": "Materializmus alebo využívanie zdrojov na kontrolu iných.",
+      "archetype": null,
+      "description": null
+    }
+  ]
+}
