@@ -463,12 +463,13 @@ body, html {
 .final-reading .md-strong {
     font-family: var(--font-heading);
     color: var(--card-gold);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: 600;
 }
 .final-reading .md-h3 {
     margin: 0.25rem 0 0.65rem;
     font-size: var(--text-section-title);
+    /*text-transform: uppercase;*/
 }
 
 .new-reading-btn {

@@ -137,14 +137,19 @@ function renderMarkdownSafe(md) {
     out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
     out = out.replace(/\*\*([^*]+)\*\*/g, '<strong class="md-strong">$1</strong>');
     out = out.replace(/\*([^*]+)\*/g, '<em>$1</em>');
-    const blocks = out
+
+    // Convert "### Heading" lines to standalone H3 blocks.
+    // Extra blank lines ensure headings never end up inside <p>.
+    // Accept both "###Heading" and "### Heading" (and ignore leading whitespace).
+    // Only treat exactly 3 hashes as a heading (not ####).
+    out = out.replace(/^\s*###(?!#)\s*(.+?)\s*$/gm, '\n\n<h3 class="md-h3">$1</h3>\n\n');
+
+    return out
         .split(/\n{2,}/g)
         .map((b) => b.trim())
-        .filter(Boolean);
-    return blocks
+        .filter(Boolean)
         .map((b) => {
-            const m = b.match(/^###\s*(.+)$/);
-            if (m) return `<h3 class="md-h3">${m[1]}</h3>`;
+            if (b.startsWith('<h3 class="md-h3">')) return b;
             return `<p>${b.replaceAll('\n', '<br>')}</p>`;
         })
         .join('');
@@ -284,12 +289,7 @@ async function sendReadingRequest() {
         }
 
         setLoadingActive(false);
-        const text =
-            (data && typeof data.llm_response === 'string' && data.llm_response.trim())
-                ? data.llm_response.trim()
-                : (data && typeof data.reading === 'string' && data.reading.trim())
-                    ? data.reading.trim()
-                    : '';
+        const text = data && typeof data.reading === 'string' ? data.reading.trim() : '';
         if (UI.reading) {
             UI.reading.innerHTML = renderMarkdownSafe(text);
             UI.reading.classList.add('visible');

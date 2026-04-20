@@ -600,7 +600,6 @@ def create_tarot_app() -> Flask:
                     "present_rev": present_rev,
                     "future_rev": future_rev,
                     "reading": reading_text,
-                    "llm_response": reading_text,
                 },
                 ensure_ascii=False,
             ),
