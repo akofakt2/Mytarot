@@ -246,6 +246,8 @@ def _build_slug_index(cards: list[Card]) -> dict[str, Card]:
 
 def create_tarot_app() -> Flask:
     if load_dotenv is not None:
+        # Note: dotenv does NOT override already-exported env vars by default.
+        # This is intentional: production environments (systemd/docker) can set TAROT_LOCALE etc.
         load_dotenv()
 
     locale_routes = _load_locale_routes()
@@ -255,6 +257,10 @@ def create_tarot_app() -> Flask:
     supported_prompt_locales = frozenset(locale_prompts.keys())
     supported_ui_locales = frozenset(ui_strings.keys())
 
+    # Single-locale instance:
+    # - we select ONE locale at startup (TAROT_LOCALE)
+    # - all human-facing URL segments come from data/i18n/routes.json for that locale
+    #   e.g. locale=en -> "/cards", locale=sk -> "/karty"
     locale = (os.getenv("TAROT_LOCALE") or "sk").strip().lower()
     if locale not in supported_locales:
         raise ValueError(
@@ -272,6 +278,8 @@ def create_tarot_app() -> Flask:
             f"Dostupné: {sorted(supported_ui_locales)}"
         )
 
+    # "Card of the day" explanations are treated as required content: we fail fast on startup
+    # if any card/topic is missing so incomplete translations can't accidentally deploy.
     card_of_day_expl = _load_card_of_day_explanations(locale)
 
     try:
@@ -290,14 +298,20 @@ def create_tarot_app() -> Flask:
     card_images_dir = f"{img_base}/{card_set}"
 
     # Prefix pre všetky cesty (napr. ak je appka nasadená pod /tarot).
-    # Odvodené z "script path" (env), bez trailing slash.
+    # Keep it normalized to avoid double slashes and to make url rules deterministic.
     script_path = (os.getenv("TAROT_SCRIPT_PATH") or "").strip()
     if script_path and not script_path.startswith("/"):
         script_path = f"/{script_path}"
     script_path = script_path.rstrip("/")
 
     def _p(suffix: str) -> str:
-        """Zloží cestu: <script_path> + /<suffix> (bez dvojitých lomiek)."""
+        """
+        Build a URL path with an optional deployment prefix.
+
+        `TAROT_SCRIPT_PATH` lets you mount the whole app under a subpath behind a reverse proxy
+        (e.g. https://example.com/tarot/). All rules are registered with this prefix so both
+        URL generation (url_for) and request matching stay consistent.
+        """
         if not suffix:
             suffix = "/"
         if not suffix.startswith("/"):
@@ -306,6 +320,10 @@ def create_tarot_app() -> Flask:
             return f"{script_path}/" if script_path else "/"
         return f"{script_path}{suffix}" if script_path else suffix
 
+    # Localized route segments for this locale.
+    # Example:
+    #   routes["cards_list"] == "cards" (en) or "karty" (sk)
+    # These are segments (no leading/trailing slash) and are later combined with script_path via _p().
     routes = locale_routes[locale]
     ui = ui_strings[locale]
     required_ui_keys = (
@@ -334,7 +352,9 @@ def create_tarot_app() -> Flask:
             "Add them to data/i18n/ui.json."
         )
 
-    # Optional API protection for LLM endpoint (meant for simple UI deployments, not multi-tenant auth).
+    # Optional API protection for the LLM endpoint.
+    # This is a "soft gate": the token is visible to the browser client (it is injected into HTML),
+    # so it is NOT a secret and does not stop a determined attacker. It mainly blocks opportunistic scans.
     api_token = (os.getenv("TAROT_API_TOKEN") or "").strip()
     ctx: dict[str, Any] = {
         "locale": locale,
@@ -345,7 +365,8 @@ def create_tarot_app() -> Flask:
         "tarot_api_token": api_token,
     }
     reading_prompt_template = locale_prompts[locale]["reading_prompt"]
-    # Jednotné definície ciest (vždy cez script_path prefix).
+    # Register paths once (always through _p() so script_path is applied everywhere).
+    # Note: because this app is single-locale, these paths are locale-specific too.
     index_path = _p("/")  # home page
     api_draw_path = _p("api/draw")  # JSON: 3 náhodné karty pre úvodnú stránku
     api_reading_path = _p("api/reading")  # JSON: question + 3 cards (past/present/future)
@@ -372,12 +393,14 @@ def create_tarot_app() -> Flask:
     if rate_limit_per_minute < 0:
         raise ValueError("TAROT_RATE_LIMIT_PER_MINUTE must be >= 0")
 
-    # In-memory per-IP rate limit. Good enough for single-process deployments.
-    # If you run multiple gunicorn workers, each worker enforces its own limit.
+    # In-memory per-IP rate limit.
+    # Trade-off: simple and dependency-free, but in multi-process setups (gunicorn workers)
+    # each worker keeps its own counters, effectively multiplying the limit.
     _ip_calls: dict[str, deque[float]] = defaultdict(deque)
 
     def _client_ip() -> str:
         # Prefer reverse-proxy header if present; fall back to remote_addr.
+        # Security note: only trust X-Forwarded-For if you control the proxy in front of the app.
         fwd = request.headers.get("X-Forwarded-For", "")
         if fwd:
             return fwd.split(",")[0].strip()
@@ -420,6 +443,7 @@ def create_tarot_app() -> Flask:
 
     @app.get(index_path)
     def index() -> str:
+        """Home page (HTML). Card draw + reading happen via JS calling /api/*."""
         return render_template(
             "index.html",
             back_image_url=url_for("static", filename=f"{card_images_dir}/back.png"),
@@ -587,14 +611,17 @@ def create_tarot_app() -> Flask:
 
     @app.get(about_app_path)
     def about_app() -> str:
+        """Static info page (HTML)."""
         return render_template("pages/about_app.html", **ctx)
 
     @app.get(about_tarot_path)
     def about_tarot() -> str:
+        """Static info page (HTML)."""
         return render_template("pages/about_tarot.html", **ctx)
 
     @app.get(cards_list_path)
     def cards_index() -> str:
+        """Catalog page listing all 78 cards (HTML)."""
         return render_template(
             "cards_index.html",
             card_index_rows=_card_index_rows(cards),
@@ -603,6 +630,13 @@ def create_tarot_app() -> Flask:
 
     @app.get(card_of_day_path)
     def card_of_day() -> str:
+        """
+        Card of the day (HTML).
+
+        The selected card is deterministic for a given calendar day, so reloading the page
+        shows the same result (useful UX and easy caching). The explanation text is also
+        deterministic per day+card+topic to avoid flicker.
+        """
         # Deterministic "card of the day": same card for the same calendar day.
         today = date.today().isoformat()
         digest = hashlib.sha256(today.encode("utf-8")).digest()
@@ -644,6 +678,7 @@ def create_tarot_app() -> Flask:
 
     @app.get(card_detail_rule)
     def card_page(slug: str) -> str:
+        """Card detail page (HTML) by slug; includes prev/next navigation and full list nav."""
         card = slug_to_card.get(slug)
         if card is None:
             abort(404)
