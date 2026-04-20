@@ -2,12 +2,14 @@
   "en": {
     "cards_list": "cards",
     "card": "card",
+    "card_of_day": "card-of-day",
     "about_app": "about",
     "about_tarot": "about-tarot"
   },
   "sk": {
     "cards_list": "karty",
     "card": "karta",
+    "card_of_day": "karta-dna",
     "about_app": "o-aplikacii",
     "about_tarot": "o-tarote"
   }

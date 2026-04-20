@@ -1,5 +1,18 @@
 {
   "en": {
+    "page_title_home": "Tarot Mentor – Ritual reading with sound",
+    "page_title_cards_index": "All cards – Tarot Mentor",
+    "cards_index_heading": "All cards (78)",
+    "card_section_keywords": "Keywords",
+    "card_section_upright": "Upright meaning",
+    "card_section_reversed": "Reversed",
+    "card_section_description": "Description",
+    "card_pager_aria": "Previous and next card",
+    "all_cards_aria": "All cards",
+    "all_cards_heading": "All cards",
+    "card_of_day_explanation_title": "Card of the day – meaning",
+    "card_of_day_reveal_label": "Reveal today's meaning",
+    "card_of_day_today_label": "Card of the day for",
     "question_placeholder": "What do you ask of fate?",
     "deck_label_shuffle": "Shuffle the cards",
     "deck_label_need_question": "Write your question first ↑",
@@ -10,20 +23,41 @@
     "loading": "The universe is weaving your answer...",
     "error_llm_unavailable": "Could not reach the fortune teller (LLM). Please try again in a moment.",
     "error_reading_failed": "Something went wrong while creating your reading. Please try again.",
-    "log_draw_failed": "Failed to load new cards:"
+    "log_draw_failed": "Failed to load new cards:",
+    "reading_label_past": "Past",
+    "reading_label_present": "Present",
+    "reading_label_future": "Future",
+    "nav_card_of_day": "Card of the day"
   },
   "sk": {
+    "page_title_home": "Tarot Mentor – Rituálna veštiareň so zvukom",
+    "page_title_cards_index": "Všetky karty – Tarot Mentor",
+    "cards_index_heading": "Všetky karty (78)",
+    "card_section_keywords": "Kľúčové slová",
+    "card_section_upright": "Priamy význam",
+    "card_section_reversed": "Obrátený",
+    "card_section_description": "Popis",
+    "card_pager_aria": "Predchádzajúca a nasledujúca karta",
+    "all_cards_aria": "Všetky karty",
+    "all_cards_heading": "Všetky karty",
+    "card_of_day_explanation_title": "Karta dňa – význam",
+    "card_of_day_reveal_label": "Odhaľ význam pre dnešok",
+    "card_of_day_today_label": "Karta dňa na",
     "question_placeholder": "Na čo sa pýtaš osudu?",
     "deck_label_shuffle": "Zamiešať karty",
     "deck_label_need_question": "Najprv napíš otázku ↑",
     "deck_label_focus": "Sústreď sa na svoju otázku...",
     "deck_label_deal": "Rozdať karty",
-    "deck_label_flip": "Otoč kartu",
+    "deck_label_flip": "Otoč karty",
     "new_reading": "Nová veštba",
     "loading": "Vesmír splieta tvoju odpoveď...",
     "error_llm_unavailable": "Nepodarilo sa spojiť s veštiareňou (LLM). Skús to prosím znova o chvíľu.",
     "error_reading_failed": "Nastala chyba pri spracovaní veštenia. Skús to prosím znova.",
-    "log_draw_failed": "Nepodarilo sa načítať nové karty:"
+    "log_draw_failed": "Nepodarilo sa načítať nové karty:",
+    "reading_label_past": "Minulosť",
+    "reading_label_present": "Prítomnosť",
+    "reading_label_future": "Budúcnosť",
+    "nav_card_of_day": "Karta dňa"
   }
 }
 

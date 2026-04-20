@@ -1,0 +1,473 @@
+{
+  "topics": ["general", "money", "relationships", "plans"],
+  "cards": {
+    "0": {
+      "general": ["TODO: Všeobecný význam pre kartu 0 (Blázon)."],
+      "money": ["TODO: Peniaze význam pre kartu 0 (Blázon)."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 0 (Blázon)."],
+      "plans": ["TODO: Plány význam pre kartu 0 (Blázon)."]
+    },
+    "1": {
+      "general": ["TODO: Všeobecný význam pre kartu 1."],
+      "money": ["TODO: Peniaze význam pre kartu 1."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 1."],
+      "plans": ["TODO: Plány význam pre kartu 1."]
+    },
+    "2": {
+      "general": ["TODO: Všeobecný význam pre kartu 2."],
+      "money": ["TODO: Peniaze význam pre kartu 2."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 2."],
+      "plans": ["TODO: Plány význam pre kartu 2."]
+    },
+    "3": {
+      "general": ["TODO: Všeobecný význam pre kartu 3."],
+      "money": ["TODO: Peniaze význam pre kartu 3."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 3."],
+      "plans": ["TODO: Plány význam pre kartu 3."]
+    },
+    "4": {
+      "general": ["TODO: Všeobecný význam pre kartu 4."],
+      "money": ["TODO: Peniaze význam pre kartu 4."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 4."],
+      "plans": ["TODO: Plány význam pre kartu 4."]
+    },
+    "5": {
+      "general": ["TODO: Všeobecný význam pre kartu 5."],
+      "money": ["TODO: Peniaze význam pre kartu 5."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 5."],
+      "plans": ["TODO: Plány význam pre kartu 5."]
+    },
+    "6": {
+      "general": ["TODO: Všeobecný význam pre kartu 6."],
+      "money": ["TODO: Peniaze význam pre kartu 6."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 6."],
+      "plans": ["TODO: Plány význam pre kartu 6."]
+    },
+    "7": {
+      "general": ["TODO: Všeobecný význam pre kartu 7."],
+      "money": ["TODO: Peniaze význam pre kartu 7."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 7."],
+      "plans": ["TODO: Plány význam pre kartu 7."]
+    },
+    "8": {
+      "general": ["TODO: Všeobecný význam pre kartu 8."],
+      "money": ["TODO: Peniaze význam pre kartu 8."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 8."],
+      "plans": ["TODO: Plány význam pre kartu 8."]
+    },
+    "9": {
+      "general": ["TODO: Všeobecný význam pre kartu 9."],
+      "money": ["TODO: Peniaze význam pre kartu 9."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 9."],
+      "plans": ["TODO: Plány význam pre kartu 9."]
+    },
+    "10": {
+      "general": ["TODO: Všeobecný význam pre kartu 10."],
+      "money": ["TODO: Peniaze význam pre kartu 10."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 10."],
+      "plans": ["TODO: Plány význam pre kartu 10."]
+    },
+    "11": {
+      "general": ["TODO: Všeobecný význam pre kartu 11."],
+      "money": ["TODO: Peniaze význam pre kartu 11."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 11."],
+      "plans": ["TODO: Plány význam pre kartu 11."]
+    },
+    "12": {
+      "general": ["TODO: Všeobecný význam pre kartu 12."],
+      "money": ["TODO: Peniaze význam pre kartu 12."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 12."],
+      "plans": ["TODO: Plány význam pre kartu 12."]
+    },
+    "13": {
+      "general": ["TODO: Všeobecný význam pre kartu 13."],
+      "money": ["TODO: Peniaze význam pre kartu 13."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 13."],
+      "plans": ["TODO: Plány význam pre kartu 13."]
+    },
+    "14": {
+      "general": ["TODO: Všeobecný význam pre kartu 14."],
+      "money": ["TODO: Peniaze význam pre kartu 14."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 14."],
+      "plans": ["TODO: Plány význam pre kartu 14."]
+    },
+    "15": {
+      "general": ["TODO: Všeobecný význam pre kartu 15."],
+      "money": ["TODO: Peniaze význam pre kartu 15."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 15."],
+      "plans": ["TODO: Plány význam pre kartu 15."]
+    },
+    "16": {
+      "general": ["TODO: Všeobecný význam pre kartu 16."],
+      "money": ["TODO: Peniaze význam pre kartu 16."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 16."],
+      "plans": ["TODO: Plány význam pre kartu 16."]
+    },
+    "17": {
+      "general": ["TODO: Všeobecný význam pre kartu 17."],
+      "money": ["TODO: Peniaze význam pre kartu 17."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 17."],
+      "plans": ["TODO: Plány význam pre kartu 17."]
+    },
+    "18": {
+      "general": ["TODO: Všeobecný význam pre kartu 18."],
+      "money": ["TODO: Peniaze význam pre kartu 18."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 18."],
+      "plans": ["TODO: Plány význam pre kartu 18."]
+    },
+    "19": {
+      "general": ["TODO: Všeobecný význam pre kartu 19."],
+      "money": ["TODO: Peniaze význam pre kartu 19."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 19."],
+      "plans": ["TODO: Plány význam pre kartu 19."]
+    },
+    "20": {
+      "general": ["TODO: Všeobecný význam pre kartu 20."],
+      "money": ["TODO: Peniaze význam pre kartu 20."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 20."],
+      "plans": ["TODO: Plány význam pre kartu 20."]
+    },
+    "21": {
+      "general": ["TODO: Všeobecný význam pre kartu 21."],
+      "money": ["TODO: Peniaze význam pre kartu 21."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 21."],
+      "plans": ["TODO: Plány význam pre kartu 21."]
+    },
+    "22": {
+      "general": ["TODO: Všeobecný význam pre kartu 22."],
+      "money": ["TODO: Peniaze význam pre kartu 22."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 22."],
+      "plans": ["TODO: Plány význam pre kartu 22."]
+    },
+    "23": {
+      "general": ["TODO: Všeobecný význam pre kartu 23."],
+      "money": ["TODO: Peniaze význam pre kartu 23."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 23."],
+      "plans": ["TODO: Plány význam pre kartu 23."]
+    },
+    "24": {
+      "general": ["TODO: Všeobecný význam pre kartu 24."],
+      "money": ["TODO: Peniaze význam pre kartu 24."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 24."],
+      "plans": ["TODO: Plány význam pre kartu 24."]
+    },
+    "25": {
+      "general": ["TODO: Všeobecný význam pre kartu 25."],
+      "money": ["TODO: Peniaze význam pre kartu 25."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 25."],
+      "plans": ["TODO: Plány význam pre kartu 25."]
+    },
+    "26": {
+      "general": ["TODO: Všeobecný význam pre kartu 26."],
+      "money": ["TODO: Peniaze význam pre kartu 26."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 26."],
+      "plans": ["TODO: Plány význam pre kartu 26."]
+    },
+    "27": {
+      "general": ["TODO: Všeobecný význam pre kartu 27."],
+      "money": ["TODO: Peniaze význam pre kartu 27."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 27."],
+      "plans": ["TODO: Plány význam pre kartu 27."]
+    },
+    "28": {
+      "general": ["TODO: Všeobecný význam pre kartu 28."],
+      "money": ["TODO: Peniaze význam pre kartu 28."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 28."],
+      "plans": ["TODO: Plány význam pre kartu 28."]
+    },
+    "29": {
+      "general": ["TODO: Všeobecný význam pre kartu 29."],
+      "money": ["TODO: Peniaze význam pre kartu 29."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 29."],
+      "plans": ["TODO: Plány význam pre kartu 29."]
+    },
+    "30": {
+      "general": ["TODO: Všeobecný význam pre kartu 30."],
+      "money": ["TODO: Peniaze význam pre kartu 30."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 30."],
+      "plans": ["TODO: Plány význam pre kartu 30."]
+    },
+    "31": {
+      "general": ["TODO: Všeobecný význam pre kartu 31."],
+      "money": ["TODO: Peniaze význam pre kartu 31."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 31."],
+      "plans": ["TODO: Plány význam pre kartu 31."]
+    },
+    "32": {
+      "general": ["TODO: Všeobecný význam pre kartu 32."],
+      "money": ["TODO: Peniaze význam pre kartu 32."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 32."],
+      "plans": ["TODO: Plány význam pre kartu 32."]
+    },
+    "33": {
+      "general": ["TODO: Všeobecný význam pre kartu 33."],
+      "money": ["TODO: Peniaze význam pre kartu 33."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 33."],
+      "plans": ["TODO: Plány význam pre kartu 33."]
+    },
+    "34": {
+      "general": ["TODO: Všeobecný význam pre kartu 34."],
+      "money": ["TODO: Peniaze význam pre kartu 34."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 34."],
+      "plans": ["TODO: Plány význam pre kartu 34."]
+    },
+    "35": {
+      "general": ["TODO: Všeobecný význam pre kartu 35."],
+      "money": ["TODO: Peniaze význam pre kartu 35."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 35."],
+      "plans": ["TODO: Plány význam pre kartu 35."]
+    },
+    "36": {
+      "general": ["TODO: Všeobecný význam pre kartu 36."],
+      "money": ["TODO: Peniaze význam pre kartu 36."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 36."],
+      "plans": ["TODO: Plány význam pre kartu 36."]
+    },
+    "37": {
+      "general": ["TODO: Všeobecný význam pre kartu 37."],
+      "money": ["TODO: Peniaze význam pre kartu 37."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 37."],
+      "plans": ["TODO: Plány význam pre kartu 37."]
+    },
+    "38": {
+      "general": ["TODO: Všeobecný význam pre kartu 38."],
+      "money": ["TODO: Peniaze význam pre kartu 38."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 38."],
+      "plans": ["TODO: Plány význam pre kartu 38."]
+    },
+    "39": {
+      "general": ["TODO: Všeobecný význam pre kartu 39."],
+      "money": ["TODO: Peniaze význam pre kartu 39."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 39."],
+      "plans": ["TODO: Plány význam pre kartu 39."]
+    },
+    "40": {
+      "general": ["TODO: Všeobecný význam pre kartu 40."],
+      "money": ["TODO: Peniaze význam pre kartu 40."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 40."],
+      "plans": ["TODO: Plány význam pre kartu 40."]
+    },
+    "41": {
+      "general": ["TODO: Všeobecný význam pre kartu 41."],
+      "money": ["TODO: Peniaze význam pre kartu 41."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 41."],
+      "plans": ["TODO: Plány význam pre kartu 41."]
+    },
+    "42": {
+      "general": ["TODO: Všeobecný význam pre kartu 42."],
+      "money": ["TODO: Peniaze význam pre kartu 42."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 42."],
+      "plans": ["TODO: Plány význam pre kartu 42."]
+    },
+    "43": {
+      "general": ["TODO: Všeobecný význam pre kartu 43."],
+      "money": ["TODO: Peniaze význam pre kartu 43."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 43."],
+      "plans": ["TODO: Plány význam pre kartu 43."]
+    },
+    "44": {
+      "general": ["TODO: Všeobecný význam pre kartu 44."],
+      "money": ["TODO: Peniaze význam pre kartu 44."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 44."],
+      "plans": ["TODO: Plány význam pre kartu 44."]
+    },
+    "45": {
+      "general": ["TODO: Všeobecný význam pre kartu 45."],
+      "money": ["TODO: Peniaze význam pre kartu 45."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 45."],
+      "plans": ["TODO: Plány význam pre kartu 45."]
+    },
+    "46": {
+      "general": ["TODO: Všeobecný význam pre kartu 46."],
+      "money": ["TODO: Peniaze význam pre kartu 46."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 46."],
+      "plans": ["TODO: Plány význam pre kartu 46."]
+    },
+    "47": {
+      "general": ["TODO: Všeobecný význam pre kartu 47."],
+      "money": ["TODO: Peniaze význam pre kartu 47."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 47."],
+      "plans": ["TODO: Plány význam pre kartu 47."]
+    },
+    "48": {
+      "general": ["TODO: Všeobecný význam pre kartu 48."],
+      "money": ["TODO: Peniaze význam pre kartu 48."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 48."],
+      "plans": ["TODO: Plány význam pre kartu 48."]
+    },
+    "49": {
+      "general": ["TODO: Všeobecný význam pre kartu 49."],
+      "money": ["TODO: Peniaze význam pre kartu 49."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 49."],
+      "plans": ["TODO: Plány význam pre kartu 49."]
+    },
+    "50": {
+      "general": ["TODO: Všeobecný význam pre kartu 50."],
+      "money": ["TODO: Peniaze význam pre kartu 50."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 50."],
+      "plans": ["TODO: Plány význam pre kartu 50."]
+    },
+    "51": {
+      "general": ["TODO: Všeobecný význam pre kartu 51."],
+      "money": ["TODO: Peniaze význam pre kartu 51."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 51."],
+      "plans": ["TODO: Plány význam pre kartu 51."]
+    },
+    "52": {
+      "general": ["TODO: Všeobecný význam pre kartu 52."],
+      "money": ["TODO: Peniaze význam pre kartu 52."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 52."],
+      "plans": ["TODO: Plány význam pre kartu 52."]
+    },
+    "53": {
+      "general": ["TODO: Všeobecný význam pre kartu 53."],
+      "money": ["TODO: Peniaze význam pre kartu 53."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 53."],
+      "plans": ["TODO: Plány význam pre kartu 53."]
+    },
+    "54": {
+      "general": ["TODO: Všeobecný význam pre kartu 54."],
+      "money": ["TODO: Peniaze význam pre kartu 54."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 54."],
+      "plans": ["TODO: Plány význam pre kartu 54."]
+    },
+    "55": {
+      "general": ["TODO: Všeobecný význam pre kartu 55."],
+      "money": ["TODO: Peniaze význam pre kartu 55."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 55."],
+      "plans": ["TODO: Plány význam pre kartu 55."]
+    },
+    "56": {
+      "general": ["TODO: Všeobecný význam pre kartu 56."],
+      "money": ["TODO: Peniaze význam pre kartu 56."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 56."],
+      "plans": ["TODO: Plány význam pre kartu 56."]
+    },
+    "57": {
+      "general": ["TODO: Všeobecný význam pre kartu 57."],
+      "money": ["TODO: Peniaze význam pre kartu 57."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 57."],
+      "plans": ["TODO: Plány význam pre kartu 57."]
+    },
+    "58": {
+      "general": ["TODO: Všeobecný význam pre kartu 58."],
+      "money": ["TODO: Peniaze význam pre kartu 58."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 58."],
+      "plans": ["TODO: Plány význam pre kartu 58."]
+    },
+    "59": {
+      "general": ["TODO: Všeobecný význam pre kartu 59."],
+      "money": ["TODO: Peniaze význam pre kartu 59."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 59."],
+      "plans": ["TODO: Plány význam pre kartu 59."]
+    },
+    "60": {
+      "general": ["TODO: Všeobecný význam pre kartu 60."],
+      "money": ["TODO: Peniaze význam pre kartu 60."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 60."],
+      "plans": ["TODO: Plány význam pre kartu 60."]
+    },
+    "61": {
+      "general": ["TODO: Všeobecný význam pre kartu 61."],
+      "money": ["TODO: Peniaze význam pre kartu 61."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 61."],
+      "plans": ["TODO: Plány význam pre kartu 61."]
+    },
+    "62": {
+      "general": ["TODO: Všeobecný význam pre kartu 62."],
+      "money": ["TODO: Peniaze význam pre kartu 62."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 62."],
+      "plans": ["TODO: Plány význam pre kartu 62."]
+    },
+    "63": {
+      "general": ["TODO: Všeobecný význam pre kartu 63."],
+      "money": ["TODO: Peniaze význam pre kartu 63."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 63."],
+      "plans": ["TODO: Plány význam pre kartu 63."]
+    },
+    "64": {
+      "general": ["TODO: Všeobecný význam pre kartu 64."],
+      "money": ["TODO: Peniaze význam pre kartu 64."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 64."],
+      "plans": ["TODO: Plány význam pre kartu 64."]
+    },
+    "65": {
+      "general": ["TODO: Všeobecný význam pre kartu 65."],
+      "money": ["TODO: Peniaze význam pre kartu 65."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 65."],
+      "plans": ["TODO: Plány význam pre kartu 65."]
+    },
+    "66": {
+      "general": ["TODO: Všeobecný význam pre kartu 66."],
+      "money": ["TODO: Peniaze význam pre kartu 66."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 66."],
+      "plans": ["TODO: Plány význam pre kartu 66."]
+    },
+    "67": {
+      "general": ["TODO: Všeobecný význam pre kartu 67."],
+      "money": ["TODO: Peniaze význam pre kartu 67."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 67."],
+      "plans": ["TODO: Plány význam pre kartu 67."]
+    },
+    "68": {
+      "general": ["TODO: Všeobecný význam pre kartu 68."],
+      "money": ["TODO: Peniaze význam pre kartu 68."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 68."],
+      "plans": ["TODO: Plány význam pre kartu 68."]
+    },
+    "69": {
+      "general": ["TODO: Všeobecný význam pre kartu 69."],
+      "money": ["TODO: Peniaze význam pre kartu 69."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 69."],
+      "plans": ["TODO: Plány význam pre kartu 69."]
+    },
+    "70": {
+      "general": ["TODO: Všeobecný význam pre kartu 70."],
+      "money": ["TODO: Peniaze význam pre kartu 70."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 70."],
+      "plans": ["TODO: Plány význam pre kartu 70."]
+    },
+    "71": {
+      "general": ["TODO: Všeobecný význam pre kartu 71."],
+      "money": ["TODO: Peniaze význam pre kartu 71."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 71."],
+      "plans": ["TODO: Plány význam pre kartu 71."]
+    },
+    "72": {
+      "general": ["TODO: Všeobecný význam pre kartu 72."],
+      "money": ["TODO: Peniaze význam pre kartu 72."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 72."],
+      "plans": ["TODO: Plány význam pre kartu 72."]
+    },
+    "73": {
+      "general": ["TODO: Všeobecný význam pre kartu 73."],
+      "money": ["TODO: Peniaze význam pre kartu 73."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 73."],
+      "plans": ["TODO: Plány význam pre kartu 73."]
+    },
+    "74": {
+      "general": ["TODO: Všeobecný význam pre kartu 74."],
+      "money": ["TODO: Peniaze význam pre kartu 74."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 74."],
+      "plans": ["TODO: Plány význam pre kartu 74."]
+    },
+    "75": {
+      "general": ["TODO: Všeobecný význam pre kartu 75."],
+      "money": ["TODO: Peniaze význam pre kartu 75."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 75."],
+      "plans": ["TODO: Plány význam pre kartu 75."]
+    },
+    "76": {
+      "general": ["TODO: Všeobecný význam pre kartu 76."],
+      "money": ["TODO: Peniaze význam pre kartu 76."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 76."],
+      "plans": ["TODO: Plány význam pre kartu 76."]
+    },
+    "77": {
+      "general": ["TODO: Všeobecný význam pre kartu 77."],
+      "money": ["TODO: Peniaze význam pre kartu 77."],
+      "relationships": ["TODO: Vzťahy význam pre kartu 77."],
+      "plans": ["TODO: Plány význam pre kartu 77."]
+    }
+  }
+}

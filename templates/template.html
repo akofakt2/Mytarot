@@ -16,6 +16,9 @@
             <header class="card-detail-header">
                 <p class="card-id">#{{ card.id }}</p>
                 <h1 class="card-detail-title">{{ card.name }}</h1>
+                {% if is_card_of_day %}
+                <p class="card-archetype" id="card-of-day-today"></p>
+                {% endif %}
                 {% if card.archetype %}
                 <p class="card-archetype">{{ card.archetype }}</p>
                 {% endif %}
@@ -32,30 +35,41 @@
 
             {% if card.keywords %}
             <section class="card-section">
-                <h2>Kľúčové slová</h2>
+                <h2>{{ ui.card_section_keywords }}</h2>
                 <p class="keywords">{{ card.keywords|join(', ') }}</p>
             </section>
             {% endif %}
 
             <section class="card-section">
-                <h2>Priamy význam</h2>
+                <h2>{{ ui.card_section_upright }}</h2>
                 <p>{{ card.meaning_upright }}</p>
             </section>
 
             <section class="card-section">
-                <h2>Obrátený</h2>
+                <h2>{{ ui.card_section_reversed }}</h2>
                 <p>{{ card.meaning_reversed }}</p>
             </section>
 
             {% if card.description %}
             <section class="card-section">
-                <h2>Popis</h2>
+                <h2>{{ ui.card_section_description }}</h2>
                 <p>{{ card.description }}</p>
+            </section>
+            {% endif %}
+
+            {% if card_of_day_explanation %}
+            <section class="card-section">
+                <h2>{{ ui.card_of_day_explanation_title }}</h2>
+                <details class="card-of-day-details">
+                    <summary>{{ ui.card_of_day_reveal_label }}</summary>
+                    <p>{{ card_of_day_explanation }}</p>
+                </details>
             </section>
             {% endif %}
         </article>
 
-        <nav class="card-pager" aria-label="Predchádzajúca a nasledujúca karta">
+        {% if not is_card_of_day %}
+        <nav class="card-pager" aria-label="{{ ui.card_pager_aria }}">
             {% if prev_card and prev_slug %}
             <a class="pager-link" href="{{ url_for('card_page', slug=prev_slug) }}">← {{ prev_card.name }}</a>
             {% else %}
@@ -68,8 +82,8 @@
             {% endif %}
         </nav>
 
-        <section class="all-cards-nav" aria-label="Všetky karty">
-            <h2 class="all-cards-heading">Všetky karty</h2>
+        <section class="all-cards-nav" aria-label="{{ ui.all_cards_aria }}">
+            <h2 class="all-cards-heading">{{ ui.all_cards_heading }}</h2>
             <ul class="all-cards-list">
                 {% for row in nav_rows %}
                 <li>
@@ -81,7 +95,12 @@
                 {% endfor %}
             </ul>
         </section>
+        {% endif %}
     </div>
 
+    {% if is_card_of_day %}
+    <script id="ui-i18n" type="application/json">{{ ui_i18n_json|safe }}</script>
+    <script src="{{ url_for('static', filename='card_of_day.js') }}"></script>
+    {% endif %}
 </body>
 </html>

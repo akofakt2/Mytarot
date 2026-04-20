@@ -55,6 +55,8 @@ Vytvor súbor `.env` v koreni projektu (nie je v git-e) alebo exportuj premenné
 | `TAROT_CARD_SET` | nie | `default` | Podadresár s obrázkami: `…/<TAROT_CARD_IMAGES_BASE_DIR>/<TAROT_CARD_SET>/` |
 | `TAROT_CARD_IMAGES_BASE_DIR` | nie | `cards` | Relatívna cesta pod `static/` k priečinku s balíčkami |
 | `TAROT_SCRIPT_PATH` | nie | prázdne | Voliteľný prefix URL (napr. `/tarot`), ak je aplikácia za reverzným proxy pod podscestou |
+| `TAROT_API_TOKEN` | nie | prázdne | Ak je nastavené, `POST …/api/reading` vyžaduje token v hlavičke (`Authorization: Bearer …` alebo `X-API-Token`) |
+| `TAROT_RATE_LIMIT_PER_MINUTE` | nie | `0` | Jednoduchý per‑IP limit pre `POST …/api/reading` (0 = vypnuté). Pozn.: je to in‑memory limit per proces |
 
 **Obrázky kariet:** očakáva sa adresár `static/<TAROT_CARD_IMAGES_BASE_DIR>/<TAROT_CARD_SET>/` so súbormi podľa `image_path` v JSON kariet a so súborom **`back.png`** (rub karty). Repozitár obsahuje `static/cards/` ako miesto pre assety; bez obrázkov môže aplikácia pri miešaní/ťahaní zlyhať na chýbajúcom `back.png`.
 
@@ -79,6 +81,14 @@ Aplikácia sa vytvára cez factory `create_tarot_app()` – pri štarte sa valid
 
 - **`GET /api/draw`** (relatívne k `TAROT_SCRIPT_PATH`) – vráti pole troch objektov: `id`, `name`, `meaning`, `rev`, `image_url`. Bez cache (`no-store`).
 - **`POST /api/reading`** – JSON telo: `question`, `past_id`, `present_id`, `future_id`, voliteľne `past_rev`, `present_rev`, `future_rev` (0/1). Úspech: `{ "ok": true, "reading": "…", … }`. Chyba validácie: 400; zlyhanie LLM: 502.
+
+### Ochrana `POST /api/reading` (voliteľné)
+
+- Ak nastavíš `TAROT_API_TOKEN`, UI musí posielať token jedným z týchto spôsobov:
+  - `Authorization: Bearer <TAROT_API_TOKEN>`
+  - `X-API-Token: <TAROT_API_TOKEN>`
+- Ak nastavíš `TAROT_RATE_LIMIT_PER_MINUTE` (napr. `30`), aplikácia limituje počet volaní `POST …/api/reading` **na IP adresu za minútu**.
+  - Limit je **in‑memory** a platí **per proces** (pri viacerých `gunicorn` workeroch sa efektívny limit násobí počtom workerov).
 
 Presné cesty k stránkam závisia od `routes.json` (napr. pre `sk`: `/karty`, `/karta/<slug>`, `/o-aplikacii`, `/o-tarote`).
 

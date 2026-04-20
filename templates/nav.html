@@ -7,6 +7,7 @@
     </label>
     <div class="nav-links">
         <a href="{{ url_for('cards_index') }}">{% if locale == 'sk' %}Karty{% else %}Cards{% endif %}</a>
+        <a href="{{ url_for('card_of_day') }}">{{ ui.nav_card_of_day }}</a>
         <a href="{{ url_for('index') }}">{% if locale == 'sk' %}Veštiareň{% else %}Reading{% endif %}</a>
         <a href="{{ url_for('about_app') }}">{% if locale == 'sk' %}O aplikácii{% else %}About{% endif %}</a>
         <a href="{{ url_for('about_tarot') }}">{% if locale == 'sk' %}O tarote{% else %}About tarot{% endif %}</a>

@@ -1,0 +1,473 @@
+{
+  "topics": ["general", "money", "relationships", "plans"],
+  "cards": {
+    "0": {
+      "general": ["TODO: General meaning for card 0 (The Fool)."],
+      "money": ["TODO: Money meaning for card 0 (The Fool)."],
+      "relationships": ["TODO: Relationships meaning for card 0 (The Fool)."],
+      "plans": ["TODO: Plans meaning for card 0 (The Fool)."]
+    },
+    "1": {
+      "general": ["TODO: General meaning for card 1."],
+      "money": ["TODO: Money meaning for card 1."],
+      "relationships": ["TODO: Relationships meaning for card 1."],
+      "plans": ["TODO: Plans meaning for card 1."]
+    },
+    "2": {
+      "general": ["TODO: General meaning for card 2."],
+      "money": ["TODO: Money meaning for card 2."],
+      "relationships": ["TODO: Relationships meaning for card 2."],
+      "plans": ["TODO: Plans meaning for card 2."]
+    },
+    "3": {
+      "general": ["TODO: General meaning for card 3."],
+      "money": ["TODO: Money meaning for card 3."],
+      "relationships": ["TODO: Relationships meaning for card 3."],
+      "plans": ["TODO: Plans meaning for card 3."]
+    },
+    "4": {
+      "general": ["TODO: General meaning for card 4."],
+      "money": ["TODO: Money meaning for card 4."],
+      "relationships": ["TODO: Relationships meaning for card 4."],
+      "plans": ["TODO: Plans meaning for card 4."]
+    },
+    "5": {
+      "general": ["TODO: General meaning for card 5."],
+      "money": ["TODO: Money meaning for card 5."],
+      "relationships": ["TODO: Relationships meaning for card 5."],
+      "plans": ["TODO: Plans meaning for card 5."]
+    },
+    "6": {
+      "general": ["TODO: General meaning for card 6."],
+      "money": ["TODO: Money meaning for card 6."],
+      "relationships": ["TODO: Relationships meaning for card 6."],
+      "plans": ["TODO: Plans meaning for card 6."]
+    },
+    "7": {
+      "general": ["TODO: General meaning for card 7."],
+      "money": ["TODO: Money meaning for card 7."],
+      "relationships": ["TODO: Relationships meaning for card 7."],
+      "plans": ["TODO: Plans meaning for card 7."]
+    },
+    "8": {
+      "general": ["TODO: General meaning for card 8."],
+      "money": ["TODO: Money meaning for card 8."],
+      "relationships": ["TODO: Relationships meaning for card 8."],
+      "plans": ["TODO: Plans meaning for card 8."]
+    },
+    "9": {
+      "general": ["TODO: General meaning for card 9."],
+      "money": ["TODO: Money meaning for card 9."],
+      "relationships": ["TODO: Relationships meaning for card 9."],
+      "plans": ["TODO: Plans meaning for card 9."]
+    },
+    "10": {
+      "general": ["TODO: General meaning for card 10."],
+      "money": ["TODO: Money meaning for card 10."],
+      "relationships": ["TODO: Relationships meaning for card 10."],
+      "plans": ["TODO: Plans meaning for card 10."]
+    },
+    "11": {
+      "general": ["TODO: General meaning for card 11."],
+      "money": ["TODO: Money meaning for card 11."],
+      "relationships": ["TODO: Relationships meaning for card 11."],
+      "plans": ["TODO: Plans meaning for card 11."]
+    },
+    "12": {
+      "general": ["TODO: General meaning for card 12."],
+      "money": ["TODO: Money meaning for card 12."],
+      "relationships": ["TODO: Relationships meaning for card 12."],
+      "plans": ["TODO: Plans meaning for card 12."]
+    },
+    "13": {
+      "general": ["TODO: General meaning for card 13."],
+      "money": ["TODO: Money meaning for card 13."],
+      "relationships": ["TODO: Relationships meaning for card 13."],
+      "plans": ["TODO: Plans meaning for card 13."]
+    },
+    "14": {
+      "general": ["TODO: General meaning for card 14."],
+      "money": ["TODO: Money meaning for card 14."],
+      "relationships": ["TODO: Relationships meaning for card 14."],
+      "plans": ["TODO: Plans meaning for card 14."]
+    },
+    "15": {
+      "general": ["TODO: General meaning for card 15."],
+      "money": ["TODO: Money meaning for card 15."],
+      "relationships": ["TODO: Relationships meaning for card 15."],
+      "plans": ["TODO: Plans meaning for card 15."]
+    },
+    "16": {
+      "general": ["TODO: General meaning for card 16."],
+      "money": ["TODO: Money meaning for card 16."],
+      "relationships": ["TODO: Relationships meaning for card 16."],
+      "plans": ["TODO: Plans meaning for card 16."]
+    },
+    "17": {
+      "general": ["TODO: General meaning for card 17."],
+      "money": ["TODO: Money meaning for card 17."],
+      "relationships": ["TODO: Relationships meaning for card 17."],
+      "plans": ["TODO: Plans meaning for card 17."]
+    },
+    "18": {
+      "general": ["TODO: General meaning for card 18."],
+      "money": ["TODO: Money meaning for card 18."],
+      "relationships": ["TODO: Relationships meaning for card 18."],
+      "plans": ["TODO: Plans meaning for card 18."]
+    },
+    "19": {
+      "general": ["TODO: General meaning for card 19."],
+      "money": ["TODO: Money meaning for card 19."],
+      "relationships": ["TODO: Relationships meaning for card 19."],
+      "plans": ["TODO: Plans meaning for card 19."]
+    },
+    "20": {
+      "general": ["TODO: General meaning for card 20."],
+      "money": ["TODO: Money meaning for card 20."],
+      "relationships": ["TODO: Relationships meaning for card 20."],
+      "plans": ["TODO: Plans meaning for card 20."]
+    },
+    "21": {
+      "general": ["TODO: General meaning for card 21."],
+      "money": ["TODO: Money meaning for card 21."],
+      "relationships": ["TODO: Relationships meaning for card 21."],
+      "plans": ["TODO: Plans meaning for card 21."]
+    },
+    "22": {
+      "general": ["TODO: General meaning for card 22."],
+      "money": ["TODO: Money meaning for card 22."],
+      "relationships": ["TODO: Relationships meaning for card 22."],
+      "plans": ["TODO: Plans meaning for card 22."]
+    },
+    "23": {
+      "general": ["TODO: General meaning for card 23."],
+      "money": ["TODO: Money meaning for card 23."],
+      "relationships": ["TODO: Relationships meaning for card 23."],
+      "plans": ["TODO: Plans meaning for card 23."]
+    },
+    "24": {
+      "general": ["TODO: General meaning for card 24."],
+      "money": ["TODO: Money meaning for card 24."],
+      "relationships": ["TODO: Relationships meaning for card 24."],
+      "plans": ["TODO: Plans meaning for card 24."]
+    },
+    "25": {
+      "general": ["TODO: General meaning for card 25."],
+      "money": ["TODO: Money meaning for card 25."],
+      "relationships": ["TODO: Relationships meaning for card 25."],
+      "plans": ["TODO: Plans meaning for card 25."]
+    },
+    "26": {
+      "general": ["TODO: General meaning for card 26."],
+      "money": ["TODO: Money meaning for card 26."],
+      "relationships": ["TODO: Relationships meaning for card 26."],
+      "plans": ["TODO: Plans meaning for card 26."]
+    },
+    "27": {
+      "general": ["TODO: General meaning for card 27."],
+      "money": ["TODO: Money meaning for card 27."],
+      "relationships": ["TODO: Relationships meaning for card 27."],
+      "plans": ["TODO: Plans meaning for card 27."]
+    },
+    "28": {
+      "general": ["TODO: General meaning for card 28."],
+      "money": ["TODO: Money meaning for card 28."],
+      "relationships": ["TODO: Relationships meaning for card 28."],
+      "plans": ["TODO: Plans meaning for card 28."]
+    },
+    "29": {
+      "general": ["TODO: General meaning for card 29."],
+      "money": ["TODO: Money meaning for card 29."],
+      "relationships": ["TODO: Relationships meaning for card 29."],
+      "plans": ["TODO: Plans meaning for card 29."]
+    },
+    "30": {
+      "general": ["TODO: General meaning for card 30."],
+      "money": ["TODO: Money meaning for card 30."],
+      "relationships": ["TODO: Relationships meaning for card 30."],
+      "plans": ["TODO: Plans meaning for card 30."]
+    },
+    "31": {
+      "general": ["TODO: General meaning for card 31."],
+      "money": ["TODO: Money meaning for card 31."],
+      "relationships": ["TODO: Relationships meaning for card 31."],
+      "plans": ["TODO: Plans meaning for card 31."]
+    },
+    "32": {
+      "general": ["TODO: General meaning for card 32."],
+      "money": ["TODO: Money meaning for card 32."],
+      "relationships": ["TODO: Relationships meaning for card 32."],
+      "plans": ["TODO: Plans meaning for card 32."]
+    },
+    "33": {
+      "general": ["TODO: General meaning for card 33."],
+      "money": ["TODO: Money meaning for card 33."],
+      "relationships": ["TODO: Relationships meaning for card 33."],
+      "plans": ["TODO: Plans meaning for card 33."]
+    },
+    "34": {
+      "general": ["TODO: General meaning for card 34."],
+      "money": ["TODO: Money meaning for card 34."],
+      "relationships": ["TODO: Relationships meaning for card 34."],
+      "plans": ["TODO: Plans meaning for card 34."]
+    },
+    "35": {
+      "general": ["TODO: General meaning for card 35."],
+      "money": ["TODO: Money meaning for card 35."],
+      "relationships": ["TODO: Relationships meaning for card 35."],
+      "plans": ["TODO: Plans meaning for card 35."]
+    },
+    "36": {
+      "general": ["TODO: General meaning for card 36."],
+      "money": ["TODO: Money meaning for card 36."],
+      "relationships": ["TODO: Relationships meaning for card 36."],
+      "plans": ["TODO: Plans meaning for card 36."]
+    },
+    "37": {
+      "general": ["TODO: General meaning for card 37."],
+      "money": ["TODO: Money meaning for card 37."],
+      "relationships": ["TODO: Relationships meaning for card 37."],
+      "plans": ["TODO: Plans meaning for card 37."]
+    },
+    "38": {
+      "general": ["TODO: General meaning for card 38."],
+      "money": ["TODO: Money meaning for card 38."],
+      "relationships": ["TODO: Relationships meaning for card 38."],
+      "plans": ["TODO: Plans meaning for card 38."]
+    },
+    "39": {
+      "general": ["TODO: General meaning for card 39."],
+      "money": ["TODO: Money meaning for card 39."],
+      "relationships": ["TODO: Relationships meaning for card 39."],
+      "plans": ["TODO: Plans meaning for card 39."]
+    },
+    "40": {
+      "general": ["TODO: General meaning for card 40."],
+      "money": ["TODO: Money meaning for card 40."],
+      "relationships": ["TODO: Relationships meaning for card 40."],
+      "plans": ["TODO: Plans meaning for card 40."]
+    },
+    "41": {
+      "general": ["TODO: General meaning for card 41."],
+      "money": ["TODO: Money meaning for card 41."],
+      "relationships": ["TODO: Relationships meaning for card 41."],
+      "plans": ["TODO: Plans meaning for card 41."]
+    },
+    "42": {
+      "general": ["TODO: General meaning for card 42."],
+      "money": ["TODO: Money meaning for card 42."],
+      "relationships": ["TODO: Relationships meaning for card 42."],
+      "plans": ["TODO: Plans meaning for card 42."]
+    },
+    "43": {
+      "general": ["TODO: General meaning for card 43."],
+      "money": ["TODO: Money meaning for card 43."],
+      "relationships": ["TODO: Relationships meaning for card 43."],
+      "plans": ["TODO: Plans meaning for card 43."]
+    },
+    "44": {
+      "general": ["TODO: General meaning for card 44."],
+      "money": ["TODO: Money meaning for card 44."],
+      "relationships": ["TODO: Relationships meaning for card 44."],
+      "plans": ["TODO: Plans meaning for card 44."]
+    },
+    "45": {
+      "general": ["TODO: General meaning for card 45."],
+      "money": ["TODO: Money meaning for card 45."],
+      "relationships": ["TODO: Relationships meaning for card 45."],
+      "plans": ["TODO: Plans meaning for card 45."]
+    },
+    "46": {
+      "general": ["TODO: General meaning for card 46."],
+      "money": ["TODO: Money meaning for card 46."],
+      "relationships": ["TODO: Relationships meaning for card 46."],
+      "plans": ["TODO: Plans meaning for card 46."]
+    },
+    "47": {
+      "general": ["TODO: General meaning for card 47."],
+      "money": ["TODO: Money meaning for card 47."],
+      "relationships": ["TODO: Relationships meaning for card 47."],
+      "plans": ["TODO: Plans meaning for card 47."]
+    },
+    "48": {
+      "general": ["TODO: General meaning for card 48."],
+      "money": ["TODO: Money meaning for card 48."],
+      "relationships": ["TODO: Relationships meaning for card 48."],
+      "plans": ["TODO: Plans meaning for card 48."]
+    },
+    "49": {
+      "general": ["TODO: General meaning for card 49."],
+      "money": ["TODO: Money meaning for card 49."],
+      "relationships": ["TODO: Relationships meaning for card 49."],
+      "plans": ["TODO: Plans meaning for card 49."]
+    },
+    "50": {
+      "general": ["TODO: General meaning for card 50."],
+      "money": ["TODO: Money meaning for card 50."],
+      "relationships": ["TODO: Relationships meaning for card 50."],
+      "plans": ["TODO: Plans meaning for card 50."]
+    },
+    "51": {
+      "general": ["TODO: General meaning for card 51."],
+      "money": ["TODO: Money meaning for card 51."],
+      "relationships": ["TODO: Relationships meaning for card 51."],
+      "plans": ["TODO: Plans meaning for card 51."]
+    },
+    "52": {
+      "general": ["TODO: General meaning for card 52."],
+      "money": ["TODO: Money meaning for card 52."],
+      "relationships": ["TODO: Relationships meaning for card 52."],
+      "plans": ["TODO: Plans meaning for card 52."]
+    },
+    "53": {
+      "general": ["TODO: General meaning for card 53."],
+      "money": ["TODO: Money meaning for card 53."],
+      "relationships": ["TODO: Relationships meaning for card 53."],
+      "plans": ["TODO: Plans meaning for card 53."]
+    },
+    "54": {
+      "general": ["TODO: General meaning for card 54."],
+      "money": ["TODO: Money meaning for card 54."],
+      "relationships": ["TODO: Relationships meaning for card 54."],
+      "plans": ["TODO: Plans meaning for card 54."]
+    },
+    "55": {
+      "general": ["TODO: General meaning for card 55."],
+      "money": ["TODO: Money meaning for card 55."],
+      "relationships": ["TODO: Relationships meaning for card 55."],
+      "plans": ["TODO: Plans meaning for card 55."]
+    },
+    "56": {
+      "general": ["TODO: General meaning for card 56."],
+      "money": ["TODO: Money meaning for card 56."],
+      "relationships": ["TODO: Relationships meaning for card 56."],
+      "plans": ["TODO: Plans meaning for card 56."]
+    },
+    "57": {
+      "general": ["TODO: General meaning for card 57."],
+      "money": ["TODO: Money meaning for card 57."],
+      "relationships": ["TODO: Relationships meaning for card 57."],
+      "plans": ["TODO: Plans meaning for card 57."]
+    },
+    "58": {
+      "general": ["TODO: General meaning for card 58."],
+      "money": ["TODO: Money meaning for card 58."],
+      "relationships": ["TODO: Relationships meaning for card 58."],
+      "plans": ["TODO: Plans meaning for card 58."]
+    },
+    "59": {
+      "general": ["TODO: General meaning for card 59."],
+      "money": ["TODO: Money meaning for card 59."],
+      "relationships": ["TODO: Relationships meaning for card 59."],
+      "plans": ["TODO: Plans meaning for card 59."]
+    },
+    "60": {
+      "general": ["TODO: General meaning for card 60."],
+      "money": ["TODO: Money meaning for card 60."],
+      "relationships": ["TODO: Relationships meaning for card 60."],
+      "plans": ["TODO: Plans meaning for card 60."]
+    },
+    "61": {
+      "general": ["TODO: General meaning for card 61."],
+      "money": ["TODO: Money meaning for card 61."],
+      "relationships": ["TODO: Relationships meaning for card 61."],
+      "plans": ["TODO: Plans meaning for card 61."]
+    },
+    "62": {
+      "general": ["TODO: General meaning for card 62."],
+      "money": ["TODO: Money meaning for card 62."],
+      "relationships": ["TODO: Relationships meaning for card 62."],
+      "plans": ["TODO: Plans meaning for card 62."]
+    },
+    "63": {
+      "general": ["TODO: General meaning for card 63."],
+      "money": ["TODO: Money meaning for card 63."],
+      "relationships": ["TODO: Relationships meaning for card 63."],
+      "plans": ["TODO: Plans meaning for card 63."]
+    },
+    "64": {
+      "general": ["TODO: General meaning for card 64."],
+      "money": ["TODO: Money meaning for card 64."],
+      "relationships": ["TODO: Relationships meaning for card 64."],
+      "plans": ["TODO: Plans meaning for card 64."]
+    },
+    "65": {
+      "general": ["TODO: General meaning for card 65."],
+      "money": ["TODO: Money meaning for card 65."],
+      "relationships": ["TODO: Relationships meaning for card 65."],
+      "plans": ["TODO: Plans meaning for card 65."]
+    },
+    "66": {
+      "general": ["TODO: General meaning for card 66."],
+      "money": ["TODO: Money meaning for card 66."],
+      "relationships": ["TODO: Relationships meaning for card 66."],
+      "plans": ["TODO: Plans meaning for card 66."]
+    },
+    "67": {
+      "general": ["TODO: General meaning for card 67."],
+      "money": ["TODO: Money meaning for card 67."],
+      "relationships": ["TODO: Relationships meaning for card 67."],
+      "plans": ["TODO: Plans meaning for card 67."]
+    },
+    "68": {
+      "general": ["TODO: General meaning for card 68."],
+      "money": ["TODO: Money meaning for card 68."],
+      "relationships": ["TODO: Relationships meaning for card 68."],
+      "plans": ["TODO: Plans meaning for card 68."]
+    },
+    "69": {
+      "general": ["TODO: General meaning for card 69."],
+      "money": ["TODO: Money meaning for card 69."],
+      "relationships": ["TODO: Relationships meaning for card 69."],
+      "plans": ["TODO: Plans meaning for card 69."]
+    },
+    "70": {
+      "general": ["TODO: General meaning for card 70."],
+      "money": ["TODO: Money meaning for card 70."],
+      "relationships": ["TODO: Relationships meaning for card 70."],
+      "plans": ["TODO: Plans meaning for card 70."]
+    },
+    "71": {
+      "general": ["TODO: General meaning for card 71."],
+      "money": ["TODO: Money meaning for card 71."],
+      "relationships": ["TODO: Relationships meaning for card 71."],
+      "plans": ["TODO: Plans meaning for card 71."]
+    },
+    "72": {
+      "general": ["TODO: General meaning for card 72."],
+      "money": ["TODO: Money meaning for card 72."],
+      "relationships": ["TODO: Relationships meaning for card 72."],
+      "plans": ["TODO: Plans meaning for card 72."]
+    },
+    "73": {
+      "general": ["TODO: General meaning for card 73."],
+      "money": ["TODO: Money meaning for card 73."],
+      "relationships": ["TODO: Relationships meaning for card 73."],
+      "plans": ["TODO: Plans meaning for card 73."]
+    },
+    "74": {
+      "general": ["TODO: General meaning for card 74."],
+      "money": ["TODO: Money meaning for card 74."],
+      "relationships": ["TODO: Relationships meaning for card 74."],
+      "plans": ["TODO: Plans meaning for card 74."]
+    },
+    "75": {
+      "general": ["TODO: General meaning for card 75."],
+      "money": ["TODO: Money meaning for card 75."],
+      "relationships": ["TODO: Relationships meaning for card 75."],
+      "plans": ["TODO: Plans meaning for card 75."]
+    },
+    "76": {
+      "general": ["TODO: General meaning for card 76."],
+      "money": ["TODO: Money meaning for card 76."],
+      "relationships": ["TODO: Relationships meaning for card 76."],
+      "plans": ["TODO: Plans meaning for card 76."]
+    },
+    "77": {
+      "general": ["TODO: General meaning for card 77."],
+      "money": ["TODO: Money meaning for card 77."],
+      "relationships": ["TODO: Relationships meaning for card 77."],
+      "plans": ["TODO: Plans meaning for card 77."]
+    }
+  }
+}

@@ -7,9 +7,13 @@ Všetky URL segmenty podľa mutácie sú v `LOCALE_ROUTES` (karty + informačné
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
+import time
 import unicodedata
+from collections import defaultdict, deque
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -57,7 +61,7 @@ def _load_locale_routes() -> dict[str, dict[str, str]]:
             m2[k] = v.strip().strip("/")
 
         # Minimálne kľúče, ktoré appka používa.
-        required = ("cards_list", "card", "about_app", "about_tarot")
+        required = ("cards_list", "card", "card_of_day", "about_app", "about_tarot")
         missing = [k for k in required if k not in m2]
         if missing:
             raise ValueError(f"routes.json: locale {loc!r} missing keys: {missing}")
@@ -180,8 +184,54 @@ def _load_ui_strings() -> dict[str, dict[str, str]]:
         for k, v in mapping.items():
             if isinstance(k, str) and k.strip() and isinstance(v, str):
                 filtered[k] = v
-        out[loc] = filtered
+        out[loc.strip().lower()] = filtered
     return out
+
+
+def _load_card_of_day_explanations(locale: str) -> dict[str, Any]:
+    """
+    Loads card-of-day explanations from `data/i18n/card_of_day.<locale>.json`.
+
+    Expected shape:
+      {
+        "topics": ["general", "money", "relationships", "plans"],
+        "cards": {
+          "0": { "general": ["..."], "money": ["..."], ... },
+          ...
+          "77": { ... }
+        }
+      }
+    """
+    path = DATA_DIR / f"card_of_day.{locale}.json"
+    if not path.is_file():
+        raise FileNotFoundError(f"Chýba {path}")
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError("card_of_day.<locale>.json must be an object")
+
+    topics = raw.get("topics")
+    if not isinstance(topics, list) or not topics or not all(isinstance(t, str) and t.strip() for t in topics):
+        raise ValueError("card_of_day.<locale>.json: 'topics' must be a non-empty list[str]")
+    topics = [t.strip() for t in topics]
+
+    cards = raw.get("cards")
+    if not isinstance(cards, dict):
+        raise ValueError("card_of_day.<locale>.json: 'cards' must be an object {id: {topic: [texts...]}}")
+
+    # Validate 0..77 and topic presence.
+    for i in range(78):
+        k = str(i)
+        if k not in cards:
+            raise ValueError(f"card_of_day.<locale>.json: missing card id {k}")
+        entry = cards[k]
+        if not isinstance(entry, dict):
+            raise ValueError(f"card_of_day.<locale>.json: card {k} must be an object")
+        for topic in topics:
+            arr = entry.get(topic)
+            if not isinstance(arr, list) or not arr or not all(isinstance(s, str) and s.strip() for s in arr):
+                raise ValueError(f"card_of_day.<locale>.json: card {k} topic {topic!r} must be a non-empty list[str]")
+
+    return {"topics": topics, "cards": cards}
 
 
 def _build_slug_index(cards: list[Card]) -> dict[str, Card]:
@@ -222,6 +272,8 @@ def create_tarot_app() -> Flask:
             f"Dostupné: {sorted(supported_ui_locales)}"
         )
 
+    card_of_day_expl = _load_card_of_day_explanations(locale)
+
     try:
         cards_list = sorted(_load_cards(locale), key=lambda c: c.id)
     except FileNotFoundError as e:
@@ -231,6 +283,7 @@ def create_tarot_app() -> Flask:
 
     slug_to_card = _build_slug_index(cards_list)
     cards = tuple(cards_list)
+    cards_by_id = {c.id: c for c in cards}
 
     card_set = (os.getenv("TAROT_CARD_SET") or "default").strip()
     img_base = (os.getenv("TAROT_CARD_IMAGES_BASE_DIR") or "cards").strip().strip("/")
@@ -255,11 +308,41 @@ def create_tarot_app() -> Flask:
 
     routes = locale_routes[locale]
     ui = ui_strings[locale]
+    required_ui_keys = (
+        "page_title_home",
+        "page_title_cards_index",
+        "cards_index_heading",
+        "card_section_keywords",
+        "card_section_upright",
+        "card_section_reversed",
+        "card_section_description",
+        "card_pager_aria",
+        "all_cards_aria",
+        "all_cards_heading",
+        "card_of_day_explanation_title",
+        "card_of_day_reveal_label",
+        "card_of_day_today_label",
+        "reading_label_past",
+        "reading_label_present",
+        "reading_label_future",
+        "nav_card_of_day",
+    )
+    missing_ui = [k for k in required_ui_keys if not isinstance(ui.get(k), str) or not ui.get(k, "").strip()]
+    if missing_ui:
+        raise ValueError(
+            f"ui.json for locale {locale!r} is missing required keys: {missing_ui}. "
+            "Add them to data/i18n/ui.json."
+        )
+
+    # Optional API protection for LLM endpoint (meant for simple UI deployments, not multi-tenant auth).
+    api_token = (os.getenv("TAROT_API_TOKEN") or "").strip()
     ctx: dict[str, Any] = {
         "locale": locale,
         "routes": routes,
         "ui": ui,
         "ui_i18n_json": json.dumps(ui, ensure_ascii=False),
+        # Exposed to the frontend intentionally (soft-gate; not a secret).
+        "tarot_api_token": api_token,
     }
     reading_prompt_template = locale_prompts[locale]["reading_prompt"]
     # Jednotné definície ciest (vždy cez script_path prefix).
@@ -268,6 +351,7 @@ def create_tarot_app() -> Flask:
     api_reading_path = _p("api/reading")  # JSON: question + 3 cards (past/present/future)
     cards_list_path = _p(routes["cards_list"])  # zoznam všetkých kariet
     card_detail_rule = _p(f"{routes['card']}/<slug>")  # detail jednej karty
+    card_of_day_path = _p(routes["card_of_day"])  # karta dňa
     about_app_path = _p(routes["about_app"])  # info: aplikácia
     about_tarot_path = _p(routes["about_tarot"])  # info: tarot
 
@@ -278,6 +362,61 @@ def create_tarot_app() -> Flask:
     )
     app.config["TAROT_LOCALE"] = locale
     app.config["CARD_IMAGES_DIR"] = card_images_dir
+
+    
+    rate_limit_per_minute_raw = (os.getenv("TAROT_RATE_LIMIT_PER_MINUTE") or "").strip()
+    try:
+        rate_limit_per_minute = int(rate_limit_per_minute_raw) if rate_limit_per_minute_raw else 0
+    except ValueError:
+        raise ValueError("TAROT_RATE_LIMIT_PER_MINUTE must be an integer") from None
+    if rate_limit_per_minute < 0:
+        raise ValueError("TAROT_RATE_LIMIT_PER_MINUTE must be >= 0")
+
+    # In-memory per-IP rate limit. Good enough for single-process deployments.
+    # If you run multiple gunicorn workers, each worker enforces its own limit.
+    _ip_calls: dict[str, deque[float]] = defaultdict(deque)
+
+    def _client_ip() -> str:
+        # Prefer reverse-proxy header if present; fall back to remote_addr.
+        fwd = request.headers.get("X-Forwarded-For", "")
+        if fwd:
+            return fwd.split(",")[0].strip()
+        return (request.remote_addr or "unknown").strip()
+
+    def _check_rate_limit() -> Response | None:
+        if rate_limit_per_minute <= 0:
+            return None
+        now = time.monotonic()
+        window = 60.0
+        dq = _ip_calls[_client_ip()]
+        while dq and (now - dq[0]) > window:
+            dq.popleft()
+        if len(dq) >= rate_limit_per_minute:
+            return app.response_class(
+                response=json.dumps({"ok": False, "error": "Rate limit exceeded"}, ensure_ascii=False),
+                status=429,
+                mimetype="application/json",
+                headers={"Cache-Control": "no-store"},
+            )
+        dq.append(now)
+        return None
+
+    def _check_api_token() -> Response | None:
+        if not api_token:
+            return None
+        hdr = (request.headers.get("X-API-Token") or "").strip()
+        auth = (request.headers.get("Authorization") or "").strip()
+        bearer = ""
+        if auth.lower().startswith("bearer "):
+            bearer = auth[7:].strip()
+        if hdr != api_token and bearer != api_token:
+            return app.response_class(
+                response=json.dumps({"ok": False, "error": "Unauthorized"}, ensure_ascii=False),
+                status=401,
+                mimetype="application/json",
+                headers={"Cache-Control": "no-store"},
+            )
+        return None
 
     @app.get(index_path)
     def index() -> str:
@@ -300,10 +439,9 @@ def create_tarot_app() -> Flask:
         deck.shuffle()
 
         drawn = deck.draw(3)
-        by_id = {c.id: c for c in cards}
         payload = []
         for card_id, orientation in drawn:
-            c = by_id.get(card_id)
+            c = cards_by_id.get(card_id)
             if c is None:
                 continue
             meaning = c.meaning_reversed if orientation == "reversed" else c.meaning_upright
@@ -334,6 +472,13 @@ def create_tarot_app() -> Flask:
         Poznámka: základné UX validácie (napr. prázdna otázka) robíme v prehliadači.
         Na serveri nechávame len minimálne parsovanie vstupu a error handling pre prípad LLM zlyhania.
         """
+        limited = _check_rate_limit()
+        if limited is not None:
+            return limited
+        unauthorized = _check_api_token()
+        if unauthorized is not None:
+            return unauthorized
+
         raw = request.get_json(silent=True) or {}
         if not isinstance(raw, dict):
             return app.response_class(
@@ -357,10 +502,31 @@ def create_tarot_app() -> Flask:
                 mimetype="application/json",
             )
 
-        by_id = {c.id: c for c in cards}
+        if not question:
+            return app.response_class(
+                response=json.dumps({"ok": False, "error": "Question is required"}, ensure_ascii=False),
+                status=400,
+                mimetype="application/json",
+            )
+        if past_rev not in (0, 1) or present_rev not in (0, 1) or future_rev not in (0, 1):
+            return app.response_class(
+                response=json.dumps({"ok": False, "error": "Bad request"}, ensure_ascii=False),
+                status=400,
+                mimetype="application/json",
+            )
+        if past_id not in cards_by_id or present_id not in cards_by_id or future_id not in cards_by_id:
+            return app.response_class(
+                response=json.dumps({"ok": False, "error": "Bad request"}, ensure_ascii=False),
+                status=400,
+                mimetype="application/json",
+            )
+
+        label_past = ui["reading_label_past"]
+        label_present = ui["reading_label_present"]
+        label_future = ui["reading_label_future"]
 
         def _card_block(label: str, card_id: int, rev: int) -> str:
-            c = by_id.get(card_id)
+            c = cards_by_id.get(card_id)
             if c is None:
                 return f"{label}: [unknown card id {card_id}]"
             orientation = "reversed" if rev == 1 else "upright"
@@ -381,9 +547,9 @@ def create_tarot_app() -> Flask:
 
         prompt = reading_prompt_template.format(
             question=question.strip(),
-            past_block=_card_block("Minulosť", past_id, past_rev),
-            present_block=_card_block("Prítomnosť", present_id, present_rev),
-            future_block=_card_block("Budúcnosť", future_id, future_rev),
+            past_block=_card_block(label_past, past_id, past_rev),
+            present_block=_card_block(label_present, present_id, present_rev),
+            future_block=_card_block(label_future, future_id, future_rev),
         )
 
         try:
@@ -392,7 +558,7 @@ def create_tarot_app() -> Flask:
             reading_text = call_llm(prompt, api_key=api_key, model=model)
         except Exception as e:
             return app.response_class(
-                response=json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False),
+                response=json.dumps({"ok": False, "error": "LLM error"}, ensure_ascii=False),
                 status=502,
                 mimetype="application/json",
                 headers={"Cache-Control": "no-store"},
@@ -432,6 +598,47 @@ def create_tarot_app() -> Flask:
         return render_template(
             "cards_index.html",
             card_index_rows=_card_index_rows(cards),
+            **ctx,
+        )
+
+    @app.get(card_of_day_path)
+    def card_of_day() -> str:
+        # Deterministic "card of the day": same card for the same calendar day.
+        today = date.today().isoformat()
+        digest = hashlib.sha256(today.encode("utf-8")).digest()
+        card_id = int.from_bytes(digest[:4], "big") % 78
+        card = cards_by_id.get(card_id)
+        if card is None:
+            abort(500)
+
+        topics: list[str] = card_of_day_expl["topics"]
+        topic = (request.args.get("topic") or "general").strip().lower()
+        if topic not in topics:
+            topic = "general"
+
+        # Pick a deterministic variant for the given day+card+topic.
+        variants = card_of_day_expl["cards"][str(card_id)][topic]
+        v_digest = hashlib.sha256(f"{today}:{card_id}:{topic}".encode("utf-8")).digest()
+        v_idx = int.from_bytes(v_digest[:4], "big") % len(variants)
+        card_of_day_explanation = variants[v_idx].strip()
+
+        slug = slugify(card.name)
+        prev_c = cards[card.id - 1] if card.id > 0 else None
+        next_c = cards[card.id + 1] if card.id < 77 else None
+        nav_rows = _card_nav_rows(cards, slug)
+
+        prev_slug = slugify(prev_c.name) if prev_c else None
+        next_slug = slugify(next_c.name) if next_c else None
+
+        return render_template(
+            "template.html",
+            card=card,
+            slug=slug,
+            is_card_of_day=True,
+            card_images_dir=card_images_dir,
+            card_of_day_explanation=card_of_day_explanation,
+            card_of_day_topic=topic,
+            card_of_day_topics=topics,
             **ctx,
         )
 

@@ -43,6 +43,44 @@ const UI = {
     },
 };
 
+function isMobileViewport() {
+    return window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+}
+
+function scrollIntoViewIfMobile(el, block = 'center') {
+    if (!el || !isMobileViewport()) return;
+    // Let layout settle (especially after focus / class toggles).
+    requestAnimationFrame(() => {
+        el.scrollIntoView({ behavior: 'smooth', block });
+    });
+}
+
+function focusElementIfMobile(el) {
+    if (!el || !isMobileViewport()) return;
+    // Ensure focus doesn't jump the page unexpectedly (we handle scroll separately).
+    try {
+        el.focus({ preventScroll: true });
+    } catch {
+        try {
+            el.focus();
+        } catch {
+            // ignore
+        }
+    }
+}
+
+function focusQuestionAndReveal() {
+    if (!UI.question) return;
+    UI.question.focus();
+    scrollIntoViewIfMobile(UI.question, 'center');
+}
+
+function scrollReadingIntoView() {
+    if (!isMobileViewport()) return;
+    const container = UI.reading?.closest?.('.reading-container') || UI.reading;
+    if (container) scrollIntoViewIfMobile(container, 'start');
+}
+
 function loadI18nStrings() {
     try {
         const raw = UI.uiJson?.textContent || 'null';
@@ -113,6 +151,12 @@ function renderMarkdownSafe(md) {
 }
 
 // --- API ---
+function getApiToken() {
+    const meta = document.querySelector('meta[name="tarot-api-token"]');
+    const token = meta?.getAttribute('content')?.trim() || '';
+    return token || null;
+}
+
 async function apiFetchDraw() {
     const res = await fetch('api/draw', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -120,9 +164,13 @@ async function apiFetchDraw() {
 }
 
 async function apiPostReading(payload) {
+    const token = getApiToken();
     const res = await fetch('api/reading', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+            'Content-Type': 'application/json',
+            ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
         cache: 'no-store',
         body: JSON.stringify(payload),
     });
@@ -199,6 +247,7 @@ async function sendReadingRequest() {
 
     setLoadingActive(true);
     clearReadingUi();
+    scrollReadingIntoView();
 
     const [p0, p1, p2] = currentDealtCards;
     const payload = {
@@ -230,6 +279,7 @@ async function sendReadingRequest() {
                 UI.reading.classList.add('visible');
             }
             setNewReadingVisible(true);
+            scrollReadingIntoView();
             return;
         }
 
@@ -245,6 +295,7 @@ async function sendReadingRequest() {
             UI.reading.classList.add('visible');
         }
         setNewReadingVisible(true);
+        scrollReadingIntoView();
     } catch (e) {
         console.log('Reading request failed:', e);
     }
@@ -267,6 +318,14 @@ function flipCard(index, element) {
     applyCardFlipVisual(index, element);
     flippedCount += 1;
 
+    // After flipping, bring the meaning of the flipped card into view on mobile.
+    const caption = UI.captionEl(index);
+    const meaningEl = caption?.querySelector?.('.slot-meaning') || caption?.querySelector?.('.slot-title');
+    if (meaningEl) {
+        scrollIntoViewIfMobile(meaningEl, 'center');
+        focusElementIfMobile(meaningEl);
+    }
+
     if (flippedCount === 3) onAllThreeCardsFlipped();
 }
 
@@ -280,7 +339,7 @@ async function handleDeckInteraction() {
                 UI.deckLabel.style.opacity = '1';
                 UI.deckLabel.style.fontStyle = 'italic';
             }
-            UI.question?.focus();
+            focusQuestionAndReveal();
             return;
         }
         deckState = 'shuffling';
@@ -337,7 +396,7 @@ async function handleDeckInteraction() {
                     </div>
                     <div class="slot-caption" id="${EL.caption(i)}">
                         <div class="slot-title">${title}</div>
-                        ${meaning ? `<div class="slot-meaning">${meaning}</div>` : ''}
+                        ${meaning ? `<div class="slot-meaning" tabindex="-1">${meaning}</div>` : ''}
                     </div>
                 `;
 
@@ -348,6 +407,8 @@ async function handleDeckInteraction() {
                 }
             }, i * 400);
         }
+        // After dealing, bring the first slot into view on mobile.
+        scrollIntoViewIfMobile(UI.slots?.[0], 'center');
     }
 }
 
@@ -363,7 +424,7 @@ function resetReading() {
 
     if (UI.question) {
         UI.question.value = '';
-        UI.question.focus();
+        focusQuestionAndReveal();
     }
 
     UI.deck?.classList.remove('is-shuffling');

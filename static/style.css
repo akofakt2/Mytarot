@@ -7,6 +7,9 @@
     /* Tarot obrázky: 600 × 1028 */
     --card-width: 220px;
     --card-aspect: 600 / 1044;
+    /* Explicitná výška pre istotu (niektoré prehliadače sú citlivé na aspect-ratio bez výšky) */
+    --card-height: calc(var(--card-width) * 1044 / 600);
+    --deck-scale: 0.9;
     --nav-bg: rgba(13, 13, 26, 0.9);
     --font-heading: 'Cinzel', serif;
     --font-body: 'EB Garamond', serif;
@@ -185,7 +188,9 @@ body, html {
 .deck-container { margin-bottom: 60px; display: flex; flex-direction: column; align-items: center; text-align: center; }
 
 .deck {
-    width: 100px; height: 160px; aspect-ratio: 10 / 16;
+    width: calc(var(--card-width) * var(--deck-scale));
+    height: calc(var(--card-height) * var(--deck-scale));
+    aspect-ratio: var(--card-aspect);
     position: relative; cursor: pointer;
     transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -509,6 +514,60 @@ body, html {
 .card-section p { margin: 0 0 1.25rem; line-height: 1.7; }
 .keywords { font-style: italic; }
 
+/* Card of the day: reveal button (details/summary) */
+.card-of-day-details {
+    margin: 0.25rem 0 1.25rem;
+}
+.card-of-day-details summary {
+    list-style: none;
+    cursor: pointer;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-family: var(--font-heading);
+    font-size: var(--text-small);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-light);
+    border: 1px solid rgba(197, 160, 89, 0.55);
+    background:
+        radial-gradient(120% 160% at 15% 10%, rgba(197, 160, 89, 0.22) 0%, rgba(197, 160, 89, 0.06) 55%, rgba(197, 160, 89, 0.03) 100%),
+        linear-gradient(180deg, rgba(22, 22, 51, 0.88), rgba(8, 8, 18, 0.92));
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.55),
+        0 10px 25px rgba(0, 0, 0, 0.35),
+        0 0 22px rgba(197, 160, 89, 0.12);
+    transition: transform 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.card-of-day-details summary::-webkit-details-marker { display: none; }
+.card-of-day-details summary::marker { content: ""; }
+.card-of-day-details summary::after {
+    content: "▾";
+    color: var(--card-gold);
+    opacity: 0.9;
+    transform: translateY(-1px);
+    transition: transform 0.2s ease;
+}
+.card-of-day-details[open] summary::after { transform: translateY(-1px) rotate(180deg); }
+.card-of-day-details summary:hover {
+    transform: translateY(-1px);
+    border-color: rgba(197, 160, 89, 0.85);
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.55),
+        0 14px 32px rgba(0, 0, 0, 0.4),
+        0 0 26px rgba(197, 160, 89, 0.18);
+}
+.card-of-day-details summary:focus-visible {
+    outline: 2px solid var(--card-gold);
+    outline-offset: 3px;
+}
+.card-of-day-details > p {
+    margin-top: 0.9rem;
+}
+
 .card-pager {
     display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
     margin: 2rem 0; padding: 1rem 0; border-top: 1px solid rgba(197, 160, 89, 0.2);
@@ -673,7 +732,7 @@ body, html {
     .reading-container {
         padding: 1.2rem 0.95rem 1.35rem;
     }
-    .deck { width: 80px; height: 128px; }
+    .deck { width: calc(var(--card-width) * var(--deck-scale)); height: calc(var(--card-height) * var(--deck-scale)); }
 
     /* Stránka karty: zoznam „Všetky karty“ – na úzkych displejoch grid zarovnáva stĺpce k ľavému okraju */
     .all-cards-nav {
