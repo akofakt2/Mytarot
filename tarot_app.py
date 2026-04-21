@@ -2,6 +2,9 @@
 Samostatná inštancia: jeden jazyk z .env (`TAROT_LOCALE`), slugy z `name` v `cards.<locale>.json`.
 
 Všetky URL segmenty podľa mutácie sú v `LOCALE_ROUTES` (karty + informačné stránky).
+
+`<title>` a SEO meta tagy sú v šablónach `templates/meta/<locale>/*.html` (pozri `META_PAGE_IDS`),
+nie v `ui.json`.
 """
 
 from __future__ import annotations
@@ -30,6 +33,38 @@ except ImportError:
 
 APP_DIR = Path(__file__).resolve().parent
 DATA_DIR = APP_DIR / "data" / "i18n"
+TEMPLATES_DIR = APP_DIR / "templates"
+
+# HTML partials for <title> and meta tags: templates/meta/<locale>/<page_id>.html
+# — index.html → home; cards_index → cards_index; about_* → about_app / about_tarot;
+#   template.html (card + card-of-day) → card_detail.
+META_PAGE_IDS: tuple[str, ...] = (
+    "home",
+    "cards_index",
+    "about_app",
+    "about_tarot",
+    "card_detail",
+)
+
+
+def _validate_meta_templates(templates_dir: Path, locales: frozenset[str]) -> None:
+    """Every locale in routes.json must ship a matching meta partial for each page id."""
+    root = templates_dir / "meta"
+    missing: list[str] = []
+    for loc in sorted(locales):
+        for page_id in META_PAGE_IDS:
+            p = root / loc / f"{page_id}.html"
+            if not p.is_file():
+                try:
+                    missing.append(str(p.relative_to(APP_DIR)))
+                except ValueError:
+                    missing.append(str(p))
+    if missing:
+        raise FileNotFoundError(
+            "Chýbajú jazykové meta šablóny (templates/meta/<locale>/<page_id>.html):\n"
+            + "\n".join(missing)
+        )
+
 
 def _load_locale_routes() -> dict[str, dict[str, str]]:
     """
@@ -257,6 +292,8 @@ def create_tarot_app() -> Flask:
     supported_prompt_locales = frozenset(locale_prompts.keys())
     supported_ui_locales = frozenset(ui_strings.keys())
 
+    _validate_meta_templates(TEMPLATES_DIR, supported_locales)
+
     # Single-locale instance:
     # - we select ONE locale at startup (TAROT_LOCALE)
     # - all human-facing URL segments come from data/i18n/routes.json for that locale
@@ -327,8 +364,6 @@ def create_tarot_app() -> Flask:
     routes = locale_routes[locale]
     ui = ui_strings[locale]
     required_ui_keys = (
-        "page_title_home",
-        "page_title_cards_index",
         "cards_index_heading",
         "card_section_keywords",
         "card_section_upright",
@@ -343,6 +378,13 @@ def create_tarot_app() -> Flask:
         "reading_label_past",
         "reading_label_present",
         "reading_label_future",
+        "nav_brand",
+        "nav_aria_main",
+        "nav_aria_menu",
+        "nav_cards",
+        "nav_reading",
+        "nav_about_app",
+        "nav_about_tarot",
         "nav_card_of_day",
     )
     missing_ui = [k for k in required_ui_keys if not isinstance(ui.get(k), str) or not ui.get(k, "").strip()]

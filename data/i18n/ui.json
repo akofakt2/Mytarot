@@ -1,7 +1,5 @@
 {
   "en": {
-    "page_title_home": "Tarot Mentor – Ritual reading with sound",
-    "page_title_cards_index": "All cards – Tarot Mentor",
     "cards_index_heading": "All cards (78)",
     "card_section_keywords": "Keywords",
     "card_section_upright": "Upright meaning",
@@ -13,7 +11,7 @@
     "card_of_day_explanation_title": "Card of the day – meaning",
     "card_of_day_reveal_label": "Reveal today's meaning",
     "card_of_day_today_label": "Card of the day for",
-    "question_placeholder": "What do you ask of fate?",
+    "question_placeholder": "What do you ask of cards?",
     "deck_label_shuffle": "Shuffle the cards",
     "deck_label_need_question": "Write your question first ↑",
     "deck_label_focus": "Focus on your question...",
@@ -27,11 +25,16 @@
     "reading_label_past": "Past",
     "reading_label_present": "Present",
     "reading_label_future": "Future",
+    "nav_brand": "Tarot reading",
+    "nav_aria_main": "Main navigation",
+    "nav_aria_menu": "Menu",
+    "nav_cards": "Cards",
+    "nav_reading": "Reading",
+    "nav_about_app": "About",
+    "nav_about_tarot": "About tarot",
     "nav_card_of_day": "Card of the day"
   },
   "sk": {
-    "page_title_home": "Tarot Mentor – Rituálna veštiareň so zvukom",
-    "page_title_cards_index": "Všetky karty – Tarot Mentor",
     "cards_index_heading": "Všetky karty (78)",
     "card_section_keywords": "Kľúčové slová",
     "card_section_upright": "Priamy význam",
@@ -43,7 +46,7 @@
     "card_of_day_explanation_title": "Karta dňa – význam",
     "card_of_day_reveal_label": "Odhaľ význam pre dnešok",
     "card_of_day_today_label": "Karta dňa na",
-    "question_placeholder": "Na čo sa pýtaš osudu?",
+    "question_placeholder": "Na čo sa pýtaš kariet?",
     "deck_label_shuffle": "Zamiešať karty",
     "deck_label_need_question": "Najprv napíš otázku ↑",
     "deck_label_focus": "Sústreď sa na svoju otázku...",
@@ -57,6 +60,13 @@
     "reading_label_past": "Minulosť",
     "reading_label_present": "Prítomnosť",
     "reading_label_future": "Budúcnosť",
+    "nav_brand": "Výklad tarotu",
+    "nav_aria_main": "Hlavná navigácia",
+    "nav_aria_menu": "Ponuka",
+    "nav_cards": "Karty",
+    "nav_reading": "Veštiareň",
+    "nav_about_app": "O aplikácii",
+    "nav_about_tarot": "O tarote",
     "nav_card_of_day": "Karta dňa"
   }
 }

@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if locale == 'sk' %}O tarote{% else %}About tarot{% endif %} – Tarot Mentor</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% include 'includes/head_common.html' %}
+    {% include 'meta/' ~ locale ~ '/about_tarot.html' %}
 </head>
 <body>
     {% include 'nav.html' %}

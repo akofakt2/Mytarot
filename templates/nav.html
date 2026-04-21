@@ -1,15 +1,14 @@
-{# Spoločná navigácia — mobil: hamburger + rozbalenie (checkbox, bez JS) #}
-<nav class="site-nav" aria-label="{% if locale == 'sk' %}Hlavná navigácia{% else %}Main navigation{% endif %}">
-    <a href="{{ url_for('index') }}" class="logo">Tarot Mentor</a>
+{# Spoločná navigácia — mobil: hamburger + rozbalenie (checkbox, bez JS); texty v ui.json #}
+<nav class="site-nav" aria-label="{{ ui.nav_aria_main }}">
+    <a href="{{ url_for('index') }}" class="logo">{{ ui.nav_brand }}</a>
     <input type="checkbox" id="site-nav-toggle" class="nav-toggle-input" />
-    <label for="site-nav-toggle" class="nav-burger" aria-label="Menu">
+    <label for="site-nav-toggle" class="nav-burger" aria-label="{{ ui.nav_aria_menu }}">
         <span></span><span></span><span></span>
     </label>
     <div class="nav-links">
-        <a href="{{ url_for('cards_index') }}">{% if locale == 'sk' %}Karty{% else %}Cards{% endif %}</a>
-        <a href="{{ url_for('card_of_day') }}">{{ ui.nav_card_of_day }}</a>
-        <a href="{{ url_for('index') }}">{% if locale == 'sk' %}Veštiareň{% else %}Reading{% endif %}</a>
-        <a href="{{ url_for('about_app') }}">{% if locale == 'sk' %}O aplikácii{% else %}About{% endif %}</a>
-        <a href="{{ url_for('about_tarot') }}">{% if locale == 'sk' %}O tarote{% else %}About tarot{% endif %}</a>
+        <a href="{{ url_for('cards_index') }}">{{ ui.nav_cards }}</a>
+        <a href="{{ url_for('card_of_day') }}">{{ ui.nav_card_of_day }}</a>        
+        <a href="{{ url_for('about_app') }}">{{ ui.nav_about_app }}</a>
+        <a href="{{ url_for('about_tarot') }}">{{ ui.nav_about_tarot }}</a>
     </div>
 </nav>
