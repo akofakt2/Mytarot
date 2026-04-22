@@ -1,473 +1,1102 @@
 {
-  "topics": ["general", "money", "relationships", "plans"],
+  "topics": [
+    "general",
+    "money",
+    "relationships",
+    "plans"
+  ],
   "cards": {
     "0": {
-      "general": ["TODO: General meaning for card 0 (The Fool)."],
-      "money": ["TODO: Money meaning for card 0 (The Fool)."],
-      "relationships": ["TODO: Relationships meaning for card 0 (The Fool)."],
-      "plans": ["TODO: Plans meaning for card 0 (The Fool)."]
+      "general": [
+        "Embrace the unknown today with an open heart and a trusting spirit.  A new adventure beckons, inviting you to step forward into your potential."
+      ],
+      "money": [
+        "A spontaneous decision regarding your finances could lead to unexpected opportunities. Trust your intuition as you navigate new paths in your career or spending."
+      ],
+      "relationships": [
+        "Approach your connections with a sense of childlike wonder and authentic expression.  Let go of old patterns and allow for spontaneous moments of joy and connection."
+      ],
+      "plans": [
+        "This is a day to leap into your aspirations with faith, even if the path ahead is unclear.  The universe supports your bold steps forward into what's next."
+      ]
     },
     "1": {
-      "general": ["TODO: General meaning for card 1."],
-      "money": ["TODO: Money meaning for card 1."],
-      "relationships": ["TODO: Relationships meaning for card 1."],
-      "plans": ["TODO: Plans meaning for card 1."]
+      "general": [
+        "Today, you hold all the tools to manifest your desires. Trust in your innate abilities and direct your focus with powerful intent to bring your vision into reality."
+      ],
+      "money": [
+        "Your resourcefulness and skills are your greatest assets for financial success today. Apply your talents with precision to achieve your professional goals and attract abundance."
+      ],
+      "relationships": [
+        "Communicate your needs with clarity and confidence, using your charm and wit to build strong connections.  Your ability to skillfully navigate interactions can bring harmony and understanding."
+      ],
+      "plans": [
+        "This is an opportune day to initiate your most ambitious plans. With focused will and skillful execution, you have the power to make significant progress and bring your intentions to life."
+      ]
     },
     "2": {
-      "general": ["TODO: General meaning for card 2."],
-      "money": ["TODO: Money meaning for card 2."],
-      "relationships": ["TODO: Relationships meaning for card 2."],
-      "plans": ["TODO: Plans meaning for card 2."]
+      "general": [
+        "Your inner wisdom is calling to you today, urging you to listen closely to your intuition. Embrace the mysteries unfolding and trust the quiet voice within to guide your path."
+      ],
+      "money": [
+        "Financial opportunities may be subtle, revealed through instinct rather than overt action. Pay attention to gut feelings regarding investments or career decisions."
+      ],
+      "relationships": [
+        "This is a time for deep, unspoken understanding in your connections. Seek empathy and allow unspoken emotions to guide your interactions with loved ones."
+      ],
+      "plans": [
+        "Resist the urge to rush forward with concrete plans; today is about inner contemplation and allowing insights to surface. Trust that the right path will be revealed when the time is ripe."
+      ]
     },
     "3": {
-      "general": ["TODO: General meaning for card 3."],
-      "money": ["TODO: Money meaning for card 3."],
-      "relationships": ["TODO: Relationships meaning for card 3."],
-      "plans": ["TODO: Plans meaning for card 3."]
+      "general": [
+        "Today, embrace your innate ability to nurture and cultivate. The universe invites you to tap into a wellspring of abundance and creative flow, allowing new growth to blossom in your life."
+      ],
+      "money": [
+        "Your efforts in nurturing projects or investments are likely to yield bountiful returns. This is a day to trust in the abundance that is already present and to expand on what you have."
+      ],
+      "relationships": [
+        "Open your heart to give and receive nurturing energy, fostering deeper connections with loved ones. Your ability to create a supportive and loving environment will be a source of great joy and comfort."
+      ],
+      "plans": [
+        "This is an opportune time to plant seeds for future growth and to tend to your aspirations with care. Trust the process of development; what you lovingly cultivate today will flourish tomorrow."
+      ]
     },
     "4": {
-      "general": ["TODO: General meaning for card 4."],
-      "money": ["TODO: Money meaning for card 4."],
-      "relationships": ["TODO: Relationships meaning for card 4."],
-      "plans": ["TODO: Plans meaning for card 4."]
+      "general": [
+        "Today, you are invited to embody your inner authority and create a solid structure for your aspirations. Embrace leadership and establish firm foundations for lasting stability."
+      ],
+      "money": [
+        "Your finances and career will benefit from a disciplined and structured approach. Focus on building wealth through methodical planning and decisive action."
+      ],
+      "relationships": [
+        "Communicate with confidence and set clear boundaries in your relationships. This is a time for establishing order and respecting established hierarchies."
+      ],
+      "plans": [
+        "This is an excellent day to lay down the groundwork for your most ambitious plans. Your determination and strategic thinking will pave the way for successful implementation."
+      ]
     },
     "5": {
-      "general": ["TODO: General meaning for card 5."],
-      "money": ["TODO: Money meaning for card 5."],
-      "relationships": ["TODO: Relationships meaning for card 5."],
-      "plans": ["TODO: Plans meaning for card 5."]
+      "general": [
+        "Today, you are encouraged to honor established wisdom and seek guidance from those who have walked the path before you. Tune into the energy of tradition and shared beliefs, finding strength in collective understanding."
+      ],
+      "money": [
+        "This is a day to approach your finances with a sense of established order and perhaps seek advice from a mentor. Consider how your current work aligns with your core values and long-term financial beliefs."
+      ],
+      "relationships": [
+        "Your connections today may be strengthened by shared values and open, honest communication rooted in mutual respect. It's a good time to learn from loved ones or to share your own wisdom with them."
+      ],
+      "plans": [
+        "While today is excellent for reflection on established goals and seeking mentorship, it may be best to hold off on radical new ventures. Focus on solidifying existing intentions through proven methods and traditions."
+      ]
     },
     "6": {
-      "general": ["TODO: General meaning for card 6."],
-      "money": ["TODO: Money meaning for card 6."],
-      "relationships": ["TODO: Relationships meaning for card 6."],
-      "plans": ["TODO: Plans meaning for card 6."]
+      "general": [
+        "Today calls for a significant choice, aligning your path with your deepest values. Embrace the power of union and understand that the decisions you make now resonate with your soul's purpose."
+      ],
+      "money": [
+        "This card suggests a choice regarding your career or finances that aligns with your core values. Consider if your current path truly reflects what's important to you materially."
+      ],
+      "relationships": [
+        "Your relationships today are illuminated by the energy of union and shared values. This is a potent time for deepening connections or making choices that foster harmony and understanding."
+      ],
+      "plans": [
+        "The Lovers encourages you to make a deliberate and heartfelt choice regarding your plans. Ensure your intentions are aligned with your authentic self before taking decisive action."
+      ]
     },
     "7": {
-      "general": ["TODO: General meaning for card 7."],
-      "money": ["TODO: Money meaning for card 7."],
-      "relationships": ["TODO: Relationships meaning for card 7."],
-      "plans": ["TODO: Plans meaning for card 7."]
+      "general": [
+        "Today is a day for focused determination, where your willpower becomes your powerful steed. Harness your drive and direct your momentum with unwavering self-control towards your aspirations."
+      ],
+      "money": [
+        "Your financial endeavors can surge forward with disciplined effort, leading to significant progress. Maintain a clear focus and control over your resources to achieve your goals."
+      ],
+      "relationships": [
+        "Communication in your relationships requires a firm yet balanced approach, much like guiding two opposing forces. Channel your energy into assertive and controlled dialogue to foster understanding and harmony."
+      ],
+      "plans": [
+        "This is an opportune time to accelerate your plans with decisive action and unwavering resolve. Your disciplined commitment will pave the way for a triumphant realization of your intentions."
+      ]
     },
     "8": {
-      "general": ["TODO: General meaning for card 8."],
-      "money": ["TODO: Money meaning for card 8."],
-      "relationships": ["TODO: Relationships meaning for card 8."],
-      "plans": ["TODO: Plans meaning for card 8."]
+      "general": [
+        "Today, you possess the quiet power to overcome any obstacle with grace and unwavering resolve. Tap into your inner strength and approach challenges with gentle patience, for true fortitude lies within your calm heart."
+      ],
+      "money": [
+        "Your resourcefulness and patient approach will serve you well in financial matters today. Trust your ability to manage resources wisely and to find innovative solutions to any work-related challenges."
+      ],
+      "relationships": [
+        "Your capacity for empathy and understanding is a powerful gift in your connections today. Use your inner calm to foster deeper bonds and resolve any misunderstandings with gentle persuasion."
+      ],
+      "plans": [
+        "This is an excellent day to move forward with your goals, but do so with a steady hand and a resilient spirit. Your inner power is amplified, allowing you to face future endeavors with confidence and quiet determination."
+      ]
     },
     "9": {
-      "general": ["TODO: General meaning for card 9."],
-      "money": ["TODO: Money meaning for card 9."],
-      "relationships": ["TODO: Relationships meaning for card 9."],
-      "plans": ["TODO: Plans meaning for card 9."]
+      "general": [
+        "Today, you are called to embrace a period of introspection and seek your inner wisdom. Tune into the quiet guidance that arises when you step away from the noise of the world."
+      ],
+      "money": [
+        "This is a time for careful consideration of your financial path, rather than impulsive action. Seek clarity and insight into your resources before making any significant material decisions."
+      ],
+      "relationships": [
+        "You may find solace and deeper understanding by spending some time alone to reflect on your connections. True connection often blossoms from self-awareness and inner peace."
+      ],
+      "plans": [
+        "It is wise to pause and consult your inner compass before charting new courses. Use this day for contemplation and discerning the most authentic direction for your future intentions."
+      ]
     },
     "10": {
-      "general": ["TODO: General meaning for card 10."],
-      "money": ["TODO: Money meaning for card 10."],
-      "relationships": ["TODO: Relationships meaning for card 10."],
-      "plans": ["TODO: Plans meaning for card 10."]
+      "general": [
+        "Embrace the turning tides of destiny today, as the Wheel of Fortune signals a significant shift.  This is a day to trust the unfolding cosmic dance, for what comes around will be a lesson and a blessing."
+      ],
+      "money": [
+        "Financial winds are changing; expect unexpected opportunities or a necessary redirection in your career path.  Adaptability will be your greatest asset in navigating these material currents."
+      ],
+      "relationships": [
+        "Relationships may experience a pivotal moment, bringing about closure or initiating a fresh, transformative chapter.  Be open to the natural evolution of your connections, for true bonds are meant to adapt."
+      ],
+      "plans": [
+        "Today is a powerful day for acknowledging past efforts and releasing what no longer serves, preparing for new cycles to begin.  While grand new beginnings might need a moment, the universe is setting the stage for your future intentions."
+      ]
     },
     "11": {
-      "general": ["TODO: General meaning for card 11."],
-      "money": ["TODO: Money meaning for card 11."],
-      "relationships": ["TODO: Relationships meaning for card 11."],
-      "plans": ["TODO: Plans meaning for card 11."]
+      "general": [
+        "Today, the scales of fate are balanced, urging you to seek truth and act with integrity. Embrace fairness in all your dealings and trust that the universe will guide you towards what is right."
+      ],
+      "money": [
+        "Financial decisions require clear-eyed honesty; ensure all transactions are just and equitable. This is a day for responsible budgeting and accountability in your professional sphere."
+      ],
+      "relationships": [
+        "Open and truthful communication is paramount in your connections today. Address any imbalances with fairness and a commitment to understanding, fostering harmony."
+      ],
+      "plans": [
+        "This is an excellent time to review and realign your intentions with your true values. Ensure your future steps are grounded in justice and will lead to a fair outcome."
+      ]
     },
     "12": {
-      "general": ["TODO: General meaning for card 12."],
-      "money": ["TODO: Money meaning for card 12."],
-      "relationships": ["TODO: Relationships meaning for card 12."],
-      "plans": ["TODO: Plans meaning for card 12."]
+      "general": [
+        "Today calls for a deliberate pause, a moment to suspend your usual striving. Embrace the opportunity to see things from an entirely new angle, allowing for a profound shift in understanding."
+      ],
+      "money": [
+        "Financial progress may seem to stall, but this is a vital time for re-evaluation rather than action. Surrender to a period of assessment before making any moves regarding your resources or career."
+      ],
+      "relationships": [
+        "Communication might require patience and a willingness to see a situation through your loved one's eyes. Let go of the need to control outcomes and allow connections to flow organically."
+      ],
+      "plans": [
+        "This is not a day for forceful execution of your goals, but rather for contemplation and inner recalibration. Hold off on initiating new ventures; instead, focus on the wisdom gained from stillness."
+      ]
     },
     "13": {
-      "general": ["TODO: General meaning for card 13."],
-      "money": ["TODO: Money meaning for card 13."],
-      "relationships": ["TODO: Relationships meaning for card 13."],
-      "plans": ["TODO: Plans meaning for card 13."]
+      "general": [
+        "Embrace the inevitable cycles of change as old chapters close, clearing the path for profound renewal. Release what no longer serves you, trusting that transformation is unfolding with grace."
+      ],
+      "money": [
+        "Financial shifts may be indicated, urging you to let go of outdated strategies or unproductive ventures. This is a powerful time for rebirth in your career, perhaps through a significant ending or a fresh start."
+      ],
+      "relationships": [
+        "This card calls for the dissolution of old patterns or dynamics within your connections to allow for more authentic intimacy. Release grudges or outdated expectations to make space for deeper understanding and growth."
+      ],
+      "plans": [
+        "Today is not about starting anew, but about intentionally concluding projects or phases that have run their course. Trust the process of release; it is essential for the fertile ground where new dreams will eventually bloom."
+      ]
     },
     "14": {
-      "general": ["TODO: General meaning for card 14."],
-      "money": ["TODO: Money meaning for card 14."],
-      "relationships": ["TODO: Relationships meaning for card 14."],
-      "plans": ["TODO: Plans meaning for card 14."]
+      "general": [
+        "Today calls for a harmonious blending of your inner and outer worlds, finding grace in the flow of life. Embrace moderation and allow a sense of peace to guide your actions and thoughts."
+      ],
+      "money": [
+        "Your financial energies are finding equilibrium; this is a day for careful budgeting and measured investments rather than impulsive spending. Seek balance in your work and resources."
+      ],
+      "relationships": [
+        "Cultivate gentle understanding and patient communication with those you hold dear, fostering healing and connection. Seek harmony in your interactions and find common ground."
+      ],
+      "plans": [
+        "This is a favorable time for thoughtful integration and preparation, rather than swift action. Review and refine your intentions with a steady hand before moving forward."
+      ]
     },
     "15": {
-      "general": ["TODO: General meaning for card 15."],
-      "money": ["TODO: Money meaning for card 15."],
-      "relationships": ["TODO: Relationships meaning for card 15."],
-      "plans": ["TODO: Plans meaning for card 15."]
+      "general": [
+        "Today invites you to examine your attachments and any patterns that may be binding you. Embrace this opportunity to face your shadow self with courage and find liberation from what holds you back."
+      ],
+      "money": [
+        "Be mindful of temptations that might lead to impulsive spending or risky financial ventures. True wealth comes from conscious choices, not fleeting desires."
+      ],
+      "relationships": [
+        "Consider if any relationships are fostering unhealthy dependencies or temptations. This is a day for honest introspection about your connections and the shadows they may reflect."
+      ],
+      "plans": [
+        "Avoid making significant new commitments or plans that are driven by immediate gratification. It's a time to understand the roots of your desires before setting intentions in motion."
+      ]
     },
     "16": {
-      "general": ["TODO: General meaning for card 16."],
-      "money": ["TODO: Money meaning for card 16."],
-      "relationships": ["TODO: Relationships meaning for card 16."],
-      "plans": ["TODO: Plans meaning for card 16."]
+      "general": [
+        "Prepare for a profound shift as old structures crumble, paving the way for authentic truth to emerge. Embrace this upheaval as a necessary reset, clearing the path for what truly serves you."
+      ],
+      "money": [
+        "Unexpected events may shake your financial foundations, prompting a re-evaluation of your resources and career paths. It's a time for honest assessment, not for clinging to what no longer provides stability."
+      ],
+      "relationships": [
+        "Deep revelations can surface in your connections, potentially disrupting existing dynamics for greater honesty. Allow this cathartic energy to clear away illusions and rebuild on a foundation of genuine understanding."
+      ],
+      "plans": [
+        "Today is not for building upon existing foundations, but for acknowledging when those foundations are weak. A pause is necessary before new plans can be laid on solid, newly cleared ground."
+      ]
     },
     "17": {
-      "general": ["TODO: General meaning for card 17."],
-      "money": ["TODO: Money meaning for card 17."],
-      "relationships": ["TODO: Relationships meaning for card 17."],
-      "plans": ["TODO: Plans meaning for card 17."]
+      "general": [
+        "Today, you are bathed in the gentle glow of hope and renewal, a guiding light illuminating your path forward. Embrace this serene energy as a promise of brighter days and trust the quiet wisdom within."
+      ],
+      "money": [
+        "Financial matters may feel more stable and promising today, with opportunities for replenishment or clarity appearing.  This is a time to trust your intuition regarding your resources and future prosperity."
+      ],
+      "relationships": [
+        "A sense of peace and understanding can permeate your interactions, fostering deeper connection and shared optimism.  Allow yourself to be a source of comfort and inspiration for those you care about."
+      ],
+      "plans": [
+        "This is an excellent day to gently sow the seeds of your aspirations, as hope and inspiration are amplified.  Trust that the universe is aligning to support your heartfelt intentions and future endeavors."
+      ]
     },
     "18": {
-      "general": ["TODO: General meaning for card 18."],
-      "money": ["TODO: Money meaning for card 18."],
-      "relationships": ["TODO: Relationships meaning for card 18."],
-      "plans": ["TODO: Plans meaning for card 18."]
+      "general": [
+        "Trust your inner voice today, as the veil between the seen and unseen is thin. Embrace the mystery, and allow your intuition to guide you through any fog of uncertainty."
+      ],
+      "money": [
+        "Financial matters may feel unclear or deceptive; avoid making hasty decisions regarding money. It's a day to observe and reflect rather than to aggressively pursue material gains."
+      ],
+      "relationships": [
+        "Navigating emotions requires sensitivity and empathy, as hidden feelings may surface. Listen carefully to what is unsaid, and approach conversations with an open heart."
+      ],
+      "plans": [
+        "This is not the time for definitive actions or bold leaps forward. Instead, focus on understanding the underlying currents before charting your course or making firm commitments."
+      ]
     },
     "19": {
-      "general": ["TODO: General meaning for card 19."],
-      "money": ["TODO: Money meaning for card 19."],
-      "relationships": ["TODO: Relationships meaning for card 19."],
-      "plans": ["TODO: Plans meaning for card 19."]
+      "general": [
+        "Embrace the brilliant energy of The Sun today, filling your spirit with pure joy and unwavering vitality. This is a day for radiant optimism and feeling truly alive."
+      ],
+      "money": [
+        "Financial clarity and success shine upon you, making today ideal for celebrating achievements or confidently tackling new ventures. Your efforts are likely to be met with positive and rewarding outcomes."
+      ],
+      "relationships": [
+        "Open hearts and genuine connections flourish under The Sun's warm glow. Share your happiness and bask in the delightful camaraderie of those you hold dear."
+      ],
+      "plans": [
+        "This is a powerful day to launch your aspirations and witness them bloom with vibrant success. Trust your instincts and move forward with confident enthusiasm towards your deepest desires."
+      ]
     },
     "20": {
-      "general": ["TODO: General meaning for card 20."],
-      "money": ["TODO: Money meaning for card 20."],
-      "relationships": ["TODO: Relationships meaning for card 20."],
-      "plans": ["TODO: Plans meaning for card 20."]
+      "general": [
+        "A powerful awakening is upon you today, calling you to reflect on your journey and hear your inner truth. Embrace this moment of profound introspection and prepare to answer your soul's true calling."
+      ],
+      "money": [
+        "Review your financial path and career decisions with honesty; a new direction or recognition may be on the horizon. Your past efforts are being judged favorably, leading to potential opportunities for advancement or reward."
+      ],
+      "relationships": [
+        "Deep, honest communication is key today, as old patterns may be released for a more authentic connection. Listen to the inner voice regarding your loved ones and be open to calls for reconciliation or deeper understanding."
+      ],
+      "plans": [
+        "This is a time for crucial evaluation, not necessarily for grand new beginnings. Before moving forward, take stock of where you are and ensure your future plans align with your awakened spirit."
+      ]
     },
     "21": {
-      "general": ["TODO: General meaning for card 21."],
-      "money": ["TODO: Money meaning for card 21."],
-      "relationships": ["TODO: Relationships meaning for card 21."],
-      "plans": ["TODO: Plans meaning for card 21."]
+      "general": [
+        "Today is a day of profound completion and integration, a beautiful moment to embrace a sense of wholeness. You are at the culmination of a significant cycle, ready to celebrate your journey and mastery."
+      ],
+      "money": [
+        "A project or career phase reaches a successful conclusion, bringing a sense of accomplishment and potential financial reward. This is a time to enjoy the fruits of your labor and integrate your achievements."
+      ],
+      "relationships": [
+        "Deep understanding and harmonious connection mark your interactions today, bringing relationships into a state of joyful integration. You may feel a profound sense of unity and shared accomplishment with loved ones."
+      ],
+      "plans": [
+        "This is an auspicious time to finalize existing intentions and celebrate their successful realization. With a sense of mastery, you are perfectly positioned to set new, inspired goals for the future."
+      ]
     },
     "22": {
-      "general": ["TODO: General meaning for card 22."],
-      "money": ["TODO: Money meaning for card 22."],
-      "relationships": ["TODO: Relationships meaning for card 22."],
-      "plans": ["TODO: Plans meaning for card 22."]
+      "general": [
+        "A powerful new spark of inspiration ignites your spirit today, urging you to take bold initiative. Embrace this surge of creative energy and let it guide your actions."
+      ],
+      "money": [
+        "This is a day for fresh starts in your career and finances; a new project or opportunity may present itself. Trust your instincts to pursue promising ventures that align with your burgeoning ambitions."
+      ],
+      "relationships": [
+        "New beginnings and passionate energy are present in your connections. A significant conversation or a shared creative endeavor could spark a deeper bond with a loved one."
+      ],
+      "plans": [
+        "The universe is handing you a wand of pure potential; today is ideal for initiating new ventures and setting your intentions into motion. Let this potent energy fuel your forward momentum."
+      ]
     },
     "23": {
-      "general": ["TODO: General meaning for card 23."],
-      "money": ["TODO: Money meaning for card 23."],
-      "relationships": ["TODO: Relationships meaning for card 23."],
-      "plans": ["TODO: Plans meaning for card 23."]
+      "general": [
+        "Today calls for contemplation as you stand at a crossroads, envisioning the path ahead. Embrace the expansive energy of your dreams and begin to sketch out your next grand adventure."
+      ],
+      "money": [
+        "Your career and finances may be presenting new opportunities for growth and strategic planning. It's a moment to consider expanding your horizons and setting bolder financial goals."
+      ],
+      "relationships": [
+        "Consider the wider spectrum of your connections and how you can cultivate deeper understanding. Communication today is about shared visions and exploring what future you wish to build together."
+      ],
+      "plans": [
+        "This is an opportune time to finalize your intentions and begin mapping out the details of your aspirations. Trust your intuition as you step forward to manifest the future you have so carefully envisioned."
+      ]
     },
     "24": {
-      "general": ["TODO: General meaning for card 24."],
-      "money": ["TODO: Money meaning for card 24."],
-      "relationships": ["TODO: Relationships meaning for card 24."],
-      "plans": ["TODO: Plans meaning for card 24."]
+      "general": [
+        "The currents of progress are strong today, carrying you towards a wider horizon. Embrace the momentum and trust the unfolding of your journey."
+      ],
+      "money": [
+        "Opportunities for growth and positive financial developments are on the horizon. This is a day to confidently pursue your professional ambitions and witness the fruits of your labor."
+      ],
+      "relationships": [
+        "Communication flows openly, fostering understanding and shared vision with loved ones. Cast your gaze towards the future together, celebrating the progress you've made as a team."
+      ],
+      "plans": [
+        "The stars align for you to take bold steps forward and explore new ventures. Your vision is clear, and the universe supports the expansion of your intentions."
+      ]
     },
     "25": {
-      "general": ["TODO: General meaning for card 25."],
-      "money": ["TODO: Money meaning for card 25."],
-      "relationships": ["TODO: Relationships meaning for card 25."],
-      "plans": ["TODO: Plans meaning for card 25."]
+      "general": [
+        "Today calls for celebration and basking in the warmth of a joyful milestone. Embrace the stability and happiness that surrounds you as you honor your achievements."
+      ],
+      "money": [
+        "Expect a sense of accomplishment and security in your financial endeavors today. This is a good time to acknowledge progress and enjoy the fruits of your labor."
+      ],
+      "relationships": [
+        "Your connections are a source of joy and stability, so celebrate your loved ones and the foundations you've built together. Share your happiness and find comfort in your shared sense of home."
+      ],
+      "plans": [
+        "This is an auspicious day to celebrate past accomplishments and find solid ground before embarking on new ventures. Rest and acknowledge your progress; a stable foundation awaits your next steps."
+      ]
     },
     "26": {
-      "general": ["TODO: General meaning for card 26."],
-      "money": ["TODO: Money meaning for card 26."],
-      "relationships": ["TODO: Relationships meaning for card 26."],
-      "plans": ["TODO: Plans meaning for card 26."]
+      "general": [
+        "Today, you may find yourself navigating playful competition or minor disagreements that ultimately forge strength. Embrace the energetic push and pull as a chance to test your mettle and refine your approach."
+      ],
+      "money": [
+        "Expect a lively environment in your professional sphere, perhaps with differing opinions on projects or strategies.  This is a day for negotiation and finding consensus to move forward effectively."
+      ],
+      "relationships": [
+        "Communication might feel a bit spirited today, with various perspectives clashing in a constructive way.  Listen intently to others' viewpoints, as this friction can lead to deeper understanding and stronger bonds."
+      ],
+      "plans": [
+        "While today offers opportunities to stand your ground and assert your ideas, it's best to approach new ventures with a sense of healthy debate rather than immediate action.  Refine your strategies through this dynamic exchange before launching."
+      ]
     },
     "27": {
-      "general": ["TODO: General meaning for card 27."],
-      "money": ["TODO: Money meaning for card 27."],
-      "relationships": ["TODO: Relationships meaning for card 27."],
-      "plans": ["TODO: Plans meaning for card 27."]
+      "general": [
+        "Today is a day to bask in the glow of your achievements. You've worked hard, and recognition is rightfully yours, boosting your inner confidence."
+      ],
+      "money": [
+        "Expect positive developments in your career or financial ventures. Your efforts are being acknowledged, potentially leading to rewards or a stronger sense of security."
+      ],
+      "relationships": [
+        "Share your triumphs with loved ones and receive their admiration. This is a wonderful time for celebrating shared successes and strengthening bonds through mutual appreciation."
+      ],
+      "plans": [
+        "It's an excellent day to move forward with your goals, especially those where you've already laid solid groundwork. Your confidence will empower you to take decisive, successful steps."
+      ]
     },
     "28": {
-      "general": ["TODO: General meaning for card 28."],
-      "money": ["TODO: Money meaning for card 28."],
-      "relationships": ["TODO: Relationships meaning for card 28."],
-      "plans": ["TODO: Plans meaning for card 28."]
+      "general": [
+        "Today calls for you to stand firm in your convictions and defend your personal space. Embrace your inner strength and courage to protect what you believe in."
+      ],
+      "money": [
+        "You may need to assert your value and negotiate for what you deserve in your professional or financial dealings. Be prepared to stand your ground to secure your resources."
+      ],
+      "relationships": [
+        "It's a day to set clear boundaries with loved ones and communicate your needs with unwavering resolve. Protect your emotional energy and ensure your voice is heard."
+      ],
+      "plans": [
+        "While today is about holding your position, it's not necessarily a time to push forward with brand new initiatives. Focus on solidifying what you already have before venturing into new territory."
+      ]
     },
     "29": {
-      "general": ["TODO: General meaning for card 29."],
-      "money": ["TODO: Money meaning for card 29."],
-      "relationships": ["TODO: Relationships meaning for card 29."],
-      "plans": ["TODO: Plans meaning for card 29."]
+      "general": [
+        "Prepare for swift action and exciting news that will propel you forward. Embrace the rapid flow of energy and allow yourself to be carried by the winds of change."
+      ],
+      "money": [
+        "Financial matters are moving at a rapid pace, potentially bringing unexpected opportunities or quick resolutions. Keep an eye out for timely information that could impact your resources."
+      ],
+      "relationships": [
+        "Communication is key today, with messages arriving swiftly and potentially altering the course of your connections. Be open to receiving and sending information that fosters understanding and progress."
+      ],
+      "plans": [
+        "This is an auspicious time for launching new initiatives and seeing your plans take flight with incredible speed. Trust the momentum and allow your intentions to manifest rapidly."
+      ]
     },
     "30": {
-      "general": ["TODO: General meaning for card 30."],
-      "money": ["TODO: Money meaning for card 30."],
-      "relationships": ["TODO: Relationships meaning for card 30."],
-      "plans": ["TODO: Plans meaning for card 30."]
+      "general": [
+        "Today, you'll discover a deep well of resilience within yourself, finding the strength to push forward even when weary. Trust that your persistence will see you through any current challenges."
+      ],
+      "money": [
+        "Your dedication to your work will pay off, though you may feel the strain of continued effort. Keep your focus sharp and your guard up against unnecessary expenses."
+      ],
+      "relationships": [
+        "You might feel a need to protect your energy in relationships today, which is understandable given your efforts. Communicate your boundaries gently but firmly, and know that your loved ones understand your dedication."
+      ],
+      "plans": [
+        "This is a day for steadfast commitment to your existing path, not necessarily for bold new beginnings. Continue building upon what you've already started with unwavering determination."
+      ]
     },
     "31": {
-      "general": ["TODO: General meaning for card 31."],
-      "money": ["TODO: Money meaning for card 31."],
-      "relationships": ["TODO: Relationships meaning for card 31."],
-      "plans": ["TODO: Plans meaning for card 31."]
+      "general": [
+        "You're carrying a heavy load today, feeling the weight of your responsibilities.  It may be time to assess what you can delegate or let go of to ease your burden."
+      ],
+      "money": [
+        "Financial matters might feel demanding, with a need to manage multiple obligations. Focus on diligent execution and see if any tasks can be streamlined to reduce pressure."
+      ],
+      "relationships": [
+        "You might feel stretched thin in your connections, carrying the weight of others' needs.  Gentle communication is key to sharing your load and finding mutual support."
+      ],
+      "plans": [
+        "This is not the day to initiate entirely new ventures, as you're already managing significant commitments.  Focus on completing existing tasks and pacing yourself wisely."
+      ]
     },
     "32": {
-      "general": ["TODO: General meaning for card 32."],
-      "money": ["TODO: Money meaning for card 32."],
-      "relationships": ["TODO: Relationships meaning for card 32."],
-      "plans": ["TODO: Plans meaning for card 32."]
+      "general": [
+        "Embrace your inner explorer today, as a spark of curiosity ignites your path. You're poised to receive exciting news that could lead to new adventures."
+      ],
+      "money": [
+        "An opportunity for learning or a new project may present itself, bringing fresh energy to your work. Stay open to innovative ideas that could boost your financial outlook."
+      ],
+      "relationships": [
+        "Share your discoveries and inspirations with loved ones, fostering open communication. This is a time for playful connection and perhaps receiving delightful tidbits from those around you."
+      ],
+      "plans": [
+        "Today is ideal for exploring nascent ideas and gathering information before taking concrete action. Let your enthusiasm guide you as you begin to chart new territories for your aspirations."
+      ]
     },
     "33": {
-      "general": ["TODO: General meaning for card 33."],
-      "money": ["TODO: Money meaning for card 33."],
-      "relationships": ["TODO: Relationships meaning for card 33."],
-      "plans": ["TODO: Plans meaning for card 33."]
+      "general": [
+        "Today is a day for bold action and embracing new adventures that call to your spirit.  Feel the surge of dynamic energy and charge forward with passion and conviction."
+      ],
+      "money": [
+        "Your drive and ambition can propel your career forward today; consider taking initiative on exciting projects.  Be confident in your pursuit of financial opportunities, but temper impulse with practicality."
+      ],
+      "relationships": [
+        "Express your passions openly and enthusiastically in your connections.  This is a time for dynamic interactions, so embrace lively conversations and shared excitement with loved ones."
+      ],
+      "plans": [
+        "This is an auspicious day for initiating new ventures and making decisive moves towards your goals.  Trust your instincts and leap into action with courage and a clear vision."
+      ]
     },
     "34": {
-      "general": ["TODO: General meaning for card 34."],
-      "money": ["TODO: Money meaning for card 34."],
-      "relationships": ["TODO: Relationships meaning for card 34."],
-      "plans": ["TODO: Plans meaning for card 34."]
+      "general": [
+        "Embrace your inner fire and lead with unwavering confidence today. Your natural warmth and charisma are powerful forces, inspiring those around you."
+      ],
+      "money": [
+        "Your bold initiative and ability to command attention can unlock new opportunities in your career or business. Trust your instincts when it comes to financial ventures."
+      ],
+      "relationships": [
+        "Share your vibrant energy and optimistic outlook with your loved ones, fostering connection and joy. Your openhearted nature invites deeper understanding and appreciation."
+      ],
+      "plans": [
+        "This is an excellent day to confidently step forward with your aspirations. Your natural leadership qualities will help guide your plans to fruition."
+      ]
     },
     "35": {
-      "general": ["TODO: General meaning for card 35."],
-      "money": ["TODO: Money meaning for card 35."],
-      "relationships": ["TODO: Relationships meaning for card 35."],
-      "plans": ["TODO: Plans meaning for card 35."]
+      "general": [
+        "Embrace your inner leader today, King of Wands invites you to step into your vision with confidence and courage. Your creative power is amplified, allowing you to inspire and guide with natural authority."
+      ],
+      "money": [
+        "This is a day for bold financial decisions and taking charge of your career path. Your innovative ideas can lead to significant progress and recognition in your professional endeavors."
+      ],
+      "relationships": [
+        "Your passionate and charismatic energy draws others to you, fostering open communication and shared inspiration. Lead with enthusiasm and encourage others to express their own unique strengths."
+      ],
+      "plans": [
+        "The King of Wands signifies a prime time to launch ambitious projects and manifest your goals. Trust your instincts and move forward with unwavering determination to bring your vision to life."
+      ]
     },
     "36": {
-      "general": ["TODO: General meaning for card 36."],
-      "money": ["TODO: Money meaning for card 36."],
-      "relationships": ["TODO: Relationships meaning for card 36."],
-      "plans": ["TODO: Plans meaning for card 36."]
+      "general": [
+        "Today invites you to open your heart to new emotional beginnings and embrace a wave of love. Tune into the energy of renewal and let genuine feelings flow freely."
+      ],
+      "money": [
+        "Abundance and emotional fulfillment can bring a sense of satisfaction to your work. Consider how joy and passion can fuel your financial endeavors."
+      ],
+      "relationships": [
+        "This is a beautiful day for deep emotional connections and expressing your love openly. You are encouraged to foster new beginnings and heal through empathy."
+      ],
+      "plans": [
+        "Seize this moment to initiate projects driven by love and passion, as creative emotional energy is abundant. Your heartfelt intentions are ripe for beginning today."
+      ]
     },
     "37": {
-      "general": ["TODO: General meaning for card 37."],
-      "money": ["TODO: Money meaning for card 37."],
-      "relationships": ["TODO: Relationships meaning for card 37."],
-      "plans": ["TODO: Plans meaning for card 37."]
+      "general": [
+        "Today, embrace the magic of connection and mutual exchange as you forge deeper bonds. This is a powerful day for recognizing shared energies and harmonious partnerships."
+      ],
+      "money": [
+        "Look for opportunities to collaborate and share resources in your professional life. A shared vision or joint venture could bring unexpected financial rewards or a sense of shared success."
+      ],
+      "relationships": [
+        "You are likely to experience deep emotional understanding and a beautiful give-and-take in your connections. This is an ideal time for open communication and celebrating unity with loved ones."
+      ],
+      "plans": [
+        "This is a wonderful day to align your intentions with another, making shared goals feel more achievable. Together, you can lay the foundation for a successful partnership or a unified endeavor."
+      ]
     },
     "38": {
-      "general": ["TODO: General meaning for card 38."],
-      "money": ["TODO: Money meaning for card 38."],
-      "relationships": ["TODO: Relationships meaning for card 38."],
-      "plans": ["TODO: Plans meaning for card 38."]
+      "general": [
+        "Today is a day for joyful connection and shared experiences. Embrace the energy of camaraderie and let your spirit shine in the company of others."
+      ],
+      "money": [
+        "Collaboration and shared endeavors could bring financial benefits today. Consider pooling resources or celebrating team successes to foster abundance."
+      ],
+      "relationships": [
+        "This is a perfect day for strengthening bonds with friends and loved ones. Open communication and shared joy will deepen your connections and bring harmony."
+      ],
+      "plans": [
+        "Gather your allies and celebrate your progress as you move forward with your intentions. Today's collective energy supports the realization of shared dreams and happy outcomes."
+      ]
     },
     "39": {
-      "general": ["TODO: General meaning for card 39."],
-      "money": ["TODO: Money meaning for card 39."],
-      "relationships": ["TODO: Relationships meaning for card 39."],
-      "plans": ["TODO: Plans meaning for card 39."]
+      "general": [
+        "Today invites a pause for quiet reflection, as you may feel a sense of apathy towards your current path. It's a moment to reevaluate what truly brings you fulfillment and to consider if new opportunities are being overlooked."
+      ],
+      "money": [
+        "Your focus may shift from immediate financial gains to assessing your long-term career satisfaction. Consider if your current work aligns with your deeper values rather than just material rewards."
+      ],
+      "relationships": [
+        "You might be experiencing a period of emotional introspection within your connections. Take time to consider what you truly need and desire from your relationships, and perhaps communicate these evolving feelings gently."
+      ],
+      "plans": [
+        "This is a time for contemplation, not necessarily for immediate action. Before launching new endeavors, ensure they resonate with your renewed sense of purpose after this period of reevaluation."
+      ]
     },
     "40": {
-      "general": ["TODO: General meaning for card 40."],
-      "money": ["TODO: Money meaning for card 40."],
-      "relationships": ["TODO: Relationships meaning for card 40."],
-      "plans": ["TODO: Plans meaning for card 40."]
+      "general": [
+        "Today, acknowledge any feelings of loss or disappointment, but remember that even in sorrow, there's a path forward. The universe encourages you to learn from what has passed and to find strength in your resilience."
+      ],
+      "money": [
+        "You may encounter unexpected setbacks or a sense of dissatisfaction with current financial outcomes. It's a day to be mindful of expenses and to avoid making impulsive decisions regarding your career or investments."
+      ],
+      "relationships": [
+        "A past hurt or misunderstanding may surface, prompting you to reflect on what could have been. Approach loved ones with gentle honesty, but focus on healing and understanding rather than dwelling on regret."
+      ],
+      "plans": [
+        "This is not the most opportune moment to initiate ambitious new projects or chase dreams that feel out of reach. It is wiser to pause, process recent events, and prepare for future endeavors once you have integrated today's lessons."
+      ]
     },
     "41": {
-      "general": ["TODO: General meaning for card 41."],
-      "money": ["TODO: Money meaning for card 41."],
-      "relationships": ["TODO: Relationships meaning for card 41."],
-      "plans": ["TODO: Plans meaning for card 41."]
+      "general": [
+        "Today, you may be drawn to pleasant memories and a sense of innocent joy. Embrace the gentle nostalgia that washes over you, as it offers a sweet reminder of where you've come from."
+      ],
+      "money": [
+        "Past efforts or generous acts may bring unexpected small comforts or a sense of gratitude regarding your finances. It's a day for appreciating what you have rather than aggressive pursuit of more."
+      ],
+      "relationships": [
+        "Reconnect with loved ones by sharing happy memories and offering simple kindness. This is a wonderful day to nurture bonds and find comfort in familiar connections."
+      ],
+      "plans": [
+        "While it's a beautiful day for reflection, it may not be ideal for launching entirely new ventures. Focus on solidifying existing foundations or revisiting past projects with a fresh, hopeful perspective."
+      ]
     },
     "42": {
-      "general": ["TODO: General meaning for card 42."],
-      "money": ["TODO: Money meaning for card 42."],
-      "relationships": ["TODO: Relationships meaning for card 42."],
-      "plans": ["TODO: Plans meaning for card 42."]
+      "general": [
+        "Today, you are presented with a dazzling array of choices, but be discerning as some may be mere illusions. Tune into your intuition to sift through the dreams and discover what truly nourishes your soul."
+      ],
+      "money": [
+        "Your creative vision is strong, perhaps leading to exciting new ideas for income. However, be cautious of speculative investments or offers that seem too good to be true; clarity is key to financial well-being."
+      ],
+      "relationships": [
+        "You may find yourself daydreaming about ideal connections or facing confusing interactions. Take time to understand what you genuinely desire in your relationships and communicate your true feelings with honesty."
+      ],
+      "plans": [
+        "This is a day for contemplation rather than decisive action on your goals. Explore your fantasies and aspirations, but hold off on committing to major steps until your path becomes clearer."
+      ]
     },
     "43": {
-      "general": ["TODO: General meaning for card 43."],
-      "money": ["TODO: Money meaning for card 43."],
-      "relationships": ["TODO: Relationships meaning for card 43."],
-      "plans": ["TODO: Plans meaning for card 43."]
+      "general": [
+        "You are called to leave behind what no longer serves your soul's true purpose. Embrace this transition as you embark on a journey toward deeper fulfillment and authentic self-discovery."
+      ],
+      "money": [
+        "It may be time to re-evaluate your career path or financial commitments if they are not aligning with your values. Trust your intuition to guide you toward more meaningful pursuits, even if it means letting go of the familiar."
+      ],
+      "relationships": [
+        "Consider if certain connections are holding you back from personal growth. This is an opportunity to shed old patterns and seek relationships that nourish your spirit and encourage your evolution."
+      ],
+      "plans": [
+        "While the energy of departure is strong, new beginnings are on the horizon. Allow yourself to complete one phase before fully initiating the next, ensuring your new path is rooted in genuine intention."
+      ]
     },
     "44": {
-      "general": ["TODO: General meaning for card 44."],
-      "money": ["TODO: Money meaning for card 44."],
-      "relationships": ["TODO: Relationships meaning for card 44."],
-      "plans": ["TODO: Plans meaning for card 44."]
+      "general": [
+        "Today, you are likely to experience a deep sense of satisfaction and contentment, as your wishes may manifest. Embrace this feeling of fulfillment and acknowledge the blessings you've received."
+      ],
+      "money": [
+        "Financial abundance and a sense of security are highlighted today, bringing you contentment with your material progress. This is a favorable time to enjoy the rewards of your hard work."
+      ],
+      "relationships": [
+        "Your relationships are filled with warmth and happiness, as mutual contentment and understanding flourish. Celebrate the joy and fulfillment you share with your loved ones."
+      ],
+      "plans": [
+        "It's a beautiful day to celebrate your accomplishments and savor the present moment, as your current plans have likely brought you to a place of wish fulfillment. While progress is often ongoing, today invites a pause for joyful appreciation."
+      ]
     },
     "45": {
-      "general": ["TODO: General meaning for card 45."],
-      "money": ["TODO: Money meaning for card 45."],
-      "relationships": ["TODO: Relationships meaning for card 45."],
-      "plans": ["TODO: Plans meaning for card 45."]
+      "general": [
+        "Today, you are bathed in the warm glow of emotional fulfillment and domestic bliss. Embrace the abundance of joy and harmony that fills your world, celebrating the blessings of connection."
+      ],
+      "money": [
+        "Financial matters flow with ease, reflecting a sense of security and contentment. Your hard work is likely to be rewarded with stability and the satisfaction of accomplishment."
+      ],
+      "relationships": [
+        "Deep bonds of love and family are at the forefront, bringing profound happiness and a sense of belonging. Nurture these connections, for they are a source of immense strength and delight."
+      ],
+      "plans": [
+        "This is a wonderfully auspicious time to solidify your long-term goals, especially those related to home and family. The universe aligns to support the realization of your heartfelt desires and shared dreams."
+      ]
     },
     "46": {
-      "general": ["TODO: General meaning for card 46."],
-      "money": ["TODO: Money meaning for card 46."],
-      "relationships": ["TODO: Relationships meaning for card 46."],
-      "plans": ["TODO: Plans meaning for card 46."]
+      "general": [
+        "A delightful surprise or heartfelt message may arrive today, inviting you to embrace emotional openness. Tune into your intuition and let curiosity guide you towards new creative or spiritual beginnings."
+      ],
+      "money": [
+        "An unexpected opportunity or a positive update regarding your finances could surface, encouraging a more intuitive approach to your work. Remain open to new ideas that may bring about gentle growth."
+      ],
+      "relationships": [
+        "You might receive a tender message or experience a surge of affectionate curiosity in your connections. This is a beautiful time to express your feelings openly and foster deeper emotional bonds."
+      ],
+      "plans": [
+        "Today is wonderful for initiating plans fueled by genuine emotion and creative inspiration. Trust your inner voice as you explore new emotional territories and express your heartfelt intentions."
+      ]
     },
     "47": {
-      "general": ["TODO: General meaning for card 47."],
-      "money": ["TODO: Money meaning for card 47."],
-      "relationships": ["TODO: Relationships meaning for card 47."],
-      "plans": ["TODO: Plans meaning for card 47."]
+      "general": [
+        "Today, let your heart guide your actions with a spirit of romance and idealism. An invitation, perhaps to adventure or emotional connection, may be on its way, urging you to follow your deepest desires."
+      ],
+      "money": [
+        "This card suggests a day for following your creative passions in your work, which may lead to unexpected opportunities. However, be mindful of impulsive spending driven by emotions rather than practicality."
+      ],
+      "relationships": [
+        "Romance and heartfelt connections are emphasized today, making it a beautiful time for love and emotional expression. You may receive an invitation that deepens intimacy or sparks a new romantic interest."
+      ],
+      "plans": [
+        "Your idealistic visions are potent today, but this card encourages you to approach new plans with a touch of gentle pursuit rather than aggressive force. Follow your heart's calling, but consider the practical path forward."
+      ]
     },
     "48": {
-      "general": ["TODO: General meaning for card 48."],
-      "money": ["TODO: Money meaning for card 48."],
-      "relationships": ["TODO: Relationships meaning for card 48."],
-      "plans": ["TODO: Plans meaning for card 48."]
+      "general": [
+        "Your intuition is your guiding star today, leading you with deep empathy and emotional wisdom. Tune into your inner feelings; they hold the key to navigating the day's currents with grace."
+      ],
+      "money": [
+        "Emotional intelligence shines in your financial dealings today, fostering understanding and compassionate exchanges. Approach work with a nurturing attitude, allowing your intuition to guide responsible decisions."
+      ],
+      "relationships": [
+        "Open your heart to the emotional depths of your connections, offering comfort and understanding to those you love. This is a day for profound empathy and gentle communication, strengthening bonds through shared feelings."
+      ],
+      "plans": [
+        "Allow your intuition to inform your intentions, ensuring your plans are rooted in genuine emotional fulfillment. Today is about aligning your goals with your heart's true desires, proceeding with thoughtful emotional consideration."
+      ]
     },
     "49": {
-      "general": ["TODO: General meaning for card 49."],
-      "money": ["TODO: Money meaning for card 49."],
-      "relationships": ["TODO: Relationships meaning for card 49."],
-      "plans": ["TODO: Plans meaning for card 49."]
+      "general": [
+        "Today, embrace emotional maturity and gentle leadership. Allow your compassionate nature to guide you, finding balance in your inner world and how you interact with the day."
+      ],
+      "money": [
+        "Financial matters benefit from a calm, measured approach. You may find success through empathetic communication and a balanced perspective on your resources and career."
+      ],
+      "relationships": [
+        "Your emotional wisdom is a gift to your loved ones today. Extend compassion and understanding, fostering harmonious connections through balanced communication and heartfelt empathy."
+      ],
+      "plans": [
+        "This is a day to refine and patiently nurture your goals. Take measured steps forward, ensuring your intentions are aligned with your emotional well-being and long-term vision."
+      ]
     },
     "50": {
-      "general": ["TODO: General meaning for card 50."],
-      "money": ["TODO: Money meaning for card 50."],
-      "relationships": ["TODO: Relationships meaning for card 50."],
-      "plans": ["TODO: Plans meaning for card 50."]
+      "general": [
+        "Today, embrace the sharp clarity of the Ace of Swords to cut through confusion and reveal a significant truth. This is a day for intellectual breakthroughs and decisive thinking, urging you to embrace new perspectives."
+      ],
+      "money": [
+        "Your finances and career may experience a breakthrough, offering a clear path forward. Trust your intellect to make wise decisions regarding your material security or professional endeavors."
+      ],
+      "relationships": [
+        "Honest communication is paramount today, as the Ace of Swords encourages you to speak your truth with conviction. Seek clarity in your connections, leading to resolutions and a deeper understanding."
+      ],
+      "plans": [
+        "This card signifies an opportune moment to initiate new mental ventures or projects requiring sharp focus. Your plans are ready to be launched with newfound clarity and decisive action."
+      ]
     },
     "51": {
-      "general": ["TODO: General meaning for card 51."],
-      "money": ["TODO: Money meaning for card 51."],
-      "relationships": ["TODO: Relationships meaning for card 51."],
-      "plans": ["TODO: Plans meaning for card 51."]
+      "general": [
+        "You may feel a sense of indecision, caught between two paths. It's a day to acknowledge any inner conflict and resist the urge to rush a decision; true clarity will come with time and stillness."
+      ],
+      "money": [
+        "Financial decisions may feel blocked or require careful consideration of opposing options. Avoid impulsive spending, as today calls for a pause rather than a definitive move forward."
+      ],
+      "relationships": [
+        "Communication might be strained as you or a loved one avoids a difficult conversation. Seek a moment of quiet understanding rather than forcing an issue; a peaceful resolution lies in acknowledging shared hesitations."
+      ],
+      "plans": [
+        "This is not the time to forge ahead with new initiatives or major changes. Focus on assessing your options with a clear mind, but hold off on implementing any significant plans until you feel more certainty."
+      ]
     },
     "52": {
-      "general": ["TODO: General meaning for card 52."],
-      "money": ["TODO: Money meaning for card 52."],
-      "relationships": ["TODO: Relationships meaning for card 52."],
-      "plans": ["TODO: Plans meaning for card 52."]
+      "general": [
+        "Today, you may face a moment of difficult truth or emotional pain. Allow yourself to feel, knowing that even in sorrow, there is a path toward healing."
+      ],
+      "money": [
+        "Unexpected financial news or a challenging work situation might surface. Focus on facing reality with courage, even if it brings discomfort, as clarity is approaching."
+      ],
+      "relationships": [
+        "Honest but perhaps painful conversations could be necessary. This is a time for brave communication, even if it leads to temporary heartache, for deeper understanding to emerge."
+      ],
+      "plans": [
+        "It may be wise to pause on new ventures that require emotional investment. Today is more about processing existing realities than forging ahead with grand new intentions."
+      ]
     },
     "53": {
-      "general": ["TODO: General meaning for card 53."],
-      "money": ["TODO: Money meaning for card 53."],
-      "relationships": ["TODO: Relationships meaning for card 53."],
-      "plans": ["TODO: Plans meaning for card 53."]
+      "general": [
+        "Today invites a sacred pause, allowing you to retreat and recharge your inner spirit. Listen to the whispers of your intuition as you embrace this period of quiet reflection and deep recovery."
+      ],
+      "money": [
+        "This is a time to step back from financial pressures and allow for strategic thinking rather than impulsive action. Seek rest to regain clarity before making any significant material decisions."
+      ],
+      "relationships": [
+        "Tend to your emotional well-being by creating space for gentle connection or solitude. Allow for a period of quiet understanding before addressing any relational dynamics."
+      ],
+      "plans": [
+        "Postpone ambitious new ventures today; instead, focus on consolidating existing projects and gathering your strength. This pause is crucial for ensuring your future plans are built on a foundation of renewed energy."
+      ]
     },
     "54": {
-      "general": ["TODO: General meaning for card 54."],
-      "money": ["TODO: Money meaning for card 54."],
-      "relationships": ["TODO: Relationships meaning for card 54."],
-      "plans": ["TODO: Plans meaning for card 54."]
+      "general": [
+        "Today, you might feel the pull of a conflict or an ego-driven desire to win. Remember that true victory often lies in preserving peace, not just in being right."
+      ],
+      "money": [
+        "Be cautious of aggressive dealings or decisions driven by pride in your financial or professional life.  A Pyrrhic victory in a negotiation could leave you with less than you started."
+      ],
+      "relationships": [
+        "Tread carefully in your interactions today, as misunderstandings or competitive energy could arise.  Seek empathy and understanding over the urge to prove your point."
+      ],
+      "plans": [
+        "It may be wise to pause on initiating new ventures that involve significant conflict or a 'win at all costs' mentality.  Focus on de-escalation and strategic retreat if necessary."
+      ]
     },
     "55": {
-      "general": ["TODO: General meaning for card 55."],
-      "money": ["TODO: Money meaning for card 55."],
-      "relationships": ["TODO: Relationships meaning for card 55."],
-      "plans": ["TODO: Plans meaning for card 55."]
+      "general": [
+        "You are transitioning towards calmer, more peaceful waters today. Embrace this shift as a necessary journey of healing and renewal."
+      ],
+      "money": [
+        "Financial matters may be moving towards stability after a period of difficulty. It's a good day to assess your resources and plan for future security."
+      ],
+      "relationships": [
+        "You might be moving past recent conflicts or misunderstandings with loved ones. This is a time for gentle reconciliation and finding common ground."
+      ],
+      "plans": [
+        "This is a day for cautious progress, focusing on what needs to be left behind to move forward. New ventures might need a bit more preparation before launching."
+      ]
     },
     "56": {
-      "general": ["TODO: General meaning for card 56."],
-      "money": ["TODO: Money meaning for card 56."],
-      "relationships": ["TODO: Relationships meaning for card 56."],
-      "plans": ["TODO: Plans meaning for card 56."]
+      "general": [
+        "Today, you may need to tread carefully, employing strategy and perhaps a touch of discretion to navigate situations. It's a day to observe and plan your moves with wisdom, rather than brute force."
+      ],
+      "money": [
+        "Be mindful of your financial dealings and any potential undercurrents in your work environment. This card suggests a need for careful planning or perhaps avoiding unnecessary confrontation when it comes to resources."
+      ],
+      "relationships": [
+        "Communication might require subtlety today; not everything needs to be revealed at once. Consider if a gentle approach or a strategic pause is needed to foster understanding and harmony with loved ones."
+      ],
+      "plans": [
+        "This is not the day for bold, open declarations of your intentions. Instead, focus on refining your strategy behind the scenes, ensuring your plans are well-fortified before revealing them."
+      ]
     },
     "57": {
-      "general": ["TODO: General meaning for card 57."],
-      "money": ["TODO: Money meaning for card 57."],
-      "relationships": ["TODO: Relationships meaning for card 57."],
-      "plans": ["TODO: Plans meaning for card 57."]
+      "general": [
+        "You might feel a sense of being trapped, but remember that the power to escape lies within you.  This is a day to gently question the limitations you perceive, as many are self-imposed illusions."
+      ],
+      "money": [
+        "Beware of anxieties holding you back from financial opportunities or causing overspending.  Trust your practical skills and try to detach from any unfounded fears about your resources."
+      ],
+      "relationships": [
+        "Your communication might feel stifled by unspoken worries or past hurts.  Consider if you're creating unnecessary distance; reaching out with honesty can dissolve perceived barriers."
+      ],
+      "plans": [
+        "Today is less about outward action and more about inner reassessment before moving forward.  Clarify your intentions and release any mental blocks that are preventing progress."
+      ]
     },
     "58": {
-      "general": ["TODO: General meaning for card 58."],
-      "money": ["TODO: Money meaning for card 58."],
-      "relationships": ["TODO: Relationships meaning for card 58."],
-      "plans": ["TODO: Plans meaning for card 58."]
+      "general": [
+        "You may be facing a period of internal struggle and mental anguish.  Allow yourself space to acknowledge these feelings, for even in darkness, the dawn always follows."
+      ],
+      "money": [
+        "Financial worries might be weighing heavily on your mind today.  Try to focus on practical steps you can take to alleviate immediate concerns, rather than succumbing to overwhelming anxieties."
+      ],
+      "relationships": [
+        "Communication may be strained as unspoken anxieties create distance. Seek gentle dialogue and offer reassurance, understanding that inner turmoil can affect how you connect with others."
+      ],
+      "plans": [
+        "This is not the time for bold new ventures or ambitious undertakings.  Focus on inner healing and managing existing pressures; your plans can flourish once clarity returns."
+      ]
     },
     "59": {
-      "general": ["TODO: General meaning for card 59."],
-      "money": ["TODO: Money meaning for card 59."],
-      "relationships": ["TODO: Relationships meaning for card 59."],
-      "plans": ["TODO: Plans meaning for card 59."]
+      "general": [
+        "Today marks a profound ending, ushering in a necessary release from what no longer serves you. Embrace this moment of catharsis; even pain can pave the way for new beginnings."
+      ],
+      "money": [
+        "This card suggests a financial cycle is concluding, perhaps a project ending or a period of struggle finally abating. It's a time for release and letting go of financial anxieties, trusting in future recovery."
+      ],
+      "relationships": [
+        "A painful truth may surface in your connections, leading to a necessary, albeit difficult, ending. This allows for a cleansing of the slate, creating space for more authentic bonds to form."
+      ],
+      "plans": [
+        "While it may feel like a dead end, this card signifies the completion of a phase, clearing the path for entirely new directions. Release old intentions that are no longer viable and prepare for a fresh start."
+      ]
     },
     "60": {
-      "general": ["TODO: General meaning for card 60."],
-      "money": ["TODO: Money meaning for card 60."],
-      "relationships": ["TODO: Relationships meaning for card 60."],
-      "plans": ["TODO: Plans meaning for card 60."]
+      "general": [
+        "Today, your curiosity is your compass. Embrace a spirit of inquiry and an eagerness to uncover new truths, as mental alertness will guide you."
+      ],
+      "money": [
+        "Your keen observation skills can uncover hidden opportunities or potential pitfalls in your finances or work. Stay sharp and listen to your intuition regarding material matters."
+      ],
+      "relationships": [
+        "Engage in open and honest communication today, seeking clarity and understanding in your interactions. Your quest for truth can bring a refreshing honesty to your connections."
+      ],
+      "plans": [
+        "This is a day for investigation and gathering information, rather than decisive action. Lay the groundwork for future plans by exploring all avenues with a curious mind."
+      ]
     },
     "61": {
-      "general": ["TODO: General meaning for card 61."],
-      "money": ["TODO: Money meaning for card 61."],
-      "relationships": ["TODO: Relationships meaning for card 61."],
-      "plans": ["TODO: Plans meaning for card 61."]
+      "general": [
+        "Today, you are called to charge forward with clarity and conviction. Embrace the swift energy of the Knight of Swords and let your directness guide your actions."
+      ],
+      "money": [
+        "Financially, this is a day for decisive action and focused pursuit of your career goals. Move with speed and confidence to achieve your objectives, but be mindful of impulsive spending."
+      ],
+      "relationships": [
+        "In your connections, express your thoughts and feelings with honesty and directness. This energy encourages clear communication and swift resolution of any misunderstandings."
+      ],
+      "plans": [
+        "Your intentions are primed for swift execution; today is excellent for initiating new projects or making bold moves. Trust your instincts and pursue your goals with focused determination."
+      ]
     },
     "62": {
-      "general": ["TODO: General meaning for card 62."],
-      "money": ["TODO: Money meaning for card 62."],
-      "relationships": ["TODO: Relationships meaning for card 62."],
-      "plans": ["TODO: Plans meaning for card 62."]
+      "general": [
+        "Today, you are called to embrace your inner clarity and independence. Trust your sharp intellect to navigate the day with unwavering discernment."
+      ],
+      "money": [
+        "Financially, this is a day for clear decisions and setting firm boundaries.  Review your expenses and career path with unbiased logic."
+      ],
+      "relationships": [
+        "Communicate your needs and truths with directness and honesty, fostering mutual understanding.  Set healthy boundaries in your interactions with loved ones."
+      ],
+      "plans": [
+        "Your plans will benefit from a sharp, analytical approach today.  It's an excellent time to refine your intentions with logical precision before taking action."
+      ]
     },
     "63": {
-      "general": ["TODO: General meaning for card 63."],
-      "money": ["TODO: Money meaning for card 63."],
-      "relationships": ["TODO: Relationships meaning for card 63."],
-      "plans": ["TODO: Plans meaning for card 63."]
+      "general": [
+        "Today, embrace clarity and intellectual prowess. Let logic guide your decisions and stand firm in your truth, embodying decisive authority."
+      ],
+      "money": [
+        "Your sharp mind and clear judgment will be your greatest assets in financial matters today. Trust your intellect to navigate any work-related challenges or opportunities with precision."
+      ],
+      "relationships": [
+        "Communicate with unwavering honesty and intellectual honesty. Your straightforward approach will bring clarity to discussions, fostering understanding through truthful dialogue."
+      ],
+      "plans": [
+        "This is an excellent day to finalize plans with a clear, logical perspective. Your ability to cut through complexities will help you make decisive moves forward."
+      ]
     },
     "64": {
-      "general": ["TODO: General meaning for card 64."],
-      "money": ["TODO: Money meaning for card 64."],
-      "relationships": ["TODO: Relationships meaning for card 64."],
-      "plans": ["TODO: Plans meaning for card 64."]
+      "general": [
+        "A new, tangible opportunity is being sown, bringing the promise of growth and material abundance into your life. Embrace this seed of prosperity; it's a foundation for future success."
+      ],
+      "money": [
+        "Expect a promising development concerning your resources or career path. This card signals a potential for increased financial stability or a fruitful new venture."
+      ],
+      "relationships": [
+        "This is a fertile time to nurture new connections or deepen existing bonds with tangible acts of care. Building trust and shared resources can bring significant joy and security."
+      ],
+      "plans": [
+        "Today is an auspicious time to lay the groundwork for future goals, especially those involving material manifestation. Plant the seeds for your aspirations; they have the potential to flourish."
+      ]
     },
     "65": {
-      "general": ["TODO: General meaning for card 65."],
-      "money": ["TODO: Money meaning for card 65."],
-      "relationships": ["TODO: Relationships meaning for card 65."],
-      "plans": ["TODO: Plans meaning for card 65."]
+      "general": [
+        "Today, you are called to skillfully juggle multiple demands with grace. Embrace the fluid dance of life, adapting effortlessly to whatever comes your way."
+      ],
+      "money": [
+        "Your financial situation may require a careful balancing act, but your resourcefulness will guide you through. Prioritize your spending and be open to creative solutions for income."
+      ],
+      "relationships": [
+        "Communication requires a delicate touch as you navigate different needs and desires. Strive for equilibrium, ensuring everyone feels heard and understood in your connections."
+      ],
+      "plans": [
+        "This is a day for assessment and adjustment rather than bold new initiatives. Refine your existing intentions by finding a harmonious rhythm that allows for flexibility."
+      ]
     },
     "66": {
-      "general": ["TODO: General meaning for card 66."],
-      "money": ["TODO: Money meaning for card 66."],
-      "relationships": ["TODO: Relationships meaning for card 66."],
-      "plans": ["TODO: Plans meaning for card 66."]
+      "general": [
+        "Today calls for collaboration and the mastery of your craft. Embrace the process of learning and building through shared effort and dedication."
+      ],
+      "money": [
+        "Your skills and diligent work are recognized and valued, potentially leading to new opportunities for growth or collaborative projects that benefit your finances."
+      ],
+      "relationships": [
+        "Working together harmoniously on a shared project or goal will strengthen your bonds. Communication is key to ensuring everyone's contributions are appreciated and aligned."
+      ],
+      "plans": [
+        "This is an excellent day to begin or advance projects requiring teamwork and skillful execution. Your focused effort, especially in learning and refining, will lay a solid foundation for future success."
+      ]
     },
     "67": {
-      "general": ["TODO: General meaning for card 67."],
-      "money": ["TODO: Money meaning for card 67."],
-      "relationships": ["TODO: Relationships meaning for card 67."],
-      "plans": ["TODO: Plans meaning for card 67."]
+      "general": [
+        "Today, you are called to assess what truly holds value and brings you security. While it's wise to protect what you cherish, remember that clinging too tightly can stifle growth."
+      ],
+      "money": [
+        "Your focus may be on conserving resources and maintaining financial stability. Be mindful of whether your efforts to control your finances are serving you or keeping you from opportunities."
+      ],
+      "relationships": [
+        "You might feel a need to guard your emotional space or possessions within relationships. Consider if this desire for security is fostering connection or creating distance."
+      ],
+      "plans": [
+        "It's a day for consolidating existing ventures rather than launching new ones. Ensure your current foundations are secure before considering any ambitious leaps forward."
+      ]
     },
     "68": {
-      "general": ["TODO: General meaning for card 68."],
-      "money": ["TODO: Money meaning for card 68."],
-      "relationships": ["TODO: Relationships meaning for card 68."],
-      "plans": ["TODO: Plans meaning for card 68."]
+      "general": [
+        "Even when you feel isolated and facing difficulties, remember that help is often closer than you think. Today, open your heart to the possibility of receiving unexpected support or finding a guiding light in the shadows."
+      ],
+      "money": [
+        "Financial challenges may be present, urging you to be mindful of your resources and avoid unnecessary expenditures. Look for opportunities to share burdens or find assistance, rather than facing scarcity alone."
+      ],
+      "relationships": [
+        "If you're feeling left out or misunderstood, reach out to those who care for you. Today's energy encourages vulnerability and seeking comfort from your chosen circle, or offering solace to others in need."
+      ],
+      "plans": [
+        "This is not the ideal time to launch ambitious new ventures, as energy might feel depleted. Focus on securing your foundations and seeking support for existing projects rather than pushing forward with untested ideas."
+      ]
     },
     "69": {
-      "general": ["TODO: General meaning for card 69."],
-      "money": ["TODO: Money meaning for card 69."],
-      "relationships": ["TODO: Relationships meaning for card 69."],
-      "plans": ["TODO: Plans meaning for card 69."]
+      "general": [
+        "Today invites you to a dance of generosity and gratitude. Notice the balance between what you offer and what you receive, ensuring it flows with fairness and openheartedness."
+      ],
+      "money": [
+        "Your financial endeavors today may involve a fair exchange or a helpful hand. Consider both offering and accepting support in your professional or material dealings, fostering a sense of equity."
+      ],
+      "relationships": [
+        "Communication in your connections today is about equitable sharing and mutual appreciation. Whether giving or receiving support, ensure that kindness and fairness are at the heart of your interactions."
+      ],
+      "plans": [
+        "This is a day for thoughtful consideration rather than bold new ventures. Ensure your intentions are rooted in a balanced approach, where both giving and receiving are honored before moving forward."
+      ]
     },
     "70": {
-      "general": ["TODO: General meaning for card 70."],
-      "money": ["TODO: Money meaning for card 70."],
-      "relationships": ["TODO: Relationships meaning for card 70."],
-      "plans": ["TODO: Plans meaning for card 70."]
+      "general": [
+        "Today calls for patient observation as you assess the fruits of your past efforts. Trust that your dedicated investments are steadily growing, even if the immediate harvest is not yet visible."
+      ],
+      "money": [
+        "Review your financial investments and career progress with a discerning eye. This is a time for thoughtful evaluation rather than impulsive action, ensuring your resources are well-placed for future growth."
+      ],
+      "relationships": [
+        "Nurture your connections with the same patience you apply to other endeavors. Take time to truly understand the dynamics at play and appreciate the slow-blooming beauty of deep bonds."
+      ],
+      "plans": [
+        "Before launching new initiatives, take a moment to assess the current landscape and the seeds you've already sown. This is an opportune moment for strategic planning and refining existing projects."
+      ]
     },
     "71": {
-      "general": ["TODO: General meaning for card 71."],
-      "money": ["TODO: Money meaning for card 71."],
-      "relationships": ["TODO: Relationships meaning for card 71."],
-      "plans": ["TODO: Plans meaning for card 71."]
+      "general": [
+        "Today is about embracing dedicated practice and honing your skills. Immerse yourself in the details and find joy in the process of creation and mastery."
+      ],
+      "money": [
+        "Focus on diligent work and the steady improvement of your professional abilities. Your dedication now will build a stronger foundation for future financial security and career growth."
+      ],
+      "relationships": [
+        "Deepen your connections through shared efforts and thoughtful attention to detail in your interactions. Nurturing these bonds with consistent care will bring mutual understanding and growth."
+      ],
+      "plans": [
+        "This is an excellent day for laying the groundwork for your aspirations through focused effort and persistent dedication. Trust that steady progress, even in small steps, will lead you closer to your goals."
+      ]
     },
     "72": {
-      "general": ["TODO: General meaning for card 72."],
-      "money": ["TODO: Money meaning for card 72."],
-      "relationships": ["TODO: Relationships meaning for card 72."],
-      "plans": ["TODO: Plans meaning for card 72."]
+      "general": [
+        "Today, you are basking in the fruits of your labor, embracing a profound sense of independence and self-sufficiency. Embrace this moment of comfort and acknowledge the inner strength you've cultivated."
+      ],
+      "money": [
+        "Your hard work is paying off, leading to financial security and a well-earned sense of abundance. Trust in your ability to manage resources wisely, ensuring your comfort and stability."
+      ],
+      "relationships": [
+        "You possess a quiet confidence that draws others to you, fostering a harmonious atmosphere in your connections. Your self-worth shines, allowing for authentic and fulfilling interactions."
+      ],
+      "plans": [
+        "This is an excellent day to solidify your current achievements and savor your accomplishments. While new ventures might wait, focus on refining and enjoying the stability you've built."
+      ]
     },
     "73": {
-      "general": ["TODO: General meaning for card 73."],
-      "money": ["TODO: Money meaning for card 73."],
-      "relationships": ["TODO: Relationships meaning for card 73."],
-      "plans": ["TODO: Plans meaning for card 73."]
+      "general": [
+        "Today invites you to embrace the abundance and security that comes from deep roots and enduring connections.  Feel the satisfaction of established foundations and the warmth of a secure present."
+      ],
+      "money": [
+        "Your material world feels stable and prosperous, reflecting successful long-term efforts.  This is a day to enjoy the fruits of your labor and the security it provides."
+      ],
+      "relationships": [
+        "Cherish the bonds of family and community, as they offer profound comfort and support.  Deep, lasting connections are your greatest wealth today."
+      ],
+      "plans": [
+        "This is an excellent day to solidify existing plans and build upon a strong, established foundation.  Focus on nurturing what you have already created to ensure its lasting legacy."
+      ]
     },
     "74": {
-      "general": ["TODO: General meaning for card 74."],
-      "money": ["TODO: Money meaning for card 74."],
-      "relationships": ["TODO: Relationships meaning for card 74."],
-      "plans": ["TODO: Plans meaning for card 74."]
+      "general": [
+        "Embrace a curious and grounded spirit today, as a new opportunity to learn or begin something tangible presents itself. Tune into the energy of dedicated study and mindful exploration to manifest your desires."
+      ],
+      "money": [
+        "This is a day for careful planning and diligent groundwork in your financial or career pursuits. Look for new, practical avenues of growth and invest your energy wisely in long-term projects."
+      ],
+      "relationships": [
+        "Approach your connections with an open mind and a willingness to understand. New perspectives and thoughtful communication can lay a strong foundation for shared ventures or deeper bonds."
+      ],
+      "plans": [
+        "Today is excellent for initiating plans that require diligent study and careful consideration. Take the first grounded steps toward your aspirations, as the seeds you plant now have great potential to grow."
+      ]
     },
     "75": {
-      "general": ["TODO: General meaning for card 75."],
-      "money": ["TODO: Money meaning for card 75."],
-      "relationships": ["TODO: Relationships meaning for card 75."],
-      "plans": ["TODO: Plans meaning for card 75."]
+      "general": [
+        "Today, embrace the power of consistent effort and methodical progress.  You are called to a steady, dependable pace, finding strength in routine and unwavering commitment."
+      ],
+      "money": [
+        "Your financial path today is built on solid ground through diligent work and careful management.  Trust in your reliable efforts to secure and grow your material well-being."
+      ],
+      "relationships": [
+        "In your connections, authenticity and dependable actions speak volumes.  Offer your steady presence and be a reliable pillar for those you care about, fostering trust through quiet consistency."
+      ],
+      "plans": [
+        "This is a day for methodical advancement, not hasty leaps, towards your goals.  Focus on executing existing plans with steadfast dedication rather than initiating entirely new ventures."
+      ]
     },
     "76": {
-      "general": ["TODO: General meaning for card 76."],
-      "money": ["TODO: Money meaning for card 76."],
-      "relationships": ["TODO: Relationships meaning for card 76."],
-      "plans": ["TODO: Plans meaning for card 76."]
+      "general": [
+        "Today, embrace your nurturing and practical side, creating a sense of comfort and security in your surroundings. This is a day to ground yourself in tangible joys and manifest your intentions with steady hands."
+      ],
+      "money": [
+        "Your practical approach to finances and work today will yield stable results. Focus on diligent effort and sensible management to enhance your material well-being."
+      ],
+      "relationships": [
+        "Offer warmth and grounded support to your loved ones, fostering a sense of home and security. Your empathetic presence creates a safe haven for connection and understanding."
+      ],
+      "plans": [
+        "This is an excellent day to lay solid foundations for your future endeavors. Your grounded energy allows you to move forward with practical steps and realistic expectations."
+      ]
     },
     "77": {
-      "general": ["TODO: General meaning for card 77."],
-      "money": ["TODO: Money meaning for card 77."],
-      "relationships": ["TODO: Relationships meaning for card 77."],
-      "plans": ["TODO: Plans meaning for card 77."]
+      "general": [
+        "Today, embrace the energy of the King of Pentacles by grounding yourself in material reality and demonstrating responsible leadership. You are a beacon of stability, capable of cultivating abundance through diligent effort."
+      ],
+      "money": [
+        "This is a day for financial security and wise investments. Your practical approach to work and resources will yield tangible results and a sense of deep material well-being."
+      ],
+      "relationships": [
+        "Your reliability and generosity shine in your connections today. Offer steady support and a sense of security to those you care about, fostering trust and deeper bonds."
+      ],
+      "plans": [
+        "The King of Pentacles encourages you to solidify your intentions with a grounded, practical plan. This is an excellent time to lay the foundation for long-term success and manifest your goals into reality."
+      ]
     }
   }
 }

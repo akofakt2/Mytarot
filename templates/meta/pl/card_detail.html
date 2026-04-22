@@ -1,0 +1,5 @@
+<title>{{ card.name }} – {{ ui.nav_brand }}</title>
+<meta name="description" content="{% if card.keywords %}{{ card.keywords|join(', ') }}{% else %}{{ card.name }}{% endif %} — {{ ui.nav_brand }}">
+<meta property="og:title" content="{{ card.name }} – {{ ui.nav_brand }}">
+<meta property="og:description" content="{% if card.keywords %}{{ card.keywords|join(', ') }}{% else %}{{ card.name }}{% endif %} — {{ ui.nav_brand }}">
+

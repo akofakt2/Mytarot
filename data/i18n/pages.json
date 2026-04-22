@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "en": {
+    "landing": {
+      "title": "Tarot reading",
+      "start_button": "Start reading"
+    },
+    "reading": {
+      "question_label": "Question",
+      "submit_button": "Draw cards"
+    },
+    "card_detail": {
+      "upright_heading": "Upright",
+      "reversed_heading": "Reversed"
+    }
+  },
+  "sk": {
+    "landing": {
+      "title": "Tarotovy vyklad",
+      "start_button": "Zacat vyklad"
+    },
+    "reading": {
+      "question_label": "Otazka",
+      "submit_button": "Vylozit karty"
+    },
+    "card_detail": {
+      "upright_heading": "Priama poloha",
+      "reversed_heading": "Obratena poloha"
+    }
+  },
+  "cs": {
+    "landing": {
+      "title": "Výklad tarotu",
+      "start_button": "Začít výklad"
+    },
+    "reading": {
+      "question_label": "Otázka",
+      "submit_button": "Vytáhnout karty"
+    },
+    "card_detail": {
+      "upright_heading": "Vzpřímená pozice",
+      "reversed_heading": "Obrácená pozice"
+    }
+  },
+  "pl": {
+    "landing": {
+      "title": "Czytanie Tarota",
+      "start_button": "Rozpocznij czytanie"
+    },
+    "reading": {
+      "question_label": "Pytanie",
+      "submit_button": "Wyciągnij karty"
+    },
+    "card_detail": {
+      "upright_heading": "Pozycja prosta",
+      "reversed_heading": "Pozycja odwrócona"
+    }
+  }
+}
+

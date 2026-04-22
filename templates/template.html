@@ -97,6 +97,7 @@
 
     {% if is_card_of_day %}
     <script id="ui-i18n" type="application/json">{{ ui_i18n_json|safe }}</script>
+    <script id="pages-i18n" type="application/json">{{ pages_i18n_json|safe }}</script>
     <script src="{{ url_for('static', filename='card_of_day.js') }}"></script>
     {% endif %}
 </body>

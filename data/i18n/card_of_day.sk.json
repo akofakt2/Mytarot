@@ -1,473 +1,1102 @@
 {
-  "topics": ["general", "money", "relationships", "plans"],
+  "topics": [
+    "general",
+    "money",
+    "relationships",
+    "plans"
+  ],
   "cards": {
     "0": {
-      "general": ["TODO: Všeobecný význam pre kartu 0 (Blázon)."],
-      "money": ["TODO: Peniaze význam pre kartu 0 (Blázon)."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 0 (Blázon)."],
-      "plans": ["TODO: Plány význam pre kartu 0 (Blázon)."]
+      "general": [
+        "Dnes je deň pre odvážne kroky a dôveru v intuíciu. Pustíš sa do niečoho nového s otvoreným srdcom a s vierou, že vesmír ťa vedie."
+      ],
+      "money": [
+        "Možno sa objaví nečakaná príležitosť, ktorá si vyžiada trochu riskovania. Dôveruj svojej vízii a neboj sa vykročiť za novými finančnými horizontami."
+      ],
+      "relationships": [
+        "Vzťahy dnes môžu nadobudnúť svieži nádych, plný spontánnosti a bezstarostnosti. Otvor sa novým zážitkom so svojimi blízkymi a nechaj sa unášať prítomným okamihom."
+      ],
+      "plans": [
+        "Je ideálny čas začať niečo úplne nové, hoci cesta ešte nie je celkom jasná. Tvoja odvaha otvoriť sa neznámemu prinesie nečakané a obohacujúce výsledky."
+      ]
     },
     "1": {
-      "general": ["TODO: Všeobecný význam pre kartu 1."],
-      "money": ["TODO: Peniaze význam pre kartu 1."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 1."],
-      "plans": ["TODO: Plány význam pre kartu 1."]
+      "general": [
+        "Dnes máš v rukách silu tvoriť svoju realitu. Sústredenie a jasný zámer ti umožnia prejaviť to, po čom túžiš."
+      ],
+      "money": [
+        "Tvoja šikovnosť a zručnosť dnes otvárajú dvere k úspechu v práci či financiách. Neboj sa preukázať svoje schopnosti a iniciatívu."
+      ],
+      "relationships": [
+        "Komunikuj otvorene a s dôverou vo vlastné slová. Tvoja silná vôľa môže pomôcť nájsť riešenia v medziľudských vzťahoch."
+      ],
+      "plans": [
+        "Tento deň je ideálny na realizáciu tvojich ambicióznych plánov. Využi svoju energiu a začni meniť sny na skutočnosť."
+      ]
     },
     "2": {
-      "general": ["TODO: Všeobecný význam pre kartu 2."],
-      "money": ["TODO: Peniaze význam pre kartu 2."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 2."],
-      "plans": ["TODO: Plány význam pre kartu 2."]
+      "general": [
+        "Dnes je deň, kedy by si sa mal naladiť na svoj vnútorný hlas a intuíciu. Počúvaj svoje skryté poznanie, pretože ti odhalí pravdu."
+      ],
+      "money": [
+        "Finančné záležitosti vyžadujú opatrnosť a vnútorné vedenie. Nechaj sa viesť intuíciou pri rozhodovaní o svojich peniazoch."
+      ],
+      "relationships": [
+        "Vzťahy dnes odhaľujú svoje hlbšie vrstvy; spoliehaj sa na svoju intuíciu pri komunikácii s blízkymi. Tajomstvá a skryté pocity môžu byť dnes odhalené."
+      ],
+      "plans": [
+        "Svoje plány si dnes nechaj skryté a riaď sa skôr vnútorným vnuknutím než vonkajšími okolnosťami. Je čas na vnútornú reflexiu pred akýmkoľvek vonkajším krokom."
+      ]
     },
     "3": {
-      "general": ["TODO: Všeobecný význam pre kartu 3."],
-      "money": ["TODO: Peniaze význam pre kartu 3."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 3."],
-      "plans": ["TODO: Plány význam pre kartu 3."]
+      "general": [
+        "Dnes sa ti otvára brána k hojnosti a rastu, nechaj sa viesť svojou vnútornou tvorivou silou. Nasmeruj svoju pozornosť na to, čo v živote pestuješ a nechaj to rozkvitnúť do plnej krásy."
+      ],
+      "money": [
+        "Tvoj potenciál k finančnému rastu je dnes obzvlášť silný, venuj sa tvorivým projektom a starostlivosti o svoje zdroje. Hojnosť prichádza k tým, ktorí ju s láskou a rozvahou pestujú."
+      ],
+      "relationships": [
+        "Dnes je ideálny čas prejaviť starostlivosť a podporu svojim blízkym, nechaj plynúť lásku a porozumenie. Tvoje empatické srdce dokáže prehĺbiť putá a vytvoriť plodné vzťahy."
+      ],
+      "plans": [
+        "Tento deň je požehnaný pre začiatky a rozvoj tvojich cieľov, najmä tých, ktoré si vyžadujú trpezlivosť a starostlivosť. Všetko, čo dnes zasadíš, má potenciál krásne vyrásť a priniesť bohatú úrodu."
+      ]
     },
     "4": {
-      "general": ["TODO: Všeobecný význam pre kartu 4."],
-      "money": ["TODO: Peniaze význam pre kartu 4."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 4."],
-      "plans": ["TODO: Plány význam pre kartu 4."]
+      "general": [
+        "Dnes vládne energia pevnej štruktúry a jasného vedenia. Využi svoju vnútornú autoritu na vytvorenie stabilných základov pre svoje dnešné konanie."
+      ],
+      "money": [
+        "V oblasti financií a práce ti dnes karta Cisár prináša stabilitu a možnosť budovať dlhodobé projekty. Tvoje rozhodnutia sú podložené rozumom a logikou, čo vedie k istým úspechom."
+      ],
+      "relationships": [
+        "Vo vzťahoch si dnes kľúčová postava, ktorá prináša poriadok a jasné smerovanie. Tvoja stabilita a rozhodnosť môžu byť pre druhých oporou, ale pamätaj aj na empatiu."
+      ],
+      "plans": [
+        "Dnešný deň je ideálny na upevnenie a konkretizovanie tvojich dlhodobých plánov. Je to čas, kedy môžeš položiť pevné základy pre budúci rast a úspech."
+      ]
     },
     "5": {
-      "general": ["TODO: Všeobecný význam pre kartu 5."],
-      "money": ["TODO: Peniaze význam pre kartu 5."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 5."],
-      "plans": ["TODO: Plány význam pre kartu 5."]
+      "general": [
+        "Dnes sa zameraj na múdrosť tradícií a učenie, ktoré ti môžu priniesť hlbšie pochopenie. Vypočuj si svoje vnútorné presvedčenia a nechaj sa nimi viesť."
+      ],
+      "money": [
+        "Finančné záležitosti dnes môžu vyžadovať tradičný prístup a dodržiavanie overených postupov. Zváž rady skúsenejších, ak riešiš pracovné alebo finančné otázky."
+      ],
+      "relationships": [
+        "Vzťahy dnes profitujú z úprimnej komunikácie založenej na zdieľaných hodnotách a vzájomnom rešpekte. Zdieľaj svoje myšlienky a hľadaj porozumenie vo svojom okolí."
+      ],
+      "plans": [
+        "Je vhodný čas premýšľať o dlhodobých plánoch a zámeroch, ktoré sú v súlade s tvojimi vnútornými princípmi. Dnešok ti ponúka stabilitu pre premyslené kroky."
+      ]
     },
     "6": {
-      "general": ["TODO: Všeobecný význam pre kartu 6."],
-      "money": ["TODO: Peniaze význam pre kartu 6."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 6."],
-      "plans": ["TODO: Plány význam pre kartu 6."]
+      "general": [
+        "Dnes stojíš pred dôležitou voľbou, ktorá odzrkadľuje tvoje hlboké hodnoty. Nalad sa na harmóniu a spojenie vo všetkých aspektoch svojho života."
+      ],
+      "money": [
+        "Finančné rozhodnutia by mali byť v súlade s tvojimi dlhodobými cieľmi a vnútorným presvedčením. Zváž investície, ktoré ti prinesú nielen zisk, ale aj naplnenie."
+      ],
+      "relationships": [
+        "Tento deň praje budovaniu hlbších spojení a autentickej komunikácii s blízkymi. Hľadaj súlad v srdciach a objav vzájomné porozumenie."
+      ],
+      "plans": [
+        "Je čas urobiť rozhodnutie, ktoré ťa posunie vpred na ceste k tvojim snom. Voľba, ktorú dnes urobíš, bude mať dlhodobý a pozitívny vplyv."
+      ]
     },
     "7": {
-      "general": ["TODO: Všeobecný význam pre kartu 7."],
-      "money": ["TODO: Peniaze význam pre kartu 7."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 7."],
-      "plans": ["TODO: Plány význam pre kartu 7."]
+      "general": [
+        "Dnes je tvoj deň na víťazstvo a dosiahnutie cieľov s jasným odhodlaním. Nasaď si sebaovládanie a nechaj sa uniesť silou svojej vôle, ktorá ťa poháňa vpred."
+      ],
+      "money": [
+        "Tvoja pracovná energia je dnes silná, čo ti umožní dosiahnuť finančné úspechy. S disciplinovaným prístupom môžeš dnes prekonať prekážky a vidieť pokrok vo svojom podnikaní."
+      ],
+      "relationships": [
+        "Vzťahy dnes vyžadujú tvoje vedenie a pevné rozhodnutia, ktoré prinesú harmóniu. Tvoje odhodlanie k spoločnému dobru posilní putá s tvojimi blízkymi."
+      ],
+      "plans": [
+        "Tento deň je priaznivý pre rozbehnutie nových projektov a realizáciu tvojich najodvážnejších plánov. Tvoje odhodlanie a sebavedomie ti pomôžu úspešne premeniť tvoje zámery na realitu."
+      ]
     },
     "8": {
-      "general": ["TODO: Všeobecný význam pre kartu 8."],
-      "money": ["TODO: Peniaze význam pre kartu 8."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 8."],
-      "plans": ["TODO: Plány význam pre kartu 8."]
+      "general": [
+        "Dnes sa na teba usmieva vnútorná Sila, ktorá ťa vyzýva k odvahe a trpezlivosti. Dovoľ, aby tvoja jemná, ale mocná sila viedla tvoje kroky a prekonala všetky prekážky."
+      ],
+      "money": [
+        "Tvoja vnútorná rozhodnosť ti pomôže zvládnuť pracovné výzvy a dosiahnuť finančnú stabilitu. Dnes je deň, kedy tvoja vytrvalosť pri práci prinesie zaslúžené ovocie."
+      ],
+      "relationships": [
+        "S láskavosťou a silou svojej duše si dnes vytvoríš pevné putá s blízkymi. Tvoja trpezlivosť pomôže vyriešiť akékoľvek nedorozumenia s empatiou a porozumením."
+      ],
+      "plans": [
+        "Dnešný deň je ideálny na realizáciu tvojich cieľov, pretože tvoja vnútorná Sila ti dodáva odvahu pustiť sa do nových projektov. Neboj sa vykročiť vpred, máš všetko, čo potrebuješ k úspechu."
+      ]
     },
     "9": {
-      "general": ["TODO: Všeobecný význam pre kartu 9."],
-      "money": ["TODO: Peniaze význam pre kartu 9."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 9."],
-      "plans": ["TODO: Plány význam pre kartu 9."]
+      "general": [
+        "Dnes je deň pre vnútorné hľadanie a tiché uvažovanie. Hľadaj múdrosť v samote, aby si našiel odpovede, ktoré potrebuješ."
+      ],
+      "money": [
+        "Finančné záležitosti si vyžadujú diskrétnosť a premyslené rozhodnutia. Možno je čas na dôkladnú analýzu svojich zdrojov skôr, než urobíš zmeny."
+      ],
+      "relationships": [
+        "Potrebujete priestor pre seba, aby ste lepšie pochopili svoje emócie a potreby. Komunikácia môže byť jemnejšia, ak si najprv dáte čas na rozmyslenie."
+      ],
+      "plans": [
+        "Tento deň nie je o impulzívnych krokoch, ale o premýšľaní a plánovaní v pokoji. Využi tento čas na stratégiu, nie na akciu."
+      ]
     },
     "10": {
-      "general": ["TODO: Všeobecný význam pre kartu 10."],
-      "money": ["TODO: Peniaze význam pre kartu 10."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 10."],
-      "plans": ["TODO: Plány význam pre kartu 10."]
+      "general": [
+        "Dnes sa otvára nová kapitola tvojho života, kde sa roztočí koleso osudu vo tvoj prospech. Prijmi zmeny s otvoreným srdcom, pretože prichádzajú, aby ťa posunuli vpred."
+      ],
+      "money": [
+        "Očakávajú sa nečakané zvraty vo financiách, či už pozitívne alebo ako výzva k prehodnoteniu. Sleduj príležitosti na rast, ale buď pripravený aj na nutné úpravy v rozpočte."
+      ],
+      "relationships": [
+        "Vzťahy prechádzajú prirodzeným cyklom zmien, ktoré môžu priniesť nové porozumenie alebo nutnosť uzatvoriť isté kapitoly. Komunikuj úprimne a nechaj veci plynúť."
+      ],
+      "plans": [
+        "Dnes nie je čas na stagnáciu, ale na roztočenie nových projektov alebo prehodnotenie starých. Zmeny, ktoré prinesie tento deň, môžu byť kľúčové pre budúcnosť tvojich cieľov."
+      ]
     },
     "11": {
-      "general": ["TODO: Všeobecný význam pre kartu 11."],
-      "money": ["TODO: Peniaze význam pre kartu 11."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 11."],
-      "plans": ["TODO: Plány význam pre kartu 11."]
+      "general": [
+        "Dnes je deň, kedy sa vynára pravda a očakáva sa od teba zodpovednosť za svoje činy. Naladi sa na energiu rovnováhy a spravodlivosti, ktorá ti pomôže objaviť správnu cestu."
+      ],
+      "money": [
+        "Tvoje finančné záležitosti dnes volajú po férovosti a transparentnosti. Dávaj si pozor na svoje výdavky a prijímaj rozhodnutia s ohľadom na dlhodobú stabilitu."
+      ],
+      "relationships": [
+        "Vzťahy sú dnes pod drobnohľadom pravdy, hľadaj rovnováhu a spravodlivé riešenia. Otvorená a čestná komunikácia prinesie úľavu a pochopenie."
+      ],
+      "plans": [
+        "Je čas zhodnotiť svoje plány s jasným rozumom a prijať zodpovednosť za ich smerovanie. Dnešok je vhodný na uvážené rozhodnutia, ktoré prinesú dlhodobú harmóniu."
+      ]
     },
     "12": {
-      "general": ["TODO: Všeobecný význam pre kartu 12."],
-      "money": ["TODO: Peniaze význam pre kartu 12."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 12."],
-      "plans": ["TODO: Plány význam pre kartu 12."]
+      "general": [
+        "Dnes je deň, kedy sa ti otvára možnosť vidieť veci z úplne novej perspektívy. Neboj sa na chvíľu zastaviť a odovzdať sa prúdu, aby si objavil skryté možnosti."
+      ],
+      "money": [
+        "Finančné záležitosti si vyžadujú trpezlivosť a nové pohľady. Možno je čas prehodnotiť doterajšie postupy a nechať veci vyvinúť sa prirodzeným spôsobom."
+      ],
+      "relationships": [
+        "Vzťahy môžu dnes vyžadovať nečakanú zmenu pohľadu alebo chvíľu ticha na porozumenie. Odovzdaj sa situácii a počúvaj svoje vnútro."
+      ],
+      "plans": [
+        "Dnešok nie je o náhlení vpred, ale o premyslení a načerpaní novej energie. Daj si čas na zhodnotenie svojich plánov z inej perspektívy, než sa pustíš do akcie."
+      ]
     },
     "13": {
-      "general": ["TODO: Všeobecný význam pre kartu 13."],
-      "money": ["TODO: Peniaze význam pre kartu 13."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 13."],
-      "plans": ["TODO: Plány význam pre kartu 13."]
+      "general": [
+        "Dnes sa od teba žiada prepustiť to, čo už ti neslúži, aby si vytvoril priestor pre nový začiatok. Neboj sa odovzdať sa zmene, lebo v nej spočíva tvoj rast."
+      ],
+      "money": [
+        "Možno je čas ukončiť neefektívne pracovné postupy alebo projekty, ktoré ti už neprinášajú úžitok. Táto transformácia ti otvorí cestu k novým, plodnejším príležitostiam."
+      ],
+      "relationships": [
+        "Nastal čas ukončiť staré vzorce správania v medziľudských vzťahoch, ktoré ti už neprospievajú. Neboj sa otvorenia novej kapitoly s ľuďmi, ktorí ťa podporujú v tvojom rozvoji."
+      ],
+      "plans": [
+        "Dnes nie je najlepší čas na presadzovanie nových plánov, skôr na ich revíziu a zbavenie sa prežitých myšlienok. Počkajte, kým sa všetko neusadí, aby ste mohli začať s čistým štítom."
+      ]
     },
     "14": {
-      "general": ["TODO: Všeobecný význam pre kartu 14."],
-      "money": ["TODO: Peniaze význam pre kartu 14."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 14."],
-      "plans": ["TODO: Plány význam pre kartu 14."]
+      "general": [
+        "Dnes je ideálny čas na nájdenie vnútorného pokoja a harmónie. Integruj rôzne aspekty svojho života s trpezlivosťou a múdrosťou."
+      ],
+      "money": [
+        "Vyhni sa impulzívnym rozhodnutiam vo financiách a hľadaj striedmosť. Dnešok praje premysleným krokom v práci, ktoré prinesú dlhodobú stabilitu."
+      ],
+      "relationships": [
+        "Komunikácia v tvojich vzťahoch dnes vyžaduje jemnosť a pochopenie. Nájdite spoločný jazyk a liečivé slová, ktoré posilnia vaše putá."
+      ],
+      "plans": [
+        "Teraz nie je čas na unáhlené konanie, skôr na premyslené plánovanie a vyvažovanie možností. Všetko v pravý čas a s miernosťou sa obráti k tvojmu prospechu."
+      ]
     },
     "15": {
-      "general": ["TODO: Všeobecný význam pre kartu 15."],
-      "money": ["TODO: Peniaze význam pre kartu 15."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 15."],
-      "plans": ["TODO: Plány význam pre kartu 15."]
+      "general": [
+        "Dnes je deň, kedy sa stretávaš so svojimi tieňmi a lákadlami, ktoré ťa môžu zväzovať. Všímaj si svoje túžby, ale aj to, čo ti skutočne slúži."
+      ],
+      "money": [
+        "Buď opatrný pri finančných rozhodnutiach, ktoré môžu byť motivované impulzívnymi túžbami alebo chamtivosťou. Dnešok nie je najlepší čas na riskantné investície."
+      ],
+      "relationships": [
+        "Môžeš pociťovať silné emocionálne pripútania alebo pokušenia v osobných vzťahoch. Je čas uvedomiť si, kde ťa tieto energie ťahajú a či sú v súlade s tvojimi autentickými hodnotami."
+      ],
+      "plans": [
+        "Odlož veľké plány, ktoré by mohli byť založené na nezdravých závislostí alebo momentálnych vášňach. Dnes je skôr o uvedomení a odhalení skrytých motívov, než o priamom konaní."
+      ]
     },
     "16": {
-      "general": ["TODO: Všeobecný význam pre kartu 16."],
-      "money": ["TODO: Peniaze význam pre kartu 16."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 16."],
-      "plans": ["TODO: Plány význam pre kartu 16."]
+      "general": [
+        "Dnes sa môžeš stretnúť s nečakanými zmenami, ktoré ti odhalia skryté pravdy. Dôveruj procesu, aj keď sa zdá búrlivý, otvára priestor pre nový začiatok."
+      ],
+      "money": [
+        "Možno dôjde k nečakaným výdavkom alebo k prehodnoteniu tvojich finančných štruktúr. Buď pripravený na prekvapenia, ktoré však môžu viesť k lepšiemu."
+      ],
+      "relationships": [
+        "Vzťahy môžu byť dnes intenzívne, s odhalením dlho potláčaných pocitov. Táto očista je potrebná na vybudovanie pevnejších a autentickejších spojení."
+      ],
+      "plans": [
+        "Je čas rozobrať staré plány, ktoré už neslúžia tvojmu rastu. Aj keď sa to môže zdať ako krok späť, je to nevyhnutné pre vytvorenie skutočne udržateľných cieľov."
+      ]
     },
     "17": {
-      "general": ["TODO: Všeobecný význam pre kartu 17."],
-      "money": ["TODO: Peniaze význam pre kartu 17."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 17."],
-      "plans": ["TODO: Plány význam pre kartu 17."]
+      "general": [
+        "Dnes sa ti rozjasňuje cesta, nechaj sa viesť vnútorným svetlom nádeje. Si obklopený pozitívnou energiou obnovy, ktorá ťa pohne vpred."
+      ],
+      "money": [
+        "Finančná situácia sa môže zlepšiť, sleduj znamenia, ktoré ti ukážu správny smer. Je vhodný čas na premyslené investície alebo hľadanie nových príležitostí."
+      ],
+      "relationships": [
+        "Vzťahy dnes prekvitajú pod žiarou porozumenia a súcitu. Otvor svoje srdce, aby si mohol zdieľať a prijať lásku, ktorá ťa obklopuje."
+      ],
+      "plans": [
+        "Dnes je ideálny čas na začatie nových projektov, pretože hviezdy ti prajú a poskytujú jasné vedenie. Tvoje plány sa môžu rozvinúť s novou silou a nádejou."
+      ]
     },
     "18": {
-      "general": ["TODO: Všeobecný význam pre kartu 18."],
-      "money": ["TODO: Peniaze význam pre kartu 18."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 18."],
-      "plans": ["TODO: Plány význam pre kartu 18."]
+      "general": [
+        "Dnes sa ponor do svojho vnútorného sveta a počúvaj svoju intuíciu. V neistote hľadaj múdrosť v tom, čo cítiš, nie len v tom, čo vidíš."
+      ],
+      "money": [
+        "Dnešné finančné záležitosti môžu pôsobiť nejasne, preto sa vyhni impulzívnym rozhodnutiam. Dôveruj svojmu vnútornému pocitu pri dôležitých rozhodnutiach týkajúcich sa práce."
+      ],
+      "relationships": [
+        "Vzťahy môžu vyžadovať viac vnímavosti a pochopenia pre skryté emócie. Otvorená komunikácia je kľúčová, no občas stačí aj tiché načúvanie."
+      ],
+      "plans": [
+        "Dnešok nie je ideálny na radikálne nové kroky, skôr na premyslenie a zhodnotenie doterajších plánov. Nechaj si čas na rozlíšenie ilúzií od skutočných možností."
+      ]
     },
     "19": {
-      "general": ["TODO: Všeobecný význam pre kartu 19."],
-      "money": ["TODO: Peniaze význam pre kartu 19."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 19."],
-      "plans": ["TODO: Plány význam pre kartu 19."]
+      "general": [
+        "Dnes je tvoj deň plný svetla a radosti, kde sa odráža tvoja vnútorná vitalita. Naladením sa na túto energiu budeš môcť naplno prejaviť a zažiť úspech vo všetkom, čo si vezmeš do hlavy."
+      ],
+      "money": [
+        "Tvoja práca a financie sú dnes v znamení rastu a úspechu, preto je vhodný čas na prezentáciu svojich výsledkov. Vyžaruješ zo seba sebavedomie, ktoré ti môže priniesť zaslúžené uznanie a odmenu."
+      ],
+      "relationships": [
+        "Vo vzťahoch panuje harmónia a otvorenosť, čo ti umožňuje zdieľať svoje najradostnejšie pocity s blízkymi. Komunikácia je jasná a úprimná, čo posilňuje putá a prináša spoločné šťastie."
+      ],
+      "plans": [
+        "Tento deň je priam stvorený na realizáciu tvojich najodvážnejších plánov a cieľov. Tvoja energia a sebavedomie sú na vrchole, preto neváhaj urobiť ďalší krok k naplneniu svojich snov."
+      ]
     },
     "20": {
-      "general": ["TODO: Všeobecný význam pre kartu 20."],
-      "money": ["TODO: Peniaze význam pre kartu 20."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 20."],
-      "plans": ["TODO: Plány význam pre kartu 20."]
+      "general": [
+        "Dnes je deň prebúdzania a hlbokého zhodnotenia tvojho života. Vypočuj si vnútorné volanie, ktoré ťa volá k dôležitým rozhodnutiam."
+      ],
+      "money": [
+        "V práci alebo vo financiách môže nastať moment, kedy budeš musieť zhodnotiť svoje doterajšie úspechy. Neboj sa ozvať, ak cítiš potrebu zmeny alebo uznania."
+      ],
+      "relationships": [
+        "Vzťahy dnes vyžadujú úprimné zhodnotenie a otvorenú komunikáciu. Je čas vypočuť si nielen seba, ale aj blízkych a ich potreby."
+      ],
+      "plans": [
+        "Dnešok je vhodný na premyslenie si svojich dlhodobých cieľov a zhodnotenie, či si na správnej ceste. Ak ťa volanie vedie k novému smeru, dnes je vhodný čas na jeho rozmyslenie."
+      ]
     },
     "21": {
-      "general": ["TODO: Všeobecný význam pre kartu 21."],
-      "money": ["TODO: Peniaze význam pre kartu 21."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 21."],
-      "plans": ["TODO: Plány význam pre kartu 21."]
+      "general": [
+        "Dnes je deň dokončenia a integrácie, kedy sa tvoje úsilie zavŕši s pocitom celistvosti. Nalaď sa na energiu majstrovstva, ktorá ti umožní vidieť veci v ich úplnosti."
+      ],
+      "money": [
+        "Finančné záležitosti sa môžu javiť ako stabilné, pretože dnešok prináša pocit naplnenia a úspešného dokončenia projektov. Môžeš si užiť ovocie svojej práce a pocítiť stabilitu vo svojich kariérnych krokoch."
+      ],
+      "relationships": [
+        "V oblasti vzťahov dnes vládne harmónia a porozumenie, kedy sa môžu úspešne uzatvárať kruhy a prehlbovať spojenia. Vnímajúc celistvosť v sebe, prinášaš rovnakú energiu aj do svojich blízkych interakcií."
+      ],
+      "plans": [
+        "Tento deň je ideálny na zhodnotenie dosiahnutých cieľov a na integráciu nových poznatkov do tvojich budúcich plánov. Majstrovstvo, ktoré dnes dosiahneš, ti umožní s istotou vykročiť vpred."
+      ]
     },
     "22": {
-      "general": ["TODO: Všeobecný význam pre kartu 22."],
-      "money": ["TODO: Peniaze význam pre kartu 22."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 22."],
-      "plans": ["TODO: Plány význam pre kartu 22."]
+      "general": [
+        "Dnes v tebe horí nová iskra, ktorá ťa volá k činom a tvorivosti. Využi túto silnú energiu na naštartovanie niečoho nového a vzrušujúceho."
+      ],
+      "money": [
+        "Priaznivý čas pre nové podnikateľské nápady alebo prevzatie iniciatívy v práci. Tvoja kreativita môže priniesť neočakávané finančné príležitosti."
+      ],
+      "relationships": [
+        "Buď otvorený novým začiatkom vo vzťahoch alebo obnoveniu vášne. Tvoja energia môže byť nákazlivá a inšpirovať aj tvojich blízkych."
+      ],
+      "plans": [
+        "Dnešok je ideálnym dňom na rozbehnutie dlho odkladaných projektov. Neboj sa vykročiť vpred a naplno prejaviť svoju víziu."
+      ]
     },
     "23": {
-      "general": ["TODO: Všeobecný význam pre kartu 23."],
-      "money": ["TODO: Peniaze význam pre kartu 23."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 23."],
-      "plans": ["TODO: Plány význam pre kartu 23."]
+      "general": [
+        "Dnes je deň na rozširovanie svojich obzorov a premýšľanie o ďalších krokoch. Naladi sa na energiu tvorivosti a nových možností, ktoré sa pred tebou otvárajú."
+      ],
+      "money": [
+        "V oblasti financií a práce sa ti otvárajú nové perspektívy, ktoré si vyžadujú dôkladné plánovanie. Zváž strategické rozhodnutia, ktoré ťa posunú vpred."
+      ],
+      "relationships": [
+        "Komunikácia s blízkymi sa môže niesť v duchu zdieľania vízií a plánov do budúcnosti. Spoločné snívanie a tvorivé diskusie posilnia vaše puto."
+      ],
+      "plans": [
+        "Je ideálny čas na plánovanie budúcich cieľov a premýšľanie o tom, kam by si chcel smerovať. Neboj sa snívať vo veľkom a vizualizovať si svoje najodvážnejšie zámery."
+      ]
     },
     "24": {
-      "general": ["TODO: Všeobecný význam pre kartu 24."],
-      "money": ["TODO: Peniaze význam pre kartu 24."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 24."],
-      "plans": ["TODO: Plány význam pre kartu 24."]
+      "general": [
+        "Dnes sa otvárajú nové obzory a ty cítiš silnú hybnú silu k expanzii. Využi túto energiu na rozšírenie svojho vplyvu a oslávenie prvých úspechov."
+      ],
+      "money": [
+        "Tvojou cestou k lepšiemu finančnému stavu je pokrok a strategické investície. Očakávaj pozitívny rast a odmeny za svoju doterajšiu prácu."
+      ],
+      "relationships": [
+        "Vzťahy sa dnes môžu rozvíjať a ty nachádzaš silu v budovaní pevných základov. Komunikuj otvorene a nadväzuj nové, obohacujúce spojenia."
+      ],
+      "plans": [
+        "Je skvelý čas na realizáciu svojich ambicióznych plánov a vízií. Neboj sa vykročiť vpred, tvoje úsilie prinesie viditeľné výsledky."
+      ]
     },
     "25": {
-      "general": ["TODO: Všeobecný význam pre kartu 25."],
-      "money": ["TODO: Peniaze význam pre kartu 25."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 25."],
-      "plans": ["TODO: Plány význam pre kartu 25."]
+      "general": [
+        "Dnes oslavuješ dosiahnutý míľnik a cítiš hlbokú stabilitu. Naladiť sa na energiu radosti a vďačnosti ti prinesie pokoj do duše."
+      ],
+      "money": [
+        "Tvoj dnešný deň v oblasti financií praje oslavám úspechov a upevneniu pozícií. Môžeš očakávať pocit bezpečia a stability v pracovnom prostredí."
+      ],
+      "relationships": [
+        "Dnes sa zameraj na domov a oslavu s tými, ktorých miluješ. Vytvor si priestor plný radosti a pohody, kde sa každý cíti bezpečne a milovane."
+      ],
+      "plans": [
+        "Je skvelý čas na oslavu už dosiahnutých cieľov a upevnenie svojich základov pred ďalšími krokmi. Dnešok ti prináša pocit naplnenia a stability pre budúcnosť."
+      ]
     },
     "26": {
-      "general": ["TODO: Všeobecný význam pre kartu 26."],
-      "money": ["TODO: Peniaze význam pre kartu 26."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 26."],
-      "plans": ["TODO: Plány význam pre kartu 26."]
+      "general": [
+        "Dnes sa objavuje energia súťaže a nutnosti prekonať prekážky. Využi tieto výzvy ako príležitosť na rast a sebapoznanie."
+      ],
+      "money": [
+        "Tvoj pracovný deň môže priniesť menšie trenice alebo konkurenciu. Ostni sústredený na svoje ciele a nenechaj sa rozhodiť drobnými konfliktami."
+      ],
+      "relationships": [
+        "Vzťahy môžu byť dnes trochu napäté, s možnými nedorozumieniami. Skús komunikovať otvorene a s porozumením, aby si zmiernil akékoľvek trenice."
+      ],
+      "plans": [
+        "Dnešok nemusí byť ideálny na hladké začiatky, skôr na prehodnotenie a zvládnutie existujúcich výziev. S novými projektami radšej počkaj na pokojnejšie časy."
+      ]
     },
     "27": {
-      "general": ["TODO: Všeobecný význam pre kartu 27."],
-      "money": ["TODO: Peniaze význam pre kartu 27."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 27."],
-      "plans": ["TODO: Plány význam pre kartu 27."]
+      "general": [
+        "Dnes je deň osláv a uznania tvojich úspechov. Naladiť by si sa mal na vlnu sebavedomia a hrdosti na to, čo si dosiahol."
+      ],
+      "money": [
+        "Tvoja práca a úsilie budú odmenené, alebo sa dočkáš uznania za svoje profesijné výsledky. Finančné úspechy sú na dosah ruky."
+      ],
+      "relationships": [
+        "Dnes sa môžeš tešiť z pozitívnej spätnej väzby a obdivu zo strany okolia. Vzťahy sú naplnené harmóniou a vzájomným rešpektom."
+      ],
+      "plans": [
+        "Je vynikajúci čas na prezentáciu svojich úspechov a posun vpred s novou energiou. Tvoje ambície budú priaznivo prijaté a podporované."
+      ]
     },
     "28": {
-      "general": ["TODO: Všeobecný význam pre kartu 28."],
-      "money": ["TODO: Peniaze význam pre kartu 28."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 28."],
-      "plans": ["TODO: Plány význam pre kartu 28."]
+      "general": [
+        "Dnes sa postav pevne za svoje presvedčenia a neboj sa brániť svoju pozíciu. Tvoja vnútorná sila ti pomôže prekonať akékoľvek prekážky."
+      ],
+      "money": [
+        "Vo financiách a práci je dôležité stanoviť si jasné hranice a nedovoliť, aby niekto prekročil tvoju zónu komfortu. Neboj sa označiť svoje úspechy."
+      ],
+      "relationships": [
+        "Vzťahy si dnes vyžadujú odhodlanie a jasné vymedzenie vlastných potrieb. Neboj sa vyjadriť, čo cítiš, ale rob to s rešpektom k druhým."
+      ],
+      "plans": [
+        "Tento deň je ideálny na upevnenie už rozbehnutých projektov a ich obranu pred vonkajšími vplyvmi. Nové plány môžu počkať, až keď budeš mať istotu vo svojich základoch."
+      ]
     },
     "29": {
-      "general": ["TODO: Všeobecný význam pre kartu 29."],
-      "money": ["TODO: Peniaze význam pre kartu 29."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 29."],
-      "plans": ["TODO: Plány význam pre kartu 29."]
+      "general": [
+        "Dnes sa všetko pohne neuveriteľnou rýchlosťou. Priprav sa na rýchly prúd udalostí a nových informácií, ktoré ti otvoria nové cesty. Vnímaj túto energiu a nechaj sa ňou uniesť."
+      ],
+      "money": [
+        "V oblasti financií a práce očakávaj rýchle posuny a nečakané správy. Možno sa objaví nová príležitosť alebo sa vyrieši dlhodobý problém s prekvapivou ľahkosťou."
+      ],
+      "relationships": [
+        "Komunikácia v tvojich vzťahoch bude dnes mimoriadne svižná a priamočiara. Prijímaj a odosielaj správy s otvoreným srdcom, môžu priniesť prekvapivé spojenia."
+      ],
+      "plans": [
+        "Je ideálny čas na spustenie nových projektov a uskutočnenie rýchlych krokov k tvojim cieľom. Všetko sa dnes môže vyvíjať oveľa rýchlejšie, než si predpokladal."
+      ]
     },
     "30": {
-      "general": ["TODO: Všeobecný význam pre kartu 30."],
-      "money": ["TODO: Peniaze význam pre kartu 30."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 30."],
-      "plans": ["TODO: Plány význam pre kartu 30."]
+      "general": [
+        "Dnes cítiš únavu, no tvoja vnútorná sila ti umožňuje prekonať prekážky. Zostaň ostražitý a nevzdávaj sa, cieľ je blízko."
+      ],
+      "money": [
+        "Tvoje úsilie v práci sa pomaly, ale isto vypláca, aj keď sa cítiš vyčerpaný. Nepodceňuj ani drobné výdavky, buď na ne pripravený."
+      ],
+      "relationships": [
+        "Možno cítiš istú únavu z komunikácie, no tvoja vytrvalosť vo vzťahoch je cenená. Ostávaš ochrancom svojich blízkych, aj keď to stojí úsilie."
+      ],
+      "plans": [
+        "Si v poslednej fáze príprav, ale ešte nie je čas na úplné uvoľnenie. Vytrvaj a buď pripravený na záverečné kroky."
+      ]
     },
     "31": {
-      "general": ["TODO: Všeobecný význam pre kartu 31."],
-      "money": ["TODO: Peniaze význam pre kartu 31."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 31."],
-      "plans": ["TODO: Plány význam pre kartu 31."]
+      "general": [
+        "Dnes cítiš ťažobu zodpovednosti, ktorá ti bráni voľne dýchať. Uvedom si, čo všetko nesieš, a nájdi silu v odľahčení svojho bremena."
+      ],
+      "money": [
+        "Tlak v práci alebo finančné záväzky môžu dnes prevyšovať tvoje sily. Zváž, či si nenaložil viac, ako dokážeš uniesť, a hľadaj podporu."
+      ],
+      "relationships": [
+        "Cítiš sa zaviazaný plniť očakávania iných, čo ti môže obmedzovať priestor v komunikácii. Otvorene prejav svoje pocity a hľadaj spravodlivejšie rozdelenie záťaže."
+      ],
+      "plans": [
+        "Dnešný deň nie je ideálny na začiatok nových ambicióznych projektov, pretože energia je skôr o dokončovaní a spracovaní existujúcich povinností. Sústreď sa na to, čo je nutné, a odlož nové iniciatívy na vhodnejšiu chvíľu."
+      ]
     },
     "32": {
-      "general": ["TODO: Všeobecný význam pre kartu 32."],
-      "money": ["TODO: Peniaze význam pre kartu 32."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 32."],
-      "plans": ["TODO: Plány význam pre kartu 32."]
+      "general": [
+        "Dnes je deň plný novej zvedavosti a objavovania. Otvor sa novým informáciám a inšpiráciám, ktoré ti prinesú vzrušujúce správy."
+      ],
+      "money": [
+        "Očakávaj nečakané novinky alebo zaujímavé nápady, ktoré by mohli ovplyvniť tvoju finančnú situáciu. Buď otvorený novým príležitostiam."
+      ],
+      "relationships": [
+        "Komunikácia s blízkymi ťa môže dnes obohatiť o nové pohľady alebo priniesť zaujímavé správy. Vychutnaj si tieto momenty zdieľania."
+      ],
+      "plans": [
+        "Tento deň je ideálny na začatie malých prieskumov a nazbieranie informácií pre tvoje budúce plány. Nechaj sa viesť svojou zvedavosťou k novým krokom."
+      ]
     },
     "33": {
-      "general": ["TODO: Všeobecný význam pre kartu 33."],
-      "money": ["TODO: Peniaze význam pre kartu 33."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 33."],
-      "plans": ["TODO: Plány význam pre kartu 33."]
+      "general": [
+        "Dnes je deň pre odvážne kroky a dobrodružné objavy, ktoré ťa posunú vpred. Naplno sa nalaď na energiu pohybu a neboj sa vydať novým smerom."
+      ],
+      "money": [
+        "V oblasti financií a práce môžeš očakávať dynamický rozvoj a impulz k inovatívnym riešeniam. Neboj sa riskovať v rámci svojich kariérnych ambícií."
+      ],
+      "relationships": [
+        "Tvoj dnešný prístup v medziľudských vzťahoch bude plný vášne a rozhodnosti. Komunikácia môže byť priama, ale zameraná na posun vpred."
+      ],
+      "plans": [
+        "Je ideálny čas začať realizovať svoje najodvážnejšie plány a pustiť sa do nových projektov. Dnešná energia ťa povzbudí k akcii a dosiahnutiu cieľov."
+      ]
     },
     "34": {
-      "general": ["TODO: Všeobecný význam pre kartu 34."],
-      "money": ["TODO: Peniaze význam pre kartu 34."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 34."],
-      "plans": ["TODO: Plány význam pre kartu 34."]
+      "general": [
+        "Dnes sa cítiš plná/plný vnútornej sily a sebavedomia, čo ti umožňuje žiarivo inšpirovať svoje okolie. Využi túto žiarivú energiu na to, aby si sa stala/stal prirodzeným/prirodzenou lídrom."
+      ],
+      "money": [
+        "Tvoja praktická stránka a sebavedomé rozhodnutia dnes môžu priniesť pozitívne výsledky v práci aj vo financiách. Neboj sa prevziať iniciatívu a riadiť svoje projekty s prehľadom."
+      ],
+      "relationships": [
+        "Tvoja vrelosť a otvorenosť priťahuje ľudí, vďaka čomu sa dnes cítiš v spoločnosti obľúbená/obľúbený a obklopená/obklopený porozumením. Podeľ sa o svoju pozitívnu energiu so svojimi blízkymi."
+      ],
+      "plans": [
+        "Dnešok je priaznivý pre realizáciu tvojich ambicióznych plánov, najmä ak vyžadujú tvoje vodcovské schopnosti a kreatívnu víziu. Tvoja odvaha a presvedčenie ťa dovedú k úspechu."
+      ]
     },
     "35": {
-      "general": ["TODO: Všeobecný význam pre kartu 35."],
-      "money": ["TODO: Peniaze význam pre kartu 35."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 35."],
-      "plans": ["TODO: Plány význam pre kartu 35."]
+      "general": [
+        "Dnes je deň, kedy sa prejavuje tvoja vnútorná vízia a tvorivá sila. Neboj sa prevziať iniciatívu a s odvahou realizovať svoje nápady."
+      ],
+      "money": [
+        "Tvoja práca a finančné záležitosti sa dnes nesú v znamení majstrovstva a jasnej vízie. Využi svoju energiu na dosiahnutie úspechu a finančnej stability."
+      ],
+      "relationships": [
+        "Tvoja schopnosť viesť a inšpirovať sa dnes prejaví aj vo vzťahoch. Komunikuj jasne a s dôverou, čím posilníš putá s blízkymi."
+      ],
+      "plans": [
+        "Dnešok je priaznivý pre začatie ambicióznych projektov a realizáciu tvojich najodvážnejších plánov. Tvoja vízia ťa dnes dovedie k úspechu."
+      ]
     },
     "36": {
-      "general": ["TODO: Všeobecný význam pre kartu 36."],
-      "money": ["TODO: Peniaze význam pre kartu 36."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 36."],
-      "plans": ["TODO: Plány význam pre kartu 36."]
+      "general": [
+        "Dnes sa otvára nové emocionálne obdobie, pripravené naplniť tvoje srdce láskou a obnovenou radosťou.  Nalaď sa na vlnu otvorenosti a prijímania krásnych darov života."
+      ],
+      "money": [
+        "V oblasti financií a práce ti dnes prichádza ponuka na novú, obohacujúcu cestu alebo príležitosť.  Dôveruj svojej intuícii pri rozhodovaní o materiálnych záležitostiach."
+      ],
+      "relationships": [
+        "Tvoj vzťah k sebe aj k ostatným sa dnes prehlbuje, pozýva k úprimnosti a súcitu.  Otvorené srdce ti prinesie nové spojenia a posilní existujúce putá."
+      ],
+      "plans": [
+        "Tento deň je ideálny na začatie nových projektov spojených s osobným rozvojom a naplnením.  Je čas odvážne vykročiť za svojimi snami a nechať sa viesť srdcom."
+      ]
     },
     "37": {
-      "general": ["TODO: Všeobecný význam pre kartu 37."],
-      "money": ["TODO: Peniaze význam pre kartu 37."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 37."],
-      "plans": ["TODO: Plány význam pre kartu 37."]
+      "general": [
+        "Dnes je deň stvorený pre spojenie a vzájomnú harmóniu. Nalaď sa na energiu porozumenia a láskyplnej výmeny, ktorá obohatí tvoju dušu."
+      ],
+      "money": [
+        "V oblasti financií a práce môžeš dnes očakávať prospešnú spoluprácu alebo partnerstvo. Dávaj si pozor na obojstranne výhodné dohody, ktoré posilnia tvoju pozíciu."
+      ],
+      "relationships": [
+        "Tento deň praje hlbokým spojeniam a posilneniu vzťahov. Otvor svoje srdce druhej osobe a vychutnaj si krásu vzájomnej náklonnosti a porozumenia."
+      ],
+      "plans": [
+        "Dnešok je ideálny na začatie spoločných projektov alebo upevnenie existujúcich zväzkov. S dôverou a otvorenou komunikáciou môžete spoločne dosiahnuť úžasné veci."
+      ]
     },
     "38": {
-      "general": ["TODO: Všeobecný význam pre kartu 38."],
-      "money": ["TODO: Peniaze význam pre kartu 38."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 38."],
-      "plans": ["TODO: Plány význam pre kartu 38."]
+      "general": [
+        "Dnes je deň plný radosti a spájania sa s ľuďmi, ktorí ti prinášajú šťastie. Naladi sa na vlnu osláv a zdieľanej energie."
+      ],
+      "money": [
+        "Tento deň prináša do financií a práce atmosféru spolupráce a vzájomnej pomoci. Možno sa objavia nečakané príležitosti vďaka tímovej práci."
+      ],
+      "relationships": [
+        "Je ideálny čas na posilnenie priateľských pút a užitie si spoločných chvíľ. Tvoja otvorenosť a veselosť budú priťahovať pozitívnu energiu."
+      ],
+      "plans": [
+        "Dnešok je skvelý na oslavu dosiahnutých úspechov a zdieľanie radosti s ostatnými. Nezabudni sa tešiť z pokroku, ktorý si dosiahol."
+      ]
     },
     "39": {
-      "general": ["TODO: Všeobecný význam pre kartu 39."],
-      "money": ["TODO: Peniaze význam pre kartu 39."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 39."],
-      "plans": ["TODO: Plány význam pre kartu 39."]
+      "general": [
+        "Dnes je čas zastaviť sa a pozorovať, čo sa okolo teba deje. Možno ti unikajú príležitosti, pretože si upriamený na to, čo nemáš."
+      ],
+      "money": [
+        "V oblasti financií či práce sa môže objaviť pocit stagnácie. Premýšľaj, či ti súčasná situácia prináša naplnenie."
+      ],
+      "relationships": [
+        "Vzťahy môžu vyžadovať novú perspektívu, možno si nevidíš celkom jasne obraz vašej dynamiky. Neboj sa otvoriť sa novým možnostiam."
+      ],
+      "plans": [
+        "Nie je najlepší deň na unáhlené rozhodnutia ohľadom nových plánov. Využi tento čas na hlbšie premýšľanie a reflexiu."
+      ]
     },
     "40": {
-      "general": ["TODO: Všeobecný význam pre kartu 40."],
-      "money": ["TODO: Peniaze význam pre kartu 40."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 40."],
-      "plans": ["TODO: Plány význam pre kartu 40."]
+      "general": [
+        "Dnes sa môžeš cítiť, akoby si stratil niečo cenné, ale neboj sa, nie je to koniec cesty. Dovoľ si cítiť svoje emócie, ale nezdržuj sa v smútku príliš dlho."
+      ],
+      "money": [
+        "Možno dnes nie je najlepší deň na finančné investície alebo nové pracovné projekty, ak sú spojené s rizikom straty. Skôr sa sústreď na zhodnotenie toho, čo už máš a poučenie z minulých chýb."
+      ],
+      "relationships": [
+        "Vzťahy môžu vyžadovať extra dávku empatie a porozumenia, najmä ak sa objavia nejaké sklamania. Skús sa pozrieť na situácie z perspektívy druhého a nehľadaj len to, čo chýba."
+      ],
+      "plans": [
+        "Dnešok nie je ideálny na začínanie rozsiahlych nových plánov, ak sa cítiš zviazaný minulosťou alebo neúspechom. Radšej sa venuj reflexii a príprave pôdy pre budúce kroky, keď sa energia zmení."
+      ]
     },
     "41": {
-      "general": ["TODO: Všeobecný význam pre kartu 41."],
-      "money": ["TODO: Peniaze význam pre kartu 41."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 41."],
-      "plans": ["TODO: Plány význam pre kartu 41."]
+      "general": [
+        "Dnes sa ponor do sladkej nostalgie a vychutnaj si milé spomienky. Naladi sa na energiu nevinnosti a radosti z jednoduchých vecí."
+      ],
+      "money": [
+        "Tento deň ti prináša finančnú stabilitu a pocit bezpečia v práci, možno aj vďaka minulým úspechom. Dnešné výdavky môžu byť spojené s podporou blízkych alebo nostalgickými potešeniami."
+      ],
+      "relationships": [
+        "Obklop sa láskavosťou a obnovuj spojenie so starými priateľmi či rodinou, čerpajúc zo spoločných spomienok. V romantických vzťahoch prevláda nevinná náklonnosť a hlboké porozumenie."
+      ],
+      "plans": [
+        "Tento deň nie je primárne o nových začiatkoch, skôr o zhodnotení minulosti a čerpaní síl z nej. Ak však tvoje plány vychádzajú z pevného základu a prinášajú radosť, pokojne ich realizuj."
+      ]
     },
     "42": {
-      "general": ["TODO: Všeobecný význam pre kartu 42."],
-      "money": ["TODO: Peniaze význam pre kartu 42."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 42."],
-      "plans": ["TODO: Plány význam pre kartu 42."]
+      "general": [
+        "Dnes sa otvárajú viaceré cesty, no daj si pozor na mámenie ilúzií. Zameraj sa na to, čo je pre teba skutočne dôležité v tomto momente."
+      ],
+      "money": [
+        "Pred tebou sa môžu objaviť rôzne finančné príležitosti alebo nové projekty. Dôkladne zváž, ktorá z nich ti prinesie reálny úžitok, nie len prázdne sny."
+      ],
+      "relationships": [
+        "V oblasti vzťahov môžeš vnímať veľa možností a túžob. Rozlišuj medzi skutočnými citmi a chvíľkovými fantáziami, aby si sa nestratil v nejasnostiach."
+      ],
+      "plans": [
+        "Je čas preskúmať rôzne možnosti pre tvoje plány, no vyvaruj sa rozptyľovaniu. Skôr ako urobíš konkrétne kroky, ujasni si svoje skutočné priority a vízie."
+      ]
     },
     "43": {
-      "general": ["TODO: Všeobecný význam pre kartu 43."],
-      "money": ["TODO: Peniaze význam pre kartu 43."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 43."],
-      "plans": ["TODO: Plány význam pre kartu 43."]
+      "general": [
+        "Dnes je deň, kedy cítiš volanie k hlbšiemu zmyslu, možno k zmene smeru. Dovoľ si odísť od toho, čo už ti neslúži, a vykroč na novú, neprebádanú cestu."
+      ],
+      "money": [
+        "Materiálne záležitosti môžu dnes ustúpiť do úzadia, keďže tvoja pozornosť sa presúva k hľadaniu naplnenia. Nečakaj na okamžité finančné zisky, sústreď sa na dlhodobú spokojnosť."
+      ],
+      "relationships": [
+        "Možno je čas opustiť vzťahy, ktoré ťa už nedokážu naplniť, a hľadať hlbšie spojenie s tými, ktorí ťa inšpirujú. Otvára sa priestor na nové, autentickejšie formy komunikácie."
+      ],
+      "plans": [
+        "Tento deň nie je o začínaní nových projektov, ale o ukončovaní starých cyklov. Než sa pustíš do nových cieľov, uisti sa, že si zanechal minulosť za sebou."
+      ]
     },
     "44": {
-      "general": ["TODO: Všeobecný význam pre kartu 44."],
-      "money": ["TODO: Peniaze význam pre kartu 44."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 44."],
-      "plans": ["TODO: Plány význam pre kartu 44."]
+      "general": [
+        "Dnes je deň, kedy sa tvoje srdce naplní hlbokou spokojnosťou a tvoje priania sa môžu zázračne uskutočniť. Naladiť sa na vďačnosť a radosť prinesie ešte viac požehnaní."
+      ],
+      "money": [
+        "Tvoje finančné úsilie môže priniesť očakávané ovocie a pocit naplnenia z práce. Uži si zaslúžené odmeny a spokojnosť s dosiahnutými úspechmi."
+      ],
+      "relationships": [
+        "Vo svojich vzťahoch zažívaš harmóniu a hlboké uspokojenie, tvoje priania v láske sa môžu naplniť. Podeľ sa o svoju radosť a otvorenosť s tými, ktorých miluješ."
+      ],
+      "plans": [
+        "Dnešok je priaznivý na realizáciu prianí, ktoré prichádzajú zo srdca a sú v súlade s tvojím vnútorným naplnením. S dôverou kroč vpred za svojimi snami."
+      ]
     },
     "45": {
-      "general": ["TODO: Všeobecný význam pre kartu 45."],
-      "money": ["TODO: Peniaze význam pre kartu 45."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 45."],
-      "plans": ["TODO: Plány význam pre kartu 45."]
+      "general": [
+        "Dnes sa otvára brána k hlbokej radosti a emocionálnemu naplneniu. Naladi sa na vlnu harmónie a vychutnávaj si momenty šťastia v kruhu blízkych."
+      ],
+      "money": [
+        "V oblasti financií a práce vládne stabilita a spokojnosť, ktorá ti prináša pocit istoty. Tvoje úsilie sa dnes môže prejaviť v príjemných výsledkoch."
+      ],
+      "relationships": [
+        "Tvoje vzťahy dnes prekypujú láskou a porozumením, čo ti prináša pocit hlbokého spojenia. Vychutnávaj si tento čas plný rodinnej pohody a radosti."
+      ],
+      "plans": [
+        "Dnešok je ideálnym dňom na upevnenie toho, čo už máš, a na zdieľanie radosti z dosiahnutých cieľov. Nové plány nech zatiaľ dozrievajú v bezpečnom prostredí."
+      ]
     },
     "46": {
-      "general": ["TODO: Všeobecný význam pre kartu 46."],
-      "money": ["TODO: Peniaze význam pre kartu 46."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 46."],
-      "plans": ["TODO: Plány význam pre kartu 46."]
+      "general": [
+        "Dnes k tebe prichádza nečakaná, no príjemná správa, ktorá ťa nabije novou energiou a chuťou objavovať. Otvor svoje srdce a myseľ novým emóciám a možnostiam, ktoré ti deň prinesie."
+      ],
+      "money": [
+        "Dnes môžeš očakávať nečakané správy týkajúce sa financií, ktoré ti otvoria nové Perspektívy. Využi svoju otvorenosť na zváženie zaujímavých ponúk či nápadov, ktoré ti môžu priniesť úžitok."
+      ],
+      "relationships": [
+        "Očakávaj úprimnú a nečakanú správu od blízkej osoby, ktorá prehĺbi vaše puto. Tvoja otvorenosť v komunikácii dnes môže viesť k prekvapivému emocionálnemu prepojenie."
+      ],
+      "plans": [
+        "Dnešok je ideálny na objavovanie nových nápadov a citlivé prijímanie informácií, ktoré môžu ovplyvniť tvoje plány. Neboj sa prijať nečakané impulzy a byť otvorený novým možnostiam."
+      ]
     },
     "47": {
-      "general": ["TODO: Všeobecný význam pre kartu 47."],
-      "money": ["TODO: Peniaze význam pre kartu 47."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 47."],
-      "plans": ["TODO: Plány význam pre kartu 47."]
+      "general": [
+        "Dnes ťa objíma vlna romantiky a citových pozvaní, ktoré ti ukážu cestu k nasledovaniu svojho srdca. Nasmeruj svoju energiu k tomu, čo ti prináša radosť a naplnenie."
+      ],
+      "money": [
+        "Finančné záležitosti dnes môžu nabrať romantický nádych, možno ťa čaká milé prekvapenie alebo ponuka. V práci sa otvor pre nové nápady, ktoré prichádzajú z tvojho vnútra."
+      ],
+      "relationships": [
+        "Tvoje vzťahy dnes prekvitajú láskou a úprimnými pozvaniami k hlbšiemu spojeniu. Otvor sa citovým ponukám a zdieľaj svoje najúprimnejšie pocity s blízkymi."
+      ],
+      "plans": [
+        "Ak tvoje plány vychádzajú zo srdca a sú spojené s idealizmom, dnes je vynikajúci čas na ich štart. Nasleduj svoju intuíciu, ktorá ťa dnes vedie k tým najkrajším cieľom."
+      ]
     },
     "48": {
-      "general": ["TODO: Všeobecný význam pre kartu 48."],
-      "money": ["TODO: Peniaze význam pre kartu 48."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 48."],
-      "plans": ["TODO: Plány význam pre kartu 48."]
+      "general": [
+        "Dnes si naladený na vlnu hlbokej empatie a intuície. Nechaj sa viesť svojím vnútorným hlasom a citlivosťou k ostatným."
+      ],
+      "money": [
+        "V oblasti financií a práce ti dnes pomôže tvoja schopnosť vcítiť sa do potrieb druhých. Možno práve starostlivosť a porozumenie prinesú nečakané pozitíva."
+      ],
+      "relationships": [
+        "Tvoja emocionálna hĺbka je dnes kľúčom k harmonickým vzťahom. Otvor srdce a prejav súcit, ktorý posilní putá s blízkymi."
+      ],
+      "plans": [
+        "Dnešok praje intuitívnym rozhodnutiam a jemnému postupu v plánoch. Zváž svoje pocity a nasleduj smer, ktorý ti srdce našepkáva."
+      ]
     },
     "49": {
-      "general": ["TODO: Všeobecný význam pre kartu 49."],
-      "money": ["TODO: Peniaze význam pre kartu 49."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 49."],
-      "plans": ["TODO: Plány význam pre kartu 49."]
+      "general": [
+        "Dnes sa nalaď na vlnu pokoja a súcitu, cítiš v sebe silnú emocionálnu rovnováhu. Využi túto vnútornú harmóniu na to, aby si bol pre seba aj pre ostatných oporou."
+      ],
+      "money": [
+        "Tvoja finančná oblasť dnes profituje z pokojného a vyváženého prístupu, vyhni sa impulzívnym rozhodnutiam. Rozhodnutia založené na intuícii a zhovievavosti ti prinesú stabilitu."
+      ],
+      "relationships": [
+        "Dnes prekvitá empatia a porozumenie, tvoje vzťahy sú naplnené hlbokým emocionálnym spojením. V tejto atmosfére ľahko prekonáš akékoľvek nedorozumenia s otvoreným srdcom."
+      ],
+      "plans": [
+        "Tento deň je ideálny na premyslené kroky, kde dominuje cit a múdrosť. Tvoje plány sa dnes budú rozvíjať plynulo, ak im dodáš dostatok emocionálnej podpory a trpezlivosti."
+      ]
     },
     "50": {
-      "general": ["TODO: Všeobecný význam pre kartu 50."],
-      "money": ["TODO: Peniaze význam pre kartu 50."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 50."],
-      "plans": ["TODO: Plány význam pre kartu 50."]
+      "general": [
+        "Dnes je deň pre prienik do jasnosti a odhalenie pravdy. Neboj sa pristúpiť k veciam s novou perspektívou, ktorá prinesie prelom."
+      ],
+      "money": [
+        "Finančná oblasť si žiada jasné rozhodnutia a odhodlanie. V práci môže dôjsť k prelomovému nápadu alebo riešeniu."
+      ],
+      "relationships": [
+        "Vo vzťahoch buď úprimný a jasný vo svojej komunikácii, čo môže viesť k hlbšiemu porozumeniu alebo k vyriešeniu starých nejasností."
+      ],
+      "plans": [
+        "Tento deň je ideálny na začiatok nových projektov, kde je potrebná mentálna ostrosť a odhodlanie. Tvoje plány môžu nabrať nový, jasnejší smer."
+      ]
     },
     "51": {
-      "general": ["TODO: Všeobecný význam pre kartu 51."],
-      "money": ["TODO: Peniaze význam pre kartu 51."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 51."],
-      "plans": ["TODO: Plány význam pre kartu 51."]
+      "general": [
+        "Dnes čelíš rozhodnutiu, ktoré si vyžaduje vnútornú rovnováhu a ochotu pozrieť sa na situáciu z viacerých uhlov. Nesnaž sa riešiť všetko naraz, ale nájdi pokoj v odložení definitívneho verdiktu, kým sa v tebe nevyjasnia všetky pocity."
+      ],
+      "money": [
+        "Finančná situácia si momentálne vyžaduje opatrnosť a zváženie možností bez rýchlych rozhodnutí. Vyhni sa impulsívnym výdavkom a radšej si počkaj na jasnejší obraz, kým sa pustíš do nových investícií či veľkých nákupov."
+      ],
+      "relationships": [
+        "Vzťahy môžu dnes pôsobiť ako váhavé, s potrebou obojstrannej empatie a diplomatického prístupu. Vyhni sa konfrontácii a radšej si dopraj priestor na premyslenú komunikáciu, ktorá prinesie porozumenie."
+      ],
+      "plans": [
+        "Dnešok nie je najvhodnejší na radikálne kroky alebo okamžitú realizáciu dlhodobých cieľov. Je múdrejšie sa na chvíľu stiahnuť, zhodnotiť všetky aspekty a počkať na ten správny moment, keď sa cesta stane zreteľnejšou."
+      ]
     },
     "52": {
-      "general": ["TODO: Všeobecný význam pre kartu 52."],
-      "money": ["TODO: Peniaze význam pre kartu 52."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 52."],
-      "plans": ["TODO: Plány význam pre kartu 52."]
+      "general": [
+        "Dnes sa môžeš stretnúť s bolesťou či sklamaním, ktoré ti však odhalí dôležitú pravdu. Prijmi svoje pocity a dovoľ si uzdravovanie."
+      ],
+      "money": [
+        "Možno sa objavia nepríjemné finančné správy alebo kritika v práci, ktorá ťa zasiahne. Dnešok nie je ideálny na riskantné investície, skôr na zhodnotenie situácie."
+      ],
+      "relationships": [
+        "Čaká ťa konfrontácia s nepríjemnou realitou v medziľudských vzťahoch, ktorá môže viesť k zlomenému srdcu. Dôležitá je úprimná komunikácia, aj keď bude bolieť."
+      ],
+      "plans": [
+        "Tento deň si vyžaduje opatrnosť a realismus pri plánovaní. Odlož ambiciózne kroky a zameraj sa na spracovanie minulých zážitkov, než sa pustíš do nových projektov."
+      ]
     },
     "53": {
-      "general": ["TODO: Všeobecný význam pre kartu 53."],
-      "money": ["TODO: Peniaze význam pre kartu 53."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 53."],
-      "plans": ["TODO: Plány význam pre kartu 53."]
+      "general": [
+        "Dnešok volá po zastavení a vnútornom pokoji. Dopraj si zaslúžený oddych, aby si mohol načerpať novú energiu pre ďalšie kroky."
+      ],
+      "money": [
+        "Finančné záležitosti si dnes vyžadujú skôr premýšľanie než akčné kroky. Daj si pauzu od náročných rozhodnutí a nechaj veci dozrieť."
+      ],
+      "relationships": [
+        "V oblasti vzťahov je čas na tichšie chvíle a vnútorné porozumenie. Možno je vhodný čas na to, aby si si vyvetral hlavu od denných starostí."
+      ],
+      "plans": [
+        "Nie je vhodný deň na pretláčanie nových projektov či ambicióznych plánov. Sústreď sa skôr na oddych a regeneráciu síl pred tým, než sa pustíš do ďalšej práce."
+      ]
     },
     "54": {
-      "general": ["TODO: Všeobecný význam pre kartu 54."],
-      "money": ["TODO: Peniaze význam pre kartu 54."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 54."],
-      "plans": ["TODO: Plány význam pre kartu 54."]
+      "general": [
+        "Dnes sa môže objaviť napätie, kde tvoje ego túži po víťazstve za akúkoľvek cenu. Zváž, či skutočné víťazstvo nie je v mierovom riešení a sebapoznaní."
+      ],
+      "money": [
+        "V oblasti financií a práce sa môžu objaviť konfliktné situácie alebo nekalá súťaživosť. Dávaj si pozor na unáhlené rozhodnutia, ktoré by mohli viesť k nečakaným stratám."
+      ],
+      "relationships": [
+        "Vzťahy dnes môžu byť poznačené hádkami a snahou presadiť svoju pravdu. Snaž sa o empatiu a hľadaj kompromisy, aby si sa vyhol trpkým následkom."
+      ],
+      "plans": [
+        "Nie je ideálny čas na presadzovanie tvrdých iniciatív, ak sú spojené s konfliktom alebo egoistickým cieľom. Radšej si nechaj priestor na premyslenie a hľadanie harmonickejšej cesty."
+      ]
     },
     "55": {
-      "general": ["TODO: Všeobecný význam pre kartu 55."],
-      "money": ["TODO: Peniaze význam pre kartu 55."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 55."],
-      "plans": ["TODO: Plány význam pre kartu 55."]
+      "general": [
+        "Dnes je deň prechodu a liečenia, kedy sa posúvaš vpred k pokojnejším vodám. Nasmeruj svoju energiu k uzdraveniu a vyrovnanosti."
+      ],
+      "money": [
+        "Materiálne záležitosti sa môžu pohnúť vpred, možno po období stagnácie. Je čas na zhodnotenie financií a hľadanie stabilnejšieho smerovania."
+      ],
+      "relationships": [
+        "Vzťahy dnes naznačujú potrebu mieru a porozumenia po náročnejšom období. Hľadaj riešenia, ktoré prinesú úľavu a novú harmóniu."
+      ],
+      "plans": [
+        "Dnes je ideálny čas na pomalé kroky vpred a zhodnotenie doterajšej cesty. Nechaj minulé starosti za sebou a s dôverou sa vydaj novým smerom."
+      ]
     },
     "56": {
-      "general": ["TODO: Všeobecný význam pre kartu 56."],
-      "money": ["TODO: Peniaze význam pre kartu 56."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 56."],
-      "plans": ["TODO: Plány význam pre kartu 56."]
+      "general": [
+        "Dnes sa otvára priestor pre strategické myslenie a jemné manévrovanie. Využi svoju intuíciu na to, aby si obišiel prekážky a dosiahol svoje ciele s nenápadnou eleganciou."
+      ],
+      "money": [
+        "V oblasti financií a práce môže byť dnes potrebná obozretnosť a strategické plánovanie, možno aj s istou dávkou diskrétnosti. Vyhni sa priamej konfrontácii a hľadaj menej zjavné cesty k úspechu."
+      ],
+      "relationships": [
+        "V medziľudských vzťahoch sa dnes môžeš cítiť, že je lepšie držať svoje skutočné pocity na uzde alebo postupovať s opatrnosťou. Neboj sa využiť jemnú taktiku na vyriešenie napätých situácií."
+      ],
+      "plans": [
+        "Dnes je vhodný deň na premyslenie svojich plánov do najmenších detailov, skôr než sa ich pustíš do realizácie. Môže byť múdre zatiaľ neprezrádzať všetky svoje zámery, aby si si vytvoril priestor na strategické manévrovanie."
+      ]
     },
     "57": {
-      "general": ["TODO: Všeobecný význam pre kartu 57."],
-      "money": ["TODO: Peniaze význam pre kartu 57."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 57."],
-      "plans": ["TODO: Plány význam pre kartu 57."]
+      "general": [
+        "Dnes cítiš, že ťa niečo zväzuje, no nezabúdaj, že kľúč k oslobodeniu držíš vo vlastných rukách. Prestaň sa obmedzovať strachom a objav svoju vnútornú silu."
+      ],
+      "money": [
+        "V oblasti financií a práce sa dnes môžeš cítiť mierne obmedzený. Je čas prehodnotiť svoje presvedčenia, ktoré ti bránia v napredovaní, namiesto paniky hľadaj riešenia."
+      ],
+      "relationships": [
+        "Vzťahy dnes môžu vyžadovať viac komunikácie, pretože sa môžeš cítiť nepochopený alebo zraniteľný. Neboj sa prejaviť svoje pocity, úprimnosť ti prinesie úľavu."
+      ],
+      "plans": [
+        "Dnes nie je najlepší čas na rozbehnutie nových veľkých plánov, pokiaľ sú založené na strachu. Sústred sa skôr na prekonanie vnútorných bariér, ktoré ti bránia v ich realizácii."
+      ]
     },
     "58": {
-      "general": ["TODO: Všeobecný význam pre kartu 58."],
-      "money": ["TODO: Peniaze význam pre kartu 58."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 58."],
-      "plans": ["TODO: Plány význam pre kartu 58."]
+      "general": [
+        "Dnes sa môžeš cítiť zaťažený starosťami a úzkosťou, ktoré ti nedajú pokoj. Je čas pozrieť sa na svoje obavy z inej perspektívy a nájsť vnútorný pokoj."
+      ],
+      "money": [
+        "Dnešné finančné záležitosti môžu byť spojené s neistotou alebo obavami o budúcnosť. Skús sa vyhnúť impulzívnym rozhodnutiam a sústreď sa na presné plánovanie."
+      ],
+      "relationships": [
+        "Vzťahy môžu byť dnes napäté kvôli nejasnostiam alebo vnútorným obavám. Snaž sa o otvorenú komunikáciu a pochopenie, aj keď sa cítiš nepochopený."
+      ],
+      "plans": [
+        "S realizáciou nových plánov je dnes opatrnosť na mieste, nakoľko ťa môžu prebiehajúce obavy brzdť. Dopraj si čas na premyslenie a zváženie všetkých možností, než urobíš ďalší krok."
+      ]
     },
     "59": {
-      "general": ["TODO: Všeobecný význam pre kartu 59."],
-      "money": ["TODO: Peniaze význam pre kartu 59."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 59."],
-      "plans": ["TODO: Plány význam pre kartu 59."]
+      "general": [
+        "Dnes sa možno stretneš s nečakaným koncom, ktorý prinesie úľavu po dlhšom trápení. Je to deň na prepustenie toho, čo už neslúži tvojmu rastu a otvorí ti cestu k novému začiatku."
+      ],
+      "money": [
+        "Finančná situácia si môže vyžiadať nepríjemné rozhodnutia alebo ukončenie istej etapy, no toto prepustenie povedie k lepšiemu smerovaniu. V práci sa zbav starých záťaží, aby si mohol napredovať."
+      ],
+      "relationships": [
+        "Vzťahy môžu prejsť bolestivou skúškou, ktorá však nakoniec prinesie očistenie a úprimnejšiu formu komunikácie. Uvoľni sa od starých očakávaní a dovol úprimnosti pretiecť."
+      ],
+      "plans": [
+        "Dnešok nie je ideálny na začínanie nových projektov, skôr na dôsledné ukončenie toho, čo ťa brzdí. Sila spočíva v tom, čo dokážeš s odvahou opustiť."
+      ]
     },
     "60": {
-      "general": ["TODO: Všeobecný význam pre kartu 60."],
-      "money": ["TODO: Peniaze význam pre kartu 60."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 60."],
-      "plans": ["TODO: Plány význam pre kartu 60."]
+      "general": [
+        "Dnes je deň, kedy tvoja zvedavosť rozžiari cestu k novým poznatkom. Ostávaj v bdelom stave a objavuj skryté pravdy."
+      ],
+      "money": [
+        "V oblasti financií a práce sa sústreď na nové informácie a nečakané správy, ktoré môžu priniesť osvieženie."
+      ],
+      "relationships": [
+        "Vzťahy vyžadujú otvorenú komunikáciu a pozornosť k detailom, aby si porozumel skutočným pocitom a myšlienkam."
+      ],
+      "plans": [
+        "Tento deň praje prieskumu a zbieraniu informácií pre budúce plány, ale s realizáciou počkaj na jasnejší smer."
+      ]
     },
     "61": {
-      "general": ["TODO: Všeobecný význam pre kartu 61."],
-      "money": ["TODO: Peniaze význam pre kartu 61."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 61."],
-      "plans": ["TODO: Plány význam pre kartu 61."]
+      "general": [
+        "Dnes je deň, kedy sa v tebe prebúdza nečakaná energia a odhodlanie. Neboj sa naplno využiť svoju priamosť a rýchlo sa pustiť do toho, čo ti leží na srdci."
+      ],
+      "money": [
+        "Tvoja pracovná energia dnes dosahuje vrchol, preto je vhodný čas na rýchle rozhodnutia a akčné kroky vo finančných záležitostiach. Neboj sa rázne postupovať za svojimi cieľmi."
+      ],
+      "relationships": [
+        "V oblasti vzťahov sa dnes oplatí hovoriť priamo a bez zbytočných okolkov. Tvoja otvorenosť môže priniesť jasnosť a pomôcť vyriešiť prípadné nedorozumenia."
+      ],
+      "plans": [
+        "Dnešok je ideálny na spustenie nových projektov a rýchle posúvanie vpred. Tvoja rozhodnosť a elán ti pomôžu prekonať akékoľvek prekážky na ceste k cieľu."
+      ]
     },
     "62": {
-      "general": ["TODO: Všeobecný význam pre kartu 62."],
-      "money": ["TODO: Peniaze význam pre kartu 62."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 62."],
-      "plans": ["TODO: Plány význam pre kartu 62."]
+      "general": [
+        "Dnes si naladená na bystrosť mysle a nekompromisnú pravdu. Použi svoju vnútornú múdrosť na jasné rozlíšenie situácií a neboj sa postaviť za to, čomu veríš."
+      ],
+      "money": [
+        "V oblasti financií a práce sa dnes spoliehaj na svoju racionálnu myseľ a logické rozhodnutia. Jasne stanov svoje priority a hranice, aby si dosiahla požadované výsledky."
+      ],
+      "relationships": [
+        "Tvoja komunikácia dnes bude priama a úprimná, čo môže pomôcť vyriešiť nejasnosti vo vzťahoch. Neboj sa vyjadriť svoje potreby a nastaviť zdravé hranice s blízkymi."
+      ],
+      "plans": [
+        "Ak si dnes jasne stanovíš svoje ciele a budeš sa držať svojej vízie, môžeš sa posunúť vpred. Využi svoju nezávislosť na prijatie rozhodnutí, ktoré ti prinesú dlhodobý úspech."
+      ]
     },
     "63": {
-      "general": ["TODO: Všeobecný význam pre kartu 63."],
-      "money": ["TODO: Peniaze význam pre kartu 63."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 63."],
-      "plans": ["TODO: Plány význam pre kartu 63."]
+      "general": [
+        "Dnes sa nalaď na jasné myslenie a logiku, ktorá ti pomôže oddeliť pravdu od ilúzie. Využi svoju vnútornú autoritu na prijímanie zásadových rozhodnutí."
+      ],
+      "money": [
+        "Pri financiách a práci buď racionálny a drž sa faktov. Tvoj intelektuálny prístup ti dnes prinesie úspech v riešení pracovných úloh."
+      ],
+      "relationships": [
+        "V komunikácii s ostatnými buď priamy, ale spravodlivý. Tvoja jasná myseľ pomôže rozlúsknuť aj komplikované medziľudské situácie."
+      ],
+      "plans": [
+        "Dnešok je ideálny na strategické plánovanie, kde zohráva hlavnú úlohu tvoja logika. Neboj sa stanoviť si jasné ciele a ísť za nimi s odvahou."
+      ]
     },
     "64": {
-      "general": ["TODO: Všeobecný význam pre kartu 64."],
-      "money": ["TODO: Peniaze význam pre kartu 64."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 64."],
-      "plans": ["TODO: Plány význam pre kartu 64."]
+      "general": [
+        "Dnes sa ti otvára nová, hmatateľná príležitosť, ktorá je semienkom budúceho rastu a prosperity. Naladi sa na energiu hojnosti a vďaky za to, čo máš."
+      ],
+      "money": [
+        "Pred tebou je sľubná finančná príležitosť, ktorá môže priniesť stabilný rast tvojim zdrojom. Využi dnešok na premyslené investície a budovanie materiálneho zabezpečenia."
+      ],
+      "relationships": [
+        "V oblasti vzťahov sa môže prejaviť nové, pevné spojenie alebo možnosť prehlbiť existujúce putá. Otvor sa novým možnostiam zdieľania a budovania spoločných základov."
+      ],
+      "plans": [
+        "Dnes je ideálny čas na zasadenie semienok budúcich projektov, najmä tých, ktoré sa týkajú praktických a dlhodobých cieľov. S dôverou vykroč vpred a premeň svoje zámery na realitu."
+      ]
     },
     "65": {
-      "general": ["TODO: Všeobecný význam pre kartu 65."],
-      "money": ["TODO: Peniaze význam pre kartu 65."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 65."],
-      "plans": ["TODO: Plány význam pre kartu 65."]
+      "general": [
+        "Dnes je deň, kedy sa ti ponúka príležitosť nájsť rovnováhu a elegantne žonglovať s rôznymi aspektmi tvojho života. Priprav sa na prijatie zmien a prispôsob sa im s ľahkosťou."
+      ],
+      "money": [
+        "V oblasti financií a práce sa ti dnes darí vyvažovať viacero úloh či zodpovedností. Buď flexibilný vo svojich pracovných prístupoch a vyhni sa prehnaným rizikám pri výdavkoch."
+      ],
+      "relationships": [
+        "V osobných vzťahoch si dnes zručným sprostredkovateľom, ktorý dokáže zmieriť rozdielne názory či potreby. Tvoja schopnosť adaptácie pomôže udržať harmóniu v komunikácii s blízkymi."
+      ],
+      "plans": [
+        "Tento deň je ideálny na menšie úpravy tvojich plánov, no pre radikálne zmeny je možno vhodnejšie počkať. Svoje dlhodobé ciele zatiaľ udrzuj v stave dynamickej rovnováhy."
+      ]
     },
     "66": {
-      "general": ["TODO: Všeobecný význam pre kartu 66."],
-      "money": ["TODO: Peniaze význam pre kartu 66."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 66."],
-      "plans": ["TODO: Plány význam pre kartu 66."]
+      "general": [
+        "Dnes si naplno užívaj silu spolupráce a budovania. Tvoja šikovnosť a ochota učiť sa sa dnes prejavia v plnej kráse a prinesú ti cenné skúsenosti."
+      ],
+      "money": [
+        "Tvoja práca a snaha v oblasti financií a kariéry sa dnes krásne zhmotňujú vďaka tímovému úsiliu. Využi svoje remeselné zručnosti na budovanie pevnej materiálnej základne."
+      ],
+      "relationships": [
+        "Komunikácia s ostatnými dnes kvitne vďaka spoločnému úsiliu a ochote učiť sa od seba navzájom. Spoločnými silami môžete dosiahnuť harmóniu a hlbšie porozumenie."
+      ],
+      "plans": [
+        "Dnešok je ideálny na rozvoj tvojich zručností a na začatie projektov, ktoré vyžadujú tímovú prácu. Vďaka praxi a spolupráci sa tvoje plány s istotou posunú vpred."
+      ]
     },
     "67": {
-      "general": ["TODO: Všeobecný význam pre kartu 67."],
-      "money": ["TODO: Peniaze význam pre kartu 67."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 67."],
-      "plans": ["TODO: Plány význam pre kartu 67."]
+      "general": [
+        "Dnes je deň, kedy sa oplatí pevne uchopiť to, čo máš, a chrániť si svoje zdroje. Zameraj sa na pocit istoty a stability vo svojom vnútornom svete."
+      ],
+      "money": [
+        "V oblasti financií a práce sa sústreď na ochranu svojho majetku a udržanie kontroly nad výdajmi. Dnes nie je najlepší čas na impulzívne investície, skôr na zhodnotenie toho, čo už vlastníš."
+      ],
+      "relationships": [
+        "Vzťahy môžu dnes vyžadovať opatrnosť a miernu rezervovanosť, chráň si svoju emocionálnu pohodu. Dbaj na to, aby si vo vzťahoch nenabúral vlastné hranice a zachoval si pocit bezpečia."
+      ],
+      "plans": [
+        "Ak máš konkrétne plány, dnes je vhodný čas na ich dôkladné premyslenie a uistenie sa, že sú pevne ukotvené. Odlož veľké kroky nabok a sústreď sa na konsolidáciu existujúcich projektov."
+      ]
     },
     "68": {
-      "general": ["TODO: Všeobecný význam pre kartu 68."],
-      "money": ["TODO: Peniaze význam pre kartu 68."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 68."],
-      "plans": ["TODO: Plány význam pre kartu 68."]
+      "general": [
+        "Dnes sa môžeš cítiť, akoby si čelil prekážkam, ktoré ti bránia v napredovaní. Je to čas, kedy je dôležité vyhľadať pomoc a podporu u tých, ktorým dôveruješ."
+      ],
+      "money": [
+        "V oblasti financií alebo práce môžeš pociťovať nedostatok alebo nestabilitu. Dnes sa zameraj na šetrenie a buď opatrný pri rozhodnutiach týkajúcich sa peňazí."
+      ],
+      "relationships": [
+        "Vzťahy môžu dnes vyžadovať viac porozumenia a empatie, obzvlášť ak niekto z blízkych prechádza ťažším obdobím. Hľadajte vzájomnú podporu."
+      ],
+      "plans": [
+        "Zváž dočasné odloženie veľkých plánov, ak sa cítiš vyčerpaný alebo máš pocit nedostatku zdrojov. Sústredenie sa na zvládnutie súčasných výziev bude dnes múdrejšie."
+      ]
     },
     "69": {
-      "general": ["TODO: Všeobecný význam pre kartu 69."],
-      "money": ["TODO: Peniaze význam pre kartu 69."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 69."],
-      "plans": ["TODO: Plány význam pre kartu 69."]
+      "general": [
+        "Dnes je deň hojnosti a reciprocity; otvára sa priestor pre férové dávanie aj prijímanie. Nechaj sa viesť intuíciou a štedrosťou srdca, ktorá sa ti stonásobne vráti."
+      ],
+      "money": [
+        "V oblasti financií a práce očakávaj vyvážené transakcie, či už ide o odmenu za tvoju prácu alebo o štedrú ponuku. Buď otvorený príležitostiam na zdieľanie zdrojov a vzájomnú pomoc."
+      ],
+      "relationships": [
+        "Vo vzťahoch sa dnes zameraj na férovosť a vzájomný rešpekt, kde obidve strany dávajú aj prijímajú s otvoreným srdcom. Starostlivosť a pochopenie vytvoria silné puto."
+      ],
+      "plans": [
+        "Dnešok je ideálny na uzatváranie dohôd a zdieľanie zdrojov v rámci tvojich plánov. Ak sa niečo týka reciprocity a férovosti, je to ten správny čas na realizáciu."
+      ]
     },
     "70": {
-      "general": ["TODO: Všeobecný význam pre kartu 70."],
-      "money": ["TODO: Peniaze význam pre kartu 70."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 70."],
-      "plans": ["TODO: Plány význam pre kartu 70."]
+      "general": [
+        "Dnes je čas na úrodu z tvojich dlhodobých snáh, no neočakávaj okamžitý zisk. Nalaď sa na energiu premysleného hodnotenia a trpezlivosti, pretože výsledky tvojej práce sa postupne odhalia."
+      ],
+      "money": [
+        "Tvoje finančné investície si vyžadujú ďalšiu trpezlivú starostlivosť, no základy, ktoré si položil, sa ukazujú ako sľubné. Dnešok je o vyhodnocovaní doterajších výsledkov a zvažovaní ďalších krokov v kariére."
+      ],
+      "relationships": [
+        "Vo vzťahoch je dôležitá trpezlivá komunikácia a ocenenie toho, čo ste si spoločne vybudovali. Vnímaj hlbšie kvality svojich blízkych a zhodnoť, aké ovocie prináša vaše spoločné puto."
+      ],
+      "plans": [
+        "Je ideálny čas zhodnotiť svoje doterajšie plány a úspechy, no s novými impulzívnymi krokmi radšej počkaj. Premyslené investovanie času a energie do toho, čo už existuje, prinesie najlepšie výsledky."
+      ]
     },
     "71": {
-      "general": ["TODO: Všeobecný význam pre kartu 71."],
-      "money": ["TODO: Peniaze význam pre kartu 71."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 71."],
-      "plans": ["TODO: Plány význam pre kartu 71."]
+      "general": [
+        "Dnes sa sústredíš na svoje majstrovstvo a rozvoj zručností. Je to deň pre premyslenú prácu a hlbokú oddanosť tomu, čo robíš."
+      ],
+      "money": [
+        "Tvoja práca a precíznosť prinášajú ovocie, neboj sa investovať čas do zdokonaľovania svojho remesla. Dnes sa môžeš cítiť mimoriadne motivovaný pri plnení svojich pracovných cieľov."
+      ],
+      "relationships": [
+        "Vzťahy si vyžadujú tvoju pozornosť a precíznosť, rovnako ako tvoje remeslo. Dnes je dobrý čas na prejavenie oddanosti a budovanie silnejších väzieb skrze spoločné úsilie."
+      ],
+      "plans": [
+        "Je skvelý deň na rozvoj dlhodobých projektov, kde sa cení precíznosť a trpezlivosť. Všetko, čo si dnes systematicky buduješ, ti prinesie dlhodobé výsledky."
+      ]
     },
     "72": {
-      "general": ["TODO: Všeobecný význam pre kartu 72."],
-      "money": ["TODO: Peniaze význam pre kartu 72."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 72."],
-      "plans": ["TODO: Plány význam pre kartu 72."]
+      "general": [
+        "Dnes sa cítiš v pohode vo svojej koži a objavuješ hlbokú sebahodnotu. Dopraj si luxus pohodlia a vychutnávaj si ovocie svojej práce a snahy."
+      ],
+      "money": [
+        "Tvoje finančné snahy prinášajú stabilitu a komfort. Dnes je skvelý deň na ocenenie svojej nezávislosti a materiálnych úspechov."
+      ],
+      "relationships": [
+        "Si sebavedomý a máš jasnú predstavu o tom, čo si zaslúžiš. Tvoja vnútorná sila vyžaruje a priťahuje harmonické spojenia."
+      ],
+      "plans": [
+        "Využi túto energiu sebestačnosti a pohodlia na upevnenie svojich existujúcich plánov. Svoje ciele si buduješ na pevných základoch, preto je vhodný čas na ich ďalšie rozvíjanie."
+      ]
     },
     "73": {
-      "general": ["TODO: Všeobecný význam pre kartu 73."],
-      "money": ["TODO: Peniaze význam pre kartu 73."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 73."],
-      "plans": ["TODO: Plány význam pre kartu 73."]
+      "general": [
+        "Dnes sa naladíš na energiu stability a dlhodobého zabezpečenia, prinášajúc ti pocit naplnenia.  Je to deň, kedy vidíš ovocie svojej práce a nachádzaš pokoj v známom prostredí."
+      ],
+      "money": [
+        "Tvoje financie a práca sú dnes pevne zakotvené, sľubujúc úrodu tvojho úsilia a finančnú istotu.  Dnešok je ideálny na zhodnotenie dosiahnutého a plánovanie budúcich bezpečných investícií."
+      ],
+      "relationships": [
+        "Vzťahy sú dnes plné tepla a pocitu spolupatričnosti, zdôrazňujúc rodinné putá a hlboké porozumenie.  Spoločné chvíle ti prinesú radosť a posilnia tvoje väzby s tými, na ktorých ti najviac záleží."
+      ],
+      "plans": [
+        "Je skvelý čas na upevnenie existujúcich plánov a vychutnanie si výsledkov, ktoré prinášajú dlhodobú spokojnosť.  Nechaj sa viesť múdrosťou a vyhýbaj sa unáhleným novým začiatkom, pokiaľ nie sú postavené na pevných základoch."
+      ]
     },
     "74": {
-      "general": ["TODO: Všeobecný význam pre kartu 74."],
-      "money": ["TODO: Peniaze význam pre kartu 74."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 74."],
-      "plans": ["TODO: Plány význam pre kartu 74."]
+      "general": [
+        "Dnes sa otvárajú nové možnosti, ktoré si vyžadujú tvoju pozornosť a trpezlivé pozorovanie. Naladi sa na energiu učenia a objavovania, ktorá ti prinesie cenné poznatky."
+      ],
+      "money": [
+        "V oblasti financií a práce sa môže objaviť zaujímavá ponuka na nové vzdelávanie alebo projekt, ktorý ti pomôže uzemniť tvoje dlhodobé ciele. Dôkladne zváž každý krok."
+      ],
+      "relationships": [
+        "V komunikácii s blízkymi sa zameraj na počúvanie a zdieľanie nových myšlienok, ktoré môžu obohatiť vaše vzájomné porozumenie. Otvorenosť a trpezlivosť sú kľúčom k harmónii."
+      ],
+      "plans": [
+        "Dnešný deň je ideálny na premyslené plánovanie budúcich krokov a zber informácií. Vyhni sa impulzívnym rozhodnutiam a sústreď sa na základy, ktoré ti prinesú stabilitu."
+      ]
     },
     "75": {
-      "general": ["TODO: Všeobecný význam pre kartu 75."],
-      "money": ["TODO: Peniaze význam pre kartu 75."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 75."],
-      "plans": ["TODO: Plány význam pre kartu 75."]
+      "general": [
+        "Dnes sa napoj na energiu vytrvalosti a spoľahlivosti, ktorá ti prinesie stabilný pokrok. Kráčaj krok za krokom, každý jeden ťa posúva bližšie k cieľu."
+      ],
+      "money": [
+        "Tvoja práca a finančné záležitosti dnes vyžadujú systematický prístup a zodpovednosť. Dôslednosť ti prinesie pocit istoty a materiálneho zabezpečenia."
+      ],
+      "relationships": [
+        "V oblasti vzťahov si všímaj jemné náznaky stability a oddanosti. Vytváraj pevné základy založené na dôvere a spoločných hodnotách."
+      ],
+      "plans": [
+        "Dnešok je ideálny na pokračovanie v rozpracovaných projektoch a utužovanie existujúcich plánov. S trpezlivosťou a metodickosťou buduješ svoje úspechy."
+      ]
     },
     "76": {
-      "general": ["TODO: Všeobecný význam pre kartu 76."],
-      "money": ["TODO: Peniaze význam pre kartu 76."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 76."],
-      "plans": ["TODO: Plány význam pre kartu 76."]
+      "general": [
+        "Dnes sa objavuje energia praktickej starostlivosti a uzemnenej podpory. Naladíš sa na vlnu pohody a bezpečia, ktoré si sám/sama tvoríš."
+      ],
+      "money": [
+        "Tvoj praktický prístup prinesie stabilitu do financií a práce. Možno objavíš nové spôsoby, ako zabezpečiť svoje materiálne potreby s väčšou starostlivosťou."
+      ],
+      "relationships": [
+        "V oblasti vzťahov vládne teplo a bezpečná náruč. Vytvor si priestor pre vzájomnú podporu a pokojnú atmosféru medzi blízkymi."
+      ],
+      "plans": [
+        "Dnes je ideálny čas na upevňovanie existujúcich plánov a zabezpečenie ich praktickej realizácie. Svoje ciele uzemni s istotou a dôverou."
+      ]
     },
     "77": {
-      "general": ["TODO: Všeobecný význam pre kartu 77."],
-      "money": ["TODO: Peniaze význam pre kartu 77."],
-      "relationships": ["TODO: Vzťahy význam pre kartu 77."],
-      "plans": ["TODO: Plány význam pre kartu 77."]
+      "general": [
+        "Dnes ku tebe prúdi stabilná energia hojnosti a zodpovednosti, ktorá ti umožňuje pevne stáť nohami na zemi. Nalad sa na túto zemitosť a prejav svoju vnútornú múdrosť."
+      ],
+      "money": [
+        "V oblasti financií a práce ťa čaká obdobie stability a úspechu, kde sa tvoja zodpovednosť pretaví do hmatateľných výsledkov. Je vhodný čas na prehodnotenie svojich zdrojov a ich bezpečného zhodnotenia."
+      ],
+      "relationships": [
+        "V tvojich vzťahoch vládne spoľahlivosť a ochota sa postarať o druhých, čo prináša pocit bezpečia a porozumenia. Prejav svoju vernosť a vernosť voči svojim blízkym."
+      ],
+      "plans": [
+        "Dnešok je ideálny na realizáciu dlhodobých a dobre premyslených plánov, ktoré si vyžadujú trpezlivosť a pevný základ. Využi túto stabilnú energiu na dosiahnutie svojich cieľov."
+      ]
     }
   }
 }

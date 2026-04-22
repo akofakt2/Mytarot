@@ -146,6 +146,42 @@ def _load_locale_prompts() -> dict[str, dict[str, str]]:
     return out
 
 
+def _load_locale_pages() -> dict[str, dict[str, Any]]:
+    """
+    Načíta texty viazané na konkrétne stránky z `data/i18n/pages.json` podľa locale.
+
+    Formát:
+      {
+        "version": 1,
+        "<locale>": { "<page_id>": { "<key>": "<string>", ... }, ... },
+        ...
+      }
+    """
+    path = DATA_DIR / "pages.json"
+    if not path.is_file():
+        raise FileNotFoundError(
+            f"Chýba {path}. Pridaj pages.json (podobne ako routes.json) alebo oprav cestu DATA_DIR."
+        )
+
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError("pages.json must be an object {locale: {page_id: {key: value}}}")
+
+    # Allow a top-level version key.
+    raw2 = {k: v for k, v in raw.items() if k != "version"}
+
+    out: dict[str, dict[str, Any]] = {}
+    for loc, mapping in raw2.items():
+        if not isinstance(loc, str) or not loc.strip():
+            raise ValueError("pages.json: locale keys must be non-empty strings")
+        if not isinstance(mapping, dict):
+            raise ValueError(f"pages.json: locale {loc!r} must map to an object")
+
+        out[loc.strip().lower()] = mapping
+
+    return out
+
+
 def slugify(name: str) -> str:
     s = unicodedata.normalize("NFKD", name)
     s = "".join(c for c in s if not unicodedata.combining(c))
@@ -288,9 +324,11 @@ def create_tarot_app() -> Flask:
     locale_routes = _load_locale_routes()
     locale_prompts = _load_locale_prompts()
     ui_strings = _load_ui_strings()
+    locale_pages = _load_locale_pages()
     supported_locales = frozenset(locale_routes.keys())
     supported_prompt_locales = frozenset(locale_prompts.keys())
     supported_ui_locales = frozenset(ui_strings.keys())
+    supported_pages_locales = frozenset(locale_pages.keys())
 
     _validate_meta_templates(TEMPLATES_DIR, supported_locales)
 
@@ -313,6 +351,11 @@ def create_tarot_app() -> Flask:
         raise ValueError(
             f"TAROT_LOCALE={locale!r} nemá UI stringy v app/data/i18n/ui.json. "
             f"Dostupné: {sorted(supported_ui_locales)}"
+        )
+    if locale not in supported_pages_locales:
+        raise ValueError(
+            f"TAROT_LOCALE={locale!r} nemá pages texty v app/data/i18n/pages.json. "
+            f"Dostupné: {sorted(supported_pages_locales)}"
         )
 
     # "Card of the day" explanations are treated as required content: we fail fast on startup
@@ -363,6 +406,7 @@ def create_tarot_app() -> Flask:
     # These are segments (no leading/trailing slash) and are later combined with script_path via _p().
     routes = locale_routes[locale]
     ui = ui_strings[locale]
+    pages = locale_pages[locale]
     required_ui_keys = (
         "cards_index_heading",
         "card_section_keywords",
@@ -403,6 +447,8 @@ def create_tarot_app() -> Flask:
         "routes": routes,
         "ui": ui,
         "ui_i18n_json": json.dumps(ui, ensure_ascii=False),
+        "pages": pages,
+        "pages_i18n_json": json.dumps(pages, ensure_ascii=False),
         # Exposed to the frontend intentionally (soft-gate; not a secret).
         "tarot_api_token": api_token,
     }
@@ -530,6 +576,26 @@ def create_tarot_app() -> Flask:
             },
         )
 
+    def _card_block(label: str, card_id: int, rev: int) -> str:
+        c = cards_by_id.get(card_id)
+        if c is None:
+            return f"{label}: [unknown card id {card_id}]"
+        orientation = "reversed" if rev == 1 else "upright"
+        meaning = c.meaning_reversed if rev == 1 else c.meaning_upright
+        keywords = ", ".join(c.keywords) if c.keywords else "—"
+        archetype = c.archetype or "—"
+        desc = c.description or "—"
+        return (
+            f"{label}:\n"
+            f"- id: {c.id}\n"
+            f"- name: {c.name}\n"
+            f"- orientation: {orientation}\n"
+            f"- keywords: {keywords}\n"
+            f"- archetype: {archetype}\n"
+            f"- description: {desc}\n"
+            f"- meaning: {meaning}\n"
+        )
+
     @app.post(api_reading_path)
     def api_reading() -> Response:
         """
@@ -591,25 +657,7 @@ def create_tarot_app() -> Flask:
         label_present = ui["reading_label_present"]
         label_future = ui["reading_label_future"]
 
-        def _card_block(label: str, card_id: int, rev: int) -> str:
-            c = cards_by_id.get(card_id)
-            if c is None:
-                return f"{label}: [unknown card id {card_id}]"
-            orientation = "reversed" if rev == 1 else "upright"
-            meaning = c.meaning_reversed if rev == 1 else c.meaning_upright
-            keywords = ", ".join(c.keywords) if c.keywords else "—"
-            archetype = c.archetype or "—"
-            desc = c.description or "—"
-            return (
-                f"{label}:\n"
-                f"- id: {c.id}\n"
-                f"- name: {c.name}\n"
-                f"- orientation: {orientation}\n"
-                f"- keywords: {keywords}\n"
-                f"- archetype: {archetype}\n"
-                f"- description: {desc}\n"
-                f"- meaning: {meaning}\n"
-            )
+
 
         prompt = reading_prompt_template.format(
             question=question.strip(),

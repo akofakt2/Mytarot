@@ -12,6 +12,20 @@
     "card_of_day": "karta-dna",
     "about_app": "o-aplikacii",
     "about_tarot": "o-tarote"
+  },
+  "cs": {
+    "cards_list": "karty",
+    "card": "karta",
+    "card_of_day": "karta-dne",
+    "about_app": "o-aplikaci",
+    "about_tarot": "o-tarotu"
+  },
+  "pl": {
+    "cards_list": "karty",
+    "card": "karta",
+    "card_of_day": "karta-dnia",
+    "about_app": "o-aplikacji",
+    "about_tarot": "o-tarocie"
   }
 }
 
