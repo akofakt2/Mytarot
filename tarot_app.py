@@ -421,8 +421,7 @@ def create_tarot_app() -> Flask:
         "card_of_day_today_label",
         "reading_label_past",
         "reading_label_present",
-        "reading_label_future",
-        "nav_brand",
+        "reading_label_future",        
         "nav_aria_main",
         "nav_aria_menu",
         "nav_cards",
@@ -701,12 +700,12 @@ def create_tarot_app() -> Flask:
     @app.get(about_app_path)
     def about_app() -> str:
         """Static info page (HTML)."""
-        return render_template("pages/about_app.html", **ctx)
+        return render_template(f"pages/{locale}/about_app.html", **ctx)
 
     @app.get(about_tarot_path)
     def about_tarot() -> str:
         """Static info page (HTML)."""
-        return render_template("pages/about_tarot.html", **ctx)
+        return render_template(f"pages/{locale}/about_tarot.html", **ctx)
 
     @app.get(cards_list_path)
     def cards_index() -> str:
