@@ -35,6 +35,18 @@ body, html {
     overflow-x: hidden;
 }
 
+h1 {
+    all: unset; /* Zruší všetky vlastnosti vrátane zdedených */
+}
+
+h2 {
+    all: unset; /* Zruší všetky vlastnosti vrátane zdedených */
+}
+
+h3 {
+    all: unset; /* Zruší všetky vlastnosti vrátane zdedených */
+}
+
 /* --- NAVIGÁCIA (responzívna) --- */
 .site-nav {
     display: flex;
@@ -507,7 +519,21 @@ body, html {
 .card-article { width: 100%; text-align: left; }
 .card-detail-header { margin-bottom: 1.5rem; }
 .card-id { margin: 0; font-size: var(--text-small); color: rgba(224, 224, 224, 0.5); }
-.card-detail-title { font-family: var(--font-heading); font-size: var(--text-page-title); color: var(--card-gold); margin: 0.25rem 0; }
+.card-detail-title {
+    font-family: var(--font-heading);
+    /* Zmenšenie z page-title na striedmejšiu veľkosť */
+    font-size: 1.6rem; 
+    font-weight: 300;
+    color: var(--card-gold);
+    
+    /* Zlepšenie vizuálnej dynamiky */
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    line-height: 1.2;
+    
+    /* Vzdušnejšie odsadenie */
+    margin: 2rem 0 3rem 0;
+}
 .card-archetype { margin: 0; font-style: italic; opacity: 0.85; }
 .card-detail-figure { margin: 0 0 1.5rem; text-align: center; }
 .card-detail-img { max-width: 220px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(197, 160, 89, 0.4); }
@@ -626,15 +652,18 @@ body, html {
 /* Stránka /cards: nadpis + ul musia mať definovanú šírku, inak vo flex .main-layout pôsobia posunuté doľava */
 .cards-index-title {
     font-family: var(--font-heading);
+    /* Zmenšenie z page-title na striedmejšiu veľkosť */
+    font-size: 1.6rem; 
+    font-weight: 300;
     color: var(--card-gold);
-    margin-top: 0;
-    margin-bottom: 1.25rem;
-    font-size: clamp(1.4rem, 4vw, var(--text-page-title));
-    letter-spacing: 1px;
-    width: min(100%, 900px);
-    margin-left: auto;
-    margin-right: auto;    
-    box-sizing: border-box;
+    
+    /* Zlepšenie vizuálnej dynamiky */
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    line-height: 1.2;
+    
+    /* Vzdušnejšie odsadenie */
+    margin: 2rem 0 3rem 0;
 }
 /* Šírka stĺpca: reaguje na šírku obrazovky, max. 900px; texty doľava */
 .all-cards-list--index {
@@ -765,4 +794,39 @@ body, html {
         max-width: 100%;
         padding-inline: max(0px, env(safe-area-inset-left, 0px)) max(0px, env(safe-area-inset-right, 0px));
     }
+}
+
+/**** seo hacks ****/
+h2.seo-subtle {
+    /* Typografia */
+    font-family: 'Playfair Display', serif; /* Alebo váš súčasný font */
+    font-size: 0.9rem; /* Menšia veľkosť pôsobí prémiovejšie */
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    
+    /* Farba a vizuál */
+    color: rgba(212, 175, 55, 0.4); /* Mierne priehľadná zlatá */
+    text-align: center;
+    
+    /* Poziciovanie */
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    
+    /* Zabezpečenie, aby neprekážal interakcii */
+    pointer-events: none;
+    user-select: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }

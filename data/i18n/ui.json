@@ -1,6 +1,6 @@
 {
   "en": {
-    "cards_index_heading": "All cards (78)",
+    "cards_index_heading": "Tarot Card Encyclopedia",
     "card_section_keywords": "Keywords",
     "card_section_upright": "Upright meaning",
     "card_section_reversed": "Reversed",
@@ -32,10 +32,14 @@
     "nav_reading": "Reading",
     "nav_about_app": "About",
     "nav_about_tarot": "About tarot",
-    "nav_card_of_day": "Card of the day"
+    "nav_card_of_day": "Card of the day",
+    "app_h2": "Interactive 3-card tarot reading for your personal development",
+    "card_of_past": "Tarot card of the past",
+    "card_of_presence": "Tarot card of the present",
+    "card_of_future": "Tarot card of the future"
   },
   "sk": {
-    "cards_index_heading": "Všetky karty (78)",
+    "cards_index_heading": "Encyklopédia tarotových kariet",
     "card_section_keywords": "Kľúčové slová",
     "card_section_upright": "Priamy význam",
     "card_section_reversed": "Obrátený",
@@ -67,10 +71,14 @@
     "nav_reading": "Veštiareň",
     "nav_about_app": "O aplikácii",
     "nav_about_tarot": "O tarote",
-    "nav_card_of_day": "Karta dňa"
+    "nav_card_of_day": "Karta dňa",
+    "app_h2":"Interaktívny výklad 3 kariet pre váš osobný rozvoj",
+    "card_of_past": "Tarotová karta minulosti",
+    "card_of_presence": "Tarotová karta prítomnosti",
+    "card_of_future": "Tarotová karta budúcnosti"
   },
   "cs": {
-    "cards_index_heading": "Všechny karty (78)",
+    "cards_index_heading": "Encyklopedie tarotových karet",
     "card_section_keywords": "Klíčová slova",
     "card_section_upright": "Přímý význam",
     "card_section_reversed": "Obrácený",
@@ -102,10 +110,14 @@
     "nav_reading": "Věštírna",
     "nav_about_app": "O aplikaci",
     "nav_about_tarot": "O tarotu",
-    "nav_card_of_day": "Karta dne"
+    "nav_card_of_day": "Karta dne",
+    "app_h2": "Interaktivní výklad 3 karet pro váš osobní rozvoj",
+    "card_of_past": "Tarotová karta minulosti",
+    "card_of_presence": "Tarotová karta přítomnosti",
+    "card_of_future": "Tarotová karta budoucnosti"
   },
   "pl": {
-    "cards_index_heading": "Wszystkie karty (78)",
+    "cards_index_heading": "Encyklopedia kart tarota",
     "card_section_keywords": "Słowa kluczowe",
     "card_section_upright": "Znaczenie proste",
     "card_section_reversed": "Odwrócone",
@@ -137,6 +149,10 @@
     "nav_reading": "Wróżba",
     "nav_about_app": "O aplikacji",
     "nav_about_tarot": "O tarocie",
-    "nav_card_of_day": "Karta dnia"
+    "nav_card_of_day": "Karta dnia",
+    "app_h2": "Interaktywny rozkład 3 kart dla Twojego rozwoju osobistego",
+    "card_of_past": "Karta tarota przeszłości",
+    "card_of_presence": "Karta tarota teraźniejszości",
+    "card_of_future": "Karta tarota przyszłości"
   }
 }

@@ -12,10 +12,7 @@
         <article class="card-article">
             <header class="card-detail-header">
                 <p class="card-id">#{{ card.id }}</p>
-                <h1 class="card-detail-title">{{ card.name }}</h1>
-                {% if is_card_of_day %}
-                <p class="card-archetype" id="card-of-day-today"></p>
-                {% endif %}
+                <h2 class="card-detail-title">{{ card.name }}</h2>
                 {% if card.archetype %}
                 <p class="card-archetype">{{ card.archetype }}</p>
                 {% endif %}
@@ -55,13 +52,13 @@
             {% endif %}
 
             {% if card_of_day_explanation %}
-            <section class="card-section">
-                <h2>{{ ui.card_of_day_explanation_title }}</h2>
+            <section class="card-section">                
                 <details class="card-of-day-details">
                     <summary>{{ ui.card_of_day_reveal_label }}</summary>
                     <p>{{ card_of_day_explanation }}</p>
                 </details>
             </section>
+            
             {% endif %}
         </article>
 
