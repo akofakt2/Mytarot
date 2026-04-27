@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}">
+
 <head>
     {% include 'includes/head_common.html' %}
     {% include 'meta/' ~ locale ~ '/card_detail.html' %}
 </head>
+
 <body>
 
     {% include 'nav.html' %}
@@ -19,12 +21,8 @@
             </header>
 
             <figure class="card-detail-figure">
-                <img
-                    src="{{ url_for('static', filename=card_images_dir ~ '/' ~ card.image_path) }}"
-                    alt="{{ card.name }}"
-                    class="card-detail-img"
-                    loading="lazy"
-                />
+                <img src="{{ url_for('static', filename=card_images_dir ~ '/' ~ card.image_path) }}"
+                    alt="{{ card.name }}" class="card-detail-img" loading="lazy" />
             </figure>
 
             {% if card.keywords %}
@@ -52,13 +50,13 @@
             {% endif %}
 
             {% if card_of_day_explanation %}
-            <section class="card-section">                
+            <section class="card-section">
                 <details class="card-of-day-details">
                     <summary>{{ ui.card_of_day_reveal_label }}</summary>
                     <p>{{ card_of_day_explanation }}</p>
                 </details>
             </section>
-            
+
             {% endif %}
         </article>
 
@@ -70,7 +68,8 @@
             <span class="pager-muted">—</span>
             {% endif %}
             {% if next_card and next_slug %}
-            <a class="pager-link pager-next" href="{{ url_for('card_page', slug=next_slug) }}">{{ next_card.name }} →</a>
+            <a class="pager-link pager-next" href="{{ url_for('card_page', slug=next_slug) }}">{{ next_card.name }}
+                →</a>
             {% else %}
             <span class="pager-muted">—</span>
             {% endif %}
@@ -81,7 +80,8 @@
             <ul class="all-cards-list">
                 {% for row in nav_rows %}
                 <li>
-                    <a href="{{ url_for('card_page', slug=row.slug) }}" class="{% if row.is_current %}is-current{% endif %}">{{ row.name }}</a>
+                    <a href="{{ url_for('card_page', slug=row.slug) }}"
+                        class="{% if row.is_current %}is-current{% endif %}">{{ row.name }}</a>
                 </li>
                 {% if row.sep_after %}
                 <li class="cards-index-sep" aria-hidden="true"></li>
@@ -90,6 +90,17 @@
             </ul>
         </section>
         {% endif %}
+        <footer>
+            <div class="domain-links">
+                <a href="https://etarot.sk" target="_blank" rel="noopener">eTarot.sk</a>
+                <a href="https://gotarot.org" target="_blank" rel="noopener">goTarot.org</a>
+                <a href="https://czytajtarot.pl" target="_blank" rel="noopener">czytajTarot.pl</a>
+                <a href="https://magickytarot.cz" target="_blank" rel="noopener">magickyTarot.cz</a>
+            </div>
+            <p style="margin-top: 30px; font-size: 11px; color: #475569;">
+                &copy; 2026 eTarot.sk
+            </p>
+        </footer>
     </div>
 
     {% if is_card_of_day %}
@@ -98,4 +109,5 @@
     <script src="{{ url_for('static', filename='card_of_day.js') }}"></script>
     {% endif %}
 </body>
+
 </html>

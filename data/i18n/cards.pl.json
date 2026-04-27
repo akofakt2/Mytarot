@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "locale": "en",
+  "locale": "pl",
   "cards": [
     {
       "id": 0,
@@ -9,16 +9,16 @@
       "suit": null,
       "rank": null,
       "image_path": "0.png",
-      "name": "The Fool",
+      "name": "Błazen",
       "keywords": [
-        "beginnings",
-        "innocence",
-        "leap_of_faith"
+        "początki",
+        "niewinność",
+        "skok_wiary"
       ],
-      "meaning_upright": "New beginnings, spontaneity, and trusting the journey.",
-      "meaning_reversed": "Recklessness, naivety, or hesitation to start.",
-      "archetype": "The Seeker",
-      "description": "A step into the unknown with openness and curiosity."
+      "meaning_upright": "Nowe początki, spontaniczność i zaufanie do podróży.",
+      "meaning_reversed": "Nieostrożność, naiwność lub wahanie przed rozpoczęciem.",
+      "archetype": "Poszukiwacz",
+      "description": "Krok w nieznane z otwartością i ciekawością."
     },
     {
       "id": 1,
@@ -27,16 +27,16 @@
       "suit": null,
       "rank": null,
       "image_path": "1.png",
-      "name": "The Magician",
+      "name": "Mag",
       "keywords": [
-        "will",
-        "skill",
-        "manifestation"
+        "wola",
+        "umiejętność",
+        "manifestacja"
       ],
-      "meaning_upright": "Focused intent, skillful action, and making things happen.",
-      "meaning_reversed": "Scattered energy, manipulation, or untapped potential.",
-      "archetype": "The Creator",
-      "description": "Aligning tools, will, and attention to create change."
+      "meaning_upright": "Skupiona intencja, umiejętne działanie i sprawianie, że rzeczy się dzieją.",
+      "meaning_reversed": "Rozproszona energia, manipulacja lub niewykorzystany potencjał.",
+      "archetype": "Twórca",
+      "description": "Dopasowanie narzędzi, woli i uwagi, aby stworzyć zmianę."
     },
     {
       "id": 2,
@@ -45,16 +45,16 @@
       "suit": null,
       "rank": null,
       "image_path": "2.png",
-      "name": "The High Priestess",
+      "name": "Arcykapłanka",
       "keywords": [
-        "intuition",
-        "mystery",
-        "inner_voice"
+        "intuicja",
+        "tajemnica",
+        "wewnętrzny_głos"
       ],
-      "meaning_upright": "Intuition, inner knowing, and hidden truths.",
-      "meaning_reversed": "Ignoring intuition, confusion, or secrets kept too long.",
-      "archetype": "The Mystic",
-      "description": "A quiet invitation to listen beneath the surface."
+      "meaning_upright": "Intuicja, wewnętrzna wiedza i ukryte prawdy.",
+      "meaning_reversed": "Ignorowanie intuicji, zamieszanie lub zbyt długo skrywane sekrety.",
+      "archetype": "Mistyk",
+      "description": "Cicha zachęta, by słuchać tego, co pod powierzchnią."
     },
     {
       "id": 3,
@@ -63,16 +63,16 @@
       "suit": null,
       "rank": null,
       "image_path": "3.png",
-      "name": "The Empress",
+      "name": "Cesarzowa",
       "keywords": [
-        "nurture",
-        "abundance",
-        "growth"
+        "opieka",
+        "obfitość",
+        "wzrost"
       ],
-      "meaning_upright": "Nurturing growth, creativity, and abundance.",
-      "meaning_reversed": "Creative block, neglect, or over-dependence.",
-      "archetype": "The Mother",
-      "description": "Care, beauty, and the power of cultivation."
+      "meaning_upright": "Kultywowanie wzrostu, kreatywności i obfitości.",
+      "meaning_reversed": "Blokada twórcza, zaniedbanie lub nadmierna zależność.",
+      "archetype": "Matka",
+      "description": "Opieka, piękno i siła pielęgnacji."
     },
     {
       "id": 4,
@@ -81,16 +81,16 @@
       "suit": null,
       "rank": null,
       "image_path": "4.png",
-      "name": "The Emperor",
+      "name": "Cesarz",
       "keywords": [
-        "structure",
-        "authority",
-        "stability"
+        "struktura",
+        "autorytet",
+        "stabilność"
       ],
-      "meaning_upright": "Structure, leadership, and stable foundations.",
-      "meaning_reversed": "Rigidity, control issues, or instability in authority.",
-      "archetype": "The Ruler",
-      "description": "Order and protection through clear boundaries."
+      "meaning_upright": "Struktura, przywództwo i stabilne fundamenty.",
+      "meaning_reversed": "Sztywność, problemy z kontrolą lub niestabilność autorytetu.",
+      "archetype": "Władca",
+      "description": "Porządek i ochrona poprzez jasne granice."
     },
     {
       "id": 5,
@@ -99,16 +99,16 @@
       "suit": null,
       "rank": null,
       "image_path": "5.png",
-      "name": "The Hierophant",
+      "name": "Papież",
       "keywords": [
-        "tradition",
-        "teaching",
-        "beliefs"
+        "tradycja",
+        "nauczanie",
+        "przekonania"
       ],
-      "meaning_upright": "Tradition, mentorship, and shared values.",
-      "meaning_reversed": "Rebellion, dogma, or questioning old rules.",
-      "archetype": "The Teacher",
-      "description": "Learning within a lineage of meaning and practice."
+      "meaning_upright": "Tradycja, mentoring i wspólne wartości.",
+      "meaning_reversed": "Bunt, dogmat lub kwestionowanie starych zasad.",
+      "archetype": "Nauczyciel",
+      "description": "Nauka w ramach linii znaczenia i praktyki."
     },
     {
       "id": 6,
@@ -117,16 +117,16 @@
       "suit": null,
       "rank": null,
       "image_path": "6.png",
-      "name": "The Lovers",
+      "name": "Kochankowie",
       "keywords": [
-        "choice",
-        "union",
-        "values_alignment"
+        "wybór",
+        "unia",
+        "zgodność_wartości"
       ],
-      "meaning_upright": "Union, meaningful choice, and value alignment.",
-      "meaning_reversed": "Disharmony, misalignment, or fear of commitment.",
-      "archetype": "The Beloved",
-      "description": "Choosing with the heart and living your values."
+      "meaning_upright": "Związek, znaczący wybór i zgodność wartości.",
+      "meaning_reversed": "Niedopasowanie, niezgodność lub strach przed zaangażowaniem.",
+      "archetype": "Ukochany",
+      "description": "Wybieraj sercem i żyj zgodnie ze swoimi wartościami."
     },
     {
       "id": 7,
@@ -135,16 +135,16 @@
       "suit": null,
       "rank": null,
       "image_path": "7.png",
-      "name": "The Chariot",
+      "name": "Rydwan",
       "keywords": [
-        "drive",
-        "victory",
-        "self_control"
+        "determinacja",
+        "zwycięstwo",
+        "samokontrola"
       ],
-      "meaning_upright": "Determination, momentum, and disciplined progress.",
-      "meaning_reversed": "Lack of direction, conflicting forces, or burnout.",
-      "archetype": "The Victor",
-      "description": "Harnessing opposing energies to move forward."
+      "meaning_upright": "Determinacja, pęd i zdyscyplinowany postęp.",
+      "meaning_reversed": "Brak kierunku, sprzeczne siły lub wypalenie.",
+      "archetype": "Zwycięzca",
+      "description": "Panowanie nad przeciwnymi energiami, aby iść naprzód."
     },
     {
       "id": 8,
@@ -153,16 +153,16 @@
       "suit": null,
       "rank": null,
       "image_path": "8.png",
-      "name": "Strength",
+      "name": "Moc",
       "keywords": [
-        "courage",
-        "patience",
-        "inner_power"
+        "odwaga",
+        "cierpliwość",
+        "wewnętrzna_siła"
       ],
-      "meaning_upright": "Courage, patience, and gentle inner power.",
-      "meaning_reversed": "Self-doubt, impatience, or force over finesse.",
-      "archetype": "The Heart",
-      "description": "Taming fear through compassion and steadiness."
+      "meaning_upright": "Odwaga, cierpliwość i łagodna wewnętrzna siła.",
+      "meaning_reversed": "Zwątpienie, niecierpliwość lub siła ponad finezją.",
+      "archetype": "Serce",
+      "description": "Oswajanie strachu poprzez współczucie i stabilność."
     },
     {
       "id": 9,
@@ -171,16 +171,16 @@
       "suit": null,
       "rank": null,
       "image_path": "9.png",
-      "name": "The Hermit",
+      "name": "Pustelnik",
       "keywords": [
-        "solitude",
-        "wisdom",
-        "guidance"
+        "samotność",
+        "mądrość",
+        "przewodnictwo"
       ],
-      "meaning_upright": "Solitude, insight, and inner guidance.",
-      "meaning_reversed": "Isolation, avoidance, or refusing help.",
-      "archetype": "The Sage",
-      "description": "Stepping back to see clearly."
+      "meaning_upright": "Samotność, wgląd i wewnętrzne przewodnictwo.",
+      "meaning_reversed": "Izolacja, unikanie lub odmowa pomocy.",
+      "archetype": "Mędrzec",
+      "description": "Odsuń się, aby widzieć jasno."
     },
     {
       "id": 10,
@@ -189,16 +189,16 @@
       "suit": null,
       "rank": null,
       "image_path": "10.png",
-      "name": "Wheel of Fortune",
+      "name": "Koło Fortuny",
       "keywords": [
-        "cycles",
-        "change",
-        "destiny"
+        "cykle",
+        "zmiana",
+        "przeznaczenie"
       ],
-      "meaning_upright": "Turning points, cycles, and shifts in luck.",
-      "meaning_reversed": "Resistance to change, delays, or repeating patterns.",
-      "archetype": "The Wheel",
-      "description": "Life moves—adapt and meet the moment."
+      "meaning_upright": "Punkty zwrotne, cykle i zmiany szczęścia.",
+      "meaning_reversed": "Opór przed zmianą, opóźnienia lub powtarzające się wzorce.",
+      "archetype": "Koło",
+      "description": "Życie się toczy – dostosuj się i staw czoła chwili."
     },
     {
       "id": 11,
@@ -207,16 +207,16 @@
       "suit": null,
       "rank": null,
       "image_path": "11.png",
-      "name": "Justice",
+      "name": "Sprawiedliwość",
       "keywords": [
-        "truth",
-        "fairness",
-        "accountability"
+        "prawda",
+        "uczciwość",
+        "odpowiedzialność"
       ],
-      "meaning_upright": "Truth, fairness, and responsible choices.",
-      "meaning_reversed": "Bias, denial, or avoiding consequences.",
-      "archetype": "The Judge",
-      "description": "Seeing clearly and acting with integrity."
+      "meaning_upright": "Prawda, uczciwość i odpowiedzialne wybory.",
+      "meaning_reversed": "Stronniczość, zaprzeczenie lub unikanie konsekwencji.",
+      "archetype": "Sędzia",
+      "description": "Widzieć jasno i działać z uczciwością."
     },
     {
       "id": 12,
@@ -225,16 +225,16 @@
       "suit": null,
       "rank": null,
       "image_path": "12.png",
-      "name": "The Hanged Man",
+      "name": "Wisielec",
       "keywords": [
-        "pause",
-        "new_perspective",
-        "surrender"
+        "pauza",
+        "nowa_perspektywa",
+        "poddanie"
       ],
-      "meaning_upright": "Pause, surrender, and a fresh perspective.",
-      "meaning_reversed": "Stalling, stubbornness, or fear of letting go.",
-      "archetype": "The Initiate",
-      "description": "The gift of seeing differently."
+      "meaning_upright": "Pauza, poddanie i świeża perspektywa.",
+      "meaning_reversed": "Stagnacja, upór lub strach przed odpuszczeniem.",
+      "archetype": "Nowicjusz",
+      "description": "Dar widzenia inaczej."
     },
     {
       "id": 13,
@@ -243,16 +243,16 @@
       "suit": null,
       "rank": null,
       "image_path": "13.png",
-      "name": "Death",
+      "name": "Śmierć",
       "keywords": [
-        "endings",
-        "transformation",
-        "release"
+        "zakończenia",
+        "transformacja",
+        "uwolnienie"
       ],
-      "meaning_upright": "Endings that make room for transformation.",
-      "meaning_reversed": "Clinging, fear of change, or prolonged transition.",
-      "archetype": "The Transformer",
-      "description": "Release what is done; renew what remains."
+      "meaning_upright": "Koniec, który robi miejsce na transformację.",
+      "meaning_reversed": "Utrzymywanie się, strach przed zmianą lub przedłużająca się transformacja.",
+      "archetype": "Transformator",
+      "description": "Uwolnij to, co skończone; odnów to, co pozostało."
     },
     {
       "id": 14,
@@ -261,16 +261,16 @@
       "suit": null,
       "rank": null,
       "image_path": "14.png",
-      "name": "Temperance",
+      "name": "Umiarkowanie",
       "keywords": [
-        "balance",
-        "healing",
-        "moderation"
+        "równowaga",
+        "uzdrowienie",
+        "umiar"
       ],
-      "meaning_upright": "Balance, healing, and measured integration.",
-      "meaning_reversed": "Excess, imbalance, or lack of harmony.",
-      "archetype": "The Alchemist",
-      "description": "Blend extremes into something whole."
+      "meaning_upright": "Równowaga, uzdrowienie i umiarkowana integracja.",
+      "meaning_reversed": "Nadmiar, brak równowagi lub brak harmonii.",
+      "archetype": "Alchemik",
+      "description": "Połącz skrajności w coś całościowego."
     },
     {
       "id": 15,
@@ -279,16 +279,16 @@
       "suit": null,
       "rank": null,
       "image_path": "15.png",
-      "name": "The Devil",
+      "name": "Diabeł",
       "keywords": [
-        "attachment",
-        "shadow",
-        "temptation"
+        "przywiązanie",
+        "cień",
+        "pokusa"
       ],
-      "meaning_upright": "Attachments, temptation, and confronting the shadow.",
-      "meaning_reversed": "Breaking free, reclaiming power, or denial of issues.",
-      "archetype": "The Shadow",
-      "description": "See the chain to loosen it."
+      "meaning_upright": "Przywiązania, pokusa i konfrontacja z cieniem.",
+      "meaning_reversed": "Uwalnianie się, odzyskiwanie mocy lub zaprzeczanie problemom.",
+      "archetype": "Cień",
+      "description": "Zobacz łańcuch, aby go poluzować."
     },
     {
       "id": 16,
@@ -297,16 +297,16 @@
       "suit": null,
       "rank": null,
       "image_path": "16.png",
-      "name": "The Tower",
+      "name": "Wieża",
       "keywords": [
-        "revelation",
-        "upheaval",
+        "objawienie",
+        "wstrząs",
         "reset"
       ],
-      "meaning_upright": "Upheaval, revelation, and clearing false structures.",
-      "meaning_reversed": "Avoiding the inevitable, prolonged disruption, or fear.",
-      "archetype": "The Lightning",
-      "description": "Truth strikes—rebuild on what is real."
+      "meaning_upright": "Wstrząs, objawienie i oczyszczenie fałszywych struktur.",
+      "meaning_reversed": "Unikanie nieuchronnego, długotrwałe zakłócenia lub strach.",
+      "archetype": "Błyskawica",
+      "description": "Prawda uderza – odbuduj na tym, co jest realne."
     },
     {
       "id": 17,
@@ -315,16 +315,16 @@
       "suit": null,
       "rank": null,
       "image_path": "17.png",
-      "name": "The Star",
+      "name": "Gwiazda",
       "keywords": [
-        "hope",
-        "renewal",
-        "guidance"
+        "nadzieja",
+        "odnowa",
+        "przewodnictwo"
       ],
-      "meaning_upright": "Hope, renewal, and a guiding light ahead.",
-      "meaning_reversed": "Discouragement, doubt, or dimmed optimism.",
-      "archetype": "The Guide",
-      "description": "A quiet yes from the future."
+      "meaning_upright": "Nadzieja, odnowa i przewodniczące światło naprzód.",
+      "meaning_reversed": "Zniechęcenie, zwątpienie lub przygasły optymizm.",
+      "archetype": "Przewodnik",
+      "description": "Ciche tak z przyszłości."
     },
     {
       "id": 18,
@@ -333,16 +333,16 @@
       "suit": null,
       "rank": null,
       "image_path": "18.png",
-      "name": "The Moon",
+      "name": "Księżyc",
       "keywords": [
-        "illusion",
-        "intuition",
-        "uncertainty"
+        "iluzja",
+        "intuicja",
+        "niepewność"
       ],
-      "meaning_upright": "Uncertainty, intuition, and navigating the unknown.",
-      "meaning_reversed": "Clarity emerging, fear easing, or self-deception exposed.",
-      "archetype": "The Dream",
-      "description": "Not everything is clear—move by inner light."
+      "meaning_upright": "Niepewność, intuicja i nawigowanie po nieznanym.",
+      "meaning_reversed": "Wyłaniająca się jasność, łagodzący się strach lub zdemaskowanie samozłudzeń.",
+      "archetype": "Sen",
+      "description": "Nie wszystko jest jasne – kieruj się wewnętrznym światłem."
     },
     {
       "id": 19,
@@ -351,16 +351,16 @@
       "suit": null,
       "rank": null,
       "image_path": "19.png",
-      "name": "The Sun",
+      "name": "Słońce",
       "keywords": [
-        "joy",
-        "success",
-        "vitality"
+        "radość",
+        "sukces",
+        "witalność"
       ],
-      "meaning_upright": "Joy, vitality, and confident success.",
-      "meaning_reversed": "Temporary setbacks, pessimism, or muted confidence.",
-      "archetype": "The Light",
-      "description": "Warmth, visibility, and truth in daylight."
+      "meaning_upright": "Radość, witalność i pewny sukces.",
+      "meaning_reversed": "Tymczasowe niepowodzenia, pesymizm lub przyćmiona pewność siebie.",
+      "archetype": "Światło",
+      "description": "Ciepło, widoczność i prawda w świetle dziennym."
     },
     {
       "id": 20,
@@ -369,16 +369,16 @@
       "suit": null,
       "rank": null,
       "image_path": "20.png",
-      "name": "Judgement",
+      "name": "Sąd",
       "keywords": [
-        "awakening",
-        "review",
-        "calling"
+        "przebudzenie",
+        "przegląd",
+        "powołanie"
       ],
-      "meaning_upright": "Awakening, review, and answering a calling.",
-      "meaning_reversed": "Self-doubt, harsh judgment, or avoiding a decision.",
-      "archetype": "The Call",
-      "description": "Choose your next chapter with honesty."
+      "meaning_upright": "Przebudzenie, przegląd i odpowiedź na powołanie.",
+      "meaning_reversed": "Zwątpienie, surowy osąd lub unikanie decyzji.",
+      "archetype": "Wezwanie",
+      "description": "Wybierz swój kolejny rozdział z uczciwością."
     },
     {
       "id": 21,
@@ -387,16 +387,16 @@
       "suit": null,
       "rank": null,
       "image_path": "21.png",
-      "name": "The World",
+      "name": "Świat",
       "keywords": [
-        "completion",
-        "integration",
-        "mastery"
+        "ukończenie",
+        "integracja",
+        "mistrzostwo"
       ],
-      "meaning_upright": "Completion, integration, and a sense of wholeness.",
-      "meaning_reversed": "Loose ends, delay, or incomplete closure.",
-      "archetype": "The Whole",
-      "description": "You arrive, and a new cycle begins."
+      "meaning_upright": "Ukończenie, integracja i poczucie pełni.",
+      "meaning_reversed": "Niedokończone sprawy, opóźnienia lub brak zamknięcia.",
+      "archetype": "Całość",
+      "description": "Przybywasz, a zaczyna się nowy cykl."
     },
     {
       "id": 22,
@@ -405,14 +405,14 @@
       "suit": "wands",
       "rank": "ace",
       "image_path": "22.png",
-      "name": "Ace of Wands",
+      "name": "As Buław",
       "keywords": [
-        "spark",
-        "inspiration",
-        "initiative"
+        "iskra",
+        "inspiracja",
+        "inicjatywa"
       ],
-      "meaning_upright": "A new spark of inspiration and the urge to begin.",
-      "meaning_reversed": "Delays, lack of motivation, or a spark that fizzles.",
+      "meaning_upright": "Nowa iskra inspiracji i chęć rozpoczęcia.",
+      "meaning_reversed": "Opóźnienia, brak motywacji lub gasnąca iskra.",
       "archetype": null,
       "description": null
     },
@@ -423,14 +423,14 @@
       "suit": "wands",
       "rank": "two",
       "image_path": "23.png",
-      "name": "Two of Wands",
+      "name": "Dwójka Buław",
       "keywords": [
-        "planning",
-        "options",
-        "vision"
+        "planowanie",
+        "opcje",
+        "wizja"
       ],
-      "meaning_upright": "Planning the next step and widening your horizon.",
-      "meaning_reversed": "Fear of the unknown or playing it too safe.",
+      "meaning_upright": "Planowanie następnego kroku i poszerzanie horyzontów.",
+      "meaning_reversed": "Strach przed nieznanym lub zbyt bezpieczna gra.",
       "archetype": null,
       "description": null
     },
@@ -441,14 +441,14 @@
       "suit": "wands",
       "rank": "three",
       "image_path": "24.png",
-      "name": "Three of Wands",
+      "name": "Trójka Buław",
       "keywords": [
-        "expansion",
-        "progress",
-        "momentum"
+        "ekspansja",
+        "postęp",
+        "pęd"
       ],
-      "meaning_upright": "Expansion, progress, and results beginning to show.",
-      "meaning_reversed": "Delays, setbacks, or lack of follow-through.",
+      "meaning_upright": "Ekspansja, postęp i zaczynające się pojawiać rezultaty.",
+      "meaning_reversed": "Opóźnienia, niepowodzenia lub brak konsekwencji.",
       "archetype": null,
       "description": null
     },
@@ -459,14 +459,14 @@
       "suit": "wands",
       "rank": "four",
       "image_path": "25.png",
-      "name": "Four of Wands",
+      "name": "Czwórka Buław",
       "keywords": [
-        "celebration",
-        "home",
-        "milestone"
+        "świętowanie",
+        "dom",
+        "kamień_milowy"
       ],
-      "meaning_upright": "Celebration, stability, and a joyful milestone.",
-      "meaning_reversed": "Tension at home or a celebration that feels off.",
+      "meaning_upright": "Świętowanie, stabilność i radosny kamień milowy.",
+      "meaning_reversed": "Napięcie w domu lub świętowanie, które wydaje się nie na miejscu.",
       "archetype": null,
       "description": null
     },
@@ -477,14 +477,14 @@
       "suit": "wands",
       "rank": "five",
       "image_path": "26.png",
-      "name": "Five of Wands",
+      "name": "Piątka Buław",
       "keywords": [
-        "competition",
-        "friction",
-        "testing"
+        "rywalizacja",
+        "tarcie",
+        "testowanie"
       ],
-      "meaning_upright": "Competition, friction, and learning through challenge.",
-      "meaning_reversed": "Avoiding conflict or arguments that go nowhere.",
+      "meaning_upright": "Rywalizacja, tarcie i nauka poprzez wyzwania.",
+      "meaning_reversed": "Unikanie konfliktu lub argumenty, które donikąd nie prowadzą.",
       "archetype": null,
       "description": null
     },
@@ -495,14 +495,14 @@
       "suit": "wands",
       "rank": "six",
       "image_path": "27.png",
-      "name": "Six of Wands",
+      "name": "Szóstka Buław",
       "keywords": [
-        "recognition",
-        "success",
-        "confidence"
+        "uznanie",
+        "sukces",
+        "pewność_siebie"
       ],
-      "meaning_upright": "Recognition, success, and earned confidence.",
-      "meaning_reversed": "Ego, insecurity, or success not acknowledged.",
+      "meaning_upright": "Uznanie, sukces i zdobyta pewność siebie.",
+      "meaning_reversed": "Ego, niepewność lub nieuznany sukces.",
       "archetype": null,
       "description": null
     },
@@ -513,14 +513,14 @@
       "suit": "wands",
       "rank": "seven",
       "image_path": "28.png",
-      "name": "Seven of Wands",
+      "name": "Siódemka Buław",
       "keywords": [
-        "defense",
-        "courage",
-        "boundaries"
+        "obrona",
+        "odwaga",
+        "granice"
       ],
-      "meaning_upright": "Standing your ground and protecting your position.",
-      "meaning_reversed": "Giving up too soon or feeling overwhelmed.",
+      "meaning_upright": "Stawanie w obronie i ochrona swojej pozycji.",
+      "meaning_reversed": "Zbyt wczesne poddanie się lub poczucie przytłoczenia.",
       "archetype": null,
       "description": null
     },
@@ -531,14 +531,14 @@
       "suit": "wands",
       "rank": "eight",
       "image_path": "29.png",
-      "name": "Eight of Wands",
+      "name": "Ósemka Buław",
       "keywords": [
-        "speed",
-        "movement",
-        "messages"
+        "szybkość",
+        "ruch",
+        "wiadomości"
       ],
-      "meaning_upright": "Speed, movement, and swift developments.",
-      "meaning_reversed": "Delays, miscommunication, or scattered effort.",
+      "meaning_upright": "Szybkość, ruch i szybkie rozwój wydarzeń.",
+      "meaning_reversed": "Opóźnienia, nieporozumienia lub rozproszony wysiłek.",
       "archetype": null,
       "description": null
     },
@@ -549,14 +549,14 @@
       "suit": "wands",
       "rank": "nine",
       "image_path": "30.png",
-      "name": "Nine of Wands",
+      "name": "Dziewiątka Buław",
       "keywords": [
-        "resilience",
-        "persistence",
-        "guarded"
+        "odporność",
+        "wytrwałość",
+        "ostrożność"
       ],
-      "meaning_upright": "Resilience and persistence despite fatigue.",
-      "meaning_reversed": "Burnout, defensiveness, or refusing support.",
+      "meaning_upright": "Odporność i wytrwałość pomimo zmęczenia.",
+      "meaning_reversed": "Wypalenie, defensywność lub odrzucenie wsparcia.",
       "archetype": null,
       "description": null
     },
@@ -567,14 +567,14 @@
       "suit": "wands",
       "rank": "ten",
       "image_path": "31.png",
-      "name": "Ten of Wands",
+      "name": "Dziesiątka Buław",
       "keywords": [
-        "burden",
-        "responsibility",
-        "pressure"
+        "brzemię",
+        "odpowiedzialność",
+        "presja"
       ],
-      "meaning_upright": "Heavy responsibility and carrying too much.",
-      "meaning_reversed": "Delegating, release, or collapse under pressure.",
+      "meaning_upright": "Ciężka odpowiedzialność i noszenie zbyt wielu rzeczy.",
+      "meaning_reversed": "Delegowanie, uwolnienie lub załamanie pod presją.",
       "archetype": null,
       "description": null
     },
@@ -585,14 +585,14 @@
       "suit": "wands",
       "rank": "page",
       "image_path": "32.png",
-      "name": "Page of Wands",
+      "name": "Paź Buław",
       "keywords": [
-        "curiosity",
-        "exploration",
-        "news"
+        "ciekawość",
+        "eksploracja",
+        "wiadomości"
       ],
-      "meaning_upright": "Curiosity, exploration, and exciting news.",
-      "meaning_reversed": "Impulsiveness, delays, or lack of direction.",
+      "meaning_upright": "Ciekawość, eksploracja i ekscytujące wieści.",
+      "meaning_reversed": "Impulsywność, opóźnienia lub brak kierunku.",
       "archetype": null,
       "description": null
     },
@@ -603,14 +603,14 @@
       "suit": "wands",
       "rank": "knight",
       "image_path": "33.png",
-      "name": "Knight of Wands",
+      "name": "Rycerz Buław",
       "keywords": [
-        "adventure",
-        "boldness",
-        "movement"
+        "przygoda",
+        "śmiałość",
+        "ruch"
       ],
-      "meaning_upright": "Bold action, adventure, and forward movement.",
-      "meaning_reversed": "Recklessness, impatience, or inconsistency.",
+      "meaning_upright": "Śmiałe działanie, przygoda i ruch naprzód.",
+      "meaning_reversed": "Nieostrożność, niecierpliwość lub niespójność.",
       "archetype": null,
       "description": null
     },
@@ -621,14 +621,14 @@
       "suit": "wands",
       "rank": "queen",
       "image_path": "34.png",
-      "name": "Queen of Wands",
+      "name": "Królowa Buław",
       "keywords": [
-        "confidence",
-        "warmth",
-        "leadership"
+        "pewność_siebie",
+        "ciepło",
+        "przywództwo"
       ],
-      "meaning_upright": "Confidence, warmth, and inspiring leadership.",
-      "meaning_reversed": "Insecurity, jealousy, or demanding attention.",
+      "meaning_upright": "Pewność siebie, ciepło i inspirujące przywództwo.",
+      "meaning_reversed": "Niepewność, zazdrość lub potrzeba uwagi.",
       "archetype": null,
       "description": null
     },
@@ -639,14 +639,14 @@
       "suit": "wands",
       "rank": "king",
       "image_path": "35.png",
-      "name": "King of Wands",
+      "name": "Król Buław",
       "keywords": [
-        "vision",
-        "mastery",
-        "courage"
+        "wizja",
+        "mistrzostwo",
+        "odwaga"
       ],
-      "meaning_upright": "Visionary leadership and creative mastery.",
-      "meaning_reversed": "Impulsiveness, arrogance, or domineering energy.",
+      "meaning_upright": "Wizjonerskie przywództwo i twórcze mistrzostwo.",
+      "meaning_reversed": "Impulsywność, arogancja lub dominująca energia.",
       "archetype": null,
       "description": null
     },
@@ -657,14 +657,14 @@
       "suit": "cups",
       "rank": "ace",
       "image_path": "36.png",
-      "name": "Ace of Cups",
+      "name": "As Kielichów",
       "keywords": [
-        "love",
-        "openness",
-        "renewal"
+        "miłość",
+        "otwartość",
+        "odnowa"
       ],
-      "meaning_upright": "Emotional renewal, love, and an open heart.",
-      "meaning_reversed": "Blocked feelings or difficulty receiving love.",
+      "meaning_upright": "Emocjonalna odnowa, miłość i otwarte serce.",
+      "meaning_reversed": "Zablokowane uczucia lub trudność w przyjmowaniu miłości.",
       "archetype": null,
       "description": null
     },
@@ -675,14 +675,14 @@
       "suit": "cups",
       "rank": "two",
       "image_path": "37.png",
-      "name": "Two of Cups",
+      "name": "Dwójka Kielichów",
       "keywords": [
-        "connection",
-        "partnership",
-        "union"
+        "połączenie",
+        "partnerstwo",
+        "unia"
       ],
-      "meaning_upright": "Connection, partnership, and mutual exchange.",
-      "meaning_reversed": "Imbalance, miscommunication, or tension in bonds.",
+      "meaning_upright": "Połączenie, partnerstwo i wzajemna wymiana.",
+      "meaning_reversed": "Brak równowagi, nieporozumienia lub napięcie w więziach.",
       "archetype": null,
       "description": null
     },
@@ -693,14 +693,14 @@
       "suit": "cups",
       "rank": "three",
       "image_path": "38.png",
-      "name": "Three of Cups",
+      "name": "Trójka Kielichów",
       "keywords": [
-        "friendship",
-        "celebration",
-        "support"
+        "przyjaźń",
+        "świętowanie",
+        "wsparcie"
       ],
-      "meaning_upright": "Friendship, celebration, and shared support.",
-      "meaning_reversed": "Overindulgence or social drama.",
+      "meaning_upright": "Przyjaźń, świętowanie i wzajemne wsparcie.",
+      "meaning_reversed": "Nadmierne pobłażanie sobie lub dramat społeczny.",
       "archetype": null,
       "description": null
     },
@@ -711,14 +711,14 @@
       "suit": "cups",
       "rank": "four",
       "image_path": "39.png",
-      "name": "Four of Cups",
+      "name": "Czwórka Kielichów",
       "keywords": [
-        "apathy",
-        "reflection",
-        "reevaluate"
+        "apatia",
+        "refleksja",
+        "ponowna_ocena"
       ],
-      "meaning_upright": "Apathy, reflection, and reevaluating options.",
-      "meaning_reversed": "New interest, re-engagement, or a fresh offer.",
+      "meaning_upright": "Apatia, refleksja i ponowna ocena opcji.",
+      "meaning_reversed": "Nowe zainteresowanie, ponowne zaangażowanie lub świeża oferta.",
       "archetype": null,
       "description": null
     },
@@ -729,14 +729,14 @@
       "suit": "cups",
       "rank": "five",
       "image_path": "40.png",
-      "name": "Five of Cups",
+      "name": "Piątka Kielichów",
       "keywords": [
-        "loss",
-        "grief",
-        "regret"
+        "strata",
+        "żałoba",
+        "żal"
       ],
-      "meaning_upright": "Loss, grief, and focusing on what went wrong.",
-      "meaning_reversed": "Acceptance, healing, and seeing what remains.",
+      "meaning_upright": "Strata, żałoba i skupienie na tym, co poszło źle.",
+      "meaning_reversed": "Akceptacja, uzdrowienie i dostrzeżenie tego, co pozostało.",
       "archetype": null,
       "description": null
     },
@@ -747,14 +747,14 @@
       "suit": "cups",
       "rank": "six",
       "image_path": "41.png",
-      "name": "Six of Cups",
+      "name": "Szóstka Kielichów",
       "keywords": [
         "nostalgia",
-        "innocence",
-        "memories"
+        "niewinność",
+        "wspomnienia"
       ],
-      "meaning_upright": "Nostalgia, kindness, and gentle memories.",
-      "meaning_reversed": "Being stuck in the past or idealizing.",
+      "meaning_upright": "Nostalgia, życzliwość i łagodne wspomnienia.",
+      "meaning_reversed": "Utknięcie w przeszłości lub idealizowanie.",
       "archetype": null,
       "description": null
     },
@@ -765,14 +765,14 @@
       "suit": "cups",
       "rank": "seven",
       "image_path": "42.png",
-      "name": "Seven of Cups",
+      "name": "Siódemka Kielichów",
       "keywords": [
-        "choices",
-        "fantasy",
-        "illusion"
+        "wybory",
+        "fantazja",
+        "iluzja"
       ],
-      "meaning_upright": "Many choices, fantasies, and unclear priorities.",
-      "meaning_reversed": "Clarity, decision, and focus returning.",
+      "meaning_upright": "Wiele wyborów, fantazje i niejasne priorytety.",
+      "meaning_reversed": "Jasność, decyzja i powracające skupienie.",
       "archetype": null,
       "description": null
     },
@@ -783,14 +783,14 @@
       "suit": "cups",
       "rank": "eight",
       "image_path": "43.png",
-      "name": "Eight of Cups",
+      "name": "Ósemka Kielichów",
       "keywords": [
-        "walking_away",
-        "search",
-        "transition"
+        "odchodzenie",
+        "poszukiwanie",
+        "transformacja"
       ],
-      "meaning_upright": "Walking away to seek deeper meaning.",
-      "meaning_reversed": "Fear of change or returning after learning.",
+      "meaning_upright": "Odchodzenie w poszukiwaniu głębszego sensu.",
+      "meaning_reversed": "Strach przed zmianą lub powrót po nauce.",
       "archetype": null,
       "description": null
     },
@@ -801,14 +801,14 @@
       "suit": "cups",
       "rank": "nine",
       "image_path": "44.png",
-      "name": "Nine of Cups",
+      "name": "Dziewiątka Kielichów",
       "keywords": [
-        "satisfaction",
-        "wish",
-        "contentment"
+        "satysfakcja",
+        "życzenie",
+        "zadowolenie"
       ],
-      "meaning_upright": "Satisfaction, contentment, and a wish fulfilled.",
-      "meaning_reversed": "Overindulgence or dissatisfaction beneath comfort.",
+      "meaning_upright": "Satysfakcja, zadowolenie i spełnione życzenie.",
+      "meaning_reversed": "Nadmierne pobłażanie sobie lub niezadowolenie pod komfortem.",
       "archetype": null,
       "description": null
     },
@@ -819,14 +819,14 @@
       "suit": "cups",
       "rank": "ten",
       "image_path": "45.png",
-      "name": "Ten of Cups",
+      "name": "Dziesiątka Kielichów",
       "keywords": [
-        "harmony",
-        "family",
-        "joy"
+        "harmonia",
+        "rodzina",
+        "radość"
       ],
-      "meaning_upright": "Harmony, joy, and emotional fulfillment.",
-      "meaning_reversed": "Misalignment at home or unrealistic expectations.",
+      "meaning_upright": "Harmonia, radość i emocjonalne spełnienie.",
+      "meaning_reversed": "Niezgodność w domu lub nierealistyczne oczekiwania.",
       "archetype": null,
       "description": null
     },
@@ -837,14 +837,14 @@
       "suit": "cups",
       "rank": "page",
       "image_path": "46.png",
-      "name": "Page of Cups",
+      "name": "Paź Kielichów",
       "keywords": [
-        "messages",
-        "openness",
-        "surprise"
+        "wiadomości",
+        "otwartość",
+        "niespodzianka"
       ],
-      "meaning_upright": "A heartfelt message and open emotional curiosity.",
-      "meaning_reversed": "Emotional immaturity or mixed signals.",
+      "meaning_upright": "Serdeczna wiadomość i otwarta emocjonalna ciekawość.",
+      "meaning_reversed": "Emocjonalna niedojrzałość lub niejednoznaczne sygnały.",
       "archetype": null,
       "description": null
     },
@@ -855,14 +855,14 @@
       "suit": "cups",
       "rank": "knight",
       "image_path": "47.png",
-      "name": "Knight of Cups",
+      "name": "Rycerz Kielichów",
       "keywords": [
-        "romance",
-        "invitation",
-        "idealism"
+        "romans",
+        "zaproszenie",
+        "idealizm"
       ],
-      "meaning_upright": "Romance, invitations, and following the heart.",
-      "meaning_reversed": "Moodiness, disappointment, or chasing illusions.",
+      "meaning_upright": "Romans, zaproszenia i podążanie za sercem.",
+      "meaning_reversed": "Zmienność nastrojów, rozczarowanie lub gonienie za iluzjami.",
       "archetype": null,
       "description": null
     },
@@ -873,14 +873,14 @@
       "suit": "cups",
       "rank": "queen",
       "image_path": "48.png",
-      "name": "Queen of Cups",
+      "name": "Królowa Kielichów",
       "keywords": [
-        "empathy",
-        "intuition",
-        "care"
+        "empatia",
+        "intuicja",
+        "opieka"
       ],
-      "meaning_upright": "Empathy, intuition, and emotional care.",
-      "meaning_reversed": "Overwhelm, co-dependency, or poor boundaries.",
+      "meaning_upright": "Empatia, intuicja i emocjonalna troska.",
+      "meaning_reversed": "Przytłoczenie, współzależność lub słabe granice.",
       "archetype": null,
       "description": null
     },
@@ -891,14 +891,14 @@
       "suit": "cups",
       "rank": "king",
       "image_path": "49.png",
-      "name": "King of Cups",
+      "name": "Król Kielichów",
       "keywords": [
-        "calm",
-        "compassion",
-        "balance"
+        "spokój",
+        "współczucie",
+        "równowaga"
       ],
-      "meaning_upright": "Calm compassion and emotional balance.",
-      "meaning_reversed": "Emotional manipulation or suppressed feelings.",
+      "meaning_upright": "Spokojne współczucie i emocjonalna równowaga.",
+      "meaning_reversed": "Emocjonalna manipulacja lub stłumione uczucia.",
       "archetype": null,
       "description": null
     },
@@ -909,14 +909,14 @@
       "suit": "swords",
       "rank": "ace",
       "image_path": "50.png",
-      "name": "Ace of Swords",
+      "name": "As Mieczy",
       "keywords": [
-        "clarity",
-        "truth",
-        "breakthrough"
+        "jasność",
+        "prawda",
+        "przełom"
       ],
-      "meaning_upright": "Clarity, truth, and a mental breakthrough.",
-      "meaning_reversed": "Confusion, misinformation, or cloudy judgment.",
+      "meaning_upright": "Jasność, prawda i mentalny przełom.",
+      "meaning_reversed": "Zamieszanie, dezinformacja lub niejasny osąd.",
       "archetype": null,
       "description": null
     },
@@ -927,14 +927,14 @@
       "suit": "swords",
       "rank": "two",
       "image_path": "51.png",
-      "name": "Two of Swords",
+      "name": "Dwójka Mieczy",
       "keywords": [
-        "stalemate",
-        "choice",
-        "avoidance"
+        "impas",
+        "wybór",
+        "unikanie"
       ],
-      "meaning_upright": "Stalemate, difficult choice, and guardedness.",
-      "meaning_reversed": "Indecision ends, truth revealed, or overload.",
+      "meaning_upright": "Impasy, trudne wybory i ostrożność.",
+      "meaning_reversed": "Koniec niezdecydowania, ujawnienie prawdy lub przeciążenie.",
       "archetype": null,
       "description": null
     },
@@ -945,14 +945,14 @@
       "suit": "swords",
       "rank": "three",
       "image_path": "52.png",
-      "name": "Three of Swords",
+      "name": "Trójka Mieczy",
       "keywords": [
-        "heartbreak",
-        "sorrow",
-        "truth"
+        "złamanie_serca",
+        "smutek",
+        "prawda"
       ],
-      "meaning_upright": "Heartbreak, sorrow, and hard truths.",
-      "meaning_reversed": "Healing, forgiveness, and moving on.",
+      "meaning_upright": "Złamane serce, smutek i bolesne prawdy.",
+      "meaning_reversed": "Uzdrowienie, przebaczenie i ruszenie naprzód.",
       "archetype": null,
       "description": null
     },
@@ -963,14 +963,14 @@
       "suit": "swords",
       "rank": "four",
       "image_path": "53.png",
-      "name": "Four of Swords",
+      "name": "Czwórka Mieczy",
       "keywords": [
-        "rest",
-        "recovery",
-        "pause"
+        "odpoczynek",
+        "regeneracja",
+        "pauza"
       ],
-      "meaning_upright": "Rest, recovery, and a necessary pause.",
-      "meaning_reversed": "Restlessness or returning too soon.",
+      "meaning_upright": "Odpoczynek, regeneracja i konieczna pauza.",
+      "meaning_reversed": "Niepokój lub zbyt wczesny powrót.",
       "archetype": null,
       "description": null
     },
@@ -981,14 +981,14 @@
       "suit": "swords",
       "rank": "five",
       "image_path": "54.png",
-      "name": "Five of Swords",
+      "name": "Piątka Mieczy",
       "keywords": [
-        "conflict",
+        "konflikt",
         "ego",
-        "win_at_all_costs"
+        "wygrana_za_wszelką_cenę"
       ],
-      "meaning_upright": "Conflict, ego, and winning at a cost.",
-      "meaning_reversed": "Reconciliation or walking away from drama.",
+      "meaning_upright": "Konflikt, ego i wygrana kosztem czegoś.",
+      "meaning_reversed": "Pojednanie lub odejście od dramatu.",
       "archetype": null,
       "description": null
     },
@@ -999,14 +999,14 @@
       "suit": "swords",
       "rank": "six",
       "image_path": "55.png",
-      "name": "Six of Swords",
+      "name": "Szóstka Mieczy",
       "keywords": [
-        "transition",
-        "healing",
-        "moving_on"
+        "transformacja",
+        "uzdrowienie",
+        "ruszanie_naprzód"
       ],
-      "meaning_upright": "Transition, healing, and moving toward calmer waters.",
-      "meaning_reversed": "Difficulty moving on or carrying old baggage.",
+      "meaning_upright": "Transformacja, uzdrowienie i ruch w kierunku spokojniejszych wód.",
+      "meaning_reversed": "Trudność w ruszeniu naprzód lub noszenie starego bagażu.",
       "archetype": null,
       "description": null
     },
@@ -1017,14 +1017,14 @@
       "suit": "swords",
       "rank": "seven",
       "image_path": "56.png",
-      "name": "Seven of Swords",
+      "name": "Siódemka Mieczy",
       "keywords": [
-        "strategy",
-        "secrecy",
-        "avoidance"
+        "strategia",
+        "tajemnica",
+        "unikanie"
       ],
-      "meaning_upright": "Strategy, secrecy, and acting indirectly.",
-      "meaning_reversed": "Confession, exposure, or changing tactics.",
+      "meaning_upright": "Strategia, tajemnica i działanie pośrednie.",
+      "meaning_reversed": "Spowiedź, ujawnienie lub zmiana taktyki.",
       "archetype": null,
       "description": null
     },
@@ -1035,14 +1035,14 @@
       "suit": "swords",
       "rank": "eight",
       "image_path": "57.png",
-      "name": "Eight of Swords",
+      "name": "Ósemka Mieczy",
       "keywords": [
-        "restriction",
-        "fear",
-        "self_limiting"
+        "ograniczenie",
+        "strach",
+        "samoograniczenie"
       ],
-      "meaning_upright": "Feeling restricted by fear or self-limiting beliefs.",
-      "meaning_reversed": "Release, new perspective, and loosening bonds.",
+      "meaning_upright": "Poczucie ograniczenia przez strach lub samoograniczające przekonania.",
+      "meaning_reversed": "Uwolnienie, nowa perspektywa i poluzowanie więzów.",
       "archetype": null,
       "description": null
     },
@@ -1053,14 +1053,14 @@
       "suit": "swords",
       "rank": "nine",
       "image_path": "58.png",
-      "name": "Nine of Swords",
+      "name": "Dziewiątka Mieczy",
       "keywords": [
-        "anxiety",
-        "worry",
-        "sleeplessness"
+        "niepokój",
+        "troska",
+        "bezsenność"
       ],
-      "meaning_upright": "Anxiety, worry, and sleepless nights.",
-      "meaning_reversed": "Relief, support, or confronting fears.",
+      "meaning_upright": "Niepokój, troska i bezsenne noce.",
+      "meaning_reversed": "Ulga, wsparcie lub konfrontacja ze strachami.",
       "archetype": null,
       "description": null
     },
@@ -1071,14 +1071,14 @@
       "suit": "swords",
       "rank": "ten",
       "image_path": "59.png",
-      "name": "Ten of Swords",
+      "name": "Dziesiątka Mieczy",
       "keywords": [
-        "ending",
-        "betrayal",
-        "release"
+        "koniec",
+        "zdrada",
+        "uwolnienie"
       ],
-      "meaning_upright": "An ending, painful truth, and release.",
-      "meaning_reversed": "Recovery, resilience, and rising again.",
+      "meaning_upright": "Koniec, bolesna prawda i uwolnienie.",
+      "meaning_reversed": "Regeneracja, odporność i ponowne podniesienie się.",
       "archetype": null,
       "description": null
     },
@@ -1089,14 +1089,14 @@
       "suit": "swords",
       "rank": "page",
       "image_path": "60.png",
-      "name": "Page of Swords",
+      "name": "Paź Mieczy",
       "keywords": [
-        "curiosity",
-        "truth_seeking",
-        "alertness"
+        "ciekawość",
+        "poszukiwanie_prawdy",
+        "czujność"
       ],
-      "meaning_upright": "Curiosity, truth-seeking, and mental alertness.",
-      "meaning_reversed": "Gossip, haste, or jumping to conclusions.",
+      "meaning_upright": "Ciekawość, poszukiwanie prawdy i mentalna czujność.",
+      "meaning_reversed": "Plotkowanie, pośpiech lub wyciąganie pochopnych wniosków.",
       "archetype": null,
       "description": null
     },
@@ -1107,14 +1107,14 @@
       "suit": "swords",
       "rank": "knight",
       "image_path": "61.png",
-      "name": "Knight of Swords",
+      "name": "Rycerz Mieczy",
       "keywords": [
-        "directness",
-        "speed",
-        "drive"
+        "bezpośredniość",
+        "szybkość",
+        "determinacja"
       ],
-      "meaning_upright": "Direct action, speed, and decisive thinking.",
-      "meaning_reversed": "Impulsiveness, harshness, or rushing blindly.",
+      "meaning_upright": "Bezpośrednie działanie, szybkość i zdecydowane myślenie.",
+      "meaning_reversed": "Impulsywność, szorstkość lub ślepy pośpiech.",
       "archetype": null,
       "description": null
     },
@@ -1125,14 +1125,14 @@
       "suit": "swords",
       "rank": "queen",
       "image_path": "62.png",
-      "name": "Queen of Swords",
+      "name": "Królowa Mieczy",
       "keywords": [
-        "discernment",
-        "independence",
-        "clarity"
+        "rozeznanie",
+        "niezależność",
+        "jasność"
       ],
-      "meaning_upright": "Discernment, independence, and clear boundaries.",
-      "meaning_reversed": "Coldness, bitterness, or cutting words.",
+      "meaning_upright": "Rozeznanie, niezależność i jasne granice.",
+      "meaning_reversed": "Zimno, gorycz lub raniące słowa.",
       "archetype": null,
       "description": null
     },
@@ -1143,14 +1143,14 @@
       "suit": "swords",
       "rank": "king",
       "image_path": "63.png",
-      "name": "King of Swords",
+      "name": "Król Mieczy",
       "keywords": [
-        "logic",
-        "authority",
-        "truth"
+        "logika",
+        "autorytet",
+        "prawda"
       ],
-      "meaning_upright": "Logic, authority, and principled truth.",
-      "meaning_reversed": "Abuse of power or rigid, unfair judgment.",
+      "meaning_upright": "Logika, autorytet i zasadnicza prawda.",
+      "meaning_reversed": "Nadużycie władzy lub sztywny, niesprawiedliwy osąd.",
       "archetype": null,
       "description": null
     },
@@ -1161,14 +1161,14 @@
       "suit": "pentacles",
       "rank": "ace",
       "image_path": "64.png",
-      "name": "Ace of Pentacles",
+      "name": "As Monet",
       "keywords": [
-        "opportunity",
-        "growth",
-        "resources"
+        "szansa",
+        "wzrost",
+        "zasoby"
       ],
-      "meaning_upright": "A tangible opportunity and seed of prosperity.",
-      "meaning_reversed": "Missed chance or unstable foundations.",
+      "meaning_upright": "Namacalna szansa i nasiono dobrobytu.",
+      "meaning_reversed": "Przegapiona okazja lub niestabilne fundamenty.",
       "archetype": null,
       "description": null
     },
@@ -1179,14 +1179,14 @@
       "suit": "pentacles",
       "rank": "two",
       "image_path": "65.png",
-      "name": "Two of Pentacles",
+      "name": "Dwójka Monet",
       "keywords": [
-        "balance",
-        "adaptation",
-        "juggling"
+        "równowaga",
+        "adaptacja",
+        "żonglerka"
       ],
-      "meaning_upright": "Balancing priorities and adapting to change.",
-      "meaning_reversed": "Overcommitment or losing balance.",
+      "meaning_upright": "Równoważenie priorytetów i adaptacja do zmian.",
+      "meaning_reversed": "Nadmierne zaangażowanie lub utrata równowagi.",
       "archetype": null,
       "description": null
     },
@@ -1197,14 +1197,14 @@
       "suit": "pentacles",
       "rank": "three",
       "image_path": "66.png",
-      "name": "Three of Pentacles",
+      "name": "Trójka Monet",
       "keywords": [
-        "teamwork",
-        "craft",
-        "learning"
+        "praca_zespołowa",
+        "rzemiosło",
+        "nauka"
       ],
-      "meaning_upright": "Teamwork, craftsmanship, and learning by doing.",
-      "meaning_reversed": "Lack of collaboration or sloppy work.",
+      "meaning_upright": "Praca zespołowa, rzemiosło i nauka poprzez praktykę.",
+      "meaning_reversed": "Brak współpracy lub niedbała praca.",
       "archetype": null,
       "description": null
     },
@@ -1215,14 +1215,14 @@
       "suit": "pentacles",
       "rank": "four",
       "image_path": "67.png",
-      "name": "Four of Pentacles",
+      "name": "Czwórka Monet",
       "keywords": [
-        "security",
-        "control",
-        "holding_on"
+        "bezpieczeństwo",
+        "kontrola",
+        "trzymanie_się"
       ],
-      "meaning_upright": "Security, control, and holding on tightly.",
-      "meaning_reversed": "Letting go or fear of loss driving decisions.",
+      "meaning_upright": "Bezpieczeństwo, kontrola i mocne trzymanie się.",
+      "meaning_reversed": "Odpuszczanie lub strach przed stratą kierujący decyzjami.",
       "archetype": null,
       "description": null
     },
@@ -1233,14 +1233,14 @@
       "suit": "pentacles",
       "rank": "five",
       "image_path": "68.png",
-      "name": "Five of Pentacles",
+      "name": "Piątka Monet",
       "keywords": [
-        "hardship",
-        "lack",
-        "support"
+        "trudności",
+        "brak",
+        "wsparcie"
       ],
-      "meaning_upright": "Hardship, lack, and seeking support.",
-      "meaning_reversed": "Recovery, assistance, and improving conditions.",
+      "meaning_upright": "Trudności, brak i poszukiwanie wsparcia.",
+      "meaning_reversed": "Regeneracja, pomoc i poprawa warunków.",
       "archetype": null,
       "description": null
     },
@@ -1251,14 +1251,14 @@
       "suit": "pentacles",
       "rank": "six",
       "image_path": "69.png",
-      "name": "Six of Pentacles",
+      "name": "Szóstka Monet",
       "keywords": [
-        "giving",
-        "receiving",
-        "fairness"
+        "dawanie",
+        "otrzymywanie",
+        "uczciwość"
       ],
-      "meaning_upright": "Giving and receiving with fairness and care.",
-      "meaning_reversed": "Strings attached or imbalance in exchange.",
+      "meaning_upright": "Dawanie i otrzymywanie z uczciwością i troską.",
+      "meaning_reversed": "Ukryte motywy lub brak równowagi w wymianie.",
       "archetype": null,
       "description": null
     },
@@ -1269,14 +1269,14 @@
       "suit": "pentacles",
       "rank": "seven",
       "image_path": "70.png",
-      "name": "Seven of Pentacles",
+      "name": "Siódemka Monet",
       "keywords": [
-        "patience",
-        "investment",
-        "assessment"
+        "cierpliwość",
+        "inwestycja",
+        "ocena"
       ],
-      "meaning_upright": "Patience, long-term investment, and assessment.",
-      "meaning_reversed": "Impatience or doubting progress too soon.",
+      "meaning_upright": "Cierpliwość, długoterminowa inwestycja i ocena.",
+      "meaning_reversed": "Niecierpliwość lub zbyt szybkie wątpienie w postęp.",
       "archetype": null,
       "description": null
     },
@@ -1287,14 +1287,14 @@
       "suit": "pentacles",
       "rank": "eight",
       "image_path": "71.png",
-      "name": "Eight of Pentacles",
+      "name": "Ósemka Monet",
       "keywords": [
-        "practice",
-        "skill",
-        "dedication"
+        "praktyka",
+        "umiejętność",
+        "dedykacja"
       ],
-      "meaning_upright": "Practice, dedication, and improving a craft.",
-      "meaning_reversed": "Cutting corners or boredom with routine.",
+      "meaning_upright": "Praktyka, dedykacja i doskonalenie rzemiosła.",
+      "meaning_reversed": "Cięcie rogów lub nuda rutyną.",
       "archetype": null,
       "description": null
     },
@@ -1305,14 +1305,14 @@
       "suit": "pentacles",
       "rank": "nine",
       "image_path": "72.png",
-      "name": "Nine of Pentacles",
+      "name": "Dziewiątka Monet",
       "keywords": [
-        "independence",
-        "comfort",
-        "self_worth"
+        "niezależność",
+        "komfort",
+        "wartość_siebie"
       ],
-      "meaning_upright": "Independence, comfort, and self-worth.",
-      "meaning_reversed": "Overreliance or insecurity despite success.",
+      "meaning_upright": "Niezależność, komfort i poczucie własnej wartości.",
+      "meaning_reversed": "Nadmierne poleganie lub niepewność pomimo sukcesu.",
       "archetype": null,
       "description": null
     },
@@ -1323,14 +1323,14 @@
       "suit": "pentacles",
       "rank": "ten",
       "image_path": "73.png",
-      "name": "Ten of Pentacles",
+      "name": "Dziesiątka Monet",
       "keywords": [
-        "legacy",
-        "family",
-        "stability"
+        "dziedzictwo",
+        "rodzina",
+        "stabilność"
       ],
-      "meaning_upright": "Legacy, family stability, and long-term security.",
-      "meaning_reversed": "Instability in foundations or family tensions.",
+      "meaning_upright": "Dziedzictwo, stabilność rodziny i długoterminowe bezpieczeństwo.",
+      "meaning_reversed": "Niestabilność fundamentów lub napięcia rodzinne.",
       "archetype": null,
       "description": null
     },
@@ -1341,14 +1341,14 @@
       "suit": "pentacles",
       "rank": "page",
       "image_path": "74.png",
-      "name": "Page of Pentacles",
+      "name": "Paź Monet",
       "keywords": [
-        "study",
-        "opportunity",
-        "planning"
+        "nauka",
+        "szansa",
+        "planowanie"
       ],
-      "meaning_upright": "Study, new opportunity, and grounded planning.",
-      "meaning_reversed": "Procrastination or lack of follow-through.",
+      "meaning_upright": "Nauka, nowa szansa i ugruntowane planowanie.",
+      "meaning_reversed": "Prokrastynacja lub brak konsekwencji.",
       "archetype": null,
       "description": null
     },
@@ -1359,14 +1359,14 @@
       "suit": "pentacles",
       "rank": "knight",
       "image_path": "75.png",
-      "name": "Knight of Pentacles",
+      "name": "Rycerz Monet",
       "keywords": [
-        "steadiness",
-        "routine",
-        "reliability"
+        "niezachwianie",
+        "rutyna",
+        "niezawodność"
       ],
-      "meaning_upright": "Steady progress and reliable effort.",
-      "meaning_reversed": "Stagnation or stubborn attachment to routine.",
+      "meaning_upright": "Niezachwiany postęp i niezawodny wysiłek.",
+      "meaning_reversed": "Stagnacja lub uparte przywiązanie do rutyny.",
       "archetype": null,
       "description": null
     },
@@ -1377,14 +1377,14 @@
       "suit": "pentacles",
       "rank": "queen",
       "image_path": "76.png",
-      "name": "Queen of Pentacles",
+      "name": "Królowa Monet",
       "keywords": [
-        "care",
-        "practicality",
-        "home"
+        "opieka",
+        "praktyczność",
+        "dom"
       ],
-      "meaning_upright": "Practical care, comfort, and grounded nurture.",
-      "meaning_reversed": "Work-home imbalance or neglecting self-care.",
+      "meaning_upright": "Praktyczna troska, komfort i ugruntowane pielęgnowanie.",
+      "meaning_reversed": "Niezrównoważenie pracy i domu lub zaniedbanie samoopieki.",
       "archetype": null,
       "description": null
     },
@@ -1395,14 +1395,14 @@
       "suit": "pentacles",
       "rank": "king",
       "image_path": "77.png",
-      "name": "King of Pentacles",
+      "name": "Król Monet",
       "keywords": [
-        "abundance",
-        "stability",
-        "provider"
+        "obfitość",
+        "stabilność",
+        "żywiciel"
       ],
-      "meaning_upright": "Abundance, stability, and responsible provision.",
-      "meaning_reversed": "Materialism or using resources to control.",
+      "meaning_upright": "Obfitość, stabilność i odpowiedzialne zaopatrzenie.",
+      "meaning_reversed": "Materializm lub używanie zasobów do kontrolowania.",
       "archetype": null,
       "description": null
     }
