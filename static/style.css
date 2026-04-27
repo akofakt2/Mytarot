@@ -830,3 +830,35 @@ h2.seo-subtle {
     white-space: nowrap;
     border: 0;
 }
+
+
+/****** footer *******/
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    background: transparent; /* Toto je ten liek na LSD - priehľadné pozadie */
+    border-top: none; /* Zrušíme aj čiaru, nech to len tak levituje v priestore */
+    color: #94a3b8;
+}
+
+.domain-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.domain-links a {
+    text-decoration: none;
+    color: #f1f5f9; 
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    opacity: 0.8;
+}
+
+.domain-links a:hover {
+    color: #ffd700; /* Zmenil som hover na zlatú, aby to ladilo s tou zlatou linkou a nadpisom nad tým */
+    opacity: 1;
+    text-decoration: none;
+}

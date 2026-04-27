@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "locale": "en",
+  "locale": "cs",
   "cards": [
     {
       "id": 0,
@@ -9,16 +9,16 @@
       "suit": null,
       "rank": null,
       "image_path": "0.png",
-      "name": "The Fool",
+      "name": "Blázen",
       "keywords": [
-        "beginnings",
-        "innocence",
-        "leap_of_faith"
+        "počátky",
+        "nevinnost",
+        "skok_víry"
       ],
-      "meaning_upright": "New beginnings, spontaneity, and trusting the journey.",
-      "meaning_reversed": "Recklessness, naivety, or hesitation to start.",
-      "archetype": "The Seeker",
-      "description": "A step into the unknown with openness and curiosity."
+      "meaning_upright": "Nové začátky, spontánnost a důvěra v cestu.",
+      "meaning_reversed": "Bezohlednost, naivita nebo váhání začít.",
+      "archetype": "Hledač",
+      "description": "Krok do neznáma s otevřeností a zvědavostí."
     },
     {
       "id": 1,
@@ -27,16 +27,16 @@
       "suit": null,
       "rank": null,
       "image_path": "1.png",
-      "name": "The Magician",
+      "name": "Mág",
       "keywords": [
-        "will",
-        "skill",
-        "manifestation"
+        "vůle",
+        "dovednost",
+        "manifestace"
       ],
-      "meaning_upright": "Focused intent, skillful action, and making things happen.",
-      "meaning_reversed": "Scattered energy, manipulation, or untapped potential.",
-      "archetype": "The Creator",
-      "description": "Aligning tools, will, and attention to create change."
+      "meaning_upright": "Soustředěný záměr, dovedné jednání a uskutečnění věcí.",
+      "meaning_reversed": "Rozptýlená energie, manipulace nebo nevyužitý potenciál.",
+      "archetype": "Tvůrce",
+      "description": "Slaďování nástrojů, vůle a pozornosti k vytvoření změny."
     },
     {
       "id": 2,
@@ -45,16 +45,16 @@
       "suit": null,
       "rank": null,
       "image_path": "2.png",
-      "name": "The High Priestess",
+      "name": "Velekněžka",
       "keywords": [
-        "intuition",
-        "mystery",
-        "inner_voice"
+        "intuice",
+        "tajemství",
+        "vnitřní_hlas"
       ],
-      "meaning_upright": "Intuition, inner knowing, and hidden truths.",
-      "meaning_reversed": "Ignoring intuition, confusion, or secrets kept too long.",
-      "archetype": "The Mystic",
-      "description": "A quiet invitation to listen beneath the surface."
+      "meaning_upright": "Intuice, vnitřní vědomí a skryté pravdy.",
+      "meaning_reversed": "Ignorování intuice, zmatek nebo příliš dlouho držená tajemství.",
+      "archetype": "Mystik",
+      "description": "Tiché pozvání k naslouchání pod povrchem."
     },
     {
       "id": 3,
@@ -63,16 +63,16 @@
       "suit": null,
       "rank": null,
       "image_path": "3.png",
-      "name": "The Empress",
+      "name": "Císařovna",
       "keywords": [
-        "nurture",
-        "abundance",
-        "growth"
+        "péče",
+        "hojnost",
+        "růst"
       ],
-      "meaning_upright": "Nurturing growth, creativity, and abundance.",
-      "meaning_reversed": "Creative block, neglect, or over-dependence.",
-      "archetype": "The Mother",
-      "description": "Care, beauty, and the power of cultivation."
+      "meaning_upright": "Péče o růst, kreativitu a hojnost.",
+      "meaning_reversed": "Kreativní blok, zanedbání nebo přílišná závislost.",
+      "archetype": "Matka",
+      "description": "Péče, krása a síla pěstování."
     },
     {
       "id": 4,
@@ -81,16 +81,16 @@
       "suit": null,
       "rank": null,
       "image_path": "4.png",
-      "name": "The Emperor",
+      "name": "Císař",
       "keywords": [
-        "structure",
-        "authority",
-        "stability"
+        "struktura",
+        "autorita",
+        "stabilita"
       ],
-      "meaning_upright": "Structure, leadership, and stable foundations.",
-      "meaning_reversed": "Rigidity, control issues, or instability in authority.",
-      "archetype": "The Ruler",
-      "description": "Order and protection through clear boundaries."
+      "meaning_upright": "Struktura, vedení a stabilní základy.",
+      "meaning_reversed": "Rigidita, problémy s kontrolou nebo nestabilita autority.",
+      "archetype": "Vládce",
+      "description": "Pořádek a ochrana skrze jasné hranice."
     },
     {
       "id": 5,
@@ -99,16 +99,16 @@
       "suit": null,
       "rank": null,
       "image_path": "5.png",
-      "name": "The Hierophant",
+      "name": "Velekněz",
       "keywords": [
-        "tradition",
-        "teaching",
-        "beliefs"
+        "tradice",
+        "učení",
+        "víra"
       ],
-      "meaning_upright": "Tradition, mentorship, and shared values.",
-      "meaning_reversed": "Rebellion, dogma, or questioning old rules.",
-      "archetype": "The Teacher",
-      "description": "Learning within a lineage of meaning and practice."
+      "meaning_upright": "Tradice, mentorství a sdílené hodnoty.",
+      "meaning_reversed": "Rebelie, dogmatismus nebo zpochybňování starých pravidel.",
+      "archetype": "Učitel",
+      "description": "Učení v rámci posloupnosti smyslu a praxe."
     },
     {
       "id": 6,
@@ -117,16 +117,16 @@
       "suit": null,
       "rank": null,
       "image_path": "6.png",
-      "name": "The Lovers",
+      "name": "Milenci",
       "keywords": [
-        "choice",
-        "union",
-        "values_alignment"
+        "volba",
+        "unie",
+        "sladění_hodnot"
       ],
-      "meaning_upright": "Union, meaningful choice, and value alignment.",
-      "meaning_reversed": "Disharmony, misalignment, or fear of commitment.",
-      "archetype": "The Beloved",
-      "description": "Choosing with the heart and living your values."
+      "meaning_upright": "Unie, smysluplná volba a sladění hodnot.",
+      "meaning_reversed": "Nesoulad, nesoulad nebo strach ze závazku.",
+      "archetype": "Milovaný",
+      "description": "Výběr srdcem a život podle svých hodnot."
     },
     {
       "id": 7,
@@ -135,16 +135,16 @@
       "suit": null,
       "rank": null,
       "image_path": "7.png",
-      "name": "The Chariot",
+      "name": "Vůz",
       "keywords": [
-        "drive",
-        "victory",
-        "self_control"
+        "pohon",
+        "vítězství",
+        "sebekontrola"
       ],
-      "meaning_upright": "Determination, momentum, and disciplined progress.",
-      "meaning_reversed": "Lack of direction, conflicting forces, or burnout.",
-      "archetype": "The Victor",
-      "description": "Harnessing opposing energies to move forward."
+      "meaning_upright": "Odhodlání, hybnost a disciplinovaný pokrok.",
+      "meaning_reversed": "Nedostatek směru, protichůdné síly nebo vyhoření.",
+      "archetype": "Vítěz",
+      "description": "Ovládání protichůdných energií k postupu vpřed."
     },
     {
       "id": 8,
@@ -153,16 +153,16 @@
       "suit": null,
       "rank": null,
       "image_path": "8.png",
-      "name": "Strength",
+      "name": "Síla",
       "keywords": [
-        "courage",
-        "patience",
-        "inner_power"
+        "odvaha",
+        "trpělivost",
+        "vnitřní_síla"
       ],
-      "meaning_upright": "Courage, patience, and gentle inner power.",
-      "meaning_reversed": "Self-doubt, impatience, or force over finesse.",
-      "archetype": "The Heart",
-      "description": "Taming fear through compassion and steadiness."
+      "meaning_upright": "Odvaha, trpělivost a jemná vnitřní síla.",
+      "meaning_reversed": "Sebepochybnosti, netrpělivost nebo síla nad obratností.",
+      "archetype": "Srdce",
+      "description": "Krocení strachu skrze soucit a vyrovnanost."
     },
     {
       "id": 9,
@@ -171,16 +171,16 @@
       "suit": null,
       "rank": null,
       "image_path": "9.png",
-      "name": "The Hermit",
+      "name": "Poustevník",
       "keywords": [
-        "solitude",
-        "wisdom",
-        "guidance"
+        "samota",
+        "moudrost",
+        "vedení"
       ],
-      "meaning_upright": "Solitude, insight, and inner guidance.",
-      "meaning_reversed": "Isolation, avoidance, or refusing help.",
-      "archetype": "The Sage",
-      "description": "Stepping back to see clearly."
+      "meaning_upright": "Samota, vhled a vnitřní vedení.",
+      "meaning_reversed": "Izolace, vyhýbání se nebo odmítání pomoci.",
+      "archetype": "Mudrc",
+      "description": "Odstup, abych viděl jasně."
     },
     {
       "id": 10,
@@ -189,16 +189,16 @@
       "suit": null,
       "rank": null,
       "image_path": "10.png",
-      "name": "Wheel of Fortune",
+      "name": "Kolo štěstěny",
       "keywords": [
-        "cycles",
-        "change",
-        "destiny"
+        "cykly",
+        "změna",
+        "osud"
       ],
-      "meaning_upright": "Turning points, cycles, and shifts in luck.",
-      "meaning_reversed": "Resistance to change, delays, or repeating patterns.",
-      "archetype": "The Wheel",
-      "description": "Life moves—adapt and meet the moment."
+      "meaning_upright": "Zlomové body, cykly a posuny štěstí.",
+      "meaning_reversed": "Odpor ke změnám, zpoždění nebo opakující se vzorce.",
+      "archetype": "Kolo",
+      "description": "Život plyne – přizpůsob se a přijmi okamžik."
     },
     {
       "id": 11,
@@ -207,16 +207,16 @@
       "suit": null,
       "rank": null,
       "image_path": "11.png",
-      "name": "Justice",
+      "name": "Spravedlnost",
       "keywords": [
-        "truth",
-        "fairness",
-        "accountability"
+        "pravda",
+        "férovost",
+        "odpovědnost"
       ],
-      "meaning_upright": "Truth, fairness, and responsible choices.",
-      "meaning_reversed": "Bias, denial, or avoiding consequences.",
-      "archetype": "The Judge",
-      "description": "Seeing clearly and acting with integrity."
+      "meaning_upright": "Pravda, férovost a zodpovědné volby.",
+      "meaning_reversed": "Předsudky, popírání nebo vyhýbání se následkům.",
+      "archetype": "Soudce",
+      "description": "Vidět jasně a jednat s integritou."
     },
     {
       "id": 12,
@@ -225,16 +225,16 @@
       "suit": null,
       "rank": null,
       "image_path": "12.png",
-      "name": "The Hanged Man",
+      "name": "Oběšenec",
       "keywords": [
-        "pause",
-        "new_perspective",
-        "surrender"
+        "pauza",
+        "nová_perspektiva",
+        "odevzdání"
       ],
-      "meaning_upright": "Pause, surrender, and a fresh perspective.",
-      "meaning_reversed": "Stalling, stubbornness, or fear of letting go.",
-      "archetype": "The Initiate",
-      "description": "The gift of seeing differently."
+      "meaning_upright": "Pauza, odevzdání a nový pohled.",
+      "meaning_reversed": "Zdržování, tvrdohlavost nebo strach pustit.",
+      "archetype": "Zasvěcenec",
+      "description": "Dar vidět jinak."
     },
     {
       "id": 13,
@@ -243,16 +243,16 @@
       "suit": null,
       "rank": null,
       "image_path": "13.png",
-      "name": "Death",
+      "name": "Smrt",
       "keywords": [
-        "endings",
-        "transformation",
-        "release"
+        "konce",
+        "transformace",
+        "uvolnění"
       ],
-      "meaning_upright": "Endings that make room for transformation.",
-      "meaning_reversed": "Clinging, fear of change, or prolonged transition.",
-      "archetype": "The Transformer",
-      "description": "Release what is done; renew what remains."
+      "meaning_upright": "Konce, které uvolňují místo pro transformaci.",
+      "meaning_reversed": "Držení se, strach ze změny nebo protahující se přechod.",
+      "archetype": "Transformátor",
+      "description": "Uvolni to, co je hotovo; obnov to, co zůstává."
     },
     {
       "id": 14,
@@ -261,16 +261,16 @@
       "suit": null,
       "rank": null,
       "image_path": "14.png",
-      "name": "Temperance",
+      "name": "Mírnost",
       "keywords": [
-        "balance",
-        "healing",
-        "moderation"
+        "rovnováha",
+        "léčení",
+        "umírněnost"
       ],
-      "meaning_upright": "Balance, healing, and measured integration.",
-      "meaning_reversed": "Excess, imbalance, or lack of harmony.",
-      "archetype": "The Alchemist",
-      "description": "Blend extremes into something whole."
+      "meaning_upright": "Rovnováha, léčení a měřená integrace.",
+      "meaning_reversed": "Přebytek, nerovnováha nebo nedostatek harmonie.",
+      "archetype": "Alchymista",
+      "description": "Smíchej extrémy do něčeho celistvého."
     },
     {
       "id": 15,
@@ -279,16 +279,16 @@
       "suit": null,
       "rank": null,
       "image_path": "15.png",
-      "name": "The Devil",
+      "name": "Ďábel",
       "keywords": [
-        "attachment",
-        "shadow",
-        "temptation"
+        "připoutanost",
+        "stín",
+        "pokušení"
       ],
-      "meaning_upright": "Attachments, temptation, and confronting the shadow.",
-      "meaning_reversed": "Breaking free, reclaiming power, or denial of issues.",
-      "archetype": "The Shadow",
-      "description": "See the chain to loosen it."
+      "meaning_upright": "Připoutanost, pokušení a konfrontace se stínem.",
+      "meaning_reversed": "Osvobození se, znovuzískání moci nebo popírání problémů.",
+      "archetype": "Stín",
+      "description": "Vidíš řetěz, abys ho mohl povolit."
     },
     {
       "id": 16,
@@ -297,16 +297,16 @@
       "suit": null,
       "rank": null,
       "image_path": "16.png",
-      "name": "The Tower",
+      "name": "Věž",
       "keywords": [
-        "revelation",
-        "upheaval",
+        "odhalení",
+        "otřes",
         "reset"
       ],
-      "meaning_upright": "Upheaval, revelation, and clearing false structures.",
-      "meaning_reversed": "Avoiding the inevitable, prolonged disruption, or fear.",
-      "archetype": "The Lightning",
-      "description": "Truth strikes—rebuild on what is real."
+      "meaning_upright": "Otřes, odhalení a čištění falešných struktur.",
+      "meaning_reversed": "Vyhýbání se nevyhnutelnému, prodloužené narušení nebo strach.",
+      "archetype": "Blesk",
+      "description": "Pravda udeří – přestavuj na tom, co je skutečné."
     },
     {
       "id": 17,
@@ -315,16 +315,16 @@
       "suit": null,
       "rank": null,
       "image_path": "17.png",
-      "name": "The Star",
+      "name": "Hvězda",
       "keywords": [
-        "hope",
-        "renewal",
-        "guidance"
+        "naděje",
+        "obnova",
+        "vedení"
       ],
-      "meaning_upright": "Hope, renewal, and a guiding light ahead.",
-      "meaning_reversed": "Discouragement, doubt, or dimmed optimism.",
-      "archetype": "The Guide",
-      "description": "A quiet yes from the future."
+      "meaning_upright": "Naděje, obnova a vodící světlo vpředu.",
+      "meaning_reversed": "Odvaha, pochybnosti nebo utlumený optimismus.",
+      "archetype": "Průvodce",
+      "description": "Tiché ano z budoucnosti."
     },
     {
       "id": 18,
@@ -333,16 +333,16 @@
       "suit": null,
       "rank": null,
       "image_path": "18.png",
-      "name": "The Moon",
+      "name": "Měsíc",
       "keywords": [
-        "illusion",
-        "intuition",
-        "uncertainty"
+        "iluze",
+        "intuice",
+        "nejistota"
       ],
-      "meaning_upright": "Uncertainty, intuition, and navigating the unknown.",
-      "meaning_reversed": "Clarity emerging, fear easing, or self-deception exposed.",
-      "archetype": "The Dream",
-      "description": "Not everything is clear—move by inner light."
+      "meaning_upright": "Nejistota, intuice a navigace v neznámu.",
+      "meaning_reversed": "Vynikající jasnost, mizící strach nebo odhalené sebepřekrucování.",
+      "archetype": "Sen",
+      "description": "Ne vše je jasné – pohybuj se vnitřním světlem."
     },
     {
       "id": 19,
@@ -351,16 +351,16 @@
       "suit": null,
       "rank": null,
       "image_path": "19.png",
-      "name": "The Sun",
+      "name": "Slunce",
       "keywords": [
-        "joy",
-        "success",
-        "vitality"
+        "radost",
+        "úspěch",
+        "vitalita"
       ],
-      "meaning_upright": "Joy, vitality, and confident success.",
-      "meaning_reversed": "Temporary setbacks, pessimism, or muted confidence.",
-      "archetype": "The Light",
-      "description": "Warmth, visibility, and truth in daylight."
+      "meaning_upright": "Radost, vitalita a sebevědomý úspěch.",
+      "meaning_reversed": "Dočasné nezdary, pesimismus nebo utlumená sebedůvěra.",
+      "archetype": "Světlo",
+      "description": "Teplo, viditelnost a pravda za denního světla."
     },
     {
       "id": 20,
@@ -369,16 +369,16 @@
       "suit": null,
       "rank": null,
       "image_path": "20.png",
-      "name": "Judgement",
+      "name": "Soud",
       "keywords": [
-        "awakening",
-        "review",
-        "calling"
+        "probuzení",
+        "revize",
+        "volání"
       ],
-      "meaning_upright": "Awakening, review, and answering a calling.",
-      "meaning_reversed": "Self-doubt, harsh judgment, or avoiding a decision.",
-      "archetype": "The Call",
-      "description": "Choose your next chapter with honesty."
+      "meaning_upright": "Probuzení, revize a odpověď na volání.",
+      "meaning_reversed": "Sebepochybnosti, tvrdý soud nebo vyhýbání se rozhodnutí.",
+      "archetype": "Volání",
+      "description": "S upřímností si vyber svou další kapitolu."
     },
     {
       "id": 21,
@@ -387,16 +387,16 @@
       "suit": null,
       "rank": null,
       "image_path": "21.png",
-      "name": "The World",
+      "name": "Svět",
       "keywords": [
-        "completion",
-        "integration",
-        "mastery"
+        "dokončení",
+        "integrace",
+        "mistrovství"
       ],
-      "meaning_upright": "Completion, integration, and a sense of wholeness.",
-      "meaning_reversed": "Loose ends, delay, or incomplete closure.",
-      "archetype": "The Whole",
-      "description": "You arrive, and a new cycle begins."
+      "meaning_upright": "Dokončení, integrace a pocit celistvosti.",
+      "meaning_reversed": "Volné konce, zpoždění nebo neúplné uzavření.",
+      "archetype": "Celek",
+      "description": "Přijdeš a začne nový cyklus."
     },
     {
       "id": 22,
@@ -405,14 +405,14 @@
       "suit": "wands",
       "rank": "ace",
       "image_path": "22.png",
-      "name": "Ace of Wands",
+      "name": "Eso holí",
       "keywords": [
-        "spark",
-        "inspiration",
-        "initiative"
+        "jiskra",
+        "inspirace",
+        "iniciativa"
       ],
-      "meaning_upright": "A new spark of inspiration and the urge to begin.",
-      "meaning_reversed": "Delays, lack of motivation, or a spark that fizzles.",
+      "meaning_upright": "Nová jiskra inspirace a nutkání začít.",
+      "meaning_reversed": "Zpoždění, nedostatek motivace nebo uhasínající jiskra.",
       "archetype": null,
       "description": null
     },
@@ -423,14 +423,14 @@
       "suit": "wands",
       "rank": "two",
       "image_path": "23.png",
-      "name": "Two of Wands",
+      "name": "Dvě hole",
       "keywords": [
-        "planning",
-        "options",
-        "vision"
+        "plánování",
+        "možnosti",
+        "vize"
       ],
-      "meaning_upright": "Planning the next step and widening your horizon.",
-      "meaning_reversed": "Fear of the unknown or playing it too safe.",
+      "meaning_upright": "Plánování dalšího kroku a rozšiřování obzorů.",
+      "meaning_reversed": "Strach z neznáma nebo přílišná opatrnost.",
       "archetype": null,
       "description": null
     },
@@ -441,14 +441,14 @@
       "suit": "wands",
       "rank": "three",
       "image_path": "24.png",
-      "name": "Three of Wands",
+      "name": "Tři hole",
       "keywords": [
-        "expansion",
-        "progress",
-        "momentum"
+        "expanze",
+        "pokrok",
+        "hybnost"
       ],
-      "meaning_upright": "Expansion, progress, and results beginning to show.",
-      "meaning_reversed": "Delays, setbacks, or lack of follow-through.",
+      "meaning_upright": "Expanze, pokrok a začínající výsledky.",
+      "meaning_reversed": "Zpoždění, nezdary nebo nedostatek následného jednání.",
       "archetype": null,
       "description": null
     },
@@ -459,14 +459,14 @@
       "suit": "wands",
       "rank": "four",
       "image_path": "25.png",
-      "name": "Four of Wands",
+      "name": "Čtyři hole",
       "keywords": [
-        "celebration",
-        "home",
-        "milestone"
+        "oslava",
+        "domov",
+        "milník"
       ],
-      "meaning_upright": "Celebration, stability, and a joyful milestone.",
-      "meaning_reversed": "Tension at home or a celebration that feels off.",
+      "meaning_upright": "Oslava, stabilita a radostný milník.",
+      "meaning_reversed": "Napětí doma nebo oslava, která se zdá nesprávná.",
       "archetype": null,
       "description": null
     },
@@ -477,14 +477,14 @@
       "suit": "wands",
       "rank": "five",
       "image_path": "26.png",
-      "name": "Five of Wands",
+      "name": "Pět holí",
       "keywords": [
-        "competition",
-        "friction",
-        "testing"
+        "soutěž",
+        "tření",
+        "zkouška"
       ],
-      "meaning_upright": "Competition, friction, and learning through challenge.",
-      "meaning_reversed": "Avoiding conflict or arguments that go nowhere.",
+      "meaning_upright": "Soutěž, tření a učení skrze výzvu.",
+      "meaning_reversed": "Vyhýbání se konfliktu nebo hádky, které nikam nevedou.",
       "archetype": null,
       "description": null
     },
@@ -495,14 +495,14 @@
       "suit": "wands",
       "rank": "six",
       "image_path": "27.png",
-      "name": "Six of Wands",
+      "name": "Šest holí",
       "keywords": [
-        "recognition",
-        "success",
-        "confidence"
+        "uznání",
+        "úspěch",
+        "sebedůvěra"
       ],
-      "meaning_upright": "Recognition, success, and earned confidence.",
-      "meaning_reversed": "Ego, insecurity, or success not acknowledged.",
+      "meaning_upright": "Uznání, úspěch a zasloužená sebedůvěra.",
+      "meaning_reversed": "Ego, nejistota nebo neuznaný úspěch.",
       "archetype": null,
       "description": null
     },
@@ -513,14 +513,14 @@
       "suit": "wands",
       "rank": "seven",
       "image_path": "28.png",
-      "name": "Seven of Wands",
+      "name": "Sedm holí",
       "keywords": [
-        "defense",
-        "courage",
-        "boundaries"
+        "obrana",
+        "odvaha",
+        "hranice"
       ],
-      "meaning_upright": "Standing your ground and protecting your position.",
-      "meaning_reversed": "Giving up too soon or feeling overwhelmed.",
+      "meaning_upright": "Stání si za svým a ochrana své pozice.",
+      "meaning_reversed": "Předčasné vzdání se nebo pocit přehlcení.",
       "archetype": null,
       "description": null
     },
@@ -531,14 +531,14 @@
       "suit": "wands",
       "rank": "eight",
       "image_path": "29.png",
-      "name": "Eight of Wands",
+      "name": "Osm holí",
       "keywords": [
-        "speed",
-        "movement",
-        "messages"
+        "rychlost",
+        "pohyb",
+        "zprávy"
       ],
-      "meaning_upright": "Speed, movement, and swift developments.",
-      "meaning_reversed": "Delays, miscommunication, or scattered effort.",
+      "meaning_upright": "Rychlost, pohyb a rychlý vývoj.",
+      "meaning_reversed": "Zpoždění, nedorozumění nebo rozptýlené úsilí.",
       "archetype": null,
       "description": null
     },
@@ -549,14 +549,14 @@
       "suit": "wands",
       "rank": "nine",
       "image_path": "30.png",
-      "name": "Nine of Wands",
+      "name": "Devět holí",
       "keywords": [
-        "resilience",
-        "persistence",
-        "guarded"
+        "odolnost",
+        "vytrvalost",
+        "ostražitost"
       ],
-      "meaning_upright": "Resilience and persistence despite fatigue.",
-      "meaning_reversed": "Burnout, defensiveness, or refusing support.",
+      "meaning_upright": "Odolnost a vytrvalost navzdory únavě.",
+      "meaning_reversed": "Vyhoření, defenzivita nebo odmítání podpory.",
       "archetype": null,
       "description": null
     },
@@ -567,14 +567,14 @@
       "suit": "wands",
       "rank": "ten",
       "image_path": "31.png",
-      "name": "Ten of Wands",
+      "name": "Deset holí",
       "keywords": [
-        "burden",
-        "responsibility",
-        "pressure"
+        "břemeno",
+        "odpovědnost",
+        "tlak"
       ],
-      "meaning_upright": "Heavy responsibility and carrying too much.",
-      "meaning_reversed": "Delegating, release, or collapse under pressure.",
+      "meaning_upright": "Těžká odpovědnost a nesení příliš mnoho.",
+      "meaning_reversed": "Delegování, uvolnění nebo zhroucení pod tlakem.",
       "archetype": null,
       "description": null
     },
@@ -585,14 +585,14 @@
       "suit": "wands",
       "rank": "page",
       "image_path": "32.png",
-      "name": "Page of Wands",
+      "name": "Páž holí",
       "keywords": [
-        "curiosity",
-        "exploration",
-        "news"
+        "zvědavost",
+        "průzkum",
+        "novinky"
       ],
-      "meaning_upright": "Curiosity, exploration, and exciting news.",
-      "meaning_reversed": "Impulsiveness, delays, or lack of direction.",
+      "meaning_upright": "Zvědavost, průzkum a vzrušující novinky.",
+      "meaning_reversed": "Impulzivnost, zpoždění nebo nedostatek směru.",
       "archetype": null,
       "description": null
     },
@@ -603,14 +603,14 @@
       "suit": "wands",
       "rank": "knight",
       "image_path": "33.png",
-      "name": "Knight of Wands",
+      "name": "Rytíř holí",
       "keywords": [
-        "adventure",
-        "boldness",
-        "movement"
+        "dobrodružství",
+        "smělost",
+        "pohyb"
       ],
-      "meaning_upright": "Bold action, adventure, and forward movement.",
-      "meaning_reversed": "Recklessness, impatience, or inconsistency.",
+      "meaning_upright": "Smělé jednání, dobrodružství a postup vpřed.",
+      "meaning_reversed": "Bezohlednost, netrpělivost nebo nekonzistence.",
       "archetype": null,
       "description": null
     },
@@ -621,14 +621,14 @@
       "suit": "wands",
       "rank": "queen",
       "image_path": "34.png",
-      "name": "Queen of Wands",
+      "name": "Královna holí",
       "keywords": [
-        "confidence",
-        "warmth",
-        "leadership"
+        "sebedůvěra",
+        "vřelost",
+        "vedení"
       ],
-      "meaning_upright": "Confidence, warmth, and inspiring leadership.",
-      "meaning_reversed": "Insecurity, jealousy, or demanding attention.",
+      "meaning_upright": "Sebevědomí, vřelost a inspirující vedení.",
+      "meaning_reversed": "Nejistota, žárlivost nebo vyžadování pozornosti.",
       "archetype": null,
       "description": null
     },
@@ -639,14 +639,14 @@
       "suit": "wands",
       "rank": "king",
       "image_path": "35.png",
-      "name": "King of Wands",
+      "name": "Král holí",
       "keywords": [
-        "vision",
-        "mastery",
-        "courage"
+        "vize",
+        "mistrovství",
+        "odvaha"
       ],
-      "meaning_upright": "Visionary leadership and creative mastery.",
-      "meaning_reversed": "Impulsiveness, arrogance, or domineering energy.",
+      "meaning_upright": "Vizionářské vedení a kreativní mistrovství.",
+      "meaning_reversed": "Impulzivnost, arogance nebo panovačná energie.",
       "archetype": null,
       "description": null
     },
@@ -657,14 +657,14 @@
       "suit": "cups",
       "rank": "ace",
       "image_path": "36.png",
-      "name": "Ace of Cups",
+      "name": "Eso pohárů",
       "keywords": [
-        "love",
-        "openness",
-        "renewal"
+        "láska",
+        "otevřenost",
+        "obnova"
       ],
-      "meaning_upright": "Emotional renewal, love, and an open heart.",
-      "meaning_reversed": "Blocked feelings or difficulty receiving love.",
+      "meaning_upright": "Emoční obnova, láska a otevřené srdce.",
+      "meaning_reversed": "Blokované pocity nebo obtížnost přijímat lásku.",
       "archetype": null,
       "description": null
     },
@@ -675,14 +675,14 @@
       "suit": "cups",
       "rank": "two",
       "image_path": "37.png",
-      "name": "Two of Cups",
+      "name": "Dva poháry",
       "keywords": [
-        "connection",
-        "partnership",
-        "union"
+        "spojení",
+        "partnerství",
+        "unie"
       ],
-      "meaning_upright": "Connection, partnership, and mutual exchange.",
-      "meaning_reversed": "Imbalance, miscommunication, or tension in bonds.",
+      "meaning_upright": "Spojení, partnerství a vzájemná výměna.",
+      "meaning_reversed": "Nerovnováha, nedorozumění nebo napětí ve vztazích.",
       "archetype": null,
       "description": null
     },
@@ -693,14 +693,14 @@
       "suit": "cups",
       "rank": "three",
       "image_path": "38.png",
-      "name": "Three of Cups",
+      "name": "Tři poháry",
       "keywords": [
-        "friendship",
-        "celebration",
-        "support"
+        "přátelství",
+        "oslava",
+        "podpora"
       ],
-      "meaning_upright": "Friendship, celebration, and shared support.",
-      "meaning_reversed": "Overindulgence or social drama.",
+      "meaning_upright": "Přátelství, oslava a sdílená podpora.",
+      "meaning_reversed": "Nadměrné hodování nebo sociální drama.",
       "archetype": null,
       "description": null
     },
@@ -711,14 +711,14 @@
       "suit": "cups",
       "rank": "four",
       "image_path": "39.png",
-      "name": "Four of Cups",
+      "name": "Čtyři poháry",
       "keywords": [
-        "apathy",
-        "reflection",
-        "reevaluate"
+        "apatie",
+        "reflexe",
+        "přehodnotit"
       ],
-      "meaning_upright": "Apathy, reflection, and reevaluating options.",
-      "meaning_reversed": "New interest, re-engagement, or a fresh offer.",
+      "meaning_upright": "Apatie, reflexe a přehodnocování možností.",
+      "meaning_reversed": "Nový zájem, opětovné zapojení nebo nová nabídka.",
       "archetype": null,
       "description": null
     },
@@ -729,14 +729,14 @@
       "suit": "cups",
       "rank": "five",
       "image_path": "40.png",
-      "name": "Five of Cups",
+      "name": "Pět pohárů",
       "keywords": [
-        "loss",
-        "grief",
-        "regret"
+        "ztráta",
+        "žal",
+        "lítost"
       ],
-      "meaning_upright": "Loss, grief, and focusing on what went wrong.",
-      "meaning_reversed": "Acceptance, healing, and seeing what remains.",
+      "meaning_upright": "Ztráta, žal a zaměření na to, co se pokazilo.",
+      "meaning_reversed": "Přijetí, léčení a pohled na to, co zůstává.",
       "archetype": null,
       "description": null
     },
@@ -747,14 +747,14 @@
       "suit": "cups",
       "rank": "six",
       "image_path": "41.png",
-      "name": "Six of Cups",
+      "name": "Šest pohárů",
       "keywords": [
-        "nostalgia",
-        "innocence",
-        "memories"
+        "nostalgie",
+        "nevinnost",
+        "vzpomínky"
       ],
-      "meaning_upright": "Nostalgia, kindness, and gentle memories.",
-      "meaning_reversed": "Being stuck in the past or idealizing.",
+      "meaning_upright": "Nostalgie, laskavost a jemné vzpomínky.",
+      "meaning_reversed": "Uvíznutí v minulosti nebo idealizování.",
       "archetype": null,
       "description": null
     },
@@ -765,14 +765,14 @@
       "suit": "cups",
       "rank": "seven",
       "image_path": "42.png",
-      "name": "Seven of Cups",
+      "name": "Sedm pohárů",
       "keywords": [
-        "choices",
-        "fantasy",
-        "illusion"
+        "volby",
+        "fantazie",
+        "iluze"
       ],
-      "meaning_upright": "Many choices, fantasies, and unclear priorities.",
-      "meaning_reversed": "Clarity, decision, and focus returning.",
+      "meaning_upright": "Mnoho voleb, fantazie a nejasné priority.",
+      "meaning_reversed": "Jasnost, rozhodnutí a návrat zaměření.",
       "archetype": null,
       "description": null
     },
@@ -783,14 +783,14 @@
       "suit": "cups",
       "rank": "eight",
       "image_path": "43.png",
-      "name": "Eight of Cups",
+      "name": "Osm pohárů",
       "keywords": [
-        "walking_away",
-        "search",
-        "transition"
+        "odcházení",
+        "hledání",
+        "přechod"
       ],
-      "meaning_upright": "Walking away to seek deeper meaning.",
-      "meaning_reversed": "Fear of change or returning after learning.",
+      "meaning_upright": "Odcházení k hledání hlubšího smyslu.",
+      "meaning_reversed": "Strach ze změny nebo návrat po poučení.",
       "archetype": null,
       "description": null
     },
@@ -801,14 +801,14 @@
       "suit": "cups",
       "rank": "nine",
       "image_path": "44.png",
-      "name": "Nine of Cups",
+      "name": "Devět pohárů",
       "keywords": [
-        "satisfaction",
-        "wish",
-        "contentment"
+        "spokojenost",
+        "přání",
+        "potěšení"
       ],
-      "meaning_upright": "Satisfaction, contentment, and a wish fulfilled.",
-      "meaning_reversed": "Overindulgence or dissatisfaction beneath comfort.",
+      "meaning_upright": "Spokojenost, potěšení a splněné přání.",
+      "meaning_reversed": "Nadměrné hodování nebo nespokojenost pod pohodlím.",
       "archetype": null,
       "description": null
     },
@@ -819,14 +819,14 @@
       "suit": "cups",
       "rank": "ten",
       "image_path": "45.png",
-      "name": "Ten of Cups",
+      "name": "Deset pohárů",
       "keywords": [
-        "harmony",
-        "family",
-        "joy"
+        "harmonie",
+        "rodina",
+        "radost"
       ],
-      "meaning_upright": "Harmony, joy, and emotional fulfillment.",
-      "meaning_reversed": "Misalignment at home or unrealistic expectations.",
+      "meaning_upright": "Harmonie, radost a emoční naplnění.",
+      "meaning_reversed": "Nesoulad doma nebo nerealistická očekávání.",
       "archetype": null,
       "description": null
     },
@@ -837,14 +837,14 @@
       "suit": "cups",
       "rank": "page",
       "image_path": "46.png",
-      "name": "Page of Cups",
+      "name": "Páž pohárů",
       "keywords": [
-        "messages",
-        "openness",
-        "surprise"
+        "zprávy",
+        "otevřenost",
+        "překvapení"
       ],
-      "meaning_upright": "A heartfelt message and open emotional curiosity.",
-      "meaning_reversed": "Emotional immaturity or mixed signals.",
+      "meaning_upright": "Srdečná zpráva a otevřená emoční zvědavost.",
+      "meaning_reversed": "Emoční nedospělost nebo smíšené signály.",
       "archetype": null,
       "description": null
     },
@@ -855,14 +855,14 @@
       "suit": "cups",
       "rank": "knight",
       "image_path": "47.png",
-      "name": "Knight of Cups",
+      "name": "Rytíř pohárů",
       "keywords": [
-        "romance",
-        "invitation",
-        "idealism"
+        "romantika",
+        "pozvání",
+        "idealismus"
       ],
-      "meaning_upright": "Romance, invitations, and following the heart.",
-      "meaning_reversed": "Moodiness, disappointment, or chasing illusions.",
+      "meaning_upright": "Romantika, pozvání a následování srdce.",
+      "meaning_reversed": "Náladovost, zklamání nebo honba za iluzemi.",
       "archetype": null,
       "description": null
     },
@@ -873,14 +873,14 @@
       "suit": "cups",
       "rank": "queen",
       "image_path": "48.png",
-      "name": "Queen of Cups",
+      "name": "Královna pohárů",
       "keywords": [
-        "empathy",
-        "intuition",
-        "care"
+        "empatie",
+        "intuice",
+        "péče"
       ],
-      "meaning_upright": "Empathy, intuition, and emotional care.",
-      "meaning_reversed": "Overwhelm, co-dependency, or poor boundaries.",
+      "meaning_upright": "Empatie, intuice a emoční péče.",
+      "meaning_reversed": "Přehlcení, spoluzávislost nebo špatné hranice.",
       "archetype": null,
       "description": null
     },
@@ -891,14 +891,14 @@
       "suit": "cups",
       "rank": "king",
       "image_path": "49.png",
-      "name": "King of Cups",
+      "name": "Král pohárů",
       "keywords": [
-        "calm",
-        "compassion",
-        "balance"
+        "klid",
+        "soucit",
+        "rovnováha"
       ],
-      "meaning_upright": "Calm compassion and emotional balance.",
-      "meaning_reversed": "Emotional manipulation or suppressed feelings.",
+      "meaning_upright": "Klidný soucit a emoční rovnováha.",
+      "meaning_reversed": "Emoční manipulace nebo potlačované pocity.",
       "archetype": null,
       "description": null
     },
@@ -909,14 +909,14 @@
       "suit": "swords",
       "rank": "ace",
       "image_path": "50.png",
-      "name": "Ace of Swords",
+      "name": "Eso mečů",
       "keywords": [
-        "clarity",
-        "truth",
-        "breakthrough"
+        "jasnost",
+        "pravda",
+        "průlom"
       ],
-      "meaning_upright": "Clarity, truth, and a mental breakthrough.",
-      "meaning_reversed": "Confusion, misinformation, or cloudy judgment.",
+      "meaning_upright": "Jasnost, pravda a mentální průlom.",
+      "meaning_reversed": "Zmatek, dezinformace nebo zamlžené úsudky.",
       "archetype": null,
       "description": null
     },
@@ -927,14 +927,14 @@
       "suit": "swords",
       "rank": "two",
       "image_path": "51.png",
-      "name": "Two of Swords",
+      "name": "Dva meče",
       "keywords": [
-        "stalemate",
-        "choice",
-        "avoidance"
+        "patová_situace",
+        "volba",
+        "vyhýbání_se"
       ],
-      "meaning_upright": "Stalemate, difficult choice, and guardedness.",
-      "meaning_reversed": "Indecision ends, truth revealed, or overload.",
+      "meaning_upright": "Patová situace, obtížná volba a ostražitost.",
+      "meaning_reversed": "Nedostatek rozhodnutí končí, pravda odhalena nebo přetížení.",
       "archetype": null,
       "description": null
     },
@@ -945,14 +945,14 @@
       "suit": "swords",
       "rank": "three",
       "image_path": "52.png",
-      "name": "Three of Swords",
+      "name": "Tři meče",
       "keywords": [
-        "heartbreak",
-        "sorrow",
-        "truth"
+        "zlomené_srdce",
+        "bolest",
+        "pravda"
       ],
-      "meaning_upright": "Heartbreak, sorrow, and hard truths.",
-      "meaning_reversed": "Healing, forgiveness, and moving on.",
+      "meaning_upright": "Zlomené srdce, bolest a tvrdé pravdy.",
+      "meaning_reversed": "Léčení, odpuštění a posun vpřed.",
       "archetype": null,
       "description": null
     },
@@ -963,14 +963,14 @@
       "suit": "swords",
       "rank": "four",
       "image_path": "53.png",
-      "name": "Four of Swords",
+      "name": "Čtyři meče",
       "keywords": [
-        "rest",
-        "recovery",
-        "pause"
+        "odpočinek",
+        "zotavení",
+        "pauza"
       ],
-      "meaning_upright": "Rest, recovery, and a necessary pause.",
-      "meaning_reversed": "Restlessness or returning too soon.",
+      "meaning_upright": "Odpočinek, zotavení a nutná pauza.",
+      "meaning_reversed": "Neklid nebo příliš brzký návrat.",
       "archetype": null,
       "description": null
     },
@@ -981,14 +981,14 @@
       "suit": "swords",
       "rank": "five",
       "image_path": "54.png",
-      "name": "Five of Swords",
+      "name": "Pět mečů",
       "keywords": [
-        "conflict",
+        "konflikt",
         "ego",
-        "win_at_all_costs"
+        "vyhrát_za_každou_cenu"
       ],
-      "meaning_upright": "Conflict, ego, and winning at a cost.",
-      "meaning_reversed": "Reconciliation or walking away from drama.",
+      "meaning_upright": "Konflikt, ego a vítězství za cenu.",
+      "meaning_reversed": "Smíření nebo odchod od dramatu.",
       "archetype": null,
       "description": null
     },
@@ -999,14 +999,14 @@
       "suit": "swords",
       "rank": "six",
       "image_path": "55.png",
-      "name": "Six of Swords",
+      "name": "Šest mečů",
       "keywords": [
-        "transition",
-        "healing",
-        "moving_on"
+        "přechod",
+        "léčení",
+        "posun_vpřed"
       ],
-      "meaning_upright": "Transition, healing, and moving toward calmer waters.",
-      "meaning_reversed": "Difficulty moving on or carrying old baggage.",
+      "meaning_upright": "Přechod, léčení a posun k klidnějším vodám.",
+      "meaning_reversed": "Obtížnost posunu vpřed nebo nesení starého břemene.",
       "archetype": null,
       "description": null
     },
@@ -1017,14 +1017,14 @@
       "suit": "swords",
       "rank": "seven",
       "image_path": "56.png",
-      "name": "Seven of Swords",
+      "name": "Sedm mečů",
       "keywords": [
-        "strategy",
-        "secrecy",
-        "avoidance"
+        "strategie",
+        "tajemství",
+        "vyhýbání_se"
       ],
-      "meaning_upright": "Strategy, secrecy, and acting indirectly.",
-      "meaning_reversed": "Confession, exposure, or changing tactics.",
+      "meaning_upright": "Strategie, tajemství a nepřímé jednání.",
+      "meaning_reversed": "Přiznání, odhalení nebo změna taktiky.",
       "archetype": null,
       "description": null
     },
@@ -1035,14 +1035,14 @@
       "suit": "swords",
       "rank": "eight",
       "image_path": "57.png",
-      "name": "Eight of Swords",
+      "name": "Osm mečů",
       "keywords": [
-        "restriction",
-        "fear",
-        "self_limiting"
+        "omezení",
+        "strach",
+        "sebelimitující"
       ],
-      "meaning_upright": "Feeling restricted by fear or self-limiting beliefs.",
-      "meaning_reversed": "Release, new perspective, and loosening bonds.",
+      "meaning_upright": "Pocit omezenosti strachem nebo sebepodceňujícími přesvědčeními.",
+      "meaning_reversed": "Uvolnění, nový pohled a povolení pout.",
       "archetype": null,
       "description": null
     },
@@ -1053,14 +1053,14 @@
       "suit": "swords",
       "rank": "nine",
       "image_path": "58.png",
-      "name": "Nine of Swords",
+      "name": "Devět mečů",
       "keywords": [
-        "anxiety",
-        "worry",
-        "sleeplessness"
+        "úzkost",
+        "starost",
+        "nespavost"
       ],
-      "meaning_upright": "Anxiety, worry, and sleepless nights.",
-      "meaning_reversed": "Relief, support, or confronting fears.",
+      "meaning_upright": "Úzkost, starost a bezesné noci.",
+      "meaning_reversed": "Úleva, podpora nebo konfrontace strachů.",
       "archetype": null,
       "description": null
     },
@@ -1071,14 +1071,14 @@
       "suit": "swords",
       "rank": "ten",
       "image_path": "59.png",
-      "name": "Ten of Swords",
+      "name": "Deset mečů",
       "keywords": [
-        "ending",
-        "betrayal",
-        "release"
+        "konec",
+        "zrada",
+        "uvolnění"
       ],
-      "meaning_upright": "An ending, painful truth, and release.",
-      "meaning_reversed": "Recovery, resilience, and rising again.",
+      "meaning_upright": "Konec, bolestná pravda a uvolnění.",
+      "meaning_reversed": "Zotavení, odolnost a opětovné povstání.",
       "archetype": null,
       "description": null
     },
@@ -1089,14 +1089,14 @@
       "suit": "swords",
       "rank": "page",
       "image_path": "60.png",
-      "name": "Page of Swords",
+      "name": "Páž mečů",
       "keywords": [
-        "curiosity",
-        "truth_seeking",
-        "alertness"
+        "zvědavost",
+        "hledání_pravdy",
+        "ostražitost"
       ],
-      "meaning_upright": "Curiosity, truth-seeking, and mental alertness.",
-      "meaning_reversed": "Gossip, haste, or jumping to conclusions.",
+      "meaning_upright": "Zvědavost, hledání pravdy a mentální ostražitost.",
+      "meaning_reversed": "Pomluvy, ukvapenost nebo skákání k závěrům.",
       "archetype": null,
       "description": null
     },
@@ -1107,14 +1107,14 @@
       "suit": "swords",
       "rank": "knight",
       "image_path": "61.png",
-      "name": "Knight of Swords",
+      "name": "Rytíř mečů",
       "keywords": [
-        "directness",
-        "speed",
-        "drive"
+        "přímkost",
+        "rychlost",
+        "pohon"
       ],
-      "meaning_upright": "Direct action, speed, and decisive thinking.",
-      "meaning_reversed": "Impulsiveness, harshness, or rushing blindly.",
+      "meaning_upright": "Přímé jednání, rychlost a rozhodné myšlení.",
+      "meaning_reversed": "Impulzivnost, drsnost nebo slepé spěchání.",
       "archetype": null,
       "description": null
     },
@@ -1125,14 +1125,14 @@
       "suit": "swords",
       "rank": "queen",
       "image_path": "62.png",
-      "name": "Queen of Swords",
+      "name": "Královna mečů",
       "keywords": [
-        "discernment",
-        "independence",
-        "clarity"
+        "rozlišování",
+        "nezávislost",
+        "jasnost"
       ],
-      "meaning_upright": "Discernment, independence, and clear boundaries.",
-      "meaning_reversed": "Coldness, bitterness, or cutting words.",
+      "meaning_upright": "Rozlišování, nezávislost a jasné hranice.",
+      "meaning_reversed": "Chlad, hořkost nebo uštěpačné slova.",
       "archetype": null,
       "description": null
     },
@@ -1143,14 +1143,14 @@
       "suit": "swords",
       "rank": "king",
       "image_path": "63.png",
-      "name": "King of Swords",
+      "name": "Král mečů",
       "keywords": [
-        "logic",
-        "authority",
-        "truth"
+        "logika",
+        "autorita",
+        "pravda"
       ],
-      "meaning_upright": "Logic, authority, and principled truth.",
-      "meaning_reversed": "Abuse of power or rigid, unfair judgment.",
+      "meaning_upright": "Logika, autorita a principová pravda.",
+      "meaning_reversed": "Zneužití moci nebo rigidní, nespravedlivý soud.",
       "archetype": null,
       "description": null
     },
@@ -1161,14 +1161,14 @@
       "suit": "pentacles",
       "rank": "ace",
       "image_path": "64.png",
-      "name": "Ace of Pentacles",
+      "name": "Eso pentaklů",
       "keywords": [
-        "opportunity",
-        "growth",
-        "resources"
+        "příležitost",
+        "růst",
+        "zdroje"
       ],
-      "meaning_upright": "A tangible opportunity and seed of prosperity.",
-      "meaning_reversed": "Missed chance or unstable foundations.",
+      "meaning_upright": "Hmatatelná příležitost a semínko prosperity.",
+      "meaning_reversed": "Zmeškaná šance nebo nestabilní základy.",
       "archetype": null,
       "description": null
     },
@@ -1179,14 +1179,14 @@
       "suit": "pentacles",
       "rank": "two",
       "image_path": "65.png",
-      "name": "Two of Pentacles",
+      "name": "Dva pentakly",
       "keywords": [
-        "balance",
-        "adaptation",
-        "juggling"
+        "rovnováha",
+        "adaptace",
+        "žonglování"
       ],
-      "meaning_upright": "Balancing priorities and adapting to change.",
-      "meaning_reversed": "Overcommitment or losing balance.",
+      "meaning_upright": "Vyvažování priorit a přizpůsobování se změnám.",
+      "meaning_reversed": "Přetížení nebo ztráta rovnováhy.",
       "archetype": null,
       "description": null
     },
@@ -1197,14 +1197,14 @@
       "suit": "pentacles",
       "rank": "three",
       "image_path": "66.png",
-      "name": "Three of Pentacles",
+      "name": "Tři pentakly",
       "keywords": [
-        "teamwork",
-        "craft",
-        "learning"
+        "týmová_práce",
+        "řemeslo",
+        "učení"
       ],
-      "meaning_upright": "Teamwork, craftsmanship, and learning by doing.",
-      "meaning_reversed": "Lack of collaboration or sloppy work.",
+      "meaning_upright": "Týmová práce, řemeslo a učení praxí.",
+      "meaning_reversed": "Nedostatek spolupráce nebo nedbalá práce.",
       "archetype": null,
       "description": null
     },
@@ -1215,14 +1215,14 @@
       "suit": "pentacles",
       "rank": "four",
       "image_path": "67.png",
-      "name": "Four of Pentacles",
+      "name": "Čtyři pentakly",
       "keywords": [
-        "security",
-        "control",
-        "holding_on"
+        "bezpečnost",
+        "kontrola",
+        "držení_se"
       ],
-      "meaning_upright": "Security, control, and holding on tightly.",
-      "meaning_reversed": "Letting go or fear of loss driving decisions.",
+      "meaning_upright": "Bezpečnost, kontrola a pevné držení.",
+      "meaning_reversed": "Puštění nebo strach ze ztráty ovlivňující rozhodnutí.",
       "archetype": null,
       "description": null
     },
@@ -1233,14 +1233,14 @@
       "suit": "pentacles",
       "rank": "five",
       "image_path": "68.png",
-      "name": "Five of Pentacles",
+      "name": "Pět pentaklů",
       "keywords": [
-        "hardship",
-        "lack",
-        "support"
+        "těžkosti",
+        "nedostatek",
+        "podpora"
       ],
-      "meaning_upright": "Hardship, lack, and seeking support.",
-      "meaning_reversed": "Recovery, assistance, and improving conditions.",
+      "meaning_upright": "Těžkosti, nedostatek a hledání podpory.",
+      "meaning_reversed": "Zotavení, pomoc a zlepšující se podmínky.",
       "archetype": null,
       "description": null
     },
@@ -1251,14 +1251,14 @@
       "suit": "pentacles",
       "rank": "six",
       "image_path": "69.png",
-      "name": "Six of Pentacles",
+      "name": "Šest pentaklů",
       "keywords": [
-        "giving",
-        "receiving",
-        "fairness"
+        "dávání",
+        "přijímání",
+        "férovost"
       ],
-      "meaning_upright": "Giving and receiving with fairness and care.",
-      "meaning_reversed": "Strings attached or imbalance in exchange.",
+      "meaning_upright": "Dávání a přijímání s férovostí a péčí.",
+      "meaning_reversed": "Podmínky nebo nerovnováha ve výměně.",
       "archetype": null,
       "description": null
     },
@@ -1269,14 +1269,14 @@
       "suit": "pentacles",
       "rank": "seven",
       "image_path": "70.png",
-      "name": "Seven of Pentacles",
+      "name": "Sedm pentaklů",
       "keywords": [
-        "patience",
-        "investment",
-        "assessment"
+        "trpělivost",
+        "investice",
+        "hodnocení"
       ],
-      "meaning_upright": "Patience, long-term investment, and assessment.",
-      "meaning_reversed": "Impatience or doubting progress too soon.",
+      "meaning_upright": "Trpělivost, dlouhodobá investice a hodnocení.",
+      "meaning_reversed": "Netrpělivost nebo příliš brzké pochybování o pokroku.",
       "archetype": null,
       "description": null
     },
@@ -1287,14 +1287,14 @@
       "suit": "pentacles",
       "rank": "eight",
       "image_path": "71.png",
-      "name": "Eight of Pentacles",
+      "name": "Osm pentaklů",
       "keywords": [
-        "practice",
-        "skill",
-        "dedication"
+        "cvičení",
+        "dovednost",
+        "oddanost"
       ],
-      "meaning_upright": "Practice, dedication, and improving a craft.",
-      "meaning_reversed": "Cutting corners or boredom with routine.",
+      "meaning_upright": "Cvičení, oddanost a zdokonalování řemesla.",
+      "meaning_reversed": "Obejití rohů nebo nuda z rutiny.",
       "archetype": null,
       "description": null
     },
@@ -1305,14 +1305,14 @@
       "suit": "pentacles",
       "rank": "nine",
       "image_path": "72.png",
-      "name": "Nine of Pentacles",
+      "name": "Devět pentaklů",
       "keywords": [
-        "independence",
-        "comfort",
-        "self_worth"
+        "nezávislost",
+        "pohodlí",
+        "sebehodnota"
       ],
-      "meaning_upright": "Independence, comfort, and self-worth.",
-      "meaning_reversed": "Overreliance or insecurity despite success.",
+      "meaning_upright": "Nezávislost, pohodlí a sebehodnota.",
+      "meaning_reversed": "Přílišná závislost nebo nejistota navzdory úspěchu.",
       "archetype": null,
       "description": null
     },
@@ -1323,14 +1323,14 @@
       "suit": "pentacles",
       "rank": "ten",
       "image_path": "73.png",
-      "name": "Ten of Pentacles",
+      "name": "Deset pentaklů",
       "keywords": [
-        "legacy",
-        "family",
-        "stability"
+        "dědictví",
+        "rodina",
+        "stabilita"
       ],
-      "meaning_upright": "Legacy, family stability, and long-term security.",
-      "meaning_reversed": "Instability in foundations or family tensions.",
+      "meaning_upright": "Dědictví, rodinná stabilita a dlouhodobá jistota.",
+      "meaning_reversed": "Nestabilita základů nebo rodinné napětí.",
       "archetype": null,
       "description": null
     },
@@ -1341,14 +1341,14 @@
       "suit": "pentacles",
       "rank": "page",
       "image_path": "74.png",
-      "name": "Page of Pentacles",
+      "name": "Páž pentaklů",
       "keywords": [
-        "study",
-        "opportunity",
-        "planning"
+        "studium",
+        "příležitost",
+        "plánování"
       ],
-      "meaning_upright": "Study, new opportunity, and grounded planning.",
-      "meaning_reversed": "Procrastination or lack of follow-through.",
+      "meaning_upright": "Studium, nová příležitost a uzemněné plánování.",
+      "meaning_reversed": "Prokrastinace nebo nedostatek následného jednání.",
       "archetype": null,
       "description": null
     },
@@ -1359,14 +1359,14 @@
       "suit": "pentacles",
       "rank": "knight",
       "image_path": "75.png",
-      "name": "Knight of Pentacles",
+      "name": "Rytíř pentaklů",
       "keywords": [
-        "steadiness",
-        "routine",
-        "reliability"
+        "vyrovnanost",
+        "rutina",
+        "spolehlivost"
       ],
-      "meaning_upright": "Steady progress and reliable effort.",
-      "meaning_reversed": "Stagnation or stubborn attachment to routine.",
+      "meaning_upright": "Vyrovnaný pokrok a spolehlivé úsilí.",
+      "meaning_reversed": "Stagnace nebo tvrdohlavé lpění na rutině.",
       "archetype": null,
       "description": null
     },
@@ -1377,14 +1377,14 @@
       "suit": "pentacles",
       "rank": "queen",
       "image_path": "76.png",
-      "name": "Queen of Pentacles",
+      "name": "Královna pentaklů",
       "keywords": [
-        "care",
-        "practicality",
-        "home"
+        "péče",
+        "praktičnost",
+        "domov"
       ],
-      "meaning_upright": "Practical care, comfort, and grounded nurture.",
-      "meaning_reversed": "Work-home imbalance or neglecting self-care.",
+      "meaning_upright": "Praktická péče, pohodlí a uzemněné pěstování.",
+      "meaning_reversed": "Nerovnováha práce a domova nebo zanedbávání péče o sebe.",
       "archetype": null,
       "description": null
     },
@@ -1395,14 +1395,14 @@
       "suit": "pentacles",
       "rank": "king",
       "image_path": "77.png",
-      "name": "King of Pentacles",
+      "name": "Král pentaklů",
       "keywords": [
-        "abundance",
-        "stability",
-        "provider"
+        "hojnost",
+        "stabilita",
+        "poskytovatel"
       ],
-      "meaning_upright": "Abundance, stability, and responsible provision.",
-      "meaning_reversed": "Materialism or using resources to control.",
+      "meaning_upright": "Hojnost, stabilita a zodpovědné poskytování.",
+      "meaning_reversed": "Materialismus nebo používání zdrojů k ovládání.",
       "archetype": null,
       "description": null
     }
