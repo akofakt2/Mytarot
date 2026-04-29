@@ -19,7 +19,7 @@
     "deck_label_flip": "Flip a card",
     "new_reading": "New reading",
     "loading": "The universe is weaving your answer...",
-    "error_llm_unavailable": "Could not reach the fortune teller (LLM). Please try again in a moment.",
+    "error_llm_unavailable": "The oracle has fallen silent. Cosmic noise has drowned out the truth. Try to summon the answer again once the shadows dissipate.",
     "error_reading_failed": "Something went wrong while creating your reading. Please try again.",
     "log_draw_failed": "Failed to load new cards:",
     "reading_label_past": "Past",
@@ -36,7 +36,8 @@
     "app_h2": "Interactive 3-card tarot reading for your personal development",
     "card_of_past": "Tarot card of the past",
     "card_of_presence": "Tarot card of the present",
-    "card_of_future": "Tarot card of the future"
+    "card_of_future": "Tarot card of the future",
+    "daily_limit": "Today’s prophecy is fulfilled. The gate to further answers will open tomorrow.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   },
   "sk": {
     "cards_index_heading": "Encyklopédia tarotových kariet",
@@ -58,7 +59,7 @@
     "deck_label_flip": "Otoč karty",
     "new_reading": "Nová veštba",
     "loading": "Vesmír splieta tvoju odpoveď...",
-    "error_llm_unavailable": "Nepodarilo sa spojiť s veštiareňou (LLM). Skús to prosím znova o chvíľu.",
+    "error_llm_unavailable": "Veštiareň onemela. Vesmírny šum prehlušil pravdu. Skús vyvolať odpoveď znova, až sa rozplynú tiene.",
     "error_reading_failed": "Nastala chyba pri spracovaní veštenia. Skús to prosím znova.",
     "log_draw_failed": "Nepodarilo sa načítať nové karty:",
     "reading_label_past": "Minulosť",
@@ -75,7 +76,8 @@
     "app_h2":"Interaktívny výklad 3 kariet pre váš osobný rozvoj",
     "card_of_past": "Tarotová karta minulosti",
     "card_of_presence": "Tarotová karta prítomnosti",
-    "card_of_future": "Tarotová karta budúcnosti"
+    "card_of_future": "Tarotová karta budúcnosti",
+    "daily_limit": "Dnešná veštba je naplnená. Brána k ďalším odpovediam sa otvorí zajtra.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   },
   "cs": {
     "cards_index_heading": "Encyklopedie tarotových karet",
@@ -97,7 +99,7 @@
     "deck_label_flip": "Otoč kartu",
     "new_reading": "Nová věštba",
     "loading": "Vesmír spřádá tvou odpověď...",
-    "error_llm_unavailable": "Nepodařilo se spojit s věštírnou (LLM). Zkus to prosím znovu za chvíli.",
+    "error_llm_unavailable": "Věštírna oněměla. Vesmírný šum přehlušil pravdu. Zkus vyvolat odpověď znovu, až se rozplynou stíny.",
     "error_reading_failed": "Nastala chyba při zpracování věštění. Zkus to prosím znovu.",
     "log_draw_failed": "Nepodařilo se načíst nové karty:",
     "reading_label_past": "Minulost",
@@ -114,7 +116,8 @@
     "app_h2": "Interaktivní výklad 3 karet pro váš osobní rozvoj",
     "card_of_past": "Tarotová karta minulosti",
     "card_of_presence": "Tarotová karta přítomnosti",
-    "card_of_future": "Tarotová karta budoucnosti"
+    "card_of_future": "Tarotová karta budoucnosti",    
+    "daily_limit": "Dnešní věštba je naplněna. Brána k dalším odpovědím se otevře zítra.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   },
   "pl": {
     "cards_index_heading": "Encyklopedia kart tarota",
@@ -136,7 +139,7 @@
     "deck_label_flip": "Odwróć kartę",
     "new_reading": "Nowa wróżba",
     "loading": "Wszechświat tka twoją odpowiedź...",
-    "error_llm_unavailable": "Nie udało się połączyć z wyrocznią (LLM). Spróbuj ponownie za chwilę.",
+    "error_llm_unavailable": "Wyrocznia oniemiała. Kosmiczny szum zagłuszył prawdę. Spróbuj wezwać odpowiedź ponownie, gdy rozproszą się cienie.",
     "error_reading_failed": "Wystąpił błąd podczas przetwarzania wróżby. Spróbuj ponownie.",
     "log_draw_failed": "Nie udało się załadować nowych kart:",
     "reading_label_past": "Przeszłość",
@@ -153,6 +156,7 @@
     "app_h2": "Interaktywny rozkład 3 kart dla Twojego rozwoju osobistego",
     "card_of_past": "Karta tarota przeszłości",
     "card_of_presence": "Karta tarota teraźniejszości",
-    "card_of_future": "Karta tarota przyszłości"
+    "card_of_future": "Karta tarota przyszłości",
+    "daily_limit": "Dzisiejsza przepowiednia została wypełniona. Brama do kolejnych odpowiedzi otworzy się jutro..<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   }
 }
