@@ -8,5 +8,24 @@
 <meta property="og:site_name" content="Výklad tarotu">
 <meta name="twitter:card" content="summary_large_image">
 
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+{% if ga_id or ads_id %}
+<!-- Globálny tag (gtag.js) -->
+{# Načítame knižnicu pomocou prvého dostupného ID #}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_id if ga_id else ads_id }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    {% if ga_id %}
+        gtag('config', '{{ ga_id }}');
+    {% endif %}
+    {% if ads_id %}
+        gtag('config', '{{ ads_id }}');
+    {% endif %}
+</script>
+{% endif %}
