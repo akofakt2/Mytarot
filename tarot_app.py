@@ -441,6 +441,8 @@ def create_tarot_app() -> Flask:
     # This is a "soft gate": the token is visible to the browser client (it is injected into HTML),
     # so it is NOT a secret and does not stop a determined attacker. It mainly blocks opportunistic scans.
     api_token = (os.getenv("TAROT_API_TOKEN") or "").strip()
+    ga_id = (os.getenv("GA_MEASUREMENT_ID") or "").strip()
+    ads_id = (os.getenv("GA_ADS_ID") or "").strip()
     ctx: dict[str, Any] = {
         "locale": locale,
         "routes": routes,
@@ -450,6 +452,8 @@ def create_tarot_app() -> Flask:
         "pages_i18n_json": json.dumps(pages, ensure_ascii=False),
         # Exposed to the frontend intentionally (soft-gate; not a secret).
         "tarot_api_token": api_token,
+        "ga_id": ga_id,
+        "ads_id": ads_id,
     }
     reading_prompt_template = locale_prompts[locale]["reading_prompt"]
     # Register paths once (always through _p() so script_path is applied everywhere).
