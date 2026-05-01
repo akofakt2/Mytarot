@@ -91,13 +91,14 @@ function focusQuestionAndReveal() {
 function isAccessGranted() {
     const limitRaw = localStorage.getItem('last_reading');        
     // Ak v pamäti nič nie je, používateľ môže veštiť
-    if (!limitRaw) return 'new';
+    if (!limitRaw) return ;
     
     const limitDate = parseInt(limitRaw, 10);
     const now = Date.now();
 
     // Ak je aktuálny čas väčší ako zapísaný limit, prístup je povolený
-    return now < limitDate ? 'ok' : 'nok';
+    //now < limitDate ? 'nok' : 'ok';    
+    return now - limitDate;
 }
 
 /** INTERNACIONALIZÁCIA (i18n) */
@@ -302,8 +303,8 @@ async function sendReadingRequest() {
                 UI.reading.classList.add('visible');
 
                 // Zápis do localStorage len pri úspechu                                
-                if(isAccessGranted() == 'new') {
-                    const expirationDate = Date.now();
+                if(isAccessGranted() >=  0) {
+                    const expirationDate = Date.now() + LOCK_TIME;
                     localStorage.setItem('last_reading', expirationDate.toString());
                     UI.reading.innerHTML += '<hr>';
                     UI.reading.innerHTML += UI.i18n?.['daily_limit'] || '';
@@ -361,8 +362,8 @@ async function handleDeckInteraction() {
 
     // 1. FÁZA: MIEŠANIE
     if (deckState === 'ready_to_shuffle') {        
-        // KONTROLA ČASOVÉHO ZÁMKU        
-        if (isAccessGranted() == 'nok') {
+        // KONTROLA ČASOVÉHO ZÁMKU                
+        if (isAccessGranted() < 0) {
             const remainingMs = LOCK_TIME - (now - lastClick);
             const remainingHours = Math.ceil(remainingMs / (1000 * 60 * 60));
 
