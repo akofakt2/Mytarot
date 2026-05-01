@@ -37,7 +37,7 @@
     "card_of_past": "Tarot card of the past",
     "card_of_presence": "Tarot card of the present",
     "card_of_future": "Tarot card of the future",
-    "daily_limit": "Today’s prophecy is fulfilled. The gate to further answers will open tomorrow.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
+    "daily_limit": "Today’s prophecy is fulfilled. The gate to further answers will open in 24 hours.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   },
   "sk": {
     "cards_index_heading": "Encyklopédia tarotových kariet",
@@ -77,7 +77,7 @@
     "card_of_past": "Tarotová karta minulosti",
     "card_of_presence": "Tarotová karta prítomnosti",
     "card_of_future": "Tarotová karta budúcnosti",
-    "daily_limit": "Dnešná veštba je naplnená. Brána k ďalším odpovediam sa otvorí zajtra.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
+    "daily_limit": "Dnešná veštba je naplnená. Brána k ďalším odpovediam sa otvorí o 24 hodín.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   },
   "cs": {
     "cards_index_heading": "Encyklopedie tarotových karet",
@@ -117,7 +117,7 @@
     "card_of_past": "Tarotová karta minulosti",
     "card_of_presence": "Tarotová karta přítomnosti",
     "card_of_future": "Tarotová karta budoucnosti",    
-    "daily_limit": "Dnešní věštba je naplněna. Brána k dalším odpovědím se otevře zítra.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
+    "daily_limit": "Dnešní věštba je naplněna. Brána k dalším odpovědím se otevře o 24 hodin.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   },
   "pl": {
     "cards_index_heading": "Encyklopedia kart tarota",
@@ -157,6 +157,6 @@
     "card_of_past": "Karta tarota przeszłości",
     "card_of_presence": "Karta tarota teraźniejszości",
     "card_of_future": "Karta tarota przyszłości",
-    "daily_limit": "Dzisiejsza przepowiednia została wypełniona. Brama do kolejnych odpowiedzi otworzy się jutro..<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
+    "daily_limit": "Dzisiejsza przepowiednia została wypełniona. Brama do kolejnych odpowiedzi otworzy się za 24 godziny.<br><br><a href='https://www.buymeacoffee.com/vas-profil' target='_blank' class='bmc-button' style='display:inline-block; background:#FFDD00; color:#000; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; visibility:hidden;'>☕ Buy Me a Coffee</a>"
   }
 }
