@@ -796,10 +796,29 @@ h3 {
     }
 }
 
+.spread-area > div {
+    display: flex;
+    flex-direction: column; /* Uloží nadpis a kartu pekne pod seba */
+    align-items: center;    /* TOTO JE MÁGIA: Vycentruje nadpis presne na stred karty pod ním! */
+}
+
+.spread-area h3 {
+    text-align: center;         /* Vycentruje text presne na stred nad kartu */
+    color: var(--card-gold);             /* Tvoja zlatá farba (môžeš upraviť podľa potreby) */
+    opacity: 0.6;
+    font-size: 0.9rem;          /* Trochu menšie písmo, aby nekričalo viac ako karta */
+    text-transform: uppercase;  /* Všetko veľkými písmenami (MINULOST) */
+    letter-spacing: 2px;        /* Zväčšené medzery medzi písmenami (robí to profi dojem) */
+    font-weight: normal;        /* Zruší základné tučné písmo pre h3, bude to elegantnejšie */
+    margin-bottom: 12px;        /* Medzera medzi nadpisom a samotným slotom (kartou) */
+    margin-top: 0;              /* Zruší zbytočnú medzeru zhora */
+    opacity: 0.85;              /* Text bude na 85% viditeľný, jemne splynie s pozadím */
+}
+
 /**** seo hacks ****/
 h2.seo-subtle {
     /* Typografia */
-    font-family: 'Playfair Display', serif; /* Alebo váš súčasný font */
+    font-family: var(--font-heading);
     font-size: 0.9rem; /* Menšia veľkosť pôsobí prémiovejšie */
     font-weight: 300;
     text-transform: uppercase;

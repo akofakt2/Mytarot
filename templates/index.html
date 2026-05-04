@@ -31,14 +31,17 @@
         </div>
 
         <div class="spread-area">
-            <div class="slot" id="slot-0" data-label="☾">
-                <h3 class="visually-hidden">{{ui.card_of_past}}</h3>
+            <div >                
+                <h3>{{ui.reading_label_past}}</h3>
+                <div class="slot" id="slot-0" data-label="☾"></div>              
             </div>
-            <div class="slot" id="slot-1" data-label="❍">
-                <h3 class="visually-hidden">{{ui.card_of_presence}}</h3>
+            <div>
+                <h3>{{ui.reading_label_present}}</h3>
+                <div class="slot" id="slot-1" data-label="❍"></div>
             </div>
-            <div class="slot" id="slot-2" data-label="☽">
-                <h3 class="visually-hidden">{{ui.card_of_future}}</h3>
+            <div>
+                <h3>{{ui.reading_label_future}}</h3>
+                <div class="slot" id="slot-2" data-label="☽"></div>
             </div>
         </div>
 
@@ -46,9 +49,11 @@
             <div class="reading-panel">
                 <div class="loading-state" id="loadingState">{{ ui.loading }}</div>
                 <div class="final-reading" id="finalReading"></div>
+                <div style="text-align: center;">
                 <button class="new-reading-btn" id="newReadingBtn" type="button" aria-hidden="true">
                     {{ ui.new_reading }}
                 </button>
+                </div>
             </div>
         </div>
         <h2 class="seo-subtle">{{ ui.app_h2 }}</h2>
