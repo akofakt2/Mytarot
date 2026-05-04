@@ -1,7 +1,25 @@
 {
-  "version": 1,
+  "version": 2,
   "locale": "pl",
   "cards": [
+    {
+      "id": 4,
+      "arcana": "major",
+      "number": 4,
+      "suit": null,
+      "rank": null,
+      "image_path": "4.png",
+      "name": "Cesarz",
+      "keywords": [
+        "ład",
+        "autorytet",
+        "sprawczość"
+      ],
+      "meaning_upright": "Budowanie trwałych podstaw, odpowiedzialność i umiejętność utrzymania porządku.",
+      "meaning_reversed": "Nadmierna sztywność, potrzeba bezwzględnej kontroli lub podważenie dotychczasowej hierarchii.",
+      "archetype": "Władca",
+      "description": "Zapewnienie bezpieczeństwa i urodzaj płynący z jasnych zasad oraz wyznaczonych granic."
+    },
     {
       "id": 0,
       "arcana": "major",
@@ -9,16 +27,16 @@
       "suit": null,
       "rank": null,
       "image_path": "0.png",
-      "name": "Błazen",
+      "name": "Głupiec",
       "keywords": [
         "początki",
         "niewinność",
-        "skok_wiary"
+        "skok na głęboką wodę"
       ],
-      "meaning_upright": "Nowe początki, spontaniczność i zaufanie do podróży.",
-      "meaning_reversed": "Nieostrożność, naiwność lub wahanie przed rozpoczęciem.",
+      "meaning_upright": "Nowe rozdziały, spontaniczność i ufne oddanie się biegowi życia.",
+      "meaning_reversed": "Nieostrożność, naiwność lub paraliżujący lęk przed zrobieniem pierwszego kroku.",
       "archetype": "Poszukiwacz",
-      "description": "Krok w nieznane z otwartością i ciekawością."
+      "description": "Śmiałe wkroczenie w nieznane, podjęte z otwartym sercem i dziecięcą ciekawością."
     },
     {
       "id": 1,
@@ -30,13 +48,13 @@
       "name": "Mag",
       "keywords": [
         "wola",
-        "umiejętność",
-        "manifestacja"
+        "umiejętności",
+        "sprawczość"
       ],
-      "meaning_upright": "Skupiona intencja, umiejętne działanie i sprawianie, że rzeczy się dzieją.",
-      "meaning_reversed": "Rozproszona energia, manipulacja lub niewykorzystany potencjał.",
+      "meaning_upright": "Skupienie na celu, zręczne działanie i umiejętność przekuwania zamysłów w rzeczywistość.",
+      "meaning_reversed": "Rozproszenie, skłonność do manipulacji lub marnowanie drzemiącego w nas potencjału.",
       "archetype": "Twórca",
-      "description": "Dopasowanie narzędzi, woli i uwagi, aby stworzyć zmianę."
+      "description": "Harmonijne połączenie posiadanych narzędzi, woli i uwagi, by dokonać istotnej zmiany."
     },
     {
       "id": 2,
@@ -49,12 +67,12 @@
       "keywords": [
         "intuicja",
         "tajemnica",
-        "wewnętrzny_głos"
+        "wewnętrzny głos"
       ],
-      "meaning_upright": "Intuicja, wewnętrzna wiedza i ukryte prawdy.",
-      "meaning_reversed": "Ignorowanie intuicji, zamieszanie lub zbyt długo skrywane sekrety.",
+      "meaning_upright": "Intuicja, głęboka mądrość płynąca z wnętrza i prawdy, które czekają na odkrycie.",
+      "meaning_reversed": "Głuchota na własne przeczucia, mętlik w głowie lub sekrety, które zbyt długo trzymane w ukryciu stają się ciężarem.",
       "archetype": "Mistyk",
-      "description": "Cicha zachęta, by słuchać tego, co pod powierzchnią."
+      "description": "Ciche wezwanie, by wsłuchać się w to, co kryje się pod powłoką codzienności."
     },
     {
       "id": 3,
@@ -66,31 +84,13 @@
       "name": "Cesarzowa",
       "keywords": [
         "opieka",
-        "obfitość",
+        "urodzaj",
         "wzrost"
       ],
-      "meaning_upright": "Kultywowanie wzrostu, kreatywności i obfitości.",
-      "meaning_reversed": "Blokada twórcza, zaniedbanie lub nadmierna zależność.",
+      "meaning_upright": "Dbanie o rozwój, rozkwit twórczych zamysłów i obfitość płynąca z natury.",
+      "meaning_reversed": "Zastój w działaniu, zaniedbanie własnych potrzeb lub toksyczna zależność od innych.",
       "archetype": "Matka",
-      "description": "Opieka, piękno i siła pielęgnacji."
-    },
-    {
-      "id": 4,
-      "arcana": "major",
-      "number": 4,
-      "suit": null,
-      "rank": null,
-      "image_path": "4.png",
-      "name": "Cesarz",
-      "keywords": [
-        "struktura",
-        "autorytet",
-        "stabilność"
-      ],
-      "meaning_upright": "Struktura, przywództwo i stabilne fundamenty.",
-      "meaning_reversed": "Sztywność, problemy z kontrolą lub niestabilność autorytetu.",
-      "archetype": "Władca",
-      "description": "Porządek i ochrona poprzez jasne granice."
+      "description": "Otaczanie troską, zachwyt nad pięknem i moc sprawcza pielęgnacji życia."
     },
     {
       "id": 5,
@@ -99,16 +99,16 @@
       "suit": null,
       "rank": null,
       "image_path": "5.png",
-      "name": "Papież",
+      "name": "Arcykapłan",
       "keywords": [
         "tradycja",
         "nauczanie",
         "przekonania"
       ],
-      "meaning_upright": "Tradycja, mentoring i wspólne wartości.",
-      "meaning_reversed": "Bunt, dogmat lub kwestionowanie starych zasad.",
+      "meaning_upright": "Tradycja, przewodnictwo duchowe i wspólne wartości, które budują społeczną więź.",
+      "meaning_reversed": "Bunt, sztywne dogmaty lub podważanie odwiecznych zasad.",
       "archetype": "Nauczyciel",
-      "description": "Nauka w ramach linii znaczenia i praktyki."
+      "description": "Zdobywanie mądrości poprzez szacunek do dziedzictwa i sprawdzonych praktyk."
     },
     {
       "id": 6,
@@ -120,13 +120,13 @@
       "name": "Kochankowie",
       "keywords": [
         "wybór",
-        "unia",
-        "zgodność_wartości"
+        "zjednoczenie",
+        "spójność wartości"
       ],
-      "meaning_upright": "Związek, znaczący wybór i zgodność wartości.",
-      "meaning_reversed": "Niedopasowanie, niezgodność lub strach przed zaangażowaniem.",
+      "meaning_upright": "Głęboka więź, kluczowy wybór oraz życie w zgodzie z własnym sumieniem.",
+      "meaning_reversed": "Brak porozumienia, rozbieżne ścieżki lub lęk przed prawdziwą bliskością.",
       "archetype": "Ukochany",
-      "description": "Wybieraj sercem i żyj zgodnie ze swoimi wartościami."
+      "description": "Kieruj się głosem serca i dbaj o to, by każda Twoja sprawczość przyniosła urodzaj w Twoim życiu wewnętrznym."
     },
     {
       "id": 7,
@@ -141,10 +141,10 @@
         "zwycięstwo",
         "samokontrola"
       ],
-      "meaning_upright": "Determinacja, pęd i zdyscyplinowany postęp.",
-      "meaning_reversed": "Brak kierunku, sprzeczne siły lub wypalenie.",
+      "meaning_upright": "Nieugięta wola, żwawe tempo i sprawczość w dążeniu do celu.",
+      "meaning_reversed": "Zagubienie, rozdarcie wewnętrzne lub wyczerpanie sił.",
       "archetype": "Zwycięzca",
-      "description": "Panowanie nad przeciwnymi energiami, aby iść naprzód."
+      "description": "Zapanowanie nad sprzecznymi popędami, by móc wykonać skok na głęboką wodę i zebrać życiowy urodzaj."
     },
     {
       "id": 8,
@@ -157,12 +157,12 @@
       "keywords": [
         "odwaga",
         "cierpliwość",
-        "wewnętrzna_siła"
+        "wewnętrzna siła"
       ],
-      "meaning_upright": "Odwaga, cierpliwość i łagodna wewnętrzna siła.",
-      "meaning_reversed": "Zwątpienie, niecierpliwość lub siła ponad finezją.",
+      "meaning_upright": "Odwaga, cierpliwość oraz łagodna, niezłomna siła ducha.",
+      "meaning_reversed": "Zwątpienie, brak cierpliwości lub próba narzucenia swojej woli siłą zamiast finezją.",
       "archetype": "Serce",
-      "description": "Oswajanie strachu poprzez współczucie i stabilność."
+      "description": "Oswajanie własnych lęków poprzez współczucie i budowanie wewnętrznej stabilności."
     },
     {
       "id": 9,
@@ -175,12 +175,12 @@
       "keywords": [
         "samotność",
         "mądrość",
-        "przewodnictwo"
+        "wewnętrzny głos"
       ],
-      "meaning_upright": "Samotność, wgląd i wewnętrzne przewodnictwo.",
-      "meaning_reversed": "Izolacja, unikanie lub odmowa pomocy.",
+      "meaning_upright": "Czas wyciszenia, wgląd w siebie i szukanie własnej drogi.",
+      "meaning_reversed": "Zaszycie się w samotności, unikanie ludzi lub odrzucanie pomocnej dłoni.",
       "archetype": "Mędrzec",
-      "description": "Odsuń się, aby widzieć jasno."
+      "description": "Odsuń się od zgiełku, by zyskać prawdziwy obraz świata."
     },
     {
       "id": 10,
@@ -195,10 +195,10 @@
         "zmiana",
         "przeznaczenie"
       ],
-      "meaning_upright": "Punkty zwrotne, cykle i zmiany szczęścia.",
-      "meaning_reversed": "Opór przed zmianą, opóźnienia lub powtarzające się wzorce.",
+      "meaning_upright": "Punkty zwrotne, nieuchronne przemiany i kaprysy losu.",
+      "meaning_reversed": "Kurczowe trzymanie się starego, zastoje i błędne koło zdarzeń.",
       "archetype": "Koło",
-      "description": "Życie się toczy – dostosuj się i staw czoła chwili."
+      "description": "Życie nieustannie płynie – odpuść kontrolę, zachowaj czujność i pozwól sobie na zmianę."
     },
     {
       "id": 11,
@@ -213,10 +213,10 @@
         "uczciwość",
         "odpowiedzialność"
       ],
-      "meaning_upright": "Prawda, uczciwość i odpowiedzialne wybory.",
-      "meaning_reversed": "Stronniczość, zaprzeczenie lub unikanie konsekwencji.",
+      "meaning_upright": "Prawda, uczciwość oraz branie pełnej odpowiedzialności za własne wybory.",
+      "meaning_reversed": "Stronniczość, wypieranie się faktów lub próby ucieczki przed konsekwencjami własnych działań.",
       "archetype": "Sędzia",
-      "description": "Widzieć jasno i działać z uczciwością."
+      "description": "Patrzeć na świat bez złudzeń i postępować zgodnie z sumieniem."
     },
     {
       "id": 12,
@@ -227,14 +227,14 @@
       "image_path": "12.png",
       "name": "Wisielec",
       "keywords": [
-        "pauza",
-        "nowa_perspektywa",
-        "poddanie"
+        "chwila wytchnienia",
+        "przełomowe spojrzenie",
+        "akceptacja losu"
       ],
-      "meaning_upright": "Pauza, poddanie i świeża perspektywa.",
-      "meaning_reversed": "Stagnacja, upór lub strach przed odpuszczeniem.",
+      "meaning_upright": "Zatrzymanie w biegu, dobrowolne odpuszczenie kontroli i zyskanie świeżego spojrzenia na sprawy.",
+      "meaning_reversed": "Bezwład, uporczywe trwanie przy swoim lub lęk przed tym, by wreszcie przestać walczyć.",
       "archetype": "Nowicjusz",
-      "description": "Dar widzenia inaczej."
+      "description": "Niezwykły dar dostrzegania świata w zupełnie innym świetle."
     },
     {
       "id": 13,
@@ -245,14 +245,14 @@
       "image_path": "13.png",
       "name": "Śmierć",
       "keywords": [
-        "zakończenia",
-        "transformacja",
+        "domknięcia",
+        "przemiana",
         "uwolnienie"
       ],
-      "meaning_upright": "Koniec, który robi miejsce na transformację.",
-      "meaning_reversed": "Utrzymywanie się, strach przed zmianą lub przedłużająca się transformacja.",
+      "meaning_upright": "Nieuchronny koniec, który przygotowuje grunt pod nowy urodzaj.",
+      "meaning_reversed": "Kurczowe trzymanie się tego, co minione, lęk przed nowym oraz przeciągająca się w czasie zmiana.",
       "archetype": "Transformator",
-      "description": "Uwolnij to, co skończone; odnów to, co pozostało."
+      "description": "Puść wolno to, co już wygasło; pozwól odrodzić się temu, co w tobie trwałe."
     },
     {
       "id": 14,
@@ -267,10 +267,10 @@
         "uzdrowienie",
         "umiar"
       ],
-      "meaning_upright": "Równowaga, uzdrowienie i umiarkowana integracja.",
-      "meaning_reversed": "Nadmiar, brak równowagi lub brak harmonii.",
+      "meaning_upright": "Wewnętrzny spokój, proces zdrowienia i umiejętne łączenie przeciwieństw w harmonijną całość.",
+      "meaning_reversed": "Popadanie w skrajności, zatracenie poczucia miary lub rozchwianie, które odbiera sprawczość.",
       "archetype": "Alchemik",
-      "description": "Połącz skrajności w coś całościowego."
+      "description": "Zestaw ze sobą sprzeczności tak, by wydały życiowy urodzaj, zamiast rzucać się w nieprzemyślany skok na głęboką wodę."
     },
     {
       "id": 15,
@@ -281,14 +281,14 @@
       "image_path": "15.png",
       "name": "Diabeł",
       "keywords": [
-        "przywiązanie",
-        "cień",
+        "zniewolenie",
+        "mroczna strona",
         "pokusa"
       ],
-      "meaning_upright": "Przywiązania, pokusa i konfrontacja z cieniem.",
-      "meaning_reversed": "Uwalnianie się, odzyskiwanie mocy lub zaprzeczanie problemom.",
+      "meaning_upright": "Toksyczne przywiązania, kuszące drogi na skróty oraz trudne zderzenie z własnymi słabościami.",
+      "meaning_reversed": "Zerwanie pęt, odzyskanie osobistej sprawczości lub wypieranie się niewygodnej prawdy.",
       "archetype": "Cień",
-      "description": "Zobacz łańcuch, aby go poluzować."
+      "description": "Przyjrzyj się swoim łańcuchom, by wreszcie poczuć, że możesz je poluzować."
     },
     {
       "id": 16,
@@ -299,14 +299,14 @@
       "image_path": "16.png",
       "name": "Wieża",
       "keywords": [
-        "objawienie",
+        "olśnienie",
         "wstrząs",
-        "reset"
+        "oczyszczenie"
       ],
-      "meaning_upright": "Wstrząs, objawienie i oczyszczenie fałszywych struktur.",
-      "meaning_reversed": "Unikanie nieuchronnego, długotrwałe zakłócenia lub strach.",
+      "meaning_upright": "Nagły wstrząs, nagłe przejrzenie na oczy i burzenie iluzji, na których opierałeś swoje życie.",
+      "meaning_reversed": "Kurczowe trzymanie się tego, co dawno powinno upaść, przedłużający się niepokój i strach przed zmianą.",
       "archetype": "Błyskawica",
-      "description": "Prawda uderza – odbuduj na tym, co jest realne."
+      "description": "Prawda uderza jak piorun – czas odrzucić fałsz i zacząć budować na trwałym fundamencie."
     },
     {
       "id": 17,
@@ -321,10 +321,10 @@
         "odnowa",
         "przewodnictwo"
       ],
-      "meaning_upright": "Nadzieja, odnowa i przewodniczące światło naprzód.",
+      "meaning_upright": "Nadzieja, odnowa i jasne światło wskazujące drogę naprzód.",
       "meaning_reversed": "Zniechęcenie, zwątpienie lub przygasły optymizm.",
       "archetype": "Przewodnik",
-      "description": "Ciche tak z przyszłości."
+      "description": "Ciche przyzwolenie płynące z przyszłości."
     },
     {
       "id": 18,
@@ -339,10 +339,10 @@
         "intuicja",
         "niepewność"
       ],
-      "meaning_upright": "Niepewność, intuicja i nawigowanie po nieznanym.",
-      "meaning_reversed": "Wyłaniająca się jasność, łagodzący się strach lub zdemaskowanie samozłudzeń.",
+      "meaning_upright": "Czas niepewności, w którym musisz zaufać własnej intuicji, by odnaleźć drogę w mroku.",
+      "meaning_reversed": "Mgła zaczyna opadać, lęk słabnie, a Ty w końcu dostrzegasz prawdę o swoich własnych ułudach.",
       "archetype": "Sen",
-      "description": "Nie wszystko jest jasne – kieruj się wewnętrznym światłem."
+      "description": "Świat nie zawsze jest tym, czym się wydaje – zaufaj wewnętrznemu światłu, gdy brakuje jasnych odpowiedzi."
     },
     {
       "id": 19,
@@ -357,10 +357,10 @@
         "sukces",
         "witalność"
       ],
-      "meaning_upright": "Radość, witalność i pewny sukces.",
-      "meaning_reversed": "Tymczasowe niepowodzenia, pesymizm lub przyćmiona pewność siebie.",
+      "meaning_upright": "Pełnia radości, życiowa energia i pewny sukces, który przynosi obfity urodaj.",
+      "meaning_reversed": "Chwilowe potknięcia, czarne myśli lub zachwiana pewność siebie.",
       "archetype": "Światło",
-      "description": "Ciepło, widoczność i prawda w świetle dziennym."
+      "description": "Ciepło, wyrazistość i szczera prawda ujawniona w pełnym świetle dnia."
     },
     {
       "id": 20,
@@ -372,13 +372,13 @@
       "name": "Sąd",
       "keywords": [
         "przebudzenie",
-        "przegląd",
+        "rachunek sumienia",
         "powołanie"
       ],
-      "meaning_upright": "Przebudzenie, przegląd i odpowiedź na powołanie.",
-      "meaning_reversed": "Zwątpienie, surowy osąd lub unikanie decyzji.",
+      "meaning_upright": "Czas duchowego przebudzenia, szczerego rozliczenia się z przeszłością i odważnej odpowiedzi na własne powołanie.",
+      "meaning_reversed": "Wewnętrzne zwątpienie, zbyt surowa ocena samego siebie lub wycofywanie się przed podjęciem kluczowej decyzji.",
       "archetype": "Wezwanie",
-      "description": "Wybierz swój kolejny rozdział z uczciwością."
+      "description": "Otwórz nowy rozdział swojego życia, kierując się prawdą i czystym sumieniem."
     },
     {
       "id": 21,
@@ -389,14 +389,14 @@
       "image_path": "21.png",
       "name": "Świat",
       "keywords": [
-        "ukończenie",
-        "integracja",
+        "domknięcie",
+        "spójność",
         "mistrzostwo"
       ],
-      "meaning_upright": "Ukończenie, integracja i poczucie pełni.",
-      "meaning_reversed": "Niedokończone sprawy, opóźnienia lub brak zamknięcia.",
-      "archetype": "Całość",
-      "description": "Przybywasz, a zaczyna się nowy cykl."
+      "meaning_upright": "Czas wieńczy dzieło; odczuwasz wewnętrzną harmonię i głęboką satysfakcję z tego, co osiągnąłeś.",
+      "meaning_reversed": "Niedomknięte sprawy, które wciąż ciągną się za tobą, niepotrzebne przestoje i trudność z ostatecznym pożegnaniem etapu.",
+      "archetype": "Pełnia",
+      "description": "Docierasz do celu, lecz to w rzeczywistości jedynie przystanek przed kolejnym skokiem na głęboką wodę."
     },
     {
       "id": 22,
@@ -408,11 +408,11 @@
       "name": "As Buław",
       "keywords": [
         "iskra",
-        "inspiracja",
-        "inicjatywa"
+        "natchnienie",
+        "sprawczość"
       ],
-      "meaning_upright": "Nowa iskra inspiracji i chęć rozpoczęcia.",
-      "meaning_reversed": "Opóźnienia, brak motywacji lub gasnąca iskra.",
+      "meaning_upright": "Nowa iskra natchnienia i gotowość, by wykonać skok na głęboką wodę.",
+      "meaning_reversed": "Opóźnienia, brak wewnętrznego ognia lub gasnący zapał.",
       "archetype": null,
       "description": null
     },
@@ -425,12 +425,12 @@
       "image_path": "23.png",
       "name": "Dwójka Buław",
       "keywords": [
-        "planowanie",
-        "opcje",
-        "wizja"
+        "obmyślanie",
+        "wybór drogi",
+        "dalekosiężne spojrzenie"
       ],
-      "meaning_upright": "Planowanie następnego kroku i poszerzanie horyzontów.",
-      "meaning_reversed": "Strach przed nieznanym lub zbyt bezpieczna gra.",
+      "meaning_upright": "Czas na ustalenie kolejnych celów i śmiałe wyjście poza znane granice, by w pełni odzyskać sprawczość.",
+      "meaning_reversed": "Obawa przed nieznanym, która skłania do zbytniej zachowawczości, zamiast na skok na głęboką wodę, by zapewnić sobie przyszły urodzaj.",
       "archetype": null,
       "description": null
     },
@@ -447,8 +447,8 @@
         "postęp",
         "pęd"
       ],
-      "meaning_upright": "Ekspansja, postęp i zaczynające się pojawiać rezultaty.",
-      "meaning_reversed": "Opóźnienia, niepowodzenia lub brak konsekwencji.",
+      "meaning_upright": "Czas szerokich horyzontów, wzrostu i zbierania pierwszych owoców swojej sprawczości. To moment, w którym po odważnym skoku na głęboką wodę widać już obiecujący urodzaj.",
+      "meaning_reversed": "Zastoje, utykające w martwym punkcie plany lub słomiany zapał, który nie pozwala dokończyć tego, co zaczęte.",
       "archetype": null,
       "description": null
     },
@@ -456,17 +456,17 @@
       "id": 25,
       "arcana": "minor",
       "number": 4,
-      "suit": "wands",
-      "rank": "four",
+      "suit": "buławy",
+      "rank": "czwórka",
       "image_path": "25.png",
       "name": "Czwórka Buław",
       "keywords": [
         "świętowanie",
-        "dom",
-        "kamień_milowy"
+        "domowe ognisko",
+        "ważny etap"
       ],
-      "meaning_upright": "Świętowanie, stabilność i radosny kamień milowy.",
-      "meaning_reversed": "Napięcie w domu lub świętowanie, które wydaje się nie na miejscu.",
+      "meaning_upright": "Czas radosnego świętowania, osiągnięcie wewnętrznej stabilności oraz zwieńczenie trudu ważnym sukcesem.",
+      "meaning_reversed": "Napięta atmosfera w czterech ścianach lub uroczystość, która w obliczu okoliczności wydaje się zupełnie nie na miejscu.",
       "archetype": null,
       "description": null
     },
@@ -480,11 +480,11 @@
       "name": "Piątka Buław",
       "keywords": [
         "rywalizacja",
-        "tarcie",
-        "testowanie"
+        "zgrzyty",
+        "sprawdzian"
       ],
-      "meaning_upright": "Rywalizacja, tarcie i nauka poprzez wyzwania.",
-      "meaning_reversed": "Unikanie konfliktu lub argumenty, które donikąd nie prowadzą.",
+      "meaning_upright": "Czas rywalizacji i ścierania się charakterów, z którego wykuwa się cenna lekcja. To moment, w którym musisz wykazać się sprawczością, by wyjść obronną ręką z chaosu.",
+      "meaning_reversed": "Ucieczka przed konfrontacją lub jałowe spory, które nie przynoszą żadnego urodzaju, a jedynie marnują energię.",
       "archetype": null,
       "description": null
     },
@@ -498,11 +498,11 @@
       "name": "Szóstka Buław",
       "keywords": [
         "uznanie",
-        "sukces",
-        "pewność_siebie"
+        "zwycięstwo",
+        "wewnętrzny spokój"
       ],
-      "meaning_upright": "Uznanie, sukces i zdobyta pewność siebie.",
-      "meaning_reversed": "Ego, niepewność lub nieuznany sukces.",
+      "meaning_upright": "Czas zbierania owoców swojej pracy, poczucie sprawczości i zasłużone słowa uznania od otoczenia.",
+      "meaning_reversed": "Rozbuchane ego, brak wiary we własne siły lub wysiłek, który nie przyniósł oczekiwanego urodzaju.",
       "archetype": null,
       "description": null
     },
@@ -519,8 +519,8 @@
         "odwaga",
         "granice"
       ],
-      "meaning_upright": "Stawanie w obronie i ochrona swojej pozycji.",
-      "meaning_reversed": "Zbyt wczesne poddanie się lub poczucie przytłoczenia.",
+      "meaning_upright": "Obrona własnego terytorium i odważne trwanie przy swoim w obliczu przeciwności.",
+      "meaning_reversed": "Poczucie osaczenia, rezygnacja z walki o swoje i brak wiary we własną sprawczość.",
       "archetype": null,
       "description": null
     },
@@ -533,12 +533,12 @@
       "image_path": "29.png",
       "name": "Ósemka Buław",
       "keywords": [
-        "szybkość",
+        "tempo",
         "ruch",
-        "wiadomości"
+        "wieści"
       ],
-      "meaning_upright": "Szybkość, ruch i szybkie rozwój wydarzeń.",
-      "meaning_reversed": "Opóźnienia, nieporozumienia lub rozproszony wysiłek.",
+      "meaning_upright": "Pęd, dynamika i nagły obrót spraw, który sprzyja Twojej sprawczości.",
+      "meaning_reversed": "Zastoje, zamęt w komunikacji lub energia rozproszona między zbyt wiele spraw, zamiast wyczekiwanego urodzaju.",
       "archetype": null,
       "description": null
     },
@@ -551,12 +551,12 @@
       "image_path": "30.png",
       "name": "Dziewiątka Buław",
       "keywords": [
-        "odporność",
+        "hart ducha",
         "wytrwałość",
-        "ostrożność"
+        "czujność"
       ],
-      "meaning_upright": "Odporność i wytrwałość pomimo zmęczenia.",
-      "meaning_reversed": "Wypalenie, defensywność lub odrzucenie wsparcia.",
+      "meaning_upright": "Niezłomność i zdolność do trwania przy swoim, nawet gdy siły powoli cię opuszczają.",
+      "meaning_reversed": "Wypalenie, nadmierna nieufność wobec świata lub uparte odrzucanie pomocnej dłoni.",
       "archetype": null,
       "description": null
     },
@@ -573,8 +573,8 @@
         "odpowiedzialność",
         "presja"
       ],
-      "meaning_upright": "Ciężka odpowiedzialność i noszenie zbyt wielu rzeczy.",
-      "meaning_reversed": "Delegowanie, uwolnienie lub załamanie pod presją.",
+      "meaning_upright": "Przytłaczająca odpowiedzialność i dźwiganie na barkach spraw, które przerosły Twoje siły.",
+      "meaning_reversed": "Umiejętność dzielenia się obowiązkami, zrzucenie ciężaru z ramion lub załamanie nerwowe pod naporem oczekiwań.",
       "archetype": null,
       "description": null
     },
@@ -588,11 +588,11 @@
       "name": "Paź Buław",
       "keywords": [
         "ciekawość",
-        "eksploracja",
-        "wiadomości"
+        "poszukiwania",
+        "wieści"
       ],
-      "meaning_upright": "Ciekawość, eksploracja i ekscytujące wieści.",
-      "meaning_reversed": "Impulsywność, opóźnienia lub brak kierunku.",
+      "meaning_upright": "Budząca się ciekawość, gotowość do odkrywania nieznanego oraz nadejście wieści, które rozbudzą Twój zapał.",
+      "meaning_reversed": "Nieprzemyślane działanie, przestoje w sprawach lub rozmycie życiowego kursu.",
       "archetype": null,
       "description": null
     },
@@ -609,8 +609,8 @@
         "śmiałość",
         "ruch"
       ],
-      "meaning_upright": "Śmiałe działanie, przygoda i ruch naprzód.",
-      "meaning_reversed": "Nieostrożność, niecierpliwość lub niespójność.",
+      "meaning_upright": "Śmiałe działanie, poszukiwanie przygód i zdecydowany ruch naprzód.",
+      "meaning_reversed": "Brawura, zniecierpliwienie oraz brak konsekwencji w działaniu.",
       "archetype": null,
       "description": null
     },
@@ -623,12 +623,12 @@
       "image_path": "34.png",
       "name": "Królowa Buław",
       "keywords": [
-        "pewność_siebie",
-        "ciepło",
-        "przywództwo"
+        "niezachwiana sprawczość",
+        "serdeczność",
+        "charyzma"
       ],
-      "meaning_upright": "Pewność siebie, ciepło i inspirujące przywództwo.",
-      "meaning_reversed": "Niepewność, zazdrość lub potrzeba uwagi.",
+      "meaning_upright": "Wewnętrzna moc, bijące od niej ciepło oraz umiejętność prowadzenia innych za sobą.",
+      "meaning_reversed": "Poczucie zagubienia, ukryta zawiść lub rozpaczliwe łaknienie zainteresowania otoczenia.",
       "archetype": null,
       "description": null
     },
@@ -636,17 +636,17 @@
       "id": 35,
       "arcana": "minor",
       "number": 14,
-      "suit": "wands",
-      "rank": "king",
+      "suit": "buławy",
+      "rank": "król",
       "image_path": "35.png",
       "name": "Król Buław",
       "keywords": [
-        "wizja",
-        "mistrzostwo",
+        "dalekosiężne plany",
+        "rzemiosło",
         "odwaga"
       ],
-      "meaning_upright": "Wizjonerskie przywództwo i twórcze mistrzostwo.",
-      "meaning_reversed": "Impulsywność, arogancja lub dominująca energia.",
+      "meaning_upright": "Przywództwo oparte na jasnej wizji i pełna sprawczość w działaniu.",
+      "meaning_reversed": "Pochopność, nadmierna pewność siebie lub potrzeba narzucania innym własnej woli.",
       "archetype": null,
       "description": null
     },
@@ -663,8 +663,8 @@
         "otwartość",
         "odnowa"
       ],
-      "meaning_upright": "Emocjonalna odnowa, miłość i otwarte serce.",
-      "meaning_reversed": "Zablokowane uczucia lub trudność w przyjmowaniu miłości.",
+      "meaning_upright": "Emocjonalny rozkwit, głębokie uczucie i gotowość na przyjęcie darów losu.",
+      "meaning_reversed": "Stłumione emocje, nieumiejętność otwarcia się na drugiego człowieka oraz brak wewnętrznej równowagi.",
       "archetype": null,
       "description": null
     },
@@ -677,12 +677,12 @@
       "image_path": "37.png",
       "name": "Dwójka Kielichów",
       "keywords": [
-        "połączenie",
+        "porozumienie",
         "partnerstwo",
-        "unia"
+        "więź"
       ],
-      "meaning_upright": "Połączenie, partnerstwo i wzajemna wymiana.",
-      "meaning_reversed": "Brak równowagi, nieporozumienia lub napięcie w więziach.",
+      "meaning_upright": "Harmonijne spotkanie dusz, partnerstwo oparte na zaufaniu i wzajemna wymiana dobra.",
+      "meaning_reversed": "Zaburzona równowaga, rozdźwięk w relacji lub narastające napięcie, które utrudnia szczere bycie razem.",
       "archetype": null,
       "description": null
     },
@@ -696,11 +696,11 @@
       "name": "Trójka Kielichów",
       "keywords": [
         "przyjaźń",
-        "świętowanie",
-        "wsparcie"
+        "biesiada",
+        "wspólnota"
       ],
-      "meaning_upright": "Przyjaźń, świętowanie i wzajemne wsparcie.",
-      "meaning_reversed": "Nadmierne pobłażanie sobie lub dramat społeczny.",
+      "meaning_upright": "Czas serdecznych spotkań, celebrowania więzi i autentycznej życzliwości między ludźmi.",
+      "meaning_reversed": "Zatracenie się w uciechach lub niepotrzebne swary w gronie bliskich osób.",
       "archetype": null,
       "description": null
     },
@@ -714,11 +714,11 @@
       "name": "Czwórka Kielichów",
       "keywords": [
         "apatia",
-        "refleksja",
-        "ponowna_ocena"
+        "zaduma",
+        "rachunek sumienia"
       ],
-      "meaning_upright": "Apatia, refleksja i ponowna ocena opcji.",
-      "meaning_reversed": "Nowe zainteresowanie, ponowne zaangażowanie lub świeża oferta.",
+      "meaning_upright": "Stan wycofania, chwila zadumy nad życiem i krytyczne spojrzenie na dostępne ścieżki.",
+      "meaning_reversed": "Powrót dawnej pasji, odnalezienie w sobie sprawczości lub niespodziewany skok na głęboką wodę, który przyniesie urodzaj.",
       "archetype": null,
       "description": null
     },
@@ -735,8 +735,8 @@
         "żałoba",
         "żal"
       ],
-      "meaning_upright": "Strata, żałoba i skupienie na tym, co poszło źle.",
-      "meaning_reversed": "Akceptacja, uzdrowienie i dostrzeżenie tego, co pozostało.",
+      "meaning_upright": "Strata, żałoba i rozpamiętywanie tego, co przepadło bezpowrotnie.",
+      "meaning_reversed": "Pogodzenie się z losem, uleczenie ran i dostrzeżenie tego, co wciąż pozwala na życiowy urodzaj.",
       "archetype": null,
       "description": null
     },
@@ -753,8 +753,8 @@
         "niewinność",
         "wspomnienia"
       ],
-      "meaning_upright": "Nostalgia, życzliwość i łagodne wspomnienia.",
-      "meaning_reversed": "Utknięcie w przeszłości lub idealizowanie.",
+      "meaning_upright": "Czas sentymentów, serdecznej życzliwości i powrotu do ciepłych wspomnień, które karmią duszę.",
+      "meaning_reversed": "Niezdrowa ucieczka w to, co minione, lub nadmierne upiększanie dawnych dni, co odbiera człowiekowi życiową sprawczość.",
       "archetype": null,
       "description": null
     },
@@ -768,11 +768,11 @@
       "name": "Siódemka Kielichów",
       "keywords": [
         "wybory",
-        "fantazja",
-        "iluzja"
+        "marzenia",
+        "złudzenia"
       ],
-      "meaning_upright": "Wiele wyborów, fantazje i niejasne priorytety.",
-      "meaning_reversed": "Jasność, decyzja i powracające skupienie.",
+      "meaning_upright": "Mnogość ścieżek, bujanie w obłokach i rozmyte priorytety.",
+      "meaning_reversed": "Przejrzystość, konkretna decyzja i odzyskanie skupienia.",
       "archetype": null,
       "description": null
     },
@@ -789,8 +789,8 @@
         "poszukiwanie",
         "transformacja"
       ],
-      "meaning_upright": "Odchodzenie w poszukiwaniu głębszego sensu.",
-      "meaning_reversed": "Strach przed zmianą lub powrót po nauce.",
+      "meaning_upright": "Porzucenie dotychczasowej drogi w poszukiwaniu głębszego sensu i odzyskanie sprawczości.",
+      "meaning_reversed": "Lęk przed skokiem na głęboką wodę lub powrót do starego porządku po wyciągnięciu wniosków.",
       "archetype": null,
       "description": null
     },
@@ -803,12 +803,12 @@
       "image_path": "44.png",
       "name": "Dziewiątka Kielichów",
       "keywords": [
-        "satysfakcja",
-        "życzenie",
-        "zadowolenie"
+        "spełnienie",
+        "pomyślność",
+        "radość"
       ],
-      "meaning_upright": "Satysfakcja, zadowolenie i spełnione życzenie.",
-      "meaning_reversed": "Nadmierne pobłażanie sobie lub niezadowolenie pod komfortem.",
+      "meaning_upright": "Czas głębokiej satysfakcji, poczucie bycia w odpowiednim miejscu i urodzaj, o który tak długo zabiegałeś.",
+      "meaning_reversed": "Zbytni pobłażliwość dla własnych słabostek lub dojmujący brak sensu, mimo posiadania wszystkich wygód świata.",
       "archetype": null,
       "description": null
     },
@@ -825,8 +825,8 @@
         "rodzina",
         "radość"
       ],
-      "meaning_upright": "Harmonia, radość i emocjonalne spełnienie.",
-      "meaning_reversed": "Niezgodność w domu lub nierealistyczne oczekiwania.",
+      "meaning_upright": "Pełnia życia rodzinnego, głęboki spokój ducha i prawdziwy urodzaj uczuć.",
+      "meaning_reversed": "Domowy rozgardiasz, brak porozumienia z bliskimi lub życie w świecie płonnych nadziei.",
       "archetype": null,
       "description": null
     },
@@ -839,14 +839,14 @@
       "image_path": "46.png",
       "name": "Paź Kielichów",
       "keywords": [
-        "wiadomości",
+        "wieści",
         "otwartość",
         "niespodzianka"
       ],
-      "meaning_upright": "Serdeczna wiadomość i otwarta emocjonalna ciekawość.",
-      "meaning_reversed": "Emocjonalna niedojrzałość lub niejednoznaczne sygnały.",
+      "meaning_upright": "Ciepłe wieści i szczera ciekawość świata, która pozwala zachować młodzieńczą sprawczość.",
+      "meaning_reversed": "Emocjonalna niedojrzałość, zagubienie lub mylące sygnały, które utrudniają skok na głęboką wodę.",
       "archetype": null,
-      "description": null
+      "description": "Podobnie jak Głupiec, Paź Kielichów przypomina o potrzebie bycia otwartym na to, co przyniesie życie, zwiastując duchowy urodzaj."
     },
     {
       "id": 47,
@@ -861,8 +861,8 @@
         "zaproszenie",
         "idealizm"
       ],
-      "meaning_upright": "Romans, zaproszenia i podążanie za sercem.",
-      "meaning_reversed": "Zmienność nastrojów, rozczarowanie lub gonienie za iluzjami.",
+      "meaning_upright": "Czas na romantyczne uniesienia, serdeczne zaproszenia i ufne podążanie za głosem własnego serca.",
+      "meaning_reversed": "Chwiejność uczuć, bolesne rozczarowanie lub daremna pogoń za złudzeniami.",
       "archetype": null,
       "description": null
     },
@@ -870,17 +870,17 @@
       "id": 48,
       "arcana": "minor",
       "number": 13,
-      "suit": "cups",
-      "rank": "queen",
+      "suit": "puchary",
+      "rank": "królowa",
       "image_path": "48.png",
       "name": "Królowa Kielichów",
       "keywords": [
         "empatia",
         "intuicja",
-        "opieka"
+        "opiekuńczość"
       ],
-      "meaning_upright": "Empatia, intuicja i emocjonalna troska.",
-      "meaning_reversed": "Przytłoczenie, współzależność lub słabe granice.",
+      "meaning_upright": "Głęboka empatia, wsłuchanie się w głos intuicji oraz troskliwa opieka nad innymi.",
+      "meaning_reversed": "Emocjonalne przytłoczenie, uwikłanie w relacje lub nieumiejętność stawiania wyraźnych granic.",
       "archetype": null,
       "description": null
     },
@@ -888,8 +888,8 @@
       "id": 49,
       "arcana": "minor",
       "number": 14,
-      "suit": "cups",
-      "rank": "king",
+      "suit": "puchary",
+      "rank": "król",
       "image_path": "49.png",
       "name": "Król Kielichów",
       "keywords": [
@@ -897,8 +897,8 @@
         "współczucie",
         "równowaga"
       ],
-      "meaning_upright": "Spokojne współczucie i emocjonalna równowaga.",
-      "meaning_reversed": "Emocjonalna manipulacja lub stłumione uczucia.",
+      "meaning_upright": "Głębokie, opanowane współczucie oraz wewnętrzna równowaga ducha.",
+      "meaning_reversed": "Skłonność do emocjonalnej manipulacji lub tłumienie uczuć, które domagają się wyjścia na światło dzienne.",
       "archetype": null,
       "description": null
     },
@@ -915,8 +915,8 @@
         "prawda",
         "przełom"
       ],
-      "meaning_upright": "Jasność, prawda i mentalny przełom.",
-      "meaning_reversed": "Zamieszanie, dezinformacja lub niejasny osąd.",
+      "meaning_upright": "Moment absolutnej jasności, dotarcie do sedna prawdy i intelektualny przełom, który pozwala odciąć się od dawnych złudzeń.",
+      "meaning_reversed": "Stan zagubienia, mętlik w głowie lub podjęcie decyzji w oparciu o niepełne informacje, co prowadzi do błędnej oceny sytuacji.",
       "archetype": null,
       "description": null
     },
@@ -929,12 +929,12 @@
       "image_path": "51.png",
       "name": "Dwójka Mieczy",
       "keywords": [
-        "impas",
-        "wybór",
-        "unikanie"
+        "martwy punkt",
+        "konieczność wyboru",
+        "ucieczka od decyzji"
       ],
-      "meaning_upright": "Impasy, trudne wybory i ostrożność.",
-      "meaning_reversed": "Koniec niezdecydowania, ujawnienie prawdy lub przeciążenie.",
+      "meaning_upright": "Czas zawieszenia, trudne wybory i naturalna potrzeba zachowania ostrożności w obliczu niepewności.",
+      "meaning_reversed": "Przełamanie apatii, wyjście z cienia na światło dzienne lub przytłoczenie nadmiarem spraw.",
       "archetype": null,
       "description": null
     },
@@ -947,12 +947,12 @@
       "image_path": "52.png",
       "name": "Trójka Mieczy",
       "keywords": [
-        "złamanie_serca",
-        "smutek",
-        "prawda"
+        "złamane serce",
+        "głęboki żal",
+        "bolesna prawda"
       ],
-      "meaning_upright": "Złamane serce, smutek i bolesne prawdy.",
-      "meaning_reversed": "Uzdrowienie, przebaczenie i ruszenie naprzód.",
+      "meaning_upright": "Czas próby serca, przejmujący smutek i konfrontacja z trudną prawdą, której nie da się już dłużej wypierać.",
+      "meaning_reversed": "Powolne zabliźnianie ran, nauka wybaczenia sobie i innym oraz odwaga, by ruszyć przed siebie z nową sprawczością.",
       "archetype": null,
       "description": null
     },
@@ -969,8 +969,8 @@
         "regeneracja",
         "pauza"
       ],
-      "meaning_upright": "Odpoczynek, regeneracja i konieczna pauza.",
-      "meaning_reversed": "Niepokój lub zbyt wczesny powrót.",
+      "meaning_upright": "Czas na zasłużony odpoczynek, regenerację sił i niezbędne wyciszenie.",
+      "meaning_reversed": "Wewnętrzny niepokój, niemożność znalezienia spokoju lub zbyt pospieszny powrót do codziennych zmagań.",
       "archetype": null,
       "description": null
     },
@@ -985,10 +985,10 @@
       "keywords": [
         "konflikt",
         "ego",
-        "wygrana_za_wszelką_cenę"
+        "pyrrusowe zwycięstwo"
       ],
-      "meaning_upright": "Konflikt, ego i wygrana kosztem czegoś.",
-      "meaning_reversed": "Pojednanie lub odejście od dramatu.",
+      "meaning_upright": "Czas sporów i rozbuchanego ego, gdzie zwycięstwo smakuje goryczą, bo okupione zostało stratą relacji lub wartości.",
+      "meaning_reversed": "Oczyszczenie atmosfery, wygaszenie dawnych urazów i świadoma rezygnacja z niepotrzebnych potyczek.",
       "archetype": null,
       "description": null
     },
@@ -1001,12 +1001,12 @@
       "image_path": "55.png",
       "name": "Szóstka Mieczy",
       "keywords": [
-        "transformacja",
-        "uzdrowienie",
-        "ruszanie_naprzód"
+        "przemiana",
+        "odzyskanie równowagi",
+        "opuszczanie przeszłości"
       ],
-      "meaning_upright": "Transformacja, uzdrowienie i ruch w kierunku spokojniejszych wód.",
-      "meaning_reversed": "Trudność w ruszeniu naprzód lub noszenie starego bagażu.",
+      "meaning_upright": "Czas na wewnętrzną przemianę, wyciszenie dawnych ran i spokojną przeprawę ku lepszym brzegom.",
+      "meaning_reversed": "Opór przed zmianą, ugrzęźnięcie w starych sprawach i nieumiejętność porzucenia emocjonalnego bagażu.",
       "archetype": null,
       "description": null
     },
@@ -1023,8 +1023,8 @@
         "tajemnica",
         "unikanie"
       ],
-      "meaning_upright": "Strategia, tajemnica i działanie pośrednie.",
-      "meaning_reversed": "Spowiedź, ujawnienie lub zmiana taktyki.",
+      "meaning_upright": "Przemyślana strategia, sekrety i działanie okrężną drogą.",
+      "meaning_reversed": "Oczyszczenie sumienia, wyjście z cienia lub zmiana dotychczasowej taktyki.",
       "archetype": null,
       "description": null
     },
@@ -1037,12 +1037,12 @@
       "image_path": "57.png",
       "name": "Ósemka Mieczy",
       "keywords": [
-        "ograniczenie",
-        "strach",
-        "samoograniczenie"
+        "pętanie się",
+        "lęk",
+        "własne kajdany"
       ],
-      "meaning_upright": "Poczucie ograniczenia przez strach lub samoograniczające przekonania.",
-      "meaning_reversed": "Uwolnienie, nowa perspektywa i poluzowanie więzów.",
+      "meaning_upright": "Poczucie osaczenia, które wynika wyłącznie z lęku lub narzuconych sobie barier.",
+      "meaning_reversed": "Odzyskanie sprawczości, przejrzenie na oczy i zrzucenie ciężarów, które dotąd trzymały w ryzach.",
       "archetype": null,
       "description": null
     },
@@ -1055,12 +1055,12 @@
       "image_path": "58.png",
       "name": "Dziewiątka Mieczy",
       "keywords": [
-        "niepokój",
-        "troska",
+        "trwoga",
+        "dręczące myśli",
         "bezsenność"
       ],
-      "meaning_upright": "Niepokój, troska i bezsenne noce.",
-      "meaning_reversed": "Ulga, wsparcie lub konfrontacja ze strachami.",
+      "meaning_upright": "Głęboki niepokój, zamartwianie się i długie, nieprzespane noce pełne lęku.",
+      "meaning_reversed": "Nadchodząca ulga, poszukiwanie oparcia w drugim człowieku lub odważne spojrzenie w oczy własnym demonom.",
       "archetype": null,
       "description": null
     },
@@ -1073,12 +1073,12 @@
       "image_path": "59.png",
       "name": "Dziesiątka Mieczy",
       "keywords": [
-        "koniec",
+        "ostateczny kres",
         "zdrada",
         "uwolnienie"
       ],
-      "meaning_upright": "Koniec, bolesna prawda i uwolnienie.",
-      "meaning_reversed": "Regeneracja, odporność i ponowne podniesienie się.",
+      "meaning_upright": "Nieuchronny koniec, bolesne zderzenie z prawdą i niezbędne uwolnienie się od ciężaru.",
+      "meaning_reversed": "Powolna regeneracja, odzyskanie wewnętrznej odporności i gotowość na ponowne podniesienie się z kolan.",
       "archetype": null,
       "description": null
     },
@@ -1092,11 +1092,11 @@
       "name": "Paź Mieczy",
       "keywords": [
         "ciekawość",
-        "poszukiwanie_prawdy",
+        "poszukiwanie prawdy",
         "czujność"
       ],
-      "meaning_upright": "Ciekawość, poszukiwanie prawdy i mentalna czujność.",
-      "meaning_reversed": "Plotkowanie, pośpiech lub wyciąganie pochopnych wniosków.",
+      "meaning_upright": "Niepohamowana ciekawość, bezkompromisowe poszukiwanie prawdy oraz wyostrzona czujność umysłu.",
+      "meaning_reversed": "Sianie plotek, niepotrzebny pośpiech lub wyciąganie pochopnych wniosków bez głębszego namysłu.",
       "archetype": null,
       "description": null
     },
@@ -1110,11 +1110,11 @@
       "name": "Rycerz Mieczy",
       "keywords": [
         "bezpośredniość",
-        "szybkość",
+        "bystrość",
         "determinacja"
       ],
-      "meaning_upright": "Bezpośrednie działanie, szybkość i zdecydowane myślenie.",
-      "meaning_reversed": "Impulsywność, szorstkość lub ślepy pośpiech.",
+      "meaning_upright": "Bezzwłoczne działanie, żwawość i trzeźwa ocena sytuacji.",
+      "meaning_reversed": "Pochopność, surowość w obejściu lub bezmyślny pęd przed siebie.",
       "archetype": null,
       "description": null
     },
@@ -1127,12 +1127,12 @@
       "image_path": "62.png",
       "name": "Królowa Mieczy",
       "keywords": [
-        "rozeznanie",
+        "przenikliwość",
         "niezależność",
-        "jasność"
+        "klarowność umysłu"
       ],
-      "meaning_upright": "Rozeznanie, niezależność i jasne granice.",
-      "meaning_reversed": "Zimno, gorycz lub raniące słowa.",
+      "meaning_upright": "Przenikliwość, niezależność i umiejętność stawiania jasnych granic.",
+      "meaning_reversed": "Chłód, rozgoryczenie lub słowa, które ranią niczym ostrze.",
       "archetype": null,
       "description": null
     },
@@ -1149,8 +1149,8 @@
         "autorytet",
         "prawda"
       ],
-      "meaning_upright": "Logika, autorytet i zasadnicza prawda.",
-      "meaning_reversed": "Nadużycie władzy lub sztywny, niesprawiedliwy osąd.",
+      "meaning_upright": "Chłodny rozsądek, niepodważalny autorytet oraz dążenie do obiektywnej prawdy.",
+      "meaning_reversed": "Nadużywanie władzy, surowość wyroków lub krzywdzące, zamknięte na argumenty osądy.",
       "archetype": null,
       "description": null
     },
@@ -1167,10 +1167,10 @@
         "wzrost",
         "zasoby"
       ],
-      "meaning_upright": "Namacalna szansa i nasiono dobrobytu.",
-      "meaning_reversed": "Przegapiona okazja lub niestabilne fundamenty.",
+      "meaning_upright": "Namacalna okazja i zalążek przyszłego urodzaju.",
+      "meaning_reversed": "Zmarnowana szansa lub brak oparcia w sprawczości, co prowadzi do budowania na piasku.",
       "archetype": null,
-      "description": null
+      "description": "Podobnie jak Głupiec decyduje się na skok na głęboką wodę, tak As Monet daje początek trwałym fundamentom, które pod okiem Arcykapłana mogą przeobrazić się w prawdziwą życiową pomyślność."
     },
     {
       "id": 65,
@@ -1182,11 +1182,11 @@
       "name": "Dwójka Monet",
       "keywords": [
         "równowaga",
-        "adaptacja",
+        "elastyczność",
         "żonglerka"
       ],
-      "meaning_upright": "Równoważenie priorytetów i adaptacja do zmian.",
-      "meaning_reversed": "Nadmierne zaangażowanie lub utrata równowagi.",
+      "meaning_upright": "Utrzymywanie równowagi między różnymi sprawami i umiejętne dopasowywanie się do zmieniających się warunków.",
+      "meaning_reversed": "Przeciążenie obowiązkami, brak umiaru lub zachwianie życiową harmonią.",
       "archetype": null,
       "description": null
     },
@@ -1199,12 +1199,12 @@
       "image_path": "66.png",
       "name": "Trójka Monet",
       "keywords": [
-        "praca_zespołowa",
-        "rzemiosło",
-        "nauka"
+        "wspólne działanie",
+        "kunszt",
+        "zdobywanie wprawy"
       ],
-      "meaning_upright": "Praca zespołowa, rzemiosło i nauka poprzez praktykę.",
-      "meaning_reversed": "Brak współpracy lub niedbała praca.",
+      "meaning_upright": "Harmonijna współpraca, doskonalenie rzemiosła oraz zdobywanie sprawczości poprzez codzienną praktykę.",
+      "meaning_reversed": "Brak porozumienia, lekceważenie detali lub praca wykonywana bez należytej staranności.",
       "archetype": null,
       "description": null
     },
@@ -1217,12 +1217,12 @@
       "image_path": "67.png",
       "name": "Czwórka Monet",
       "keywords": [
-        "bezpieczeństwo",
-        "kontrola",
-        "trzymanie_się"
+        "poczucie bezpieczeństwa",
+        "nadmierna kontrola",
+        "kurczowe trzymanie się stanu posiadania"
       ],
-      "meaning_upright": "Bezpieczeństwo, kontrola i mocne trzymanie się.",
-      "meaning_reversed": "Odpuszczanie lub strach przed stratą kierujący decyzjami.",
+      "meaning_upright": "Poczucie bezpieczeństwa, silna potrzeba kontroli oraz dbałość o to, co już udało się zgromadzić.",
+      "meaning_reversed": "Gotowość do odpuszczenia lub paraliżujący strach przed utratą majątku, który zaczyna rządzić podejmowanymi decyzjami.",
       "archetype": null,
       "description": null
     },
@@ -1236,11 +1236,11 @@
       "name": "Piątka Monet",
       "keywords": [
         "trudności",
-        "brak",
-        "wsparcie"
+        "niedostatek",
+        "poszukiwanie pomocy"
       ],
-      "meaning_upright": "Trudności, brak i poszukiwanie wsparcia.",
-      "meaning_reversed": "Regeneracja, pomoc i poprawa warunków.",
+      "meaning_upright": "Czas prób, dotkliwy brak oraz pilna potrzeba znalezienia oparcia w innych.",
+      "meaning_reversed": "Powolne odzyskiwanie sprawczości, nadejście nieoczekiwanej pomocy i stopniowy urodzaj po okresie chudych lat.",
       "archetype": null,
       "description": null
     },
@@ -1253,12 +1253,12 @@
       "image_path": "69.png",
       "name": "Szóstka Monet",
       "keywords": [
-        "dawanie",
-        "otrzymywanie",
+        "hojność",
+        "wzajemność",
         "uczciwość"
       ],
-      "meaning_upright": "Dawanie i otrzymywanie z uczciwością i troską.",
-      "meaning_reversed": "Ukryte motywy lub brak równowagi w wymianie.",
+      "meaning_upright": "Dzielenie się zasobami z autentyczną troską, oparta na sprawiedliwości wymiana dóbr i energii.",
+      "meaning_reversed": "Ukryte intencje, wykorzystywanie drugiego człowieka lub zaburzona równowaga w dawaniu i braniu.",
       "archetype": null,
       "description": null
     },
@@ -1268,15 +1268,14 @@
       "number": 7,
       "suit": "pentacles",
       "rank": "seven",
-      "image_path": "70.png",
       "name": "Siódemka Monet",
       "keywords": [
         "cierpliwość",
-        "inwestycja",
-        "ocena"
+        "długofalowe starania",
+        "refleksja"
       ],
-      "meaning_upright": "Cierpliwość, długoterminowa inwestycja i ocena.",
-      "meaning_reversed": "Niecierpliwość lub zbyt szybkie wątpienie w postęp.",
+      "meaning_upright": "Czas cierpliwego czekania na plony, sumienne dbanie o swoje zasoby i spokojna ocena dotychczasowej sprawczości.",
+      "meaning_reversed": "Niecierpliwość, gorączkowe poszukiwanie efektów lub zwątpienie w sens podjętego skoku na głęboką wodę, które hamuje przyszły urodzaj.",
       "archetype": null,
       "description": null
     },
@@ -1290,11 +1289,11 @@
       "name": "Ósemka Monet",
       "keywords": [
         "praktyka",
-        "umiejętność",
-        "dedykacja"
+        "rzemiosło",
+        "wytrwałość"
       ],
-      "meaning_upright": "Praktyka, dedykacja i doskonalenie rzemiosła.",
-      "meaning_reversed": "Cięcie rogów lub nuda rutyną.",
+      "meaning_upright": "Nieustanne szlifowanie warsztatu, oddanie pracy i dążenie do mistrzostwa.",
+      "meaning_reversed": "Pójście na łatwiznę, brak pasji lub znużenie codzienną rutyną.",
       "archetype": null,
       "description": null
     },
@@ -1309,10 +1308,10 @@
       "keywords": [
         "niezależność",
         "komfort",
-        "wartość_siebie"
+        "poczucie własnej wartości"
       ],
-      "meaning_upright": "Niezależność, komfort i poczucie własnej wartości.",
-      "meaning_reversed": "Nadmierne poleganie lub niepewność pomimo sukcesu.",
+      "meaning_upright": "Samodzielność, wygoda i zdrowy szacunek do własnych dokonań. Czas, w którym czerpiesz pełnymi garściami z własnej sprawczości.",
+      "meaning_reversed": "Zbytnie oglądanie się na innych lub wewnętrzny niepokój, który nie pozwala w pełni cieszyć się osiągniętym urodzajem.",
       "archetype": null,
       "description": null
     },
@@ -1327,10 +1326,10 @@
       "keywords": [
         "dziedzictwo",
         "rodzina",
-        "stabilność"
+        "urodzaj"
       ],
-      "meaning_upright": "Dziedzictwo, stabilność rodziny i długoterminowe bezpieczeństwo.",
-      "meaning_reversed": "Niestabilność fundamentów lub napięcia rodzinne.",
+      "meaning_upright": "Trwałe dziedzictwo, rodzinna przystań oraz poczucie bezpieczeństwa budowane przez pokolenia.",
+      "meaning_reversed": "Pęknięcia w fundamentach domu lub napięcia w relacjach z bliskimi.",
       "archetype": null,
       "description": null
     },
@@ -1347,8 +1346,8 @@
         "szansa",
         "planowanie"
       ],
-      "meaning_upright": "Nauka, nowa szansa i ugruntowane planowanie.",
-      "meaning_reversed": "Prokrastynacja lub brak konsekwencji.",
+      "meaning_upright": "Czas zdobywania wiedzy, pojawienie się nowej szansy oraz rzetelne planowanie prowadzące do życiowego urodzaju.",
+      "meaning_reversed": "Ociąganie się z podjęciem decyzji lub słomiany zapał, który osłabia twoją sprawczość.",
       "archetype": null,
       "description": null
     },
@@ -1365,8 +1364,8 @@
         "rutyna",
         "niezawodność"
       ],
-      "meaning_upright": "Niezachwiany postęp i niezawodny wysiłek.",
-      "meaning_reversed": "Stagnacja lub uparte przywiązanie do rutyny.",
+      "meaning_upright": "Sprawczość przejawiająca się w nieustannym dążeniu do celu i solidnej, rzetelnej pracy.",
+      "meaning_reversed": "Zastój wywołany lękiem przed zmianą lub bezmyślne trwanie w skostniałych nawykach.",
       "archetype": null,
       "description": null
     },
@@ -1383,8 +1382,8 @@
         "praktyczność",
         "dom"
       ],
-      "meaning_upright": "Praktyczna troska, komfort i ugruntowane pielęgnowanie.",
-      "meaning_reversed": "Niezrównoważenie pracy i domu lub zaniedbanie samoopieki.",
+      "meaning_upright": "Zaradność, dbałość o codzienny komfort i troskliwe budowanie trwałego urodzaju.",
+      "meaning_reversed": "Brak równowagi między życiem zawodowym a domowym lub zaniedbanie własnych potrzeb.",
       "archetype": null,
       "description": null
     },
@@ -1397,12 +1396,12 @@
       "image_path": "77.png",
       "name": "Król Monet",
       "keywords": [
-        "obfitość",
+        "urodzaj",
         "stabilność",
         "żywiciel"
       ],
-      "meaning_upright": "Obfitość, stabilność i odpowiedzialne zaopatrzenie.",
-      "meaning_reversed": "Materializm lub używanie zasobów do kontrolowania.",
+      "meaning_upright": "Czas prawdziwego urodzaju, życiowej stabilności i troski o bezpieczeństwo swoich bliskich.",
+      "meaning_reversed": "Nadmierne przywiązanie do spraw materialnych lub używanie majątku jako narzędzia do wywierania nacisku na innych.",
       "archetype": null,
       "description": null
     }
