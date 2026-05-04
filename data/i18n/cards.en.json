@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "locale": "en",
+  "version": 2,
+  "locale": "pl",
   "cards": [
     {
       "id": 0,
@@ -11,14 +11,14 @@
       "image_path": "0.png",
       "name": "The Fool",
       "keywords": [
-        "beginnings",
+        "new beginnings",
         "innocence",
-        "leap_of_faith"
+        "taking a risk"
       ],
-      "meaning_upright": "New beginnings, spontaneity, and trusting the journey.",
-      "meaning_reversed": "Recklessness, naivety, or hesitation to start.",
+      "meaning_upright": "A fresh start, being open to change, and trusting the process.",
+      "meaning_reversed": "Being careless, acting without thinking, or fear of starting.",
       "archetype": "The Seeker",
-      "description": "A step into the unknown with openness and curiosity."
+      "description": "Moving into something new with an open mind and curiosity."
     },
     {
       "id": 1,
@@ -31,12 +31,12 @@
       "keywords": [
         "will",
         "skill",
-        "manifestation"
+        "taking action"
       ],
-      "meaning_upright": "Focused intent, skillful action, and making things happen.",
-      "meaning_reversed": "Scattered energy, manipulation, or untapped potential.",
+      "meaning_upright": "You have the ability and tools to reach your goals. It is a time to take action.",
+      "meaning_reversed": "You are not focused. You may be using your skills in a negative way or not using your talents at all.",
       "archetype": "The Creator",
-      "description": "Aligning tools, will, and attention to create change."
+      "description": "Using your tools and focus to make changes happen."
     },
     {
       "id": 2,
@@ -49,12 +49,12 @@
       "keywords": [
         "intuition",
         "mystery",
-        "inner_voice"
+        "inner voice"
       ],
-      "meaning_upright": "Intuition, inner knowing, and hidden truths.",
-      "meaning_reversed": "Ignoring intuition, confusion, or secrets kept too long.",
-      "archetype": "The Mystic",
-      "description": "A quiet invitation to listen beneath the surface."
+      "meaning_upright": "Trust your feelings, look for deep understanding, and notice things that are hidden.",
+      "meaning_reversed": "Ignoring your feelings, feeling confused, or keeping secrets for too long.",
+      "archetype": "The Wise Guide",
+      "description": "A calm reminder to look beyond what you see on the outside."
     },
     {
       "id": 3,
@@ -65,14 +65,14 @@
       "image_path": "3.png",
       "name": "The Empress",
       "keywords": [
-        "nurture",
-        "abundance",
+        "care",
+        "plenty",
         "growth"
       ],
-      "meaning_upright": "Nurturing growth, creativity, and abundance.",
-      "meaning_reversed": "Creative block, neglect, or over-dependence.",
+      "meaning_upright": "Taking care of things, being creative, and having plenty.",
+      "meaning_reversed": "Difficulty creating, lack of care, or depending too much on others.",
       "archetype": "The Mother",
-      "description": "Care, beauty, and the power of cultivation."
+      "description": "Love, beauty, and the ability to help things grow."
     },
     {
       "id": 4,
@@ -84,13 +84,13 @@
       "name": "The Emperor",
       "keywords": [
         "structure",
-        "authority",
+        "leadership",
         "stability"
       ],
-      "meaning_upright": "Structure, leadership, and stable foundations.",
-      "meaning_reversed": "Rigidity, control issues, or instability in authority.",
+      "meaning_upright": "Good organization, leadership, and a strong foundation.",
+      "meaning_reversed": "Being too strict, problems with control, or weak leadership.",
       "archetype": "The Ruler",
-      "description": "Order and protection through clear boundaries."
+      "description": "Creating order and safety by setting clear rules."
     },
     {
       "id": 5,
@@ -102,13 +102,13 @@
       "name": "The Hierophant",
       "keywords": [
         "tradition",
-        "teaching",
+        "education",
         "beliefs"
       ],
-      "meaning_upright": "Tradition, mentorship, and shared values.",
-      "meaning_reversed": "Rebellion, dogma, or questioning old rules.",
+      "meaning_upright": "Following traditions, learning from a teacher, and shared values.",
+      "meaning_reversed": "Ignoring traditions, personal freedom, and questioning rules.",
       "archetype": "The Teacher",
-      "description": "Learning within a lineage of meaning and practice."
+      "description": "Learning through established systems and groups."
     },
     {
       "id": 6,
@@ -120,13 +120,13 @@
       "name": "The Lovers",
       "keywords": [
         "choice",
-        "union",
-        "values_alignment"
+        "partnership",
+        "shared values"
       ],
-      "meaning_upright": "Union, meaningful choice, and value alignment.",
-      "meaning_reversed": "Disharmony, misalignment, or fear of commitment.",
+      "meaning_upright": "A strong partnership, an important choice, and agreement between people.",
+      "meaning_reversed": "Disagreement, poor choices, or fear of a serious relationship.",
       "archetype": "The Beloved",
-      "description": "Choosing with the heart and living your values."
+      "description": "Making choices that match your personal beliefs."
     },
     {
       "id": 7,
@@ -137,14 +137,14 @@
       "image_path": "7.png",
       "name": "The Chariot",
       "keywords": [
-        "drive",
-        "victory",
-        "self_control"
+        "motivation",
+        "success",
+        "self-control"
       ],
-      "meaning_upright": "Determination, momentum, and disciplined progress.",
-      "meaning_reversed": "Lack of direction, conflicting forces, or burnout.",
-      "archetype": "The Victor",
-      "description": "Harnessing opposing energies to move forward."
+      "meaning_upright": "Strong focus, steady movement, and achieving goals.",
+      "meaning_reversed": "Feeling lost, lack of control, or feeling tired from working too hard.",
+      "archetype": "The Winner",
+      "description": "Managing different forces to move ahead successfully."
     },
     {
       "id": 8,
@@ -157,12 +157,12 @@
       "keywords": [
         "courage",
         "patience",
-        "inner_power"
+        "inner strength"
       ],
-      "meaning_upright": "Courage, patience, and gentle inner power.",
-      "meaning_reversed": "Self-doubt, impatience, or force over finesse.",
+      "meaning_upright": "You have courage, patience, and quiet inner strength.",
+      "meaning_reversed": "You feel doubt, you are impatient, or you are trying too hard to force a result.",
       "archetype": "The Heart",
-      "description": "Taming fear through compassion and steadiness."
+      "description": "Managing fear through kindness and being calm."
     },
     {
       "id": 9,
@@ -173,14 +173,14 @@
       "image_path": "9.png",
       "name": "The Hermit",
       "keywords": [
-        "solitude",
+        "being alone",
         "wisdom",
         "guidance"
       ],
-      "meaning_upright": "Solitude, insight, and inner guidance.",
-      "meaning_reversed": "Isolation, avoidance, or refusing help.",
-      "archetype": "The Sage",
-      "description": "Stepping back to see clearly."
+      "meaning_upright": "Time alone, understanding, and looking for answers inside yourself.",
+      "meaning_reversed": "Feeling lonely, avoiding people, or refusing help from others.",
+      "archetype": "The Wise Teacher",
+      "description": "Taking time away from others to think clearly."
     },
     {
       "id": 10,
@@ -193,12 +193,12 @@
       "keywords": [
         "cycles",
         "change",
-        "destiny"
+        "luck"
       ],
-      "meaning_upright": "Turning points, cycles, and shifts in luck.",
-      "meaning_reversed": "Resistance to change, delays, or repeating patterns.",
+      "meaning_upright": "A turning point, new cycles, and changes in luck.",
+      "meaning_reversed": "Fighting against change, delays, or repeating the same mistakes.",
       "archetype": "The Wheel",
-      "description": "Life moves—adapt and meet the moment."
+      "description": "Life is always moving. Be flexible and ready for what happens next."
     },
     {
       "id": 11,
@@ -211,12 +211,12 @@
       "keywords": [
         "truth",
         "fairness",
-        "accountability"
+        "responsibility"
       ],
-      "meaning_upright": "Truth, fairness, and responsible choices.",
-      "meaning_reversed": "Bias, denial, or avoiding consequences.",
+      "meaning_upright": "Truth, fairness, and making good choices.",
+      "meaning_reversed": "Unfairness, refusing to accept the truth, or avoiding results.",
       "archetype": "The Judge",
-      "description": "Seeing clearly and acting with integrity."
+      "description": "Seeing facts clearly and acting in an honest way."
     },
     {
       "id": 12,
@@ -228,13 +228,13 @@
       "name": "The Hanged Man",
       "keywords": [
         "pause",
-        "new_perspective",
-        "surrender"
+        "different_view",
+        "letting_go"
       ],
-      "meaning_upright": "Pause, surrender, and a fresh perspective.",
-      "meaning_reversed": "Stalling, stubbornness, or fear of letting go.",
-      "archetype": "The Initiate",
-      "description": "The gift of seeing differently."
+      "meaning_upright": "Take a break, stop trying to control things, and look at the situation in a new way.",
+      "meaning_reversed": "Waiting too long, being unwilling to change, or fear of moving forward.",
+      "archetype": "The Learner",
+      "description": "The ability to see things from a different point of view."
     },
     {
       "id": 13,
@@ -246,13 +246,13 @@
       "name": "Death",
       "keywords": [
         "endings",
-        "transformation",
-        "release"
+        "change",
+        "letting go"
       ],
-      "meaning_upright": "Endings that make room for transformation.",
-      "meaning_reversed": "Clinging, fear of change, or prolonged transition.",
+      "meaning_upright": "A situation is ending to allow for new growth.",
+      "meaning_reversed": "Holding on to the past or fear of change.",
       "archetype": "The Transformer",
-      "description": "Release what is done; renew what remains."
+      "description": "Finish what is complete and prepare for something new."
     },
     {
       "id": 14,
@@ -267,10 +267,10 @@
         "healing",
         "moderation"
       ],
-      "meaning_upright": "Balance, healing, and measured integration.",
-      "meaning_reversed": "Excess, imbalance, or lack of harmony.",
+      "meaning_upright": "Balance, healing, and combining things in the right way.",
+      "meaning_reversed": "Too much of something, being out of balance, or a lack of harmony.",
       "archetype": "The Alchemist",
-      "description": "Blend extremes into something whole."
+      "description": "Mix different things to create a calm and steady result."
     },
     {
       "id": 15,
@@ -281,14 +281,14 @@
       "image_path": "15.png",
       "name": "The Devil",
       "keywords": [
-        "attachment",
-        "shadow",
+        "being stuck",
+        "bad habits",
         "temptation"
       ],
-      "meaning_upright": "Attachments, temptation, and confronting the shadow.",
-      "meaning_reversed": "Breaking free, reclaiming power, or denial of issues.",
+      "meaning_upright": "Feeling trapped by habits or material desires. You may feel unable to change your situation.",
+      "meaning_reversed": "Breaking free from bad patterns. Taking back control of your life.",
       "archetype": "The Shadow",
-      "description": "See the chain to loosen it."
+      "description": "Look at what holds you back so you can let it go."
     },
     {
       "id": 16,
@@ -299,14 +299,14 @@
       "image_path": "16.png",
       "name": "The Tower",
       "keywords": [
-        "revelation",
-        "upheaval",
-        "reset"
+        "sudden change",
+        "truth",
+        "starting over"
       ],
-      "meaning_upright": "Upheaval, revelation, and clearing false structures.",
-      "meaning_reversed": "Avoiding the inevitable, prolonged disruption, or fear.",
+      "meaning_upright": "A sudden change that reveals the truth and removes things that are not solid.",
+      "meaning_reversed": "Trying to stop a necessary change, ongoing problems, or fear of the future.",
       "archetype": "The Lightning",
-      "description": "Truth strikes—rebuild on what is real."
+      "description": "The truth is revealed. Build your life on what is real."
     },
     {
       "id": 17,
@@ -318,13 +318,13 @@
       "name": "The Star",
       "keywords": [
         "hope",
-        "renewal",
+        "fresh start",
         "guidance"
       ],
-      "meaning_upright": "Hope, renewal, and a guiding light ahead.",
-      "meaning_reversed": "Discouragement, doubt, or dimmed optimism.",
+      "meaning_upright": "You have hope for the future. Things are getting better.",
+      "meaning_reversed": "You feel discouraged or have many doubts. It is hard to stay positive.",
       "archetype": "The Guide",
-      "description": "A quiet yes from the future."
+      "description": "A sign that good things are coming."
     },
     {
       "id": 18,
@@ -335,14 +335,14 @@
       "image_path": "18.png",
       "name": "The Moon",
       "keywords": [
-        "illusion",
-        "intuition",
-        "uncertainty"
+        "confusion",
+        "feelings",
+        "the unknown"
       ],
-      "meaning_upright": "Uncertainty, intuition, and navigating the unknown.",
-      "meaning_reversed": "Clarity emerging, fear easing, or self-deception exposed.",
+      "meaning_upright": "Things are not clear. Trust your feelings and move slowly.",
+      "meaning_reversed": "Truth is becoming clear. You feel less afraid.",
       "archetype": "The Dream",
-      "description": "Not everything is clear—move by inner light."
+      "description": "It is hard to see the truth. Follow your inner guidance."
     },
     {
       "id": 19,
@@ -353,14 +353,14 @@
       "image_path": "19.png",
       "name": "The Sun",
       "keywords": [
-        "joy",
+        "happiness",
         "success",
-        "vitality"
+        "energy"
       ],
-      "meaning_upright": "Joy, vitality, and confident success.",
-      "meaning_reversed": "Temporary setbacks, pessimism, or muted confidence.",
+      "meaning_upright": "Happiness, energy, and feeling successful.",
+      "meaning_reversed": "Small problems, feeling sad, or a lack of confidence.",
       "archetype": "The Light",
-      "description": "Warmth, visibility, and truth in daylight."
+      "description": "Warmth, being seen, and clear truth."
     },
     {
       "id": 20,
@@ -371,14 +371,14 @@
       "image_path": "20.png",
       "name": "Judgement",
       "keywords": [
-        "awakening",
+        "new understanding",
         "review",
-        "calling"
+        "important choice"
       ],
-      "meaning_upright": "Awakening, review, and answering a calling.",
-      "meaning_reversed": "Self-doubt, harsh judgment, or avoiding a decision.",
+      "meaning_upright": "A new understanding, looking at your past, and listening to your inner purpose.",
+      "meaning_reversed": "Doubting yourself, being too hard on yourself, or avoiding a choice.",
       "archetype": "The Call",
-      "description": "Choose your next chapter with honesty."
+      "description": "Choose your next step with honesty."
     },
     {
       "id": 21,
@@ -389,14 +389,14 @@
       "image_path": "21.png",
       "name": "The World",
       "keywords": [
-        "completion",
-        "integration",
-        "mastery"
+        "finishing",
+        "bringing things together",
+        "success"
       ],
-      "meaning_upright": "Completion, integration, and a sense of wholeness.",
-      "meaning_reversed": "Loose ends, delay, or incomplete closure.",
+      "meaning_upright": "You have finished a task. You feel complete and successful.",
+      "meaning_reversed": "You have unfinished work. You are waiting for a final result.",
       "archetype": "The Whole",
-      "description": "You arrive, and a new cycle begins."
+      "description": "You have reached your goal. A new part of your life is starting."
     },
     {
       "id": 22,
@@ -407,12 +407,12 @@
       "image_path": "22.png",
       "name": "Ace of Wands",
       "keywords": [
-        "spark",
-        "inspiration",
-        "initiative"
+        "new idea",
+        "energy",
+        "starting"
       ],
-      "meaning_upright": "A new spark of inspiration and the urge to begin.",
-      "meaning_reversed": "Delays, lack of motivation, or a spark that fizzles.",
+      "meaning_upright": "A new idea or a strong desire to start something.",
+      "meaning_reversed": "Delays, low energy, or a lack of interest.",
       "archetype": null,
       "description": null
     },
@@ -426,11 +426,11 @@
       "name": "Two of Wands",
       "keywords": [
         "planning",
-        "options",
-        "vision"
+        "choices",
+        "looking ahead"
       ],
-      "meaning_upright": "Planning the next step and widening your horizon.",
-      "meaning_reversed": "Fear of the unknown or playing it too safe.",
+      "meaning_upright": "Making plans for the future and thinking about new goals.",
+      "meaning_reversed": "Fear of the future or staying in your comfort zone.",
       "archetype": null,
       "description": null
     },
@@ -443,12 +443,12 @@
       "image_path": "24.png",
       "name": "Three of Wands",
       "keywords": [
-        "expansion",
+        "growth",
         "progress",
-        "momentum"
+        "moving forward"
       ],
-      "meaning_upright": "Expansion, progress, and results beginning to show.",
-      "meaning_reversed": "Delays, setbacks, or lack of follow-through.",
+      "meaning_upright": "Growth is happening. You are making progress. You are starting to see results.",
+      "meaning_reversed": "Things are delayed. There are problems. You are not finishing what you started.",
       "archetype": null,
       "description": null
     },
@@ -463,10 +463,10 @@
       "keywords": [
         "celebration",
         "home",
-        "milestone"
+        "achievement"
       ],
-      "meaning_upright": "Celebration, stability, and a joyful milestone.",
-      "meaning_reversed": "Tension at home or a celebration that feels off.",
+      "meaning_upright": "A happy event, feeling safe at home, and reaching a goal.",
+      "meaning_reversed": "Problems at home or an event that does not feel right.",
       "archetype": null,
       "description": null
     },
@@ -480,11 +480,11 @@
       "name": "Five of Wands",
       "keywords": [
         "competition",
-        "friction",
-        "testing"
+        "disagreement",
+        "challenge"
       ],
-      "meaning_upright": "Competition, friction, and learning through challenge.",
-      "meaning_reversed": "Avoiding conflict or arguments that go nowhere.",
+      "meaning_upright": "There is competition. People have different opinions. You learn by facing challenges.",
+      "meaning_reversed": "Avoiding a fight. You are stepping away from arguments that do not help you.",
       "archetype": null,
       "description": null
     },
@@ -497,12 +497,12 @@
       "image_path": "27.png",
       "name": "Six of Wands",
       "keywords": [
-        "recognition",
+        "praise",
         "success",
-        "confidence"
+        "self-confidence"
       ],
-      "meaning_upright": "Recognition, success, and earned confidence.",
-      "meaning_reversed": "Ego, insecurity, or success not acknowledged.",
+      "meaning_upright": "You are winning or achieving your goals. People notice your hard work.",
+      "meaning_reversed": "You feel low confidence. You do not feel appreciated for your work.",
       "archetype": null,
       "description": null
     },
@@ -519,8 +519,8 @@
         "courage",
         "boundaries"
       ],
-      "meaning_upright": "Standing your ground and protecting your position.",
-      "meaning_reversed": "Giving up too soon or feeling overwhelmed.",
+      "meaning_upright": "You are holding your position and defending your ideas.",
+      "meaning_reversed": "You are quitting too early or feeling unable to handle the pressure.",
       "archetype": null,
       "description": null
     },
@@ -534,11 +534,11 @@
       "name": "Eight of Wands",
       "keywords": [
         "speed",
-        "movement",
-        "messages"
+        "action",
+        "news"
       ],
-      "meaning_upright": "Speed, movement, and swift developments.",
-      "meaning_reversed": "Delays, miscommunication, or scattered effort.",
+      "meaning_upright": "Things are moving very fast. You will see quick progress.",
+      "meaning_reversed": "Things are slowing down. There may be confusion or a lack of focus.",
       "archetype": null,
       "description": null
     },
@@ -551,12 +551,12 @@
       "image_path": "30.png",
       "name": "Nine of Wands",
       "keywords": [
-        "resilience",
-        "persistence",
-        "guarded"
+        "strength",
+        "keep going",
+        "being careful"
       ],
-      "meaning_upright": "Resilience and persistence despite fatigue.",
-      "meaning_reversed": "Burnout, defensiveness, or refusing support.",
+      "meaning_upright": "You are tired, but you keep going. You stay strong through hard times.",
+      "meaning_reversed": "You are exhausted. You are too worried about others. You do not ask for help.",
       "archetype": null,
       "description": null
     },
@@ -569,12 +569,12 @@
       "image_path": "31.png",
       "name": "Ten of Wands",
       "keywords": [
-        "burden",
-        "responsibility",
-        "pressure"
+        "hard work",
+        "duty",
+        "stress"
       ],
-      "meaning_upright": "Heavy responsibility and carrying too much.",
-      "meaning_reversed": "Delegating, release, or collapse under pressure.",
+      "meaning_upright": "You have many responsibilities and are carrying too much.",
+      "meaning_reversed": "You need to share tasks, let go of work, or you are tired from too much stress.",
       "archetype": null,
       "description": null
     },
@@ -588,11 +588,11 @@
       "name": "Page of Wands",
       "keywords": [
         "curiosity",
-        "exploration",
+        "learning",
         "news"
       ],
-      "meaning_upright": "Curiosity, exploration, and exciting news.",
-      "meaning_reversed": "Impulsiveness, delays, or lack of direction.",
+      "meaning_upright": "You are interested in new things. You are exploring ideas. You may receive exciting news.",
+      "meaning_reversed": "You act without thinking. You face delays. You do not have a clear plan.",
       "archetype": null,
       "description": null
     },
@@ -606,11 +606,11 @@
       "name": "Knight of Wands",
       "keywords": [
         "adventure",
-        "boldness",
-        "movement"
+        "bravery",
+        "action"
       ],
-      "meaning_upright": "Bold action, adventure, and forward movement.",
-      "meaning_reversed": "Recklessness, impatience, or inconsistency.",
+      "meaning_upright": "Taking quick action, seeking adventure, and moving forward.",
+      "meaning_reversed": "Being reckless, acting too fast, or changing your mind often.",
       "archetype": null,
       "description": null
     },
@@ -624,11 +624,11 @@
       "name": "Queen of Wands",
       "keywords": [
         "confidence",
-        "warmth",
+        "kindness",
         "leadership"
       ],
-      "meaning_upright": "Confidence, warmth, and inspiring leadership.",
-      "meaning_reversed": "Insecurity, jealousy, or demanding attention.",
+      "meaning_upright": "You are confident, kind, and a good leader.",
+      "meaning_reversed": "You feel insecure, jealous, or want too much attention.",
       "archetype": null,
       "description": null
     },
@@ -641,12 +641,12 @@
       "image_path": "35.png",
       "name": "King of Wands",
       "keywords": [
-        "vision",
-        "mastery",
-        "courage"
+        "planning",
+        "skill",
+        "bravery"
       ],
-      "meaning_upright": "Visionary leadership and creative mastery.",
-      "meaning_reversed": "Impulsiveness, arrogance, or domineering energy.",
+      "meaning_upright": "A leader with a clear plan and great skill.",
+      "meaning_reversed": "Acting without thinking, pride, or being too controlling.",
       "archetype": null,
       "description": null
     },
@@ -654,17 +654,17 @@
       "id": 36,
       "arcana": "minor",
       "number": 1,
-      "suit": "cups",
-      "rank": "ace",
+      "suit": "Cups",
+      "rank": "Ace",
       "image_path": "36.png",
       "name": "Ace of Cups",
       "keywords": [
         "love",
-        "openness",
-        "renewal"
+        "honesty",
+        "new beginnings"
       ],
-      "meaning_upright": "Emotional renewal, love, and an open heart.",
-      "meaning_reversed": "Blocked feelings or difficulty receiving love.",
+      "meaning_upright": "A new start in your feelings. A time for love and kindness.",
+      "meaning_reversed": "Hard to share feelings. Trouble giving or receiving love.",
       "archetype": null,
       "description": null
     },
@@ -679,10 +679,10 @@
       "keywords": [
         "connection",
         "partnership",
-        "union"
+        "agreement"
       ],
-      "meaning_upright": "Connection, partnership, and mutual exchange.",
-      "meaning_reversed": "Imbalance, miscommunication, or tension in bonds.",
+      "meaning_upright": "A strong connection between two people. Working well together.",
+      "meaning_reversed": "Problems in a relationship. A lack of balance or poor communication.",
       "archetype": null,
       "description": null
     },
@@ -699,8 +699,8 @@
         "celebration",
         "support"
       ],
-      "meaning_upright": "Friendship, celebration, and shared support.",
-      "meaning_reversed": "Overindulgence or social drama.",
+      "meaning_upright": "A time for friendship, happy events, and helping each other.",
+      "meaning_reversed": "Spending too much time on parties or having problems with friends.",
       "archetype": null,
       "description": null
     },
@@ -713,12 +713,12 @@
       "image_path": "39.png",
       "name": "Four of Cups",
       "keywords": [
-        "apathy",
-        "reflection",
-        "reevaluate"
+        "boredom",
+        "thinking",
+        "choosing"
       ],
-      "meaning_upright": "Apathy, reflection, and reevaluating options.",
-      "meaning_reversed": "New interest, re-engagement, or a fresh offer.",
+      "meaning_upright": "You feel bored or unhappy. You are thinking about your life and your choices.",
+      "meaning_reversed": "You feel interested again. You are ready to accept a new opportunity.",
       "archetype": null,
       "description": null
     },
@@ -732,11 +732,11 @@
       "name": "Five of Cups",
       "keywords": [
         "loss",
-        "grief",
+        "sadness",
         "regret"
       ],
-      "meaning_upright": "Loss, grief, and focusing on what went wrong.",
-      "meaning_reversed": "Acceptance, healing, and seeing what remains.",
+      "meaning_upright": "You are feeling sad about a loss. You are focusing on your mistakes.",
+      "meaning_reversed": "You are starting to heal. You are looking at the good things you still have.",
       "archetype": null,
       "description": null
     },
@@ -749,12 +749,12 @@
       "image_path": "41.png",
       "name": "Six of Cups",
       "keywords": [
-        "nostalgia",
-        "innocence",
-        "memories"
+        "the past",
+        "kindness",
+        "happy memories"
       ],
-      "meaning_upright": "Nostalgia, kindness, and gentle memories.",
-      "meaning_reversed": "Being stuck in the past or idealizing.",
+      "meaning_upright": "Thinking about the past with happiness. Acts of kindness and simple joy.",
+      "meaning_reversed": "Focusing too much on the past. Trouble moving forward.",
       "archetype": null,
       "description": null
     },
@@ -768,11 +768,11 @@
       "name": "Seven of Cups",
       "keywords": [
         "choices",
-        "fantasy",
-        "illusion"
+        "imagination",
+        "confusion"
       ],
-      "meaning_upright": "Many choices, fantasies, and unclear priorities.",
-      "meaning_reversed": "Clarity, decision, and focus returning.",
+      "meaning_upright": "You have many choices. It is hard to know what is real and what to focus on.",
+      "meaning_reversed": "You are gaining clarity. You can now make a clear decision and focus.",
       "archetype": null,
       "description": null
     },
@@ -785,12 +785,12 @@
       "image_path": "43.png",
       "name": "Eight of Cups",
       "keywords": [
-        "walking_away",
-        "search",
-        "transition"
+        "leaving",
+        "searching",
+        "change"
       ],
-      "meaning_upright": "Walking away to seek deeper meaning.",
-      "meaning_reversed": "Fear of change or returning after learning.",
+      "meaning_upright": "Leaving a situation to look for something more meaningful.",
+      "meaning_reversed": "Being afraid to change or returning to something old.",
       "archetype": null,
       "description": null
     },
@@ -803,12 +803,12 @@
       "image_path": "44.png",
       "name": "Nine of Cups",
       "keywords": [
-        "satisfaction",
-        "wish",
-        "contentment"
+        "happiness",
+        "wishes coming true",
+        "being satisfied"
       ],
-      "meaning_upright": "Satisfaction, contentment, and a wish fulfilled.",
-      "meaning_reversed": "Overindulgence or dissatisfaction beneath comfort.",
+      "meaning_upright": "You are happy and satisfied. Your goals are achieved.",
+      "meaning_reversed": "You have too much of a good thing. You are not happy despite having what you wanted.",
       "archetype": null,
       "description": null
     },
@@ -823,10 +823,10 @@
       "keywords": [
         "harmony",
         "family",
-        "joy"
+        "happiness"
       ],
-      "meaning_upright": "Harmony, joy, and emotional fulfillment.",
-      "meaning_reversed": "Misalignment at home or unrealistic expectations.",
+      "meaning_upright": "Peace, happiness, and satisfaction in your life.",
+      "meaning_reversed": "Problems at home or expecting too much.",
       "archetype": null,
       "description": null
     },
@@ -839,12 +839,12 @@
       "image_path": "46.png",
       "name": "Page of Cups",
       "keywords": [
-        "messages",
+        "news",
         "openness",
         "surprise"
       ],
-      "meaning_upright": "A heartfelt message and open emotional curiosity.",
-      "meaning_reversed": "Emotional immaturity or mixed signals.",
+      "meaning_upright": "You receive a kind message. You are curious about your feelings.",
+      "meaning_reversed": "You act without thinking about your feelings. You feel confused.",
       "archetype": null,
       "description": null
     },
@@ -861,8 +861,8 @@
         "invitation",
         "idealism"
       ],
-      "meaning_upright": "Romance, invitations, and following the heart.",
-      "meaning_reversed": "Moodiness, disappointment, or chasing illusions.",
+      "meaning_upright": "A new romantic opportunity, an invitation, or listening to your feelings.",
+      "meaning_reversed": "Being moody, feeling disappointed, or having unrealistic expectations.",
       "archetype": null,
       "description": null
     },
@@ -875,12 +875,12 @@
       "image_path": "48.png",
       "name": "Queen of Cups",
       "keywords": [
-        "empathy",
-        "intuition",
+        "kindness",
+        "feelings",
         "care"
       ],
-      "meaning_upright": "Empathy, intuition, and emotional care.",
-      "meaning_reversed": "Overwhelm, co-dependency, or poor boundaries.",
+      "meaning_upright": "You understand the feelings of others. You are kind and calm.",
+      "meaning_reversed": "You feel too much stress. You need better personal boundaries.",
       "archetype": null,
       "description": null
     },
@@ -894,11 +894,11 @@
       "name": "King of Cups",
       "keywords": [
         "calm",
-        "compassion",
+        "kindness",
         "balance"
       ],
-      "meaning_upright": "Calm compassion and emotional balance.",
-      "meaning_reversed": "Emotional manipulation or suppressed feelings.",
+      "meaning_upright": "A person who is calm, kind, and in control of their emotions.",
+      "meaning_reversed": "Using emotions to control others or hiding your true feelings.",
       "archetype": null,
       "description": null
     },
@@ -911,12 +911,12 @@
       "image_path": "50.png",
       "name": "Ace of Swords",
       "keywords": [
-        "clarity",
+        "clear thinking",
         "truth",
-        "breakthrough"
+        "new ideas"
       ],
-      "meaning_upright": "Clarity, truth, and a mental breakthrough.",
-      "meaning_reversed": "Confusion, misinformation, or cloudy judgment.",
+      "meaning_upright": "Clear thinking, finding the truth, and a new idea.",
+      "meaning_reversed": "Confusion, not having the right facts, or difficulty thinking clearly.",
       "archetype": null,
       "description": null
     },
@@ -929,12 +929,12 @@
       "image_path": "51.png",
       "name": "Two of Swords",
       "keywords": [
-        "stalemate",
+        "waiting",
         "choice",
-        "avoidance"
+        "avoiding a problem"
       ],
-      "meaning_upright": "Stalemate, difficult choice, and guardedness.",
-      "meaning_reversed": "Indecision ends, truth revealed, or overload.",
+      "meaning_upright": "A situation where no progress is made. You must make a difficult decision. You are protecting your feelings.",
+      "meaning_reversed": "You stop being undecided. The truth becomes clear. You feel overwhelmed by too much information.",
       "archetype": null,
       "description": null
     },
@@ -947,12 +947,12 @@
       "image_path": "52.png",
       "name": "Three of Swords",
       "keywords": [
-        "heartbreak",
-        "sorrow",
+        "sadness",
+        "pain",
         "truth"
       ],
-      "meaning_upright": "Heartbreak, sorrow, and hard truths.",
-      "meaning_reversed": "Healing, forgiveness, and moving on.",
+      "meaning_upright": "Feeling sad or hurt. Learning a difficult truth.",
+      "meaning_reversed": "Healing from pain. Choosing to forgive. Moving forward.",
       "archetype": null,
       "description": null
     },
@@ -969,8 +969,8 @@
         "recovery",
         "pause"
       ],
-      "meaning_upright": "Rest, recovery, and a necessary pause.",
-      "meaning_reversed": "Restlessness or returning too soon.",
+      "meaning_upright": "It is time to rest and recover. Take a break to heal.",
+      "meaning_reversed": "You are not resting enough. You are returning to work too quickly.",
       "archetype": null,
       "description": null
     },
@@ -983,12 +983,12 @@
       "image_path": "54.png",
       "name": "Five of Swords",
       "keywords": [
-        "conflict",
-        "ego",
-        "win_at_all_costs"
+        "disagreement",
+        "pride",
+        "selfishness"
       ],
-      "meaning_upright": "Conflict, ego, and winning at a cost.",
-      "meaning_reversed": "Reconciliation or walking away from drama.",
+      "meaning_upright": "There is a disagreement. You may win, but it hurts your relationships.",
+      "meaning_reversed": "You choose to stop fighting. You decide to move on from a difficult situation.",
       "archetype": null,
       "description": null
     },
@@ -1001,12 +1001,12 @@
       "image_path": "55.png",
       "name": "Six of Swords",
       "keywords": [
-        "transition",
+        "change",
         "healing",
-        "moving_on"
+        "leaving the past"
       ],
-      "meaning_upright": "Transition, healing, and moving toward calmer waters.",
-      "meaning_reversed": "Difficulty moving on or carrying old baggage.",
+      "meaning_upright": "Moving away from a difficult situation toward a better future.",
+      "meaning_reversed": "Trouble letting go of the past or moving forward.",
       "archetype": null,
       "description": null
     },
@@ -1019,12 +1019,12 @@
       "image_path": "56.png",
       "name": "Seven of Swords",
       "keywords": [
-        "strategy",
-        "secrecy",
-        "avoidance"
+        "planning",
+        "keeping secrets",
+        "avoiding a situation"
       ],
-      "meaning_upright": "Strategy, secrecy, and acting indirectly.",
-      "meaning_reversed": "Confession, exposure, or changing tactics.",
+      "meaning_upright": "You are using a plan to reach a goal. You may be keeping your actions private.",
+      "meaning_reversed": "You are telling the truth, being found out, or changing your plans.",
       "archetype": null,
       "description": null
     },
@@ -1037,12 +1037,12 @@
       "image_path": "57.png",
       "name": "Eight of Swords",
       "keywords": [
-        "restriction",
+        "feeling trapped",
         "fear",
-        "self_limiting"
+        "limiting your own progress"
       ],
-      "meaning_upright": "Feeling restricted by fear or self-limiting beliefs.",
-      "meaning_reversed": "Release, new perspective, and loosening bonds.",
+      "meaning_upright": "You feel stuck because of fear or your own negative thoughts.",
+      "meaning_reversed": "You are becoming free, seeing things clearly, and moving forward.",
       "archetype": null,
       "description": null
     },
@@ -1057,10 +1057,10 @@
       "keywords": [
         "anxiety",
         "worry",
-        "sleeplessness"
+        "lack of sleep"
       ],
-      "meaning_upright": "Anxiety, worry, and sleepless nights.",
-      "meaning_reversed": "Relief, support, or confronting fears.",
+      "meaning_upright": "You feel nervous and worried. You may have trouble sleeping.",
+      "meaning_reversed": "You find relief. You receive help or face your fears.",
       "archetype": null,
       "description": null
     },
@@ -1075,10 +1075,10 @@
       "keywords": [
         "ending",
         "betrayal",
-        "release"
+        "letting go"
       ],
-      "meaning_upright": "An ending, painful truth, and release.",
-      "meaning_reversed": "Recovery, resilience, and rising again.",
+      "meaning_upright": "A final ending, a difficult truth, and moving on.",
+      "meaning_reversed": "Recovery, getting stronger, and a new start.",
       "archetype": null,
       "description": null
     },
@@ -1092,11 +1092,11 @@
       "name": "Page of Swords",
       "keywords": [
         "curiosity",
-        "truth_seeking",
-        "alertness"
+        "searching for the truth",
+        "being alert"
       ],
-      "meaning_upright": "Curiosity, truth-seeking, and mental alertness.",
-      "meaning_reversed": "Gossip, haste, or jumping to conclusions.",
+      "meaning_upright": "You are curious, looking for the truth, and paying attention to your surroundings.",
+      "meaning_reversed": "You are sharing rumors, acting too quickly, or making decisions without enough information.",
       "archetype": null,
       "description": null
     },
@@ -1109,12 +1109,12 @@
       "image_path": "61.png",
       "name": "Knight of Swords",
       "keywords": [
-        "directness",
+        "being direct",
         "speed",
-        "drive"
+        "motivation"
       ],
-      "meaning_upright": "Direct action, speed, and decisive thinking.",
-      "meaning_reversed": "Impulsiveness, harshness, or rushing blindly.",
+      "meaning_upright": "Taking quick action, moving fast, and thinking clearly.",
+      "meaning_reversed": "Acting without thinking, being unkind, or moving too fast.",
       "archetype": null,
       "description": null
     },
@@ -1127,12 +1127,12 @@
       "image_path": "62.png",
       "name": "Queen of Swords",
       "keywords": [
-        "discernment",
+        "good judgment",
         "independence",
-        "clarity"
+        "clear thinking"
       ],
-      "meaning_upright": "Discernment, independence, and clear boundaries.",
-      "meaning_reversed": "Coldness, bitterness, or cutting words.",
+      "meaning_upright": "Using good judgment, being independent, and setting clear personal limits.",
+      "meaning_reversed": "Being unfriendly, feeling bitter, or using unkind words.",
       "archetype": null,
       "description": null
     },
@@ -1149,8 +1149,8 @@
         "authority",
         "truth"
       ],
-      "meaning_upright": "Logic, authority, and principled truth.",
-      "meaning_reversed": "Abuse of power or rigid, unfair judgment.",
+      "meaning_upright": "You use logic, keep authority, and tell the truth.",
+      "meaning_reversed": "You misuse power or make unfair, strict judgments.",
       "archetype": null,
       "description": null
     },
@@ -1163,12 +1163,12 @@
       "image_path": "64.png",
       "name": "Ace of Pentacles",
       "keywords": [
-        "opportunity",
+        "new opportunity",
         "growth",
-        "resources"
+        "money"
       ],
-      "meaning_upright": "A tangible opportunity and seed of prosperity.",
-      "meaning_reversed": "Missed chance or unstable foundations.",
+      "meaning_upright": "A real chance to start something successful.",
+      "meaning_reversed": "A missed chance or a weak plan.",
       "archetype": null,
       "description": null
     },
@@ -1182,11 +1182,11 @@
       "name": "Two of Pentacles",
       "keywords": [
         "balance",
-        "adaptation",
-        "juggling"
+        "flexibility",
+        "managing tasks"
       ],
-      "meaning_upright": "Balancing priorities and adapting to change.",
-      "meaning_reversed": "Overcommitment or losing balance.",
+      "meaning_upright": "You are balancing your priorities and adjusting to changes.",
+      "meaning_reversed": "You have too many responsibilities or you are struggling to stay balanced.",
       "archetype": null,
       "description": null
     },
@@ -1200,11 +1200,11 @@
       "name": "Three of Pentacles",
       "keywords": [
         "teamwork",
-        "craft",
+        "skill",
         "learning"
       ],
-      "meaning_upright": "Teamwork, craftsmanship, and learning by doing.",
-      "meaning_reversed": "Lack of collaboration or sloppy work.",
+      "meaning_upright": "Working well with others, practicing a skill, and learning through experience.",
+      "meaning_reversed": "Difficulty working in a group or poor quality of work.",
       "archetype": null,
       "description": null
     },
@@ -1217,12 +1217,12 @@
       "image_path": "67.png",
       "name": "Four of Pentacles",
       "keywords": [
-        "security",
+        "safety",
         "control",
-        "holding_on"
+        "saving"
       ],
-      "meaning_upright": "Security, control, and holding on tightly.",
-      "meaning_reversed": "Letting go or fear of loss driving decisions.",
+      "meaning_upright": "You want safety and control. You are holding on to your money or belongings.",
+      "meaning_reversed": "You need to let go. You are making choices because you are afraid of losing things.",
       "archetype": null,
       "description": null
     },
@@ -1235,12 +1235,12 @@
       "image_path": "68.png",
       "name": "Five of Pentacles",
       "keywords": [
-        "hardship",
-        "lack",
-        "support"
+        "difficulty",
+        "needing help",
+        "feeling left out"
       ],
-      "meaning_upright": "Hardship, lack, and seeking support.",
-      "meaning_reversed": "Recovery, assistance, and improving conditions.",
+      "meaning_upright": "You are going through a difficult time. You may feel like you do not have enough money or support. It is a good time to ask others for help.",
+      "meaning_reversed": "Things are starting to get better. You are finding the help you need. Your situation is improving.",
       "archetype": null,
       "description": null
     },
@@ -1257,8 +1257,8 @@
         "receiving",
         "fairness"
       ],
-      "meaning_upright": "Giving and receiving with fairness and care.",
-      "meaning_reversed": "Strings attached or imbalance in exchange.",
+      "meaning_upright": "You give and receive help in a fair and kind way.",
+      "meaning_reversed": "The exchange is not fair, or there are hidden conditions.",
       "archetype": null,
       "description": null
     },
@@ -1272,11 +1272,11 @@
       "name": "Seven of Pentacles",
       "keywords": [
         "patience",
-        "investment",
-        "assessment"
+        "planning",
+        "review"
       ],
-      "meaning_upright": "Patience, long-term investment, and assessment.",
-      "meaning_reversed": "Impatience or doubting progress too soon.",
+      "meaning_upright": "Be patient. You are working toward a long-term goal. It is a good time to check your progress.",
+      "meaning_reversed": "You feel impatient. You are worried that your hard work is not producing results fast enough.",
       "archetype": null,
       "description": null
     },
@@ -1291,10 +1291,10 @@
       "keywords": [
         "practice",
         "skill",
-        "dedication"
+        "hard work"
       ],
-      "meaning_upright": "Practice, dedication, and improving a craft.",
-      "meaning_reversed": "Cutting corners or boredom with routine.",
+      "meaning_upright": "Practicing a skill and working hard to get better at it.",
+      "meaning_reversed": "Doing work poorly or feeling bored with daily tasks.",
       "archetype": null,
       "description": null
     },
@@ -1307,12 +1307,12 @@
       "image_path": "72.png",
       "name": "Nine of Pentacles",
       "keywords": [
-        "independence",
+        "being independent",
         "comfort",
-        "self_worth"
+        "valuing yourself"
       ],
-      "meaning_upright": "Independence, comfort, and self-worth.",
-      "meaning_reversed": "Overreliance or insecurity despite success.",
+      "meaning_upright": "You are independent, comfortable, and you value yourself.",
+      "meaning_reversed": "You rely too much on others or feel insecure, even after success.",
       "archetype": null,
       "description": null
     },
@@ -1325,12 +1325,12 @@
       "image_path": "73.png",
       "name": "Ten of Pentacles",
       "keywords": [
-        "legacy",
+        "long-term success",
         "family",
-        "stability"
+        "security"
       ],
-      "meaning_upright": "Legacy, family stability, and long-term security.",
-      "meaning_reversed": "Instability in foundations or family tensions.",
+      "meaning_upright": "A strong family, lasting success, and financial security.",
+      "meaning_reversed": "Problems with money, family arguments, or a lack of stability.",
       "archetype": null,
       "description": null
     },
@@ -1343,12 +1343,12 @@
       "image_path": "74.png",
       "name": "Page of Pentacles",
       "keywords": [
-        "study",
+        "learning",
         "opportunity",
         "planning"
       ],
-      "meaning_upright": "Study, new opportunity, and grounded planning.",
-      "meaning_reversed": "Procrastination or lack of follow-through.",
+      "meaning_upright": "You are learning something new, starting a new project, or making a careful plan.",
+      "meaning_reversed": "You are delaying your work or not finishing what you started.",
       "archetype": null,
       "description": null
     },
@@ -1361,12 +1361,12 @@
       "image_path": "75.png",
       "name": "Knight of Pentacles",
       "keywords": [
-        "steadiness",
-        "routine",
+        "patience",
+        "hard work",
         "reliability"
       ],
-      "meaning_upright": "Steady progress and reliable effort.",
-      "meaning_reversed": "Stagnation or stubborn attachment to routine.",
+      "meaning_upright": "Moving forward slowly and doing your work well.",
+      "meaning_reversed": "Making no progress or refusing to change your habits.",
       "archetype": null,
       "description": null
     },
@@ -1380,11 +1380,11 @@
       "name": "Queen of Pentacles",
       "keywords": [
         "care",
-        "practicality",
-        "home"
+        "practical skills",
+        "home life"
       ],
-      "meaning_upright": "Practical care, comfort, and grounded nurture.",
-      "meaning_reversed": "Work-home imbalance or neglecting self-care.",
+      "meaning_upright": "Being helpful, creating comfort, and taking care of daily needs.",
+      "meaning_reversed": "Problems balancing work and home, or not taking care of yourself.",
       "archetype": null,
       "description": null
     },
@@ -1397,12 +1397,12 @@
       "image_path": "77.png",
       "name": "King of Pentacles",
       "keywords": [
-        "abundance",
+        "wealth",
         "stability",
         "provider"
       ],
-      "meaning_upright": "Abundance, stability, and responsible provision.",
-      "meaning_reversed": "Materialism or using resources to control.",
+      "meaning_upright": "You have success, financial security, and the ability to support others.",
+      "meaning_reversed": "Focusing too much on money or using wealth to control people.",
       "archetype": null,
       "description": null
     }

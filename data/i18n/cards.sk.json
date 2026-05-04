@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "locale": "sk",
+  "version": 2,
+  "locale": "pl",
   "cards": [
     {
       "id": 0,
@@ -11,14 +11,14 @@
       "image_path": "0.png",
       "name": "Blázon",
       "keywords": [
-        "začiatky",
-        "nevinnosť",
+        "nové kapitoly",
+        "úprimná prostota",
         "skok do neznáma"
       ],
-      "meaning_upright": "Nové začiatky, spontánnosť a dôvera v cestu.",
-      "meaning_reversed": "Bezhlavosť, naivita alebo váhanie začať.",
+      "meaning_upright": "Všetko sa začína odznova. Je čas zahodiť predsudky, zachovať si ľahkú myseľ a s dôverou sa vydať tam, kam vás ťahá srdce.",
+      "meaning_reversed": "Pozor na unáhlené činy. Niekedy treba radšej vziať rozum do hrsti, než sa bezhlavo vrhať do situácií, na ktoré ešte nedozrel čas.",
       "archetype": "Hľadač",
-      "description": "Krok do neznáma s otvorenosťou a zvedavosťou."
+      "description": "Odhodlanie vykročiť v ústrety neznámemu s otvorenou mysľou a detskou zvedavosťou."
     },
     {
       "id": 1,
@@ -31,12 +31,12 @@
       "keywords": [
         "vôľa",
         "zručnosť",
-        "manifestácia"
+        "spôsobilosť"
       ],
-      "meaning_upright": "Sústredený zámer, šikovné konanie a uskutočňovanie vecí.",
-      "meaning_reversed": "Rozptýlená energia, manipulácia alebo nevyužitý potenciál.",
+      "meaning_upright": "Jasne vytýčený cieľ, obratné narábanie s tým, čo máš poruke, a schopnosť pretaviť myšlienky do reality.",
+      "meaning_reversed": "Roztrieštená pozornosť, nečestné úmysly alebo talent, ktorý zatiaľ zaháľa v kúte.",
       "archetype": "Stvoriteľ",
-      "description": "Zosúladenie nástrojov, vôle a pozornosti k vytvoreniu zmeny."
+      "description": "Umenie spojiť svoje nástroje, odhodlanie a sústredenú myseľ tak, aby človek dokázal pohnúť vecami okolo seba."
     },
     {
       "id": 2,
@@ -51,10 +51,10 @@
         "tajomstvo",
         "vnútorný hlas"
       ],
-      "meaning_upright": "Intuícia, vnútorné poznanie a skryté pravdy.",
-      "meaning_reversed": "Ignorovanie intuície, zmätok alebo príliš dlho strážené tajomstvá.",
+      "meaning_upright": "Schopnosť načúvať svojej prirodzenej intuícii, poznanie, ktoré prichádza zvnútra, a odkrývanie právd, ktoré zatiaľ zostávajú skryté pred svetom.",
+      "meaning_reversed": "Prehliadanie vlastného tušenia, vnútorný nepokoj a chaos, prípadne bremeno dlho zamlčiavaných tajomstiev, ktoré už človeka začínajú ťažiť.",
       "archetype": "Mystik",
-      "description": "Tiché pozvanie počúvať to, čo je pod povrchom."
+      "description": "Tiché, no naliehavé pozvanie k tomu, aby si sa zastavil a začal vnímať to, čo sa deje pod povrchom bežných dní."
     },
     {
       "id": 3,
@@ -66,13 +66,13 @@
       "name": "Cisárovná",
       "keywords": [
         "starostlivosť",
-        "hojnosť",
-        "rast"
+        "úroda",
+        "rozmach"
       ],
-      "meaning_upright": "Podpora rastu, kreativita a hojnosť.",
-      "meaning_reversed": "Tvorivý blok, zanedbávanie alebo prílišná závislosť.",
+      "meaning_upright": "Podpora všetkého živého, tvorivá iskra a plné plody vašej práce.",
+      "meaning_reversed": "Zaseknutá tvorivosť, zanedbané záležitosti alebo až prílišná naviazanosť na druhých.",
       "archetype": "Matka",
-      "description": "Starostlivosť, krása a sila kultivácie."
+      "description": "Starostlivosť, zmysel pre krásu a sila trpezlivého kultivovania."
     },
     {
       "id": 4,
@@ -83,14 +83,14 @@
       "image_path": "4.png",
       "name": "Cisár",
       "keywords": [
-        "štruktúra",
+        "poriadok",
         "autorita",
-        "stabilita"
+        "pevné zázemie"
       ],
-      "meaning_upright": "Štruktúra, vodcovstvo a stabilné základy.",
-      "meaning_reversed": "Strata pružnosti, problémy s kontrolou alebo nestabilita v autorite.",
+      "meaning_upright": "Rád, schopnosť viesť a budovanie pevného zázemia, na ktorom sa dá stavať.",
+      "meaning_reversed": "Strata nadhľadu, prílišná tvrdohlavosť alebo keď sa autorita rúca pod vlastnou neústupnosťou.",
       "archetype": "Vládca",
-      "description": "Poriadok a ochrana prostredníctvom jasných hraníc."
+      "description": "Poriadok a bezpečie, ktoré vznikajú vďaka jasne vymedzeným pravidlám."
     },
     {
       "id": 5,
@@ -102,13 +102,13 @@
       "name": "Veľkňaz",
       "keywords": [
         "tradícia",
-        "učenie",
-        "presvedčenia"
+        "vzdelávanie",
+        "osobné presvedčenie"
       ],
-      "meaning_upright": "Tradícia, mentorstvo a zdieľané hodnoty.",
-      "meaning_reversed": "Rebélia, dogma alebo spochybňovanie starých pravidiel.",
+      "meaning_upright": "Úcta k zaužívaným zvyklostiam, odovzdávanie skúseností a spoločné hodnoty, ktoré nás držia pokope.",
+      "meaning_reversed": "Vnútorný odpor, ustrnutosť v dogmách alebo pravý čas na to, aby človek prehodnotil staré pravidlá a vzal rozum do hrsti.",
       "archetype": "Učiteľ",
-      "description": "Učenie sa v rámci línie významu a praxe."
+      "description": "Cesta poznania, ktorá kráča po vyšliapaných chodníkoch našich predkov a hľadá v nich zmysel pre dnešok."
     },
     {
       "id": 6,
@@ -123,10 +123,10 @@
         "spojenie",
         "súlad hodnôt"
       ],
-      "meaning_upright": "Spojenie, zmysluplná voľba a súlad hodnôt.",
-      "meaning_reversed": "Disharmónia, nesúlad alebo strach zo záväzku.",
+      "meaning_upright": "Ide o hlboké spojenie a chvíľu, keď si treba zvoliť cestu, ktorá je v úplnom súlade s tým, čo považujete za správne.",
+      "meaning_reversed": "Vzduch je čistý, ale niečo škrípe. Môže ísť o vnútorný nepokoj, rozpor v názoroch alebo strach z toho, že sa skutočne uviažete k niečomu trvalému.",
       "archetype": "Milovaný",
-      "description": "Výber srdcom a život podľa vlastných hodnôt."
+      "description": "Je to o umení vziať rozum do hrsti a rozhodnúť sa srdcom. Žiť tak, aby sa vaše činy neodchyľovali od toho, v čo veríte."
     },
     {
       "id": 7,
@@ -141,10 +141,10 @@
         "víťazstvo",
         "sebaovládanie"
       ],
-      "meaning_upright": "Odhodlanie, hybná sila a disciplinovaný pokrok.",
-      "meaning_reversed": "Chýbajúci smer, konfliktné sily alebo vyhorenie.",
+      "meaning_upright": "Pevná vôľa, ťah na bránku a disciplína, ktorá vás posúva vpred.",
+      "meaning_reversed": "Strata kompasu, rozorvanosť medzi dvoma mlynskými kameňmi alebo úplné vyčerpanie síl.",
       "archetype": "Víťaz",
-      "description": "Využitie protichodných energií na pohyb vpred."
+      "description": "Umenie skrotiť protichodné sily a premeniť ich na hybnú silu, ktorá vás dovezie do cieľa."
     },
     {
       "id": 8,
@@ -159,10 +159,10 @@
         "trpezlivosť",
         "vnútorná sila"
       ],
-      "meaning_upright": "Odvaha, trpezlivosť a jemná vnútorná sila.",
-      "meaning_reversed": "Seba-pochybnosti, netrpezlivosť alebo uprednostnenie sily pred jemnosťou.",
+      "meaning_upright": "Odvaha, trpezlivosť a schopnosť presadiť sa jemnosťou, nie krikom.",
+      "meaning_reversed": "Pochybnosti o sebe samom, prchkosť alebo snaha lámať veci cez koleno namiesto toho, aby sme vzali rozum do hrsti.",
       "archetype": "Srdce",
-      "description": "Krotenie strachu prostredníctvom súcitu a vytrvalosti."
+      "description": "Krotenie vlastných strachov cez súcit, vytrvalosť a vnútornú spôsobilosť zostať pokojný v búrke."
     },
     {
       "id": 9,
@@ -175,12 +175,12 @@
       "keywords": [
         "samota",
         "múdrosť",
-        "vedenie"
+        "vnútorný hlas"
       ],
-      "meaning_upright": "Samota, vhľad a vnútorné vedenie.",
-      "meaning_reversed": "Izolácia, vyhýbanie sa alebo odmietanie pomoci.",
+      "meaning_upright": "Potreba stíšiť sa, nájsť v sebe jasnosť a nechať sa viesť vlastným úsudkom.",
+      "meaning_reversed": "Neprirodzená osamelosť, uzavretosť pred svetom alebo tvrdohlavé odmietanie podanej ruky.",
       "archetype": "Mudrc",
-      "description": "Ustúpenie do úzadia pre jasnejší pohľad."
+      "description": "Dočasný odchod z hluku sveta, aby človek vzal rozum do hrsti a uvidel veci v pravom svetle."
     },
     {
       "id": 10,
@@ -191,14 +191,14 @@
       "image_path": "10.png",
       "name": "Koleso šťastia",
       "keywords": [
-        "cykly",
+        "kolobeh",
         "zmena",
-        "osud"
+        "vrtkavý osud"
       ],
-      "meaning_upright": "Zlomové body, cykly a zmeny v šťastí.",
-      "meaning_reversed": "Odpor voči zmene, zdržania alebo opakovanie vzorcov.",
+      "meaning_upright": "Zlomové okamihy, prirodzené striedanie časov a vrtkavosť šťasteny.",
+      "meaning_reversed": "Kŕčovité bránenie sa zmenám, zbytočné prieťahy alebo neustále krúženie v tých istých starých koľajach.",
       "archetype": "Koleso",
-      "description": "Život sa hýbe – prispôsobte sa a chopte sa okamihu."
+      "description": "Život sa neustále točí. Najlepšie urobíte, ak sa prispôsobíte prúdu a pri najbližšej príležitosti vezmete rozum do hrsti."
     },
     {
       "id": 11,
@@ -213,10 +213,10 @@
         "férovosť",
         "zodpovednosť"
       ],
-      "meaning_upright": "Pravda, férovosť a zodpovedné rozhodnutia.",
-      "meaning_reversed": "Predpojatosť, popieranie alebo vyhýbanie sa následkom.",
+      "meaning_upright": "Prichádza čas, kedy treba veci pomenovať pravým menom. Je to o rovnováhe, čestnom jednaní a o tom, že za svoje rozhodnutia musíme vedieť aj niesť následky.",
+      "meaning_reversed": "Varovanie pred klamstvom samého seba. Keď sa človek nechce pozrieť pravde do očí alebo sa snaží utiecť pred tým, čo sám zasial.",
       "archetype": "Sudca",
-      "description": "Jasné videnie a konanie s integritou."
+      "description": "Schopnosť vidieť svet bez príkras a odvaha žiť v súlade s vlastným svedomím."
     },
     {
       "id": 12,
@@ -227,14 +227,14 @@
       "image_path": "12.png",
       "name": "Viselec",
       "keywords": [
-        "pauza",
-        "nová perspektíva",
-        "odovzdanie sa"
+        "dočasné zastavenie",
+        "zmena uhla pohľadu",
+        "pustenie sa kormidla"
       ],
-      "meaning_upright": "Pauza, odovzdanie sa a čerstvý pohľad na vec.",
-      "meaning_reversed": "Ustrnutie, tvrdohlavosť alebo strach z pustenia kontroly.",
+      "meaning_upright": "Prichádza chvíľa, kedy treba spomaliť, nechať veci plynúť a pozrieť sa na svoj život z celkom iného konca.",
+      "meaning_reversed": "Zaseknutie na mŕtvom bode, zbytočné zatvrdzovanie sa a strach z toho, že stratíte kontrolu nad situáciou.",
       "archetype": "Zasvätenec",
-      "description": "Dar vidieť veci inak."
+      "description": "Schopnosť vidieť pravdu tam, kde ju ostatní prehliadajú."
     },
     {
       "id": 13,
@@ -245,14 +245,14 @@
       "image_path": "13.png",
       "name": "Smrť",
       "keywords": [
-        "konce",
-        "transformácia",
-        "prepustenie"
+        "záver",
+        "premena",
+        "pustenie minulosti"
       ],
-      "meaning_upright": "Konce, ktoré vytvárajú priestor pre transformáciu.",
-      "meaning_reversed": "Lipnutie, strach zo zmeny alebo predlžovaný prechod.",
-      "archetype": "Transformátor",
-      "description": "Pustite to, čo skončilo; obnovte to, čo zostáva."
+      "meaning_upright": "Niečo sa definitívne uzavrelo, aby sa uvoľnilo miesto pre to, čo má prísť.",
+      "meaning_reversed": "Zbytočné lipnutie na starých istotách, strach zo zmeny alebo neprirodzené naťahovanie niečoho, čo už dávno vyhaslo.",
+      "archetype": "Premena",
+      "description": "Nastal čas prestať sa obzerať späť. Pustite to, čo už dávno dožilo, a dovoľte zvyšku, aby sa znovu nadýchol."
     },
     {
       "id": 14,
@@ -264,13 +264,13 @@
       "name": "Miernosť",
       "keywords": [
         "rovnováha",
-        "liečenie",
+        "hojenie rán",
         "striedmosť"
       ],
-      "meaning_upright": "Rovnováha, liečenie a uvážlivá integrácia.",
-      "meaning_reversed": "Extrémy, nerovnováha alebo chýbajúca harmónia.",
+      "meaning_upright": "Rovnováha, čas na zahojenie a umenie nájsť zlatú strednú cestu.",
+      "meaning_reversed": "Preháňanie, výkyvy nálad a vnútorný nepokoj, keď veci strácajú svoj prirodzený poriadok.",
       "archetype": "Alchymista",
-      "description": "Spojte extrémy do jedného celku."
+      "description": "Naučte sa zmieriť protiklady a nájsť medzi nimi pokojný stred."
     },
     {
       "id": 15,
@@ -281,14 +281,14 @@
       "image_path": "15.png",
       "name": "Diabol",
       "keywords": [
-        "pripútanosť",
-        "tieň",
-        "pokušenie"
+        "závislosť",
+        "vnútorné temnoty",
+        "lákadlá"
       ],
-      "meaning_upright": "Pripútanosti, pokušenie a konfrontácia s vlastným tieňom.",
-      "meaning_reversed": "Oslobodenie sa, znovuzískanie sily alebo popieranie problémov.",
+      "meaning_upright": "Rôzne druhy pút, ktoré si na seba kladieme, vábenie vecí, čo nám škodia, a odvaha pozrieť sa do tváre vlastným slabostiam.",
+      "meaning_reversed": "Vyslobodenie sa zo zabehnutých koľají, nájdenie stratenej vnútornej slobody alebo vyhýbanie sa pravde o vlastných chybách.",
       "archetype": "Tieň",
-      "description": "Uvidieť reťaz, aby ste ju mohli uvoľniť."
+      "description": "Najprv musíš uvidieť reťaz, ktorá ťa drží, aby si ju mohol s pokojným svedomím rozopnúť."
     },
     {
       "id": 16,
@@ -301,12 +301,12 @@
       "keywords": [
         "odhalenie",
         "otras",
-        "reštart"
+        "nový začiatok"
       ],
-      "meaning_upright": "Otras, odhalenie a odstránenie falošných štruktúr.",
-      "meaning_reversed": "Vyhýbanie sa nevyhnutnému, predlžovaný rozvrat alebo strach.",
+      "meaning_upright": "Prichádza zemetrasenie, ktoré zmetie všetko vybudované na vratkých základoch. Je to bolestivé, ale úprimné, pretože len tak sa zbavíte klamstiev, ktoré vás brzdili.",
+      "meaning_reversed": "Zúfalo sa držíte niečoho, čo už dávno padlo. Namiesto prijatia zmeny len zbytočne predlžujete vlastné trápenie v rozvalinách minulosti.",
       "archetype": "Blesk",
-      "description": "Pravda udrie – stavajte znova na tom, čo je skutočné."
+      "description": "Pravda udrie ako blesk z jasného neba – tentoraz však budujte nanovo a poctivo, na základoch, ktoré vydržia aj búrku."
     },
     {
       "id": 17,
@@ -319,12 +319,12 @@
       "keywords": [
         "nádej",
         "obnova",
-        "vedenie"
+        "vodiace svetlo"
       ],
-      "meaning_upright": "Nádej, obnova a vodiace svetlo pred vami.",
-      "meaning_reversed": "Skľúčenosť, pochybnosti alebo tlmený optimizmus.",
+      "meaning_upright": "Nádej, nový dych a jasný bod na obzore, ktorý vám ukazuje cestu.",
+      "meaning_reversed": "Beznádej, zahlodávajúce pochybnosti alebo pocit, že svetlo začína vyhasínať.",
       "archetype": "Sprievodca",
-      "description": "Tiché „áno“ z budúcnosti."
+      "description": "Tiché a sľubné prikývnutie od osudu."
     },
     {
       "id": 18,
@@ -335,14 +335,14 @@
       "image_path": "18.png",
       "name": "Mesiac",
       "keywords": [
-        "ilúzia",
-        "intuícia",
+        "klamy",
+        "vnútorný hlas",
         "neistota"
       ],
-      "meaning_upright": "Neistota, intuícia a navigácia v neznámom.",
-      "meaning_reversed": "Vynárajúce sa jasno, ustupujúci strach alebo odhalené sebaklamy.",
+      "meaning_upright": "Stojíte v hmle, kde sa ľahko stratíte. Spoliehajte sa viac na svoj inštinkt než na to, čo vidíte, a kráčajte opatrne tam, kde cesty nie sú vyšliapané.",
+      "meaning_reversed": "Pravda pomaly vychádza na povrch. Strach ustupuje, konečne začínate vidieť veci také, aké sú, a prestávate si namýšľať nezmysly.",
       "archetype": "Sen",
-      "description": "Nie všetko je jasné – hýbte sa pomocou vnútorného svetla."
+      "description": "Svetlo nie je vždy ostré a jasné. Keď sa ocitnete v prítmí, najlepšie urobíte, ak sa budete riadiť vlastným úsudkom a pocitom, ktorý vás neklame."
     },
     {
       "id": 19,
@@ -353,14 +353,14 @@
       "image_path": "19.png",
       "name": "Slnko",
       "keywords": [
-        "radosť",
-        "úspech",
-        "vitalita"
+        "úprimná radosť",
+        "zdarný výsledok",
+        "životná sila"
       ],
-      "meaning_upright": "Radosť, vitalita a sebaistý úspech.",
-      "meaning_reversed": "Dočasné prekážky, pesimizmus alebo tlmená sebadôvera.",
+      "meaning_upright": "Čistá radosť, prekypujúca energia a úspech, ktorý sa netreba báť ukázať svetu.",
+      "meaning_reversed": "Dočasný mráčik, sklon vidieť veci čiernobielo alebo chvíľková strata viery vo vlastné schopnosti.",
       "archetype": "Svetlo",
-      "description": "Teplo, viditeľnosť a pravda v dennom svetle."
+      "description": "Hrejivé lúče, jasný pohľad na veci a odhalená pravda, pred ktorou sa nič neschová."
     },
     {
       "id": 20,
@@ -372,13 +372,13 @@
       "name": "Súd",
       "keywords": [
         "prebudenie",
-        "zhodnotenie",
-        "volanie"
+        "bilancia",
+        "vnútorné volanie"
       ],
-      "meaning_upright": "Prebudenie, zhodnotenie a vypočutie volania.",
-      "meaning_reversed": "Seba-pochybnosti, tvrdé odsudzovanie alebo vyhýbanie sa rozhodnutiu.",
+      "meaning_upright": "Čas precitnúť, obzrieť sa za tým, čo bolo, a konečne zareagovať na hlas, ktorý vám už dlhšie vŕta v hlave.",
+      "meaning_reversed": "Zbytočné pochybnosti o sebe, príliš prísny meter na vlastné činy alebo večné uhýbanie pred rozhodnutím, ktoré musíte urobiť.",
       "archetype": "Volanie",
-      "description": "Vyberte si svoju ďalšiu kapitolu úprimne."
+      "description": "Zastavte sa a poctivo si premyslite, ako napíšete ďalšiu kapitolu svojho života."
     },
     {
       "id": 21,
@@ -389,14 +389,14 @@
       "image_path": "21.png",
       "name": "Svet",
       "keywords": [
-        "dokončenie",
-        "integrácia",
+        "zavŕšenie",
+        "súlad",
         "majstrovstvo"
       ],
-      "meaning_upright": "Dokončenie, integrácia a pocit celistvosti.",
-      "meaning_reversed": "Nedokončené záležitosti, zdržanie alebo neúplné uzavretie.",
+      "meaning_upright": "Všetko do seba zapadlo, kruh sa uzavrel a vy cítite, že ste na svojom mieste.",
+      "meaning_reversed": "Niečo visí vo vzduchu, ostali nedoriešené veci alebo sa cesta tiahne dlhšie, než ste čakali.",
       "archetype": "Celok",
-      "description": "Dorazili ste a nový cyklus sa začína."
+      "description": "Konečne ste v cieli, no v skutočnosti je to len nová kapitola, ktorá práve začína písať svoje prvé riadky."
     },
     {
       "id": 22,
@@ -408,11 +408,11 @@
       "name": "Eso palíc",
       "keywords": [
         "iskra",
-        "inšpirácia",
-        "iniciatíva"
+        "vnuknutie",
+        "chuť do života"
       ],
-      "meaning_upright": "Nová iskra inšpirácie a túžba začať.",
-      "meaning_reversed": "Zdržania, chýbajúca motivácia alebo iskra, ktorá zhasne.",
+      "meaning_upright": "Čerstvá dávka energie a nutkanie pustiť sa do niečoho nového.",
+      "meaning_reversed": "Záseky, vyhasnuté nadšenie alebo situácia, kedy plameň nádeje predčasne zhasína.",
       "archetype": null,
       "description": null
     },
@@ -420,17 +420,17 @@
       "id": 23,
       "arcana": "malá",
       "number": 2,
-      "suit": "palice",
+      "suit": "Palice",
       "rank": "dvojka",
       "image_path": "23.png",
       "name": "Dvojka palíc",
       "keywords": [
         "plánovanie",
         "možnosti",
-        "vízia"
+        "rozhľadenosť"
       ],
-      "meaning_upright": "Plánovanie ďalšieho kroku a rozširovanie obzorov.",
-      "meaning_reversed": "Strach z neznámeho alebo prílišná opatrnosť.",
+      "meaning_upright": "Človek stojí na prahu nového a zvažuje, ktorým smerom sa vydať. Je čas vziať rozum do hrsti a pozrieť sa za horizont.",
+      "meaning_reversed": "Váhavosť pri skoku do neznáma alebo priveľká opatrnosť, ktorá vás drží na mieste a nepustí ďalej.",
       "archetype": null,
       "description": null
     },
@@ -443,12 +443,12 @@
       "image_path": "24.png",
       "name": "Trojka palíc",
       "keywords": [
-        "expanzia",
-        "pokrok",
-        "hybná sila"
+        "rozmach",
+        "napredovanie",
+        "tiahnutie vpred"
       ],
-      "meaning_upright": "Expanzia, pokrok a prvé viditeľné výsledky.",
-      "meaning_reversed": "Zdržania, prekážky alebo chýbajúca vytrvalosť.",
+      "meaning_upright": "Zúročenie úsilia, sľubný rozvoj a moment, kedy už vidíte prvé plody svojej práce.",
+      "meaning_reversed": "Záseky na ceste, nečakané brzdy alebo strata odhodlania dotiahnuť veci do konca.",
       "archetype": null,
       "description": null
     },
@@ -462,11 +462,11 @@
       "name": "Štvorka palíc",
       "keywords": [
         "oslava",
-        "domov",
-        "míľnik"
+        "domáce zázemie",
+        "významný míľnik"
       ],
-      "meaning_upright": "Oslava, stabilita a radostný míľnik.",
-      "meaning_reversed": "Napätie v domove alebo oslava, ktorá nepôsobí dobre.",
+      "meaning_upright": "Čas radosti, pevná pôda pod nohami a oslava dosiahnutého úspechu.",
+      "meaning_reversed": "Nepokoj v domácnosti alebo pocit, že oslava pôsobí nasilu a vytratila sa z nej úprimnosť.",
       "archetype": null,
       "description": null
     },
@@ -479,12 +479,12 @@
       "image_path": "26.png",
       "name": "Päťka palíc",
       "keywords": [
-        "súťaž",
-        "trenie",
-        "skúška"
+        "zápolenie",
+        "napätie",
+        "krst ohňom"
       ],
-      "meaning_upright": "Súťaživosť, trenice a učenie sa cez výzvy.",
-      "meaning_reversed": "Vyhýbanie sa konfliktu alebo hádky, ktoré nikam nevedú.",
+      "meaning_upright": "Vzduch je hustý. Okolo vás vrie súperenie a každý chce presadiť svoju pravdu, čo vás núti vziať rozum do hrsti a ukázať, čo je vo vás.",
+      "meaning_reversed": "Buď sa snažíte za každú cenu vyhnúť stretu, alebo sa zbytočne utápate v malicherných sporoch, ktoré nikam nevedú a len vás oberajú o energiu.",
       "archetype": null,
       "description": null
     },
@@ -501,8 +501,8 @@
         "úspech",
         "sebavedomie"
       ],
-      "meaning_upright": "Uznanie, úspech a zaslúžené sebavedomie.",
-      "meaning_reversed": "Ego, neistota alebo neuznaný úspech.",
+      "meaning_upright": "Konečne sa dostavilo uznanie, ktoré ste si poctivo odpracovali. Cítite zadosťučinenie z dobre vykonanej práce a stojíte si pevne za svojím.",
+      "meaning_reversed": "Pozor na zbytočne nafúknuté ego, ktoré vám zatemňuje úsudok. Niekedy je lepšie vziať rozum do hrsti a priznať si, že cesta k cieľu je ešte dlhá.",
       "archetype": null,
       "description": null
     },
@@ -519,8 +519,8 @@
         "odvaha",
         "hranice"
       ],
-      "meaning_upright": "Státie si za svojím a ochrana vlastnej pozície.",
-      "meaning_reversed": "Príliš skoré vzdanie sa alebo pocit zahltenia.",
+      "meaning_upright": "Keď si človek stojí za svojím a nenechá si len tak vziať to, čo si poctivo vybojoval.",
+      "meaning_reversed": "Keď človek príliš rýchlo skladá zbrane alebo sa pod ťarchou okolností cíti zahnaný do kúta.",
       "archetype": null,
       "description": null
     },
@@ -528,17 +528,17 @@
       "id": 29,
       "arcana": "malá",
       "number": 8,
-      "suit": "palice",
+      "suit": "Palice",
       "rank": "osmička",
       "image_path": "29.png",
       "name": "Osmička palíc",
       "keywords": [
-        "rýchlosť",
-        "pohyb",
-        "správy"
+        "fofry",
+        "čulý ruch",
+        "novinky"
       ],
-      "meaning_upright": "Rýchlosť, pohyb a prudký vývoj udalostí.",
-      "meaning_reversed": "Zdržania, nedorozumenia alebo rozptýlené úsilie.",
+      "meaning_upright": "Veci nabrali spád. Všetko sa hýbe vpred a udalosti sa začínajú valiť jedna za druhou.",
+      "meaning_reversed": "Záseky, zmätok v komunikácii alebo energia, ktorá sa zbytočne rozplýva do stratena.",
       "archetype": null,
       "description": null
     },
@@ -555,8 +555,8 @@
         "vytrvalosť",
         "ostražitosť"
       ],
-      "meaning_upright": "Odolnosť a vytrvalosť napriek únave.",
-      "meaning_reversed": "Vyhorenie, defenzívnosť alebo odmietanie podpory.",
+      "meaning_upright": "Zatnúť zuby a vytrvať aj vtedy, keď už sily pomaly dochádzajú.",
+      "meaning_reversed": "Úplné vyčerpanie, zbytočné zaháňanie sa do kúta alebo tvrdohlavé odmietanie pomoci, keď ju človek najviac potrebuje.",
       "archetype": null,
       "description": null
     },
@@ -573,8 +573,8 @@
         "zodpovednosť",
         "tlak"
       ],
-      "meaning_upright": "Ťažká zodpovednosť a nesenie príliš veľkého nákladu.",
-      "meaning_reversed": "Delegovanie, uvoľnenie alebo kolaps pod tlakom.",
+      "meaning_upright": "Vláčite na chrbte viac, než unesiete. Zodpovednosť sa stala ťarchou, ktorá vás pomaly stláča k zemi.",
+      "meaning_reversed": "Je čas vziať rozum do hrsti a rozdeliť si robotu s ostatnými. Buď sa konečne zbavíte časti nákladu, alebo sa pod tou kopou zrútite.",
       "archetype": null,
       "description": null
     },
@@ -588,11 +588,11 @@
       "name": "Páža palíc",
       "keywords": [
         "zvedavosť",
-        "prieskum",
-        "správy"
+        "objavovanie",
+        "novinky"
       ],
-      "meaning_upright": "Zvedavosť, skúmanie a vzrušujúce správy.",
-      "meaning_reversed": "Impulzívnosť, zdržania alebo chýbajúci smer.",
+      "meaning_upright": "Otvorená myseľ, chuť spoznávať nové obzory a správy, ktoré rozpustia nudu všedných dní.",
+      "meaning_reversed": "Splašené konanie, zbytočné prieťahy alebo moment, keď človek nevie, ktorou cestou sa vydať.",
       "archetype": null,
       "description": null
     },
@@ -609,8 +609,8 @@
         "odvážnosť",
         "pohyb"
       ],
-      "meaning_upright": "Odvážne konanie, dobrodružstvo a pohyb vpred.",
-      "meaning_reversed": "Bezhlavosť, netrpezlivosť alebo nestálosť.",
+      "meaning_upright": "Chuť pustiť sa do niečoho nového, odvaha vykročiť a nezastaviteľný ťah na bránku.",
+      "meaning_reversed": "Zbrklosť, prehnaná horlivosť, kedy by bolo lepšie vziať rozum do hrsti, alebo nestálosť, ktorá nikam nevedie.",
       "archetype": null,
       "description": null
     },
@@ -625,10 +625,10 @@
       "keywords": [
         "sebavedomie",
         "vrelosť",
-        "vodcovstvo"
+        "prirodzená autorita"
       ],
-      "meaning_upright": "Sebavedomie, vrelosť a inšpiratívne vodcovstvo.",
-      "meaning_reversed": "Neistota, žiarlivosť alebo vyžadovanie pozornosti.",
+      "meaning_upright": "Sálajúca sebadôvera, srdečnosť a schopnosť strhnúť ostatných svojím príkladom.",
+      "meaning_reversed": "Vnútorná neistota, zbytočná žiarlivosť alebo potreba byť neustále stredobodom pozornosti.",
       "archetype": null,
       "description": null
     },
@@ -645,8 +645,8 @@
         "majstrovstvo",
         "odvaha"
       ],
-      "meaning_upright": "Vizionárske vodcovstvo a tvorivé majstrovstvo.",
-      "meaning_reversed": "Impulzívnosť, arogancia alebo dominantná energia.",
+      "meaning_upright": "Človek, ktorý vie, kam kráča, a má dosť rozumu na to, aby svoje nápady pretavil do skutočnosti.",
+      "meaning_reversed": "Prudká povaha, ktorá si rada dupne, alebo niekto, kto si myslí, že zjedol všetku múdrosť sveta.",
       "archetype": null,
       "description": null
     },
@@ -660,11 +660,11 @@
       "name": "Eso pohárov",
       "keywords": [
         "láska",
-        "otvorenosť",
-        "obnova"
+        "úprimnosť",
+        "nový začiatok"
       ],
-      "meaning_upright": "Emocionálna obnova, láska a otvorené srdce.",
-      "meaning_reversed": "Zablokované city alebo ťažkosti s prijímaním lásky.",
+      "meaning_upright": "Prichádza čas citovej očisty, prvá úprimná láska a odvaha otvoriť sa svetu dokorán.",
+      "meaning_reversed": "Vnútorný zámok, strach prejaviť sa alebo ťažkosti prijať náklonnosť od druhých.",
       "archetype": null,
       "description": null
     },
@@ -677,12 +677,12 @@
       "image_path": "37.png",
       "name": "Dvojka pohárov",
       "keywords": [
-        "spojenie",
-        "partnerstvo",
-        "zväzok"
+        "súzvuk",
+        "spojenectvo",
+        "vzájomnosť"
       ],
-      "meaning_upright": "Spojenie, partnerstvo a vzájomná výmena.",
-      "meaning_reversed": "Nerovnováha, nedorozumenie alebo napätie v putách.",
+      "meaning_upright": "Ide o vzácny moment, kedy si dvaja ľudia skutočne rozumejú. Je to o rovnováhe, úprimnom pute a schopnosti nájsť spoločnú reč bez zbytočných rečí.",
+      "meaning_reversed": "Keď sa misky váh naklonia na jednu stranu, vzniká zbytočné napätie. Je čas vziať rozum do hrsti, priznať si nedorozumenia a skúsiť opäť nájsť spoločnú cestu.",
       "archetype": null,
       "description": null
     },
@@ -690,17 +690,17 @@
       "id": 38,
       "arcana": "malá",
       "number": 3,
-      "suit": "poháre",
+      "suit": "Poháre",
       "rank": "trojka",
       "image_path": "38.png",
       "name": "Trojka pohárov",
       "keywords": [
         "priateľstvo",
         "oslava",
-        "podpora"
+        "spriaznenosť"
       ],
-      "meaning_upright": "Priateľstvo, oslava a zdieľaná podpora.",
-      "meaning_reversed": "Preháňanie to s pôžitkami alebo sociálne drámy.",
+      "meaning_upright": "Čas radosti v kruhu blízkych, keď si človek vydýchne a pocíti úprimnú podporu tých, na ktorých mu záleží.",
+      "meaning_reversed": "Keď sa zábava zvrhne na bezduché hýrenie alebo sa v partii začnú zbytočne trúť staré krivdy.",
       "archetype": null,
       "description": null
     },
@@ -713,12 +713,12 @@
       "image_path": "39.png",
       "name": "Štvorka pohárov",
       "keywords": [
-        "apatia",
-        "reflexia",
-        "prehodnotenie"
+        "ľahostajnosť",
+        "zahĺbenosť do seba",
+        "prehodnocovanie"
       ],
-      "meaning_upright": "Apatia, reflexia a prehodnocovanie možností.",
-      "meaning_reversed": "Nový záujem, opätovné zapojenie sa alebo čerstvá ponuka.",
+      "meaning_upright": "Človek sa cíti akoby v pasci vlastnej znechutenosti. Všetko naokolo pôsobí šedivo a vy radšej sedíte so založenými rukami, zahľadení do vlastných myšlienok, než aby ste prijali to, čo život práve ponúka.",
+      "meaning_reversed": "Ľady sa konečne lámu. Prichádza moment, kedy prestanete trucovať a uvidíte, že svet vonku má stále čím prekvapiť. Je čas vziať rozum do hrsti a nenechať si ujsť príležitosť, ktorá sa práve objavila na obzore.",
       "archetype": null,
       "description": null
     },
@@ -735,8 +735,8 @@
         "žiaľ",
         "ľútosť"
       ],
-      "meaning_upright": "Strata, žiaľ a sústredenie sa na to, čo sa nepodarilo.",
-      "meaning_reversed": "Prijatie, liečenie a videnie toho, čo zostalo.",
+      "meaning_upright": "Bolestivá strata, smútok a pocit, že sa utápate v tom, čo ste nenávratne premárnili.",
+      "meaning_reversed": "Zmier, postupné hojenie rán a schopnosť všimnúť si, že vám toho v rukách ostalo viac, než ste si mysleli.",
       "archetype": null,
       "description": null
     },
@@ -751,10 +751,10 @@
       "keywords": [
         "nostalgia",
         "nevinnosť",
-        "spomienky"
+        "staré dobré časy"
       ],
-      "meaning_upright": "Nostalgia, láskavosť a jemné spomienky.",
-      "meaning_reversed": "Uviaznutie v minulosti alebo idealizovanie si vecí.",
+      "meaning_upright": "Svetlo starých spomienok, nečakaná láskavosť a chvíle, keď sa človek cíti opäť ako dieťa.",
+      "meaning_reversed": "Prílišné hrabanie sa v minulosti alebo klamná predstava, že kedysi bolo všetko lepšie.",
       "archetype": null,
       "description": null
     },
@@ -767,12 +767,12 @@
       "image_path": "42.png",
       "name": "Sedmička pohárov",
       "keywords": [
-        "voľby",
-        "fantázia",
-        "ilúzia"
+        "rozhodovanie",
+        "snárenie",
+        "klamlivé zdanie"
       ],
-      "meaning_upright": "Mnoho možností, fantázie a nejasné priority.",
-      "meaning_reversed": "Jasnosť, rozhodnutie a návrat sústredenia.",
+      "meaning_upright": "Stojíš pred kopou lákavých ciest, no v hlave máš skôr vzdušné zámky než pevný plán. Ťažko sa určuje, čo má skutočnú váhu.",
+      "meaning_reversed": "Konečne ti začína svitať. Hmla sa rozplýva, ty si berieš rozum do hrsti a sústredíš sa na to podstatné.",
       "archetype": null,
       "description": null
     },
@@ -780,7 +780,7 @@
       "id": 43,
       "arcana": "malá",
       "number": 8,
-      "suit": "poháre",
+      "suit": "Poháre",
       "rank": "osmička",
       "image_path": "43.png",
       "name": "Osmička pohárov",
@@ -789,8 +789,8 @@
         "hľadanie",
         "prechod"
       ],
-      "meaning_upright": "Odchod za hľadaním hlbšieho zmyslu.",
-      "meaning_reversed": "Strach zo zmeny alebo návrat po naučení sa lekcie.",
+      "meaning_upright": "Čas zdvihnúť kotvy a vybrať sa tam, kde má život skutočnú váhu a hlbší význam.",
+      "meaning_reversed": "Zostávanie v známom pre strach z neznámeho, alebo zbytočné prešľapovanie na mieste po tom, čo sme si už svoje odžili.",
       "archetype": null,
       "description": null
     },
@@ -798,17 +798,17 @@
       "id": 44,
       "arcana": "malá",
       "number": 9,
-      "suit": "poháre",
+      "suit": "Poháre",
       "rank": "deviatka",
       "image_path": "44.png",
       "name": "Deviatka pohárov",
       "keywords": [
         "spokojnosť",
-        "prianie",
+        "vyslyšané prianie",
         "naplnenie"
       ],
-      "meaning_upright": "Spokojnosť, naplnenie a splnené prianie.",
-      "meaning_reversed": "Pôžitkárstvo alebo nespokojnosť pod rúškom komfortu.",
+      "meaning_upright": "Pocit, že všetko je tak, ako má byť. Srdce máte na mieste a vaše dávne túžby sa konečne pretavili do skutočnosti.",
+      "meaning_reversed": "Pozor na prehnané hýrenie alebo falošný pokoj. Niekedy sa človek snaží navonok pôsobiť spokojne, hoci vnútri cíti, že mu čosi podstatné chýba.",
       "archetype": null,
       "description": null
     },
@@ -821,12 +821,12 @@
       "image_path": "45.png",
       "name": "Desiatka pohárov",
       "keywords": [
-        "harmónia",
-        "rodina",
-        "radosť"
+        "súlad",
+        "rodinný krb",
+        "úprimná radosť"
       ],
-      "meaning_upright": "Harmónia, radosť a emocionálne naplnenie.",
-      "meaning_reversed": "Nesúlad v domove alebo nerealistické očakávania.",
+      "meaning_upright": "Všetko je tak, ako má byť. Nachádzate pokoj v rodinnom kruhu a prežívate chvíle, keď sa srdce skutočne raduje.",
+      "meaning_reversed": "Domáca pohoda škrípe. Možno ste si vysnívali vzdušné zámky, ktoré narazili na tvrdú realitu všedných dní.",
       "archetype": null,
       "description": null
     },
@@ -843,8 +843,8 @@
         "otvorenosť",
         "prekvapenie"
       ],
-      "meaning_upright": "Úprimná správa a otvorená emocionálna zvedavosť.",
-      "meaning_reversed": "Emocionálna nezrelosť alebo zmiešané signály.",
+      "meaning_upright": "Úprimné slová, ktoré vás potešia, a detská zvedavosť voči všetkému, čo prináša život.",
+      "meaning_reversed": "Emocionálne zmätky, detinské správanie alebo váhavosť, kedy človek sám nevie, čo vlastne cíti.",
       "archetype": null,
       "description": null
     },
@@ -852,7 +852,7 @@
       "id": 47,
       "arcana": "malá",
       "number": 12,
-      "suit": "poháre",
+      "suit": "Poháre",
       "rank": "rytier",
       "image_path": "47.png",
       "name": "Rytier pohárov",
@@ -861,8 +861,8 @@
         "pozvanie",
         "idealizmus"
       ],
-      "meaning_upright": "Romantika, pozvania a nasledovanie srdca.",
-      "meaning_reversed": "Náladovosť, sklamanie alebo naháňanie sa za ilúziami.",
+      "meaning_upright": "Čas na city, milé pozvania a chvíle, kedy sa oplatí počúvnuť hlas vlastného srdca.",
+      "meaning_reversed": "Prelietavá nálada, trpká pachuť sklamania alebo naháňanie sa za vidinami, ktoré nemajú pevný základ.",
       "archetype": null,
       "description": null
     },
@@ -875,12 +875,12 @@
       "image_path": "48.png",
       "name": "Kráľovná pohárov",
       "keywords": [
-        "empatia",
-        "intuícia",
-        "starostlivosť"
+        "súcit",
+        "vnútorný hlas",
+        "láskavá pozornosť"
       ],
-      "meaning_upright": "Empatia, intuícia a emocionálna starostlivosť.",
-      "meaning_reversed": "Zahltenie, spoluzávislosť alebo slabé hranice.",
+      "meaning_upright": "Schopnosť vcítiť sa do druhých, čistá intuícia a starostlivosť, ktorá prichádza od srdca.",
+      "meaning_reversed": "Citové vyhorenie, nezdravá naviazanosť na druhých alebo neschopnosť určiť si jasné medze.",
       "archetype": null,
       "description": null
     },
@@ -895,10 +895,10 @@
       "keywords": [
         "pokoj",
         "súcit",
-        "rovnováha"
+        "vnútorná rovnováha"
       ],
-      "meaning_upright": "Pokojný súcit a emocionálna rovnováha.",
-      "meaning_reversed": "Emocionálna manipulácia alebo potlačené city.",
+      "meaning_upright": "Schopnosť zachovať si pokoj, úprimný súcit a vyrovnaná myseľ aj v búrlivých časoch.",
+      "meaning_reversed": "Sklony k citovému vydieraniu alebo dusenie vlastných pocitov, ktoré skôr či neskôr vybuchnú.",
       "archetype": null,
       "description": null
     },
@@ -911,12 +911,12 @@
       "image_path": "50.png",
       "name": "Eso mečov",
       "keywords": [
-        "jasnosť",
-        "pravda",
+        "jasná myseľ",
+        "holá pravda",
         "prelom"
       ],
-      "meaning_upright": "Jasnosť, pravda a mentálny prelom.",
-      "meaning_reversed": "Zmätok, dezinformácie alebo zahmlený úsudok.",
+      "meaning_upright": "Chvíľa, kedy sa konečne vyjasní. Pravda vystupuje na povrch a vy máte v rukách silu urobiť zásadný rez.",
+      "meaning_reversed": "V hlave máte hmlu, fakty sa vám pletú a radšej by bolo vziať rozum do hrsti, než urobiť ďalšie zmätené rozhodnutie.",
       "archetype": null,
       "description": null
     },
@@ -929,12 +929,12 @@
       "image_path": "51.png",
       "name": "Dvojka mečov",
       "keywords": [
-        "pat",
-        "voľba",
-        "vyhýbanie sa"
+        "patová situácia",
+        "kľúčové rozhodnutie",
+        "zatváranie očí pred realitou"
       ],
-      "meaning_upright": "Patová situácia, ťažká voľba a ostražitosť.",
-      "meaning_reversed": "Koniec nerozhodnosti, odhalená pravda alebo preťaženie.",
+      "meaning_upright": "Zastali ste na mŕtvom bode. Stojíte pred voľbou, ktorá bolí, a radšej si držíte odstup, než aby ste sa pozreli pravde do očí.",
+      "meaning_reversed": "Váhanie konečne končí. Prichádza čas strhnúť si pásku z očí, priznať si skutočný stav vecí a konečne vziať rozum do hrsti, aj keď vás to preťaží.",
       "archetype": null,
       "description": null
     },
@@ -949,10 +949,10 @@
       "keywords": [
         "zlomené srdce",
         "žiaľ",
-        "pravda"
+        "trpká pravda"
       ],
-      "meaning_upright": "Zlomené srdce, žiaľ a kruté pravdy.",
-      "meaning_reversed": "Liečenie, odpustenie a posun vpred.",
+      "meaning_upright": "Zlomené srdce, hlboký žiaľ a chvíľa, keď musíte čeliť krutej pravde priamo do očí.",
+      "meaning_reversed": "Čas na hojenie rán, zmierenie so sebou samým a pomalé vykročenie v ústrety novým dňom.",
       "archetype": null,
       "description": null
     },
@@ -969,8 +969,8 @@
         "zotavenie",
         "pauza"
       ],
-      "meaning_upright": "Odpočinok, zotavenie a nevyhnutná pauza.",
-      "meaning_reversed": "Nepokoj alebo príliš skorý návrat.",
+      "meaning_upright": "Čas na vydýchnutie, načerpanie síl a nevyhnutné zastavenie sa v behu života.",
+      "meaning_reversed": "Vnútorný nepokoj alebo unáhlený návrat do kolotoča povinností skôr, než si človek stihne vziať rozum do hrsti.",
       "archetype": null,
       "description": null
     },
@@ -983,12 +983,12 @@
       "image_path": "54.png",
       "name": "Päťka mečov",
       "keywords": [
-        "konflikt",
-        "ego",
-        "víťazstvo za každú cenu"
+        "spor",
+        "ješitnosť",
+        "Pyrrhovo víťazstvo"
       ],
-      "meaning_upright": "Konflikt, ego a víťazstvo za vysokú cenu.",
-      "meaning_reversed": "Uzmierenie alebo odchod od drámy.",
+      "meaning_upright": "Zbytočné hádky, presadzovanie vlastnej pravdy za každú cenu a víťazstvo, ktoré vás nakoniec zanechá osamotených a zatrpknutých.",
+      "meaning_reversed": "Schopnosť vziať rozum do hrsti, uzavrieť staré krivdy a jednoducho sa otočiť chrbtom k zbytočným drámam.",
       "archetype": null,
       "description": null
     },
@@ -1002,11 +1002,11 @@
       "name": "Šestka mečov",
       "keywords": [
         "prechod",
-        "liečenie",
-        "posun vpred"
+        "uzdravenie",
+        "krok vpred"
       ],
-      "meaning_upright": "Prechod, liečenie a smerovanie do pokojnejších vôd.",
-      "meaning_reversed": "Ťažkosti s posunom vpred alebo nesenie si starej záťaže.",
+      "meaning_upright": "Nechávate búrku za chrbtom a plavíte sa do pokojnejších vôd. Je čas nechať minulosť plávať a dopriať si priestor na zotavenie.",
+      "meaning_reversed": "Stojíte na mieste, pretože sa neviete odstrihnúť od starých krívd. Namiesto pokoja so sebou stále vláčite starú ťarchu, ktorá vám bráni pohnúť sa z miesta.",
       "archetype": null,
       "description": null
     },
@@ -1019,12 +1019,12 @@
       "image_path": "56.png",
       "name": "Sedmička mečov",
       "keywords": [
-        "stratégia",
-        "tajomstvo",
-        "vyhýbanie sa"
+        "prefíkanosť",
+        "kľučkovanie",
+        "utajený zámer"
       ],
-      "meaning_upright": "Stratégia, tajomstvo a nepriame konanie.",
-      "meaning_reversed": "Priznanie, odhalenie alebo zmena taktiky.",
+      "meaning_upright": "Situácia si vyžaduje taktiku. Namiesto čelného nárazu radšej zvoľ obchádzku a zachovaj diskrétnosť.",
+      "meaning_reversed": "Pravda vypláva na povrch. Je načase prestať s výhovorkami, vziať rozum do hrsti a postaviť sa veciam čelom.",
       "archetype": null,
       "description": null
     },
@@ -1037,12 +1037,12 @@
       "image_path": "57.png",
       "name": "Osmička mečov",
       "keywords": [
-        "obmedzenie",
-        "strach",
-        "sebaobmedzovanie"
+        "zviazané ruky",
+        "úzkosť",
+        "vnútorné väzenie"
       ],
-      "meaning_upright": "Pocit obmedzenia strachom alebo sebalimitujúcimi presvedčeniami.",
-      "meaning_reversed": "Uvoľnenie, nová perspektíva a uvoľnenie pút.",
+      "meaning_upright": "Máte pocit, že ste v kúte, no pravdou je, že ste si na oči priviazali šatku sami. Je to stav, kedy vás ochromuje strach z vlastných tieňov a vy sami si kladiete prekážky, ktoré v skutočnosti neexistujú.",
+      "meaning_reversed": "Konečne začínate vidieť veci jasne. Púta povoľujú, strach ustupuje a vy chápete, že je čas vziať rozum do hrsti a vykročiť vpred bez starých obmedzení.",
       "archetype": null,
       "description": null
     },
@@ -1056,11 +1056,11 @@
       "name": "Deviatka mečov",
       "keywords": [
         "úzkosť",
-        "starosti",
-        "nespavosť"
+        "hlava v smútku",
+        "prebdené noci"
       ],
-      "meaning_upright": "Úzkosť, starosti a bezprebdené noci.",
-      "meaning_reversed": "Úľava, podpora alebo čelenie strachom.",
+      "meaning_upright": "Zbytočné obavy, ťažké myšlienky a noci, kedy človek len zízal do tmy a nevedel zaspať.",
+      "meaning_reversed": "Konečne prichádza úľava, pomoc od blízkych alebo odhodlanie pozrieť sa pravde do očí a vziať rozum do hrsti.",
       "archetype": null,
       "description": null
     },
@@ -1074,11 +1074,11 @@
       "name": "Desiatka mečov",
       "keywords": [
         "koniec",
-        "zrada",
-        "prepustenie"
+        "podraz",
+        "vyslobodenie"
       ],
-      "meaning_upright": "Koniec, bolestivá pravda a prepustenie starého.",
-      "meaning_reversed": "Zotavenie, odolnosť a opätovné povstanie.",
+      "meaning_upright": "Definitívna bodka, krutá pravda, ktorú už nemožno prehliadať, a nevyhnutný odchod od všetkého, čo vás vyčerpalo.",
+      "meaning_reversed": "Postupné uzdravovanie, nadobudnutie odolnosti a sila opäť sa postaviť na nohy.",
       "archetype": null,
       "description": null
     },
@@ -1095,8 +1095,8 @@
         "hľadanie pravdy",
         "ostražitosť"
       ],
-      "meaning_upright": "Zvedavosť, hľadanie pravdy a mentálna bdelosť.",
-      "meaning_reversed": "Ohováranie, unáhlenosť alebo skákanie k záverom.",
+      "meaning_upright": "Bystrá myseľ, chuť prísť veciam na kĺb a potreba mať sa na pozore.",
+      "meaning_reversed": "Reči za chrbtom, prchkosť alebo tendencie vynášať súdy bez toho, aby človek vzal rozum do hrsti.",
       "archetype": null,
       "description": null
     },
@@ -1109,12 +1109,12 @@
       "image_path": "61.png",
       "name": "Rytier mečov",
       "keywords": [
-        "priamosť",
-        "rýchlosť",
-        "odhodlanie"
+        "úprimnosť",
+        "bystrosť",
+        "zaujatý postoj"
       ],
-      "meaning_upright": "Priame konanie, rýchlosť a rozhodné myslenie.",
-      "meaning_reversed": "Impulzívnosť, drsnosť alebo bezhlavé náhlenie sa.",
+      "meaning_upright": "Konať bez okolkov, mať čistú myseľ a ísť priamo za svojím cieľom.",
+      "meaning_reversed": "Splašenosť, zbytočná tvrdosť alebo bezhlavé vrhnutie sa do niečoho, kedy by bolo lepšie vziať rozum do hrsti.",
       "archetype": null,
       "description": null
     },
@@ -1127,12 +1127,12 @@
       "image_path": "62.png",
       "name": "Kráľovná mečov",
       "keywords": [
-        "rozlišovanie",
-        "nezávislosť",
-        "jasnosť"
+        "ostré videnie",
+        "stojí na vlastných nohách",
+        "čistá myseľ"
       ],
-      "meaning_upright": "Rozlišovanie, nezávislosť a jasné hranice.",
-      "meaning_reversed": "Chlad, zatrpknutosť alebo rezavé slová.",
+      "meaning_upright": "Vie odlíšiť zrno od pliev, stojí si za svojím a vie presne, kde končí jej priestor a začína cudzí.",
+      "meaning_reversed": "Citový chlad, zatrpknutá nátura alebo slová, ktoré režú hlbšie, než by bolo treba.",
       "archetype": null,
       "description": null
     },
@@ -1145,12 +1145,12 @@
       "image_path": "63.png",
       "name": "Kráľ mečov",
       "keywords": [
-        "logika",
-        "autorita",
-        "pravda"
+        "chladný rozum",
+        "prirodzená autorita",
+        "rovná chrbtica"
       ],
-      "meaning_upright": "Logika, autorita a zásadová pravda.",
-      "meaning_reversed": "Zneužitie moci alebo strnulý, nespravodlivý úsudok.",
+      "meaning_upright": "Schopnosť nazerať na veci triezvo, rozhodovať sa s chladnou hlavou a stáť si za svojou pravdou bez zbytočných emócií.",
+      "meaning_reversed": "Sklon k tyranii, zneužívanie postavenia či tvrdohlavé lipnutie na nespravodlivom úsudku, ktorý nikomu nepomáha.",
       "archetype": null,
       "description": null
     },
@@ -1158,17 +1158,17 @@
       "id": 64,
       "arcana": "malá",
       "number": 1,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "eso",
       "image_path": "64.png",
-      "name": "Eso pentaklov",
+      "name": "Eso mincí",
       "keywords": [
         "príležitosť",
         "rast",
         "zdroje"
       ],
-      "meaning_upright": "Hmatateľná príležitosť a semienko prosperity.",
-      "meaning_reversed": "Zmeškaná šanca alebo nestabilné základy.",
+      "meaning_upright": "Reálna šanca, ktorú možno chytiť za pačesy, a prvý krok k poctivej úrode.",
+      "meaning_reversed": "Premárnená príležitosť alebo chatrné základy, na ktorých sa nič trvácne nepostaví.",
       "archetype": null,
       "description": null
     },
@@ -1176,17 +1176,17 @@
       "id": 65,
       "arcana": "malá",
       "number": 2,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "dvojka",
       "image_path": "65.png",
-      "name": "Dvojka pentaklov",
+      "name": "Dvojka mincí",
       "keywords": [
         "rovnováha",
-        "adaptácia",
+        "prispôsobivosť",
         "žonglovanie"
       ],
-      "meaning_upright": "Vyvažovanie priorít a prispôsobovanie sa zmene.",
-      "meaning_reversed": "Príliš veľa záväzkov alebo strata rovnováhy.",
+      "meaning_upright": "Učíš sa balansovať medzi tým, čo musíš, a tým, čo chceš. Je to o hľadaní miery v bežnom ruchu dní.",
+      "meaning_reversed": "Pustil si si toho na plecia priveľa. Keď sa snažíš vyhovieť všetkým, nakoniec sa všetko sype pod rukami.",
       "archetype": null,
       "description": null
     },
@@ -1194,17 +1194,17 @@
       "id": 66,
       "arcana": "malá",
       "number": 3,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "trojka",
       "image_path": "66.png",
-      "name": "Trojka pentaklov",
+      "name": "Trojka mincí",
       "keywords": [
-        "tímová práca",
-        "remeslo",
-        "učenie sa"
+        "spolupráca",
+        "majstrovstvo",
+        "učenie sa remeslu"
       ],
-      "meaning_upright": "Tímová práca, zručnosť a učenie sa praxou.",
-      "meaning_reversed": "Chýbajúca spolupráca alebo odfláknutá práca.",
+      "meaning_upright": "Spoločné ťahanie za jeden povraz, poctivé remeslo a nadobúdanie spôsobilosti priamo v teréne.",
+      "meaning_reversed": "Nezhody v tíme alebo práca odfláknutá bez štipky hrdosti na výsledok.",
       "archetype": null,
       "description": null
     },
@@ -1212,17 +1212,17 @@
       "id": 67,
       "arcana": "malá",
       "number": 4,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "štvorka",
       "image_path": "67.png",
-      "name": "Štvorka pentaklov",
+      "name": "Štvorka mincí",
       "keywords": [
-        "bezpečnosť",
+        "istota",
         "kontrola",
-        "držanie sa"
+        "kŕčovité držanie sa"
       ],
-      "meaning_upright": "Bezpečnosť, kontrola a pevné držanie sa vecí.",
-      "meaning_reversed": "Pustenie kontroly alebo strach zo straty ovplyvňujúci rozhodnutia.",
+      "meaning_upright": "Potreba bezpečia, snaha mať veci pod palcom a pevné zovretie toho, čo človek nadobudol.",
+      "meaning_reversed": "Pustenie uzdy, odhodlanie sa k zmene alebo strach zo straty, ktorý človeku zatemňuje úsudok pri dôležitých rozhodnutiach.",
       "archetype": null,
       "description": null
     },
@@ -1230,17 +1230,17 @@
       "id": 68,
       "arcana": "malá",
       "number": 5,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "päťka",
       "image_path": "68.png",
-      "name": "Päťka pentaklov",
+      "name": "Päťka mincí",
       "keywords": [
-        "ťažkosti",
-        "nedostatok",
-        "podpora"
+        "trápenie",
+        "tieseň",
+        "hľadanie pomoci"
       ],
-      "meaning_upright": "Ťažkosti, nedostatok a hľadanie podpory.",
-      "meaning_reversed": "Zotavenie, pomoc a zlepšujúce sa podmienky.",
+      "meaning_upright": "Ťažké časy, keď sa človek cíti na dne a zúfalo potrebuje oporu.",
+      "meaning_reversed": "Pomaly sa blýska na lepšie časy, prichádza pomoc a život sa vracia do starých koľají.",
       "archetype": null,
       "description": null
     },
@@ -1248,17 +1248,17 @@
       "id": 69,
       "arcana": "malá",
       "number": 6,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "šestka",
       "image_path": "69.png",
-      "name": "Šestka pentaklov",
+      "name": "Šestka mincí",
       "keywords": [
-        "dávanie",
-        "prijímanie",
-        "férovosť"
+        "podaná ruka",
+        "vďačnosť",
+        "spravodlivý diel"
       ],
-      "meaning_upright": "Dávanie a prijímanie s férovosťou a starostlivosťou.",
-      "meaning_reversed": "Skryté úmysly alebo nerovnováha vo výmene.",
+      "meaning_upright": "O dávaní a prijímaní bez zbytočných rečí, poctivo a s otvoreným srdcom.",
+      "meaning_reversed": "Keď niekto hrá falošnú hru alebo keď sa misky váh pri vzájomnej pomoci vychýlili na zlú stranu.",
       "archetype": null,
       "description": null
     },
@@ -1266,17 +1266,17 @@
       "id": 70,
       "arcana": "malá",
       "number": 7,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "sedmička",
       "image_path": "70.png",
-      "name": "Sedmička pentaklov",
+      "name": "Sedmička mincí",
       "keywords": [
         "trpezlivosť",
-        "investícia",
-        "hodnotenie"
+        "dlhodobá snaha",
+        "bilancovanie"
       ],
-      "meaning_upright": "Trpezlivosť, dlhodobá investícia a hodnotenie výsledkov.",
-      "meaning_reversed": "Netrpezlivosť alebo príliš skoré pochybovanie o pokroku.",
+      "meaning_upright": "Čas na trpezlivosť, zúročenie dlhodobej práce a triezve hodnotenie toho, čo sa podarilo dosiahnuť.",
+      "meaning_reversed": "Netrpezlivosť, zbrklé hodnotenie alebo zbytočné pochybnosti o ceste, na ktorej už človek stojí.",
       "archetype": null,
       "description": null
     },
@@ -1284,17 +1284,17 @@
       "id": 71,
       "arcana": "malá",
       "number": 8,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "osmička",
       "image_path": "71.png",
-      "name": "Osmička pentaklov",
+      "name": "Osmička mincí",
       "keywords": [
-        "prax",
+        "remeslo",
         "zručnosť",
-        "oddanosť"
+        "vytrvalosť"
       ],
-      "meaning_upright": "Prax, oddanosť a zdokonaľovanie remesla.",
-      "meaning_reversed": "Uľahčovanie si práce alebo nuda z rutiny.",
+      "meaning_upright": "Poctivá drina, sústredenie a postupné zdokonaľovanie toho, čo robíte.",
+      "meaning_reversed": "Snaha ísť skratkou, lajdáctvo alebo pocit, že vás každodenná robota už len vyčerpáva.",
       "archetype": null,
       "description": null
     },
@@ -1302,17 +1302,17 @@
       "id": 72,
       "arcana": "malá",
       "number": 9,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "deviatka",
       "image_path": "72.png",
-      "name": "Deviatka pentaklov",
+      "name": "Deviatka mincí",
       "keywords": [
         "nezávislosť",
-        "komfort",
-        "sebahodnota"
+        "pohodlie",
+        "sebaúcta"
       ],
-      "meaning_upright": "Nezávislosť, komfort a vedomie vlastnej hodnoty.",
-      "meaning_reversed": "Prílišná závislosť na iných alebo neistota napriek úspechu.",
+      "meaning_upright": "Človek stojí na vlastných nohách, teší sa z vydobytého pokoja a vie, koľko má jeho práca naozaj cenu.",
+      "meaning_reversed": "Pocit, že bez pomoci druhých sa ďalej nepohnete, alebo vnútorná neistota, ktorá nahlodáva radosť z úspechu.",
       "archetype": null,
       "description": null
     },
@@ -1320,17 +1320,17 @@
       "id": 73,
       "arcana": "malá",
       "number": 10,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "desiatka",
       "image_path": "73.png",
-      "name": "Desiatka pentaklov",
+      "name": "Desiatka mincí",
       "keywords": [
-        "odkaz",
-        "rodina",
-        "stabilita"
+        "dedičstvo",
+        "rodinný krb",
+        "istota"
       ],
-      "meaning_upright": "Odkaz, rodinná stabilita a dlhodobé zabezpečenie.",
-      "meaning_reversed": "Nestabilita v základoch alebo rodinné napätie.",
+      "meaning_upright": "Plody dlhoročnej práce, pevné rodinné zázemie a pocit, že ste si v živote vybudovali niečo trvácne.",
+      "meaning_reversed": "Trhliny v základoch, rodinné nezhody alebo strata istoty, ktorú ste považovali za samozrejmosť.",
       "archetype": null,
       "description": null
     },
@@ -1338,17 +1338,17 @@
       "id": 74,
       "arcana": "malá",
       "number": 11,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "páža",
       "image_path": "74.png",
-      "name": "Páža pentaklov",
+      "name": "Páža mincí",
       "keywords": [
-        "štúdium",
-        "príležitosť",
-        "plánovanie"
+        "vzdelávanie",
+        "nová šanca",
+        "rozumné plánovanie"
       ],
-      "meaning_upright": "Štúdium, nová príležitosť a uzemnené plánovanie.",
-      "meaning_reversed": "Prokrastinácia alebo chýbajúca vytrvalosť.",
+      "meaning_upright": "Čas na učenie, prichádzajúca šanca a triezve plánovanie vecí tak, aby mali hlavu aj pätu.",
+      "meaning_reversed": "Odkladanie povinností na zajtra alebo strata odhodlania dotiahnuť veci do konca.",
       "archetype": null,
       "description": null
     },
@@ -1356,17 +1356,17 @@
       "id": 75,
       "arcana": "malá",
       "number": 12,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "rytier",
       "image_path": "75.png",
-      "name": "Rytier pentaklov",
+      "name": "Rytier mincí",
       "keywords": [
         "stálosť",
-        "rutina",
+        "zabehnutý poriadok",
         "spoľahlivosť"
       ],
-      "meaning_upright": "Stabilný pokrok a spoľahlivé úsilie.",
-      "meaning_reversed": "Stagnácia alebo tvrdohlavé lipnutie na rutine.",
+      "meaning_upright": "Krok za krokom vpred, poctivá práca, ktorá prináša ovocie.",
+      "meaning_reversed": "Uviaznutie na mŕtvom bode alebo nezdravé lipnutie na starých návykoch, hoci už dávno neprinášajú úžitok.",
       "archetype": null,
       "description": null
     },
@@ -1374,17 +1374,17 @@
       "id": 76,
       "arcana": "malá",
       "number": 13,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "kráľovná",
       "image_path": "76.png",
-      "name": "Kráľovná pentaklov",
+      "name": "Kráľovná mincí",
       "keywords": [
         "starostlivosť",
         "praktickosť",
         "domov"
       ],
-      "meaning_upright": "Praktická starostlivosť, pohodlie a uzemnená podpora.",
-      "meaning_reversed": "Nerovnováha medzi prácou a domovom alebo zanedbávanie seba.",
+      "meaning_upright": "Zmysel pre realitu, útulný domov a tá správna podpora, ktorá stojí pevne na zemi.",
+      "meaning_reversed": "Rozhasené hranice medzi povinnosťami a súkromím, alebo keď človek pozabudne sám na seba.",
       "archetype": null,
       "description": null
     },
@@ -1392,17 +1392,17 @@
       "id": 77,
       "arcana": "malá",
       "number": 14,
-      "suit": "pentakle",
+      "suit": "Mince",
       "rank": "kráľ",
       "image_path": "77.png",
-      "name": "Kráľ pentaklov",
+      "name": "Kráľ mincí",
       "keywords": [
-        "hojnosť",
-        "stabilita",
+        "úroda",
+        "stálosť",
         "živiteľ"
       ],
-      "meaning_upright": "Hojnosť, stabilita a zodpovedné zabezpečenie.",
-      "meaning_reversed": "Materializmus alebo využívanie zdrojov na kontrolu iných.",
+      "meaning_upright": "Zaslúžená úroda, pevná pôda pod nohami a zodpovednosť za tých, na ktorých vám záleží.",
+      "meaning_reversed": "Zaslepenosť majetkom alebo snaha získať moc nad druhými prostredníctvom peňazí.",
       "archetype": null,
       "description": null
     }

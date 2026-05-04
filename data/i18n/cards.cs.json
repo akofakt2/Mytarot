@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "locale": "cs",
+  "version": 2,
+  "locale": "pl",
   "cards": [
     {
       "id": 0,
@@ -11,14 +11,14 @@
       "image_path": "0.png",
       "name": "Blázen",
       "keywords": [
-        "počátky",
-        "nevinnost",
-        "skok_víry"
+        "nové cesty",
+        "čistý štít",
+        "skok do neznáma"
       ],
-      "meaning_upright": "Nové začátky, spontánnost a důvěra v cestu.",
-      "meaning_reversed": "Bezohlednost, naivita nebo váhání začít.",
+      "meaning_upright": "Čas začít znovu, vrhnout se do věcí po hlavě a věřit, že vás cesta dovede tam, kam má.",
+      "meaning_reversed": "Předčasné nadšení, kterému chybí rozvaha, nebo strach udělat první krok, i když už by bylo dávno na čase.",
       "archetype": "Hledač",
-      "description": "Krok do neznáma s otevřeností a zvědavostí."
+      "description": "Odhodlání vykročit do neznáma s čistou hlavou a sázkou na vlastní zvědavost."
     },
     {
       "id": 1,
@@ -29,14 +29,14 @@
       "image_path": "1.png",
       "name": "Mág",
       "keywords": [
-        "vůle",
-        "dovednost",
-        "manifestace"
+        "odhodlání",
+        "zručnost",
+        "činy místo slov"
       ],
-      "meaning_upright": "Soustředěný záměr, dovedné jednání a uskutečnění věcí.",
-      "meaning_reversed": "Rozptýlená energie, manipulace nebo nevyužitý potenciál.",
+      "meaning_upright": "Když má člověk jasný cíl a ví, jak vzít za práci, věci se začnou hýbat správným směrem.",
+      "meaning_reversed": "Roztěkanost, zbytečné kličkování nebo talent, který leží ladem, protože se do ničeho nechce.",
       "archetype": "Tvůrce",
-      "description": "Slaďování nástrojů, vůle a pozornosti k vytvoření změny."
+      "description": "Umění dát dohromady všechno, co má ruce a nohy, spojit rozum s umem a proměnit záměr ve skutečnost."
     },
     {
       "id": 2,
@@ -47,14 +47,14 @@
       "image_path": "2.png",
       "name": "Velekněžka",
       "keywords": [
-        "intuice",
-        "tajemství",
-        "vnitřní_hlas"
+        "šestý smysl",
+        "tajnosti",
+        "hlas svědomí"
       ],
-      "meaning_upright": "Intuice, vnitřní vědomí a skryté pravdy.",
-      "meaning_reversed": "Ignorování intuice, zmatek nebo příliš dlouho držená tajemství.",
-      "archetype": "Mystik",
-      "description": "Tiché pozvání k naslouchání pod povrchem."
+      "meaning_upright": "Schopnost vycítit věci mezi řádky, vnitřní klid a pravdy, které se skrývají pod povrchem.",
+      "meaning_reversed": "Když člověk neslyší vlastní instinkt, plave v nejistotě nebo se trápí věcmi, které měl dávno pustit k vodě.",
+      "archetype": "Hledač pravdy",
+      "description": "Tichá výzva k tomu, aby člověk na chvíli přestal mluvit a začal pořádně vnímat, co mu napovídá jeho vlastní nitro."
     },
     {
       "id": 3,
@@ -66,13 +66,13 @@
       "name": "Císařovna",
       "keywords": [
         "péče",
-        "hojnost",
-        "růst"
+        "úroda",
+        "rozkvět"
       ],
-      "meaning_upright": "Péče o růst, kreativitu a hojnost.",
-      "meaning_reversed": "Kreativní blok, zanedbání nebo přílišná závislost.",
+      "meaning_upright": "Čas, kdy věci konečně začínají vzkvétat. Je to o tvořivé síle, trpělivé péči a o tom, že se konečně dočkáte výsledků své práce.",
+      "meaning_reversed": "Když se všechno zadrhne. Ztráta inspirace, zanedbané plány nebo chvíle, kdy se člověk až příliš upíná na druhé a zapomíná žít za své.",
       "archetype": "Matka",
-      "description": "Péče, krása a síla pěstování."
+      "description": "Zosobnění života, který bují, krásy, co má smysl, a síly, která nechá vyrůst všechno, co má ruce a nohy."
     },
     {
       "id": 4,
@@ -83,14 +83,14 @@
       "image_path": "4.png",
       "name": "Císař",
       "keywords": [
-        "struktura",
+        "řád",
         "autorita",
-        "stabilita"
+        "pevná půda pod nohama"
       ],
-      "meaning_upright": "Struktura, vedení a stabilní základy.",
-      "meaning_reversed": "Rigidita, problémy s kontrolou nebo nestabilita autority.",
+      "meaning_upright": "Zavedený pořádek, schopnost vést druhé a budování pevných základů, na které se lze spolehnout.",
+      "meaning_reversed": "Přílišná upjatost, potřeba mít všechno pod palcem za každou cenu nebo vrávorající autorita, která ztrácí respekt.",
       "archetype": "Vládce",
-      "description": "Pořádek a ochrana skrze jasné hranice."
+      "description": "Schopnost udržet věci v chodu a zajistit bezpečí díky rozumně nastaveným pravidlům."
     },
     {
       "id": 5,
@@ -101,14 +101,14 @@
       "image_path": "5.png",
       "name": "Velekněz",
       "keywords": [
-        "tradice",
-        "učení",
-        "víra"
+        "tradicí ověřené postupy",
+        "předávání zkušeností",
+        "vnitřní přesvědčení"
       ],
-      "meaning_upright": "Tradice, mentorství a sdílené hodnoty.",
-      "meaning_reversed": "Rebelie, dogmatismus nebo zpochybňování starých pravidel.",
+      "meaning_upright": "Držení se toho, co funguje, rady zkušenějších a sdílené zásady, které drží společnost pohromadě.",
+      "meaning_reversed": "Chuť se vzepřít autoritám, zaslepenost vlastní pravdou nebo prostě snaha shodit všechno, co má ruce a nohy, jen proto, aby bylo po vašem.",
       "archetype": "Učitel",
-      "description": "Učení v rámci posloupnosti smyslu a praxe."
+      "description": "Předávání řemesla a životní moudrosti tak, aby se na ně dalo spolehnout i v časech, které nejsou zrovna snadné."
     },
     {
       "id": 6,
@@ -119,14 +119,14 @@
       "image_path": "6.png",
       "name": "Milenci",
       "keywords": [
-        "volba",
-        "unie",
-        "sladění_hodnot"
+        "osudové rozhodnutí",
+        "spřízněnost",
+        "shoda v tom podstatném"
       ],
-      "meaning_upright": "Unie, smysluplná volba a sladění hodnot.",
-      "meaning_reversed": "Nesoulad, nesoulad nebo strach ze závazku.",
+      "meaning_upright": "Přišel čas vybrat si cestu, za kterou si dokážete stát. Je to o spojení dvou světů, které si konečně rozumí, a o odvaze říct ano něčemu, co má skutečnou váhu.",
+      "meaning_reversed": "Něco drhne. Možná se bojíte naplno se pro něco rozhodnout, nebo zjišťujete, že s tím druhým vlastně hrajete úplně jinou hru. Je to stav, kdy se srdce a rozum přetahují o provaz.",
       "archetype": "Milovaný",
-      "description": "Výběr srdcem a život podle svých hodnot."
+      "description": "Není to jen o romantice, ale o schopnosti žít v souladu se svým svědomím. Vybrat si to, co dává smysl, i kdyby to znamenalo nechat všechno, co má ruce a nohy, za sebou."
     },
     {
       "id": 7,
@@ -137,14 +137,14 @@
       "image_path": "7.png",
       "name": "Vůz",
       "keywords": [
-        "pohon",
-        "vítězství",
-        "sebekontrola"
+        "tah na branku",
+        "úspěch",
+        "pevná ruka"
       ],
-      "meaning_upright": "Odhodlání, hybnost a disciplinovaný pokrok.",
-      "meaning_reversed": "Nedostatek směru, protichůdné síly nebo vyhoření.",
+      "meaning_upright": "Jasný cíl, vytrvalost a schopnost udržet směr, i když jde do tuhého.",
+      "meaning_reversed": "Ztráta kompasu, rozháranost nebo stav, kdy člověka všechno, co má ruce a nohy, táhne jinam a on jen bezmocně vyhoří.",
       "archetype": "Vítěz",
-      "description": "Ovládání protichůdných energií k postupu vpřed."
+      "description": "Umění ukočírovat protichůdné zájmy a dovést věc ke zdárnému konci."
     },
     {
       "id": 8,
@@ -157,12 +157,12 @@
       "keywords": [
         "odvaha",
         "trpělivost",
-        "vnitřní_síla"
+        "vnitřní klid"
       ],
-      "meaning_upright": "Odvaha, trpělivost a jemná vnitřní síla.",
-      "meaning_reversed": "Sebepochybnosti, netrpělivost nebo síla nad obratností.",
+      "meaning_upright": "Odvaha, trpělivost a ta pravá vnitřní síla, která nepotřebuje křičet.",
+      "meaning_reversed": "Pochybnosti o sobě samém, zbrklost nebo chvíle, kdy hrubá síla na rozum prostě nestačí.",
       "archetype": "Srdce",
-      "description": "Krocení strachu skrze soucit a vyrovnanost."
+      "description": "Krocení vlastních strachů pomocí pochopení a chladné hlavy."
     },
     {
       "id": 9,
@@ -174,13 +174,13 @@
       "name": "Poustevník",
       "keywords": [
         "samota",
-        "moudrost",
-        "vedení"
+        "životní nadhled",
+        "vnitřní kompas"
       ],
-      "meaning_upright": "Samota, vhled a vnitřní vedení.",
-      "meaning_reversed": "Izolace, vyhýbání se nebo odmítání pomoci.",
+      "meaning_upright": "Potřebuješ se na chvíli stáhnout z hluku světa, aby se ti v hlavě urovnaly myšlenky a našel jsi správný směr.",
+      "meaning_reversed": "Zbytečně se uzavíráš do ulity, hraješ si na hrdinu, který nikoho nepotřebuje, a přitom ti uniká podstata věci.",
       "archetype": "Mudrc",
-      "description": "Odstup, abych viděl jasně."
+      "description": "Někdy musíš poodejít od všeho, co má ruce a nohy, abys konečně viděl věci takové, jaké doopravdy jsou."
     },
     {
       "id": 10,
@@ -191,14 +191,14 @@
       "image_path": "10.png",
       "name": "Kolo štěstěny",
       "keywords": [
-        "cykly",
-        "změna",
-        "osud"
+        "střídání časů",
+        "nevyhnutelnost",
+        "vrtkavý osud"
       ],
-      "meaning_upright": "Zlomové body, cykly a posuny štěstí.",
-      "meaning_reversed": "Odpor ke změnám, zpoždění nebo opakující se vzorce.",
+      "meaning_upright": "Všechno se jednou otočí. Život si žádá změnu rytmu a vy teď stojíte přesně tam, kde se láme chleba.",
+      "meaning_reversed": "Zatvrzele se bráníte tomu, co je stejně na spadnutí. Jen tím zbytečně brzdíte sebe i všechno, co má ruce a nohy.",
       "archetype": "Kolo",
-      "description": "Život plyne – přizpůsob se a přijmi okamžik."
+      "description": "Život není rovná cesta, ale nekonečný koloběh. Nemá smysl se vzpouzet – prostě se té jízdě přizpůsobte a nechte se nést."
     },
     {
       "id": 11,
@@ -213,10 +213,10 @@
         "férovost",
         "odpovědnost"
       ],
-      "meaning_upright": "Pravda, férovost a zodpovědné volby.",
-      "meaning_reversed": "Předsudky, popírání nebo vyhýbání se následkům.",
+      "meaning_upright": "Když se karta otočí správně, jde o čistou pravdu, rovný přístup k věci a schopnost vzít si odpovědnost za svá rozhodnutí.",
+      "meaning_reversed": "Obráceně karta varuje před zaslepeností předsudky, zatloukáním vlastních chyb nebo zbabělým uhýbáním před následky toho, co člověk napáchal.",
       "archetype": "Soudce",
-      "description": "Vidět jasně a jednat s integritou."
+      "description": "Nahlížet na věci střízlivě, bez příkras a jednat rovně, i když to zrovna není pohodlné."
     },
     {
       "id": 12,
@@ -228,13 +228,13 @@
       "name": "Oběšenec",
       "keywords": [
         "pauza",
-        "nová_perspektiva",
-        "odevzdání"
+        "jiný úhel pohledu",
+        "puštění otěží"
       ],
-      "meaning_upright": "Pauza, odevzdání a nový pohled.",
-      "meaning_reversed": "Zdržování, tvrdohlavost nebo strach pustit.",
+      "meaning_upright": "Čas se na chvíli zastavit, přestat se rvát s osudem a podívat se na věci, jako byste stáli na hlavě. Někdy je nejlepším řešením prostě přestat tlačit na pilu.",
+      "meaning_reversed": "Zbytečné přešlapování na místě, zatvrzelost nebo strach opustit staré koleje, i když už dávno nikam nevedou.",
       "archetype": "Zasvěcenec",
-      "description": "Dar vidět jinak."
+      "description": "Dar prohlédnout pod povrch věcí díky tomu, že se přestanete bránit světu."
     },
     {
       "id": 13,
@@ -245,14 +245,14 @@
       "image_path": "13.png",
       "name": "Smrt",
       "keywords": [
-        "konce",
-        "transformace",
-        "uvolnění"
+        "konec jedné kapitoly",
+        "proměna",
+        "puštění starého"
       ],
-      "meaning_upright": "Konce, které uvolňují místo pro transformaci.",
-      "meaning_reversed": "Držení se, strach ze změny nebo protahující se přechod.",
-      "archetype": "Transformátor",
-      "description": "Uvolni to, co je hotovo; obnov to, co zůstává."
+      "meaning_upright": "Všechno má svůj čas a některé věci prostě musí skončit, aby mohl přijít čerstvý vítr. Je to přirozený proces, kdy staré opadá, aby to nové mělo prostor k růstu.",
+      "meaning_reversed": "Křečovité lpění na tom, co už dávno nefunguje. Strach z neznáma, který jen zbytečně prodlužuje trápení a brání vám pohnout se konečně dál.",
+      "archetype": "Katalyzátor změn",
+      "description": "Co už dosloužilo, to pusťte k vodě. Soustřeďte se na to, co v životě dává smysl a co má ještě sílu dál růst."
     },
     {
       "id": 14,
@@ -264,13 +264,13 @@
       "name": "Mírnost",
       "keywords": [
         "rovnováha",
-        "léčení",
-        "umírněnost"
+        "zhojení",
+        "střídmost"
       ],
-      "meaning_upright": "Rovnováha, léčení a měřená integrace.",
-      "meaning_reversed": "Přebytek, nerovnováha nebo nedostatek harmonie.",
+      "meaning_upright": "Schopnost najít zlatou střední cestu, dát věci do pořádku a v klidu spojit nespojitelné.",
+      "meaning_reversed": "Když se všechno začne vymykat kontrole, přemíra emocí nebo rozháranost, která nedovolí najít vnitřní klid.",
       "archetype": "Alchymista",
-      "description": "Smíchej extrémy do něčeho celistvého."
+      "description": "Najdi způsob, jak promísit protiklady tak, aby z nich vzniklo něco smysluplného a celistvého."
     },
     {
       "id": 15,
@@ -281,14 +281,14 @@
       "image_path": "15.png",
       "name": "Ďábel",
       "keywords": [
-        "připoutanost",
-        "stín",
-        "pokušení"
+        "závislost",
+        "vnitřní temnota",
+        "svedení"
       ],
-      "meaning_upright": "Připoutanost, pokušení a konfrontace se stínem.",
-      "meaning_reversed": "Osvobození se, znovuzískání moci nebo popírání problémů.",
+      "meaning_upright": "Ztráta svobody, nezdravé ulpívání na věcech a nevyhnutelný střet s vlastními démony, které jsme si vykrmili.",
+      "meaning_reversed": "Konečné procitnutí, rozvázání rukou nebo naopak úzkostlivé zavírání očí před tím, co nás drží u země.",
       "archetype": "Stín",
-      "description": "Vidíš řetěz, abys ho mohl povolit."
+      "description": "Ten řetěz kolem krku není kovaný ze železa, ale z tvých vlastních zvyků. Jakmile si uvědomíš, že konec držíš v ruce, můžeš ho kdykoliv povolit."
     },
     {
       "id": 16,
@@ -299,14 +299,14 @@
       "image_path": "16.png",
       "name": "Věž",
       "keywords": [
-        "odhalení",
-        "otřes",
-        "reset"
+        "procitnutí",
+        "kalamita",
+        "úklid trosek"
       ],
-      "meaning_upright": "Otřes, odhalení a čištění falešných struktur.",
-      "meaning_reversed": "Vyhýbání se nevyhnutelnému, prodloužené narušení nebo strach.",
-      "archetype": "Blesk",
-      "description": "Pravda udeří – přestavuj na tom, co je skutečné."
+      "meaning_upright": "Přijde rána, která všechno srovná se zemí. Je to nutný očistec, který smete vyhnilé základy a ukáže, co z toho všeho, co má ruce a nohy, skutečně stojí za řeč.",
+      "meaning_reversed": "Křečovité držení se starých jistot, i když už dávno nedrží pohromadě. Člověk se snaží vyhnout bouřce, která už dávno klepe na dveře, a jen si tím prodlužuje vlastní trápení.",
+      "archetype": "Blesk z čistého nebe",
+      "description": "Pravda někdy bolí a boří zdi. Přestaň se bát sutin a začni znovu, tentokrát ale na něčem, co má pevnou půdu pod nohama."
     },
     {
       "id": 17,
@@ -318,13 +318,13 @@
       "name": "Hvězda",
       "keywords": [
         "naděje",
-        "obnova",
-        "vedení"
+        "nový dech",
+        "vnitřní kompas"
       ],
-      "meaning_upright": "Naděje, obnova a vodící světlo vpředu.",
-      "meaning_reversed": "Odvaha, pochybnosti nebo utlumený optimismus.",
+      "meaning_upright": "Světlo na konci tunelu, které svítí přesně tam, kam potřebujete jít. Čas, kdy se věci konečně začínají rovnat a vy víte, že i po bouřce vyjde slunce.",
+      "meaning_reversed": "Chvíle, kdy se člověk raději dívá do země než na cestu. Pochybnosti, které vám svazují ruce, nebo jen pocit, že ten vnitřní motor ztratil tah.",
       "archetype": "Průvodce",
-      "description": "Tiché ano z budoucnosti."
+      "description": "Tiché ujištění, že to dobře dopadne."
     },
     {
       "id": 18,
@@ -335,14 +335,14 @@
       "image_path": "18.png",
       "name": "Měsíc",
       "keywords": [
-        "iluze",
-        "intuice",
+        "klamy",
+        "tušení",
         "nejistota"
       ],
-      "meaning_upright": "Nejistota, intuice a navigace v neznámu.",
-      "meaning_reversed": "Vynikající jasnost, mizící strach nebo odhalené sebepřekrucování.",
+      "meaning_upright": "Stojíš na rozcestí, kde se věci v šeru mění v přízraky. Raději než na oči se spolehni na vlastní instinkt, ten tě v té mlze vyvede ven.",
+      "meaning_reversed": "Konečně se rozjasnilo. Mlhové stěny padají, strach ustupuje a ty vidíš, že sis dlouho lhal do kapsy. Pravda je sice prostá, ale osvobozující.",
       "archetype": "Sen",
-      "description": "Ne vše je jasné – pohybuj se vnitřním světlem."
+      "description": "Svět kolem není vždycky tím, čím se zdá být. Když ti cesta mizí pod nohama, posviť si tím, co máš uvnitř."
     },
     {
       "id": 19,
@@ -355,12 +355,12 @@
       "keywords": [
         "radost",
         "úspěch",
-        "vitalita"
+        "životní síla"
       ],
-      "meaning_upright": "Radost, vitalita a sebevědomý úspěch.",
-      "meaning_reversed": "Dočasné nezdary, pesimismus nebo utlumená sebedůvěra.",
-      "archetype": "Světlo",
-      "description": "Teplo, viditelnost a pravda za denního světla."
+      "meaning_upright": "Radost ze života, elán a úspěch, který se nemusí za nic schovávat.",
+      "meaning_reversed": "Dočasný zádrhel, mrzutost nebo chvíle, kdy člověku trochu chybí odvaha věřit si.",
+      "archetype": "Jasné světlo",
+      "description": "Teplo, otevřenost a pravda, která se ukáže v plné kráse za denního světla, kdy nejde nic zamaskovat."
     },
     {
       "id": 20,
@@ -372,13 +372,13 @@
       "name": "Soud",
       "keywords": [
         "probuzení",
-        "revize",
-        "volání"
+        "bilancování",
+        "výzva"
       ],
-      "meaning_upright": "Probuzení, revize a odpověď na volání.",
-      "meaning_reversed": "Sebepochybnosti, tvrdý soud nebo vyhýbání se rozhodnutí.",
+      "meaning_upright": "Chvíle, kdy se konečně probudíte ze zakletí, ohlédnete se za tím, co máte za sebou, a konečně zaslechnete, kam vás to vlastně táhne.",
+      "meaning_reversed": "Když se člověk začne utápět v pochybnostech, zbytečně se bičuje nebo jen zbaběle uhýbá před tím, co už dávno ví, že musí udělat.",
       "archetype": "Volání",
-      "description": "S upřímností si vyber svou další kapitolu."
+      "description": "Seberte odvahu, buďte k sobě upřímní a konečně otočte list k další kapitole."
     },
     {
       "id": 21,
@@ -389,30 +389,30 @@
       "image_path": "21.png",
       "name": "Svět",
       "keywords": [
-        "dokončení",
-        "integrace",
-        "mistrovství"
+        "dotažení věcí do konce",
+        "vnitřní soulad",
+        "dosažení vrcholu"
       ],
-      "meaning_upright": "Dokončení, integrace a pocit celistvosti.",
-      "meaning_reversed": "Volné konce, zpoždění nebo neúplné uzavření.",
+      "meaning_upright": "Konečně je všechno, co má ruce a nohy, hotové. Cítíš, že do sebe všechno zapadlo a vnitřně jsi srovnaný.",
+      "meaning_reversed": "Něco ti tu ještě straší. Zůstaly po tobě rozdělané resty, které se táhnou, a tobě se nedaří za touhle kapitolou definitivně zabouchnout dveře.",
       "archetype": "Celek",
-      "description": "Přijdeš a začne nový cyklus."
+      "description": "Právě jsi došel na konec cesty. Teď už jen vydechnout, nechat staré věci za zády a připravit se na to, co přinese další otočka kola."
     },
     {
       "id": 22,
       "arcana": "minor",
       "number": 1,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "ace",
       "image_path": "22.png",
       "name": "Eso holí",
       "keywords": [
         "jiskra",
-        "inspirace",
-        "iniciativa"
+        "nápad",
+        "chuť do práce"
       ],
-      "meaning_upright": "Nová jiskra inspirace a nutkání začít.",
-      "meaning_reversed": "Zpoždění, nedostatek motivace nebo uhasínající jiskra.",
+      "meaning_upright": "Čerstvá myšlenka, která vás nenechá v klidu, a ten správný čas se do něčeho konečně opřít.",
+      "meaning_reversed": "Zdržení, vyprchané nadšení nebo pocit, že z toho, co mělo mít hlavu a patu, nakonec nic nebude.",
       "archetype": null,
       "description": null
     },
@@ -420,35 +420,35 @@
       "id": 23,
       "arcana": "minor",
       "number": 2,
-      "suit": "wands",
+      "suit": "Hole",
       "rank": "two",
       "image_path": "23.png",
       "name": "Dvě hole",
       "keywords": [
         "plánování",
-        "možnosti",
-        "vize"
+        "křižovatka",
+        "hledění do budoucna"
       ],
-      "meaning_upright": "Plánování dalšího kroku a rozšiřování obzorů.",
-      "meaning_reversed": "Strach z neznáma nebo přílišná opatrnost.",
+      "meaning_upright": "Stojíte na prahu něčeho nového, v hlavě si přebíráte možnosti a zvažujete, kterým směrem se vydat, abyste si život trochu víc rozšířili.",
+      "meaning_reversed": "Zatraceně se vám nechce opustit jistotu známého přístavu, a tak raději zůstáváte stát na místě, než abyste zariskovali.",
       "archetype": null,
-      "description": null
+      "description": "Je to jako chvíle, kdy máte sbaleno, v kapse mapu a přemýšlíte, jestli vyrazit nalevo, nebo napravo. Svět je otevřený, ale rozhodnutí je jen na vás."
     },
     {
       "id": 24,
       "arcana": "minor",
       "number": 3,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "three",
       "image_path": "24.png",
       "name": "Tři hole",
       "keywords": [
-        "expanze",
-        "pokrok",
-        "hybnost"
+        "rozmach",
+        "posun vpřed",
+        "nabrané tempo"
       ],
-      "meaning_upright": "Expanze, pokrok a začínající výsledky.",
-      "meaning_reversed": "Zpoždění, nezdary nebo nedostatek následného jednání.",
+      "meaning_upright": "Konečně se začíná blýskat na lepší časy a práce, kterou jste do toho vložili, začíná nést první ovoce.",
+      "meaning_reversed": "Všechno se zaseklo na půl cesty, výsledky nikde a vy se jen bezmocně díváte, jak se to, co mělo šlapat, zastavilo.",
       "archetype": null,
       "description": null
     },
@@ -456,35 +456,35 @@
       "id": 25,
       "arcana": "minor",
       "number": 4,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "four",
       "image_path": "25.png",
       "name": "Čtyři hole",
       "keywords": [
         "oslava",
-        "domov",
-        "milník"
+        "domácí pohoda",
+        "důležitý milník"
       ],
-      "meaning_upright": "Oslava, stabilita a radostný milník.",
-      "meaning_reversed": "Napětí doma nebo oslava, která se zdá nesprávná.",
+      "meaning_upright": "Čas, kdy je všechno, co má ruce a nohy, v klidu. Máte za sebou pořádný kus práce, doma vládne pohoda a je důvod si připít na úspěch.",
+      "meaning_reversed": "Něco doma skřípe. Možná se snažíte slavit navzdory tomu, že vám pod nohama hoří půda, nebo zkrátka cítíte, že tahle oslava má trpkou pachuť.",
       "archetype": null,
-      "description": null
+      "description": "Tato karta je jako návrat do dobře vyhřátého obýváku po náročném roce. Je to stvrzení toho, že jste si vybudovali zázemí, ve kterém se dá konečně vydechnout a užít si plody vlastní dřiny."
     },
     {
       "id": 26,
       "arcana": "minor",
       "number": 5,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "five",
       "image_path": "26.png",
       "name": "Pět holí",
       "keywords": [
-        "soutěž",
+        "přetahovaná",
         "tření",
-        "zkouška"
+        "zkouška ohněm"
       ],
-      "meaning_upright": "Soutěž, tření a učení skrze výzvu.",
-      "meaning_reversed": "Vyhýbání se konfliktu nebo hádky, které nikam nevedou.",
+      "meaning_upright": "Když se sejde moc kohoutů na jednom smetišti. Je to o srovnávání sil, kde se ukáže, kdo má jakou váhu. Člověk se v takovém shonu nejvíc naučí, i když je to občas pořádná mela.",
+      "meaning_reversed": "Buď člověk strká hlavu do písku, aby se vyhnul sebemenšímu střetu, nebo se vyčerpává v malicherných hádkách, ze kterých nekouká nic než prázdné řeči a zbytečně propocená trika.",
       "archetype": null,
       "description": null
     },
@@ -492,17 +492,17 @@
       "id": 27,
       "arcana": "minor",
       "number": 6,
-      "suit": "wands",
+      "suit": "Hole",
       "rank": "six",
       "image_path": "27.png",
       "name": "Šest holí",
       "keywords": [
-        "uznání",
-        "úspěch",
-        "sebedůvěra"
+        "potlesk",
+        "vítězství",
+        "vnitřní klid"
       ],
-      "meaning_upright": "Uznání, úspěch a zasloužená sebedůvěra.",
-      "meaning_reversed": "Ego, nejistota nebo neuznaný úspěch.",
+      "meaning_upright": "Konečně jste se dočkali uznání, vaše práce nese ovoce a můžete mít ze sebe upřímnou radost.",
+      "meaning_reversed": "Pozor na přebujelé ego, nebo naopak na pocit, že se vaše námaha minula účinkem a nikdo si jí nevšiml.",
       "archetype": null,
       "description": null
     },
@@ -510,17 +510,17 @@
       "id": 28,
       "arcana": "minor",
       "number": 7,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "seven",
       "image_path": "28.png",
       "name": "Sedm holí",
       "keywords": [
         "obrana",
-        "odvaha",
-        "hranice"
+        "kuráž",
+        "vymezení hranic"
       ],
-      "meaning_upright": "Stání si za svým a ochrana své pozice.",
-      "meaning_reversed": "Předčasné vzdání se nebo pocit přehlcení.",
+      "meaning_upright": "Když jde do tuhého, člověk musí zatnout zuby a bránit to, co si vydobyl. Je to o tom nenechat si skákat po hlavě a ustát tlak, i když se proti vám všechno, co má ruce a nohy, spikne.",
+      "meaning_reversed": "Pocit, že už toho na vás bylo moc. Chuť hodit flintu do žita dřív, než se vůbec pořádně zabojovalo, nebo prostě jen vyhoření ze snahy všem vyhovět.",
       "archetype": null,
       "description": null
     },
@@ -528,71 +528,71 @@
       "id": 29,
       "arcana": "minor",
       "number": 8,
-      "suit": "wands",
+      "suit": "Hole",
       "rank": "eight",
       "image_path": "29.png",
       "name": "Osm holí",
       "keywords": [
-        "rychlost",
-        "pohyb",
-        "zprávy"
+        "spěch",
+        "fičák",
+        "novinky"
       ],
-      "meaning_upright": "Rychlost, pohyb a rychlý vývoj.",
-      "meaning_reversed": "Zpoždění, nedorozumění nebo rozptýlené úsilí.",
+      "meaning_upright": "Všechno se dává do pohybu. Události nabírají na obrátkách a věci, které se dlouho táhly, se najednou vyřeší samy.",
+      "meaning_reversed": "Někde se to zadrhlo. Plány se komplikují, zprávy nedocházejí a člověk má pocit, že se jen bezúčelně točí v kruhu.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta znamená, že život právě nabral pořádný vítr do plachet. Není čas na dlouhé přemýšlení, všechno, co má ruce a nohy, se dává do pohybu. Je to jako přívalová vlna – buď se svezete, nebo vás to semele, ale v každém případě se konečně začne něco dít."
     },
     {
       "id": 30,
       "arcana": "minor",
       "number": 9,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "nine",
       "image_path": "30.png",
       "name": "Devět holí",
       "keywords": [
-        "odolnost",
-        "vytrvalost",
-        "ostražitost"
+        "houževnatost",
+        "výdrž",
+        "bdělost"
       ],
-      "meaning_upright": "Odolnost a vytrvalost navzdory únavě.",
-      "meaning_reversed": "Vyhoření, defenzivita nebo odmítání podpory.",
+      "meaning_upright": "I když už toho máš plné zuby a síly docházejí, dokážeš se zatnout a vytrvat až do konce.",
+      "meaning_reversed": "Jsi vyčerpaný a raději se schováváš za hradbu pochybností, místo abys přijal pomocnou ruku.",
       "archetype": null,
-      "description": null
+      "description": "Je to ten okamžik, kdy máš všeho, co má ruce a nohy, tak akorát, ale pořád ještě stojíš na nohou a odmítáš to vzdát. Není to o radosti, je to o tom, že jsi zkrátka odmítl složit zbraně."
     },
     {
       "id": 31,
       "arcana": "minor",
       "number": 10,
-      "suit": "wands",
-      "rank": "ten",
+      "suit": "Hole",
+      "rank": "Desítka",
       "image_path": "31.png",
       "name": "Deset holí",
       "keywords": [
-        "břemeno",
-        "odpovědnost",
+        "tíživé břemeno",
+        "přes míru zodpovědnosti",
         "tlak"
       ],
-      "meaning_upright": "Těžká odpovědnost a nesení příliš mnoho.",
-      "meaning_reversed": "Delegování, uvolnění nebo zhroucení pod tlakem.",
+      "meaning_upright": "Vzal sis na hrb až příliš. Vypadá to, že se snažíš utáhnout úplně všechno, co má ruce a nohy, a začíná tě to pomalu drtit.",
+      "meaning_reversed": "Je nejvyšší čas se zastavit a něčeho se zbavit. Buď to deleguješ, nebo se sesypeš. Někdy je potřeba si přiznat, že sám na všechno zkrátka nestačíš.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta připomíná člověka, který se snaží odnést celý stoh dřeva naráz, místo aby šel dvakrát. Je to obraz vyčerpání z vlastní paličatosti, kdy člověk věří, že bez něj se svět zastaví."
     },
     {
       "id": 32,
       "arcana": "minor",
       "number": 11,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "page",
       "image_path": "32.png",
-      "name": "Páž holí",
+      "name": "Páže holí",
       "keywords": [
-        "zvědavost",
-        "průzkum",
-        "novinky"
+        "zvídavost",
+        "hledání",
+        "čerstvé zprávy"
       ],
-      "meaning_upright": "Zvědavost, průzkum a vzrušující novinky.",
-      "meaning_reversed": "Impulzivnost, zpoždění nebo nedostatek směru.",
+      "meaning_upright": "Máte chuť se rozhlédnout po světě, vyzkoušet něco nového a dozvědět se, co je právě v kurzu.",
+      "meaning_reversed": "Všechno, co má ruce a nohy, se vám rozpadá pod rukama. Jednáte zbrkle, plácáte se v tom a chybí vám jasný plán, kudy kam.",
       "archetype": null,
       "description": null
     },
@@ -600,7 +600,7 @@
       "id": 33,
       "arcana": "minor",
       "number": 12,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "knight",
       "image_path": "33.png",
       "name": "Rytíř holí",
@@ -609,26 +609,26 @@
         "smělost",
         "pohyb"
       ],
-      "meaning_upright": "Smělé jednání, dobrodružství a postup vpřed.",
-      "meaning_reversed": "Bezohlednost, netrpělivost nebo nekonzistence.",
+      "meaning_upright": "Je čas vyrazit. Tahle karta značí odvahu vrhnout se do něčeho nového, chuť po dobrodružství a odhodlání hnát věci kupředu, i kdyby se čerti ženili.",
+      "meaning_reversed": "Pozor na horkou hlavu. Může to znamenat, že člověk pálí mosty dřív, než po nich přejde, je zbytečně zbrklý nebo lítá od ničeho k ničemu a nedotáhne do konce ani to, co má ruce a nohy.",
       "archetype": null,
-      "description": null
+      "description": "Rytíř holí je jako mladík, co si sbalil raneček a vyrazil do světa, aniž by se ptal na cestu. Má v sobě dravost a tah na branku, ale občas by mu neuškodilo trochu přibrzdit, aby neztratil směr."
     },
     {
       "id": 34,
       "arcana": "minor",
       "number": 13,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "queen",
       "image_path": "34.png",
       "name": "Královna holí",
       "keywords": [
-        "sebedůvěra",
-        "vřelost",
-        "vedení"
+        "zdravé sebevědomí",
+        "srdečnost",
+        "přirozená autorita"
       ],
-      "meaning_upright": "Sebevědomí, vřelost a inspirující vedení.",
-      "meaning_reversed": "Nejistota, žárlivost nebo vyžadování pozornosti.",
+      "meaning_upright": "Je to žena, která ví, co chce, a nebojí se za tím jít. Je v ní nakažlivý elán a teplo, díky kterému za ní lidé rádi jdou. Dokáže vzít věci do vlastních rukou a její rozhodnost dokáže pohnout vším, co má ruce a nohy.",
+      "meaning_reversed": "Tady se jistota mění v křeč. Může jít o vnitřní nejistotu, která se maskuje teatrálním voláním po pozornosti, nebo o zbytečnou žárlivost, kdy se člověk snaží ovládat okolí jen proto, že ztratil pevnou půdu pod nohama.",
       "archetype": null,
       "description": null
     },
@@ -636,17 +636,17 @@
       "id": 35,
       "arcana": "minor",
       "number": 14,
-      "suit": "wands",
+      "suit": "hole",
       "rank": "king",
       "image_path": "35.png",
       "name": "Král holí",
       "keywords": [
-        "vize",
-        "mistrovství",
-        "odvaha"
+        "přehled",
+        "řemeslná zdatnost",
+        "kuráž"
       ],
-      "meaning_upright": "Vizionářské vedení a kreativní mistrovství.",
-      "meaning_reversed": "Impulzivnost, arogance nebo panovačná energie.",
+      "meaning_upright": "Člověk, co vidí dál než ostatní, ví, jak vzít za práci a má přirozenou autoritu, za kterou stojí kus odvedeného díla.",
+      "meaning_reversed": "Splašenost, zbytečná namyšlenost nebo pocit, že musím všem poroučet, i když zrovna nemám pravdu.",
       "archetype": null,
       "description": null
     },
@@ -654,53 +654,53 @@
       "id": 36,
       "arcana": "minor",
       "number": 1,
-      "suit": "cups",
-      "rank": "ace",
+      "suit": "poháry",
+      "rank": "eso",
       "image_path": "36.png",
       "name": "Eso pohárů",
       "keywords": [
         "láska",
-        "otevřenost",
-        "obnova"
+        "upřímnost",
+        "čistý stůl"
       ],
-      "meaning_upright": "Emoční obnova, láska a otevřené srdce.",
-      "meaning_reversed": "Blokované pocity nebo obtížnost přijímat lásku.",
+      "meaning_upright": "Nová míza v žilách, srdeční záležitosti a chvíle, kdy se člověk konečně odváží být sám sebou.",
+      "meaning_reversed": "Citová zatvrzelost, nebo když se člověk prostě nedokáže otevřít lidem, i kdyby chtěl.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta znamená, že se vám do života vrací radost ze všeho, co má ruce a nohy. Je to jako čerstvý pramínek vody po dlouhém suchu – žádná věda, prostě jen šance začít znovu a čistě."
     },
     {
       "id": 37,
       "arcana": "minor",
       "number": 2,
-      "suit": "cups",
+      "suit": "Poháry",
       "rank": "two",
       "image_path": "37.png",
       "name": "Dva poháry",
       "keywords": [
-        "spojení",
+        "spřízněnost",
         "partnerství",
-        "unie"
+        "souznění"
       ],
-      "meaning_upright": "Spojení, partnerství a vzájemná výměna.",
-      "meaning_reversed": "Nerovnováha, nedorozumění nebo napětí ve vztazích.",
+      "meaning_upright": "Když se dva lidé potkají, aby si rozuměli beze slov. Je to o vzájemné náklonnosti a rovnováze, kdy jeden dává tolik, kolik dostává.",
+      "meaning_reversed": "Vztah někde skřípe. Možná jeden druhému nerozumíte, nebo se mezi vás vloudila zbytečná pýcha a napětí, které dusí původní blízkost.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta je jako dobrá debata u stolu, kde nikdo nikoho nepřekřikuje. Připomíná, že nejvíc síly máme tehdy, když si nebudujeme vlastní opevnění, ale dokážeme táhnout za jeden provaz s někým, na koho je spoleh."
     },
     {
       "id": 38,
       "arcana": "minor",
       "number": 3,
-      "suit": "cups",
+      "suit": "poháry",
       "rank": "three",
       "image_path": "38.png",
       "name": "Tři poháry",
       "keywords": [
         "přátelství",
-        "oslava",
-        "podpora"
+        "veselí",
+        "spřízněnost"
       ],
-      "meaning_upright": "Přátelství, oslava a sdílená podpora.",
-      "meaning_reversed": "Nadměrné hodování nebo sociální drama.",
+      "meaning_upright": "Čas, kdy je dobře lidem kolem vás. Užijte si společnost věrných přátel, oslavte úspěchy a vězte, že v tom nejste sami.",
+      "meaning_reversed": "Všeho moc škodí. Pozor na příliš bujaré večírky, které končí kocovinou, nebo na zbytečné drby a konflikty, které rozbíjejí to, co mělo držet pohromadě.",
       "archetype": null,
       "description": null
     },
@@ -708,35 +708,35 @@
       "id": 39,
       "arcana": "minor",
       "number": 4,
-      "suit": "cups",
+      "suit": "poháry",
       "rank": "four",
       "image_path": "39.png",
       "name": "Čtyři poháry",
       "keywords": [
-        "apatie",
-        "reflexe",
-        "přehodnotit"
+        "letargie",
+        "zadumanost",
+        "bilancování"
       ],
-      "meaning_upright": "Apatie, reflexe a přehodnocování možností.",
-      "meaning_reversed": "Nový zájem, opětovné zapojení nebo nová nabídka.",
+      "meaning_upright": "Člověk sedí, kouká do země a i když mu pod nos přistrčíte zlatý podnos, spíš ho to obtěžuje. Je to čas, kdy se člověk raději utápí v přemítání, než aby zvedl zadek a podíval se, co se kolem něj skutečně děje.",
+      "meaning_reversed": "Konečně se z toho vyhrabal. Ledy tají, přichází chuť znovu se zapojit do dění a přijmout to, co mu život zrovna nabízí, i kdyby to měl být jen obyčejný rozhovor u stolu.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta vypráví o chvíli, kdy nás život trochu omrzel. Sedíte, před sebou máte všechno, co má ruce a nohy, ale přesto cítíte, že vám něco chybí. Není to tragédie, jen takové to zastavení, kdy potřebujete trochu času pro sebe, abyste si ujasnili, jestli to, co máte, je skutečně to, co chcete."
     },
     {
       "id": 40,
       "arcana": "minor",
       "number": 5,
-      "suit": "cups",
+      "suit": "Poháry",
       "rank": "five",
       "image_path": "40.png",
       "name": "Pět pohárů",
       "keywords": [
         "ztráta",
-        "žal",
-        "lítost"
+        "křivda",
+        "hořkost"
       ],
-      "meaning_upright": "Ztráta, žal a zaměření na to, co se pokazilo.",
-      "meaning_reversed": "Přijetí, léčení a pohled na to, co zůstává.",
+      "meaning_upright": "Člověk se utápí v tom, co už dávno vzala voda. Místo aby se podíval kolem sebe, civí na rozlité víno a trápí se tím, co se nepovedlo.",
+      "meaning_reversed": "Konečně přichází vystřízlivění. Člověk přestane brečet nad rozlitým mlékem, utře si oči a všimne si, že mu pořád ještě zbyla spousta věcí, se kterými se dá dál pracovat.",
       "archetype": null,
       "description": null
     },
@@ -744,43 +744,43 @@
       "id": 41,
       "arcana": "minor",
       "number": 6,
-      "suit": "cups",
+      "suit": "Poháry",
       "rank": "six",
       "image_path": "41.png",
       "name": "Šest pohárů",
       "keywords": [
         "nostalgie",
-        "nevinnost",
+        "dětská čistota",
         "vzpomínky"
       ],
-      "meaning_upright": "Nostalgie, laskavost a jemné vzpomínky.",
-      "meaning_reversed": "Uvíznutí v minulosti nebo idealizování.",
+      "meaning_upright": "Příjemné ohlédnutí za tím, co bylo, vlídnost a hřejivé vzpomínky, které člověka pohladí po duši.",
+      "meaning_reversed": "Přílišné babrání se v tom, co už dávno odnesl čas, a utápění se v iluzích, které neodpovídají skutečnosti.",
       "archetype": null,
-      "description": null
+      "description": "Je to jako když narazíte na starou fotku v šuplíku nebo po letech potkáte někoho, s kým vám bylo dobře. Člověka přepadne pocit spřízněnosti s vlastním dětstvím a na chvíli se zastaví čas. Jen pozor, abyste u toho vzpomínání nezapomněli, že žijete tady a teď."
     },
     {
       "id": 42,
       "arcana": "minor",
       "number": 7,
-      "suit": "cups",
+      "suit": "Poháry",
       "rank": "seven",
       "image_path": "42.png",
       "name": "Sedm pohárů",
       "keywords": [
-        "volby",
-        "fantazie",
-        "iluze"
+        "přehršel možností",
+        "snění s otevřenýma očima",
+        "šálený zrak"
       ],
-      "meaning_upright": "Mnoho voleb, fantazie a nejasné priority.",
-      "meaning_reversed": "Jasnost, rozhodnutí a návrat zaměření.",
+      "meaning_upright": "Stojíš před horou příležitostí, ale jedna vypadá lákavěji než druhá. Je snadné ztratit hlavu v nereálných představách a zapomenout, co je skutečně podstatné.",
+      "meaning_reversed": "Konečně se mlha rozplývá. Odkládáš vzdušné zámky stranou a začínáš vidět věci takové, jaké doopravdy jsou. Je čas se rozhodnout a dát život do pořádku.",
       "archetype": null,
-      "description": null
+      "description": "Člověk má někdy hlavu v oblacích a nechá se opít rohlíkem vlastní fantazie. Sedm pohárů připomíná, že není důležité mít všechno, co se třpytí, ale vybrat si jednu cestu a té se držet, aby ti život neutekl mezi prsty."
     },
     {
       "id": 43,
       "arcana": "minor",
       "number": 8,
-      "suit": "cups",
+      "suit": "poháry",
       "rank": "eight",
       "image_path": "43.png",
       "name": "Osm pohárů",
@@ -789,26 +789,26 @@
         "hledání",
         "přechod"
       ],
-      "meaning_upright": "Odcházení k hledání hlubšího smyslu.",
-      "meaning_reversed": "Strach ze změny nebo návrat po poučení.",
+      "meaning_upright": "Člověk si sbalí svých pět švestek a jde dál, protože to staré už mu prostě nemá co dát. Není to útěk, je to vědomé rozhodnutí hledat v životě něco víc, než jen to, co se nabízí na první pohled.",
+      "meaning_reversed": "Zůstáváte na místě, i když víte, že je čas jít, protože vás svazuje strach z neznáma. Nebo jste se po dlouhém bloudění nakonec vrátili k tomu, co už znáte, protože jste se zkrátka potřebovali ujistit, že jinde to o moc lepší nebude.",
       "archetype": null,
-      "description": null
+      "description": "Představte si, že sedíte u stolu, kde už je dopito. Můžete tam zůstat a koukat do prázdných sklenic, nebo se zvednout a vyrazit do noci za něčím, co dává větší smysl. Není to zbrklý skok do neznáma, ale klidné rozhodnutí, že tohle už stačilo."
     },
     {
       "id": 44,
       "arcana": "minor",
       "number": 9,
-      "suit": "cups",
+      "suit": "Poháry",
       "rank": "nine",
       "image_path": "44.png",
       "name": "Devět pohárů",
       "keywords": [
-        "spokojenost",
-        "přání",
-        "potěšení"
+        "pohoda",
+        "naplnění",
+        "požitek"
       ],
-      "meaning_upright": "Spokojenost, potěšení a splněné přání.",
-      "meaning_reversed": "Nadměrné hodování nebo nespokojenost pod pohodlím.",
+      "meaning_upright": "Máte všechno, co má ruce a nohy. Cítíte se konečně spokojeně a věci se vyvíjejí přesně tak, jak jste si vysnili.",
+      "meaning_reversed": "Všeho moc škodí. Možná se jen přejídáte vlastní pohodlností nebo zjišťujete, že ani plný stůl vás uvnitř tak úplně neuspokojí.",
       "archetype": null,
       "description": null
     },
@@ -816,17 +816,17 @@
       "id": 45,
       "arcana": "minor",
       "number": 10,
-      "suit": "cups",
+      "suit": "Poháry",
       "rank": "ten",
       "image_path": "45.png",
       "name": "Deset pohárů",
       "keywords": [
-        "harmonie",
-        "rodina",
-        "radost"
+        "pohoda",
+        "rodinný klid",
+        "radost ze života"
       ],
-      "meaning_upright": "Harmonie, radost a emoční naplnění.",
-      "meaning_reversed": "Nesoulad doma nebo nerealistická očekávání.",
+      "meaning_upright": "Všechno je v naprostém pořádku. Cítíte se doma mezi svými, vládne klid a vy si konečně můžete vydechnout, protože všechno, co má ruce a nohy, funguje přesně tak, jak má.",
+      "meaning_reversed": "Doma to skřípe a vy si možná malujete vzdušné zámky, které nemají reálný základ. Je čas sundat růžové brýle a přiznat si, že ne všechno se dá vyřešit jenom přáním.",
       "archetype": null,
       "description": null
     },
@@ -834,17 +834,17 @@
       "id": 46,
       "arcana": "minor",
       "number": 11,
-      "suit": "cups",
-      "rank": "page",
+      "suit": "Poháry",
+      "rank": "páže",
       "image_path": "46.png",
-      "name": "Páž pohárů",
+      "name": "Páže pohárů",
       "keywords": [
-        "zprávy",
-        "otevřenost",
-        "překvapení"
+        "dobrá zpráva",
+        "upřímnost",
+        "nečekaný obrat"
       ],
-      "meaning_upright": "Srdečná zpráva a otevřená emoční zvědavost.",
-      "meaning_reversed": "Emoční nedospělost nebo smíšené signály.",
+      "meaning_upright": "Čekejte vzkaz, který vás zahřeje u srdce. Je to čas pro novou, nezatíženou zvědavost a chuť podívat se na věci kolem sebe bez předsudků.",
+      "meaning_reversed": "Někdo se tu chová jako malé dítě, nebo si dáváte protichůdné signály, ve kterých se nikdo nevyzná. Emoce jsou zatím příliš syrové na to, abyste se v nich mohli spolehlivě vyznat.",
       "archetype": null,
       "description": null
     },
@@ -852,35 +852,35 @@
       "id": 47,
       "arcana": "minor",
       "number": 12,
-      "suit": "cups",
-      "rank": "knight",
+      "suit": "Poháry",
+      "rank": "rytíř",
       "image_path": "47.png",
       "name": "Rytíř pohárů",
       "keywords": [
-        "romantika",
-        "pozvání",
-        "idealismus"
+        "citové vzplanutí",
+        "příslib nového setkání",
+        "snění s otevřenýma očima"
       ],
-      "meaning_upright": "Romantika, pozvání a následování srdce.",
-      "meaning_reversed": "Náladovost, zklamání nebo honba za iluzemi.",
+      "meaning_upright": "Čas, kdy emoce berou otěže do svých rukou. Přichází pozvání, které se neodmítá, nebo příležitost, která vás donutí poslechnout hlas srdce místo chladné kalkulačky.",
+      "meaning_reversed": "Varování před rozmarem. Může to být známka toho, že se necháváte unést naivními představami, nebo že vás brzy dožene vystřízlivění, když realita neustojí konfrontaci s vašimi vzdušnými zámky.",
       "archetype": null,
-      "description": null
+      "description": "Tenhle rytíř v sobě nese všechno, co má ruce a nohy, když dojde na city. Je to ten typ člověka, co vám přinese hvězdy z nebe, aniž by řešil, jestli se zítra vůbec probudíte do reality."
     },
     {
       "id": 48,
       "arcana": "minor",
       "number": 13,
-      "suit": "cups",
+      "suit": "poháry",
       "rank": "queen",
       "image_path": "48.png",
       "name": "Královna pohárů",
       "keywords": [
-        "empatie",
-        "intuice",
-        "péče"
+        "vnímavost",
+        "vnitřní hlas",
+        "starostlivost"
       ],
-      "meaning_upright": "Empatie, intuice a emoční péče.",
-      "meaning_reversed": "Přehlcení, spoluzávislost nebo špatné hranice.",
+      "meaning_upright": "Má dar vnímat, co ostatní nosí v srdci, aniž by o tom museli mluvit. Je to žena, která rozumí lidským náladám a dokáže podat pomocnou ruku právě tehdy, když je jí potřeba nejvíc.",
+      "meaning_reversed": "Když se to zvrtne, utápí se ve vlastních i cizích emocích. Ztrácí přehled o tom, kde končí její prostor a kde začíná druhého, a vlastní starosti pak přehlíží na úkor ostatních.",
       "archetype": null,
       "description": null
     },
@@ -888,79 +888,79 @@
       "id": 49,
       "arcana": "minor",
       "number": 14,
-      "suit": "cups",
-      "rank": "king",
+      "suit": "Poháry",
+      "rank": "Král",
       "image_path": "49.png",
       "name": "Král pohárů",
       "keywords": [
-        "klid",
-        "soucit",
-        "rovnováha"
+        "vyrovnanost",
+        "pochopení pro druhé",
+        "vnitřní klid"
       ],
-      "meaning_upright": "Klidný soucit a emoční rovnováha.",
-      "meaning_reversed": "Emoční manipulace nebo potlačované pocity.",
+      "meaning_upright": "Člověk, který má emoce na uzdě, nenechá se vytočit a ke všemu přistupuje s chladnou hlavou a lidskostí.",
+      "meaning_reversed": "Citové vydírání, hraní na city, nebo chvíle, kdy člověk raději všechno dusí v sobě, místo aby si srovnal účty.",
       "archetype": null,
-      "description": null
+      "description": "Je to ten typ chlapa, co v hospodě neřve, i když je kolem všechno, co má ruce a nohy v jednom ohni. Drží si odstup, ale nikoho neodmítne."
     },
     {
       "id": 50,
       "arcana": "minor",
       "number": 1,
-      "suit": "swords",
-      "rank": "ace",
+      "suit": "Meče",
+      "rank": "eso",
       "image_path": "50.png",
       "name": "Eso mečů",
       "keywords": [
-        "jasnost",
-        "pravda",
-        "průlom"
+        "čistá hlava",
+        "konec vytáček",
+        "blesk z čistého nebe"
       ],
-      "meaning_upright": "Jasnost, pravda a mentální průlom.",
-      "meaning_reversed": "Zmatek, dezinformace nebo zamlžené úsudky.",
+      "meaning_upright": "Konečně se rozplynula mlha. Vidíte věci takové, jaké doopravdy jsou, a máte odvahu říct pravdu, i kdyby měla bolet.",
+      "meaning_reversed": "Máte v tom guláš. V hlavě se vám honí kdejaká hloupost, pravda je pod nánosem polopravd a vy se v tom plácáte, aniž byste viděli cestu ven.",
       "archetype": null,
-      "description": null
+      "description": "Eso mečů je jako první pořádný mráz po dlouhém podzimu – všechno, co bylo shnilé nebo nejasné, najednou opadá. Je to ostrý řez, který dává věcem řád a vnáší do situace tolik potřebnou rozhodnost."
     },
     {
       "id": 51,
       "arcana": "minor",
       "number": 2,
-      "suit": "swords",
+      "suit": "meče",
       "rank": "two",
       "image_path": "51.png",
       "name": "Dva meče",
       "keywords": [
-        "patová_situace",
-        "volba",
-        "vyhýbání_se"
+        "patová situace",
+        "křižovatka",
+        "taktické přešlapování"
       ],
-      "meaning_upright": "Patová situace, obtížná volba a ostražitost.",
-      "meaning_reversed": "Nedostatek rozhodnutí končí, pravda odhalena nebo přetížení.",
+      "meaning_upright": "Stojíte na místě, protože se bojíte udělat chybu. Je to stav, kdy raději zavíráte oči před tím, co se kolem vás mele, jen abyste nemuseli čelit nepříjemnému rozhodnutí.",
+      "meaning_reversed": "Ledacos se konečně dává do pohybu. Mlha se rozplývá, vy se přestanete schovávat a pravda, byť občas ostrá, vám konečně ukáže, kterým směrem se vydat.",
       "archetype": null,
-      "description": null
+      "description": "Vypadá to jako klid před bouří, ale ve skutečnosti je to jen únavné přešlapování na místě. Máte pocit, že ať se pohnete kamkoliv, tak narazíte, a proto raději držíte zbraň v defenzivě a čekáte, až se situace vyvrbí sama. Jenže život se neptá a všechno, co má ruce a nohy, se dříve či později bude muset postavit čelem k realitě."
     },
     {
       "id": 52,
       "arcana": "minor",
       "number": 3,
-      "suit": "swords",
-      "rank": "three",
+      "suit": "Meče",
+      "rank": "tři",
       "image_path": "52.png",
       "name": "Tři meče",
       "keywords": [
-        "zlomené_srdce",
-        "bolest",
-        "pravda"
+        "bolestné rozčarování",
+        "křivda",
+        "syrová pravda"
       ],
-      "meaning_upright": "Zlomené srdce, bolest a tvrdé pravdy.",
-      "meaning_reversed": "Léčení, odpuštění a posun vpřed.",
+      "meaning_upright": "Někdy to zkrátka bolí. Je to ten druh starosti, co vám nedá spát a řeže jako střep v ráně. Pravda, které se nedá vyhnout, i když byste dali všechno na světě za to, aby byla jiná.",
+      "meaning_reversed": "Čas, kdy se rána začíná zatahovat. Už v tom nejste utopení, pomalu se učíte odpustit sobě i druhým a konečně se zase díváte dopředu, místo abyste se hrabali v troskách.",
       "archetype": null,
-      "description": null
+      "description": "Život není vždycky procházka růžovou zahradou. Tahle karta je jako studená sprcha, která vám ukáže, kde jste si nalhávali do kapsy. Není to nic příjemného, ale bez toho, abyste se podívali té nepříjemné pravdě do očí, se z místa nepohnete."
     },
     {
       "id": 53,
       "arcana": "minor",
       "number": 4,
-      "suit": "swords",
+      "suit": "Meče",
       "rank": "four",
       "image_path": "53.png",
       "name": "Čtyři meče",
@@ -969,26 +969,26 @@
         "zotavení",
         "pauza"
       ],
-      "meaning_upright": "Odpočinek, zotavení a nutná pauza.",
-      "meaning_reversed": "Neklid nebo příliš brzký návrat.",
+      "meaning_upright": "Čas vydechnout. Nechte svět, ať si chvíli běží bez vás; potřebujete si srovnat myšlenky a nabrat síly, než se znovu vrhnete do vřavy.",
+      "meaning_reversed": "Vnitřní neklid, který vám nedovolí vypnout, nebo unáhlený návrat do kolotoče povinností, zatímco tělo i hlava ještě volají po klidu.",
       "archetype": null,
-      "description": null
+      "description": "Někdy je největším hrdinstvím prostě se zastavit a nedělat vůbec nic. Tahle karta je jako tiché útočiště po bouřce – meče odpočívají, vy taky, a všechno, co má ruce a nohy, může počkat na zítřek."
     },
     {
       "id": 54,
       "arcana": "minor",
       "number": 5,
-      "suit": "swords",
+      "suit": "Meče",
       "rank": "five",
       "image_path": "54.png",
       "name": "Pět mečů",
       "keywords": [
-        "konflikt",
-        "ego",
-        "vyhrát_za_každou_cenu"
+        "svár",
+        "ješitnost",
+        "vítězství, které bolí"
       ],
-      "meaning_upright": "Konflikt, ego a vítězství za cenu.",
-      "meaning_reversed": "Smíření nebo odchod od dramatu.",
+      "meaning_upright": "Zbytečné hádky, kde vítězí jen pýcha. Získal jsi, co jsi chtěl, ale za cenu, která tě nechala samotného na bojišti.",
+      "meaning_reversed": "Konečně ti došlo, že tahle bitva nestojí za to. Odkládáš zbraně a raději hraješ na smíření, než abys dál živil tenhle nesmyslný rozruch.",
       "archetype": null,
       "description": null
     },
@@ -996,53 +996,53 @@
       "id": 55,
       "arcana": "minor",
       "number": 6,
-      "suit": "swords",
-      "rank": "six",
+      "suit": "Meče",
+      "rank": "šestka",
       "image_path": "55.png",
       "name": "Šest mečů",
       "keywords": [
-        "přechod",
-        "léčení",
-        "posun_vpřed"
+        "odchod od starého",
+        "hojení ran",
+        "cesta za lepším"
       ],
-      "meaning_upright": "Přechod, léčení a posun k klidnějším vodám.",
-      "meaning_reversed": "Obtížnost posunu vpřed nebo nesení starého břemene.",
+      "meaning_upright": "Necháváte bouřlivé období za zády. Je čas opustit břeh, který vás už jen vysává, a nechat se vést do klidnějších vod. Je to ten moment, kdy se konečně nadechnete a věci se začnou pomalu skládat do snesitelnější podoby.",
+      "meaning_reversed": "Všechno, co má ruce a nohy, se vám sype pod rukama. Máte pocit, že se nemůžete hnout z místa, protože pořád vláčíte staré křivdy a nevyřešené věci v batohu, který už dávno patří do sběru.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta připomíná přívoz. Není to zrovna veselá plavba na výletní lodi, spíš tichý odjezd z místa, kde už vám pšenka nepokvete. Nejde o útěk, ale o nutnou změnu prostředí, abyste se mohli dát znovu dohromady."
     },
     {
       "id": 56,
       "arcana": "minor",
       "number": 7,
-      "suit": "swords",
-      "rank": "seven",
+      "suit": "Meče",
+      "rank": "sedmička",
       "image_path": "56.png",
       "name": "Sedm mečů",
       "keywords": [
-        "strategie",
-        "tajemství",
-        "vyhýbání_se"
+        "chytráctví",
+        "kličkování",
+        "únik před odpovědností"
       ],
-      "meaning_upright": "Strategie, tajemství a nepřímé jednání.",
-      "meaning_reversed": "Přiznání, odhalení nebo změna taktiky.",
+      "meaning_upright": "Když se věci nevyvíjejí přímočaře, člověk se snaží proplout mezi kapkami. Je to o taktizování, lehce zaťatých zubech a snaze vyhrát partii, aniž bys musel vyložit všechny karty na stůl.",
+      "meaning_reversed": "Karty se obracejí. Dřív nebo později vyjde pravda najevo, nebo člověku prostě dojdou výmluvy a musí s pravdou ven, i když se mu do toho nechce.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta není o velkých bitvách, ale o tom, jak se šikovně vyvléknout z problému. Někdy je to projev prozíravosti, jindy jen snaha nebýt vidět, když se kolem láme chleba. Připomíná nám, že ne každá cesta k cíli vede hlavním vchodem, ale kdo se příliš dlouho schovává ve stínech, riskuje, že mu nakonec přestanou věřit i ti nejbližší."
     },
     {
       "id": 57,
       "arcana": "minor",
       "number": 8,
-      "suit": "swords",
+      "suit": "Meče",
       "rank": "eight",
       "image_path": "57.png",
       "name": "Osm mečů",
       "keywords": [
-        "omezení",
+        "zahnaný do kouta",
         "strach",
-        "sebelimitující"
+        "vlastní vězení"
       ],
-      "meaning_upright": "Pocit omezenosti strachem nebo sebepodceňujícími přesvědčeními.",
-      "meaning_reversed": "Uvolnění, nový pohled a povolení pout.",
+      "meaning_upright": "Člověk má pocit, že se nehne z místa, ale ve skutečnosti si jen namluvil, že je v pasti. Jsou to ty staré známé pochybnosti, které mu svazují ruce.",
+      "meaning_reversed": "Konečně se rozhlédnout kolem sebe, pochopit, že ta pouta nejsou z oceli, a prostě vykročit dál.",
       "archetype": null,
       "description": null
     },
@@ -1050,35 +1050,35 @@
       "id": 58,
       "arcana": "minor",
       "number": 9,
-      "suit": "swords",
-      "rank": "nine",
+      "suit": "Meče",
+      "rank": "devítka",
       "image_path": "58.png",
       "name": "Devět mečů",
       "keywords": [
         "úzkost",
-        "starost",
-        "nespavost"
+        "starosti",
+        "probdělé noci"
       ],
-      "meaning_upright": "Úzkost, starost a bezesné noci.",
-      "meaning_reversed": "Úleva, podpora nebo konfrontace strachů.",
+      "meaning_upright": "Když na vás v noci padne tíha všeho, co má ruce a nohy. Je to ten stav, kdy se převalujete v posteli a v hlavě si přehráváte ty nejčernější scénáře, které stejně nakonec nebudou mít na realitu žádný vliv.",
+      "meaning_reversed": "Konečně přichází úleva. Mlha se začíná rozplývat, někdo vám podá pomocnou ruku, nebo zkrátka jen seberete odvahu a postavíte se tomu, co vás tak dlouho strašilo ze tmy.",
       "archetype": null,
-      "description": null
+      "description": "Je to karta chvílí, kdy nás vlastní mysl bere jako rukojmí. Devět mečů neřeší vnější svět, řeší ten vnitřní hluk, který vám nedá spát, dokud si nepřiznáte, že démoni pod postelí jsou jen výplodem vaší vlastní únavy a nejistoty."
     },
     {
       "id": 59,
       "arcana": "minor",
       "number": 10,
-      "suit": "swords",
+      "suit": "Meče",
       "rank": "ten",
       "image_path": "59.png",
       "name": "Deset mečů",
       "keywords": [
-        "konec",
-        "zrada",
-        "uvolnění"
+        "konečná",
+        "podraz",
+        "vydýchnutí"
       ],
-      "meaning_upright": "Konec, bolestná pravda a uvolnění.",
-      "meaning_reversed": "Zotavení, odolnost a opětovné povstání.",
+      "meaning_upright": "Tady už není co řešit – cesta skončila, i když to bolelo. Je to tvrdý náraz do reality, po kterém už ale konečně nastává klid, protože horší už to být nemůže.",
+      "meaning_reversed": "Pomalu se sbíráte ze země. Je to známka toho, že to nejhorší máte za sebou a začínáte se oklepávat. Síla zvednout hlavu a jít dál.",
       "archetype": null,
       "description": null
     },
@@ -1086,17 +1086,17 @@
       "id": 60,
       "arcana": "minor",
       "number": 11,
-      "suit": "swords",
+      "suit": "meče",
       "rank": "page",
       "image_path": "60.png",
-      "name": "Páž mečů",
+      "name": "Páže mečů",
       "keywords": [
-        "zvědavost",
-        "hledání_pravdy",
-        "ostražitost"
+        "bystrost",
+        "pátrání po pravdě",
+        "pozornost"
       ],
-      "meaning_upright": "Zvědavost, hledání pravdy a mentální ostražitost.",
-      "meaning_reversed": "Pomluvy, ukvapenost nebo skákání k závěrům.",
+      "meaning_upright": "Otevřená mysl, hlad po vědění a střežení vlastního úsudku.",
+      "meaning_reversed": "Plané řeči, ukvapené soudy nebo tendence vidět věci černobíle bez znalosti souvislostí.",
       "archetype": null,
       "description": null
     },
@@ -1104,17 +1104,17 @@
       "id": 61,
       "arcana": "minor",
       "number": 12,
-      "suit": "swords",
-      "rank": "knight",
+      "suit": "Meče",
+      "rank": "rytíř",
       "image_path": "61.png",
       "name": "Rytíř mečů",
       "keywords": [
-        "přímkost",
-        "rychlost",
-        "pohon"
+        "přímost",
+        "bystrost",
+        "tah na branku"
       ],
-      "meaning_upright": "Přímé jednání, rychlost a rozhodné myšlení.",
-      "meaning_reversed": "Impulzivnost, drsnost nebo slepé spěchání.",
+      "meaning_upright": "Jedná přímo a na rovinu, neztrácí čas zbytečnými řečmi a v hlavě má jasno. Všechno, co má ruce a nohy, se podřizuje jeho rozhodnosti.",
+      "meaning_reversed": "Splašenost, zbytečná tvrdost v jednání nebo bezhlavý úprk tam, kde by stačilo se na chvíli zastavit.",
       "archetype": null,
       "description": null
     },
@@ -1122,35 +1122,35 @@
       "id": 62,
       "arcana": "minor",
       "number": 13,
-      "suit": "swords",
+      "suit": "Meče",
       "rank": "queen",
       "image_path": "62.png",
       "name": "Královna mečů",
       "keywords": [
-        "rozlišování",
-        "nezávislost",
-        "jasnost"
+        "bystrý úsudek",
+        "vnitřní svoboda",
+        "přímost"
       ],
-      "meaning_upright": "Rozlišování, nezávislost a jasné hranice.",
-      "meaning_reversed": "Chlad, hořkost nebo uštěpačné slova.",
+      "meaning_upright": "Umění oddělit podstatné od zbytečností, stát si na svém a jasně si říct, co už je přes čáru.",
+      "meaning_reversed": "Citový chlad, zahořklost nebo zbytečně kousavé poznámky, kterými člověk spíš zraňuje, než aby věci řešil.",
       "archetype": null,
-      "description": null
+      "description": "Tahle žena ví, jak věci stojí. Není to žádná křehká květinka, co by se nechala opít rohlíkem. Má v sobě rozhodnost, díky které dokáže prokouknout každou lež, i když ji to občas stojí přátele. Je to ta, co raději slyší krutou pravdu než milosrdnou lež, a přesně takový přístup teď čeká i od tebe."
     },
     {
       "id": 63,
       "arcana": "minor",
       "number": 14,
-      "suit": "swords",
+      "suit": "Meče",
       "rank": "king",
       "image_path": "63.png",
       "name": "Král mečů",
       "keywords": [
-        "logika",
-        "autorita",
-        "pravda"
+        "chladný rozum",
+        "přirozená autorita",
+        "rovná páteř"
       ],
-      "meaning_upright": "Logika, autorita a principová pravda.",
-      "meaning_reversed": "Zneužití moci nebo rigidní, nespravedlivý soud.",
+      "meaning_upright": "Selský rozum, jasný úsudek a pravda, která se s nikým nemaže. Je to chlap, který drží slovo a ví, co je správné.",
+      "meaning_reversed": "Zneužívání vlivu, malicherná tyranská povaha nebo soudy vedené zaslepenou zaujatostí, místo aby se věci řešily s čistou hlavou.",
       "archetype": null,
       "description": null
     },
@@ -1158,17 +1158,17 @@
       "id": 64,
       "arcana": "minor",
       "number": 1,
-      "suit": "pentacles",
-      "rank": "ace",
+      "suit": "mince",
+      "rank": "eso",
       "image_path": "64.png",
-      "name": "Eso pentaklů",
+      "name": "Eso mincí",
       "keywords": [
         "příležitost",
         "růst",
         "zdroje"
       ],
-      "meaning_upright": "Hmatatelná příležitost a semínko prosperity.",
-      "meaning_reversed": "Zmeškaná šance nebo nestabilní základy.",
+      "meaning_upright": "Konečně se objevuje něco pořádného, čeho se dá chytit. Je to jako úrodná půda, kam stačí zasadit semínko, aby z něj vyrostlo všechno, co má ruce a nohy.",
+      "meaning_reversed": "Buď vám ten vlak ujel přímo před nosem, nebo jste se pokusili stavět dům na písku, který se teď pod nohama začíná sypat.",
       "archetype": null,
       "description": null
     },
@@ -1176,53 +1176,53 @@
       "id": 65,
       "arcana": "minor",
       "number": 2,
-      "suit": "pentacles",
+      "suit": "mince",
       "rank": "two",
       "image_path": "65.png",
-      "name": "Dva pentakly",
+      "name": "Dvě mince",
       "keywords": [
-        "rovnováha",
-        "adaptace",
-        "žonglování"
+        "balancování",
+        "pružnost",
+        "žonglování s povinnostmi"
       ],
-      "meaning_upright": "Vyvažování priorit a přizpůsobování se změnám.",
-      "meaning_reversed": "Přetížení nebo ztráta rovnováhy.",
+      "meaning_upright": "Snažíte se udržet nad vodou a šikovně střídáte všechno, co má ruce a nohy, aby se vám život nerozsypal pod rukama.",
+      "meaning_reversed": "Už toho máte nad hlavu, všechno se vám hroutí a z té snahy udržet všechno v chodu jste akorát tak na pokraji sil.",
       "archetype": null,
-      "description": null
+      "description": "Je to jako tanec na laně – člověk musí být vnímavý k okolnostem a prostě se naučit v tom neustálém kolotoči povinností najít svůj vlastní rytmus."
     },
     {
       "id": 66,
       "arcana": "minor",
       "number": 3,
-      "suit": "pentacles",
+      "suit": "Mince",
       "rank": "three",
       "image_path": "66.png",
-      "name": "Tři pentakly",
+      "name": "Trojka mincí",
       "keywords": [
-        "týmová_práce",
-        "řemeslo",
-        "učení"
+        "společná práce",
+        "poctivé řemeslo",
+        "sbírání zkušeností"
       ],
-      "meaning_upright": "Týmová práce, řemeslo a učení praxí.",
-      "meaning_reversed": "Nedostatek spolupráce nebo nedbalá práce.",
+      "meaning_upright": "Když se lidé spojí a každý přiloží ruku k dílu, jde to od ruky. Je to o tom, že se od sebe navzájem učíme přímo v akci, pěkně postaru, jako když mistr předává kumšt tovaryšovi.",
+      "meaning_reversed": "Někde se zadrhlo kolečko. Buď každý tahá za jiný konec provazu, nebo někdo odflákl svou část práce, a tím to všechno, co má ruce a nohy, začíná váznout.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta připomíná, že na velkých věcech se málokdy pracuje o samotě. Je to oslava toho, když se potká talent, poctivá příprava a ochota spolupracovat na něčem, co přežije nás všechny."
     },
     {
       "id": 67,
       "arcana": "minor",
       "number": 4,
-      "suit": "pentacles",
+      "suit": "mince",
       "rank": "four",
       "image_path": "67.png",
-      "name": "Čtyři pentakly",
+      "name": "Čtyři mince",
       "keywords": [
-        "bezpečnost",
+        "jistota",
         "kontrola",
-        "držení_se"
+        "lpění na svém"
       ],
-      "meaning_upright": "Bezpečnost, kontrola a pevné držení.",
-      "meaning_reversed": "Puštění nebo strach ze ztráty ovlivňující rozhodnutí.",
+      "meaning_upright": "Když má člověk všechno, co má ruce a nohy, pod palcem, cítí se bezpečně. Je to o stabilitě, kterou si hlídáte jako oko v hlavě.",
+      "meaning_reversed": "Strach, že o něco přijdete, vás brzdí. Někdy je potřeba povolit stisk, aby se člověk mohl pohnout z místa, místo aby jen úzkostlivě střádal.",
       "archetype": null,
       "description": null
     },
@@ -1230,71 +1230,71 @@
       "id": 68,
       "arcana": "minor",
       "number": 5,
-      "suit": "pentacles",
-      "rank": "five",
+      "suit": "mince",
+      "rank": "pětka",
       "image_path": "68.png",
-      "name": "Pět pentaklů",
+      "name": "Pětka mincí",
       "keywords": [
-        "těžkosti",
-        "nedostatek",
-        "podpora"
+        "trápení",
+        "bída",
+        "podaná ruka"
       ],
-      "meaning_upright": "Těžkosti, nedostatek a hledání podpory.",
-      "meaning_reversed": "Zotavení, pomoc a zlepšující se podmínky.",
+      "meaning_upright": "Člověk se ocitl v úzkých, kdy se lepí smůla na paty a kapsa zeje prázdnotou. Je čas přestat se stydět a říct si o pomoc.",
+      "meaning_reversed": "Blýská se na lepší časy. Nejhorší máte za sebou a konečně se objevuje cesta ven, nebo alespoň někdo, kdo vám pomůže postavit se zase na vlastní nohy.",
       "archetype": null,
-      "description": null
+      "description": "Tahle karta připomíná, že i když je život zrovna tvrdý oříšek a máte pocit, že se všechno, co má ruce a nohy, spiklo proti vám, neznamená to konečnou. Někdy stačí jen přestat zatínat zuby a přijmout pomoc od lidí, kteří vám chtějí podat ruku."
     },
     {
       "id": 69,
       "arcana": "minor",
       "number": 6,
-      "suit": "pentacles",
+      "suit": "Mince",
       "rank": "six",
       "image_path": "69.png",
-      "name": "Šest pentaklů",
+      "name": "Šest mincí",
       "keywords": [
-        "dávání",
-        "přijímání",
-        "férovost"
+        "štědrost",
+        "vděčnost",
+        "rovný díl"
       ],
-      "meaning_upright": "Dávání a přijímání s férovostí a péčí.",
-      "meaning_reversed": "Podmínky nebo nerovnováha ve výměně.",
+      "meaning_upright": "Umět podat pomocnou ruku, ale taky vědět, kdy ji s pokorou přijmout. Všechno by mělo být vyvážené a spravedlivé.",
+      "meaning_reversed": "Když se váhy nakloní na jednu stranu. Buď někdo zneužívá cizí dobroty, nebo naopak odmítá vidět, že už mu dávno někdo podal prst.",
       "archetype": null,
-      "description": null
+      "description": "Život je jako hostina, kde by si každý měl vzít jen to, co unese, a zbytek nechat těm, kteří právě přišli zkrátka. O tom je celá tahle karta – o rovnováze mezi tím, co člověk pošle dál do světa, a tím, co si od něj nechá vrátit."
     },
     {
       "id": 70,
       "arcana": "minor",
       "number": 7,
-      "suit": "pentacles",
+      "suit": "mince",
       "rank": "seven",
       "image_path": "70.png",
-      "name": "Sedm pentaklů",
+      "name": "Sedm mincí",
       "keywords": [
         "trpělivost",
-        "investice",
-        "hodnocení"
+        "dlouhodobá práce",
+        "bilancování"
       ],
-      "meaning_upright": "Trpělivost, dlouhodobá investice a hodnocení.",
-      "meaning_reversed": "Netrpělivost nebo příliš brzké pochybování o pokroku.",
+      "meaning_upright": "Je čas se zastavit a podívat se, jak úroda roste. Nic se nemá uspěchat, poctivá práce vyžaduje svůj čas, než přinese ovoce.",
+      "meaning_reversed": "Přílišná zbrklost nebo věčné pochybování o tom, jestli se to vůbec vyplatí. Když člověk pořád jen vyhrabává semínka, aby zkontroloval kořínky, nic mu nevyroste.",
       "archetype": null,
-      "description": null
+      "description": "Sedmička mincí je jako chvíle, kdy si sednete na zápraží po celém dni dřiny. Díváte se na všechno, co má ruce a nohy, a zvažujete, jestli je potřeba ještě přiložit ruku k dílu, nebo už je čas nechat věci prostě dozrát."
     },
     {
       "id": 71,
       "arcana": "minor",
       "number": 8,
-      "suit": "pentacles",
+      "suit": "Mince",
       "rank": "eight",
       "image_path": "71.png",
-      "name": "Osm pentaklů",
+      "name": "Osm mincí",
       "keywords": [
-        "cvičení",
-        "dovednost",
-        "oddanost"
+        "trénink",
+        "mistrovství",
+        "poctivá práce"
       ],
-      "meaning_upright": "Cvičení, oddanost a zdokonalování řemesla.",
-      "meaning_reversed": "Obejití rohů nebo nuda z rutiny.",
+      "meaning_upright": "Poctivá dřina, soustředění na detail a postupné pilování řemesla, které vás nakonec dovede k mistrovství.",
+      "meaning_reversed": "Snažit se to očůrat, zkratky, které se nevyplatí, nebo prostá únava z každodenního kolotoče.",
       "archetype": null,
       "description": null
     },
@@ -1302,35 +1302,35 @@
       "id": 72,
       "arcana": "minor",
       "number": 9,
-      "suit": "pentacles",
-      "rank": "nine",
+      "suit": "Mince",
+      "rank": "Devítka",
       "image_path": "72.png",
-      "name": "Devět pentaklů",
+      "name": "Devět mincí",
       "keywords": [
         "nezávislost",
-        "pohodlí",
-        "sebehodnota"
+        "pohoda",
+        "vnitřní vyrovnanost"
       ],
-      "meaning_upright": "Nezávislost, pohodlí a sebehodnota.",
-      "meaning_reversed": "Přílišná závislost nebo nejistota navzdory úspěchu.",
+      "meaning_upright": "Stojíš pevně na vlastních nohou. Už nemusíš nikomu nic dokazovat a můžeš si konečně užívat ovoce své práce v klidu a v soukromí.",
+      "meaning_reversed": "Něco ti chybí, i když navenek vypadá všechno v pořádku. Možná se až příliš spoléháš na druhé nebo se cítíš vnitřně nejistý, i když máš všechno, co má ruce a nohy.",
       "archetype": null,
-      "description": null
+      "description": "Tato karta je jako nedělní odpoledne na zahradě, kterou sis sám obdělal. Říká, že tvá hodnota neleží v tom, co si o tobě myslí ostatní, ale v tom, že ses naučil postarat sám o sebe a nepotřebuješ se už nikam hnát."
     },
     {
       "id": 73,
       "arcana": "minor",
       "number": 10,
-      "suit": "pentacles",
-      "rank": "ten",
+      "suit": "mince",
+      "rank": "deset",
       "image_path": "73.png",
-      "name": "Deset pentaklů",
+      "name": "Deset mincí",
       "keywords": [
-        "dědictví",
-        "rodina",
-        "stabilita"
+        "rodinný grunt",
+        "zázemí",
+        "jistota"
       ],
-      "meaning_upright": "Dědictví, rodinná stabilita a dlouhodobá jistota.",
-      "meaning_reversed": "Nestabilita základů nebo rodinné napětí.",
+      "meaning_upright": "Konečně máte všechno, co má ruce a nohy. Je to o plodech vaší práce, které po sobě zanecháte, a o pevném zázemí, o které se můžete kdykoliv opřít.",
+      "meaning_reversed": "Něco v základech začíná skřípat. Může to být stará křivda v rodině nebo pocit, že se vám ten pečlivě budovaný pořádek sype pod rukama.",
       "archetype": null,
       "description": null
     },
@@ -1338,17 +1338,17 @@
       "id": 74,
       "arcana": "minor",
       "number": 11,
-      "suit": "pentacles",
-      "rank": "page",
+      "suit": "mince",
+      "rank": "páže",
       "image_path": "74.png",
-      "name": "Páž pentaklů",
+      "name": "Páže mincí",
       "keywords": [
-        "studium",
-        "příležitost",
-        "plánování"
+        "učení se řemeslu",
+        "nová šance",
+        "rozvaha"
       ],
-      "meaning_upright": "Studium, nová příležitost a uzemněné plánování.",
-      "meaning_reversed": "Prokrastinace nebo nedostatek následného jednání.",
+      "meaning_upright": "Čas, kdy se vyplatí zasednout ke knihám, chytit se nové příležitosti a všechno si pořádně promyslet, než se člověk pustí do práce.",
+      "meaning_reversed": "Odsouvání povinností na neurčito nebo situace, kdy sice máte plány, ale skutek utekl a zůstalo jen u řečí.",
       "archetype": null,
       "description": null
     },
@@ -1356,35 +1356,35 @@
       "id": 75,
       "arcana": "minor",
       "number": 12,
-      "suit": "pentacles",
+      "suit": "mince",
       "rank": "knight",
       "image_path": "75.png",
-      "name": "Rytíř pentaklů",
+      "name": "Rytíř mincí",
       "keywords": [
         "vyrovnanost",
-        "rutina",
+        "zavedený řád",
         "spolehlivost"
       ],
-      "meaning_upright": "Vyrovnaný pokrok a spolehlivé úsilí.",
-      "meaning_reversed": "Stagnace nebo tvrdohlavé lpění na rutině.",
+      "meaning_upright": "Poctivá práce, která nese ovoce. Žádné zbytečné kličky, jen trpělivý postup vpřed.",
+      "meaning_reversed": "Uvíznutí na místě nebo zarputilost, která brání jakémukoliv rozumnému posunu.",
       "archetype": null,
-      "description": null
+      "description": "Tenhle chlapík nikam nespěchá. Ví, že když chce člověk sklidit pořádnou úrodu, musí mít trpělivost a nevynechat ani den. Není to žádný vizionář, co by vymýšlel vzdušné zámky, je to spíše ten typ, na kterého se můžete spolehnout, že všechno, co má ruce a nohy, dotáhne do zdárného konce."
     },
     {
       "id": 76,
       "arcana": "minor",
       "number": 13,
-      "suit": "pentacles",
+      "suit": "Mince",
       "rank": "queen",
       "image_path": "76.png",
-      "name": "Královna pentaklů",
+      "name": "Královna mincí",
       "keywords": [
         "péče",
-        "praktičnost",
-        "domov"
+        "selský rozum",
+        "teplo domova"
       ],
-      "meaning_upright": "Praktická péče, pohodlí a uzemněné pěstování.",
-      "meaning_reversed": "Nerovnováha práce a domova nebo zanedbávání péče o sebe.",
+      "meaning_upright": "Umí vytvořit zázemí, má všechno, co má ruce a nohy, pod kontrolou a v její blízkosti je každému dobře. Je to žena, která ví, že k spokojenému životu patří teplé jídlo na stole a pořádek v hlavě i v komoře.",
+      "meaning_reversed": "Když se věci mají naopak, znamená to, že se člověk upracoval k smrti nebo naopak zanedbal všechno, na čem záleží. Je to signál, že je načase zastavit se a konečně začít myslet taky na sebe, místo aby jen hasil cizí problémy.",
       "archetype": null,
       "description": null
     },
@@ -1392,17 +1392,17 @@
       "id": 77,
       "arcana": "minor",
       "number": 14,
-      "suit": "pentacles",
+      "suit": "mince",
       "rank": "king",
       "image_path": "77.png",
-      "name": "Král pentaklů",
+      "name": "Král mincí",
       "keywords": [
-        "hojnost",
-        "stabilita",
-        "poskytovatel"
+        "úroda",
+        "stálost",
+        "zajištěné zázemí"
       ],
-      "meaning_upright": "Hojnost, stabilita a zodpovědné poskytování.",
-      "meaning_reversed": "Materialismus nebo používání zdrojů k ovládání.",
+      "meaning_upright": "Poctivá úroda, pevná půda pod nohama a chlap, co se postará o všechno, co má ruce a nohy.",
+      "meaning_reversed": "Přízemní hamižnost nebo snaha vynucovat si poslušnost přes plnou šrajtofli.",
       "archetype": null,
       "description": null
     }
