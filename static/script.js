@@ -91,7 +91,7 @@ function focusQuestionAndReveal() {
 function isAccessGranted() {
     const limitRaw = localStorage.getItem('last_reading');        
     // Ak v pamäti nič nie je, používateľ môže veštiť
-    if (!limitRaw) return ;
+    if (!limitRaw) return 0;
     
     const limitDate = parseInt(limitRaw, 10);
     const now = Date.now();
@@ -150,6 +150,7 @@ const SoundManager = (() => {
 
 // Ošetrenie nebezpečných znakov pre prevenciu XSS útokov
 function escapeHtml(s) {
+    s = s.replace(/^\* /gm, '- ');
     const HTML_ESC = new Map([['&', '&amp;'], ['<', '&lt;'], ['>', '&gt;'], ['"', '&quot;'], ["'", '&#39;']]);
     return String(s ?? '').replace(/[&<>"']/g, (ch) => HTML_ESC.get(ch) ?? ch);
 }
