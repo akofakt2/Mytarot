@@ -31,7 +31,7 @@ class Card:
     description: str | None = None
 
     @staticmethod
-    def from_dict(raw: dict[str, Any]) -> "Card":
+    def from_dict(raw: dict[str, Any]) -> "Card":        
         required = (
             "id",
             "arcana",
@@ -41,11 +41,10 @@ class Card:
             "meaning_upright",
             "meaning_reversed",
         )
-        missing = [k for k in required if k not in raw]
+        missing = [k for k in required if k not in raw]    
         if missing:
             raise ValueError(f"Card missing required fields: {missing}")
 
-    
         arcana = raw["arcana"]
     
         suit = raw.get("suit")
