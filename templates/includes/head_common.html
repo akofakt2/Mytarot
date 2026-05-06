@@ -22,8 +22,9 @@
     {% if ga_id %}
         gtag('config', '{{ ga_id }}');
     {% endif %}
-    {% if ads_id %}
-        gtag('config', '{{ ads_id }}');
-    {% endif %}
 </script>
+    {% if ads_id %}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ ads_id }}" crossorigin="anonymous"></script>
+    {% endif %}
+
 {% endif %}
