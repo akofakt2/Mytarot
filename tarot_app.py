@@ -754,9 +754,6 @@ def create_tarot_app() -> Flask:
         next_c = cards[card.id + 1] if card.id < 77 else None
         nav_rows = _card_nav_rows(cards, slug)
 
-        prev_slug = slugify(prev_c.name) if prev_c else None
-        next_slug = slugify(next_c.name) if next_c else None
-
         return render_template(
             "template.html",
             card=card,
