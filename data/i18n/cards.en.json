@@ -8,7 +8,7 @@
       "number": 0,
       "suit": null,
       "rank": null,
-      "image_path": "0.png",
+      "image_path": "0.webp",
       "name": "The Fool",
       "keywords": [
         "new beginnings",
@@ -26,7 +26,7 @@
       "number": 1,
       "suit": null,
       "rank": null,
-      "image_path": "1.png",
+      "image_path": "1.webp",
       "name": "The Magician",
       "keywords": [
         "will",
@@ -44,7 +44,7 @@
       "number": 2,
       "suit": null,
       "rank": null,
-      "image_path": "2.png",
+      "image_path": "2.webp",
       "name": "The High Priestess",
       "keywords": [
         "intuition",
@@ -62,7 +62,7 @@
       "number": 3,
       "suit": null,
       "rank": null,
-      "image_path": "3.png",
+      "image_path": "3.webp",
       "name": "The Empress",
       "keywords": [
         "care",
@@ -80,7 +80,7 @@
       "number": 4,
       "suit": null,
       "rank": null,
-      "image_path": "4.png",
+      "image_path": "4.webp",
       "name": "The Emperor",
       "keywords": [
         "structure",
@@ -98,7 +98,7 @@
       "number": 5,
       "suit": null,
       "rank": null,
-      "image_path": "5.png",
+      "image_path": "5.webp",
       "name": "The Hierophant",
       "keywords": [
         "tradition",
@@ -116,7 +116,7 @@
       "number": 6,
       "suit": null,
       "rank": null,
-      "image_path": "6.png",
+      "image_path": "6.webp",
       "name": "The Lovers",
       "keywords": [
         "choice",
@@ -134,7 +134,7 @@
       "number": 7,
       "suit": null,
       "rank": null,
-      "image_path": "7.png",
+      "image_path": "7.webp",
       "name": "The Chariot",
       "keywords": [
         "motivation",
@@ -152,7 +152,7 @@
       "number": 8,
       "suit": null,
       "rank": null,
-      "image_path": "8.png",
+      "image_path": "8.webp",
       "name": "Strength",
       "keywords": [
         "courage",
@@ -170,7 +170,7 @@
       "number": 9,
       "suit": null,
       "rank": null,
-      "image_path": "9.png",
+      "image_path": "9.webp",
       "name": "The Hermit",
       "keywords": [
         "being alone",
@@ -188,7 +188,7 @@
       "number": 10,
       "suit": null,
       "rank": null,
-      "image_path": "10.png",
+      "image_path": "10.webp",
       "name": "Wheel of Fortune",
       "keywords": [
         "cycles",
@@ -206,7 +206,7 @@
       "number": 11,
       "suit": null,
       "rank": null,
-      "image_path": "11.png",
+      "image_path": "11.webp",
       "name": "Justice",
       "keywords": [
         "truth",
@@ -224,7 +224,7 @@
       "number": 12,
       "suit": null,
       "rank": null,
-      "image_path": "12.png",
+      "image_path": "12.webp",
       "name": "The Hanged Man",
       "keywords": [
         "pause",
@@ -242,7 +242,7 @@
       "number": 13,
       "suit": null,
       "rank": null,
-      "image_path": "13.png",
+      "image_path": "13.webp",
       "name": "Death",
       "keywords": [
         "endings",
@@ -260,7 +260,7 @@
       "number": 14,
       "suit": null,
       "rank": null,
-      "image_path": "14.png",
+      "image_path": "14.webp",
       "name": "Temperance",
       "keywords": [
         "balance",
@@ -278,7 +278,7 @@
       "number": 15,
       "suit": null,
       "rank": null,
-      "image_path": "15.png",
+      "image_path": "15.webp",
       "name": "The Devil",
       "keywords": [
         "being stuck",
@@ -296,7 +296,7 @@
       "number": 16,
       "suit": null,
       "rank": null,
-      "image_path": "16.png",
+      "image_path": "16.webp",
       "name": "The Tower",
       "keywords": [
         "sudden change",
@@ -314,7 +314,7 @@
       "number": 17,
       "suit": null,
       "rank": null,
-      "image_path": "17.png",
+      "image_path": "17.webp",
       "name": "The Star",
       "keywords": [
         "hope",
@@ -332,7 +332,7 @@
       "number": 18,
       "suit": null,
       "rank": null,
-      "image_path": "18.png",
+      "image_path": "18.webp",
       "name": "The Moon",
       "keywords": [
         "confusion",
@@ -350,7 +350,7 @@
       "number": 19,
       "suit": null,
       "rank": null,
-      "image_path": "19.png",
+      "image_path": "19.webp",
       "name": "The Sun",
       "keywords": [
         "happiness",
@@ -368,7 +368,7 @@
       "number": 20,
       "suit": null,
       "rank": null,
-      "image_path": "20.png",
+      "image_path": "20.webp",
       "name": "Judgement",
       "keywords": [
         "new understanding",
@@ -386,7 +386,7 @@
       "number": 21,
       "suit": null,
       "rank": null,
-      "image_path": "21.png",
+      "image_path": "21.webp",
       "name": "The World",
       "keywords": [
         "finishing",
@@ -404,7 +404,7 @@
       "number": 1,
       "suit": "wands",
       "rank": "ace",
-      "image_path": "22.png",
+      "image_path": "22.webp",
       "name": "Ace of Wands",
       "keywords": [
         "new idea",
@@ -422,7 +422,7 @@
       "number": 2,
       "suit": "wands",
       "rank": "two",
-      "image_path": "23.png",
+      "image_path": "23.webp",
       "name": "Two of Wands",
       "keywords": [
         "planning",
@@ -440,7 +440,7 @@
       "number": 3,
       "suit": "wands",
       "rank": "three",
-      "image_path": "24.png",
+      "image_path": "24.webp",
       "name": "Three of Wands",
       "keywords": [
         "growth",
@@ -458,7 +458,7 @@
       "number": 4,
       "suit": "wands",
       "rank": "four",
-      "image_path": "25.png",
+      "image_path": "25.webp",
       "name": "Four of Wands",
       "keywords": [
         "celebration",
@@ -476,7 +476,7 @@
       "number": 5,
       "suit": "wands",
       "rank": "five",
-      "image_path": "26.png",
+      "image_path": "26.webp",
       "name": "Five of Wands",
       "keywords": [
         "competition",
@@ -494,7 +494,7 @@
       "number": 6,
       "suit": "wands",
       "rank": "six",
-      "image_path": "27.png",
+      "image_path": "27.webp",
       "name": "Six of Wands",
       "keywords": [
         "praise",
@@ -512,7 +512,7 @@
       "number": 7,
       "suit": "wands",
       "rank": "seven",
-      "image_path": "28.png",
+      "image_path": "28.webp",
       "name": "Seven of Wands",
       "keywords": [
         "defense",
@@ -530,7 +530,7 @@
       "number": 8,
       "suit": "wands",
       "rank": "eight",
-      "image_path": "29.png",
+      "image_path": "29.webp",
       "name": "Eight of Wands",
       "keywords": [
         "speed",
@@ -548,7 +548,7 @@
       "number": 9,
       "suit": "wands",
       "rank": "nine",
-      "image_path": "30.png",
+      "image_path": "30.webp",
       "name": "Nine of Wands",
       "keywords": [
         "strength",
@@ -566,7 +566,7 @@
       "number": 10,
       "suit": "wands",
       "rank": "ten",
-      "image_path": "31.png",
+      "image_path": "31.webp",
       "name": "Ten of Wands",
       "keywords": [
         "hard work",
@@ -584,7 +584,7 @@
       "number": 11,
       "suit": "wands",
       "rank": "page",
-      "image_path": "32.png",
+      "image_path": "32.webp",
       "name": "Page of Wands",
       "keywords": [
         "curiosity",
@@ -602,7 +602,7 @@
       "number": 12,
       "suit": "wands",
       "rank": "knight",
-      "image_path": "33.png",
+      "image_path": "33.webp",
       "name": "Knight of Wands",
       "keywords": [
         "adventure",
@@ -620,7 +620,7 @@
       "number": 13,
       "suit": "wands",
       "rank": "queen",
-      "image_path": "34.png",
+      "image_path": "34.webp",
       "name": "Queen of Wands",
       "keywords": [
         "confidence",
@@ -638,7 +638,7 @@
       "number": 14,
       "suit": "wands",
       "rank": "king",
-      "image_path": "35.png",
+      "image_path": "35.webp",
       "name": "King of Wands",
       "keywords": [
         "planning",
@@ -656,7 +656,7 @@
       "number": 1,
       "suit": "Cups",
       "rank": "Ace",
-      "image_path": "36.png",
+      "image_path": "36.webp",
       "name": "Ace of Cups",
       "keywords": [
         "love",
@@ -674,7 +674,7 @@
       "number": 2,
       "suit": "cups",
       "rank": "two",
-      "image_path": "37.png",
+      "image_path": "37.webp",
       "name": "Two of Cups",
       "keywords": [
         "connection",
@@ -692,7 +692,7 @@
       "number": 3,
       "suit": "cups",
       "rank": "three",
-      "image_path": "38.png",
+      "image_path": "38.webp",
       "name": "Three of Cups",
       "keywords": [
         "friendship",
@@ -710,7 +710,7 @@
       "number": 4,
       "suit": "cups",
       "rank": "four",
-      "image_path": "39.png",
+      "image_path": "39.webp",
       "name": "Four of Cups",
       "keywords": [
         "boredom",
@@ -728,7 +728,7 @@
       "number": 5,
       "suit": "cups",
       "rank": "five",
-      "image_path": "40.png",
+      "image_path": "40.webp",
       "name": "Five of Cups",
       "keywords": [
         "loss",
@@ -746,7 +746,7 @@
       "number": 6,
       "suit": "cups",
       "rank": "six",
-      "image_path": "41.png",
+      "image_path": "41.webp",
       "name": "Six of Cups",
       "keywords": [
         "the past",
@@ -764,7 +764,7 @@
       "number": 7,
       "suit": "cups",
       "rank": "seven",
-      "image_path": "42.png",
+      "image_path": "42.webp",
       "name": "Seven of Cups",
       "keywords": [
         "choices",
@@ -782,7 +782,7 @@
       "number": 8,
       "suit": "cups",
       "rank": "eight",
-      "image_path": "43.png",
+      "image_path": "43.webp",
       "name": "Eight of Cups",
       "keywords": [
         "leaving",
@@ -800,7 +800,7 @@
       "number": 9,
       "suit": "cups",
       "rank": "nine",
-      "image_path": "44.png",
+      "image_path": "44.webp",
       "name": "Nine of Cups",
       "keywords": [
         "happiness",
@@ -818,7 +818,7 @@
       "number": 10,
       "suit": "cups",
       "rank": "ten",
-      "image_path": "45.png",
+      "image_path": "45.webp",
       "name": "Ten of Cups",
       "keywords": [
         "harmony",
@@ -836,7 +836,7 @@
       "number": 11,
       "suit": "cups",
       "rank": "page",
-      "image_path": "46.png",
+      "image_path": "46.webp",
       "name": "Page of Cups",
       "keywords": [
         "news",
@@ -854,7 +854,7 @@
       "number": 12,
       "suit": "cups",
       "rank": "knight",
-      "image_path": "47.png",
+      "image_path": "47.webp",
       "name": "Knight of Cups",
       "keywords": [
         "romance",
@@ -872,7 +872,7 @@
       "number": 13,
       "suit": "cups",
       "rank": "queen",
-      "image_path": "48.png",
+      "image_path": "48.webp",
       "name": "Queen of Cups",
       "keywords": [
         "kindness",
@@ -890,7 +890,7 @@
       "number": 14,
       "suit": "cups",
       "rank": "king",
-      "image_path": "49.png",
+      "image_path": "49.webp",
       "name": "King of Cups",
       "keywords": [
         "calm",
@@ -908,7 +908,7 @@
       "number": 1,
       "suit": "swords",
       "rank": "ace",
-      "image_path": "50.png",
+      "image_path": "50.webp",
       "name": "Ace of Swords",
       "keywords": [
         "clear thinking",
@@ -926,7 +926,7 @@
       "number": 2,
       "suit": "swords",
       "rank": "two",
-      "image_path": "51.png",
+      "image_path": "51.webp",
       "name": "Two of Swords",
       "keywords": [
         "waiting",
@@ -944,7 +944,7 @@
       "number": 3,
       "suit": "swords",
       "rank": "three",
-      "image_path": "52.png",
+      "image_path": "52.webp",
       "name": "Three of Swords",
       "keywords": [
         "sadness",
@@ -962,7 +962,7 @@
       "number": 4,
       "suit": "swords",
       "rank": "four",
-      "image_path": "53.png",
+      "image_path": "53.webp",
       "name": "Four of Swords",
       "keywords": [
         "rest",
@@ -980,7 +980,7 @@
       "number": 5,
       "suit": "swords",
       "rank": "five",
-      "image_path": "54.png",
+      "image_path": "54.webp",
       "name": "Five of Swords",
       "keywords": [
         "disagreement",
@@ -998,7 +998,7 @@
       "number": 6,
       "suit": "swords",
       "rank": "six",
-      "image_path": "55.png",
+      "image_path": "55.webp",
       "name": "Six of Swords",
       "keywords": [
         "change",
@@ -1016,7 +1016,7 @@
       "number": 7,
       "suit": "swords",
       "rank": "seven",
-      "image_path": "56.png",
+      "image_path": "56.webp",
       "name": "Seven of Swords",
       "keywords": [
         "planning",
@@ -1034,7 +1034,7 @@
       "number": 8,
       "suit": "swords",
       "rank": "eight",
-      "image_path": "57.png",
+      "image_path": "57.webp",
       "name": "Eight of Swords",
       "keywords": [
         "feeling trapped",
@@ -1052,7 +1052,7 @@
       "number": 9,
       "suit": "swords",
       "rank": "nine",
-      "image_path": "58.png",
+      "image_path": "58.webp",
       "name": "Nine of Swords",
       "keywords": [
         "anxiety",
@@ -1070,7 +1070,7 @@
       "number": 10,
       "suit": "swords",
       "rank": "ten",
-      "image_path": "59.png",
+      "image_path": "59.webp",
       "name": "Ten of Swords",
       "keywords": [
         "ending",
@@ -1088,7 +1088,7 @@
       "number": 11,
       "suit": "swords",
       "rank": "page",
-      "image_path": "60.png",
+      "image_path": "60.webp",
       "name": "Page of Swords",
       "keywords": [
         "curiosity",
@@ -1106,7 +1106,7 @@
       "number": 12,
       "suit": "swords",
       "rank": "knight",
-      "image_path": "61.png",
+      "image_path": "61.webp",
       "name": "Knight of Swords",
       "keywords": [
         "being direct",
@@ -1124,7 +1124,7 @@
       "number": 13,
       "suit": "swords",
       "rank": "queen",
-      "image_path": "62.png",
+      "image_path": "62.webp",
       "name": "Queen of Swords",
       "keywords": [
         "good judgment",
@@ -1142,7 +1142,7 @@
       "number": 14,
       "suit": "swords",
       "rank": "king",
-      "image_path": "63.png",
+      "image_path": "63.webp",
       "name": "King of Swords",
       "keywords": [
         "logic",
@@ -1160,7 +1160,7 @@
       "number": 1,
       "suit": "pentacles",
       "rank": "ace",
-      "image_path": "64.png",
+      "image_path": "64.webp",
       "name": "Ace of Pentacles",
       "keywords": [
         "new opportunity",
@@ -1178,7 +1178,7 @@
       "number": 2,
       "suit": "pentacles",
       "rank": "two",
-      "image_path": "65.png",
+      "image_path": "65.webp",
       "name": "Two of Pentacles",
       "keywords": [
         "balance",
@@ -1196,7 +1196,7 @@
       "number": 3,
       "suit": "pentacles",
       "rank": "three",
-      "image_path": "66.png",
+      "image_path": "66.webp",
       "name": "Three of Pentacles",
       "keywords": [
         "teamwork",
@@ -1214,7 +1214,7 @@
       "number": 4,
       "suit": "pentacles",
       "rank": "four",
-      "image_path": "67.png",
+      "image_path": "67.webp",
       "name": "Four of Pentacles",
       "keywords": [
         "safety",
@@ -1232,7 +1232,7 @@
       "number": 5,
       "suit": "pentacles",
       "rank": "five",
-      "image_path": "68.png",
+      "image_path": "68.webp",
       "name": "Five of Pentacles",
       "keywords": [
         "difficulty",
@@ -1250,7 +1250,7 @@
       "number": 6,
       "suit": "pentacles",
       "rank": "six",
-      "image_path": "69.png",
+      "image_path": "69.webp",
       "name": "Six of Pentacles",
       "keywords": [
         "giving",
@@ -1268,7 +1268,7 @@
       "number": 7,
       "suit": "pentacles",
       "rank": "seven",
-      "image_path": "70.png",
+      "image_path": "70.webp",
       "name": "Seven of Pentacles",
       "keywords": [
         "patience",
@@ -1286,7 +1286,7 @@
       "number": 8,
       "suit": "pentacles",
       "rank": "eight",
-      "image_path": "71.png",
+      "image_path": "71.webp",
       "name": "Eight of Pentacles",
       "keywords": [
         "practice",
@@ -1304,7 +1304,7 @@
       "number": 9,
       "suit": "pentacles",
       "rank": "nine",
-      "image_path": "72.png",
+      "image_path": "72.webp",
       "name": "Nine of Pentacles",
       "keywords": [
         "being independent",
@@ -1322,7 +1322,7 @@
       "number": 10,
       "suit": "pentacles",
       "rank": "ten",
-      "image_path": "73.png",
+      "image_path": "73.webp",
       "name": "Ten of Pentacles",
       "keywords": [
         "long-term success",
@@ -1340,7 +1340,7 @@
       "number": 11,
       "suit": "pentacles",
       "rank": "page",
-      "image_path": "74.png",
+      "image_path": "74.webp",
       "name": "Page of Pentacles",
       "keywords": [
         "learning",
@@ -1358,7 +1358,7 @@
       "number": 12,
       "suit": "pentacles",
       "rank": "knight",
-      "image_path": "75.png",
+      "image_path": "75.webp",
       "name": "Knight of Pentacles",
       "keywords": [
         "patience",
@@ -1376,7 +1376,7 @@
       "number": 13,
       "suit": "pentacles",
       "rank": "queen",
-      "image_path": "76.png",
+      "image_path": "76.webp",
       "name": "Queen of Pentacles",
       "keywords": [
         "care",
@@ -1394,7 +1394,7 @@
       "number": 14,
       "suit": "pentacles",
       "rank": "king",
-      "image_path": "77.png",
+      "image_path": "77.webp",
       "name": "King of Pentacles",
       "keywords": [
         "wealth",

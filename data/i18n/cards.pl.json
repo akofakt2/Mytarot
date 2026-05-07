@@ -8,7 +8,7 @@
       "number": 4,
       "suit": null,
       "rank": null,
-      "image_path": "4.png",
+      "image_path": "4.webp",
       "name": "Cesarz",
       "keywords": [
         "ład",
@@ -26,7 +26,7 @@
       "number": 0,
       "suit": null,
       "rank": null,
-      "image_path": "0.png",
+      "image_path": "0.webp",
       "name": "Głupiec",
       "keywords": [
         "początki",
@@ -44,7 +44,7 @@
       "number": 1,
       "suit": null,
       "rank": null,
-      "image_path": "1.png",
+      "image_path": "1.webp",
       "name": "Mag",
       "keywords": [
         "wola",
@@ -62,7 +62,7 @@
       "number": 2,
       "suit": null,
       "rank": null,
-      "image_path": "2.png",
+      "image_path": "2.webp",
       "name": "Arcykapłanka",
       "keywords": [
         "intuicja",
@@ -80,7 +80,7 @@
       "number": 3,
       "suit": null,
       "rank": null,
-      "image_path": "3.png",
+      "image_path": "3.webp",
       "name": "Cesarzowa",
       "keywords": [
         "opieka",
@@ -98,7 +98,7 @@
       "number": 5,
       "suit": null,
       "rank": null,
-      "image_path": "5.png",
+      "image_path": "5.webp",
       "name": "Arcykapłan",
       "keywords": [
         "tradycja",
@@ -116,7 +116,7 @@
       "number": 6,
       "suit": null,
       "rank": null,
-      "image_path": "6.png",
+      "image_path": "6.webp",
       "name": "Kochankowie",
       "keywords": [
         "wybór",
@@ -134,7 +134,7 @@
       "number": 7,
       "suit": null,
       "rank": null,
-      "image_path": "7.png",
+      "image_path": "7.webp",
       "name": "Rydwan",
       "keywords": [
         "determinacja",
@@ -152,7 +152,7 @@
       "number": 8,
       "suit": null,
       "rank": null,
-      "image_path": "8.png",
+      "image_path": "8.webp",
       "name": "Moc",
       "keywords": [
         "odwaga",
@@ -170,7 +170,7 @@
       "number": 9,
       "suit": null,
       "rank": null,
-      "image_path": "9.png",
+      "image_path": "9.webp",
       "name": "Pustelnik",
       "keywords": [
         "samotność",
@@ -188,7 +188,7 @@
       "number": 10,
       "suit": null,
       "rank": null,
-      "image_path": "10.png",
+      "image_path": "10.webp",
       "name": "Koło Fortuny",
       "keywords": [
         "cykle",
@@ -206,7 +206,7 @@
       "number": 11,
       "suit": null,
       "rank": null,
-      "image_path": "11.png",
+      "image_path": "11.webp",
       "name": "Sprawiedliwość",
       "keywords": [
         "prawda",
@@ -224,7 +224,7 @@
       "number": 12,
       "suit": null,
       "rank": null,
-      "image_path": "12.png",
+      "image_path": "12.webp",
       "name": "Wisielec",
       "keywords": [
         "chwila wytchnienia",
@@ -242,7 +242,7 @@
       "number": 13,
       "suit": null,
       "rank": null,
-      "image_path": "13.png",
+      "image_path": "13.webp",
       "name": "Śmierć",
       "keywords": [
         "domknięcia",
@@ -260,7 +260,7 @@
       "number": 14,
       "suit": null,
       "rank": null,
-      "image_path": "14.png",
+      "image_path": "14.webp",
       "name": "Umiarkowanie",
       "keywords": [
         "równowaga",
@@ -278,7 +278,7 @@
       "number": 15,
       "suit": null,
       "rank": null,
-      "image_path": "15.png",
+      "image_path": "15.webp",
       "name": "Diabeł",
       "keywords": [
         "zniewolenie",
@@ -296,7 +296,7 @@
       "number": 16,
       "suit": null,
       "rank": null,
-      "image_path": "16.png",
+      "image_path": "16.webp",
       "name": "Wieża",
       "keywords": [
         "olśnienie",
@@ -314,7 +314,7 @@
       "number": 17,
       "suit": null,
       "rank": null,
-      "image_path": "17.png",
+      "image_path": "17.webp",
       "name": "Gwiazda",
       "keywords": [
         "nadzieja",
@@ -332,7 +332,7 @@
       "number": 18,
       "suit": null,
       "rank": null,
-      "image_path": "18.png",
+      "image_path": "18.webp",
       "name": "Księżyc",
       "keywords": [
         "iluzja",
@@ -350,7 +350,7 @@
       "number": 19,
       "suit": null,
       "rank": null,
-      "image_path": "19.png",
+      "image_path": "19.webp",
       "name": "Słońce",
       "keywords": [
         "radość",
@@ -368,7 +368,7 @@
       "number": 20,
       "suit": null,
       "rank": null,
-      "image_path": "20.png",
+      "image_path": "20.webp",
       "name": "Sąd",
       "keywords": [
         "przebudzenie",
@@ -386,7 +386,7 @@
       "number": 21,
       "suit": null,
       "rank": null,
-      "image_path": "21.png",
+      "image_path": "21.webp",
       "name": "Świat",
       "keywords": [
         "domknięcie",
@@ -404,7 +404,7 @@
       "number": 1,
       "suit": "wands",
       "rank": "ace",
-      "image_path": "22.png",
+      "image_path": "22.webp",
       "name": "As Buław",
       "keywords": [
         "iskra",
@@ -422,7 +422,7 @@
       "number": 2,
       "suit": "wands",
       "rank": "two",
-      "image_path": "23.png",
+      "image_path": "23.webp",
       "name": "Dwójka Buław",
       "keywords": [
         "obmyślanie",
@@ -440,7 +440,7 @@
       "number": 3,
       "suit": "wands",
       "rank": "three",
-      "image_path": "24.png",
+      "image_path": "24.webp",
       "name": "Trójka Buław",
       "keywords": [
         "ekspansja",
@@ -458,7 +458,7 @@
       "number": 4,
       "suit": "buławy",
       "rank": "czwórka",
-      "image_path": "25.png",
+      "image_path": "25.webp",
       "name": "Czwórka Buław",
       "keywords": [
         "świętowanie",
@@ -476,7 +476,7 @@
       "number": 5,
       "suit": "wands",
       "rank": "five",
-      "image_path": "26.png",
+      "image_path": "26.webp",
       "name": "Piątka Buław",
       "keywords": [
         "rywalizacja",
@@ -494,7 +494,7 @@
       "number": 6,
       "suit": "wands",
       "rank": "six",
-      "image_path": "27.png",
+      "image_path": "27.webp",
       "name": "Szóstka Buław",
       "keywords": [
         "uznanie",
@@ -512,7 +512,7 @@
       "number": 7,
       "suit": "wands",
       "rank": "seven",
-      "image_path": "28.png",
+      "image_path": "28.webp",
       "name": "Siódemka Buław",
       "keywords": [
         "obrona",
@@ -530,7 +530,7 @@
       "number": 8,
       "suit": "wands",
       "rank": "eight",
-      "image_path": "29.png",
+      "image_path": "29.webp",
       "name": "Ósemka Buław",
       "keywords": [
         "tempo",
@@ -548,7 +548,7 @@
       "number": 9,
       "suit": "wands",
       "rank": "nine",
-      "image_path": "30.png",
+      "image_path": "30.webp",
       "name": "Dziewiątka Buław",
       "keywords": [
         "hart ducha",
@@ -566,7 +566,7 @@
       "number": 10,
       "suit": "wands",
       "rank": "ten",
-      "image_path": "31.png",
+      "image_path": "31.webp",
       "name": "Dziesiątka Buław",
       "keywords": [
         "brzemię",
@@ -584,7 +584,7 @@
       "number": 11,
       "suit": "wands",
       "rank": "page",
-      "image_path": "32.png",
+      "image_path": "32.webp",
       "name": "Paź Buław",
       "keywords": [
         "ciekawość",
@@ -602,7 +602,7 @@
       "number": 12,
       "suit": "wands",
       "rank": "knight",
-      "image_path": "33.png",
+      "image_path": "33.webp",
       "name": "Rycerz Buław",
       "keywords": [
         "przygoda",
@@ -620,7 +620,7 @@
       "number": 13,
       "suit": "wands",
       "rank": "queen",
-      "image_path": "34.png",
+      "image_path": "34.webp",
       "name": "Królowa Buław",
       "keywords": [
         "niezachwiana sprawczość",
@@ -638,7 +638,7 @@
       "number": 14,
       "suit": "buławy",
       "rank": "król",
-      "image_path": "35.png",
+      "image_path": "35.webp",
       "name": "Król Buław",
       "keywords": [
         "dalekosiężne plany",
@@ -656,7 +656,7 @@
       "number": 1,
       "suit": "cups",
       "rank": "ace",
-      "image_path": "36.png",
+      "image_path": "36.webp",
       "name": "As Kielichów",
       "keywords": [
         "miłość",
@@ -674,7 +674,7 @@
       "number": 2,
       "suit": "cups",
       "rank": "two",
-      "image_path": "37.png",
+      "image_path": "37.webp",
       "name": "Dwójka Kielichów",
       "keywords": [
         "porozumienie",
@@ -692,7 +692,7 @@
       "number": 3,
       "suit": "cups",
       "rank": "three",
-      "image_path": "38.png",
+      "image_path": "38.webp",
       "name": "Trójka Kielichów",
       "keywords": [
         "przyjaźń",
@@ -710,7 +710,7 @@
       "number": 4,
       "suit": "cups",
       "rank": "four",
-      "image_path": "39.png",
+      "image_path": "39.webp",
       "name": "Czwórka Kielichów",
       "keywords": [
         "apatia",
@@ -728,7 +728,7 @@
       "number": 5,
       "suit": "cups",
       "rank": "five",
-      "image_path": "40.png",
+      "image_path": "40.webp",
       "name": "Piątka Kielichów",
       "keywords": [
         "strata",
@@ -746,7 +746,7 @@
       "number": 6,
       "suit": "cups",
       "rank": "six",
-      "image_path": "41.png",
+      "image_path": "41.webp",
       "name": "Szóstka Kielichów",
       "keywords": [
         "nostalgia",
@@ -764,7 +764,7 @@
       "number": 7,
       "suit": "cups",
       "rank": "seven",
-      "image_path": "42.png",
+      "image_path": "42.webp",
       "name": "Siódemka Kielichów",
       "keywords": [
         "wybory",
@@ -782,7 +782,7 @@
       "number": 8,
       "suit": "cups",
       "rank": "eight",
-      "image_path": "43.png",
+      "image_path": "43.webp",
       "name": "Ósemka Kielichów",
       "keywords": [
         "odchodzenie",
@@ -800,7 +800,7 @@
       "number": 9,
       "suit": "cups",
       "rank": "nine",
-      "image_path": "44.png",
+      "image_path": "44.webp",
       "name": "Dziewiątka Kielichów",
       "keywords": [
         "spełnienie",
@@ -818,7 +818,7 @@
       "number": 10,
       "suit": "cups",
       "rank": "ten",
-      "image_path": "45.png",
+      "image_path": "45.webp",
       "name": "Dziesiątka Kielichów",
       "keywords": [
         "harmonia",
@@ -836,7 +836,7 @@
       "number": 11,
       "suit": "cups",
       "rank": "page",
-      "image_path": "46.png",
+      "image_path": "46.webp",
       "name": "Paź Kielichów",
       "keywords": [
         "wieści",
@@ -854,7 +854,7 @@
       "number": 12,
       "suit": "cups",
       "rank": "knight",
-      "image_path": "47.png",
+      "image_path": "47.webp",
       "name": "Rycerz Kielichów",
       "keywords": [
         "romans",
@@ -872,7 +872,7 @@
       "number": 13,
       "suit": "puchary",
       "rank": "królowa",
-      "image_path": "48.png",
+      "image_path": "48.webp",
       "name": "Królowa Kielichów",
       "keywords": [
         "empatia",
@@ -890,7 +890,7 @@
       "number": 14,
       "suit": "puchary",
       "rank": "król",
-      "image_path": "49.png",
+      "image_path": "49.webp",
       "name": "Król Kielichów",
       "keywords": [
         "spokój",
@@ -908,7 +908,7 @@
       "number": 1,
       "suit": "swords",
       "rank": "ace",
-      "image_path": "50.png",
+      "image_path": "50.webp",
       "name": "As Mieczy",
       "keywords": [
         "jasność",
@@ -926,7 +926,7 @@
       "number": 2,
       "suit": "swords",
       "rank": "two",
-      "image_path": "51.png",
+      "image_path": "51.webp",
       "name": "Dwójka Mieczy",
       "keywords": [
         "martwy punkt",
@@ -944,7 +944,7 @@
       "number": 3,
       "suit": "swords",
       "rank": "three",
-      "image_path": "52.png",
+      "image_path": "52.webp",
       "name": "Trójka Mieczy",
       "keywords": [
         "złamane serce",
@@ -962,7 +962,7 @@
       "number": 4,
       "suit": "swords",
       "rank": "four",
-      "image_path": "53.png",
+      "image_path": "53.webp",
       "name": "Czwórka Mieczy",
       "keywords": [
         "odpoczynek",
@@ -980,7 +980,7 @@
       "number": 5,
       "suit": "swords",
       "rank": "five",
-      "image_path": "54.png",
+      "image_path": "54.webp",
       "name": "Piątka Mieczy",
       "keywords": [
         "konflikt",
@@ -998,7 +998,7 @@
       "number": 6,
       "suit": "swords",
       "rank": "six",
-      "image_path": "55.png",
+      "image_path": "55.webp",
       "name": "Szóstka Mieczy",
       "keywords": [
         "przemiana",
@@ -1016,7 +1016,7 @@
       "number": 7,
       "suit": "swords",
       "rank": "seven",
-      "image_path": "56.png",
+      "image_path": "56.webp",
       "name": "Siódemka Mieczy",
       "keywords": [
         "strategia",
@@ -1034,7 +1034,7 @@
       "number": 8,
       "suit": "swords",
       "rank": "eight",
-      "image_path": "57.png",
+      "image_path": "57.webp",
       "name": "Ósemka Mieczy",
       "keywords": [
         "pętanie się",
@@ -1052,7 +1052,7 @@
       "number": 9,
       "suit": "swords",
       "rank": "nine",
-      "image_path": "58.png",
+      "image_path": "58.webp",
       "name": "Dziewiątka Mieczy",
       "keywords": [
         "trwoga",
@@ -1070,7 +1070,7 @@
       "number": 10,
       "suit": "swords",
       "rank": "ten",
-      "image_path": "59.png",
+      "image_path": "59.webp",
       "name": "Dziesiątka Mieczy",
       "keywords": [
         "ostateczny kres",
@@ -1088,7 +1088,7 @@
       "number": 11,
       "suit": "swords",
       "rank": "page",
-      "image_path": "60.png",
+      "image_path": "60.webp",
       "name": "Paź Mieczy",
       "keywords": [
         "ciekawość",
@@ -1106,7 +1106,7 @@
       "number": 12,
       "suit": "swords",
       "rank": "knight",
-      "image_path": "61.png",
+      "image_path": "61.webp",
       "name": "Rycerz Mieczy",
       "keywords": [
         "bezpośredniość",
@@ -1124,7 +1124,7 @@
       "number": 13,
       "suit": "swords",
       "rank": "queen",
-      "image_path": "62.png",
+      "image_path": "62.webp",
       "name": "Królowa Mieczy",
       "keywords": [
         "przenikliwość",
@@ -1142,7 +1142,7 @@
       "number": 14,
       "suit": "swords",
       "rank": "king",
-      "image_path": "63.png",
+      "image_path": "63.webp",
       "name": "Król Mieczy",
       "keywords": [
         "logika",
@@ -1160,7 +1160,7 @@
       "number": 1,
       "suit": "pentacles",
       "rank": "ace",
-      "image_path": "64.png",
+      "image_path": "64.webp",
       "name": "As Monet",
       "keywords": [
         "szansa",
@@ -1178,7 +1178,7 @@
       "number": 2,
       "suit": "pentacles",
       "rank": "two",
-      "image_path": "65.png",
+      "image_path": "65.webp",
       "name": "Dwójka Monet",
       "keywords": [
         "równowaga",
@@ -1196,7 +1196,7 @@
       "number": 3,
       "suit": "pentacles",
       "rank": "three",
-      "image_path": "66.png",
+      "image_path": "66.webp",
       "name": "Trójka Monet",
       "keywords": [
         "wspólne działanie",
@@ -1214,7 +1214,7 @@
       "number": 4,
       "suit": "pentacles",
       "rank": "four",
-      "image_path": "67.png",
+      "image_path": "67.webp",
       "name": "Czwórka Monet",
       "keywords": [
         "poczucie bezpieczeństwa",
@@ -1232,7 +1232,7 @@
       "number": 5,
       "suit": "pentacles",
       "rank": "five",
-      "image_path": "68.png",
+      "image_path": "68.webp",
       "name": "Piątka Monet",
       "keywords": [
         "trudności",
@@ -1250,7 +1250,7 @@
       "number": 6,
       "suit": "pentacles",
       "rank": "six",
-      "image_path": "69.png",
+      "image_path": "69.webp",
       "name": "Szóstka Monet",
       "keywords": [
         "hojność",
@@ -1268,7 +1268,7 @@
       "number": 7,
       "suit": "pentacles",
       "rank": "seven",
-      "image_path": "70.png",
+      "image_path": "70.webp",
       "name": "Siódemka Monet",
       "keywords": [
         "cierpliwość",
@@ -1286,7 +1286,7 @@
       "number": 8,
       "suit": "pentacles",
       "rank": "eight",
-      "image_path": "71.png",
+      "image_path": "71.webp",
       "name": "Ósemka Monet",
       "keywords": [
         "praktyka",
@@ -1304,7 +1304,7 @@
       "number": 9,
       "suit": "pentacles",
       "rank": "nine",
-      "image_path": "72.png",
+      "image_path": "72.webp",
       "name": "Dziewiątka Monet",
       "keywords": [
         "niezależność",
@@ -1322,7 +1322,7 @@
       "number": 10,
       "suit": "pentacles",
       "rank": "ten",
-      "image_path": "73.png",
+      "image_path": "73.webp",
       "name": "Dziesiątka Monet",
       "keywords": [
         "dziedzictwo",
@@ -1340,7 +1340,7 @@
       "number": 11,
       "suit": "pentacles",
       "rank": "page",
-      "image_path": "74.png",
+      "image_path": "74.webp",
       "name": "Paź Monet",
       "keywords": [
         "nauka",
@@ -1358,7 +1358,7 @@
       "number": 12,
       "suit": "pentacles",
       "rank": "knight",
-      "image_path": "75.png",
+      "image_path": "75.webp",
       "name": "Rycerz Monet",
       "keywords": [
         "niezachwianie",
@@ -1376,7 +1376,7 @@
       "number": 13,
       "suit": "pentacles",
       "rank": "queen",
-      "image_path": "76.png",
+      "image_path": "76.webp",
       "name": "Królowa Monet",
       "keywords": [
         "opieka",
@@ -1394,7 +1394,7 @@
       "number": 14,
       "suit": "pentacles",
       "rank": "king",
-      "image_path": "77.png",
+      "image_path": "77.webp",
       "name": "Król Monet",
       "keywords": [
         "urodzaj",
