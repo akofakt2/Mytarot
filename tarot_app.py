@@ -537,7 +537,7 @@ def create_tarot_app() -> Flask:
         """Home page (HTML). Card draw + reading happen via JS calling /api/*."""
         return render_template(
             "index.html",
-            back_image_url=url_for("static", filename=f"{card_images_dir}/back.png"),
+            back_image_url=url_for("static", filename=f"{card_images_dir}/back.webp"),
             **ctx,
         )
 
@@ -549,7 +549,7 @@ def create_tarot_app() -> Flask:
         Dôležité: používa aktuálny balík (`card_images_dir`) a rovnaké modely `Card` + `Deck`.
         """
         images_dir = Path(app.static_folder) / card_images_dir
-        deck = Deck(back="back.png", images_dir=images_dir)
+        deck = Deck(back="back.webp", images_dir=images_dir)
         deck.init([c.id for c in cards])
         deck.shuffle()
 

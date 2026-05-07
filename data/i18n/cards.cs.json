@@ -8,7 +8,7 @@
       "number": 0,
       "suit": null,
       "rank": null,
-      "image_path": "0.png",
+      "image_path": "0.webp",
       "name": "Blázen",
       "keywords": [
         "nové cesty",
@@ -26,7 +26,7 @@
       "number": 1,
       "suit": null,
       "rank": null,
-      "image_path": "1.png",
+      "image_path": "1.webp",
       "name": "Mág",
       "keywords": [
         "odhodlání",
@@ -44,7 +44,7 @@
       "number": 2,
       "suit": null,
       "rank": null,
-      "image_path": "2.png",
+      "image_path": "2.webp",
       "name": "Velekněžka",
       "keywords": [
         "šestý smysl",
@@ -62,7 +62,7 @@
       "number": 3,
       "suit": null,
       "rank": null,
-      "image_path": "3.png",
+      "image_path": "3.webp",
       "name": "Císařovna",
       "keywords": [
         "péče",
@@ -80,7 +80,7 @@
       "number": 4,
       "suit": null,
       "rank": null,
-      "image_path": "4.png",
+      "image_path": "4.webp",
       "name": "Císař",
       "keywords": [
         "řád",
@@ -98,7 +98,7 @@
       "number": 5,
       "suit": null,
       "rank": null,
-      "image_path": "5.png",
+      "image_path": "5.webp",
       "name": "Velekněz",
       "keywords": [
         "tradicí ověřené postupy",
@@ -116,7 +116,7 @@
       "number": 6,
       "suit": null,
       "rank": null,
-      "image_path": "6.png",
+      "image_path": "6.webp",
       "name": "Milenci",
       "keywords": [
         "osudové rozhodnutí",
@@ -134,7 +134,7 @@
       "number": 7,
       "suit": null,
       "rank": null,
-      "image_path": "7.png",
+      "image_path": "7.webp",
       "name": "Vůz",
       "keywords": [
         "tah na branku",
@@ -152,7 +152,7 @@
       "number": 8,
       "suit": null,
       "rank": null,
-      "image_path": "8.png",
+      "image_path": "8.webp",
       "name": "Síla",
       "keywords": [
         "odvaha",
@@ -170,7 +170,7 @@
       "number": 9,
       "suit": null,
       "rank": null,
-      "image_path": "9.png",
+      "image_path": "9.webp",
       "name": "Poustevník",
       "keywords": [
         "samota",
@@ -188,7 +188,7 @@
       "number": 10,
       "suit": null,
       "rank": null,
-      "image_path": "10.png",
+      "image_path": "10.webp",
       "name": "Kolo štěstěny",
       "keywords": [
         "střídání časů",
@@ -206,7 +206,7 @@
       "number": 11,
       "suit": null,
       "rank": null,
-      "image_path": "11.png",
+      "image_path": "11.webp",
       "name": "Spravedlnost",
       "keywords": [
         "pravda",
@@ -224,7 +224,7 @@
       "number": 12,
       "suit": null,
       "rank": null,
-      "image_path": "12.png",
+      "image_path": "12.webp",
       "name": "Oběšenec",
       "keywords": [
         "pauza",
@@ -242,7 +242,7 @@
       "number": 13,
       "suit": null,
       "rank": null,
-      "image_path": "13.png",
+      "image_path": "13.webp",
       "name": "Smrt",
       "keywords": [
         "konec jedné kapitoly",
@@ -260,7 +260,7 @@
       "number": 14,
       "suit": null,
       "rank": null,
-      "image_path": "14.png",
+      "image_path": "14.webp",
       "name": "Mírnost",
       "keywords": [
         "rovnováha",
@@ -278,7 +278,7 @@
       "number": 15,
       "suit": null,
       "rank": null,
-      "image_path": "15.png",
+      "image_path": "15.webp",
       "name": "Ďábel",
       "keywords": [
         "závislost",
@@ -296,7 +296,7 @@
       "number": 16,
       "suit": null,
       "rank": null,
-      "image_path": "16.png",
+      "image_path": "16.webp",
       "name": "Věž",
       "keywords": [
         "procitnutí",
@@ -314,7 +314,7 @@
       "number": 17,
       "suit": null,
       "rank": null,
-      "image_path": "17.png",
+      "image_path": "17.webp",
       "name": "Hvězda",
       "keywords": [
         "naděje",
@@ -332,7 +332,7 @@
       "number": 18,
       "suit": null,
       "rank": null,
-      "image_path": "18.png",
+      "image_path": "18.webp",
       "name": "Měsíc",
       "keywords": [
         "klamy",
@@ -350,7 +350,7 @@
       "number": 19,
       "suit": null,
       "rank": null,
-      "image_path": "19.png",
+      "image_path": "19.webp",
       "name": "Slunce",
       "keywords": [
         "radost",
@@ -368,7 +368,7 @@
       "number": 20,
       "suit": null,
       "rank": null,
-      "image_path": "20.png",
+      "image_path": "20.webp",
       "name": "Soud",
       "keywords": [
         "probuzení",
@@ -386,7 +386,7 @@
       "number": 21,
       "suit": null,
       "rank": null,
-      "image_path": "21.png",
+      "image_path": "21.webp",
       "name": "Svět",
       "keywords": [
         "dotažení věcí do konce",
@@ -404,7 +404,7 @@
       "number": 1,
       "suit": "hole",
       "rank": "ace",
-      "image_path": "22.png",
+      "image_path": "22.webp",
       "name": "Eso holí",
       "keywords": [
         "jiskra",
@@ -422,7 +422,7 @@
       "number": 2,
       "suit": "Hole",
       "rank": "two",
-      "image_path": "23.png",
+      "image_path": "23.webp",
       "name": "Dvě hole",
       "keywords": [
         "plánování",
@@ -440,7 +440,7 @@
       "number": 3,
       "suit": "hole",
       "rank": "three",
-      "image_path": "24.png",
+      "image_path": "24.webp",
       "name": "Tři hole",
       "keywords": [
         "rozmach",
@@ -458,7 +458,7 @@
       "number": 4,
       "suit": "hole",
       "rank": "four",
-      "image_path": "25.png",
+      "image_path": "25.webp",
       "name": "Čtyři hole",
       "keywords": [
         "oslava",
@@ -476,7 +476,7 @@
       "number": 5,
       "suit": "hole",
       "rank": "five",
-      "image_path": "26.png",
+      "image_path": "26.webp",
       "name": "Pět holí",
       "keywords": [
         "přetahovaná",
@@ -494,7 +494,7 @@
       "number": 6,
       "suit": "Hole",
       "rank": "six",
-      "image_path": "27.png",
+      "image_path": "27.webp",
       "name": "Šest holí",
       "keywords": [
         "potlesk",
@@ -512,7 +512,7 @@
       "number": 7,
       "suit": "hole",
       "rank": "seven",
-      "image_path": "28.png",
+      "image_path": "28.webp",
       "name": "Sedm holí",
       "keywords": [
         "obrana",
@@ -530,7 +530,7 @@
       "number": 8,
       "suit": "Hole",
       "rank": "eight",
-      "image_path": "29.png",
+      "image_path": "29.webp",
       "name": "Osm holí",
       "keywords": [
         "spěch",
@@ -548,7 +548,7 @@
       "number": 9,
       "suit": "hole",
       "rank": "nine",
-      "image_path": "30.png",
+      "image_path": "30.webp",
       "name": "Devět holí",
       "keywords": [
         "houževnatost",
@@ -566,7 +566,7 @@
       "number": 10,
       "suit": "Hole",
       "rank": "Desítka",
-      "image_path": "31.png",
+      "image_path": "31.webp",
       "name": "Deset holí",
       "keywords": [
         "tíživé břemeno",
@@ -584,7 +584,7 @@
       "number": 11,
       "suit": "hole",
       "rank": "page",
-      "image_path": "32.png",
+      "image_path": "32.webp",
       "name": "Páže holí",
       "keywords": [
         "zvídavost",
@@ -602,7 +602,7 @@
       "number": 12,
       "suit": "hole",
       "rank": "knight",
-      "image_path": "33.png",
+      "image_path": "33.webp",
       "name": "Rytíř holí",
       "keywords": [
         "dobrodružství",
@@ -620,7 +620,7 @@
       "number": 13,
       "suit": "hole",
       "rank": "queen",
-      "image_path": "34.png",
+      "image_path": "34.webp",
       "name": "Královna holí",
       "keywords": [
         "zdravé sebevědomí",
@@ -638,7 +638,7 @@
       "number": 14,
       "suit": "hole",
       "rank": "king",
-      "image_path": "35.png",
+      "image_path": "35.webp",
       "name": "Král holí",
       "keywords": [
         "přehled",
@@ -656,7 +656,7 @@
       "number": 1,
       "suit": "poháry",
       "rank": "eso",
-      "image_path": "36.png",
+      "image_path": "36.webp",
       "name": "Eso pohárů",
       "keywords": [
         "láska",
@@ -674,7 +674,7 @@
       "number": 2,
       "suit": "Poháry",
       "rank": "two",
-      "image_path": "37.png",
+      "image_path": "37.webp",
       "name": "Dva poháry",
       "keywords": [
         "spřízněnost",
@@ -692,7 +692,7 @@
       "number": 3,
       "suit": "poháry",
       "rank": "three",
-      "image_path": "38.png",
+      "image_path": "38.webp",
       "name": "Tři poháry",
       "keywords": [
         "přátelství",
@@ -710,7 +710,7 @@
       "number": 4,
       "suit": "poháry",
       "rank": "four",
-      "image_path": "39.png",
+      "image_path": "39.webp",
       "name": "Čtyři poháry",
       "keywords": [
         "letargie",
@@ -728,7 +728,7 @@
       "number": 5,
       "suit": "Poháry",
       "rank": "five",
-      "image_path": "40.png",
+      "image_path": "40.webp",
       "name": "Pět pohárů",
       "keywords": [
         "ztráta",
@@ -746,7 +746,7 @@
       "number": 6,
       "suit": "Poháry",
       "rank": "six",
-      "image_path": "41.png",
+      "image_path": "41.webp",
       "name": "Šest pohárů",
       "keywords": [
         "nostalgie",
@@ -764,7 +764,7 @@
       "number": 7,
       "suit": "Poháry",
       "rank": "seven",
-      "image_path": "42.png",
+      "image_path": "42.webp",
       "name": "Sedm pohárů",
       "keywords": [
         "přehršel možností",
@@ -782,7 +782,7 @@
       "number": 8,
       "suit": "poháry",
       "rank": "eight",
-      "image_path": "43.png",
+      "image_path": "43.webp",
       "name": "Osm pohárů",
       "keywords": [
         "odcházení",
@@ -800,7 +800,7 @@
       "number": 9,
       "suit": "Poháry",
       "rank": "nine",
-      "image_path": "44.png",
+      "image_path": "44.webp",
       "name": "Devět pohárů",
       "keywords": [
         "pohoda",
@@ -818,7 +818,7 @@
       "number": 10,
       "suit": "Poháry",
       "rank": "ten",
-      "image_path": "45.png",
+      "image_path": "45.webp",
       "name": "Deset pohárů",
       "keywords": [
         "pohoda",
@@ -836,7 +836,7 @@
       "number": 11,
       "suit": "Poháry",
       "rank": "páže",
-      "image_path": "46.png",
+      "image_path": "46.webp",
       "name": "Páže pohárů",
       "keywords": [
         "dobrá zpráva",
@@ -854,7 +854,7 @@
       "number": 12,
       "suit": "Poháry",
       "rank": "rytíř",
-      "image_path": "47.png",
+      "image_path": "47.webp",
       "name": "Rytíř pohárů",
       "keywords": [
         "citové vzplanutí",
@@ -872,7 +872,7 @@
       "number": 13,
       "suit": "poháry",
       "rank": "queen",
-      "image_path": "48.png",
+      "image_path": "48.webp",
       "name": "Královna pohárů",
       "keywords": [
         "vnímavost",
@@ -890,7 +890,7 @@
       "number": 14,
       "suit": "Poháry",
       "rank": "Král",
-      "image_path": "49.png",
+      "image_path": "49.webp",
       "name": "Král pohárů",
       "keywords": [
         "vyrovnanost",
@@ -908,7 +908,7 @@
       "number": 1,
       "suit": "Meče",
       "rank": "eso",
-      "image_path": "50.png",
+      "image_path": "50.webp",
       "name": "Eso mečů",
       "keywords": [
         "čistá hlava",
@@ -926,7 +926,7 @@
       "number": 2,
       "suit": "meče",
       "rank": "two",
-      "image_path": "51.png",
+      "image_path": "51.webp",
       "name": "Dva meče",
       "keywords": [
         "patová situace",
@@ -944,7 +944,7 @@
       "number": 3,
       "suit": "Meče",
       "rank": "tři",
-      "image_path": "52.png",
+      "image_path": "52.webp",
       "name": "Tři meče",
       "keywords": [
         "bolestné rozčarování",
@@ -962,7 +962,7 @@
       "number": 4,
       "suit": "Meče",
       "rank": "four",
-      "image_path": "53.png",
+      "image_path": "53.webp",
       "name": "Čtyři meče",
       "keywords": [
         "odpočinek",
@@ -980,7 +980,7 @@
       "number": 5,
       "suit": "Meče",
       "rank": "five",
-      "image_path": "54.png",
+      "image_path": "54.webp",
       "name": "Pět mečů",
       "keywords": [
         "svár",
@@ -998,7 +998,7 @@
       "number": 6,
       "suit": "Meče",
       "rank": "šestka",
-      "image_path": "55.png",
+      "image_path": "55.webp",
       "name": "Šest mečů",
       "keywords": [
         "odchod od starého",
@@ -1016,7 +1016,7 @@
       "number": 7,
       "suit": "Meče",
       "rank": "sedmička",
-      "image_path": "56.png",
+      "image_path": "56.webp",
       "name": "Sedm mečů",
       "keywords": [
         "chytráctví",
@@ -1034,7 +1034,7 @@
       "number": 8,
       "suit": "Meče",
       "rank": "eight",
-      "image_path": "57.png",
+      "image_path": "57.webp",
       "name": "Osm mečů",
       "keywords": [
         "zahnaný do kouta",
@@ -1052,7 +1052,7 @@
       "number": 9,
       "suit": "Meče",
       "rank": "devítka",
-      "image_path": "58.png",
+      "image_path": "58.webp",
       "name": "Devět mečů",
       "keywords": [
         "úzkost",
@@ -1070,7 +1070,7 @@
       "number": 10,
       "suit": "Meče",
       "rank": "ten",
-      "image_path": "59.png",
+      "image_path": "59.webp",
       "name": "Deset mečů",
       "keywords": [
         "konečná",
@@ -1088,7 +1088,7 @@
       "number": 11,
       "suit": "meče",
       "rank": "page",
-      "image_path": "60.png",
+      "image_path": "60.webp",
       "name": "Páže mečů",
       "keywords": [
         "bystrost",
@@ -1106,7 +1106,7 @@
       "number": 12,
       "suit": "Meče",
       "rank": "rytíř",
-      "image_path": "61.png",
+      "image_path": "61.webp",
       "name": "Rytíř mečů",
       "keywords": [
         "přímost",
@@ -1124,7 +1124,7 @@
       "number": 13,
       "suit": "Meče",
       "rank": "queen",
-      "image_path": "62.png",
+      "image_path": "62.webp",
       "name": "Královna mečů",
       "keywords": [
         "bystrý úsudek",
@@ -1142,7 +1142,7 @@
       "number": 14,
       "suit": "Meče",
       "rank": "king",
-      "image_path": "63.png",
+      "image_path": "63.webp",
       "name": "Král mečů",
       "keywords": [
         "chladný rozum",
@@ -1160,7 +1160,7 @@
       "number": 1,
       "suit": "mince",
       "rank": "eso",
-      "image_path": "64.png",
+      "image_path": "64.webp",
       "name": "Eso mincí",
       "keywords": [
         "příležitost",
@@ -1178,7 +1178,7 @@
       "number": 2,
       "suit": "mince",
       "rank": "two",
-      "image_path": "65.png",
+      "image_path": "65.webp",
       "name": "Dvě mince",
       "keywords": [
         "balancování",
@@ -1196,7 +1196,7 @@
       "number": 3,
       "suit": "Mince",
       "rank": "three",
-      "image_path": "66.png",
+      "image_path": "66.webp",
       "name": "Trojka mincí",
       "keywords": [
         "společná práce",
@@ -1214,7 +1214,7 @@
       "number": 4,
       "suit": "mince",
       "rank": "four",
-      "image_path": "67.png",
+      "image_path": "67.webp",
       "name": "Čtyři mince",
       "keywords": [
         "jistota",
@@ -1232,7 +1232,7 @@
       "number": 5,
       "suit": "mince",
       "rank": "pětka",
-      "image_path": "68.png",
+      "image_path": "68.webp",
       "name": "Pětka mincí",
       "keywords": [
         "trápení",
@@ -1250,7 +1250,7 @@
       "number": 6,
       "suit": "Mince",
       "rank": "six",
-      "image_path": "69.png",
+      "image_path": "69.webp",
       "name": "Šest mincí",
       "keywords": [
         "štědrost",
@@ -1268,7 +1268,7 @@
       "number": 7,
       "suit": "mince",
       "rank": "seven",
-      "image_path": "70.png",
+      "image_path": "70.webp",
       "name": "Sedm mincí",
       "keywords": [
         "trpělivost",
@@ -1286,7 +1286,7 @@
       "number": 8,
       "suit": "Mince",
       "rank": "eight",
-      "image_path": "71.png",
+      "image_path": "71.webp",
       "name": "Osm mincí",
       "keywords": [
         "trénink",
@@ -1304,7 +1304,7 @@
       "number": 9,
       "suit": "Mince",
       "rank": "Devítka",
-      "image_path": "72.png",
+      "image_path": "72.webp",
       "name": "Devět mincí",
       "keywords": [
         "nezávislost",
@@ -1322,7 +1322,7 @@
       "number": 10,
       "suit": "mince",
       "rank": "deset",
-      "image_path": "73.png",
+      "image_path": "73.webp",
       "name": "Deset mincí",
       "keywords": [
         "rodinný grunt",
@@ -1340,7 +1340,7 @@
       "number": 11,
       "suit": "mince",
       "rank": "páže",
-      "image_path": "74.png",
+      "image_path": "74.webp",
       "name": "Páže mincí",
       "keywords": [
         "učení se řemeslu",
@@ -1358,7 +1358,7 @@
       "number": 12,
       "suit": "mince",
       "rank": "knight",
-      "image_path": "75.png",
+      "image_path": "75.webp",
       "name": "Rytíř mincí",
       "keywords": [
         "vyrovnanost",
@@ -1376,7 +1376,7 @@
       "number": 13,
       "suit": "Mince",
       "rank": "queen",
-      "image_path": "76.png",
+      "image_path": "76.webp",
       "name": "Královna mincí",
       "keywords": [
         "péče",
@@ -1394,7 +1394,7 @@
       "number": 14,
       "suit": "mince",
       "rank": "king",
-      "image_path": "77.png",
+      "image_path": "77.webp",
       "name": "Král mincí",
       "keywords": [
         "úroda",
