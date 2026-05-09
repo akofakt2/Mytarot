@@ -17,21 +17,15 @@
                 <a href="{{ url_for('card_page', slug=row.slug) }}"><span class="mono">{{ row.id }}.</span> {{ row.name
                     }}</a>
             </li>
-            {% if row.sep_after %}
+            {% if row.sep_after %}            
             <li class="cards-index-sep" aria-hidden="true"></li>
             {% endif %}
             {% endfor %}
         </ul>
 
         <footer>
-            <div class="domain-links">
-                <a href="https://etarot.sk" target="_blank" rel="noopener">eTarot.sk</a>
-                <a href="https://gotarot.org" target="_blank" rel="noopener">goTarot.org</a>
-                <a href="https://czytajtarot.pl" target="_blank" rel="noopener">czytajTarot.pl</a>
-                <a href="https://magickytarot.cz" target="_blank" rel="noopener">magickyTarot.cz</a>
-            </div>
             {% include 'includes/footer_copyright.html' %}
-  </footer>
+        </footer>
     </div>
 </body>
 

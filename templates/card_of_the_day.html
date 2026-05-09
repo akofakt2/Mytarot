@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+
+<head>
+    {% include 'includes/head_common.html' %}
+    {% include 'meta/' ~ locale ~ '/cards_of_day_index.html' %}
+    <style>
+        .is-hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    {% include 'nav.html' %}
+
+    <div class="main-layout card-detail">
+        <h2 class="cards-index-title">{{ ui.card_of_day_reveal_label }}</h2>
+
+        <section class="card-article">
+            <!-- Pridal som ID 'card-container', aby sme mali na čo mieriť -->
+            <div id="card-container" style="height: 390px; position: relative; cursor: pointer; perspective: 1000px;"
+                onclick="flipCard()">
+
+                <figure id="card-back" class="card-detail-figure"
+                    style="position: absolute; width: 100%; backface-visibility: hidden;">
+                    <img src="static/{{card_images_dir}}/back.webp" class="card-detail-img">
+                </figure>
+
+                <figure id="card-front" class="card-detail-figure"
+                    style="position: absolute; width: 100%; backface-visibility: hidden; transform: rotateY(180deg); opacity: 0;">
+                    <img src="static/{{card_images_dir}}/{{ card.image_path }}" class="card-detail-img">
+                </figure>
+            </div>
+        </section>
+        <section id="info" class="card-section" style="visibility: hidden;">
+            <div class="card-info" >
+                <h2>{{ card.name }}</h2>
+                <p class="card-description">{{ card.description }}</p>
+            </div>
+            <section class="card-section">
+                <h2>{{ ui.card_of_day_explanation_title }}</h2>
+                <p>{{ card_of_day_explanation }}</p>
+            </section>
+        </section>
+
+
+        <footer>
+            {% include 'includes/footer_copyright.html' %}
+        </footer>
+        <script>
+            function flipCard() {
+                const back = document.getElementById('card-back');
+                const front = document.getElementById('card-front');
+                const info = document.getElementById('info');
+                const container = back.parentElement; // Ten div s height: 390px
+
+                // 1. Zastavíme ďalšie klikanie
+                back.onclick = null;
+                back.style.cursor = 'default';
+
+                // 2. Nastavíme kontajneru 3D priestor
+                container.style.perspective = "1000px";
+
+                // 3. Pripravíme obe strany (aby mali rovnaký základ a plynulosť)
+                [back, front].forEach(el => {
+                    el.style.transition = "transform 0.6s ease-in-out, opacity 0.6s";
+                    el.style.backfaceVisibility = "hidden";
+                    el.style.webkitBackfaceVisibility = "hidden";
+                });
+
+                // 4. Prednú stranu pripravíme na "druhú stranu" rotácie
+                // Musíme ju zviditeľniť skôr, než začne pohyb
+                front.classList.remove('is-hidden');
+                front.style.display = "block";
+                front.style.opacity = "0";
+                front.style.transform = "rotateY(-180deg)";
+
+                // 5. Spustíme samotnú animáciu
+                // Malý timeout zabezpečí, že prehliadač stihne zaregistrovať zmenu display:block
+                setTimeout(() => {
+                    // Zadná strana sa otočí a zmizne
+                    back.style.transform = "rotateY(180deg)";
+                    back.style.opacity = "0";
+
+                    // Predná strana sa dotočí do nuly a zjaví sa
+                    front.style.transform = "rotateY(0deg)";
+                    front.style.opacity = "1";
+                }, 20);
+
+                // 6. Poistka na konci: aby zadná strana nezavadzala kliknutiam na texty pod ňou
+                setTimeout(() => {
+                    back.style.visibility = "hidden";
+                    info.style.visibility = "visible";
+                }, 600);
+            }
+        </script>
+    </div>
+</body>
+
+</html>

@@ -637,7 +637,7 @@
       "arcana": "malá",
       "number": 14,
       "suit": "palice",
-      "rank": "kráľ",
+      "rank": "king",
       "image_path": "35.webp",
       "name": "Kráľ palíc",
       "keywords": [
@@ -889,7 +889,7 @@
       "arcana": "malá",
       "number": 14,
       "suit": "poháre",
-      "rank": "kráľ",
+      "rank": "king",
       "image_path": "49.webp",
       "name": "Kráľ pohárov",
       "keywords": [
@@ -1141,7 +1141,7 @@
       "arcana": "malá",
       "number": 14,
       "suit": "meče",
-      "rank": "kráľ",
+      "rank": "king",
       "image_path": "63.webp",
       "name": "Kráľ mečov",
       "keywords": [
@@ -1393,7 +1393,7 @@
       "arcana": "malá",
       "number": 14,
       "suit": "Mince",
-      "rank": "kráľ",
+      "rank": "king",
       "image_path": "77.webp",
       "name": "Kráľ mincí",
       "keywords": [
