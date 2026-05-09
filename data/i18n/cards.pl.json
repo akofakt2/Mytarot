@@ -637,7 +637,7 @@
       "arcana": "minor",
       "number": 14,
       "suit": "buławy",
-      "rank": "król",
+      "rank": "king",
       "image_path": "35.webp",
       "name": "Król Buław",
       "keywords": [
@@ -889,7 +889,7 @@
       "arcana": "minor",
       "number": 14,
       "suit": "puchary",
-      "rank": "król",
+      "rank": "king",
       "image_path": "49.webp",
       "name": "Król Kielichów",
       "keywords": [

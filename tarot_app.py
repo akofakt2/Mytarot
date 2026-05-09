@@ -197,9 +197,15 @@ def _card_index_rows(cards: tuple[Card, ...]) -> list[dict[str, Any]]:
     n = len(cards)
     for i, c in enumerate(cards):
         nxt = cards[i + 1] if i + 1 < n else None
-        sep_after = bool(
-            nxt is not None and (c.arcana != nxt.arcana or c.suit != nxt.suit)
-        )
+        sep_after = False
+        if nxt:
+            if nxt.arcana == 'minor' and c.arcana == 'major':
+                sep_after = True
+            if c.rank ==  'king':
+                sep_after = True
+        #sep_after = bool(
+        #    nxt is not None and (c.arcana != nxt.arcana or c.suit != nxt.suit)
+        #)
         rows.append(
             {
                 "slug": slugify(c.name),
@@ -755,7 +761,7 @@ def create_tarot_app() -> Flask:
         nav_rows = _card_nav_rows(cards, slug)
 
         return render_template(
-            "template.html",
+            "card_of_the_day.html",
             card=card,
             slug=slug,
             is_card_of_day=True,
