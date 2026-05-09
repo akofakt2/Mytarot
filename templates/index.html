@@ -64,16 +64,14 @@
                 <a href="https://czytajtarot.pl" target="_blank" rel="noopener">czytajTarot.pl</a>
                 <a href="https://magickytarot.cz" target="_blank" rel="noopener">magickyTarot.cz</a>
             </div>
-            <p style="margin-top: 30px; font-size: 11px; color: #475569;">
-                &copy; 2026 <a href="https://r2ot.sk" target="_blank" rel="noopener" style="text-decoration: none; font-size: 11px; color: #475569;">r2ot.sk</a>
-            </p>
+            {% include 'includes/footer_copyright.html' %}
         </footer>
     </div>
 
     <script id="tarot-data" type="application/json">{{ tarot_cards_json|safe }}</script>
     <script id="ui-i18n" type="application/json">{{ ui_i18n_json|safe }}</script>
     <script id="pages-i18n" type="application/json">{{ pages_i18n_json|safe }}</script>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </body>
 
 </html>
