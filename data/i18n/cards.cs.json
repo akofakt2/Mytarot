@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "locale": "pl",
+  "locale": "cs",
   "cards": [
     {
       "id": 0,
@@ -1161,7 +1161,7 @@
       "suit": "mince",
       "rank": "eso",
       "image_path": "64.webp",
-      "name": "Eso mincí",
+      "name": "Eso mincí (pentaklů)",
       "keywords": [
         "příležitost",
         "růst",
@@ -1179,7 +1179,7 @@
       "suit": "mince",
       "rank": "two",
       "image_path": "65.webp",
-      "name": "Dvě mince",
+      "name": "Dvě mince (pentakly)",
       "keywords": [
         "balancování",
         "pružnost",
@@ -1197,7 +1197,7 @@
       "suit": "Mince",
       "rank": "three",
       "image_path": "66.webp",
-      "name": "Trojka mincí",
+      "name": "Trojka mincí (pentaklů)",
       "keywords": [
         "společná práce",
         "poctivé řemeslo",
@@ -1215,7 +1215,7 @@
       "suit": "mince",
       "rank": "four",
       "image_path": "67.webp",
-      "name": "Čtyři mince",
+      "name": "Čtyři mince (pentakly)",
       "keywords": [
         "jistota",
         "kontrola",
@@ -1233,7 +1233,7 @@
       "suit": "mince",
       "rank": "pětka",
       "image_path": "68.webp",
-      "name": "Pětka mincí",
+      "name": "Pětka mincí (pentaklů)",
       "keywords": [
         "trápení",
         "bída",
@@ -1251,7 +1251,7 @@
       "suit": "Mince",
       "rank": "six",
       "image_path": "69.webp",
-      "name": "Šest mincí",
+      "name": "Šest mincí (pentaklů)",
       "keywords": [
         "štědrost",
         "vděčnost",
@@ -1269,7 +1269,7 @@
       "suit": "mince",
       "rank": "seven",
       "image_path": "70.webp",
-      "name": "Sedm mincí",
+      "name": "Sedm mincí (pentaklů)",
       "keywords": [
         "trpělivost",
         "dlouhodobá práce",
@@ -1287,7 +1287,7 @@
       "suit": "Mince",
       "rank": "eight",
       "image_path": "71.webp",
-      "name": "Osm mincí",
+      "name": "Osm mincí (pentaklů)",
       "keywords": [
         "trénink",
         "mistrovství",
@@ -1305,7 +1305,7 @@
       "suit": "Mince",
       "rank": "Devítka",
       "image_path": "72.webp",
-      "name": "Devět mincí",
+      "name": "Devět mincí (pentaklů)",
       "keywords": [
         "nezávislost",
         "pohoda",
@@ -1323,7 +1323,7 @@
       "suit": "mince",
       "rank": "deset",
       "image_path": "73.webp",
-      "name": "Deset mincí",
+      "name": "Deset mincí (pentaklů)",
       "keywords": [
         "rodinný grunt",
         "zázemí",
@@ -1341,7 +1341,7 @@
       "suit": "mince",
       "rank": "páže",
       "image_path": "74.webp",
-      "name": "Páže mincí",
+      "name": "Páže mincí (pentaklů)",
       "keywords": [
         "učení se řemeslu",
         "nová šance",
@@ -1359,7 +1359,7 @@
       "suit": "mince",
       "rank": "knight",
       "image_path": "75.webp",
-      "name": "Rytíř mincí",
+      "name": "Rytíř mincí (pentaklů)",
       "keywords": [
         "vyrovnanost",
         "zavedený řád",
@@ -1377,7 +1377,7 @@
       "suit": "Mince",
       "rank": "queen",
       "image_path": "76.webp",
-      "name": "Královna mincí",
+      "name": "Královna mincí (pentaklů)",
       "keywords": [
         "péče",
         "selský rozum",
@@ -1395,7 +1395,7 @@
       "suit": "mince",
       "rank": "king",
       "image_path": "77.webp",
-      "name": "Král mincí",
+      "name": "Král mincí (pentaklů)",
       "keywords": [
         "úroda",
         "stálost",
