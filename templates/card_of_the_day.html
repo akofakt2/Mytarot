@@ -34,9 +34,11 @@
             </div>
         </section>
         <section id="info" class="card-section" style="visibility: hidden;">
-            <div class="card-info" >
+            <div class="card-info">
                 <h2>{{ card.name }}</h2>
+                {% if card.description %}
                 <p class="card-description">{{ card.description }}</p>
+                {% endif %}
             </div>
             <section class="card-section">
                 <h2>{{ ui.card_of_day_explanation_title }}</h2>
