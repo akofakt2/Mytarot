@@ -17,56 +17,57 @@
 <body>
 
     {% include 'nav.html' %}
+    <main>
+        <div class="main-layout">
+            <input type="text" id="question" class="question-input" placeholder="{{ ui.question_placeholder }}"
+                aria-label="{{ ui.deck_label_focus }}">
 
-    <div class="main-layout">
-        <input type="text" id="question" class="question-input" placeholder="{{ ui.question_placeholder }}" aria-label="{{ ui.deck_label_focus }}">
+            <div class="deck-container">
+                <div class="deck" id="mainDeck" onclick="handleDeckInteraction()">
+                    <div class="deck-layer"></div>
+                    <div class="deck-layer"></div>
+                    <div class="deck-layer"></div>
+                </div>
+                <div class="deck-label" id="deckLabel">{{ ui.deck_label_shuffle }}</div>
+            </div>
 
-        <div class="deck-container">
-            <div class="deck" id="mainDeck" onclick="handleDeckInteraction()">
-                <div class="deck-layer"></div>
-                <div class="deck-layer"></div>
-                <div class="deck-layer"></div>
-            </div>
-            <div class="deck-label" id="deckLabel">{{ ui.deck_label_shuffle }}</div>
-        </div>
-
-        <div class="spread-area">
-            <div >                
-                <h2>{{ui.reading_label_past}}</h2>
-                <div class="slot" id="slot-0" data-label="☾"></div>              
-            </div>
-            <div>
-                <h2>{{ui.reading_label_present}}</h2>
-                <div class="slot" id="slot-1" data-label="❍"></div>
-            </div>
-            <div>
-                <h2>{{ui.reading_label_future}}</h2>
-                <div class="slot" id="slot-2" data-label="☽"></div>
-            </div>
-        </div>
-
-        <div class="reading-container">
-            <div class="reading-panel">
-                <div class="loading-state" id="loadingState">{{ ui.loading }}</div>
-                <div class="final-reading" id="finalReading"></div>
-                <div style="text-align: center;">
-                <button class="new-reading-btn" id="newReadingBtn" type="button" aria-hidden="true">
-                    {{ ui.new_reading }}
-                </button>
+            <div class="spread-area">
+                <div>
+                    <h2>{{ui.reading_label_past}}</h2>
+                    <div class="slot" id="slot-0" data-label="☾"></div>
+                </div>
+                <div>
+                    <h2>{{ui.reading_label_present}}</h2>
+                    <div class="slot" id="slot-1" data-label="❍"></div>
+                </div>
+                <div>
+                    <h2>{{ui.reading_label_future}}</h2>
+                    <div class="slot" id="slot-2" data-label="☽"></div>
                 </div>
             </div>
-        </div>
-        <h3 class="seo-subtle">{{ ui.app_h2 }}</h3>
-        <footer>            
-            <div class="domain-links">
-                <a href="https://etarot.sk" target="_blank" rel="noopener">eTarot.sk</a>
-                <a href="https://gotarot.org" target="_blank" rel="noopener">goTarot.org</a>
-                <a href="https://czytajtarot.pl" target="_blank" rel="noopener">czytajTarot.pl</a>
-                <a href="https://magickytarot.cz" target="_blank" rel="noopener">magickyTarot.cz</a>
+
+            <div class="reading-container">
+                <div class="reading-panel">
+                    <div class="loading-state" id="loadingState">{{ ui.loading }}</div>
+                    <div class="final-reading" id="finalReading"></div>
+                    <div style="text-align: center;">
+                        <button class="new-reading-btn" id="newReadingBtn" type="button" aria-hidden="true">
+                            {{ ui.new_reading }}
+                        </button>
+                    </div>
+                </div>
             </div>
-            {% include 'includes/footer_copyright.html' %}
-        </footer>
-    </div>
+            <h3 class="seo-subtle">{{ ui.app_h2 }}</h3>
+    </main>
+    <footer>
+        <div class="domain-links">
+            <a href="https://etarot.sk" target="_blank" rel="noopener">eTarot.sk</a>
+            <a href="https://gotarot.org" target="_blank" rel="noopener">goTarot.org</a>
+            <a href="https://czytajtarot.pl" target="_blank" rel="noopener">czytajTarot.pl</a>
+            <a href="https://magickytarot.cz" target="_blank" rel="noopener">magickyTarot.cz</a>
+        </div>
+        {% include 'includes/footer_copyright.html' %}
+    </footer>    
 
     <script id="tarot-data" type="application/json">{{ tarot_cards_json|safe }}</script>
     <script id="ui-i18n" type="application/json">{{ ui_i18n_json|safe }}</script>

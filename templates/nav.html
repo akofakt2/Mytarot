@@ -1,8 +1,8 @@
 {# Spoločná navigácia — mobil: hamburger + rozbalenie (checkbox, bez JS); texty v ui.json #}
 <nav class="site-nav" aria-label="{{ ui.nav_aria_main }}">
     <h1><a href="{{ url_for('index') }}" class="logo">{{ ui.nav_brand }}</a></h1>
-    <input type="checkbox" id="site-nav-toggle" class="nav-toggle-input" />
-    <label for="site-nav-toggle" class="nav-burger" aria-label="{{ ui.nav_aria_menu }}">
+    <input type="checkbox" id="site-nav-toggle" class="nav-toggle-input" aria-label="{{ ui.nav_aria_menu }}" />
+    <label for="site-nav-toggle" class="nav-burger">
         <span></span><span></span><span></span>
     </label>
     <div class="nav-links">
