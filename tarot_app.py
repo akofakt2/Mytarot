@@ -20,7 +20,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from flask import Flask, Response, abort, render_template, request, url_for
+from flask import Flask, Response, abort, render_template, request, url_for, send_from_directory
 
 from domain.cards import Card, validate_cards
 from domain.deck import Deck
@@ -537,6 +537,15 @@ def create_tarot_app() -> Flask:
                 headers={"Cache-Control": "no-store"},
             )
         return None
+    
+    @app.route('/ads.txt')
+    def serve_ads_txt():
+        # Tento riadok presne povie Flasku: "Choď do static a vezmi ads.txt"
+        return send_from_directory(os.path.join(app.root_path, 'static'), 'ads.txt', mimetype='text/plain')
+
+    @app.route('/robots.txt')
+    def serve_robots_txt():
+        return send_from_directory(os.path.join(app.root_path, 'static'), 'robots.txt', mimetype='text/plain')
 
     @app.get(index_path)
     def index() -> str:
