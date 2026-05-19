@@ -689,6 +689,7 @@ def create_tarot_app() -> Flask:
             model = (os.getenv("GEMINI_MODEL") or "gemini-2.5-flash").strip()
             reading_text = call_llm(prompt, api_key=api_key, model=model)            
         except Exception as e:
+            print(str(e))
             return app.response_class(
                 response=json.dumps({"ok": False, "error": "LLM error"}, ensure_ascii=False),
                 status=502,
