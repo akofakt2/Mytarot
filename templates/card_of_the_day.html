@@ -18,20 +18,20 @@
             <h2 class="cards-index-title">{{ ui.card_of_day_reveal_label }}</h2>
 
             <section class="card-article">
-                <!-- Pridal som ID 'card-container', aby sme mali na čo mieriť -->
+                <!-- Odstránená pevná výška, pridaný aspect-ratio a max-width -->
                 <div id="card-container"
-                    style="height: 390px; position: relative; cursor: pointer; perspective: 1000px;"
+                    style="width: 100%; max-width: 400px; margin: 0 auto; aspect-ratio: 600 / 1044; position: relative; cursor: pointer; perspective: 1000px;"
                     onclick="flipCard()">
 
                     <figure id="card-back" class="card-detail-figure"
-                        style="position: absolute; width: 100%; backface-visibility: hidden;">
-                        <img src="static/{{card_images_dir}}/back.webp" class="card-detail-img" alt="tarot card back">
+                        style="position: absolute; inset: 0; margin: 0; backface-visibility: hidden;">
+                        <img src="static/{{card_images_dir}}/back.webp" class="card-detail-img" alt="tarot card back" style="max-width: 100%; height: 100%; object-fit: contain;">
                     </figure>
 
                     <figure id="card-front" class="card-detail-figure"
-                        style="position: absolute; width: 100%; backface-visibility: hidden; transform: rotateY(180deg); opacity: 0;">
+                        style="position: absolute; inset: 0; margin: 0; backface-visibility: hidden; transform: rotateY(180deg); opacity: 0;">
                         <img src="static/{{card_images_dir}}/{{ card.image_path }}" class="card-detail-img"
-                            alt="{{ card.name }}">
+                            alt="{{ card.name }}" style="max-width: 100%; height: 100%; object-fit: contain;">
                     </figure>
                 </div>
             </section>
@@ -57,11 +57,11 @@
             const back = document.getElementById('card-back');
             const front = document.getElementById('card-front');
             const info = document.getElementById('info');
-            const container = back.parentElement; // Ten div s height: 390px
+            const container = document.getElementById('card-container');
 
             // 1. Zastavíme ďalšie klikanie
-            back.onclick = null;
-            back.style.cursor = 'default';
+            container.onclick = null;
+            container.style.cursor = 'default';
 
             // 2. Nastavíme kontajneru 3D priestor
             container.style.perspective = "1000px";
