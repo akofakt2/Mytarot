@@ -14,7 +14,7 @@ api_key = (os.getenv("GEMINI_API_KEY") or "").strip()
 # --- FIXNÝ PROMPT A KONFIGURÁCIA ---
 JSON_PATH = "./data/i18n/cards.en.json"
 STYLE_PROMPT = "Redraw picture in a clean minimalist semi-cubism with clearly defined, non-overlapping shapes" 
-INPUT_DIR = "./static/cards/default"     
+INPUT_DIR = "./temp"     
 OUTPUT_DIR = "./static/cards/modern"
 
 MODEL_ID = "gemini-3.1-flash-image-preview"
@@ -29,6 +29,10 @@ with open(JSON_PATH, "r", encoding="utf-8") as f:
 def build_prompt_from_json(target_image_path: str, json_data: dict) -> str:
     
     card_data = None
+    
+    if 'back' in target_image_path:
+        return f"redraw card in {STYLE_PROMPT}"
+    
     for card in json_data["cards"]:
         if card["image_path"] == target_image_path:
             card_data = card
@@ -96,7 +100,8 @@ async def process_single_image(image_path: str, output_path: str, semaphore: asy
                 if img.mode in ('RGBA', 'LA'):
                     img = img.convert('RGB')
                 
-                prompt = build_prompt_from_json(os.path.basename(image_path),json_card_data)
+                p = os.path.basename(image_path).replace('png','webp')
+                prompt = build_prompt_from_json(p,json_card_data)
                                 
                 
                 # Zistenie rozmerov a výpočet správneho pomeru strán

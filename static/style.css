@@ -164,6 +164,35 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    /* Prepnutie kariet pod seba, aby mali miesto na šírku */
+    .spread-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem; /* Upravená medzera pre lepší vizuál */
+        margin-bottom: 3.5rem;
+        padding-bottom: 4rem;
+    }
+
+    /* Zväčšenie samotného slotu karty */
+    .slot {
+        /* Výška sa dopočíta automaticky vďaka aspect-ratio, padding pridá miesto pre text */
+        padding-bottom: 4rem;
+        width: var(--card-width);
+    }
+
+    /* Úprava nadpisov nad slotmi (Minulosť, Prítomnosť...) */
+    .spread-area h2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Zabezpečenie, aby texty pod kartou mali dosť miesta */
+    .slot-caption {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+    }
+
     .nav-burger {
         display: flex;
     }
@@ -1004,7 +1033,8 @@ h3 {
 
 @media (max-width: 768px) {
     :root {
-        --card-width: 220px;
+        /* Zväčšenie karty: zaberie 85% šírky displeja, max 340px */
+        --card-width: min(340px, 85vw);
     }
 
     .main-layout {
@@ -1016,7 +1046,7 @@ h3 {
     .spread-area {
         flex-direction: column;
         align-items: center;
-        gap: 6rem;
+        gap: 5rem; /* Upravená medzera pre lepší vizuál */
         margin-bottom: 3.5rem;
         padding-bottom: 4rem;
     }
