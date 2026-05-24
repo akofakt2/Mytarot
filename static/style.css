@@ -726,7 +726,7 @@ h3 {
 }
 
 .card-detail-img {
-    max-width: 220px;
+    max-width: 100%; /* Zmenené z 220px na 100% pre flexibilitu */
     width: 100%;
     height: auto;
     border-radius: 10px;
