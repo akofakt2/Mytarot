@@ -4,11 +4,11 @@
     --card-gold: #c5a059;
     --accent-purple: #2d1b4d;
     --text-light: #e0e0e0;
-    /* Tarot obrázky: 600 × 1028 */
+    /* Tarot obrázky: 768 × 1376 */
     --card-width: 220px;
-    --card-aspect: 600 / 1044;
+    --card-aspect: 768 / 1376;
     /* Explicitná výška pre istotu (niektoré prehliadače sú citlivé na aspect-ratio bez výšky) */
-    --card-height: calc(var(--card-width) * 1044 / 600);
+    --card-height: calc(var(--card-width) * 1376 / 768);
     --deck-scale: 0.9;
     --nav-bg: rgba(13, 13, 26, 0.9);
     --font-heading: 'Cinzel', serif;
@@ -292,11 +292,11 @@ h3 {
     height: 100%;
     background-color: var(--accent-purple);
     background-image: var(--card-back-url);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    border: 2px solid var(--card-gold);
-    border-radius: 10px;
+    border: 1px solid rgba(197, 160, 89, 0.25);
+    border-radius: 12px;
     box-shadow: -2px 2px 0 rgba(197, 160, 89, 0.5);
     display: flex;
     align-items: center;
@@ -470,8 +470,8 @@ h3 {
     height: 100%;
     backface-visibility: hidden;
     /* Skryje odvrátenú stranu */
-    border-radius: 10px;
-    border: 1px solid rgba(197, 160, 89, 0.35);
+    border-radius: 12px;
+    border: 1px solid rgba(197, 160, 89, 0.2);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
     overflow: hidden;
 }
@@ -480,7 +480,7 @@ h3 {
 .card-back {
     background-color: var(--accent-purple);
     background-image: var(--card-back-url);
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -494,7 +494,7 @@ h3 {
 .card-front img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     /* Garantuje nedeformovanie obrázka */
     display: block;
 }
@@ -755,11 +755,18 @@ h3 {
 }
 
 .card-detail-img {
-    max-width: 100%; /* Zmenené z 220px na 100% pre flexibilitu */
+
+    max-width: 100%;
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    border: 1px solid rgba(197, 160, 89, 0.4);
+
+
+
+
+    border-radius: 12px; /* Zaoblené rohy */
+    border: 1px solid rgba(197, 160, 89, 0.2); /* Jemný okraj */
+    object-fit: fill; /* Vyplnenie plochy */
+    display: block; /* Odstránenie spodnej medzery */
 }
 
 .spread-area h2,
@@ -1002,7 +1009,93 @@ h3 {
             rgba(197, 160, 89, 0.6) 18%,
             rgba(197, 160, 89, 0.75) 50%,
             rgba(197, 160, 89, 0.6) 82%,
-            rgba(197, 160, 89, 0) 100%);
+            rgba(197, 160, 89, 0) 100%);/* ... v sekcii :root ... */
+    /* Tarot obrázky: 768 × 1376 */
+    --card-width: 220px;
+    --card-aspect: 768 / 1376;
+    /* Prepočet výšky: (width * 1376) / 768 */
+    --card-height: calc(var(--card-width) * 1376 / 768);
+/* ... */
+
+/* Upravený vzhľad vrstiev balíčka (deck) */
+.deck-layer {
+    /* ... existing ... */
+    border: 1px solid rgba(197, 160, 89, 0.4); /* Jemnejší okraj */
+    border-radius: 12px; /* Mierne väčšie zaoblenie pre moderný vzhľad */
+    box-shadow: 
+        -1px 1px 0 rgba(197, 160, 89, 0.3),
+        -4px 4px 15px rgba(0, 0, 0, 0.6); /* Hlbší tieň */
+    /* ... */
+}
+
+/* Upravený vzhľad samotných kariet */
+.card-face {
+    /* ... existing ... */
+    border-radius: 12px;
+    /* Nahradenie tvrdého borderu jemným vnútorným tieňom a tenučkou linkou */
+    border: 1px solid rgba(197, 160, 89, 0.25);
+    box-shadow: 
+        inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+        0 12px 30px rgba(0, 0, 0, 0.7);
+    /* ... */
+}
+
+/* Detail karty v článku */
+.card-detail-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+
+
+    border-radius: 12px; /* Zaoblené rohy */
+    border: 1px solid rgba(197, 160, 89, 0.2); /* Jemný okraj */
+    object-fit: fill; /* Vyplnenie plochy */
+    display: block; /* Odstránenie spodnej medzery */
+}/* --- Úprava v sekcii :root --- */
+:root {
+    /* ... existujúce ... */
+    --card-width: 220px;
+    --card-aspect: 768 / 1376;
+    /* Prepočet výšky zostáva rovnaký */
+    --card-height: calc(var(--card-width) * 1376 / 768);
+    /* ... */
+}
+
+/* --- Úprava pre balíček (deck) --- */
+.deck-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent-purple);
+    background-image: var(--card-back-url);
+    /* ZMENA: Namiesto cover použijeme 100% 100%, aby sa obrázok natiahol presne na hrany */
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    /* ... zvyšok zostáva ... */
+}
+
+/* --- Úprava pre samotné karty --- */
+.card-back {
+    background-color: var(--accent-purple);
+    background-image: var(--card-back-url);
+    /* ZMENA: Tu taktiež nastavíme 100% 100% */
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+    /* ZMENA: Pre istotu zmeníme object-fit z cover na fill, ak by náhodou predné strany mali iný pomer */
+    object-fit: fill; 
+    display: block;
+}
     border: none;
 }
 
