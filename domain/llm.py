@@ -1,4 +1,5 @@
 from __future__ import annotations
+from google import genai 
 
 import os
 
@@ -15,7 +16,7 @@ def call_llm(prompt: str, *, api_key: str, model: str) -> str:
     if not model:
         raise ValueError("model is required")
 
-    from google import genai  # type: ignore[import-not-found]
+     # type: ignore[import-not-found]
 
     client = genai.Client(api_key=api_key)
     resp = client.models.generate_content(model=model, contents=prompt)
