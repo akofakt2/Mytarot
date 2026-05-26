@@ -420,6 +420,16 @@ async function handleDeckInteraction() {
                         ${cardData.meaning ? `<div class="slot-meaning" tabindex="-1">${escapeHtml(cardData.meaning)}</div>` : ''}
                     </div>
                 `;
+
+                // Po rozdaní poslednej karty presunieme pozornosť na nadpis prvej karty (Minulosť)
+                if (i === 2) {
+                    setTimeout(() => {
+                        const firstHeading = UI.slots[0]?.previousElementSibling;
+                        if (firstHeading) {
+                            scrollIntoViewIfMobile(firstHeading, 'start');
+                        }
+                    }, 500);
+                }
             }, i * 400);
         }
     }
