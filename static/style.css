@@ -164,11 +164,13 @@ h3 {
 }
 
 @media (max-width: 768px) {
+
     /* Prepnutie kariet pod seba, aby mali miesto na šírku */
     .spread-area {
         flex-direction: column;
         align-items: center;
-        gap: 5rem; /* Upravená medzera pre lepší vizuál */
+        gap: 5rem;
+        /* Upravená medzera pre lepší vizuál */
         margin-bottom: 3.5rem;
         padding-bottom: 4rem;
     }
@@ -264,9 +266,58 @@ h3 {
     margin-bottom: 60px;
 }
 
+.hero-heading {
+    font-family: var(--font-body);
+    /* Klasický, elegantný font */
+    font-size: 2.2rem;
+    color: var(--card-gold);
+    /* Jemná krémová/zlatistá farba */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+
+    /* Efekt žiary (Glow) */
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5), 0 0 20px rgba(212, 175, 55, 0.3);
+
+    /* Pridanie jemného prechodu pre luxusný vzhľad */
+    background: linear-gradient(to right, #d4af37, #f0e6d2, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    padding: 20px;
+    margin-bottom: 30px;
+
+    animation: pulse-border 3s infinite ease-in-out;
+}
+
+@keyframes pulse-border {
+
+    0%,
+    100% {
+        border-color: rgba(212, 175, 55, 0.3);
+        box-shadow: 0 0 0px rgba(212, 175, 55, 0);
+    }
+
+    50% {
+        border-color: rgba(212, 175, 55, 1);
+        /* Plná zlatá farba */
+        box-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+        /* Žiara smerom dovnútra/von */
+    }
+}
+
+.hero-heading:hover {
+    animation-play-state: paused;
+    border-color: rgba(212, 175, 55, 1);
+}
+
+
 ::placeholder {
-  color: #ffffff; /* biela */
-  opacity: 0.6;  /* nastav hodnotu medzi 0.5 a 0.8 podľa toho, ako to ladí */
+    color: #ffffff;
+    /* biela */
+    opacity: 0.6;
+    /* nastav hodnotu medzi 0.5 a 0.8 podľa toho, ako to ladí */
 }
 
 /* --- INTERAKTÍVNY BALÍČEK --- */
@@ -407,6 +458,30 @@ h3 {
     transform: translateY(20px);
     /* Karta je kúsok nižšie, aby sa mohla vynoriť */
     transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: breath 4s infinite ease-in-out;
+}
+
+/* Kľúčové snímky pre dýchanie */
+@keyframes breath {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0px rgba(212, 175, 55, 0);
+    }
+
+    50% {
+        transform: scale(1.02);
+        /* Jemné zväčšenie o 2% */
+        box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        /* Zlatistá žiara */
+    }
+}
+
+/* Zastavenie animácie pri prejdení myšou */
+.slot:hover {
+    animation-play-state: paused;
+    border-color: rgba(212, 175, 55, 0.8);
 }
 
 .slot::before {
@@ -768,10 +843,14 @@ h3 {
 
 
 
-    border-radius: 12px; /* Zaoblené rohy */
-    border: 1px solid rgba(197, 160, 89, 0.2); /* Jemný okraj */
-    object-fit: fill; /* Vyplnenie plochy */
-    display: block; /* Odstránenie spodnej medzery */
+    border-radius: 12px;
+    /* Zaoblené rohy */
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    /* Jemný okraj */
+    object-fit: fill;
+    /* Vyplnenie plochy */
+    display: block;
+    /* Odstránenie spodnej medzery */
 }
 
 .spread-area h2,
@@ -1014,93 +1093,104 @@ h3 {
             rgba(197, 160, 89, 0.6) 18%,
             rgba(197, 160, 89, 0.75) 50%,
             rgba(197, 160, 89, 0.6) 82%,
-            rgba(197, 160, 89, 0) 100%);/* ... v sekcii :root ... */
+            rgba(197, 160, 89, 0) 100%);
+    /* ... v sekcii :root ... */
     /* Tarot obrázky: 768 × 1376 */
     --card-width: 220px;
     --card-aspect: 768 / 1376;
     /* Prepočet výšky: (width * 1376) / 768 */
     --card-height: calc(var(--card-width) * 1376 / 768);
-/* ... */
-
-/* Upravený vzhľad vrstiev balíčka (deck) */
-.deck-layer {
-    /* ... existing ... */
-    border: 1px solid rgba(197, 160, 89, 0.4); /* Jemnejší okraj */
-    border-radius: 12px; /* Mierne väčšie zaoblenie pre moderný vzhľad */
-    box-shadow: 
-        -1px 1px 0 rgba(197, 160, 89, 0.3),
-        -4px 4px 15px rgba(0, 0, 0, 0.6); /* Hlbší tieň */
     /* ... */
-}
 
-/* Upravený vzhľad samotných kariet */
-.card-face {
-    /* ... existing ... */
-    border-radius: 12px;
-    /* Nahradenie tvrdého borderu jemným vnútorným tieňom a tenučkou linkou */
-    border: 1px solid rgba(197, 160, 89, 0.25);
-    box-shadow: 
-        inset 0 0 0 1px rgba(255, 255, 255, 0.05),
-        0 12px 30px rgba(0, 0, 0, 0.7);
-    /* ... */
-}
+    /* Upravený vzhľad vrstiev balíčka (deck) */
+    .deck-layer {
+        /* ... existing ... */
+        border: 1px solid rgba(197, 160, 89, 0.4);
+        /* Jemnejší okraj */
+        border-radius: 12px;
+        /* Mierne väčšie zaoblenie pre moderný vzhľad */
+        box-shadow:
+            -1px 1px 0 rgba(197, 160, 89, 0.3),
+            -4px 4px 15px rgba(0, 0, 0, 0.6);
+        /* Hlbší tieň */
+        /* ... */
+    }
 
-/* Detail karty v článku */
-.card-detail-img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
+    /* Upravený vzhľad samotných kariet */
+    .card-face {
+        /* ... existing ... */
+        border-radius: 12px;
+        /* Nahradenie tvrdého borderu jemným vnútorným tieňom a tenučkou linkou */
+        border: 1px solid rgba(197, 160, 89, 0.25);
+        box-shadow:
+            inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+            0 12px 30px rgba(0, 0, 0, 0.7);
+        /* ... */
+    }
+
+    /* Detail karty v článku */
+    .card-detail-img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
 
 
 
-    border-radius: 12px; /* Zaoblené rohy */
-    border: 1px solid rgba(197, 160, 89, 0.2); /* Jemný okraj */
-    object-fit: fill; /* Vyplnenie plochy */
-    display: block; /* Odstránenie spodnej medzery */
-}/* --- Úprava v sekcii :root --- */
-:root {
-    /* ... existujúce ... */
-    --card-width: 220px;
-    --card-aspect: 768 / 1376;
-    /* Prepočet výšky zostáva rovnaký */
-    --card-height: calc(var(--card-width) * 1376 / 768);
-    /* ... */
-}
+        border-radius: 12px;
+        /* Zaoblené rohy */
+        border: 1px solid rgba(197, 160, 89, 0.2);
+        /* Jemný okraj */
+        object-fit: fill;
+        /* Vyplnenie plochy */
+        display: block;
+        /* Odstránenie spodnej medzery */
+    }
 
-/* --- Úprava pre balíček (deck) --- */
-.deck-layer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: var(--accent-purple);
-    background-image: var(--card-back-url);
-    /* ZMENA: Namiesto cover použijeme 100% 100%, aby sa obrázok natiahol presne na hrany */
-    background-size: 100% 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    /* ... zvyšok zostáva ... */
-}
+    /* --- Úprava v sekcii :root --- */
+    :root {
+        /* ... existujúce ... */
+        --card-width: 220px;
+        --card-aspect: 768 / 1376;
+        /* Prepočet výšky zostáva rovnaký */
+        --card-height: calc(var(--card-width) * 1376 / 768);
+        /* ... */
+    }
 
-/* --- Úprava pre samotné karty --- */
-.card-back {
-    background-color: var(--accent-purple);
-    background-image: var(--card-back-url);
-    /* ZMENA: Tu taktiež nastavíme 100% 100% */
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    /* --- Úprava pre balíček (deck) --- */
+    .deck-layer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: var(--accent-purple);
+        background-image: var(--card-back-url);
+        /* ZMENA: Namiesto cover použijeme 100% 100%, aby sa obrázok natiahol presne na hrany */
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* ... zvyšok zostáva ... */
+    }
 
-.card-front img {
-    width: 100%;
-    height: 100%;
-    /* ZMENA: Pre istotu zmeníme object-fit z cover na fill, ak by náhodou predné strany mali iný pomer */
-    object-fit: fill; 
-    display: block;
-}
+    /* --- Úprava pre samotné karty --- */
+    .card-back {
+        background-color: var(--accent-purple);
+        background-image: var(--card-back-url);
+        /* ZMENA: Tu taktiež nastavíme 100% 100% */
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-front img {
+        width: 100%;
+        height: 100%;
+        /* ZMENA: Pre istotu zmeníme object-fit z cover na fill, ak by náhodou predné strany mali iný pomer */
+        object-fit: fill;
+        display: block;
+    }
+
     border: none;
 }
 
@@ -1141,10 +1231,19 @@ h3 {
         padding-bottom: max(2.5rem, env(safe-area-inset-bottom, 0px));
     }
 
+    .hero-heading {
+        font-size: 6vw;
+        /* Písmo sa zmenší podľa šírky mobilu */
+        line-height: 1.3;
+        padding: 10px 5px;
+        animation: pulse-border 3s infinite ease-in-out;
+    }
+
     .spread-area {
         flex-direction: column;
         align-items: center;
-        gap: 5rem; /* Upravená medzera pre lepší vizuál */
+        gap: 5rem;
+        /* Upravená medzera pre lepší vizuál */
         margin-bottom: 3.5rem;
         padding-bottom: 4rem;
     }

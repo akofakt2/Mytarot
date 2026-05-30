@@ -19,6 +19,9 @@
     {% include 'nav.html' %}
     <main>
         <div class="main-layout">
+            <h2 class="hero-heading">
+                {{ui.intro}}
+            </h2>
             <input type="text" id="question" class="question-input" placeholder="{{ ui.question_placeholder }}"
                 aria-label="{{ ui.deck_label_focus }}">
 
@@ -34,15 +37,15 @@
             <div class="spread-area">
                 <div>
                     <h2>{{ui.reading_label_past}}</h2>
-                    <div class="slot" id="slot-0" data-label="☾"></div>
+                    <div class="slot" id="slot-0" data-label="☾" title="{{ui.reading_label_past}}, {{ui.deck_label_shuffle}}"></div>
                 </div>
                 <div>
                     <h2>{{ui.reading_label_present}}</h2>
-                    <div class="slot" id="slot-1" data-label="❍"></div>
+                    <div class="slot" id="slot-1" data-label="❍" title="{{ui.reading_label_present}}, {{ui.deck_label_shuffle}}"></div>
                 </div>
                 <div>
                     <h2>{{ui.reading_label_future}}</h2>
-                    <div class="slot" id="slot-2" data-label="☽"></div>
+                    <div class="slot" id="slot-2" data-label="☽" title="{{ui.reading_label_future}}, {{ui.deck_label_shuffle}}"></div>
                 </div>
             </div>
 
