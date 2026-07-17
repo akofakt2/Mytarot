@@ -809,3 +809,4 @@ def create_tarot_app() -> Flask:
         )
 
     return app
+

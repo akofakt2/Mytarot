@@ -49,7 +49,26 @@ h2 {
 }
 
 h3 {
-    all: unset;
+    /* Typografia */
+    font-family: var(--font-heading);    
+    /* Menšia veľkosť pôsobí prémiovejšie */
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+
+    /* Farba a vizuál */
+    color: var(--card-gold);
+    /* Mierne priehľadná zlatá */
+    text-align: center;
+
+    /* Poziciovanie */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+
+    /* Zabezpečenie, aby neprekážal interakcii */
+    pointer-events: none;
+    user-select: none;
     /* Zruší všetky vlastnosti vrátane zdedených */
 }
 
@@ -778,6 +797,16 @@ h3 {
     display: inline-flex;
 }
 
+.index-article {
+    display: flex;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 0.8em;
+}
+
+
 /* --- STRÁNKA KARTY (template.html) --- */
 .card-detail {
     /* min(100%, 720px) + margin auto: spoľahlivé centrovanie vo flex .main-layout (align-items: center) */
@@ -804,7 +833,7 @@ h3 {
     aspect-ratio: 768 / 1376;
     position: relative;
     cursor: pointer;
-    perspective: 1000px;    
+    perspective: 1000px;
 }
 
 .card-detail-header {
@@ -849,10 +878,6 @@ h3 {
     max-width: 100%;
     width: 100%;
     height: auto;
-
-
-
-
     border-radius: 12px;
     /* Zaoblené rohy */
     border: 1px solid rgba(197, 160, 89, 0.2);
@@ -1054,7 +1079,7 @@ h3 {
     line-height: 1.2;
     text-align: center;
     /* Vzdušnejšie odsadenie */
-    margin: 2rem 0 3rem 0;    
+    margin: 2rem 0 3rem 0;
 }
 
 /* Šírka stĺpca: reaguje na šírku obrazovky, max. 900px; texty doľava */
@@ -1235,6 +1260,10 @@ h3 {
         --card-width: min(340px, 85vw);
     }
 
+    .index-article {
+        width: 90%;
+    }
+
     .main-layout {
         padding-left: max(16px, env(safe-area-inset-left, 0px));
         padding-right: max(16px, env(safe-area-inset-right, 0px));
@@ -1353,7 +1382,7 @@ h3.seo-subtle {
     letter-spacing: 0.25em;
 
     /* Farba a vizuál */
-    color: rgba(212, 175, 55, 0.4);
+    color: var(--card-gold);
     /* Mierne priehľadná zlatá */
     text-align: center;
 
