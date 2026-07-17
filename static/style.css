@@ -797,6 +797,16 @@ h3 {
     text-align: left;
 }
 
+#card-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    aspect-ratio: 768 / 1376;
+    position: relative;
+    cursor: pointer;
+    perspective: 1000px;    
+}
+
 .card-detail-header {
     margin-bottom: 1.5rem;
 }
@@ -1042,9 +1052,9 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.25em;
     line-height: 1.2;
-
+    text-align: center;
     /* Vzdušnejšie odsadenie */
-    margin: 2rem 0 3rem 0;
+    margin: 2rem 0 3rem 0;    
 }
 
 /* Šírka stĺpca: reaguje na šírku obrazovky, max. 900px; texty doľava */
