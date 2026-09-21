@@ -409,10 +409,12 @@ async function handleDeckInteraction() {
                 const rotateStyle = cardData.rev === 1 ? 'transform: rotate(180deg);' : '';
 
                 slot.innerHTML = `
-                    <div class="card" onclick="flipCard(${i}, this)">
+                    <div class="card" onclick="flipCard(${i}, this)">                    
                         <div class="card-face card-back">✨</div>
                         <div class="card-face card-front">
+                            <a href="${escapeHtml(cardData.slug)}">
                             ${cardData.image_url ? `<img src="${cardData.image_url}" alt="" loading="lazy" style="${rotateStyle}" />` : ''}
+                            </a>
                         </div>
                     </div>
                     <div class="slot-caption" id="${EL.caption(i)}">
