@@ -19,6 +19,8 @@ from collections import defaultdict, deque
 from datetime import date
 from pathlib import Path
 from typing import Any
+import sqlite3
+import uuid
 
 from flask import Flask, Response, abort, render_template, request, url_for, send_from_directory
 
@@ -189,6 +191,21 @@ def slugify(name: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = re.sub(r"-+", "-", s).strip("-")
     return s
+
+def save_data(question, reading, uuid_id):
+    if len(uuid_id) == 0:
+        uuid_id = str(uuid.uuid4())
+    conn = sqlite3.connect("readings.db")
+    cursor = conn.cursor()
+    cursor.execute(
+    """INSERT INTO readings (uuid, question, answer, gretings)
+        VALUES (?, ?, ?, ?)""",
+        (uuid_id,question,reading,"")
+    )
+
+    # 3. Uloženie zmien a zatvorenie spojenia
+    conn.commit()
+    conn.close()
 
 
 def _card_index_rows(cards: tuple[Card, ...]) -> list[dict[str, Any]]:
@@ -575,12 +592,14 @@ def create_tarot_app() -> Flask:
             if c is None:
                 continue
             meaning = c.meaning_reversed if orientation == "reversed" else c.meaning_upright
+            slug = f"{_p(routes['cards_list'])}/{slugify(c.name)}"
             payload.append(
                 {
                     "id": c.id,
                     "name": c.name,
                     "meaning": meaning,
                     "rev": 1 if orientation == "reversed" else 0,
+                    "slug": slug,
                     "image_url": url_for("static", filename=f"{card_images_dir}/{c.image_path}"),
                 }
             )
@@ -687,7 +706,8 @@ def create_tarot_app() -> Flask:
         try:
             api_key = (os.getenv("GEMINI_API_KEY") or "").strip()
             model = (os.getenv("GEMINI_MODEL") or "gemini-2.5-flash").strip()
-            reading_text = call_llm(prompt, api_key=api_key, model=model)            
+            reading_text = call_llm(prompt, api_key=api_key, model=model)
+            save_data(question.strip(), reading_text, "")
         except Exception as e:
             print(str(e))
             return app.response_class(
@@ -698,6 +718,7 @@ def create_tarot_app() -> Flask:
             )
 
         return app.response_class(
+            
             response=json.dumps(
                 {
                     "ok": True,
@@ -705,9 +726,9 @@ def create_tarot_app() -> Flask:
                     "past_id": past_id,
                     "present_id": present_id,
                     "future_id": future_id,
-                    "past_rev": past_rev,
-                    "present_rev": present_rev,
-                    "future_rev": future_rev,
+                    #"past_rev": past_rev,
+                    #"present_rev": present_rev,
+                    #"future_rev": future_rev,
                     "reading": reading_text,
                 },
                 ensure_ascii=False,
