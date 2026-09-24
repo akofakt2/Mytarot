@@ -50,7 +50,7 @@ h2 {
 
 h3 {
     /* Typografia */
-    font-family: var(--font-heading);    
+    font-family: var(--font-heading);
     /* Menšia veľkosť pôsobí prémiovejšie */
     font-weight: 300;
     text-transform: uppercase;
@@ -1437,8 +1437,31 @@ footer {
 }
 
 .domain-links a:hover {
-    color: #ffd700;
+    color: #c5a059;
     /* Zmenil som hover na zlatú, aby to ladilo s tou zlatou linkou a nadpisom nad tým */
     opacity: 1;
     text-decoration: none;
+}
+
+.tarot-cta-box {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.tarot-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: var(--card-gold);
+    color: #0d0d0d;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    transition: all 0.3s ease;
+}
+
+.tarot-button:hover {
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+    background-color: #c5a059;
 }

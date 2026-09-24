@@ -305,6 +305,7 @@ async function sendReadingRequest() {
 
                 // Zápis do localStorage len pri úspechu                                
                 if(isAccessGranted() >=  0) {
+                    gtag('event', 'reading');
                     const expirationDate = Date.now() + LOCK_TIME;
                     localStorage.setItem('last_reading', expirationDate.toString());
                     UI.reading.innerHTML += '<hr>';
