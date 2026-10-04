@@ -216,7 +216,7 @@ def _card_index_rows(cards: tuple[Card, ...]) -> list[dict[str, Any]]:
         nxt = cards[i + 1] if i + 1 < n else None
         sep_after = False
         if nxt:
-            if nxt.arcana == 'minor' and c.arcana == 'major':
+            if nxt.arcana  != c.arcana:
                 sep_after = True
             if c.rank ==  'king':
                 sep_after = True
@@ -592,7 +592,7 @@ def create_tarot_app() -> Flask:
             if c is None:
                 continue
             meaning = c.meaning_reversed if orientation == "reversed" else c.meaning_upright
-            slug = f"{_p(routes['cards_list'])}/{slugify(c.name)}"
+            slug = f"{_p(routes['card'])}/{slugify(c.name)}"
             payload.append(
                 {
                     "id": c.id,

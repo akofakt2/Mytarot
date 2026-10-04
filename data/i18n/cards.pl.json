@@ -1,1410 +1,1406 @@
-{
-  "version": 2,
-  "locale": "pl",
-  "cards": [
-    {
-      "id": 4,
-      "arcana": "major",
-      "number": 4,
-      "suit": null,
-      "rank": null,
-      "image_path": "4.webp",
-      "name": "Cesarz",
-      "keywords": [
-        "ład",
-        "autorytet",
-        "sprawczość"
-      ],
-      "meaning_upright": "Budowanie trwałych podstaw, odpowiedzialność i umiejętność utrzymania porządku.",
-      "meaning_reversed": "Nadmierna sztywność, potrzeba bezwzględnej kontroli lub podważenie dotychczasowej hierarchii.",
-      "archetype": "Władca",
-      "description": "Zapewnienie bezpieczeństwa i urodzaj płynący z jasnych zasad oraz wyznaczonych granic."
-    },
-    {
-      "id": 0,
-      "arcana": "major",
-      "number": 0,
-      "suit": null,
-      "rank": null,
-      "image_path": "0.webp",
-      "name": "Głupiec",
-      "keywords": [
-        "początki",
-        "niewinność",
-        "skok na głęboką wodę"
-      ],
-      "meaning_upright": "Nowe rozdziały, spontaniczność i ufne oddanie się biegowi życia.",
-      "meaning_reversed": "Nieostrożność, naiwność lub paraliżujący lęk przed zrobieniem pierwszego kroku.",
-      "archetype": "Poszukiwacz",
-      "description": "Śmiałe wkroczenie w nieznane, podjęte z otwartym sercem i dziecięcą ciekawością."
-    },
-    {
-      "id": 1,
-      "arcana": "major",
-      "number": 1,
-      "suit": null,
-      "rank": null,
-      "image_path": "1.webp",
-      "name": "Mag",
-      "keywords": [
-        "wola",
-        "umiejętności",
-        "sprawczość"
-      ],
-      "meaning_upright": "Skupienie na celu, zręczne działanie i umiejętność przekuwania zamysłów w rzeczywistość.",
-      "meaning_reversed": "Rozproszenie, skłonność do manipulacji lub marnowanie drzemiącego w nas potencjału.",
-      "archetype": "Twórca",
-      "description": "Harmonijne połączenie posiadanych narzędzi, woli i uwagi, by dokonać istotnej zmiany."
-    },
-    {
-      "id": 2,
-      "arcana": "major",
-      "number": 2,
-      "suit": null,
-      "rank": null,
-      "image_path": "2.webp",
-      "name": "Arcykapłanka",
-      "keywords": [
-        "intuicja",
-        "tajemnica",
-        "wewnętrzny głos"
-      ],
-      "meaning_upright": "Intuicja, głęboka mądrość płynąca z wnętrza i prawdy, które czekają na odkrycie.",
-      "meaning_reversed": "Głuchota na własne przeczucia, mętlik w głowie lub sekrety, które zbyt długo trzymane w ukryciu stają się ciężarem.",
-      "archetype": "Mistyk",
-      "description": "Ciche wezwanie, by wsłuchać się w to, co kryje się pod powłoką codzienności."
-    },
-    {
-      "id": 3,
-      "arcana": "major",
-      "number": 3,
-      "suit": null,
-      "rank": null,
-      "image_path": "3.webp",
-      "name": "Cesarzowa",
-      "keywords": [
-        "opieka",
-        "urodzaj",
-        "wzrost"
-      ],
-      "meaning_upright": "Dbanie o rozwój, rozkwit twórczych zamysłów i obfitość płynąca z natury.",
-      "meaning_reversed": "Zastój w działaniu, zaniedbanie własnych potrzeb lub toksyczna zależność od innych.",
-      "archetype": "Matka",
-      "description": "Otaczanie troską, zachwyt nad pięknem i moc sprawcza pielęgnacji życia."
-    },
-    {
-      "id": 5,
-      "arcana": "major",
-      "number": 5,
-      "suit": null,
-      "rank": null,
-      "image_path": "5.webp",
-      "name": "Arcykapłan",
-      "keywords": [
-        "tradycja",
-        "nauczanie",
-        "przekonania"
-      ],
-      "meaning_upright": "Tradycja, przewodnictwo duchowe i wspólne wartości, które budują społeczną więź.",
-      "meaning_reversed": "Bunt, sztywne dogmaty lub podważanie odwiecznych zasad.",
-      "archetype": "Nauczyciel",
-      "description": "Zdobywanie mądrości poprzez szacunek do dziedzictwa i sprawdzonych praktyk."
-    },
-    {
-      "id": 6,
-      "arcana": "major",
-      "number": 6,
-      "suit": null,
-      "rank": null,
-      "image_path": "6.webp",
-      "name": "Kochankowie",
-      "keywords": [
-        "wybór",
-        "zjednoczenie",
-        "spójność wartości"
-      ],
-      "meaning_upright": "Głęboka więź, kluczowy wybór oraz życie w zgodzie z własnym sumieniem.",
-      "meaning_reversed": "Brak porozumienia, rozbieżne ścieżki lub lęk przed prawdziwą bliskością.",
-      "archetype": "Ukochany",
-      "description": "Kieruj się głosem serca i dbaj o to, by każda Twoja sprawczość przyniosła urodzaj w Twoim życiu wewnętrznym."
-    },
-    {
-      "id": 7,
-      "arcana": "major",
-      "number": 7,
-      "suit": null,
-      "rank": null,
-      "image_path": "7.webp",
-      "name": "Rydwan",
-      "keywords": [
-        "determinacja",
-        "zwycięstwo",
-        "samokontrola"
-      ],
-      "meaning_upright": "Nieugięta wola, żwawe tempo i sprawczość w dążeniu do celu.",
-      "meaning_reversed": "Zagubienie, rozdarcie wewnętrzne lub wyczerpanie sił.",
-      "archetype": "Zwycięzca",
-      "description": "Zapanowanie nad sprzecznymi popędami, by móc wykonać skok na głęboką wodę i zebrać życiowy urodzaj."
-    },
-    {
-      "id": 8,
-      "arcana": "major",
-      "number": 8,
-      "suit": null,
-      "rank": null,
-      "image_path": "8.webp",
-      "name": "Moc",
-      "keywords": [
-        "odwaga",
-        "cierpliwość",
-        "wewnętrzna siła"
-      ],
-      "meaning_upright": "Odwaga, cierpliwość oraz łagodna, niezłomna siła ducha.",
-      "meaning_reversed": "Zwątpienie, brak cierpliwości lub próba narzucenia swojej woli siłą zamiast finezją.",
-      "archetype": "Serce",
-      "description": "Oswajanie własnych lęków poprzez współczucie i budowanie wewnętrznej stabilności."
-    },
-    {
-      "id": 9,
-      "arcana": "major",
-      "number": 9,
-      "suit": null,
-      "rank": null,
-      "image_path": "9.webp",
-      "name": "Pustelnik",
-      "keywords": [
-        "samotność",
-        "mądrość",
-        "wewnętrzny głos"
-      ],
-      "meaning_upright": "Czas wyciszenia, wgląd w siebie i szukanie własnej drogi.",
-      "meaning_reversed": "Zaszycie się w samotności, unikanie ludzi lub odrzucanie pomocnej dłoni.",
-      "archetype": "Mędrzec",
-      "description": "Odsuń się od zgiełku, by zyskać prawdziwy obraz świata."
-    },
-    {
-      "id": 10,
-      "arcana": "major",
-      "number": 10,
-      "suit": null,
-      "rank": null,
-      "image_path": "10.webp",
-      "name": "Koło Fortuny",
-      "keywords": [
-        "cykle",
-        "zmiana",
-        "przeznaczenie"
-      ],
-      "meaning_upright": "Punkty zwrotne, nieuchronne przemiany i kaprysy losu.",
-      "meaning_reversed": "Kurczowe trzymanie się starego, zastoje i błędne koło zdarzeń.",
-      "archetype": "Koło",
-      "description": "Życie nieustannie płynie – odpuść kontrolę, zachowaj czujność i pozwól sobie na zmianę."
-    },
-    {
-      "id": 11,
-      "arcana": "major",
-      "number": 11,
-      "suit": null,
-      "rank": null,
-      "image_path": "11.webp",
-      "name": "Sprawiedliwość",
-      "keywords": [
-        "prawda",
-        "uczciwość",
-        "odpowiedzialność"
-      ],
-      "meaning_upright": "Prawda, uczciwość oraz branie pełnej odpowiedzialności za własne wybory.",
-      "meaning_reversed": "Stronniczość, wypieranie się faktów lub próby ucieczki przed konsekwencjami własnych działań.",
-      "archetype": "Sędzia",
-      "description": "Patrzeć na świat bez złudzeń i postępować zgodnie z sumieniem."
-    },
-    {
-      "id": 12,
-      "arcana": "major",
-      "number": 12,
-      "suit": null,
-      "rank": null,
-      "image_path": "12.webp",
-      "name": "Wisielec",
-      "keywords": [
-        "chwila wytchnienia",
-        "przełomowe spojrzenie",
-        "akceptacja losu"
-      ],
-      "meaning_upright": "Zatrzymanie w biegu, dobrowolne odpuszczenie kontroli i zyskanie świeżego spojrzenia na sprawy.",
-      "meaning_reversed": "Bezwład, uporczywe trwanie przy swoim lub lęk przed tym, by wreszcie przestać walczyć.",
-      "archetype": "Nowicjusz",
-      "description": "Niezwykły dar dostrzegania świata w zupełnie innym świetle."
-    },
-    {
-      "id": 13,
-      "arcana": "major",
-      "number": 13,
-      "suit": null,
-      "rank": null,
-      "image_path": "13.webp",
-      "name": "Śmierć",
-      "keywords": [
-        "domknięcia",
-        "przemiana",
-        "uwolnienie"
-      ],
-      "meaning_upright": "Nieuchronny koniec, który przygotowuje grunt pod nowy urodzaj.",
-      "meaning_reversed": "Kurczowe trzymanie się tego, co minione, lęk przed nowym oraz przeciągająca się w czasie zmiana.",
-      "archetype": "Transformator",
-      "description": "Puść wolno to, co już wygasło; pozwól odrodzić się temu, co w tobie trwałe."
-    },
-    {
-      "id": 14,
-      "arcana": "major",
-      "number": 14,
-      "suit": null,
-      "rank": null,
-      "image_path": "14.webp",
-      "name": "Umiarkowanie",
-      "keywords": [
-        "równowaga",
-        "uzdrowienie",
-        "umiar"
-      ],
-      "meaning_upright": "Wewnętrzny spokój, proces zdrowienia i umiejętne łączenie przeciwieństw w harmonijną całość.",
-      "meaning_reversed": "Popadanie w skrajności, zatracenie poczucia miary lub rozchwianie, które odbiera sprawczość.",
-      "archetype": "Alchemik",
-      "description": "Zestaw ze sobą sprzeczności tak, by wydały życiowy urodzaj, zamiast rzucać się w nieprzemyślany skok na głęboką wodę."
-    },
-    {
-      "id": 15,
-      "arcana": "major",
-      "number": 15,
-      "suit": null,
-      "rank": null,
-      "image_path": "15.webp",
-      "name": "Diabeł",
-      "keywords": [
-        "zniewolenie",
-        "mroczna strona",
-        "pokusa"
-      ],
-      "meaning_upright": "Toksyczne przywiązania, kuszące drogi na skróty oraz trudne zderzenie z własnymi słabościami.",
-      "meaning_reversed": "Zerwanie pęt, odzyskanie osobistej sprawczości lub wypieranie się niewygodnej prawdy.",
-      "archetype": "Cień",
-      "description": "Przyjrzyj się swoim łańcuchom, by wreszcie poczuć, że możesz je poluzować."
-    },
-    {
-      "id": 16,
-      "arcana": "major",
-      "number": 16,
-      "suit": null,
-      "rank": null,
-      "image_path": "16.webp",
-      "name": "Wieża",
-      "keywords": [
-        "olśnienie",
-        "wstrząs",
-        "oczyszczenie"
-      ],
-      "meaning_upright": "Nagły wstrząs, nagłe przejrzenie na oczy i burzenie iluzji, na których opierałeś swoje życie.",
-      "meaning_reversed": "Kurczowe trzymanie się tego, co dawno powinno upaść, przedłużający się niepokój i strach przed zmianą.",
-      "archetype": "Błyskawica",
-      "description": "Prawda uderza jak piorun – czas odrzucić fałsz i zacząć budować na trwałym fundamencie."
-    },
-    {
-      "id": 17,
-      "arcana": "major",
-      "number": 17,
-      "suit": null,
-      "rank": null,
-      "image_path": "17.webp",
-      "name": "Gwiazda",
-      "keywords": [
-        "nadzieja",
-        "odnowa",
-        "przewodnictwo"
-      ],
-      "meaning_upright": "Nadzieja, odnowa i jasne światło wskazujące drogę naprzód.",
-      "meaning_reversed": "Zniechęcenie, zwątpienie lub przygasły optymizm.",
-      "archetype": "Przewodnik",
-      "description": "Ciche przyzwolenie płynące z przyszłości."
-    },
-    {
-      "id": 18,
-      "arcana": "major",
-      "number": 18,
-      "suit": null,
-      "rank": null,
-      "image_path": "18.webp",
-      "name": "Księżyc",
-      "keywords": [
-        "iluzja",
-        "intuicja",
-        "niepewność"
-      ],
-      "meaning_upright": "Czas niepewności, w którym musisz zaufać własnej intuicji, by odnaleźć drogę w mroku.",
-      "meaning_reversed": "Mgła zaczyna opadać, lęk słabnie, a Ty w końcu dostrzegasz prawdę o swoich własnych ułudach.",
-      "archetype": "Sen",
-      "description": "Świat nie zawsze jest tym, czym się wydaje – zaufaj wewnętrznemu światłu, gdy brakuje jasnych odpowiedzi."
-    },
-    {
-      "id": 19,
-      "arcana": "major",
-      "number": 19,
-      "suit": null,
-      "rank": null,
-      "image_path": "19.webp",
-      "name": "Słońce",
-      "keywords": [
-        "radość",
-        "sukces",
-        "witalność"
-      ],
-      "meaning_upright": "Pełnia radości, życiowa energia i pewny sukces, który przynosi obfity urodaj.",
-      "meaning_reversed": "Chwilowe potknięcia, czarne myśli lub zachwiana pewność siebie.",
-      "archetype": "Światło",
-      "description": "Ciepło, wyrazistość i szczera prawda ujawniona w pełnym świetle dnia."
-    },
-    {
-      "id": 20,
-      "arcana": "major",
-      "number": 20,
-      "suit": null,
-      "rank": null,
-      "image_path": "20.webp",
-      "name": "Sąd",
-      "keywords": [
-        "przebudzenie",
-        "rachunek sumienia",
-        "powołanie"
-      ],
-      "meaning_upright": "Czas duchowego przebudzenia, szczerego rozliczenia się z przeszłością i odważnej odpowiedzi na własne powołanie.",
-      "meaning_reversed": "Wewnętrzne zwątpienie, zbyt surowa ocena samego siebie lub wycofywanie się przed podjęciem kluczowej decyzji.",
-      "archetype": "Wezwanie",
-      "description": "Otwórz nowy rozdział swojego życia, kierując się prawdą i czystym sumieniem."
-    },
-    {
-      "id": 21,
-      "arcana": "major",
-      "number": 21,
-      "suit": null,
-      "rank": null,
-      "image_path": "21.webp",
-      "name": "Świat",
-      "keywords": [
-        "domknięcie",
-        "spójność",
-        "mistrzostwo"
-      ],
-      "meaning_upright": "Czas wieńczy dzieło; odczuwasz wewnętrzną harmonię i głęboką satysfakcję z tego, co osiągnąłeś.",
-      "meaning_reversed": "Niedomknięte sprawy, które wciąż ciągną się za tobą, niepotrzebne przestoje i trudność z ostatecznym pożegnaniem etapu.",
-      "archetype": "Pełnia",
-      "description": "Docierasz do celu, lecz to w rzeczywistości jedynie przystanek przed kolejnym skokiem na głęboką wodę."
-    },
-    {
-      "id": 22,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "wands",
-      "rank": "ace",
-      "image_path": "22.webp",
-      "name": "As Buław",
-      "keywords": [
-        "iskra",
-        "natchnienie",
-        "sprawczość"
-      ],
-      "meaning_upright": "Nowa iskra natchnienia i gotowość, by wykonać skok na głęboką wodę.",
-      "meaning_reversed": "Opóźnienia, brak wewnętrznego ognia lub gasnący zapał.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 23,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "wands",
-      "rank": "two",
-      "image_path": "23.webp",
-      "name": "Dwójka Buław",
-      "keywords": [
-        "obmyślanie",
-        "wybór drogi",
-        "dalekosiężne spojrzenie"
-      ],
-      "meaning_upright": "Czas na ustalenie kolejnych celów i śmiałe wyjście poza znane granice, by w pełni odzyskać sprawczość.",
-      "meaning_reversed": "Obawa przed nieznanym, która skłania do zbytniej zachowawczości, zamiast na skok na głęboką wodę, by zapewnić sobie przyszły urodzaj.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 24,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "wands",
-      "rank": "three",
-      "image_path": "24.webp",
-      "name": "Trójka Buław",
-      "keywords": [
-        "ekspansja",
-        "postęp",
-        "pęd"
-      ],
-      "meaning_upright": "Czas szerokich horyzontów, wzrostu i zbierania pierwszych owoców swojej sprawczości. To moment, w którym po odważnym skoku na głęboką wodę widać już obiecujący urodzaj.",
-      "meaning_reversed": "Zastoje, utykające w martwym punkcie plany lub słomiany zapał, który nie pozwala dokończyć tego, co zaczęte.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 25,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "buławy",
-      "rank": "czwórka",
-      "image_path": "25.webp",
-      "name": "Czwórka Buław",
-      "keywords": [
-        "świętowanie",
-        "domowe ognisko",
-        "ważny etap"
-      ],
-      "meaning_upright": "Czas radosnego świętowania, osiągnięcie wewnętrznej stabilności oraz zwieńczenie trudu ważnym sukcesem.",
-      "meaning_reversed": "Napięta atmosfera w czterech ścianach lub uroczystość, która w obliczu okoliczności wydaje się zupełnie nie na miejscu.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 26,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "wands",
-      "rank": "five",
-      "image_path": "26.webp",
-      "name": "Piątka Buław",
-      "keywords": [
-        "rywalizacja",
-        "zgrzyty",
-        "sprawdzian"
-      ],
-      "meaning_upright": "Czas rywalizacji i ścierania się charakterów, z którego wykuwa się cenna lekcja. To moment, w którym musisz wykazać się sprawczością, by wyjść obronną ręką z chaosu.",
-      "meaning_reversed": "Ucieczka przed konfrontacją lub jałowe spory, które nie przynoszą żadnego urodzaju, a jedynie marnują energię.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 27,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "wands",
-      "rank": "six",
-      "image_path": "27.webp",
-      "name": "Szóstka Buław",
-      "keywords": [
-        "uznanie",
-        "zwycięstwo",
-        "wewnętrzny spokój"
-      ],
-      "meaning_upright": "Czas zbierania owoców swojej pracy, poczucie sprawczości i zasłużone słowa uznania od otoczenia.",
-      "meaning_reversed": "Rozbuchane ego, brak wiary we własne siły lub wysiłek, który nie przyniósł oczekiwanego urodzaju.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 28,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "wands",
-      "rank": "seven",
-      "image_path": "28.webp",
-      "name": "Siódemka Buław",
-      "keywords": [
-        "obrona",
-        "odwaga",
-        "granice"
-      ],
-      "meaning_upright": "Obrona własnego terytorium i odważne trwanie przy swoim w obliczu przeciwności.",
-      "meaning_reversed": "Poczucie osaczenia, rezygnacja z walki o swoje i brak wiary we własną sprawczość.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 29,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "wands",
-      "rank": "eight",
-      "image_path": "29.webp",
-      "name": "Ósemka Buław",
-      "keywords": [
-        "tempo",
-        "ruch",
-        "wieści"
-      ],
-      "meaning_upright": "Pęd, dynamika i nagły obrót spraw, który sprzyja Twojej sprawczości.",
-      "meaning_reversed": "Zastoje, zamęt w komunikacji lub energia rozproszona między zbyt wiele spraw, zamiast wyczekiwanego urodzaju.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 30,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "wands",
-      "rank": "nine",
-      "image_path": "30.webp",
-      "name": "Dziewiątka Buław",
-      "keywords": [
-        "hart ducha",
-        "wytrwałość",
-        "czujność"
-      ],
-      "meaning_upright": "Niezłomność i zdolność do trwania przy swoim, nawet gdy siły powoli cię opuszczają.",
-      "meaning_reversed": "Wypalenie, nadmierna nieufność wobec świata lub uparte odrzucanie pomocnej dłoni.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 31,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "wands",
-      "rank": "ten",
-      "image_path": "31.webp",
-      "name": "Dziesiątka Buław",
-      "keywords": [
-        "brzemię",
-        "odpowiedzialność",
-        "presja"
-      ],
-      "meaning_upright": "Przytłaczająca odpowiedzialność i dźwiganie na barkach spraw, które przerosły Twoje siły.",
-      "meaning_reversed": "Umiejętność dzielenia się obowiązkami, zrzucenie ciężaru z ramion lub załamanie nerwowe pod naporem oczekiwań.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 32,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "wands",
-      "rank": "page",
-      "image_path": "32.webp",
-      "name": "Paź Buław",
-      "keywords": [
-        "ciekawość",
-        "poszukiwania",
-        "wieści"
-      ],
-      "meaning_upright": "Budząca się ciekawość, gotowość do odkrywania nieznanego oraz nadejście wieści, które rozbudzą Twój zapał.",
-      "meaning_reversed": "Nieprzemyślane działanie, przestoje w sprawach lub rozmycie życiowego kursu.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 33,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "wands",
-      "rank": "knight",
-      "image_path": "33.webp",
-      "name": "Rycerz Buław",
-      "keywords": [
-        "przygoda",
-        "śmiałość",
-        "ruch"
-      ],
-      "meaning_upright": "Śmiałe działanie, poszukiwanie przygód i zdecydowany ruch naprzód.",
-      "meaning_reversed": "Brawura, zniecierpliwienie oraz brak konsekwencji w działaniu.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 34,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "wands",
-      "rank": "queen",
-      "image_path": "34.webp",
-      "name": "Królowa Buław",
-      "keywords": [
-        "niezachwiana sprawczość",
-        "serdeczność",
-        "charyzma"
-      ],
-      "meaning_upright": "Wewnętrzna moc, bijące od niej ciepło oraz umiejętność prowadzenia innych za sobą.",
-      "meaning_reversed": "Poczucie zagubienia, ukryta zawiść lub rozpaczliwe łaknienie zainteresowania otoczenia.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 35,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "buławy",
-      "rank": "king",
-      "image_path": "35.webp",
-      "name": "Król Buław",
-      "keywords": [
-        "dalekosiężne plany",
-        "rzemiosło",
-        "odwaga"
-      ],
-      "meaning_upright": "Przywództwo oparte na jasnej wizji i pełna sprawczość w działaniu.",
-      "meaning_reversed": "Pochopność, nadmierna pewność siebie lub potrzeba narzucania innym własnej woli.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 36,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "cups",
-      "rank": "ace",
-      "image_path": "36.webp",
-      "name": "As Kielichów",
-      "keywords": [
-        "miłość",
-        "otwartość",
-        "odnowa"
-      ],
-      "meaning_upright": "Emocjonalny rozkwit, głębokie uczucie i gotowość na przyjęcie darów losu.",
-      "meaning_reversed": "Stłumione emocje, nieumiejętność otwarcia się na drugiego człowieka oraz brak wewnętrznej równowagi.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 37,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "cups",
-      "rank": "two",
-      "image_path": "37.webp",
-      "name": "Dwójka Kielichów",
-      "keywords": [
-        "porozumienie",
-        "partnerstwo",
-        "więź"
-      ],
-      "meaning_upright": "Harmonijne spotkanie dusz, partnerstwo oparte na zaufaniu i wzajemna wymiana dobra.",
-      "meaning_reversed": "Zaburzona równowaga, rozdźwięk w relacji lub narastające napięcie, które utrudnia szczere bycie razem.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 38,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "cups",
-      "rank": "three",
-      "image_path": "38.webp",
-      "name": "Trójka Kielichów",
-      "keywords": [
-        "przyjaźń",
-        "biesiada",
-        "wspólnota"
-      ],
-      "meaning_upright": "Czas serdecznych spotkań, celebrowania więzi i autentycznej życzliwości między ludźmi.",
-      "meaning_reversed": "Zatracenie się w uciechach lub niepotrzebne swary w gronie bliskich osób.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 39,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "cups",
-      "rank": "four",
-      "image_path": "39.webp",
-      "name": "Czwórka Kielichów",
-      "keywords": [
-        "apatia",
-        "zaduma",
-        "rachunek sumienia"
-      ],
-      "meaning_upright": "Stan wycofania, chwila zadumy nad życiem i krytyczne spojrzenie na dostępne ścieżki.",
-      "meaning_reversed": "Powrót dawnej pasji, odnalezienie w sobie sprawczości lub niespodziewany skok na głęboką wodę, który przyniesie urodzaj.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 40,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "cups",
-      "rank": "five",
-      "image_path": "40.webp",
-      "name": "Piątka Kielichów",
-      "keywords": [
-        "strata",
-        "żałoba",
-        "żal"
-      ],
-      "meaning_upright": "Strata, żałoba i rozpamiętywanie tego, co przepadło bezpowrotnie.",
-      "meaning_reversed": "Pogodzenie się z losem, uleczenie ran i dostrzeżenie tego, co wciąż pozwala na życiowy urodzaj.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 41,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "cups",
-      "rank": "six",
-      "image_path": "41.webp",
-      "name": "Szóstka Kielichów",
-      "keywords": [
-        "nostalgia",
-        "niewinność",
-        "wspomnienia"
-      ],
-      "meaning_upright": "Czas sentymentów, serdecznej życzliwości i powrotu do ciepłych wspomnień, które karmią duszę.",
-      "meaning_reversed": "Niezdrowa ucieczka w to, co minione, lub nadmierne upiększanie dawnych dni, co odbiera człowiekowi życiową sprawczość.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 42,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "cups",
-      "rank": "seven",
-      "image_path": "42.webp",
-      "name": "Siódemka Kielichów",
-      "keywords": [
-        "wybory",
-        "marzenia",
-        "złudzenia"
-      ],
-      "meaning_upright": "Mnogość ścieżek, bujanie w obłokach i rozmyte priorytety.",
-      "meaning_reversed": "Przejrzystość, konkretna decyzja i odzyskanie skupienia.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 43,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "cups",
-      "rank": "eight",
-      "image_path": "43.webp",
-      "name": "Ósemka Kielichów",
-      "keywords": [
-        "odchodzenie",
-        "poszukiwanie",
-        "transformacja"
-      ],
-      "meaning_upright": "Porzucenie dotychczasowej drogi w poszukiwaniu głębszego sensu i odzyskanie sprawczości.",
-      "meaning_reversed": "Lęk przed skokiem na głęboką wodę lub powrót do starego porządku po wyciągnięciu wniosków.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 44,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "cups",
-      "rank": "nine",
-      "image_path": "44.webp",
-      "name": "Dziewiątka Kielichów",
-      "keywords": [
-        "spełnienie",
-        "pomyślność",
-        "radość"
-      ],
-      "meaning_upright": "Czas głębokiej satysfakcji, poczucie bycia w odpowiednim miejscu i urodzaj, o który tak długo zabiegałeś.",
-      "meaning_reversed": "Zbytni pobłażliwość dla własnych słabostek lub dojmujący brak sensu, mimo posiadania wszystkich wygód świata.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 45,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "cups",
-      "rank": "ten",
-      "image_path": "45.webp",
-      "name": "Dziesiątka Kielichów",
-      "keywords": [
-        "harmonia",
-        "rodzina",
-        "radość"
-      ],
-      "meaning_upright": "Pełnia życia rodzinnego, głęboki spokój ducha i prawdziwy urodzaj uczuć.",
-      "meaning_reversed": "Domowy rozgardiasz, brak porozumienia z bliskimi lub życie w świecie płonnych nadziei.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 46,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "cups",
-      "rank": "page",
-      "image_path": "46.webp",
-      "name": "Paź Kielichów",
-      "keywords": [
-        "wieści",
-        "otwartość",
-        "niespodzianka"
-      ],
-      "meaning_upright": "Ciepłe wieści i szczera ciekawość świata, która pozwala zachować młodzieńczą sprawczość.",
-      "meaning_reversed": "Emocjonalna niedojrzałość, zagubienie lub mylące sygnały, które utrudniają skok na głęboką wodę.",
-      "archetype": null,
-      "description": "Podobnie jak Głupiec, Paź Kielichów przypomina o potrzebie bycia otwartym na to, co przyniesie życie, zwiastując duchowy urodzaj."
-    },
-    {
-      "id": 47,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "cups",
-      "rank": "knight",
-      "image_path": "47.webp",
-      "name": "Rycerz Kielichów",
-      "keywords": [
-        "romans",
-        "zaproszenie",
-        "idealizm"
-      ],
-      "meaning_upright": "Czas na romantyczne uniesienia, serdeczne zaproszenia i ufne podążanie za głosem własnego serca.",
-      "meaning_reversed": "Chwiejność uczuć, bolesne rozczarowanie lub daremna pogoń za złudzeniami.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 48,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "puchary",
-      "rank": "królowa",
-      "image_path": "48.webp",
-      "name": "Królowa Kielichów",
-      "keywords": [
-        "empatia",
-        "intuicja",
-        "opiekuńczość"
-      ],
-      "meaning_upright": "Głęboka empatia, wsłuchanie się w głos intuicji oraz troskliwa opieka nad innymi.",
-      "meaning_reversed": "Emocjonalne przytłoczenie, uwikłanie w relacje lub nieumiejętność stawiania wyraźnych granic.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 49,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "puchary",
-      "rank": "king",
-      "image_path": "49.webp",
-      "name": "Król Kielichów",
-      "keywords": [
-        "spokój",
-        "współczucie",
-        "równowaga"
-      ],
-      "meaning_upright": "Głębokie, opanowane współczucie oraz wewnętrzna równowaga ducha.",
-      "meaning_reversed": "Skłonność do emocjonalnej manipulacji lub tłumienie uczuć, które domagają się wyjścia na światło dzienne.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 50,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "swords",
-      "rank": "ace",
-      "image_path": "50.webp",
-      "name": "As Mieczy",
-      "keywords": [
-        "jasność",
-        "prawda",
-        "przełom"
-      ],
-      "meaning_upright": "Moment absolutnej jasności, dotarcie do sedna prawdy i intelektualny przełom, który pozwala odciąć się od dawnych złudzeń.",
-      "meaning_reversed": "Stan zagubienia, mętlik w głowie lub podjęcie decyzji w oparciu o niepełne informacje, co prowadzi do błędnej oceny sytuacji.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 51,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "swords",
-      "rank": "two",
-      "image_path": "51.webp",
-      "name": "Dwójka Mieczy",
-      "keywords": [
-        "martwy punkt",
-        "konieczność wyboru",
-        "ucieczka od decyzji"
-      ],
-      "meaning_upright": "Czas zawieszenia, trudne wybory i naturalna potrzeba zachowania ostrożności w obliczu niepewności.",
-      "meaning_reversed": "Przełamanie apatii, wyjście z cienia na światło dzienne lub przytłoczenie nadmiarem spraw.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 52,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "swords",
-      "rank": "three",
-      "image_path": "52.webp",
-      "name": "Trójka Mieczy",
-      "keywords": [
-        "złamane serce",
-        "głęboki żal",
-        "bolesna prawda"
-      ],
-      "meaning_upright": "Czas próby serca, przejmujący smutek i konfrontacja z trudną prawdą, której nie da się już dłużej wypierać.",
-      "meaning_reversed": "Powolne zabliźnianie ran, nauka wybaczenia sobie i innym oraz odwaga, by ruszyć przed siebie z nową sprawczością.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 53,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "swords",
-      "rank": "four",
-      "image_path": "53.webp",
-      "name": "Czwórka Mieczy",
-      "keywords": [
-        "odpoczynek",
-        "regeneracja",
-        "pauza"
-      ],
-      "meaning_upright": "Czas na zasłużony odpoczynek, regenerację sił i niezbędne wyciszenie.",
-      "meaning_reversed": "Wewnętrzny niepokój, niemożność znalezienia spokoju lub zbyt pospieszny powrót do codziennych zmagań.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 54,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "swords",
-      "rank": "five",
-      "image_path": "54.webp",
-      "name": "Piątka Mieczy",
-      "keywords": [
-        "konflikt",
-        "ego",
-        "pyrrusowe zwycięstwo"
-      ],
-      "meaning_upright": "Czas sporów i rozbuchanego ego, gdzie zwycięstwo smakuje goryczą, bo okupione zostało stratą relacji lub wartości.",
-      "meaning_reversed": "Oczyszczenie atmosfery, wygaszenie dawnych urazów i świadoma rezygnacja z niepotrzebnych potyczek.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 55,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "swords",
-      "rank": "six",
-      "image_path": "55.webp",
-      "name": "Szóstka Mieczy",
-      "keywords": [
-        "przemiana",
-        "odzyskanie równowagi",
-        "opuszczanie przeszłości"
-      ],
-      "meaning_upright": "Czas na wewnętrzną przemianę, wyciszenie dawnych ran i spokojną przeprawę ku lepszym brzegom.",
-      "meaning_reversed": "Opór przed zmianą, ugrzęźnięcie w starych sprawach i nieumiejętność porzucenia emocjonalnego bagażu.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 56,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "swords",
-      "rank": "seven",
-      "image_path": "56.webp",
-      "name": "Siódemka Mieczy",
-      "keywords": [
-        "strategia",
-        "tajemnica",
-        "unikanie"
-      ],
-      "meaning_upright": "Przemyślana strategia, sekrety i działanie okrężną drogą.",
-      "meaning_reversed": "Oczyszczenie sumienia, wyjście z cienia lub zmiana dotychczasowej taktyki.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 57,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "swords",
-      "rank": "eight",
-      "image_path": "57.webp",
-      "name": "Ósemka Mieczy",
-      "keywords": [
-        "pętanie się",
-        "lęk",
-        "własne kajdany"
-      ],
-      "meaning_upright": "Poczucie osaczenia, które wynika wyłącznie z lęku lub narzuconych sobie barier.",
-      "meaning_reversed": "Odzyskanie sprawczości, przejrzenie na oczy i zrzucenie ciężarów, które dotąd trzymały w ryzach.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 58,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "swords",
-      "rank": "nine",
-      "image_path": "58.webp",
-      "name": "Dziewiątka Mieczy",
-      "keywords": [
-        "trwoga",
-        "dręczące myśli",
-        "bezsenność"
-      ],
-      "meaning_upright": "Głęboki niepokój, zamartwianie się i długie, nieprzespane noce pełne lęku.",
-      "meaning_reversed": "Nadchodząca ulga, poszukiwanie oparcia w drugim człowieku lub odważne spojrzenie w oczy własnym demonom.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 59,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "swords",
-      "rank": "ten",
-      "image_path": "59.webp",
-      "name": "Dziesiątka Mieczy",
-      "keywords": [
-        "ostateczny kres",
-        "zdrada",
-        "uwolnienie"
-      ],
-      "meaning_upright": "Nieuchronny koniec, bolesne zderzenie z prawdą i niezbędne uwolnienie się od ciężaru.",
-      "meaning_reversed": "Powolna regeneracja, odzyskanie wewnętrznej odporności i gotowość na ponowne podniesienie się z kolan.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 60,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "swords",
-      "rank": "page",
-      "image_path": "60.webp",
-      "name": "Paź Mieczy",
-      "keywords": [
-        "ciekawość",
-        "poszukiwanie prawdy",
-        "czujność"
-      ],
-      "meaning_upright": "Niepohamowana ciekawość, bezkompromisowe poszukiwanie prawdy oraz wyostrzona czujność umysłu.",
-      "meaning_reversed": "Sianie plotek, niepotrzebny pośpiech lub wyciąganie pochopnych wniosków bez głębszego namysłu.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 61,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "swords",
-      "rank": "knight",
-      "image_path": "61.webp",
-      "name": "Rycerz Mieczy",
-      "keywords": [
-        "bezpośredniość",
-        "bystrość",
-        "determinacja"
-      ],
-      "meaning_upright": "Bezzwłoczne działanie, żwawość i trzeźwa ocena sytuacji.",
-      "meaning_reversed": "Pochopność, surowość w obejściu lub bezmyślny pęd przed siebie.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 62,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "swords",
-      "rank": "queen",
-      "image_path": "62.webp",
-      "name": "Królowa Mieczy",
-      "keywords": [
-        "przenikliwość",
-        "niezależność",
-        "klarowność umysłu"
-      ],
-      "meaning_upright": "Przenikliwość, niezależność i umiejętność stawiania jasnych granic.",
-      "meaning_reversed": "Chłód, rozgoryczenie lub słowa, które ranią niczym ostrze.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 63,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "swords",
-      "rank": "king",
-      "image_path": "63.webp",
-      "name": "Król Mieczy",
-      "keywords": [
-        "logika",
-        "autorytet",
-        "prawda"
-      ],
-      "meaning_upright": "Chłodny rozsądek, niepodważalny autorytet oraz dążenie do obiektywnej prawdy.",
-      "meaning_reversed": "Nadużywanie władzy, surowość wyroków lub krzywdzące, zamknięte na argumenty osądy.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 64,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "pentacles",
-      "rank": "ace",
-      "image_path": "64.webp",
-      "name": "As Monet",
-      "keywords": [
-        "szansa",
-        "wzrost",
-        "zasoby"
-      ],
-      "meaning_upright": "Namacalna okazja i zalążek przyszłego urodzaju.",
-      "meaning_reversed": "Zmarnowana szansa lub brak oparcia w sprawczości, co prowadzi do budowania na piasku.",
-      "archetype": null,
-      "description": "Podobnie jak Głupiec decyduje się na skok na głęboką wodę, tak As Monet daje początek trwałym fundamentom, które pod okiem Arcykapłana mogą przeobrazić się w prawdziwą życiową pomyślność."
-    },
-    {
-      "id": 65,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "pentacles",
-      "rank": "two",
-      "image_path": "65.webp",
-      "name": "Dwójka Monet",
-      "keywords": [
-        "równowaga",
-        "elastyczność",
-        "żonglerka"
-      ],
-      "meaning_upright": "Utrzymywanie równowagi między różnymi sprawami i umiejętne dopasowywanie się do zmieniających się warunków.",
-      "meaning_reversed": "Przeciążenie obowiązkami, brak umiaru lub zachwianie życiową harmonią.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 66,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "pentacles",
-      "rank": "three",
-      "image_path": "66.webp",
-      "name": "Trójka Monet",
-      "keywords": [
-        "wspólne działanie",
-        "kunszt",
-        "zdobywanie wprawy"
-      ],
-      "meaning_upright": "Harmonijna współpraca, doskonalenie rzemiosła oraz zdobywanie sprawczości poprzez codzienną praktykę.",
-      "meaning_reversed": "Brak porozumienia, lekceważenie detali lub praca wykonywana bez należytej staranności.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 67,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "pentacles",
-      "rank": "four",
-      "image_path": "67.webp",
-      "name": "Czwórka Monet",
-      "keywords": [
-        "poczucie bezpieczeństwa",
-        "nadmierna kontrola",
-        "kurczowe trzymanie się stanu posiadania"
-      ],
-      "meaning_upright": "Poczucie bezpieczeństwa, silna potrzeba kontroli oraz dbałość o to, co już udało się zgromadzić.",
-      "meaning_reversed": "Gotowość do odpuszczenia lub paraliżujący strach przed utratą majątku, który zaczyna rządzić podejmowanymi decyzjami.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 68,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "pentacles",
-      "rank": "five",
-      "image_path": "68.webp",
-      "name": "Piątka Monet",
-      "keywords": [
-        "trudności",
-        "niedostatek",
-        "poszukiwanie pomocy"
-      ],
-      "meaning_upright": "Czas prób, dotkliwy brak oraz pilna potrzeba znalezienia oparcia w innych.",
-      "meaning_reversed": "Powolne odzyskiwanie sprawczości, nadejście nieoczekiwanej pomocy i stopniowy urodzaj po okresie chudych lat.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 69,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "pentacles",
-      "rank": "six",
-      "image_path": "69.webp",
-      "name": "Szóstka Monet",
-      "keywords": [
-        "hojność",
-        "wzajemność",
-        "uczciwość"
-      ],
-      "meaning_upright": "Dzielenie się zasobami z autentyczną troską, oparta na sprawiedliwości wymiana dóbr i energii.",
-      "meaning_reversed": "Ukryte intencje, wykorzystywanie drugiego człowieka lub zaburzona równowaga w dawaniu i braniu.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 70,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "pentacles",
-      "rank": "seven",
-      "image_path": "70.webp",
-      "name": "Siódemka Monet",
-      "keywords": [
-        "cierpliwość",
-        "długofalowe starania",
-        "refleksja"
-      ],
-      "meaning_upright": "Czas cierpliwego czekania na plony, sumienne dbanie o swoje zasoby i spokojna ocena dotychczasowej sprawczości.",
-      "meaning_reversed": "Niecierpliwość, gorączkowe poszukiwanie efektów lub zwątpienie w sens podjętego skoku na głęboką wodę, które hamuje przyszły urodzaj.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 71,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "pentacles",
-      "rank": "eight",
-      "image_path": "71.webp",
-      "name": "Ósemka Monet",
-      "keywords": [
-        "praktyka",
-        "rzemiosło",
-        "wytrwałość"
-      ],
-      "meaning_upright": "Nieustanne szlifowanie warsztatu, oddanie pracy i dążenie do mistrzostwa.",
-      "meaning_reversed": "Pójście na łatwiznę, brak pasji lub znużenie codzienną rutyną.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 72,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "pentacles",
-      "rank": "nine",
-      "image_path": "72.webp",
-      "name": "Dziewiątka Monet",
-      "keywords": [
-        "niezależność",
-        "komfort",
-        "poczucie własnej wartości"
-      ],
-      "meaning_upright": "Samodzielność, wygoda i zdrowy szacunek do własnych dokonań. Czas, w którym czerpiesz pełnymi garściami z własnej sprawczości.",
-      "meaning_reversed": "Zbytnie oglądanie się na innych lub wewnętrzny niepokój, który nie pozwala w pełni cieszyć się osiągniętym urodzajem.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 73,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "pentacles",
-      "rank": "ten",
-      "image_path": "73.webp",
-      "name": "Dziesiątka Monet",
-      "keywords": [
-        "dziedzictwo",
-        "rodzina",
-        "urodzaj"
-      ],
-      "meaning_upright": "Trwałe dziedzictwo, rodzinna przystań oraz poczucie bezpieczeństwa budowane przez pokolenia.",
-      "meaning_reversed": "Pęknięcia w fundamentach domu lub napięcia w relacjach z bliskimi.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 74,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "pentacles",
-      "rank": "page",
-      "image_path": "74.webp",
-      "name": "Paź Monet",
-      "keywords": [
-        "nauka",
-        "szansa",
-        "planowanie"
-      ],
-      "meaning_upright": "Czas zdobywania wiedzy, pojawienie się nowej szansy oraz rzetelne planowanie prowadzące do życiowego urodzaju.",
-      "meaning_reversed": "Ociąganie się z podjęciem decyzji lub słomiany zapał, który osłabia twoją sprawczość.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 75,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "pentacles",
-      "rank": "knight",
-      "image_path": "75.webp",
-      "name": "Rycerz Monet",
-      "keywords": [
-        "niezachwianie",
-        "rutyna",
-        "niezawodność"
-      ],
-      "meaning_upright": "Sprawczość przejawiająca się w nieustannym dążeniu do celu i solidnej, rzetelnej pracy.",
-      "meaning_reversed": "Zastój wywołany lękiem przed zmianą lub bezmyślne trwanie w skostniałych nawykach.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 76,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "pentacles",
-      "rank": "queen",
-      "image_path": "76.webp",
-      "name": "Królowa Monet",
-      "keywords": [
-        "opieka",
-        "praktyczność",
-        "dom"
-      ],
-      "meaning_upright": "Zaradność, dbałość o codzienny komfort i troskliwe budowanie trwałego urodzaju.",
-      "meaning_reversed": "Brak równowagi między życiem zawodowym a domowym lub zaniedbanie własnych potrzeb.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 77,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "pentacles",
-      "rank": "king",
-      "image_path": "77.webp",
-      "name": "Król Monet",
-      "keywords": [
-        "urodzaj",
-        "stabilność",
-        "żywiciel"
-      ],
-      "meaning_upright": "Czas prawdziwego urodzaju, życiowej stabilności i troski o bezpieczeństwo swoich bliskich.",
-      "meaning_reversed": "Nadmierne przywiązanie do spraw materialnych lub używanie majątku jako narzędzia do wywierania nacisku na innych.",
-      "archetype": null,
-      "description": null
-    }
-  ]
-}
+[
+  {
+    "id": 4,
+    "arcana": "major",
+    "number": 4,
+    "suit": null,
+    "rank": null,
+    "image_path": "4.webp",
+    "name": "Cesarz",
+    "keywords": [
+      "ład",
+      "autorytet",
+      "sprawczość"
+    ],
+    "meaning_upright": "Budowanie trwałych podstaw, odpowiedzialność i umiejętność utrzymania porządku.",
+    "meaning_reversed": "Nadmierna sztywność, potrzeba bezwzględnej kontroli lub podważenie dotychczasowej hierarchii.",
+    "archetype": "Władca",
+    "description": "Cesarz to uosobienie stabilności, męskiej siły i życiowej mądrości. Karta ta reprezentuje ład, autorytet oraz naturalną sprawczość, która pozwala nam śmiało brać sprawy w swoje ręce. Kiedy pojawia się w rozkładzie, przynosi ze sobą energię budowania trwałych podstaw pod przyszłe sukcesy. To doskonały czas na przejęcie odpowiedzialności za własny los i sprawne utrzymanie porządku w swoim otoczeniu.\n\nZ kolei w pozycji odwróconej Cesarz ostrzega przed niebezpiecznymi skrajnościami. Może wskazywać na nadmierną sztywność zasad, ślepy upór oraz chorobliwą potrzebę bezwzględnej kontroli nad innymi ludźmi. Czasami oznacza to także otwarty bunt lub nagłe podważenie dotychczasowej hierarchii, co zmusza nas do wykazania się większą elastycznością."
+  },
+  {
+    "id": 0,
+    "arcana": "major",
+    "number": 0,
+    "suit": null,
+    "rank": null,
+    "image_path": "0.webp",
+    "name": "Głupiec",
+    "keywords": [
+      "początki",
+      "niewinność",
+      "skok na głęboką wodę"
+    ],
+    "meaning_upright": "Nowe rozdziały, spontaniczność i ufne oddanie się biegowi życia.",
+    "meaning_reversed": "Nieostrożność, naiwność lub paraliżujący lęk przed zrobieniem pierwszego kroku.",
+    "archetype": "Poszukiwacz",
+    "description": "Głupiec to karta, która pulsuje czystą, radosną energią i symbolizuje początek nowej drogi. Przedstawia postać stojącą na skraju urwiska, gotową na skok na głęboką wodę z uśmiechem na twarzy. Ta karta uosabia niewinność, dziecięcy zachwyt światem oraz ufne oddanie się biegowi życia. Gdy pojawia się w pozycji prostej, zwiastuje nowe rozdziały, uczy nas spontaniczności i zachęca, by bez strachu pójść za głosem serca, nawet jeśli cel podróży pozostaje jeszcze nieznany.\n\nW pozycji odwróconej Głupiec niesie jednak ważne ostrzeżenie. Może wskazywać na skrajną nieostrożność, lekkomyślność i naiwność, które prowadzą do zguby. Z drugiej strony, karta ta może też oznaczać paraliżujący lęk przed zrobieniem pierwszego kroku, który skutecznie blokuje nas przed pójściem naprzód."
+  },
+  {
+    "id": 1,
+    "arcana": "major",
+    "number": 1,
+    "suit": null,
+    "rank": null,
+    "image_path": "1.webp",
+    "name": "Mag",
+    "keywords": [
+      "wola",
+      "umiejętności",
+      "sprawczość"
+    ],
+    "meaning_upright": "Skupienie na celu, zręczne działanie i umiejętność przekuwania zamysłów w rzeczywistość.",
+    "meaning_reversed": "Rozproszenie, skłonność do manipulacji lub marnowanie drzemiącego w nas potencjału.",
+    "archetype": "Twórca",
+    "description": "Karta Maga należąca do Wielkich Arkanów to symbol czystej sprawczości i niezłomnej woli. Przedstawia ona postać, która ma do dyspozycji wszystkie żywioły, co oznacza, że posiada wszelkie narzędzia potrzebne do osiągnięcia sukcesu. W pozycji prostej zwiastuje czas wyjątkowego skupienia na celu oraz zręcznego działania. To idealny moment, kiedy Twoje zamysły mogą szybko stać się rzeczywistością, jeśli tylko zaufasz własnym umiejętnościom. Mag zachęca do przejęcia inicjatywy i aktywnego kształtowania swojego losu.\n\nKiedy jednak karta pojawia się w pozycji odwróconej, ostrzega przed rozproszeniem energii. Może wskazywać na marnowanie drzemiącego w Tobie potencjału lub skłonność do manipulacji. To jasny sygnał, by uporządkować myśli i odzyskać właściwy kierunek działania."
+  },
+  {
+    "id": 2,
+    "arcana": "major",
+    "number": 2,
+    "suit": null,
+    "rank": null,
+    "image_path": "2.webp",
+    "name": "Arcykapłanka",
+    "keywords": [
+      "intuicja",
+      "tajemnica",
+      "wewnętrzny głos"
+    ],
+    "meaning_upright": "Intuicja, głęboka mądrość płynąca z wnętrza i prawdy, które czekają na odkrycie.",
+    "meaning_reversed": "Głuchota na własne przeczucia, mętlik w głowie lub sekrety, które zbyt długo trzymane w ukryciu stają się ciężarem.",
+    "archetype": "Mistyk",
+    "description": "Arcykapłanka to niezwykle tajemnicza karta z Wielkich Arkanów, która symbolizuje ciszę, głęboką mądrość oraz kontakt z podświadomością. Kiedy pojawia się w pozycji prostej, przypomina o ogromnej sile naszego wewnętrznego głosu, który często zna właściwe odpowiedzi na najtrudniejsze pytania. Karta ta zachęca nas, abyśmy na chwilę zwolnili codzienne tempo i zajrzeli w głąb siebie. To idealny czas na zaufanie swoim przeczuciom i odkrywanie prawd ukrytych przed światem.\n\nW pozycji odwróconej Arcykapłanka ostrzega przed głuchotą na własne przeczucia. Często oznacza mętlik w głowie, chaos myśli oraz brak jasności przy podejmowaniu decyzji. Może również wskazywać na skrywane tajemnice, które zbyt długo trzymane w sekrecie stają się dla nas trudnym do zniesienia ciężarem."
+  },
+  {
+    "id": 3,
+    "arcana": "major",
+    "number": 3,
+    "suit": null,
+    "rank": null,
+    "image_path": "3.webp",
+    "name": "Cesarzowa",
+    "keywords": [
+      "opieka",
+      "urodzaj",
+      "wzrost"
+    ],
+    "meaning_upright": "Dbanie o rozwój, rozkwit twórczych zamysłów i obfitość płynąca z natury.",
+    "meaning_reversed": "Zastój w działaniu, zaniedbanie własnych potrzeb lub toksyczna zależność od innych.",
+    "archetype": "Matka",
+    "description": "Cesarzowa to piękny archetyp ziemskiej matki, która emanuje ciepłem, spokojem i życiodajną energią. Karta ta symbolizuje troskliwą opiekę, wielki urodzaj oraz naturalny wzrost wszystkiego, co zasiejemy w naszym życiu. W pozycji prostej zapowiada czas wspaniałego rozkwitu twórczych zamysłów i obfitości płynącej prosto z natury. Zachęca nas, by z miłością dbać o własny rozwój i troskliwie pielęgnować codzienne relacje.\n\nJednak w pozycji odwróconej Cesarzowa ostrzega przed utratą wewnętrznej równowagi. Może wtedy wskazywać na nagły zastój w działaniu lub bolesne zaniedbanie własnych potrzeb na rzecz innych. Czasem oznacza też toksyczną zależność, która po cichu odbiera nam życiową siłę. To jasny sygnał, by powrócić do harmonii i znowu uwierzyć we własne możliwości."
+  },
+  {
+    "id": 5,
+    "arcana": "major",
+    "number": 5,
+    "suit": null,
+    "rank": null,
+    "image_path": "5.webp",
+    "name": "Arcykapłan",
+    "keywords": [
+      "tradycja",
+      "nauczanie",
+      "przekonania"
+    ],
+    "meaning_upright": "Tradycja, przewodnictwo duchowe i wspólne wartości, które budują społeczną więź.",
+    "meaning_reversed": "Bunt, sztywne dogmaty lub podważanie odwiecznych zasad.",
+    "archetype": "Nauczyciel",
+    "description": "Arcykapłan to karta Wielkich Arkanów, która symbolizuje tradycję, mądrość oraz duchowe przewodnictwo. W pozycji prostej wskazuje na potrzebę poszukiwania wiedzy u autorytetów oraz na wspólne wartości, które budują silne społeczne więzi. Karta ta emanuje energią spokoju, porządku i szacunku do zasad. Reprezentuje instytucje i systemy przekonań, które dają nam poczucie bezpieczeństwa oraz przynależności. To czas nauki, słuchania mądrych rad i podążania sprawdzoną ścieżką. \n\nGdy Arcykapłan pojawia się w pozycji odwróconej, przynosi zapowiedź buntu i zmian. Ostrzega przed sztywnymi dogmatami, które zamiast wspierać, zaczynają nas ograniczać. To wyraźny znak, że nadszedł czas na podważanie odwiecznych zasad i szukania własnej prawdy, nawet jeśli wymaga to pójścia pod prąd."
+  },
+  {
+    "id": 6,
+    "arcana": "major",
+    "number": 6,
+    "suit": null,
+    "rank": null,
+    "image_path": "6.webp",
+    "name": "Kochankowie",
+    "keywords": [
+      "wybór",
+      "zjednoczenie",
+      "spójność wartości"
+    ],
+    "meaning_upright": "Głęboka więź, kluczowy wybór oraz życie w zgodzie z własnym sumieniem.",
+    "meaning_reversed": "Brak porozumienia, rozbieżne ścieżki lub lęk przed prawdziwą bliskością.",
+    "archetype": "Ukochany",
+    "description": "Karta Kochankowie to jeden z najbardziej poruszających i wieloznacznych symboli w całym tarocie. Reprezentuje ona nie tylko romantyczną miłość, ale przede wszystkim głębokie zjednoczenie, harmonię oraz spójność życiowych wartości. Jej energia wskazuje na moment, w którym musisz podjąć kluczowy wybór, słuchając głosu własnego serca oraz sumienia. To zachęta do budowania autentycznych relacji i życia w zgodzie z samym sobą.\n\nW pozycji prostej zapowiada głęboką więź i pełne porozumienie. Jeśli jednak karta pojawia się w odwróceniu, może sygnalizować wyraźny brak porozumienia, rozbieżne ścieżki partnerów lub lęk przed prawdziwą bliskością. Przypomina nam wtedy o konieczności szczerej rozmowy ze sobą i podjęcia decyzji, które uzdrowią nasze relacje."
+  },
+  {
+    "id": 7,
+    "arcana": "major",
+    "number": 7,
+    "suit": null,
+    "rank": null,
+    "image_path": "7.webp",
+    "name": "Rydwan",
+    "keywords": [
+      "determinacja",
+      "zwycięstwo",
+      "samokontrola"
+    ],
+    "meaning_upright": "Nieugięta wola, żwawe tempo i sprawczość w dążeniu do celu.",
+    "meaning_reversed": "Zagubienie, rozdarcie wewnętrzne lub wyczerpanie sił.",
+    "archetype": "Zwycięzca",
+    "description": "Rydwan to jedna z najbardziej dynamicznych kart w Tarocie, symbolizująca czystą siłę woli i triumf nad przeciwnościami losu. Na karcie widzimy woźnicę, który pewną ręką kieruje pojazdem ciągniętym przez dwie różne siły. To obraz doskonałej samokontroli – tylko dzięki wewnętrznej dyscyplinie możemy utrzymać właściwy kierunek. Karta ta niesie obietnicę zwycięstwa, jeśli wykażemy się determinacją. W pozycji prostej zwiastuje szybkie tempo wydarzeń i ogromną sprawczość w dążeniu do celu. Masz teraz moc, by pokonać każdą przeszkodę.\n\nW pozycji odwróconej Rydwan ostrzega przed utratą kontroli. Może oznaczać wewnętrzne rozdarcie i zagubienie, gdy tracimy grunt pod nogami. To także sygnał wyczerpania sił – znak, że czas zwolnić, zanim zupełnie wypadniemy z zakrętu."
+  },
+  {
+    "id": 8,
+    "arcana": "major",
+    "number": 8,
+    "suit": null,
+    "rank": null,
+    "image_path": "8.webp",
+    "name": "Moc",
+    "keywords": [
+      "odwaga",
+      "cierpliwość",
+      "wewnętrzna siła"
+    ],
+    "meaning_upright": "Odwaga, cierpliwość oraz łagodna, niezłomna siła ducha.",
+    "meaning_reversed": "Zwątpienie, brak cierpliwości lub próba narzucenia swojej woli siłą zamiast finezją.",
+    "archetype": "Serce",
+    "description": "Karta Moc symbolizuje niezwykłą wewnętrzną siłę, która nie polega na przemocy, lecz na łagodności i cierpliwości. Przedstawia kobietę, która bez strachu oswaja groźnego lwa. To pokazuje, że prawdziwa odwaga rodzi się w sercu, a najtrudniejsze przeszkody można pokonać dzięki wewnętrznemu spokojowi. Kiedy pojawia się w Twoim życiu, przypomina o ukrytych rezerwach i zachęca do stawienia czoła wyzwaniom z podniesioną głową, ale bez zbędnej agresji. \n\nW pozycji odwróconej karta ta ostrzega przed zwątpieniem we własne możliwości i brakiem cierpliwości. Wskazuje na momenty, gdy próbujesz narzucić swoją wolę siłą zamiast finezją. To ważny sygnał, aby się zatrzymać, wziąć głęboki oddech i odnaleźć utraconą harmonię."
+  },
+  {
+    "id": 9,
+    "arcana": "major",
+    "number": 9,
+    "suit": null,
+    "rank": null,
+    "image_path": "9.webp",
+    "name": "Pustelnik",
+    "keywords": [
+      "samotność",
+      "mądrość",
+      "wewnętrzny głos"
+    ],
+    "meaning_upright": "Czas wyciszenia, wgląd w siebie i szukanie własnej drogi.",
+    "meaning_reversed": "Zaszycie się w samotności, unikanie ludzi lub odrzucanie pomocnej dłoni.",
+    "archetype": "Mędrzec",
+    "description": "Karta Pustelnik to symbol głębokiej mądrości, która rodzi się w ciszy. Kiedy pojawia się w pozycji prostej, zaprasza Cię do zatrzymania się w biegu i spojrzenia w głąb siebie. To doskonały czas na wyciszenie, refleksję oraz uważne wsłuchanie się we własny wewnętrzny głos. Pustelnik nie niesie ze sobą smutku, lecz potrzebne odosobnienie, które pozwala odnaleźć własną drogę i zrozumieć swoje potrzeby.\n\nW pozycji odwróconej karta ostrzega jednak przed przesadą. Może oznaczać, że zbyt mocno odcinasz się od świata i uciekasz w izolację. Zaszywanie się w samotności i unikanie ludzi nie rozwiąże problemów, a odrzucanie pomocnej dłoni bliskich może tylko pogłębić smutek."
+  },
+  {
+    "id": 10,
+    "arcana": "major",
+    "number": 10,
+    "suit": null,
+    "rank": null,
+    "image_path": "10.webp",
+    "name": "Koło Fortuny",
+    "keywords": [
+      "cykle",
+      "zmiana",
+      "przeznaczenie"
+    ],
+    "meaning_upright": "Punkty zwrotne, nieuchronne przemiany i kaprysy losu.",
+    "meaning_reversed": "Kurczowe trzymanie się starego, zastoje i błędne koło zdarzeń.",
+    "archetype": "Koło",
+    "description": "Koło Fortuny to wyjątkowa karta Wielkich Arkanów, która przypomina nam, że jedyną stałą rzeczą w życiu jest zmiana. Symbolizuje ona naturalne cykle oraz przeznaczenie, na które nie zawsze mamy wpływ. Kiedy karta pojawia się w pozycji prostej, zwiastuje ważne punkty zwrotne, nieuchronne przemiany i nagłe kaprysy losu, które zazwyczaj niosą nowe szanse. Wiatr zaczyna wiać nam w żagle. Jednak w pozycji odwróconej Koło Fortuny ostrzega przed zastojem, błędnym kołem zdarzeń oraz kurczowym trzymaniem się starego. Zamiast walczyć z wiatrakami i popadać w marazm, warto odpuścić kontrolę. Ta karta uczy nas, że życie to ciągły ruch, a po każdej burzy zawsze wychodzi słońce."
+  },
+  {
+    "id": 11,
+    "arcana": "major",
+    "number": 11,
+    "suit": null,
+    "rank": null,
+    "image_path": "11.webp",
+    "name": "Sprawiedliwość",
+    "keywords": [
+      "prawda",
+      "uczciwość",
+      "odpowiedzialność"
+    ],
+    "meaning_upright": "Prawda, uczciwość oraz branie pełnej odpowiedzialności za własne wybory.",
+    "meaning_reversed": "Stronniczość, wypieranie się faktów lub próby ucieczki przed konsekwencjami własnych działań.",
+    "archetype": "Sędzia",
+    "description": "Karta Sprawiedliwość to potężny symbol równowagi, prawdy i życiowej harmonii. Wskazuje, że każde nasze działanie przynosi określone skutki. Kiedy pojawia się w rozkładzie w pozycji prostej, wzywa do bezkompromisowej uczciwości wobec siebie i innych. To moment, w którym musimy spojrzeć prawdzie prosto w oczy i wziąć pełną odpowiedzialność za własne wybory. Pokazuje nam, że sprawiedliwy osąd wymaga chłodnego umysłu i czystego serca. \n\nGdy jednak karta ukazuje się w pozycji odwróconej, jej energia ulega zakłóceniu. Może to oznaczać stronniczość, wypieranie się faktów lub próby ucieczki przed konsekwencjami własnych czynów. Zamiast zmierzyć się z rzeczywistością, wolimy wtedy szukać winnych wokół siebie. Sprawiedliwość przypomina, że przed prawdą nie da się uciec na dłuższą metę."
+  },
+  {
+    "id": 12,
+    "arcana": "major",
+    "number": 12,
+    "suit": null,
+    "rank": null,
+    "image_path": "12.webp",
+    "name": "Wisielec",
+    "keywords": [
+      "chwila wytchnienia",
+      "przełomowe spojrzenie",
+      "akceptacja losu"
+    ],
+    "meaning_upright": "Zatrzymanie w biegu, dobrowolne odpuszczenie kontroli i zyskanie świeżego spojrzenia na sprawy.",
+    "meaning_reversed": "Bezwład, uporczywe trwanie przy swoim lub lęk przed tym, by wreszcie przestać walczyć.",
+    "archetype": "Nowicjusz",
+    "description": "Karta Wisielec symbolizuje moment, w którym świat nagle się zatrzymuje. Choć postać wisi głową w dół, jej twarz pozostaje całkowicie spokojna, wyrażając świadome, dobrowolne odpuszczenie kontroli i pełną zgodę na bieg wydarzeń. Karta ta przynosi upragnioną chwilę wytchnienia w codziennym pędzie, dając nam cenny czas na głęboką akceptację losu. To właśnie w tym pozornym bezruchu rodzi się przełomowe spojrzenie na dotychczasowe sprawy, co pozwala nam zyskać zupełnie nową, świeżą perspektywę na otaczającą nas rzeczywistość.\n\nW pozycji odwróconej Wisielec ostrzega przed bezwładem i apatią. Wskazuje na uporczywe trwanie przy swoim oraz lęk przed tym, by wreszcie przestać walczyć i odpuścić stary opór, który tylko niepotrzebnie nas blokuje."
+  },
+  {
+    "id": 13,
+    "arcana": "major",
+    "number": 13,
+    "suit": null,
+    "rank": null,
+    "image_path": "13.webp",
+    "name": "Śmierć",
+    "keywords": [
+      "domknięcia",
+      "przemiana",
+      "uwolnienie"
+    ],
+    "meaning_upright": "Nieuchronny koniec, który przygotowuje grunt pod nowy urodzaj.",
+    "meaning_reversed": "Kurczowe trzymanie się tego, co minione, lęk przed nowym oraz przeciągająca się w czasie zmiana.",
+    "archetype": "Transformator",
+    "description": "Karta Śmierć to jedno z najbardziej poruszających ogniw Wielkich Arkanów. Wbrew pozorom nie zwiastuje ona fizycznego końca, lecz głębokie oczyszczenie i potężną transformację. Jej energia przynosi nieuchronny koniec pewnego etapu, który w naturalny sposób przygotowuje grunt pod zupełnie nowy, obfity urodzaj. Symbolizuje uwolnienie od tego, co już nam nie służy, i ostateczne domknięcie starych spraw. To zaproszenie do zrobienia miejsca na świeżą energię.\n\nKiedy karta pojawia się w pozycji odwróconej, ostrzega przed lękiem przed nowym i kurczowym trzymaniem się tego, co minione. Taki opór sprawia, że konieczna zmiana przeciąga się w czasie i blokuje nasz rozwój. Śmierć uczy nas, że aby pójść naprzód, musimy najpierw pozwolić odejść przeszłości."
+  },
+  {
+    "id": 14,
+    "arcana": "major",
+    "number": 14,
+    "suit": null,
+    "rank": null,
+    "image_path": "14.webp",
+    "name": "Umiarkowanie",
+    "keywords": [
+      "równowaga",
+      "uzdrowienie",
+      "umiar"
+    ],
+    "meaning_upright": "Wewnętrzny spokój, proces zdrowienia i umiejętne łączenie przeciwieństw w harmonijną całość.",
+    "meaning_reversed": "Popadanie w skrajności, zatracenie poczucia miary lub rozchwianie, które odbiera sprawczość.",
+    "archetype": "Alchemik",
+    "description": "Karta Umiarkowanie to symbol głębokiej harmonii, uzdrowienia i życiowej mądrości. Przedstawia postać przelewającą wodę z jednego naczynia do drugiego, co oznacza płynne łączenie przeciwieństw w spójną całość. W pozycji prostej karta ta przynosi upragniony wewnętrzny spokój. Przypomina nam, że cierpliwość i zachowanie umiaru to klucz do sukcesu oraz regeneracji sił po trudnym czasie.\n\nGdy jednak Umiarkowanie pojawia się w pozycji odwróconej, ostrzega przed popadaniem w skrajności. Sugeruje zatracenie poczucia miary oraz emocjonalne rozchwianie, które odbiera nam sprawczość i utrudnia podejmowanie mądrych decyzji. To jasny znak, że nadszedł czas, aby zwolnić bieg, odnaleźć złoty środek i na nowo odbudować swoją wewnętrzną stabilność."
+  },
+  {
+    "id": 15,
+    "arcana": "major",
+    "number": 15,
+    "suit": null,
+    "rank": null,
+    "image_path": "15.webp",
+    "name": "Diabeł",
+    "keywords": [
+      "zniewolenie",
+      "mroczna strona",
+      "pokusa"
+    ],
+    "meaning_upright": "Toksyczne przywiązania, kuszące drogi na skróty oraz trudne zderzenie z własnymi słabościami.",
+    "meaning_reversed": "Zerwanie pęt, odzyskanie osobistej sprawczości lub wypieranie się niewygodnej prawdy.",
+    "archetype": "Cień",
+    "description": "Karta Diabeł symbolizuje nasze najgłębsze lęki, cienie oraz pułapki, w które sami wpadamy. Przedstawia siłę pokusy i toksyczne przywiązania, które odbierają nam wolność. Często wskazuje na moment, w którym wybieramy kuszące drogi na skróty, zamiast zmierzyć się z rzeczywistością. To trudne zderzenie z własnymi słabościami i nałogami. Jednak łańcuchy na tej karcie są luźne – to znak, że zniewolenie tkwi głównie w naszych umysłach i sami decydujemy o własnym losie.\n\nW pozycji odwróconej Diabeł przynosi nadzieję, oznaczając zerwanie pęt i odzyskanie osobistej sprawczości. To czas na wyjście z toksycznych układów. Z drugiej strony może to być ostrzeżenie przed wypieraniem się niewygodnej prawdy o sobie. Karta przypomina, że prawdziwa wolność wymaga odwagi."
+  },
+  {
+    "id": 16,
+    "arcana": "major",
+    "number": 16,
+    "suit": null,
+    "rank": null,
+    "image_path": "16.webp",
+    "name": "Wieża",
+    "keywords": [
+      "olśnienie",
+      "wstrząs",
+      "oczyszczenie"
+    ],
+    "meaning_upright": "Nagły wstrząs, nagłe przejrzenie na oczy i burzenie iluzji, na których opierałeś swoje życie.",
+    "meaning_reversed": "Kurczowe trzymanie się tego, co dawno powinno upaść, przedłużający się niepokój i strach przed zmianą.",
+    "archetype": "Błyskawica",
+    "description": "Karta Wieża to jedna z najbardziej wyrazistych kart w Tarocie, symbolizująca nagły wstrząs i oczyszczenie. Przedstawia budowlę niszczoną przez piorun, co oznacza gwałtowny koniec złudzeń, na których opieraliśmy swoje dotychczasowe życie. Choć ta zmiana bywa bolesna, przynosi zbawienne olśnienie. Stare, fałszywe fundamenty muszą runąć, by zrobić miejsce na coś prawdziwego. W pozycji prostej karta zmusza nas do nagłego przejrzenia na oczy i wyzwolenia się z kłamstw.\n\nZ kolei w pozycji odwróconej Wieża ostrzega przed kurczowym trzymaniem się tego, co już dawno powinno upaść. Strach przed zmianą i lęk przed nowym tylko przedłużają nasz niepokój i cierpienie. Karta uczy, że opór przed nieuniknionym nie ma sensu i warto pozwolić odejść przeszłości, by odzyskać spokój."
+  },
+  {
+    "id": 17,
+    "arcana": "major",
+    "number": 17,
+    "suit": null,
+    "rank": null,
+    "image_path": "17.webp",
+    "name": "Gwiazda",
+    "keywords": [
+      "nadzieja",
+      "odnowa",
+      "przewodnictwo"
+    ],
+    "meaning_upright": "Nadzieja, odnowa i jasne światło wskazujące drogę naprzód.",
+    "meaning_reversed": "Zniechęcenie, zwątpienie lub przygasły optymizm.",
+    "archetype": "Przewodnik",
+    "description": "Karta Gwiazda to jeden z najpiękniejszych symboli w całym tarocie. Reprezentuje głęboką nadzieję, odnowę oraz wewnętrzny spokój po trudnym okresie. Na karcie widzimy postać przelewającą wodę, co oznacza harmonię i odrodzenie sił życiowych. Nad nią świeci jasna gwiazda – drogowskaz rozświetlający mrok i pokazujący bezpieczną drogę naprzód. W pozycji prostej karta przynosi obietnicę lepszych dni, uzdrowienie oraz wiarę we własne siły. To idealny moment, by zaufać losowi i iść za swoim powołaniem.\n\nW pozycji odwróconej Gwiazda ostrzega przed chwilowym zniechęceniem i utratą wiary. Twój optymizm mógł przygasnąć, a codzienne troski przesłoniły jasny cel. To jednak tylko przejściowy stan zwątpienia. Karta przypomina, że światło wciąż świeci, wystarczy tylko podnieść głowę i uwierzyć w siebie na nowo."
+  },
+  {
+    "id": 18,
+    "arcana": "major",
+    "number": 18,
+    "suit": null,
+    "rank": null,
+    "image_path": "18.webp",
+    "name": "Księżyc",
+    "keywords": [
+      "iluzja",
+      "intuicja",
+      "niepewność"
+    ],
+    "meaning_upright": "Czas niepewności, w którym musisz zaufać własnej intuicji, by odnaleźć drogę w mroku.",
+    "meaning_reversed": "Mgła zaczyna opadać, lęk słabnie, a Ty w końcu dostrzegasz prawdę o swoich własnych ułudach.",
+    "archetype": "Sen",
+    "description": "Karta Księżyc zaprasza Cię do tajemniczego świata emocji i podświadomości, gdzie nic nie jest takie, jakim się wydaje. To czas głębokiej niepewności, gdy dotychczasowe ścieżki nikną we mgle, a wokół rodzą się lęki i iluzje. Karta ta przypomina, że w gęstym mroku logiczny umysł może zawieść. Musisz wtedy wyciszyć racjonalne myślenie i całkowicie zaufać swojemu wewnętrznemu głosowi. Twoja intuicja staje się jedynym kompasem, który bezpiecznie przeprowadzi Cię przez nocne cienie i uchroni przed zgubieniem drogi.\n\nGdy jednak Księżyc ukazuje się w pozycji odwróconej, sytuacja zaczyna się wyjaśniać. Mgła powoli opada, a paraliżujący strach traci swoją siłę. To moment olśnienia, w którym wreszcie dostrzegasz prawdę o własnych ułudach. Odrzucasz fałszywe wyobrażenia, odzyskujesz jasność umysłu i zyskujesz odwagę."
+  },
+  {
+    "id": 19,
+    "arcana": "major",
+    "number": 19,
+    "suit": null,
+    "rank": null,
+    "image_path": "19.webp",
+    "name": "Słońce",
+    "keywords": [
+      "radość",
+      "sukces",
+      "witalność"
+    ],
+    "meaning_upright": "Pełnia radości, życiowa energia i pewny sukces, który przynosi obfity urodaj.",
+    "meaning_reversed": "Chwilowe potknięcia, czarne myśli lub zachwiana pewność siebie.",
+    "archetype": "Światło",
+    "description": "Karta Słońce to jedna z najszczęśliwszych kart w całym tarocie, promieniująca czystym światłem i optymizmem. Symbolizuje absolutną radość, witalność oraz pewny sukces, który przynosi obfity urodaj we wszystkich dziedzinach życia. Jej ciepła energia rozprasza wszelkie mroki, dodając nam pewności siebie i siły do działania. Kiedy pojawia się w rozkładzie, zwiastuje czas jasności, harmonii i zasłużonego triumfu. To znak, że Twoje plany zakończą się powodzeniem, a w sercu zagości spokój.\n\nNawet w pozycji odwróconej Słońce nie traci swojej mocy, choć jego blask bywa chwilowo przesłonięty chmurami. Może wtedy oznaczać momenty zwątpienia, czarne myśli lub przejściowe potknięcia, które na chwilę zachwieją Twoją pewnością siebie. To jednak tylko krótkotrwały cień, który szybko minie, przypominając o potrzebie odpoczynku i ponownego odnalezienia wewnętrznego światła."
+  },
+  {
+    "id": 20,
+    "arcana": "major",
+    "number": 20,
+    "suit": null,
+    "rank": null,
+    "image_path": "20.webp",
+    "name": "Sąd",
+    "keywords": [
+      "przebudzenie",
+      "rachunek sumienia",
+      "powołanie"
+    ],
+    "meaning_upright": "Czas duchowego przebudzenia, szczerego rozliczenia się z przeszłością i odważnej odpowiedzi na własne powołanie.",
+    "meaning_reversed": "Wewnętrzne zwątpienie, zbyt surowa ocena samego siebie lub wycofywanie się przed podjęciem kluczowej decyzji.",
+    "archetype": "Wezwanie",
+    "description": "Karta Sąd to symbol odrodzenia, który zwiastuje głębokie duchowe przebudzenie. Kiedy pojawia się w rozkładzie, wzywa nas do szczerego rachunku sumienia i pogodzenia się z przeszłością. To czas, w którym stare sprawy odchodzą w niepamięć, a Ty zyskujesz jasność, by usłyszeć swoje prawdziwe powołanie. Karta niesie energię wyzwolenia i zachęca, by z podniesioną głową wkroczyć na nową drogę życia.\n\nW pozycji odwróconej Sąd ostrzega przed paraliżującym lękiem i wewnętrznym zwątpieniem. Może oznaczać, że zbyt surowo oceniasz samego siebie lub uciekasz przed podjęciem kluczowej decyzji. Zamiast pójść naprzód, stoisz w miejscu, blokowany przez dawne błędy i żal. To jasny sygnał, by wybaczyć sobie i wreszcie otworzyć się na zmiany."
+  },
+  {
+    "id": 21,
+    "arcana": "major",
+    "number": 21,
+    "suit": null,
+    "rank": null,
+    "image_path": "21.webp",
+    "name": "Świat",
+    "keywords": [
+      "domknięcie",
+      "spójność",
+      "mistrzostwo"
+    ],
+    "meaning_upright": "Czas wieńczy dzieło; odczuwasz wewnętrzną harmonię i głęboką satysfakcję z tego, co osiągnąłeś.",
+    "meaning_reversed": "Niedomknięte sprawy, które wciąż ciągną się za tobą, niepotrzebne przestoje i trudność z ostatecznym pożegnaniem etapu.",
+    "archetype": "Pełnia",
+    "description": "Karta Świat to symbol ostatecznego triumfu, harmonii i pełni. Reprezentuje moment, w którym długa podróż dobiega końca, a Ty możesz wreszcie odetchnąć z ulgą. Jej energia niesie ze sobą domknięcie ważnego życiowego rozdziału, poczucie spójności oraz prawdziwe mistrzostwo. Gdy pojawia się w rozkładzie w pozycji prostej, zwiastuje, że czas wieńczy dzieło. Odczuwasz wtedy wewnętrzną harmonię i głęboką satysfakcję ze wszystkiego, co udało Ci się osiągnąć.\n\nW pozycji odwróconej Świat sygnalizuje jednak niedomknięte sprawy, które wciąż ciągną się za Tobą. Te niepotrzebne przestoje i trudność z ostatecznym pożegnaniem minionego etapu blokują Twój rozwój. To jasny znak, że pora odciąć przeszłość grubą kreską i odważnie ruszyć naprzód."
+  },
+  {
+    "id": 22,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "wands",
+    "rank": "ace",
+    "image_path": "22.webp",
+    "name": "As Buław",
+    "keywords": [
+      "iskra",
+      "natchnienie",
+      "sprawczość"
+    ],
+    "meaning_upright": "Nowa iskra natchnienia i gotowość, by wykonać skok na głęboką wodę.",
+    "meaning_reversed": "Opóźnienia, brak wewnętrznego ognia lub gasnący zapał.",
+    "archetype": null,
+    "description": "As Buław to prawdziwy wulkan energii i karta, która zwiastuje nowy początek pełen pasji. Symbolizuje ona nagły przypływ sił, świeże natchnienie oraz gotowość do działania. Kiedy pojawia się w rozkładzie, przynosi ze sobą iskrę, która rozpala w nas odwagę do wykonania skoku na głęboką wodę. To moment, w którym czujemy ogromną sprawczość i wiarę we własne możliwości. Ta karta zachęca nas, by bez wahania chwycić nadarzającą się szansę i przekuć pomysły w czyny.\n\nW pozycji odwróconej As Buław ostrzega jednak przed utratą tego zapału. Może wskazywać na niespodziewane opóźnienia, brak wewnętrznego ognia lub sytuację, w której nasz entuzjazm zaczyna powoli gasnąć. To ważny sygnał, by na chwilę się zatrzymać i odnaleźć źródło swojej zagubionej motywacji."
+  },
+  {
+    "id": 23,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "wands",
+    "rank": "two",
+    "image_path": "23.webp",
+    "name": "Dwójka Buław",
+    "keywords": [
+      "obmyślanie",
+      "wybór drogi",
+      "dalekosiężne spojrzenie"
+    ],
+    "meaning_upright": "Czas na ustalenie kolejnych celów i śmiałe wyjście poza znane granice, by w pełni odzyskać sprawczość.",
+    "meaning_reversed": "Obawa przed nieznanym, która skłania do zbytniej zachowawczości, zamiast na skok na głęboką wodę, by zapewnić sobie przyszły urodzaj.",
+    "archetype": null,
+    "description": "Dwójka Buław to karta wielkich planów i osobistej siły. Przedstawia moment, w którym stoimy na progu nowych możliwości, trzymając w rękach cały świat i spoglądając daleko przed siebie. To idealny czas na obmyślanie kolejnych kroków oraz świadomy wybór nowej drogi. Karta ta niesie energię odwagi i dalekosiężnego spojrzenia, które pozwala nam śmiało wyjść poza dotychczasowe, znane granice. Zachęca, aby ustalić nowe cele i w pełni odzyskać sprawczość nad własnym losem.\n\nW pozycji odwróconej karta ostrzega przed paraliżującą obawą przed nieznanym. Taki lęk skłania nas do zbytniej zachowawczości i stania w miejscu. Zamiast zdecydować się na skok na głęboką wodę, który zapewniłby nam przyszły urodzaj, wybieramy pozorne bezpieczeństwo."
+  },
+  {
+    "id": 24,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "wands",
+    "rank": "three",
+    "image_path": "24.webp",
+    "name": "Trójka Buław",
+    "keywords": [
+      "ekspansja",
+      "postęp",
+      "pęd"
+    ],
+    "meaning_upright": "Czas szerokich horyzontów, wzrostu i zbierania pierwszych owoców swojej sprawczości. To moment, w którym po odważnym skoku na głęboką wodę widać już obiecujący urodzaj.",
+    "meaning_reversed": "Zastoje, utykające w martwym punkcie plany lub słomiany zapał, który nie pozwala dokończyć tego, co zaczęte.",
+    "archetype": null,
+    "description": "Trójka Buław to wyjątkowo dynamiczna karta, która symbolizuje ekspansję, stały postęp i niesamowity życiowy pęd. Pokazuje ona postać spoglądającą w dal na szeroki horyzont. To idealnie obrazuje moment, w którym po wcześniejszym, odważnym skoku na głęboką wodę zaczynasz wreszcie dostrzegać pierwsze, obiecujące owoce swojej sprawczości. Wszystkie Twoje plany w końcu nabierają silnego wiatru w żagle, dając satysfakcję oraz motywację do dalszego działania. \n\nJednak w pozycji odwróconej karta ta ostrzega przed bolesnym zastojem i utykaniem w martwym punkcie. Często wskazuje na słomiany zapał, który nie pozwala dokończyć tego, co zostało już z wielkim entuzjazmem zaczęte. To ważna lekcja cierpliwości i wytrwałości w dążeniu do wyznaczonego celu."
+  },
+  {
+    "id": 25,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "buławy",
+    "rank": "czwórka",
+    "image_path": "25.webp",
+    "name": "Czwórka Buław",
+    "keywords": [
+      "świętowanie",
+      "domowe ognisko",
+      "ważny etap"
+    ],
+    "meaning_upright": "Czas radosnego świętowania, osiągnięcie wewnętrznej stabilności oraz zwieńczenie trudu ważnym sukcesem.",
+    "meaning_reversed": "Napięta atmosfera w czterech ścianach lub uroczystość, która w obliczu okoliczności wydaje się zupełnie nie na miejscu.",
+    "archetype": null,
+    "description": "Czwórka Buław to jedna z najbardziej radosnych kart w tarocie, która emanuje ciepłem domowego ogniska i poczuciem bezpieczeństwa. Symbolizuje ważny etap w życiu, który właśnie udało się pomyślnie zakończyć. To czas, kiedy ciężka praca przynosi owoce, a my możemy wreszcie odetchnąć i cieszyć się chwilą w gronie najbliższych. Karta ta zapowiada radosne świętowanie, stabilizację oraz budowanie trwałych fundamentów na przyszłość. Pokazuje, że znaleźliśmy swoje bezpieczne miejsce na ziemi i osiągnęliśmy wewnętrzny spokój. \n\nJednak w pozycji odwróconej Czwórka Buław ostrzega przed zgrzytami w relacjach. Sugeruje napiętą atmosferę w czterech ścianach, brak porozumienia z bliskimi lub sztucznie wymuszoną radość. Czasem wskazuje na uroczystość, która w obliczu trudnych okoliczności wydaje się zupełnie nie na miejscu i zamiast łączyć, tylko pogłębia wzajemny dystans."
+  },
+  {
+    "id": 26,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "wands",
+    "rank": "five",
+    "image_path": "26.webp",
+    "name": "Piątka Buław",
+    "keywords": [
+      "rywalizacja",
+      "zgrzyty",
+      "sprawdzian"
+    ],
+    "meaning_upright": "Czas rywalizacji i ścierania się charakterów, z którego wykuwa się cenna lekcja. To moment, w którym musisz wykazać się sprawczością, by wyjść obronną ręką z chaosu.",
+    "meaning_reversed": "Ucieczka przed konfrontacją lub jałowe spory, które nie przynoszą żadnego urodzaju, a jedynie marnują energię.",
+    "archetype": null,
+    "description": "Piątka Buław to wyjątkowo dynamiczna karta, która zwiastuje czas próby i ognistych emocji. Na jej obrazie widzimy postacie ścierające się ze sobą. To symbol codziennej rywalizacji, zgrzytów i tarć, z których ostatecznie wykuwa się cenna lekcja. Taki życiowy sprawdzian zmusza nas do działania. Gdy karta pojawia się w pozycji prostej, oznacza, że z pozornego chaosu możesz wyjść obronną ręką. Warunkiem sukcesu jest jednak wykazanie się sprawczością i aktywne stawienie czoła wyzwaniom.\n\nW pozycji odwróconej karta ostrzega przed ucieczką przed konfrontacją lub wdawaniem się w jałowe spory. To czas, kiedy zamiast budować coś trwałego, niepotrzebnie marnujesz energię na konflikty, które nie przynoszą żadnego urodzaju ani satysfakcji."
+  },
+  {
+    "id": 27,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "wands",
+    "rank": "six",
+    "image_path": "27.webp",
+    "name": "Szóstka Buław",
+    "keywords": [
+      "uznanie",
+      "zwycięstwo",
+      "wewnętrzny spokój"
+    ],
+    "meaning_upright": "Czas zbierania owoców swojej pracy, poczucie sprawczości i zasłużone słowa uznania od otoczenia.",
+    "meaning_reversed": "Rozbuchane ego, brak wiary we własne siły lub wysiłek, który nie przyniósł oczekiwanego urodzaju.",
+    "archetype": null,
+    "description": "Szóstka Buław to karta triumfu, która przynosi radosną nowinę o zwycięstwie i zasłużonym sukcesie. Jej energia kojarzy się z dumnym powrotem bohatera, który zbiera owoce swojej pracy. Kiedy pojawia się w pozycji prostej, zwiastuje czas, w którym Twoje wysiłki zostaną dostrzeżone i docenione przez otoczenie. To moment, kiedy możesz poczuć głęboką satysfakcję oraz upragniony wewnętrzny spokój. Masz pełne prawo pękać z dumy, ponieważ ciężka praca przyniosła oczekiwany plon, a Ty odzyskujesz poczucie sprawczości.\n\nW pozycji odwróconej karta ta ostrzega przed pułapkami sukcesu. Może wskazywać na rozbuchane ego i pychę, bądź przeciwnie – na brak wiary we własne siły. Czasem oznacza też, że mimo starań wysiłek nie przyniósł oczekiwanego urodzaju."
+  },
+  {
+    "id": 28,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "wands",
+    "rank": "seven",
+    "image_path": "28.webp",
+    "name": "Siódemka Buław",
+    "keywords": [
+      "obrona",
+      "odwaga",
+      "granice"
+    ],
+    "meaning_upright": "Obrona własnego terytorium i odważne trwanie przy swoim w obliczu przeciwności.",
+    "meaning_reversed": "Poczucie osaczenia, rezygnacja z walki o swoje i brak wiary we własną sprawczość.",
+    "archetype": null,
+    "description": "Siódemka Buław to karta pełna ognistej energii i determinacji. Przedstawia moment, w którym musisz stawić czoła wyzwaniom i bronić tego, co dla Ciebie ważne. Choć przeciwności losu mogą wydawać się przytłaczające, karta ta niesie ze sobą przesłanie o odwadze i sile charakteru. Pokazuje, że masz przewagę, nawet jeśli stoisz pod presją innych. W pozycji prostej wzywa do wytyczenia jasnych granic i nieustępliwej obrony własnego terytorium. To znak, że warto wierzyć w swoje racje i twardo stać na ziemi, bez względu na krytykę.\n\nGdy karta pojawia się w pozycji odwróconej, sytuacja się zmienia. Może oznaczać poczucie osaczenia i zmęczenie ciągłą walką. Pojawia się wtedy pokusa rezygnacji i odpuszczenia swoich racji, a także bolesny brak wiary we własną sprawczość."
+  },
+  {
+    "id": 29,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "wands",
+    "rank": "eight",
+    "image_path": "29.webp",
+    "name": "Ósemka Buław",
+    "keywords": [
+      "tempo",
+      "ruch",
+      "wieści"
+    ],
+    "meaning_upright": "Pęd, dynamika i nagły obrót spraw, który sprzyja Twojej sprawczości.",
+    "meaning_reversed": "Zastoje, zamęt w komunikacji lub energia rozproszona między zbyt wiele spraw, zamiast wyczekiwanego urodzaju.",
+    "archetype": null,
+    "description": "Ósemka Buław to jedna z najbardziej dynamicznych kart w całym tarocie. Przedstawia osiem kijów lecących bez przeszkód przez powietrze, co symbolizuje błyskawiczne tempo, ruch i nadchodzące wielkimi krokami wieści. Ta karta przynosi ze sobą ogromny pęd oraz nagły obrót spraw, który doda Ci wiatru w żagle. Wszystko, co dotąd stało w miejscu, ruszy teraz z kopyta, dając Ci silne poczucie sprawczości.\n\nW pozycji odwróconej karta ostrzega jednak przed chaosem. Zamiast sukcesów możesz zderzyć się z przestojami lub poważnym zamętem w komunikacji. Łatwo wtedy rozproszyć energię na zbyt wiele spraw naraz, zamiast cieszyć się wyczekiwanym urodzajem. Zamiast iść naprzód, będziesz kręcić się w kółko."
+  },
+  {
+    "id": 30,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "wands",
+    "rank": "nine",
+    "image_path": "30.webp",
+    "name": "Dziewiątka Buław",
+    "keywords": [
+      "hart ducha",
+      "wytrwałość",
+      "czujność"
+    ],
+    "meaning_upright": "Niezłomność i zdolność do trwania przy swoim, nawet gdy siły powoli cię opuszczają.",
+    "meaning_reversed": "Wypalenie, nadmierna nieufność wobec świata lub uparte odrzucanie pomocnej dłoni.",
+    "archetype": null,
+    "description": "Dziewiątka Buław to karta, która symbolizuje niezwykły hart ducha, wytrwałość oraz czujność w obliczu życiowych zawirowań. Przedstawia postać zmęczoną walką, ale wciąż gotową do obrony swoich racji. To znak, że choć za Tobą trudne chwile, a siły powoli Cię opuszczają, masz w sobie dość energii, by przetrwać i postawić na swoim. Karta w pozycji prostej zachęca, aby nie poddawać się tuż przed linią mety i konsekwentnie bronić swoich granic.\n\nW pozycji odwróconej Dziewiątka Buław ostrzega przed całkowitym wypaleniem i uporem, który przynosi więcej szkody niż pożytku. Może wskazywać na nadmierną nieufność wobec świata oraz sytuację, w której ze strachu przed zranieniem uparcie odrzucasz pomocną dłoń. Czasem warto odpuścić kontrolę, aby zregenerować siły."
+  },
+  {
+    "id": 31,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "wands",
+    "rank": "ten",
+    "image_path": "31.webp",
+    "name": "Dziesiątka Buław",
+    "keywords": [
+      "brzemię",
+      "odpowiedzialność",
+      "presja"
+    ],
+    "meaning_upright": "Przytłaczająca odpowiedzialność i dźwiganie na barkach spraw, które przerosły Twoje siły.",
+    "meaning_reversed": "Umiejętność dzielenia się obowiązkami, zrzucenie ciężaru z ramion lub załamanie nerwowe pod naporem oczekiwań.",
+    "archetype": null,
+    "description": "Dziesiątka Buław to karta, która mówi o ogromnym zmęczeniu i brzemieniu, jakie dobrowolnie wziąłeś na swoje barki. Na klasycznym obrazie widzimy postać, która z trudem niesie pęk dziesięciu ciężkich kijów, zmierzając ku odległemu domowi. Ta karta symbolizuje sytuację, w której przytłacza Cię nadmiar obowiązków, a presja otoczenia staje się nie do zniesienia. Chociaż cel jest już bardzo blisko, Twoje siły fizyczne i psychiczne są na wyczerpaniu. To wyraźne ostrzeżenie przed braniem na siebie spraw, które przerosły Twoje możliwości.\n\nW pozycji odwróconej Dziesiątka Buław ma podwójne znaczenie. Może zwiastować upragnione zrzucenie ciężaru z ramion oraz cenną umiejętność dzielenia się obowiązkami. Czasami jednak wskazuje na nagłe załamanie nerwowe wywołane życiem pod ciągłą presją oczekiwań."
+  },
+  {
+    "id": 32,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "wands",
+    "rank": "page",
+    "image_path": "32.webp",
+    "name": "Paź Buław",
+    "keywords": [
+      "ciekawość",
+      "poszukiwania",
+      "wieści"
+    ],
+    "meaning_upright": "Budząca się ciekawość, gotowość do odkrywania nieznanego oraz nadejście wieści, które rozbudzą Twój zapał.",
+    "meaning_reversed": "Nieprzemyślane działanie, przestoje w sprawach lub rozmycie życiowego kursu.",
+    "archetype": null,
+    "description": "Paź Buław to karta pełna młodzieńczej energii, która symbolizuje iskrę inspiracji i gotowość do działania. Przedstawia postać z fascynacją wpatrującą się w zakwitający kij, co oznacza budzącą się ciekawość oraz gotowość do odkrywania nieznanego. To także zapowiedź nadejścia wieści, które rozbudzą Twój zapał i popchną Cię do nowych, ekscytujących poszukiwań. Karta zachęca, by z odwagą wyjść naprzeciw nadchodzącym przygodom.\n\nW pozycji odwróconej Paź Buław ostrzega przed nieprzemyślanym działaniem i słomianym zapałem. Może zwiastować nagłe przestoje w sprawach lub niepokojące rozmycie życiowego kursu. Zamiast działać pod wpływem chwilowego impulsu, warto wtedy na moment zwolnić, uporządkować myśli i spokojnie odnaleźć swój właściwy kierunek."
+  },
+  {
+    "id": 33,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "wands",
+    "rank": "knight",
+    "image_path": "33.webp",
+    "name": "Rycerz Buław",
+    "keywords": [
+      "przygoda",
+      "śmiałość",
+      "ruch"
+    ],
+    "meaning_upright": "Śmiałe działanie, poszukiwanie przygód i zdecydowany ruch naprzód.",
+    "meaning_reversed": "Brawura, zniecierpliwienie oraz brak konsekwencji w działaniu.",
+    "archetype": null,
+    "description": "Rycerz Buław to karta pełna ognia, pasji i dynamicznej energii. Symbolizuje młodzieńczą odwagę oraz gotowość do podjęcia natychmiastowego działania. Gdy pojawia się w rozkładzie, zwiastuje czas wielkich przygód, podróży i śmiałych decyzji. Ten jeździec nie czeka na idealny moment – on sam go tworzy, pędząc naprzód z podniesioną głową. To zaproszenie, by wyjść ze strefy komfortu i z ufnością rzucić się w wir nowych wyzwań. Karta ta zachęca do zdecydowanego ruchu i realizowania swoich marzeń bez wahania.\n\nJednocześnie niesie ona ważne ostrzeżenie. W pozycji odwróconej Rycerz Buław ukazuje brawurę, niecierpliwość oraz brak konsekwencji w działaniu. Przestrzega przed słomianym zapałem, który każe szybko porzucać zaczęte projekty. To znak, że warto czasem zwolnić, by niszczycielski pośpiech nie spalił naszych planów."
+  },
+  {
+    "id": 34,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "wands",
+    "rank": "queen",
+    "image_path": "34.webp",
+    "name": "Królowa Buław",
+    "keywords": [
+      "niezachwiana sprawczość",
+      "serdeczność",
+      "charyzma"
+    ],
+    "meaning_upright": "Wewnętrzna moc, bijące od niej ciepło oraz umiejętność prowadzenia innych za sobą.",
+    "meaning_reversed": "Poczucie zagubienia, ukryta zawiść lub rozpaczliwe łaknienie zainteresowania otoczenia.",
+    "archetype": null,
+    "description": "Królowa Buław to uosobienie żywiołu ognia, które przyciąga ludzi niczym magnes. Karta ta symbolizuje niezachwianą sprawczość, wyjątkową charyzmę oraz naturalną serdeczność. W pozycji prostej zwiastuje moment, w którym budzi się nasza wielka, wewnętrzna moc. Bije od niej niezwykłe ciepło, dzięki któremu potrafimy z wielką pasją prowadzić innych za sobą i zarażać ich swoim optymizmem. Pokazuje, że szczera wiara we własne możliwości otwiera przed nami każde drzwi.\n\nGdy jednak karta pojawia się w pozycji odwróconej, jej jasny płomień zaczyna gasnąć. Może wtedy oznaczać bolesne poczucie zagubienia, ukrytą zawiść lub rozpaczliwe łaknienie zainteresowania i uwagi ze strony otoczenia. To wyraźne ostrzeżenie, by odbudować swój autentyczny blask."
+  },
+  {
+    "id": 35,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "buławy",
+    "rank": "king",
+    "image_path": "35.webp",
+    "name": "Król Buław",
+    "keywords": [
+      "dalekosiężne plany",
+      "rzemiosło",
+      "odwaga"
+    ],
+    "meaning_upright": "Przywództwo oparte na jasnej wizji i pełna sprawczość w działaniu.",
+    "meaning_reversed": "Pochopność, nadmierna pewność siebie lub potrzeba narzucania innym własnej woli.",
+    "archetype": null,
+    "description": "Król Buław to uosobienie gorącej energii ognia, wielkiej odwagi oraz życiowego doświadczenia. Jako prawdziwy mistrz w swoim rzemiośle, bez cienia lęku snuje dalekosiężne plany i z pełnym przekonaniem spogląda w przyszłość. W pozycji prostej karta ta oznacza charyzmatyczne przywództwo oparte na jasnej wizji oraz pełną sprawczość w każdym podejmowanym działaniu. Pokazuje, że masz w sobie siłę, by realizować najśmielsze pomysły. Jednak w pozycji odwróconej Król Buław staje się ostrzeżeniem przed negatywną stroną tego żywiołu. Wskazuje wówczas na niepotrzebną pochopność, zgubną, nadmierną pewność siebie oraz silną potrzebę narzucania innym własnej woli za wszelką cenę. To ważna lekcja pokory, która uczy, jak mądrze zarządzać własną mocą."
+  },
+  {
+    "id": 36,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "cups",
+    "rank": "ace",
+    "image_path": "36.webp",
+    "name": "As Kielichów",
+    "keywords": [
+      "miłość",
+      "otwartość",
+      "odnowa"
+    ],
+    "meaning_upright": "Emocjonalny rozkwit, głębokie uczucie i gotowość na przyjęcie darów losu.",
+    "meaning_reversed": "Stłumione emocje, nieumiejętność otwarcia się na drugiego człowieka oraz brak wewnętrznej równowagi.",
+    "archetype": null,
+    "description": "As Kielichów to karta pełna czystej, radosnej energii, która symbolizuje nowy początek w sferze uczuć. Na karcie często widzimy przelewający się kielich – to znak, że nasze serce jest gotowe przyjąć i dawać miłość. Karta ta zapowiada emocjonalny rozkwit, głębokie uczucie oraz odnowę życiową. Kiedy pojawia się w pozycji prostej, przynosi obietnicę szczęścia i gotowości na dary losu. To idealny moment na otwarcie się na drugiego człowieka i zaufanie intuicji.\n\nW pozycji odwróconej As Kielichów ostrzega przed emocjonalnymi blokadami. Może oznaczać stłumione emocje, lęk przed zranieniem oraz nieumiejętność otwarcia się na innych. Często wskazuje na brak wewnętrznej równowagi, kiedy zamykamy się w sobie. To ważna wskazówka, by najpierw uleczyć własne serce."
+  },
+  {
+    "id": 37,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "cups",
+    "rank": "two",
+    "image_path": "37.webp",
+    "name": "Dwójka Kielichów",
+    "keywords": [
+      "porozumienie",
+      "partnerstwo",
+      "więź"
+    ],
+    "meaning_upright": "Harmonijne spotkanie dusz, partnerstwo oparte na zaufaniu i wzajemna wymiana dobra.",
+    "meaning_reversed": "Zaburzona równowaga, rozdźwięk w relacji lub narastające napięcie, które utrudnia szczere bycie razem.",
+    "archetype": null,
+    "description": "Dwójka Kielichów to karta symbolizująca głębokie porozumienie, narodziny bliskości oraz prawdziwe partnerstwo. Przedstawia ona harmonijne spotkanie dusz, w którym dwie strony dzielą się uczuciami bez lęku i barier. Jej energia niesie miłość, przyjaźń i wzajemne zaufanie. Pokazuje, jak z drobnego gestu rodzi się trwała więź oparta na równej wymianie dobra. W pozycji prostej zapowiada zgodę, udaną współpracę i czas pełnego otwarcia na drugiego człowieka.\n\nGdy jednak karta pojawia się w pozycji odwróconej, wskazuje na zaburzoną równowagę i bolesny rozdźwięk w relacji. Narastające napięcie, brak szczerości czy ciche dni utrudniają wtedy porozumienie. To znak, że więź potrzebuje uwagi, a ignorowane problemy oddalają nas od siebie i blokują szczere bycie razem."
+  },
+  {
+    "id": 38,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "cups",
+    "rank": "three",
+    "image_path": "38.webp",
+    "name": "Trójka Kielichów",
+    "keywords": [
+      "przyjaźń",
+      "biesiada",
+      "wspólnota"
+    ],
+    "meaning_upright": "Czas serdecznych spotkań, celebrowania więzi i autentycznej życzliwości między ludźmi.",
+    "meaning_reversed": "Zatracenie się w uciechach lub niepotrzebne swary w gronie bliskich osób.",
+    "archetype": null,
+    "description": "Trójka Kielichów to karta pełna radosnej energii, która symbolizuje przyjaźń, biesiadę i prawdziwą wspólnotę. Na jej obrazie widzimy radosny taniec i uniesione w górę puchary, co zapowiada czas serdecznych spotkań i celebrowania bliskich więzi. To moment, w którym dzielimy się szczęściem z innymi, a wokół nas panuje autentyczna życzliwość. Karta ta przypomina, jak ważne jest wsparcie przyjaciół i wspólne świętowanie nawet małych sukcesów.\n\nGdy jednak karta ta pojawia się w pozycji odwróconej, ostrzega przed utratą umiaru. Może oznaczać zbyt łatwe zatracenie się w uciechach życia kosztem codziennych obowiązków. Czasami wskazuje też na niepotrzebne swary i nieporozumienia w gronie bliskich osób, które niszczą dotychczasową harmonię. Warto wtedy zwolnić i zadbać o szczerość w relacjach."
+  },
+  {
+    "id": 39,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "cups",
+    "rank": "four",
+    "image_path": "39.webp",
+    "name": "Czwórka Kielichów",
+    "keywords": [
+      "apatia",
+      "zaduma",
+      "rachunek sumienia"
+    ],
+    "meaning_upright": "Stan wycofania, chwila zadumy nad życiem i krytyczne spojrzenie na dostępne ścieżki.",
+    "meaning_reversed": "Powrót dawnej pasji, odnalezienie w sobie sprawczości lub niespodziewany skok na głęboką wodę, który przyniesie urodzaj.",
+    "archetype": null,
+    "description": "Czwórka Kielichów to karta, która zatrzymuje nas w biegu i skłania do głębokiej refleksji. Jej energia przynosi stan wycofania, apatię oraz potrzebę zrobienia rachunku sumienia. Kiedy pojawia się w rozkładzie, często czujemy znużenie codziennością i zamykamy się w sobie, pogrążeni w zadumie nad własnym życiem. To moment, w którym dotychczasowe sukcesy tracą blask, a my z krytycyzmem patrzymy na dostępne ścieżki rozwoju. Karta symbolizuje czas emocjonalnego przestoju, niezbędny do odnalezienia właściwej drogi.\n\nW pozycji odwróconej przynosi ona jednak ożywczy powiew energii. Zwiastuje powrót dawnej pasji, odnalezienie w sobie sprawczości oraz niespodziewany skok na głęboką wodę, który przyniesie nam upragniony życiowy urodzaj."
+  },
+  {
+    "id": 40,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "cups",
+    "rank": "five",
+    "image_path": "40.webp",
+    "name": "Piątka Kielichów",
+    "keywords": [
+      "strata",
+      "żałoba",
+      "żal"
+    ],
+    "meaning_upright": "Strata, żałoba i rozpamiętywanie tego, co przepadło bezpowrotnie.",
+    "meaning_reversed": "Pogodzenie się z losem, uleczenie ran i dostrzeżenie tego, co wciąż pozwala na życiowy urodzaj.",
+    "archetype": null,
+    "description": "Piątka Kielichów to karta głębokich emocji, która symbolizuje stratę, żal i żałobę. Tradycyjnie przedstawia postać w ciemnym płaszczu, z smutkiem wpatrującą się w trzy rozlane kielichy. To obraz rozpamiętywania tego, co przepadło bezpowrotnie. Często tak bardzo skupiamy się na minionym bólu, że nie zauważamy dwóch pełnych kielichów, które wciąż stoją za naszymi plecami.\n\nKarta ta niesie jednak ukryte przesłanie nadziei. W pozycji odwróconej zwiastuje przełom – pogodzenie się z losem i uleczenie starych ran. To moment, w którym odwracamy się od przeszłości, by dostrzec to, co wciąż ma wartość i pozwala nam na nowo budować życiowy urodzaj. Czas smutku mija, ustępując miejsca nowej sile."
+  },
+  {
+    "id": 41,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "cups",
+    "rank": "six",
+    "image_path": "41.webp",
+    "name": "Szóstka Kielichów",
+    "keywords": [
+      "nostalgia",
+      "niewinność",
+      "wspomnienia"
+    ],
+    "meaning_upright": "Czas sentymentów, serdecznej życzliwości i powrotu do ciepłych wspomnień, które karmią duszę.",
+    "meaning_reversed": "Niezdrowa ucieczka w to, co minione, lub nadmierne upiększanie dawnych dni, co odbiera człowiekowi życiową sprawczość.",
+    "archetype": null,
+    "description": "Szóstka Kielichów to niezwykle ciepła karta, która przenosi nas w krainę dziecięcej niewinności i najsłodszych wspomnień. Jej energia pachnie domem i beztroskim dzieciństwem, przypominając nam o prostych radościach, które kiedyś rozświetlały nasze dni. W pozycji prostej karta ta zaprasza do powrotu do korzeni. To czas szczerej życzliwości, powrotu do ciepłych wspomnień i dzielenia się miłością, co wspaniale karmi naszą duszę i daje nam nową siłę.\n\nJednak w pozycji odwróconej karta ostrzega przed niezdrową ucieczką w to, co minione. Zamiast czerpać siłę z przeszłości, możemy przesadnie upiększać dawne dni i patrzeć na świat przez różowe okulary. Takie tkwienie w przeszłości odbiera nam życiową sprawczość i blokuje pójście naprzód, bo prawdziwe życie toczy się wyłącznie tu i teraz."
+  },
+  {
+    "id": 42,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "cups",
+    "rank": "seven",
+    "image_path": "42.webp",
+    "name": "Siódemka Kielichów",
+    "keywords": [
+      "wybory",
+      "marzenia",
+      "złudzenia"
+    ],
+    "meaning_upright": "Mnogość ścieżek, bujanie w obłokach i rozmyte priorytety.",
+    "meaning_reversed": "Przejrzystość, konkretna decyzja i odzyskanie skupienia.",
+    "archetype": null,
+    "description": "Siódemka Kielichów to karta pełna magii, ale i ważnych ostrzeżeń. Przedstawia moment, w którym stajemy przed wieloma kuszącymi możliwościami, jednak pamiętajmy, że nie wszystko, co się świeci, jest złotem. Ta karta symbolizuje bujanie w obłokach, marzenia oraz złudzenia, które mogą nam łatwo przesłonić rzeczywistość. W pozycji prostej oznacza ona wielość ścieżek, co często prowadzi do rozmytych priorytetów i problemów z podjęciem decyzji.\n\nZ kolei w pozycji odwróconej karta przynosi upragnioną przejrzystość. Mgła iluzji w końcu opada, a my odzyskujemy utracone skupienie. To idealny moment na podjęcie konkretnej decyzji i twarde stąpanie po ziemi. Karta ta uczy nas, jak odróżnić realne szanse od pustych obietnic i wybrać to, co naprawdę ważne."
+  },
+  {
+    "id": 43,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "cups",
+    "rank": "eight",
+    "image_path": "43.webp",
+    "name": "Ósemka Kielichów",
+    "keywords": [
+      "odchodzenie",
+      "poszukiwanie",
+      "transformacja"
+    ],
+    "meaning_upright": "Porzucenie dotychczasowej drogi w poszukiwaniu głębszego sensu i odzyskanie sprawczości.",
+    "meaning_reversed": "Lęk przed skokiem na głęboką wodę lub powrót do starego porządku po wyciągnięciu wniosków.",
+    "archetype": null,
+    "description": "Ósemka Kielichów to karta głębokiej transformacji, która mówi o odchodzeniu od tego, co już nam nie służy. Na poziomie emocjonalnym oznacza odważną decyzję o porzuceniu dotychczasowej drogi, nawet jeśli włożyliśmy w nią dużo wysiłku. Symbolizuje moment, w którym uświadamiamy sobie, że dotychczasowe osiągnięcia nie dają nam już szczęścia. Czas wyruszyć w nieznane, by podjąć poszukiwanie głębszego sensu i odzyskać życiową sprawczość.\n\nW pozycji odwróconej karta wskazuje na lęk przed skokiem na głęboką wodę i paraliżującą obawę przed zmianą. Może jednak oznaczać także powrót do starego porządku, ale na zupełnie nowych zasadach i po wyciągnięciu mądrych wniosków. To ważne wezwanie, by wreszcie wsłuchać się w swój wewnętrzny głos."
+  },
+  {
+    "id": 44,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "cups",
+    "rank": "nine",
+    "image_path": "44.webp",
+    "name": "Dziewiątka Kielichów",
+    "keywords": [
+      "spełnienie",
+      "pomyślność",
+      "radość"
+    ],
+    "meaning_upright": "Czas głębokiej satysfakcji, poczucie bycia w odpowiednim miejscu i urodzaj, o który tak długo zabiegałeś.",
+    "meaning_reversed": "Zbytni pobłażliwość dla własnych słabostek lub dojmujący brak sensu, mimo posiadania wszystkich wygód świata.",
+    "archetype": null,
+    "description": "Dziewiątka Kielichów, często nazywana kartą spełnienia marzeń, emanuje czystą radością i życiową pomyślnością. Jej wyjątkowa energia symbolizuje moment, w którym możesz z pełną satysfakcją odpocząć i cieszyć się owocami swojej pracy. To czas głębokiej satysfakcji oraz poczucia, że jesteś dokładnie w odpowiednim miejscu, otoczony urodzajem, o który tak długo zabiegałeś.\n\nW pozycji odwróconej ta sama karta niesie jednak ważne ostrzeżenie. Przestrzega przed zbytnią pobłażliwością dla własnych słabostek oraz egoizmem. Może wskazywać na dojmujący brak sensu i wewnętrzną pustkę, której nie da się niczym zapełnić, mimo posiadania wszystkich wygód świata. Przypomina, że prawdziwe szczęście płynie z wnętrza, a nie z samego posiadania rzeczy."
+  },
+  {
+    "id": 45,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "cups",
+    "rank": "ten",
+    "image_path": "45.webp",
+    "name": "Dziesiątka Kielichów",
+    "keywords": [
+      "harmonia",
+      "rodzina",
+      "radość"
+    ],
+    "meaning_upright": "Pełnia życia rodzinnego, głęboki spokój ducha i prawdziwy urodzaj uczuć.",
+    "meaning_reversed": "Domowy rozgardiasz, brak porozumienia z bliskimi lub życie w świecie płonnych nadziei.",
+    "archetype": null,
+    "description": "Dziesiątka Kielichów to wyjątkowa karta, która symbolizuje absolutną harmonię, rodzinną sielankę i czystą radość. Na tradycyjnym obrazku widzimy szczęśliwą rodzinę pod tęczą z dziesięciu pucharów, co zapowiada nadejście upragnionego spokoju. W pozycji prostej karta ta mówi o pełni życia rodzinnego i głębokim spokoju ducha. To czas, kiedy czujesz się bezpiecznie, a Twoje serce przepełnia miłość. Wszystkie spory odchodzą w niepamięć, ustępując miejsca zrozumieniu i prawdziwej bliskości.\n\nJednak w pozycji odwróconej karta ostrzega przed domowym rozgardiaszem i brakiem porozumienia z bliskimi. Może wskazywać na ciche dni lub życie w świecie płonnych nadziei i nierealnych oczekiwań. To jasny sygnał, że zamiast budować prawdziwe relacje, uciekasz w iluzje. Dziesiątka Kielichów przypomina, że prawdziwe szczęście wymaga szczerej rozmowy."
+  },
+  {
+    "id": 46,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "cups",
+    "rank": "page",
+    "image_path": "46.webp",
+    "name": "Paź Kielichów",
+    "keywords": [
+      "wieści",
+      "otwartość",
+      "niespodzianka"
+    ],
+    "meaning_upright": "Ciepłe wieści i szczera ciekawość świata, która pozwala zachować młodzieńczą sprawczość.",
+    "meaning_reversed": "Emocjonalna niedojrzałość, zagubienie lub mylące sygnały, które utrudniają skok na głęboką wodę.",
+    "archetype": null,
+    "description": "Paź Kielichów to karta pełna delikatności, która symbolizuje dziecięcą wrażliwość i otwartość na świat. Przedstawia młodzieńca zafascynowanego rybą wyłaniającą się z jego pucharu. To znak, że z głębi intuicji mogą nadejść niespodziewane, ciepłe wieści. W pozycji prostej karta ta przynosi radosne niespodzianki, a szczera ciekawość świata pozwala nam zachować młodzieńczą sprawczość i świeże spojrzenie. Kiedy jednak Paź Kielichów pojawia się w pozycji odwróconej, niesie ostrzeżenie. Wskazuje wtedy na emocjonalną niedojrzałość, zagubienie lub mylące sygnały z otoczenia. Te wewnętrzne blokady i brak pewności siebie skutecznie utrudniają nam odważny skok na głęboką wodę, przez co stoimy w miejscu, zamiast pójść za głosem serca."
+  },
+  {
+    "id": 47,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "cups",
+    "rank": "knight",
+    "image_path": "47.webp",
+    "name": "Rycerz Kielichów",
+    "keywords": [
+      "romans",
+      "zaproszenie",
+      "idealizm"
+    ],
+    "meaning_upright": "Czas na romantyczne uniesienia, serdeczne zaproszenia i ufne podążanie za głosem własnego serca.",
+    "meaning_reversed": "Chwiejność uczuć, bolesne rozczarowanie lub daremna pogoń za złudzeniami.",
+    "archetype": null,
+    "description": "Rycerz Kielichów to uosobienie wrażliwego marzyciela i posłańca dobrych wieści. Ta karta niesie ze sobą czystą energię miłości, zapowiadając czas na romantyczne uniesienia oraz serdeczne zaproszenia. Kiedy pojawia się w rozkładzie w pozycji prostej, zachęca do tego, by z pełną ufnością pójść za głosem własnego serca i śmiało realizować swój idealizm. To wspaniały moment na budowanie bliskości i szczerych relacji. \n\nJednak w pozycji odwróconej karta ta staje się ważnym ostrzeżeniem. Może wówczas wskazywać na chwiejność uczuć, bolesne rozczarowanie lub daremną pogoń za pięknymi złudzeniami. Przypomina nam, by nie ulegać ślepo pustym obietnicom i twardo stąpać po ziemi, chroniąc swoje wrażliwe serce przed bolesnym zranieniem."
+  },
+  {
+    "id": 48,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "puchary",
+    "rank": "królowa",
+    "image_path": "48.webp",
+    "name": "Królowa Kielichów",
+    "keywords": [
+      "empatia",
+      "intuicja",
+      "opiekuńczość"
+    ],
+    "meaning_upright": "Głęboka empatia, wsłuchanie się w głos intuicji oraz troskliwa opieka nad innymi.",
+    "meaning_reversed": "Emocjonalne przytłoczenie, uwikłanie w relacje lub nieumiejętność stawiania wyraźnych granic.",
+    "archetype": null,
+    "description": "Królowa Kielichów to uosobienie dojrzałej miłości, głębokiej empatii i niezwykłej intuicji. Ta karta emanuje ciepłą, uzdrawiającą energią wody, która symbolizuje świat naszych uczuć. Kiedy pojawia się w rozkładzie, zachęca do wsłuchania się w wewnętrzny głos i zaufania swoim przeczuciom. Jako opiekuńcza postać uczy nas, jak troszczyć się o innych i oferować im emocjonalne wsparcie bez oceniania.\n\nW pozycji odwróconej karta ta ostrzega przed emocjonalnym przytłoczeniem. Może wskazywać na sytuację, w której za bardzo uwikłaliśmy się w cudze problemy lub zapomnieliśmy o stawianiu wyraźnych granic. To przypomnienie, że aby skutecznie pomagać innym, musimy najpierw zadbać o własny spokój i odnaleźć wewnętrzną równowagę."
+  },
+  {
+    "id": 49,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "puchary",
+    "rank": "king",
+    "image_path": "49.webp",
+    "name": "Król Kielichów",
+    "keywords": [
+      "spokój",
+      "współczucie",
+      "równowaga"
+    ],
+    "meaning_upright": "Głębokie, opanowane współczucie oraz wewnętrzna równowaga ducha.",
+    "meaning_reversed": "Skłonność do emocjonalnej manipulacji lub tłumienie uczuć, które domagają się wyjścia na światło dzienne.",
+    "archetype": null,
+    "description": "Król Kielichów to uosobienie dojrzałości emocjonalnej i wewnętrznego spokoju. Karta ta przedstawia władcę, który doskonale panuje nad swoimi uczuciami, nie pozwalając, by nimi targały burze codziennego życia. Jego energia niesie ze sobą głębokie, opanowane współczucie oraz niezwykłą równowagę ducha. Pokazuje, że można być wrażliwym, a zarazem stanowić silne oparcie dla innych. W pozycji prostej karta ta zachęca do słuchania intuicji i kierowania się sercem, ale zawsze z zachowaniem zdrowego rozsądku. To symbol mądrego doradcy, który oferuje szczere wsparcie.\n\nW pozycji odwróconej Król ostrzega przed utratą tej harmonii. Wskazuje na skłonność do emocjonalnej manipulacji lub tłumienie uczuć, które usilnie domagają się wyjścia na światło dzienne. To ważny sygnał, że skrywane żale i udawana obojętność mogą niszczyć nasze relacje."
+  },
+  {
+    "id": 50,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "swords",
+    "rank": "ace",
+    "image_path": "50.webp",
+    "name": "As Mieczy",
+    "keywords": [
+      "jasność",
+      "prawda",
+      "przełom"
+    ],
+    "meaning_upright": "Moment absolutnej jasności, dotarcie do sedna prawdy i intelektualny przełom, który pozwala odciąć się od dawnych złudzeń.",
+    "meaning_reversed": "Stan zagubienia, mętlik w głowie lub podjęcie decyzji w oparciu o niepełne informacje, co prowadzi do błędnej oceny sytuacji.",
+    "archetype": null,
+    "description": "As Mieczy to karta czystej energii intelektu, która przynosi moment absolutnej jasności i prawdy. Symbolizuje potężną siłę umysłu, zdolną przeciąć wszelkie wątpliwości i iluzje niczym ostrym ostrzem. Kiedy pojawia się w rozkładzie w pozycji prostej, zwiastuje nagły przełom. To chwila, w której wszystko staje się oczywiste, a my zyskujemy odwagę, by spojrzeć prawdzie w oczy i odrzucić to, co nas do tej pory ograniczało.\n\nJednak w pozycji odwróconej karta ta ostrzega przed chaosem i mętlikiem w głowie. Może oznaczać, że podejmujemy ważne decyzje pod wpływem emocji lub na podstawie niepełnych informacji, co ostatecznie prowadzi do błędnej oceny sytuacji. As Mieczy przypomina nam, że prawdziwa siła tkwi w mądrości i jasnym myśleniu, które pozwala iść naprzód z podniesioną głową."
+  },
+  {
+    "id": 51,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "swords",
+    "rank": "two",
+    "image_path": "51.webp",
+    "name": "Dwójka Mieczy",
+    "keywords": [
+      "martwy punkt",
+      "konieczność wyboru",
+      "ucieczka od decyzji"
+    ],
+    "meaning_upright": "Czas zawieszenia, trudne wybory i naturalna potrzeba zachowania ostrożności w obliczu niepewności.",
+    "meaning_reversed": "Przełamanie apatii, wyjście z cienia na światło dzienne lub przytłoczenie nadmiarem spraw.",
+    "archetype": null,
+    "description": "Dwójka Mieczy symbolizuje moment zatrzymania i wewnętrznej blokady. Na karcie widzimy postać z zawiązanymi oczami i skrzyżowanymi mieczami. To klasyczny martwy punkt – sytuacja, w której ucieczka od decyzji wydaje się najwygodniejsza. Karta reprezentuje czas zawieszenia oraz trudne wybory. To naturalna potrzeba zachowania ostrożności w obliczu niepewności. Zamiast działać po omacku, instynktownie odcinamy się od świata, by w ciszy zważyć wszystkie za i przeciw.\n\nW pozycji odwróconej karta oznacza przełamanie apatii i wyjście z cienia na światło dzienne. Czasami jednak ten krok przynosi przytłoczenie nadmiarem spraw odkładanych na boczny tor. Dwójka Mieczy przypomina, że choć unikanie wyboru daje chwilową ulgę, ostatecznie i tak musimy zdjąć opaskę z oczu."
+  },
+  {
+    "id": 52,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "swords",
+    "rank": "three",
+    "image_path": "52.webp",
+    "name": "Trójka Mieczy",
+    "keywords": [
+      "złamane serce",
+      "głęboki żal",
+      "bolesna prawda"
+    ],
+    "meaning_upright": "Czas próby serca, przejmujący smutek i konfrontacja z trudną prawdą, której nie da się już dłużej wypierać.",
+    "meaning_reversed": "Powolne zabliźnianie ran, nauka wybaczenia sobie i innym oraz odwaga, by ruszyć przed siebie z nową sprawczością.",
+    "archetype": null,
+    "description": "Trójka Mieczy to niezwykle poruszająca karta, która symbolizuje złamane serce oraz głęboki żal. Jej energia zwiastuje czas próby serca, przejmujący smutek i konfrontację z bolesną prawdą, której nie da się już dłużej wypierać. Trzy miecze przebijające serce na tle deszczowych chmur przypominają, że czasem musimy doświadczyć rozczarowania, aby oczyścić swoje życie z iluzji.\n\nW pozycji odwróconej karta przynosi jednak upragnioną nadzieję. Oznacza powolne zabliźnianie ran oraz naukę wybaczenia sobie i innym. To moment, w którym odzyskujesz siły i odwagę, by ruszyć przed siebie z nową sprawczością. Choć blizny pozostaną, ból powoli mija, a Ty możesz na nowo budować swoją przyszłość ze spokojem w sercu."
+  },
+  {
+    "id": 53,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "swords",
+    "rank": "four",
+    "image_path": "53.webp",
+    "name": "Czwórka Mieczy",
+    "keywords": [
+      "odpoczynek",
+      "regeneracja",
+      "pauza"
+    ],
+    "meaning_upright": "Czas na zasłużony odpoczynek, regenerację sił i niezbędne wyciszenie.",
+    "meaning_reversed": "Wewnętrzny niepokój, niemożność znalezienia spokoju lub zbyt pospieszny powrót do codziennych zmagań.",
+    "archetype": null,
+    "description": "Czwórka Mieczy to karta, która przynosi upragnioną ulgę i zaprasza do zatrzymania się w biegu. Na poziomie symbolicznym reprezentuje ona czas na zasłużony odpoczynek oraz regenerację sił po trudnych zmaganiach. Kiedy pojawia się w rozkładzie w pozycji prostej, wysyła jasny sygnał, że Twoje ciało i umysł potrzebują wytchnienia. To idealny moment na niezbędne wyciszenie, odcięcie się od codziennego zgiełku oraz zebranie myśli przed kolejnymi wyzwaniami. Warto wtedy odłożyć troski na bok i dać sobie czas na złapanie oddechu.\n\nW pozycji odwróconej karta ta ostrzega przed wewnętrznym niepokojem i niemożnością znalezienia spokoju. Może wskazywać na zbyt pospieszny powrót do codziennych zmagań, zanim naprawdę odzyskasz siły. Pamiętaj, że bez regeneracji szybko stracisz energię do działania."
+  },
+  {
+    "id": 54,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "swords",
+    "rank": "five",
+    "image_path": "54.webp",
+    "name": "Piątka Mieczy",
+    "keywords": [
+      "konflikt",
+      "ego",
+      "pyrrusowe zwycięstwo"
+    ],
+    "meaning_upright": "Czas sporów i rozbuchanego ego, gdzie zwycięstwo smakuje goryczą, bo okupione zostało stratą relacji lub wartości.",
+    "meaning_reversed": "Oczyszczenie atmosfery, wygaszenie dawnych urazów i świadoma rezygnacja z niepotrzebnych potyczek.",
+    "archetype": null,
+    "description": "Piątka Mieczy to jedna z najtrudniejszych kart w tarocie, która niesie ze sobą ciężką energię konfliktu i starcia ego. Symbolizuje moment, w którym wygrana za wszelką cenę okazuje się tak naprawdę porażką. Kiedy ta karta pojawia się w rozkładzie, ostrzega przed walką, która niszczy relacje i przynosi jedynie pyrrusowe zwycięstwo. Choć możesz triumfować nad przeciwnikiem, w ustach pozostaje gorzki smak, ponieważ triumf ten został okupiony stratą zaufania i bliskości. To czas, kiedy duma bierze górę nad zdrowym rozsądkiem.\n\nW odwróconej pozycji karta przynosi jednak ulgę i oczyszczenie atmosfery. Pokazuje moment, w którym opada bitewny kurz, a dawne urazy wygasają. To czas, gdy świadomie rezygnujesz z niepotrzebnych potyczek, wybierając święty spokój zamiast racji."
+  },
+  {
+    "id": 55,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "swords",
+    "rank": "six",
+    "image_path": "55.webp",
+    "name": "Szóstka Mieczy",
+    "keywords": [
+      "przemiana",
+      "odzyskanie równowagi",
+      "opuszczanie przeszłości"
+    ],
+    "meaning_upright": "Czas na wewnętrzną przemianę, wyciszenie dawnych ran i spokojną przeprawę ku lepszym brzegom.",
+    "meaning_reversed": "Opór przed zmianą, ugrzęźnięcie w starych sprawach i nieumiejętność porzucenia emocjonalnego bagażu.",
+    "archetype": null,
+    "description": "Szóstka Mieczy symbolizuje spokojną podróż po życiowej burzy i powolne odzyskiwanie utraconej równowagi. Karta przedstawia przejście od trudnych chwil ku bezpieczniejszym, cichym wodom. To doskonały czas na głęboką wewnętrzną przemianę, wyciszenie dawnych ran oraz odważne opuszczenie bolesnej przeszłości. Niesie ona obietnicę spokojnej przeprawy ku znacznie lepszym brzegom i nowemu, spokojniejszemu etapowi w życiu.\n\nW pozycji odwróconej Szóstka Mieczy ostrzega przed silnym oporem wobec nadchodzących zmian oraz ugrzęźnięciem w dawnych sprawach. Pokazuje nieumiejętność porzucenia ciężkiego bagażu emocjonalnego, który nie pozwala ruszyć z miejsca. Zamiast płynąć naprzód, kurczowo trzymasz się starych schematów, co skutecznie blokuje Twój rozwój i uniemożliwia dostrzeżenie lepszych możliwości."
+  },
+  {
+    "id": 56,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "swords",
+    "rank": "seven",
+    "image_path": "56.webp",
+    "name": "Siódemka Mieczy",
+    "keywords": [
+      "strategia",
+      "tajemnica",
+      "unikanie"
+    ],
+    "meaning_upright": "Przemyślana strategia, sekrety i działanie okrężną drogą.",
+    "meaning_reversed": "Oczyszczenie sumienia, wyjście z cienia lub zmiana dotychczasowej taktyki.",
+    "archetype": null,
+    "description": "Siódemka Mieczy to wyjątkowa karta, która wnosi do Twojego życia aurę tajemnicy i sprytu. Reprezentuje ona energię przemyślanej strategii, sekrety oraz działanie okrężną drogą. Pokazuje, że czasem zamiast otwartej walki lepiej wybrać mądre unikanie bezpośredniego starcia i działać po cichu. To wyraźny znak, że musisz wykazać się sprytem, aby bezpiecznie osiągnąć swój cel.\n\nW pozycji odwróconej ta karta przynosi jednak wyczekiwaną ulgę i głęboki oddech. Symbolizuje moment, w którym decydujesz się na pełne oczyszczenie sumienia oraz odważne wyjście z cienia. To doskonały czas na porzucenie dawnych sekretów i całkowitą zmianę dotychczasowej taktyki. Zamiast uciekać przed problemami, zyskujesz siłę, by stawić im czoła z podniesioną głową i czystymi intencjami."
+  },
+  {
+    "id": 57,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "swords",
+    "rank": "eight",
+    "image_path": "57.webp",
+    "name": "Ósemka Mieczy",
+    "keywords": [
+      "pętanie się",
+      "lęk",
+      "własne kajdany"
+    ],
+    "meaning_upright": "Poczucie osaczenia, które wynika wyłącznie z lęku lub narzuconych sobie barier.",
+    "meaning_reversed": "Odzyskanie sprawczości, przejrzenie na oczy i zrzucenie ciężarów, które dotąd trzymały w ryzach.",
+    "archetype": null,
+    "description": "Ósemka Mieczy to karta, która symbolizuje pułapkę umysłu, lęk oraz paraliżujące poczucie bezsilności. Tradycyjnie przedstawia osobę ze związanymi rękami i opaską na oczach, otoczoną ostrymi ostrzami. Ta wymowna scena przypomina, że nasze największe ograniczenia i własne kajdany często tworzymy sami w swojej głowie. Poczucie osaczenia nie wynika zazwyczaj z realnego zagrożenia, ale z barier i lęków, które sami na siebie nakładamy, nie widząc wyjścia z sytuacji.\n\nGdy karta pojawia się w pozycji odwróconej, niesie ze sobą zapowiedź wyzwolenia. To moment, w którym wreszcie przejrzysz na oczy i odzyskasz utraconą sprawczość. Zrzucasz ciężary, które dotąd trzymały cię w ryzach, i uświadamiasz sobie, że ratunek był cały czas na wyciągnięcie ręki. To czas na odwagę, porzucenie czarnych scenariuszy i krok ku wolności."
+  },
+  {
+    "id": 58,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "swords",
+    "rank": "nine",
+    "image_path": "58.webp",
+    "name": "Dziewiątka Mieczy",
+    "keywords": [
+      "trwoga",
+      "dręczące myśli",
+      "bezsenność"
+    ],
+    "meaning_upright": "Głęboki niepokój, zamartwianie się i długie, nieprzespane noce pełne lęku.",
+    "meaning_reversed": "Nadchodząca ulga, poszukiwanie oparcia w drugim człowieku lub odważne spojrzenie w oczy własnym demonom.",
+    "archetype": null,
+    "description": "Dziewiątka Mieczy to jedna z najbardziej poruszających kart, która symbolizuje nasz wewnętrzny niepokój. Reprezentuje ona chwile, w których lęk przejmuje kontrolę nad naszym życiem. Karta ta niesie ze sobą głęboki niepokój, dręczące myśli oraz bezsenność podczas długich nocy pełnych trwogi. Wiszące nad głową miecze to nic innego jak nasze własne, czarne scenariusze i zamartwianie się, które więżą nas w pułapce umysłu i nie pozwalają zasnąć.\n\nGdy jednak karta pojawia się w pozycji odwróconej, niesie upragnioną ulgę. Zwiastuje koniec koszmaru i zachęca do szukania oparcia w drugim człowieku. To wezwanie do odważnego spojrzenia w oczy własnym demonom. Przebudzenie ze stanu lęku pozwala nam zrozumieć, że strach ma często tylko wielkie oczy, a nadchodzący dzień przynosi spokój."
+  },
+  {
+    "id": 59,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "swords",
+    "rank": "ten",
+    "image_path": "59.webp",
+    "name": "Dziesiątka Mieczy",
+    "keywords": [
+      "ostateczny kres",
+      "zdrada",
+      "uwolnienie"
+    ],
+    "meaning_upright": "Nieuchronny koniec, bolesne zderzenie z prawdą i niezbędne uwolnienie się od ciężaru.",
+    "meaning_reversed": "Powolna regeneracja, odzyskanie wewnętrznej odporności i gotowość na ponowne podniesienie się z kolan.",
+    "archetype": null,
+    "description": "Dziesiątka Mieczy to karta o potężnej, choć trudnej energii. Symbolizuje ostateczny kres, bolesne zderzenie z prawdą oraz dotkliwą zdradę, która zwala z nóg. Choć widok ostrzy budzi lęk, niesie on też głębokie uwolnienie. To jasny znak, że gorzej już być nie może, a najtrudniejszy etap masz już za sobą. Karta zmusza do odrzucenia złudzeń i zrzucenia ciężaru, który od dawna cię przytłaczał. Choć ten nieuchronny koniec bywa bolesny, ostatecznie oczyszcza przestrzeń i otwiera drzwi do nowego życia.\n\nW pozycji odwróconej karta przynosi upragnioną ulgę. Zwiastuje powolną regenerację sił i stopniowe odzyskiwanie wewnętrznej odporności. To moment, w którym rany zaczynają się goić, a ty czujesz gotowość, by ponownie podnieść się z kolan i iść dalej."
+  },
+  {
+    "id": 60,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "swords",
+    "rank": "page",
+    "image_path": "60.webp",
+    "name": "Paź Mieczy",
+    "keywords": [
+      "ciekawość",
+      "poszukiwanie prawdy",
+      "czujność"
+    ],
+    "meaning_upright": "Niepohamowana ciekawość, bezkompromisowe poszukiwanie prawdy oraz wyostrzona czujność umysłu.",
+    "meaning_reversed": "Sianie plotek, niepotrzebny pośpiech lub wyciąganie pochopnych wniosków bez głębszego namysłu.",
+    "archetype": null,
+    "description": "Paź Mieczy to karta pełna dynamicznej, wręcz elektryzującej energii, która symbolizuje rześki powiew świeżego powietrza w naszym życiu umysłowym. Reprezentuje młodzieńczą, niepohamowaną ciekawość świata oraz bezkompromisowe poszukiwanie prawdy za wszelką cenę. Kiedy pojawia się w rozkładzie w pozycji prostej, wskazuje na wyostrzoną czujność umysłu, gotowość do nauki oraz odważną obronę własnych przekonań. Zachęca nas, by trzymać rękę na pulsie i śmiało zadawać trudne pytania. Jednak w pozycji odwróconej ta sama karta ostrzega przed ciemną stroną bystrego rozumu. Może wtedy oznaczać sianie plotek, niepotrzebny pośpiech lub wyciąganie pochopnych wniosków bez głębszego namysłu. Przypomina nam, aby przed wypowiedzeniem ostrych słów zawsze najpierw dokładnie zbadać fakty."
+  },
+  {
+    "id": 61,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "swords",
+    "rank": "knight",
+    "image_path": "61.webp",
+    "name": "Rycerz Mieczy",
+    "keywords": [
+      "bezpośredniość",
+      "bystrość",
+      "determinacja"
+    ],
+    "meaning_upright": "Bezzwłoczne działanie, żwawość i trzeźwa ocena sytuacji.",
+    "meaning_reversed": "Pochopność, surowość w obejściu lub bezmyślny pęd przed siebie.",
+    "archetype": null,
+    "description": "Rycerz Mieczy to karta pełna dynamicznej energii, symbolizująca pędzący naprzód intelekt i determinację. Wojownik na galopującym koniu odzwierciedla gotowość do bezzwłocznego działania. Karta niesie przesłanie o bystrości umysłu oraz trzeźwej, chłodnej ocenie sytuacji. Gdy pojawia się w pozycji prostej, zwiastuje czas, w którym bezpośredniość i odwaga pomogą pokonać wszelkie przeszkody. To wezwanie, by bez wahania iść po swoje, ufając rozumowi.\n\nJednak ta sama siła w pozycji odwróconej ostrzega przed zgubnym pośpiechem. Może wskazywać na bezmyślny pęd przed siebie i działanie pod wpływem impulsu bez zważania na konsekwencje. Rycerz Mieczy w tym położeniu oznacza także surowość w obejściu i raniące słowa. Karta uczy, że bez refleksji i opanowania szybkie działanie prowadzi jedynie do chaosu."
+  },
+  {
+    "id": 62,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "swords",
+    "rank": "queen",
+    "image_path": "62.webp",
+    "name": "Królowa Mieczy",
+    "keywords": [
+      "przenikliwość",
+      "niezależność",
+      "klarowność umysłu"
+    ],
+    "meaning_upright": "Przenikliwość, niezależność i umiejętność stawiania jasnych granic.",
+    "meaning_reversed": "Chłód, rozgoryczenie lub słowa, które ranią niczym ostrze.",
+    "archetype": null,
+    "description": "Królowa Mieczy to uosobienie bystrego umysłu i niezależności. Na karcie widzimy postać trzymającą wzniesiony miecz – symbol prawdy i intelektu. Ta karta niesie energię niezwykłej przenikliwości. Pokazuje osobę, która potrafi chłodno ocenić sytuację, odrzucić emocje na bok i dotrzeć do samego sedna sprawy. Królowa Mieczy uczy nas, jak stawiać jasne granice oraz kierować się logiką, zachowując klarowność umysłu w każdej sytuacji.\n\nKiedy karta pojawia się w pozycji odwróconej, jej siła słabnie. Przenikliwość może wtedy zamienić się w chłód i cynizm. Karta ostrzega przed rozgoryczeniem, które sprawia, że ranimy innych. Nasze słowa stają się ostre niczym ostrze, przynosząc ból zamiast porozumienia. To przestroga, by nie odcinać się od innych ludzi."
+  },
+  {
+    "id": 63,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "swords",
+    "rank": "king",
+    "image_path": "63.webp",
+    "name": "Król Mieczy",
+    "keywords": [
+      "logika",
+      "autorytet",
+      "prawda"
+    ],
+    "meaning_upright": "Chłodny rozsądek, niepodważalny autorytet oraz dążenie do obiektywnej prawdy.",
+    "meaning_reversed": "Nadużywanie władzy, surowość wyroków lub krzywdzące, zamknięte na argumenty osądy.",
+    "archetype": null,
+    "description": "Król Mieczy to symbol potęgi umysłu, chłodnego rozsądku i niezłomnej sprawiedliwości. Na swoim tronie zasiada władca, który nie kieruje się emocjami, lecz czystą logiką i faktami. Jego energia uosabia niepodważalny autorytet oraz dążenie do obiektywnej prawdy, bez względu na okoliczności. Karta ta zachęca do jasnego myślenia, rzetelnej oceny sytuacji i podejmowania decyzji z zimną krwią. Pokazuje, że wiedza i intelekt są najlepszą bronią w walce z chaosem.\n\nGdy karta pojawia się w pozycji odwróconej, jej jasna energia ulega wypaczeniu. Ostrzega wtedy przed nadużywaniem władzy, bezwzględnością oraz surowością wyroków. Może wskazywać na osobę, która narzuca swoją wolę, wydając krzywdzące, zamknięte na argumenty osądy. To przestroga, by rozsądek nie zmienił się w zwykłe okrucieństwo."
+  },
+  {
+    "id": 64,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "pentacles",
+    "rank": "ace",
+    "image_path": "64.webp",
+    "name": "As Monet",
+    "keywords": [
+      "szansa",
+      "wzrost",
+      "zasoby"
+    ],
+    "meaning_upright": "Namacalna okazja i zalążek przyszłego urodzaju.",
+    "meaning_reversed": "Zmarnowana szansa lub brak oparcia w sprawczości, co prowadzi do budowania na piasku.",
+    "archetype": null,
+    "description": "As Monet to jedna z najbardziej pomyślnych kart w talii, symbolizująca nowy początek w świecie materialnym. Przedstawia dłoń wyłaniającą się z chmur, która trzyma wielką, złotą monetę – to czysta szansa, dar od losu, który pojawia się w naszym życiu. Karta ta niesie ze sobą potężną energię wzrostu oraz zapowiada nowe zasoby, zarówno finansowe, jak i osobiste. To namacalna okazja i zalążek przyszłego urodzaju, który wymaga jednak naszej pracy. Gdy pojawia się w rozkładzie, zachęca do siania ziarna pod przyszłe sukcesy.\n\nW pozycji odwróconej karta ostrzega przed utraconymi możliwościami. To często zmarnowana szansa lub brak oparcia w sprawczości, co prowadzi do budowania na piasku. Przypomina nam, że bez solidnych fundamentów i realnego działania nawet najlepszy plan runie."
+  },
+  {
+    "id": 65,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "pentacles",
+    "rank": "two",
+    "image_path": "65.webp",
+    "name": "Dwójka Monet",
+    "keywords": [
+      "równowaga",
+      "elastyczność",
+      "żonglerka"
+    ],
+    "meaning_upright": "Utrzymywanie równowagi między różnymi sprawami i umiejętne dopasowywanie się do zmieniających się warunków.",
+    "meaning_reversed": "Przeciążenie obowiązkami, brak umiaru lub zachwianie życiową harmonią.",
+    "archetype": null,
+    "description": "Dwójka Monet to karta pełna ruchu i życiowej energii, która symbolizuje codzienną żonglerkę naszymi obowiązkami. Przedstawia postać balansującą dwoma pentaklami, co idealnie oddaje potrzebę zachowania równowagi w dynamicznym świecie. Ta karta uczy nas elastyczności i pokazuje, jak z uśmiechem na twarzy dopasowywać się do ciągłych zmian, łącząc pracę, finanse i życie prywatne. W pozycji prostej niesie przesłanie, że potrafisz świetnie radzić sobie z wieloma sprawami naraz, zachowując przy tym spokój ducha.\n\nJednak kiedy karta pojawia się w pozycji odwróconej, staje się ostrzeżeniem przed przeciążeniem obowiązkami. To jasny sygnał, że tracisz grunt pod nogami, brakuje Ci umiaru i grozi Ci poważne zachwianie życiową harmonią. Czas wtedy zwolnić, ustalić priorytety i odzyskać kontrolę nad własnym losem."
+  },
+  {
+    "id": 66,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "pentacles",
+    "rank": "three",
+    "image_path": "66.webp",
+    "name": "Trójka Monet",
+    "keywords": [
+      "wspólne działanie",
+      "kunszt",
+      "zdobywanie wprawy"
+    ],
+    "meaning_upright": "Harmonijna współpraca, doskonalenie rzemiosła oraz zdobywanie sprawczości poprzez codzienną praktykę.",
+    "meaning_reversed": "Brak porozumienia, lekceważenie detali lub praca wykonywana bez należytej staranności.",
+    "archetype": null,
+    "description": "Trójka Monet to wyjątkowa karta, która symbolizuje fundamenty sukcesu budowane przez wspólną pracę i ciągły rozwój. Na poziomie energii reprezentuje ona moment, w którym nasze plany zaczynają nabierać realnych kształtów dzięki zaangażowaniu i dbałości o szczegóły. Pokazuje, że wielkie rzeczy rzadko powstają w pojedynkę.\n\nW pozycji prostej karta ta oznacza harmonijną współpracę oraz czas, w którym codzienna praktyka i szlifowanie rzemiosła przynoszą widoczne rezultaty. Uczymy się fachu i zyskujemy realną sprawczość. Kiedy jednak karta pojawia się w pozycji odwróconej, ostrzega przed brakiem porozumienia, pośpiechem lub wykonywaniem pracy bez należytej staranności. To przypomnienie, że każdy sukces wymaga cierpliwości, uwagi i szacunku do detali."
+  },
+  {
+    "id": 67,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "pentacles",
+    "rank": "four",
+    "image_path": "67.webp",
+    "name": "Czwórka Monet",
+    "keywords": [
+      "poczucie bezpieczeństwa",
+      "nadmierna kontrola",
+      "kurczowe trzymanie się stanu posiadania"
+    ],
+    "meaning_upright": "Poczucie bezpieczeństwa, silna potrzeba kontroli oraz dbałość o to, co już udało się zgromadzić.",
+    "meaning_reversed": "Gotowość do odpuszczenia lub paraliżujący strach przed utratą majątku, który zaczyna rządzić podejmowanymi decyzjami.",
+    "archetype": null,
+    "description": "Czwórka Monet to karta, która skupia się wokół potrzeby stabilizacji i ochrony tego, co już udało nam się zdobyć. Jej energia przynosi upragnione poczucie bezpieczeństwa, ale niesie też ostrzeżenie przed nadmierną kontrolą. Kiedy kurczowo trzymamy się stanu posiadania, łatwo możemy zamknąć się na świat i nowe możliwości. Karta ta symbolizuje budowanie silnych fundamentów, ale też strach przed ich utratą. \n\nW pozycji odwróconej Czwórka Monet zwiastuje gotowość do odpuszczenia i otwarcia się na innych. Czasem jednak wskazuje na paraliżujący lęk przed biedą, który zaczyna rządzić wszystkimi naszymi decyzjami. To przypomnienie, że prawdziwy spokój ducha pojawia się dopiero wtedy, gdy przestajemy na siłę kontrolować rzeczywistość."
+  },
+  {
+    "id": 68,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "pentacles",
+    "rank": "five",
+    "image_path": "68.webp",
+    "name": "Piątka Monet",
+    "keywords": [
+      "trudności",
+      "niedostatek",
+      "poszukiwanie pomocy"
+    ],
+    "meaning_upright": "Czas prób, dotkliwy brak oraz pilna potrzeba znalezienia oparcia w innych.",
+    "meaning_reversed": "Powolne odzyskiwanie sprawczości, nadejście nieoczekiwanej pomocy i stopniowy urodzaj po okresie chudych lat.",
+    "archetype": null,
+    "description": "Piątka Monet to karta symbolizująca trudny czas, gdy zmagamy się z dotkliwym brakiem i poczuciem osamotnienia. Jej energia niesie chłód i niepewność, obrazując kryzys materialny lub emocjonalny. W pozycji prostej wskazuje na czas ciężkich prób, kiedy duma musi ustąpić miejsca pokorze. Przypomina, że zamiast zamykać się w sobie, warto szukać oparcia w innych, bo pomoc często jest tuż obok.\n\nOdwrócona karta przynosi jednak upragnioną nadzieję i zwiastuje powolne wychodzenie na prostą. Oznacza stopniowe odzyskiwanie kontroli nad życiem oraz nadejście nieoczekiwanego wsparcia. Chude lata powoli mijają, ustępując miejsca lepszemu jutru. Piątka Monet uczy nas, że nawet najgłębszy kryzys jest tylko etapem, po którym zawsze przychodzi poprawa."
+  },
+  {
+    "id": 69,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "pentacles",
+    "rank": "six",
+    "image_path": "69.webp",
+    "name": "Szóstka Monet",
+    "keywords": [
+      "hojność",
+      "wzajemność",
+      "uczciwość"
+    ],
+    "meaning_upright": "Dzielenie się zasobami z autentyczną troską, oparta na sprawiedliwości wymiana dóbr i energii.",
+    "meaning_reversed": "Ukryte intencje, wykorzystywanie drugiego człowieka lub zaburzona równowaga w dawaniu i braniu.",
+    "archetype": null,
+    "description": "Szóstka Monet to karta, która wnosi do naszego życia energię równowagi, hojności i głębokiej uczciwości. Symbolizuje moment, w którym dzielimy się swoimi zasobami z autentyczną troską o drugiego człowieka. To piękna lekcja o tym, że dawanie i branie powinny iść w parze, tworząc sprawiedliwą wymianę energii. Kiedy karta pojawia się w pozycji prostej, zaprasza nas do bezinteresownego wspierania innych oraz do przyjmowania pomocy z wdzięcznością.\n\nJednak w pozycji odwróconej Szóstka Monet staje się ostrzeżeniem. Pokazuje sytuacje, w których pod płaszczykiem dobroczynności kryją się ukryte intencje i chęć manipulacji. Przypomina o zaburzonej równowadze, gdy jedna strona bierze zbyt wiele, a druga czuje się wykorzystywana. Karta ta uczy nas, jak budować zdrowe i uczciwe relacje."
+  },
+  {
+    "id": 70,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "pentacles",
+    "rank": "seven",
+    "image_path": "70.webp",
+    "name": "Siódemka Monet",
+    "keywords": [
+      "cierpliwość",
+      "długofalowe starania",
+      "refleksja"
+    ],
+    "meaning_upright": "Czas cierpliwego czekania na plony, sumienne dbanie o swoje zasoby i spokojna ocena dotychczasowej sprawczości.",
+    "meaning_reversed": "Niecierpliwość, gorączkowe poszukiwanie efektów lub zwątpienie w sens podjętego skoku na głęboką wodę, które hamuje przyszły urodzaj.",
+    "archetype": null,
+    "description": "Siódemka Monet to karta zatrzymania, refleksji i cichej pracy. Przedstawia ogrodnika, który opiera się na narzędziu i patrzy na dojrzewające owoce swojego trudu. To symbol cierpliwości oraz długofalowych starań, przypominający, że na prawdziwy sukces trzeba po prostu zapracować. W pozycji prostej karta zapowiada czas spokojnego czekania na plony. To doskonały moment na sumienne dbanie o swoje zasoby i docenienie własnej skuteczności. \n\nZ kolei w pozycji odwróconej karta ostrzega przed zgubną niecierpliwością. Gorączkowe poszukiwanie natychmiastowych efektów oraz zwątpienie w sens wcześniej podjętych decyzji mogą zepsuć to, co zasiałeś, i zablokować przyszły urodzaj. Nie wykonuj gwałtownych ruchów i pozwól sprawom dojrzeć w ich własnym, naturalnym tempie."
+  },
+  {
+    "id": 71,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "pentacles",
+    "rank": "eight",
+    "image_path": "71.webp",
+    "name": "Ósemka Monet",
+    "keywords": [
+      "praktyka",
+      "rzemiosło",
+      "wytrwałość"
+    ],
+    "meaning_upright": "Nieustanne szlifowanie warsztatu, oddanie pracy i dążenie do mistrzostwa.",
+    "meaning_reversed": "Pójście na łatwiznę, brak pasji lub znużenie codzienną rutyną.",
+    "archetype": null,
+    "description": "Ósemka Monet to karta, która emanuje energią spokojnej, ale rzetelnej pracy. Przedstawia rzemieślnika, który z cierpliwością tworzy monety, wkładając w nie całe serce. To symbol szlifowania warsztatu, oddania pasji oraz dążenia do doskonałości krok po kroku. W pozycji prostej uczy nas, że sukces jest owocem wytrwałości i skupienia na szczegółach. Zachęca, by rozwijać talenty z dumą i zaangażowaniem.\n\nKiedy karta pojawia się w pozycji odwróconej, ostrzega przed pójściem na łatwiznę. Sygnalizuje, że w nasze działania wkradło się znużenie codzienną rutyną lub brak pasji. To znak, że chcemy osiągnąć cel bez należytego wysiłku. Karta przypomina wtedy, jak ważne jest odnalezienie sensu w pracy i powrót do rzetelnego działania u podstaw."
+  },
+  {
+    "id": 72,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "pentacles",
+    "rank": "nine",
+    "image_path": "72.webp",
+    "name": "Dziewiątka Monet",
+    "keywords": [
+      "niezależność",
+      "komfort",
+      "poczucie własnej wartości"
+    ],
+    "meaning_upright": "Samodzielność, wygoda i zdrowy szacunek do własnych dokonań. Czas, w którym czerpiesz pełnymi garściami z własnej sprawczości.",
+    "meaning_reversed": "Zbytnie oglądanie się na innych lub wewnętrzny niepokój, który nie pozwala w pełni cieszyć się osiągniętym urodzajem.",
+    "archetype": null,
+    "description": "Dziewiątka Monet to karta osobistego sukcesu, spokoju i materialnego bezpieczeństwa. Przedstawia moment, w którym Twoja ciężka praca przynosi upragnione owoce, a Ty możesz wreszcie odetchnąć i cieszyć się życiem. Symbolizuje niezależność oraz głębokie poczucie własnej wartości. Kiedy pojawia się w rozkładzie, zwiastuje czas wygody i zasłużonego odpoczynku. Pokazuje, że potrafisz zadbać o siebie bez oglądania się na pomoc innych. To doskonały moment, by z dumnie podniesioną głową czerpać pełnymi garściami z własnej sprawczości i docenić drogę, którą udało Ci się pokonać.\n\nW pozycji odwróconej karta ta ostrzega przed wewnętrznym niepokojem, który psuje radość z sukcesu. Czasem sugeruje, że za bardzo przejmujesz się opinią innych ludzi, zamiast skupić się na własnym szczęściu. Przypomina, by nie rezygnować z wolności na rzecz chwilowego uznania."
+  },
+  {
+    "id": 73,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "pentacles",
+    "rank": "ten",
+    "image_path": "73.webp",
+    "name": "Dziesiątka Monet",
+    "keywords": [
+      "dziedzictwo",
+      "rodzina",
+      "urodzaj"
+    ],
+    "meaning_upright": "Trwałe dziedzictwo, rodzinna przystań oraz poczucie bezpieczeństwa budowane przez pokolenia.",
+    "meaning_reversed": "Pęknięcia w fundamentach domu lub napięcia w relacjach z bliskimi.",
+    "archetype": null,
+    "description": "Dziesiątka Monet to wyjątkowa karta z Małych Arkanów, która niesie ze sobą energię wielkiej obfitości, stabilizacji i życiowego spełnienia. W pozycji prostej symbolizuje trwałe dziedzictwo, bezpieczną rodzinną przystań oraz głębokie poczucie bezpieczeństwa budowane troskliwie przez całe pokolenia. To zapowiedź prawdziwego urodzaju, w którym materialny dostatek harmonijnie łączy się z emocjonalnym ciepłem domowego ogniska. Pokazuje nam, że codzienne wysiłki przynoszą trwałe owoce. Jednak ta sama karta w pozycji odwróconej ujawnia nagłe pęknięcia w solidnych fundamentach domu. Ostrzega przed bolesnymi napięciami w relacjach z bliskimi, konfliktami o pieniądze lub samotnością. Przypomina wtedy, że prawdziwego szczęścia i miłości nie da się kupić za żadne skarby świata."
+  },
+  {
+    "id": 74,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "pentacles",
+    "rank": "page",
+    "image_path": "74.webp",
+    "name": "Paź Monet",
+    "keywords": [
+      "nauka",
+      "szansa",
+      "planowanie"
+    ],
+    "meaning_upright": "Czas zdobywania wiedzy, pojawienie się nowej szansy oraz rzetelne planowanie prowadzące do życiowego urodzaju.",
+    "meaning_reversed": "Ociąganie się z podjęciem decyzji lub słomiany zapał, który osłabia twoją sprawczość.",
+    "archetype": null,
+    "description": "Paź Monet to karta, która wnosi do Twojego życia powiew świeżej energii i zapowiedź nowych możliwości. Symbolizuje ona młodość ducha, ciekawość świata oraz chęć do nauki. Na płaszczyźnie materialnej zwiastuje doskonały czas na zdobywanie wiedzy i rzetelne planowanie przyszłości. Kiedy pojawia się w rozkładzie, przynosi realną szansę na sukces, która przy odpowiednim zaangażowaniu doprowadzi Cię do życiowego urodzaju. To idealny moment, aby zasiać ziarno pod przyszłe plany.\n\nW pozycji odwróconej karta ostrzega jednak przed słomianym zapałem, który szybko gasi początkowy entuzjazm. Może też wskazywać na niepotrzebne ociąganie się z podjęciem ważnych decyzji. Taka postawa wyraźnie osłabia Twoją sprawczość i sprawia, że dobre okazje uciekają sprzed nosa."
+  },
+  {
+    "id": 75,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "pentacles",
+    "rank": "knight",
+    "image_path": "75.webp",
+    "name": "Rycerz Monet",
+    "keywords": [
+      "niezachwianie",
+      "rutyna",
+      "niezawodność"
+    ],
+    "meaning_upright": "Sprawczość przejawiająca się w nieustannym dążeniu do celu i solidnej, rzetelnej pracy.",
+    "meaning_reversed": "Zastój wywołany lękiem przed zmianą lub bezmyślne trwanie w skostniałych nawykach.",
+    "archetype": null,
+    "description": "Rycerz Monet to symbol niezwykłej wytrwałości i rzetelnej pracy. Przedstawia postać, która nie szuka poklasku ani nagłych zrywów, lecz krok po kroku, z niezachwianym spokojem dąży do celu. Jego energia niesie ze sobą niezawodność i rutynę, która zamiast nudzić, daje upragnione poczucie bezpieczeństwa. W pozycji prostej karta ta zapowiada czas, w którym Twoje zaangażowanie i twarde stąpanie po ziemi przyniosą realne owoce. To jasny sygnał, że wielkie rzeczy buduje się powoli i systematycznie.\n\nJednak ta sama stałość może stać się pułapką. Gdy karta pojawia się w pozycji odwróconej, ostrzega przed bezmyślnym trwaniem w skostniałych nawykach. Lęk przed zmianą paraliżuje wtedy działanie i prowadzi do uciążliwego zastoju. Bezpieczna przystań zamienia się w klatkę, która skutecznie blokuje Twój dalszy rozwój."
+  },
+  {
+    "id": 76,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "pentacles",
+    "rank": "queen",
+    "image_path": "76.webp",
+    "name": "Królowa Monet",
+    "keywords": [
+      "opieka",
+      "praktyczność",
+      "dom"
+    ],
+    "meaning_upright": "Zaradność, dbałość o codzienny komfort i troskliwe budowanie trwałego urodzaju.",
+    "meaning_reversed": "Brak równowagi między życiem zawodowym a domowym lub zaniedbanie własnych potrzeb.",
+    "archetype": null,
+    "description": "Królowa Monet to uosobienie życiowej mądrości, opieki i domowego ogniska. Ta karta symbolizuje osobę, która mocno stąpa po ziemi, potrafi zadbać o bliskich i stworzyć bezpieczną przestrzeń pełną obfitości. W pozycji prostej wskazuje na niezwykłą zaradność, dbałość o codzienny komfort oraz troskliwe budowanie trwałego urodzaju. Uczy nas, jak cieszyć się prostymi przyjemnościami i dbać o stabilność finansową z lekkim sercem.\n\nGdy karta pojawia się w pozycji odwróconej, ostrzega przed utratą harmonii. Może oznaczać wyraźny brak równowagi między pracą a życiem domowym lub głębokie zaniedbanie własnych potrzeb na rzecz innych. To przypomnienie, że aby skutecznie troszczyć się o bliskich, musimy najpierw zadbać o siebie i swój własny spokój."
+  },
+  {
+    "id": 77,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "pentacles",
+    "rank": "king",
+    "image_path": "77.webp",
+    "name": "Król Monet",
+    "keywords": [
+      "urodzaj",
+      "stabilność",
+      "żywiciel"
+    ],
+    "meaning_upright": "Czas prawdziwego urodzaju, życiowej stabilności i troski o bezpieczeństwo swoich bliskich.",
+    "meaning_reversed": "Nadmierne przywiązanie do spraw materialnych lub używanie majątku jako narzędzia do wywierania nacisku na innych.",
+    "archetype": null,
+    "description": "Król Monet to symbol życiowego sukcesu, dojrzałości i bezpieczeństwa. Karta ta przedstawia osobę, która dzięki mądrości i pracy osiągnęła stabilność finansową oraz życiową. To prawdziwy żywiciel rodziny, dbający o spokój bliskich. W pozycji prostej karta zapowiada czas prawdziwego urodzaju i harmonii. Pokazuje, że Twoje wysiłki przynoszą owoce, a Ty możesz cieszyć się życiem w bezpiecznym otoczeniu. To idealny moment na budowanie trwałych fundamentów na przyszłość.\n\nW pozycji odwróconej karta ostrzega jednak przed nadmiernym przywiązaniem do spraw materialnych. Może wskazywać na używanie majątku lub władzy jako narzędzia do wywierania nacisku na innych i kontrolowania otoczenia. Przypomina, że prawdziwe bogactwo kryje się w relacjach, a nie tylko w portfelu."
+  }
+]

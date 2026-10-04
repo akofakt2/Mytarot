@@ -42,6 +42,13 @@
                     <p>{{ card.meaning_reversed }}</p>
                 </section>
 
+
+                <section class="tarot-cta-box">
+                    <a href="/" class="tarot-button">
+                        {{ ui.cta }}
+                    </a>
+                </section>
+
                 {% if card.description %}
                 <section class="card-section">
                     <h2>{{ ui.card_section_description }}</h2>
@@ -74,11 +81,7 @@
                 <span class="pager-muted">—</span>
                 {% endif %}
             </nav>
-                <div class="tarot-cta-box">
-                    <a href="/" class="tarot-button">
-                        {{ ui.cta }}
-                    </a>
-                </div>
+
             <section class="all-cards-nav" aria-label="{{ ui.all_cards_aria }}">
                 <h2 class="all-cards-heading">{{ ui.all_cards_heading }}</h2>
                 <ul class="all-cards-list">

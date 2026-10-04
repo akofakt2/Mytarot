@@ -1,1410 +1,1406 @@
-{
-  "version": 2,
-  "locale": "en",
-  "cards": [
-    {
-      "id": 0,
-      "arcana": "major",
-      "number": 0,
-      "suit": null,
-      "rank": null,
-      "image_path": "0.webp",
-      "name": "The Fool",
-      "keywords": [
-        "new beginnings",
-        "innocence",
-        "taking a risk"
-      ],
-      "meaning_upright": "A fresh start, being open to change, and trusting the process.",
-      "meaning_reversed": "Being careless, acting without thinking, or fear of starting.",
-      "archetype": "The Seeker",
-      "description": "Moving into something new with an open mind and curiosity."
-    },
-    {
-      "id": 1,
-      "arcana": "major",
-      "number": 1,
-      "suit": null,
-      "rank": null,
-      "image_path": "1.webp",
-      "name": "The Magician",
-      "keywords": [
-        "will",
-        "skill",
-        "taking action"
-      ],
-      "meaning_upright": "You have the ability and tools to reach your goals. It is a time to take action.",
-      "meaning_reversed": "You are not focused. You may be using your skills in a negative way or not using your talents at all.",
-      "archetype": "The Creator",
-      "description": "Using your tools and focus to make changes happen."
-    },
-    {
-      "id": 2,
-      "arcana": "major",
-      "number": 2,
-      "suit": null,
-      "rank": null,
-      "image_path": "2.webp",
-      "name": "The High Priestess",
-      "keywords": [
-        "intuition",
-        "mystery",
-        "inner voice"
-      ],
-      "meaning_upright": "Trust your feelings, look for deep understanding, and notice things that are hidden.",
-      "meaning_reversed": "Ignoring your feelings, feeling confused, or keeping secrets for too long.",
-      "archetype": "The Wise Guide",
-      "description": "A calm reminder to look beyond what you see on the outside."
-    },
-    {
-      "id": 3,
-      "arcana": "major",
-      "number": 3,
-      "suit": null,
-      "rank": null,
-      "image_path": "3.webp",
-      "name": "The Empress",
-      "keywords": [
-        "care",
-        "plenty",
-        "growth"
-      ],
-      "meaning_upright": "Taking care of things, being creative, and having plenty.",
-      "meaning_reversed": "Difficulty creating, lack of care, or depending too much on others.",
-      "archetype": "The Mother",
-      "description": "Love, beauty, and the ability to help things grow."
-    },
-    {
-      "id": 4,
-      "arcana": "major",
-      "number": 4,
-      "suit": null,
-      "rank": null,
-      "image_path": "4.webp",
-      "name": "The Emperor",
-      "keywords": [
-        "structure",
-        "leadership",
-        "stability"
-      ],
-      "meaning_upright": "Good organization, leadership, and a strong foundation.",
-      "meaning_reversed": "Being too strict, problems with control, or weak leadership.",
-      "archetype": "The Ruler",
-      "description": "Creating order and safety by setting clear rules."
-    },
-    {
-      "id": 5,
-      "arcana": "major",
-      "number": 5,
-      "suit": null,
-      "rank": null,
-      "image_path": "5.webp",
-      "name": "The Hierophant",
-      "keywords": [
-        "tradition",
-        "education",
-        "beliefs"
-      ],
-      "meaning_upright": "Following traditions, learning from a teacher, and shared values.",
-      "meaning_reversed": "Ignoring traditions, personal freedom, and questioning rules.",
-      "archetype": "The Teacher",
-      "description": "Learning through established systems and groups."
-    },
-    {
-      "id": 6,
-      "arcana": "major",
-      "number": 6,
-      "suit": null,
-      "rank": null,
-      "image_path": "6.webp",
-      "name": "The Lovers",
-      "keywords": [
-        "choice",
-        "partnership",
-        "shared values"
-      ],
-      "meaning_upright": "A strong partnership, an important choice, and agreement between people.",
-      "meaning_reversed": "Disagreement, poor choices, or fear of a serious relationship.",
-      "archetype": "The Beloved",
-      "description": "Making choices that match your personal beliefs."
-    },
-    {
-      "id": 7,
-      "arcana": "major",
-      "number": 7,
-      "suit": null,
-      "rank": null,
-      "image_path": "7.webp",
-      "name": "The Chariot",
-      "keywords": [
-        "motivation",
-        "success",
-        "self-control"
-      ],
-      "meaning_upright": "Strong focus, steady movement, and achieving goals.",
-      "meaning_reversed": "Feeling lost, lack of control, or feeling tired from working too hard.",
-      "archetype": "The Winner",
-      "description": "Managing different forces to move ahead successfully."
-    },
-    {
-      "id": 8,
-      "arcana": "major",
-      "number": 8,
-      "suit": null,
-      "rank": null,
-      "image_path": "8.webp",
-      "name": "Strength",
-      "keywords": [
-        "courage",
-        "patience",
-        "inner strength"
-      ],
-      "meaning_upright": "You have courage, patience, and quiet inner strength.",
-      "meaning_reversed": "You feel doubt, you are impatient, or you are trying too hard to force a result.",
-      "archetype": "The Heart",
-      "description": "Managing fear through kindness and being calm."
-    },
-    {
-      "id": 9,
-      "arcana": "major",
-      "number": 9,
-      "suit": null,
-      "rank": null,
-      "image_path": "9.webp",
-      "name": "The Hermit",
-      "keywords": [
-        "being alone",
-        "wisdom",
-        "guidance"
-      ],
-      "meaning_upright": "Time alone, understanding, and looking for answers inside yourself.",
-      "meaning_reversed": "Feeling lonely, avoiding people, or refusing help from others.",
-      "archetype": "The Wise Teacher",
-      "description": "Taking time away from others to think clearly."
-    },
-    {
-      "id": 10,
-      "arcana": "major",
-      "number": 10,
-      "suit": null,
-      "rank": null,
-      "image_path": "10.webp",
-      "name": "Wheel of Fortune",
-      "keywords": [
-        "cycles",
-        "change",
-        "luck"
-      ],
-      "meaning_upright": "A turning point, new cycles, and changes in luck.",
-      "meaning_reversed": "Fighting against change, delays, or repeating the same mistakes.",
-      "archetype": "The Wheel",
-      "description": "Life is always moving. Be flexible and ready for what happens next."
-    },
-    {
-      "id": 11,
-      "arcana": "major",
-      "number": 11,
-      "suit": null,
-      "rank": null,
-      "image_path": "11.webp",
-      "name": "Justice",
-      "keywords": [
-        "truth",
-        "fairness",
-        "responsibility"
-      ],
-      "meaning_upright": "Truth, fairness, and making good choices.",
-      "meaning_reversed": "Unfairness, refusing to accept the truth, or avoiding results.",
-      "archetype": "The Judge",
-      "description": "Seeing facts clearly and acting in an honest way."
-    },
-    {
-      "id": 12,
-      "arcana": "major",
-      "number": 12,
-      "suit": null,
-      "rank": null,
-      "image_path": "12.webp",
-      "name": "The Hanged Man",
-      "keywords": [
-        "pause",
-        "different_view",
-        "letting_go"
-      ],
-      "meaning_upright": "Take a break, stop trying to control things, and look at the situation in a new way.",
-      "meaning_reversed": "Waiting too long, being unwilling to change, or fear of moving forward.",
-      "archetype": "The Learner",
-      "description": "The ability to see things from a different point of view."
-    },
-    {
-      "id": 13,
-      "arcana": "major",
-      "number": 13,
-      "suit": null,
-      "rank": null,
-      "image_path": "13.webp",
-      "name": "Death",
-      "keywords": [
-        "endings",
-        "change",
-        "letting go"
-      ],
-      "meaning_upright": "A situation is ending to allow for new growth.",
-      "meaning_reversed": "Holding on to the past or fear of change.",
-      "archetype": "The Transformer",
-      "description": "Finish what is complete and prepare for something new."
-    },
-    {
-      "id": 14,
-      "arcana": "major",
-      "number": 14,
-      "suit": null,
-      "rank": null,
-      "image_path": "14.webp",
-      "name": "Temperance",
-      "keywords": [
-        "balance",
-        "healing",
-        "moderation"
-      ],
-      "meaning_upright": "Balance, healing, and combining things in the right way.",
-      "meaning_reversed": "Too much of something, being out of balance, or a lack of harmony.",
-      "archetype": "The Alchemist",
-      "description": "Mix different things to create a calm and steady result."
-    },
-    {
-      "id": 15,
-      "arcana": "major",
-      "number": 15,
-      "suit": null,
-      "rank": null,
-      "image_path": "15.webp",
-      "name": "The Devil",
-      "keywords": [
-        "being stuck",
-        "bad habits",
-        "temptation"
-      ],
-      "meaning_upright": "Feeling trapped by habits or material desires. You may feel unable to change your situation.",
-      "meaning_reversed": "Breaking free from bad patterns. Taking back control of your life.",
-      "archetype": "The Shadow",
-      "description": "Look at what holds you back so you can let it go."
-    },
-    {
-      "id": 16,
-      "arcana": "major",
-      "number": 16,
-      "suit": null,
-      "rank": null,
-      "image_path": "16.webp",
-      "name": "The Tower",
-      "keywords": [
-        "sudden change",
-        "truth",
-        "starting over"
-      ],
-      "meaning_upright": "A sudden change that reveals the truth and removes things that are not solid.",
-      "meaning_reversed": "Trying to stop a necessary change, ongoing problems, or fear of the future.",
-      "archetype": "The Lightning",
-      "description": "The truth is revealed. Build your life on what is real."
-    },
-    {
-      "id": 17,
-      "arcana": "major",
-      "number": 17,
-      "suit": null,
-      "rank": null,
-      "image_path": "17.webp",
-      "name": "The Star",
-      "keywords": [
-        "hope",
-        "fresh start",
-        "guidance"
-      ],
-      "meaning_upright": "You have hope for the future. Things are getting better.",
-      "meaning_reversed": "You feel discouraged or have many doubts. It is hard to stay positive.",
-      "archetype": "The Guide",
-      "description": "A sign that good things are coming."
-    },
-    {
-      "id": 18,
-      "arcana": "major",
-      "number": 18,
-      "suit": null,
-      "rank": null,
-      "image_path": "18.webp",
-      "name": "The Moon",
-      "keywords": [
-        "confusion",
-        "feelings",
-        "the unknown"
-      ],
-      "meaning_upright": "Things are not clear. Trust your feelings and move slowly.",
-      "meaning_reversed": "Truth is becoming clear. You feel less afraid.",
-      "archetype": "The Dream",
-      "description": "It is hard to see the truth. Follow your inner guidance."
-    },
-    {
-      "id": 19,
-      "arcana": "major",
-      "number": 19,
-      "suit": null,
-      "rank": null,
-      "image_path": "19.webp",
-      "name": "The Sun",
-      "keywords": [
-        "happiness",
-        "success",
-        "energy"
-      ],
-      "meaning_upright": "Happiness, energy, and feeling successful.",
-      "meaning_reversed": "Small problems, feeling sad, or a lack of confidence.",
-      "archetype": "The Light",
-      "description": "Warmth, being seen, and clear truth."
-    },
-    {
-      "id": 20,
-      "arcana": "major",
-      "number": 20,
-      "suit": null,
-      "rank": null,
-      "image_path": "20.webp",
-      "name": "Judgement",
-      "keywords": [
-        "new understanding",
-        "review",
-        "important choice"
-      ],
-      "meaning_upright": "A new understanding, looking at your past, and listening to your inner purpose.",
-      "meaning_reversed": "Doubting yourself, being too hard on yourself, or avoiding a choice.",
-      "archetype": "The Call",
-      "description": "Choose your next step with honesty."
-    },
-    {
-      "id": 21,
-      "arcana": "major",
-      "number": 21,
-      "suit": null,
-      "rank": null,
-      "image_path": "21.webp",
-      "name": "The World",
-      "keywords": [
-        "finishing",
-        "bringing things together",
-        "success"
-      ],
-      "meaning_upright": "You have finished a task. You feel complete and successful.",
-      "meaning_reversed": "You have unfinished work. You are waiting for a final result.",
-      "archetype": "The Whole",
-      "description": "You have reached your goal. A new part of your life is starting."
-    },
-    {
-      "id": 22,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "wands",
-      "rank": "ace",
-      "image_path": "22.webp",
-      "name": "Ace of Wands",
-      "keywords": [
-        "new idea",
-        "energy",
-        "starting"
-      ],
-      "meaning_upright": "A new idea or a strong desire to start something.",
-      "meaning_reversed": "Delays, low energy, or a lack of interest.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 23,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "wands",
-      "rank": "two",
-      "image_path": "23.webp",
-      "name": "Two of Wands",
-      "keywords": [
-        "planning",
-        "choices",
-        "looking ahead"
-      ],
-      "meaning_upright": "Making plans for the future and thinking about new goals.",
-      "meaning_reversed": "Fear of the future or staying in your comfort zone.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 24,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "wands",
-      "rank": "three",
-      "image_path": "24.webp",
-      "name": "Three of Wands",
-      "keywords": [
-        "growth",
-        "progress",
-        "moving forward"
-      ],
-      "meaning_upright": "Growth is happening. You are making progress. You are starting to see results.",
-      "meaning_reversed": "Things are delayed. There are problems. You are not finishing what you started.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 25,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "wands",
-      "rank": "four",
-      "image_path": "25.webp",
-      "name": "Four of Wands",
-      "keywords": [
-        "celebration",
-        "home",
-        "achievement"
-      ],
-      "meaning_upright": "A happy event, feeling safe at home, and reaching a goal.",
-      "meaning_reversed": "Problems at home or an event that does not feel right.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 26,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "wands",
-      "rank": "five",
-      "image_path": "26.webp",
-      "name": "Five of Wands",
-      "keywords": [
-        "competition",
-        "disagreement",
-        "challenge"
-      ],
-      "meaning_upright": "There is competition. People have different opinions. You learn by facing challenges.",
-      "meaning_reversed": "Avoiding a fight. You are stepping away from arguments that do not help you.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 27,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "wands",
-      "rank": "six",
-      "image_path": "27.webp",
-      "name": "Six of Wands",
-      "keywords": [
-        "praise",
-        "success",
-        "self-confidence"
-      ],
-      "meaning_upright": "You are winning or achieving your goals. People notice your hard work.",
-      "meaning_reversed": "You feel low confidence. You do not feel appreciated for your work.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 28,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "wands",
-      "rank": "seven",
-      "image_path": "28.webp",
-      "name": "Seven of Wands",
-      "keywords": [
-        "defense",
-        "courage",
-        "boundaries"
-      ],
-      "meaning_upright": "You are holding your position and defending your ideas.",
-      "meaning_reversed": "You are quitting too early or feeling unable to handle the pressure.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 29,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "wands",
-      "rank": "eight",
-      "image_path": "29.webp",
-      "name": "Eight of Wands",
-      "keywords": [
-        "speed",
-        "action",
-        "news"
-      ],
-      "meaning_upright": "Things are moving very fast. You will see quick progress.",
-      "meaning_reversed": "Things are slowing down. There may be confusion or a lack of focus.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 30,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "wands",
-      "rank": "nine",
-      "image_path": "30.webp",
-      "name": "Nine of Wands",
-      "keywords": [
-        "strength",
-        "keep going",
-        "being careful"
-      ],
-      "meaning_upright": "You are tired, but you keep going. You stay strong through hard times.",
-      "meaning_reversed": "You are exhausted. You are too worried about others. You do not ask for help.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 31,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "wands",
-      "rank": "ten",
-      "image_path": "31.webp",
-      "name": "Ten of Wands",
-      "keywords": [
-        "hard work",
-        "duty",
-        "stress"
-      ],
-      "meaning_upright": "You have many responsibilities and are carrying too much.",
-      "meaning_reversed": "You need to share tasks, let go of work, or you are tired from too much stress.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 32,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "wands",
-      "rank": "page",
-      "image_path": "32.webp",
-      "name": "Page of Wands",
-      "keywords": [
-        "curiosity",
-        "learning",
-        "news"
-      ],
-      "meaning_upright": "You are interested in new things. You are exploring ideas. You may receive exciting news.",
-      "meaning_reversed": "You act without thinking. You face delays. You do not have a clear plan.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 33,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "wands",
-      "rank": "knight",
-      "image_path": "33.webp",
-      "name": "Knight of Wands",
-      "keywords": [
-        "adventure",
-        "bravery",
-        "action"
-      ],
-      "meaning_upright": "Taking quick action, seeking adventure, and moving forward.",
-      "meaning_reversed": "Being reckless, acting too fast, or changing your mind often.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 34,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "wands",
-      "rank": "queen",
-      "image_path": "34.webp",
-      "name": "Queen of Wands",
-      "keywords": [
-        "confidence",
-        "kindness",
-        "leadership"
-      ],
-      "meaning_upright": "You are confident, kind, and a good leader.",
-      "meaning_reversed": "You feel insecure, jealous, or want too much attention.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 35,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "wands",
-      "rank": "king",
-      "image_path": "35.webp",
-      "name": "King of Wands",
-      "keywords": [
-        "planning",
-        "skill",
-        "bravery"
-      ],
-      "meaning_upright": "A leader with a clear plan and great skill.",
-      "meaning_reversed": "Acting without thinking, pride, or being too controlling.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 36,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "Cups",
-      "rank": "Ace",
-      "image_path": "36.webp",
-      "name": "Ace of Cups",
-      "keywords": [
-        "love",
-        "honesty",
-        "new beginnings"
-      ],
-      "meaning_upright": "A new start in your feelings. A time for love and kindness.",
-      "meaning_reversed": "Hard to share feelings. Trouble giving or receiving love.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 37,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "cups",
-      "rank": "two",
-      "image_path": "37.webp",
-      "name": "Two of Cups",
-      "keywords": [
-        "connection",
-        "partnership",
-        "agreement"
-      ],
-      "meaning_upright": "A strong connection between two people. Working well together.",
-      "meaning_reversed": "Problems in a relationship. A lack of balance or poor communication.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 38,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "cups",
-      "rank": "three",
-      "image_path": "38.webp",
-      "name": "Three of Cups",
-      "keywords": [
-        "friendship",
-        "celebration",
-        "support"
-      ],
-      "meaning_upright": "A time for friendship, happy events, and helping each other.",
-      "meaning_reversed": "Spending too much time on parties or having problems with friends.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 39,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "cups",
-      "rank": "four",
-      "image_path": "39.webp",
-      "name": "Four of Cups",
-      "keywords": [
-        "boredom",
-        "thinking",
-        "choosing"
-      ],
-      "meaning_upright": "You feel bored or unhappy. You are thinking about your life and your choices.",
-      "meaning_reversed": "You feel interested again. You are ready to accept a new opportunity.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 40,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "cups",
-      "rank": "five",
-      "image_path": "40.webp",
-      "name": "Five of Cups",
-      "keywords": [
-        "loss",
-        "sadness",
-        "regret"
-      ],
-      "meaning_upright": "You are feeling sad about a loss. You are focusing on your mistakes.",
-      "meaning_reversed": "You are starting to heal. You are looking at the good things you still have.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 41,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "cups",
-      "rank": "six",
-      "image_path": "41.webp",
-      "name": "Six of Cups",
-      "keywords": [
-        "the past",
-        "kindness",
-        "happy memories"
-      ],
-      "meaning_upright": "Thinking about the past with happiness. Acts of kindness and simple joy.",
-      "meaning_reversed": "Focusing too much on the past. Trouble moving forward.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 42,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "cups",
-      "rank": "seven",
-      "image_path": "42.webp",
-      "name": "Seven of Cups",
-      "keywords": [
-        "choices",
-        "imagination",
-        "confusion"
-      ],
-      "meaning_upright": "You have many choices. It is hard to know what is real and what to focus on.",
-      "meaning_reversed": "You are gaining clarity. You can now make a clear decision and focus.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 43,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "cups",
-      "rank": "eight",
-      "image_path": "43.webp",
-      "name": "Eight of Cups",
-      "keywords": [
-        "leaving",
-        "searching",
-        "change"
-      ],
-      "meaning_upright": "Leaving a situation to look for something more meaningful.",
-      "meaning_reversed": "Being afraid to change or returning to something old.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 44,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "cups",
-      "rank": "nine",
-      "image_path": "44.webp",
-      "name": "Nine of Cups",
-      "keywords": [
-        "happiness",
-        "wishes coming true",
-        "being satisfied"
-      ],
-      "meaning_upright": "You are happy and satisfied. Your goals are achieved.",
-      "meaning_reversed": "You have too much of a good thing. You are not happy despite having what you wanted.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 45,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "cups",
-      "rank": "ten",
-      "image_path": "45.webp",
-      "name": "Ten of Cups",
-      "keywords": [
-        "harmony",
-        "family",
-        "happiness"
-      ],
-      "meaning_upright": "Peace, happiness, and satisfaction in your life.",
-      "meaning_reversed": "Problems at home or expecting too much.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 46,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "cups",
-      "rank": "page",
-      "image_path": "46.webp",
-      "name": "Page of Cups",
-      "keywords": [
-        "news",
-        "openness",
-        "surprise"
-      ],
-      "meaning_upright": "You receive a kind message. You are curious about your feelings.",
-      "meaning_reversed": "You act without thinking about your feelings. You feel confused.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 47,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "cups",
-      "rank": "knight",
-      "image_path": "47.webp",
-      "name": "Knight of Cups",
-      "keywords": [
-        "romance",
-        "invitation",
-        "idealism"
-      ],
-      "meaning_upright": "A new romantic opportunity, an invitation, or listening to your feelings.",
-      "meaning_reversed": "Being moody, feeling disappointed, or having unrealistic expectations.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 48,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "cups",
-      "rank": "queen",
-      "image_path": "48.webp",
-      "name": "Queen of Cups",
-      "keywords": [
-        "kindness",
-        "feelings",
-        "care"
-      ],
-      "meaning_upright": "You understand the feelings of others. You are kind and calm.",
-      "meaning_reversed": "You feel too much stress. You need better personal boundaries.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 49,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "cups",
-      "rank": "king",
-      "image_path": "49.webp",
-      "name": "King of Cups",
-      "keywords": [
-        "calm",
-        "kindness",
-        "balance"
-      ],
-      "meaning_upright": "A person who is calm, kind, and in control of their emotions.",
-      "meaning_reversed": "Using emotions to control others or hiding your true feelings.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 50,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "swords",
-      "rank": "ace",
-      "image_path": "50.webp",
-      "name": "Ace of Swords",
-      "keywords": [
-        "clear thinking",
-        "truth",
-        "new ideas"
-      ],
-      "meaning_upright": "Clear thinking, finding the truth, and a new idea.",
-      "meaning_reversed": "Confusion, not having the right facts, or difficulty thinking clearly.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 51,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "swords",
-      "rank": "two",
-      "image_path": "51.webp",
-      "name": "Two of Swords",
-      "keywords": [
-        "waiting",
-        "choice",
-        "avoiding a problem"
-      ],
-      "meaning_upright": "A situation where no progress is made. You must make a difficult decision. You are protecting your feelings.",
-      "meaning_reversed": "You stop being undecided. The truth becomes clear. You feel overwhelmed by too much information.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 52,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "swords",
-      "rank": "three",
-      "image_path": "52.webp",
-      "name": "Three of Swords",
-      "keywords": [
-        "sadness",
-        "pain",
-        "truth"
-      ],
-      "meaning_upright": "Feeling sad or hurt. Learning a difficult truth.",
-      "meaning_reversed": "Healing from pain. Choosing to forgive. Moving forward.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 53,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "swords",
-      "rank": "four",
-      "image_path": "53.webp",
-      "name": "Four of Swords",
-      "keywords": [
-        "rest",
-        "recovery",
-        "pause"
-      ],
-      "meaning_upright": "It is time to rest and recover. Take a break to heal.",
-      "meaning_reversed": "You are not resting enough. You are returning to work too quickly.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 54,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "swords",
-      "rank": "five",
-      "image_path": "54.webp",
-      "name": "Five of Swords",
-      "keywords": [
-        "disagreement",
-        "pride",
-        "selfishness"
-      ],
-      "meaning_upright": "There is a disagreement. You may win, but it hurts your relationships.",
-      "meaning_reversed": "You choose to stop fighting. You decide to move on from a difficult situation.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 55,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "swords",
-      "rank": "six",
-      "image_path": "55.webp",
-      "name": "Six of Swords",
-      "keywords": [
-        "change",
-        "healing",
-        "leaving the past"
-      ],
-      "meaning_upright": "Moving away from a difficult situation toward a better future.",
-      "meaning_reversed": "Trouble letting go of the past or moving forward.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 56,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "swords",
-      "rank": "seven",
-      "image_path": "56.webp",
-      "name": "Seven of Swords",
-      "keywords": [
-        "planning",
-        "keeping secrets",
-        "avoiding a situation"
-      ],
-      "meaning_upright": "You are using a plan to reach a goal. You may be keeping your actions private.",
-      "meaning_reversed": "You are telling the truth, being found out, or changing your plans.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 57,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "swords",
-      "rank": "eight",
-      "image_path": "57.webp",
-      "name": "Eight of Swords",
-      "keywords": [
-        "feeling trapped",
-        "fear",
-        "limiting your own progress"
-      ],
-      "meaning_upright": "You feel stuck because of fear or your own negative thoughts.",
-      "meaning_reversed": "You are becoming free, seeing things clearly, and moving forward.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 58,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "swords",
-      "rank": "nine",
-      "image_path": "58.webp",
-      "name": "Nine of Swords",
-      "keywords": [
-        "anxiety",
-        "worry",
-        "lack of sleep"
-      ],
-      "meaning_upright": "You feel nervous and worried. You may have trouble sleeping.",
-      "meaning_reversed": "You find relief. You receive help or face your fears.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 59,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "swords",
-      "rank": "ten",
-      "image_path": "59.webp",
-      "name": "Ten of Swords",
-      "keywords": [
-        "ending",
-        "betrayal",
-        "letting go"
-      ],
-      "meaning_upright": "A final ending, a difficult truth, and moving on.",
-      "meaning_reversed": "Recovery, getting stronger, and a new start.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 60,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "swords",
-      "rank": "page",
-      "image_path": "60.webp",
-      "name": "Page of Swords",
-      "keywords": [
-        "curiosity",
-        "searching for the truth",
-        "being alert"
-      ],
-      "meaning_upright": "You are curious, looking for the truth, and paying attention to your surroundings.",
-      "meaning_reversed": "You are sharing rumors, acting too quickly, or making decisions without enough information.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 61,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "swords",
-      "rank": "knight",
-      "image_path": "61.webp",
-      "name": "Knight of Swords",
-      "keywords": [
-        "being direct",
-        "speed",
-        "motivation"
-      ],
-      "meaning_upright": "Taking quick action, moving fast, and thinking clearly.",
-      "meaning_reversed": "Acting without thinking, being unkind, or moving too fast.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 62,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "swords",
-      "rank": "queen",
-      "image_path": "62.webp",
-      "name": "Queen of Swords",
-      "keywords": [
-        "good judgment",
-        "independence",
-        "clear thinking"
-      ],
-      "meaning_upright": "Using good judgment, being independent, and setting clear personal limits.",
-      "meaning_reversed": "Being unfriendly, feeling bitter, or using unkind words.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 63,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "swords",
-      "rank": "king",
-      "image_path": "63.webp",
-      "name": "King of Swords",
-      "keywords": [
-        "logic",
-        "authority",
-        "truth"
-      ],
-      "meaning_upright": "You use logic, keep authority, and tell the truth.",
-      "meaning_reversed": "You misuse power or make unfair, strict judgments.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 64,
-      "arcana": "minor",
-      "number": 1,
-      "suit": "pentacles",
-      "rank": "ace",
-      "image_path": "64.webp",
-      "name": "Ace of Pentacles",
-      "keywords": [
-        "new opportunity",
-        "growth",
-        "money"
-      ],
-      "meaning_upright": "A real chance to start something successful.",
-      "meaning_reversed": "A missed chance or a weak plan.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 65,
-      "arcana": "minor",
-      "number": 2,
-      "suit": "pentacles",
-      "rank": "two",
-      "image_path": "65.webp",
-      "name": "Two of Pentacles",
-      "keywords": [
-        "balance",
-        "flexibility",
-        "managing tasks"
-      ],
-      "meaning_upright": "You are balancing your priorities and adjusting to changes.",
-      "meaning_reversed": "You have too many responsibilities or you are struggling to stay balanced.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 66,
-      "arcana": "minor",
-      "number": 3,
-      "suit": "pentacles",
-      "rank": "three",
-      "image_path": "66.webp",
-      "name": "Three of Pentacles",
-      "keywords": [
-        "teamwork",
-        "skill",
-        "learning"
-      ],
-      "meaning_upright": "Working well with others, practicing a skill, and learning through experience.",
-      "meaning_reversed": "Difficulty working in a group or poor quality of work.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 67,
-      "arcana": "minor",
-      "number": 4,
-      "suit": "pentacles",
-      "rank": "four",
-      "image_path": "67.webp",
-      "name": "Four of Pentacles",
-      "keywords": [
-        "safety",
-        "control",
-        "saving"
-      ],
-      "meaning_upright": "You want safety and control. You are holding on to your money or belongings.",
-      "meaning_reversed": "You need to let go. You are making choices because you are afraid of losing things.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 68,
-      "arcana": "minor",
-      "number": 5,
-      "suit": "pentacles",
-      "rank": "five",
-      "image_path": "68.webp",
-      "name": "Five of Pentacles",
-      "keywords": [
-        "difficulty",
-        "needing help",
-        "feeling left out"
-      ],
-      "meaning_upright": "You are going through a difficult time. You may feel like you do not have enough money or support. It is a good time to ask others for help.",
-      "meaning_reversed": "Things are starting to get better. You are finding the help you need. Your situation is improving.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 69,
-      "arcana": "minor",
-      "number": 6,
-      "suit": "pentacles",
-      "rank": "six",
-      "image_path": "69.webp",
-      "name": "Six of Pentacles",
-      "keywords": [
-        "giving",
-        "receiving",
-        "fairness"
-      ],
-      "meaning_upright": "You give and receive help in a fair and kind way.",
-      "meaning_reversed": "The exchange is not fair, or there are hidden conditions.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 70,
-      "arcana": "minor",
-      "number": 7,
-      "suit": "pentacles",
-      "rank": "seven",
-      "image_path": "70.webp",
-      "name": "Seven of Pentacles",
-      "keywords": [
-        "patience",
-        "planning",
-        "review"
-      ],
-      "meaning_upright": "Be patient. You are working toward a long-term goal. It is a good time to check your progress.",
-      "meaning_reversed": "You feel impatient. You are worried that your hard work is not producing results fast enough.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 71,
-      "arcana": "minor",
-      "number": 8,
-      "suit": "pentacles",
-      "rank": "eight",
-      "image_path": "71.webp",
-      "name": "Eight of Pentacles",
-      "keywords": [
-        "practice",
-        "skill",
-        "hard work"
-      ],
-      "meaning_upright": "Practicing a skill and working hard to get better at it.",
-      "meaning_reversed": "Doing work poorly or feeling bored with daily tasks.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 72,
-      "arcana": "minor",
-      "number": 9,
-      "suit": "pentacles",
-      "rank": "nine",
-      "image_path": "72.webp",
-      "name": "Nine of Pentacles",
-      "keywords": [
-        "being independent",
-        "comfort",
-        "valuing yourself"
-      ],
-      "meaning_upright": "You are independent, comfortable, and you value yourself.",
-      "meaning_reversed": "You rely too much on others or feel insecure, even after success.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 73,
-      "arcana": "minor",
-      "number": 10,
-      "suit": "pentacles",
-      "rank": "ten",
-      "image_path": "73.webp",
-      "name": "Ten of Pentacles",
-      "keywords": [
-        "long-term success",
-        "family",
-        "security"
-      ],
-      "meaning_upright": "A strong family, lasting success, and financial security.",
-      "meaning_reversed": "Problems with money, family arguments, or a lack of stability.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 74,
-      "arcana": "minor",
-      "number": 11,
-      "suit": "pentacles",
-      "rank": "page",
-      "image_path": "74.webp",
-      "name": "Page of Pentacles",
-      "keywords": [
-        "learning",
-        "opportunity",
-        "planning"
-      ],
-      "meaning_upright": "You are learning something new, starting a new project, or making a careful plan.",
-      "meaning_reversed": "You are delaying your work or not finishing what you started.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 75,
-      "arcana": "minor",
-      "number": 12,
-      "suit": "pentacles",
-      "rank": "knight",
-      "image_path": "75.webp",
-      "name": "Knight of Pentacles",
-      "keywords": [
-        "patience",
-        "hard work",
-        "reliability"
-      ],
-      "meaning_upright": "Moving forward slowly and doing your work well.",
-      "meaning_reversed": "Making no progress or refusing to change your habits.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 76,
-      "arcana": "minor",
-      "number": 13,
-      "suit": "pentacles",
-      "rank": "queen",
-      "image_path": "76.webp",
-      "name": "Queen of Pentacles",
-      "keywords": [
-        "care",
-        "practical skills",
-        "home life"
-      ],
-      "meaning_upright": "Being helpful, creating comfort, and taking care of daily needs.",
-      "meaning_reversed": "Problems balancing work and home, or not taking care of yourself.",
-      "archetype": null,
-      "description": null
-    },
-    {
-      "id": 77,
-      "arcana": "minor",
-      "number": 14,
-      "suit": "pentacles",
-      "rank": "king",
-      "image_path": "77.webp",
-      "name": "King of Pentacles",
-      "keywords": [
-        "wealth",
-        "stability",
-        "provider"
-      ],
-      "meaning_upright": "You have success, financial security, and the ability to support others.",
-      "meaning_reversed": "Focusing too much on money or using wealth to control people.",
-      "archetype": null,
-      "description": null
-    }
-  ]
-}
+[
+  {
+    "id": 0,
+    "arcana": "major",
+    "number": 0,
+    "suit": null,
+    "rank": null,
+    "image_path": "0.webp",
+    "name": "The Fool",
+    "keywords": [
+      "new beginnings",
+      "innocence",
+      "taking a risk"
+    ],
+    "meaning_upright": "A fresh start, being open to change, and trusting the process.",
+    "meaning_reversed": "Being careless, acting without thinking, or fear of starting.",
+    "archetype": "The Seeker",
+    "description": "The Fool is the ultimate symbol of new beginnings and pure innocence. Represented as a young traveler standing on a cliff's edge, he is ready to take a leap of faith into the unknown. This card carries a bright energy that encourages you to trust the process and embrace change with an open heart. When it appears, it is a sign to let go of your doubts and take a risk.\n\nHowever, when reversed, the card serves as a gentle warning. You might be acting carelessly without thinking things through, or perhaps fear is holding you back from starting. The Fool reminds us to watch our step, but also to find the courage to move forward."
+  },
+  {
+    "id": 1,
+    "arcana": "major",
+    "number": 1,
+    "suit": null,
+    "rank": null,
+    "image_path": "1.webp",
+    "name": "The Magician",
+    "keywords": [
+      "will",
+      "skill",
+      "taking action"
+    ],
+    "meaning_upright": "You have the ability and tools to reach your goals. It is a time to take action.",
+    "meaning_reversed": "You are not focused. You may be using your skills in a negative way or not using your talents at all.",
+    "archetype": "The Creator",
+    "description": "The Magician is a card of pure potential and power. When this card appears, it shows that you have all the tools you need to succeed right at your fingertips. Standing with one hand pointing to the sky and the other to the earth, the Magician acts as a bridge between your dreams and reality. He encourages you to tap into your willpower and take action. This is your moment to step up, use your skills, and make things happen. \n\nHowever, if the Magician appears reversed, it is a warning that you might be losing your focus. You could be wasting your talents or using your skills in a negative way. It is time to regroup."
+  },
+  {
+    "id": 2,
+    "arcana": "major",
+    "number": 2,
+    "suit": null,
+    "rank": null,
+    "image_path": "2.webp",
+    "name": "The High Priestess",
+    "keywords": [
+      "intuition",
+      "mystery",
+      "inner voice"
+    ],
+    "meaning_upright": "Trust your feelings, look for deep understanding, and notice things that are hidden.",
+    "meaning_reversed": "Ignoring your feelings, feeling confused, or keeping secrets for too long.",
+    "archetype": "The Wise Guide",
+    "description": "The High Priestess sits silently at the gateway of your subconscious mind, representing deep intuition, mystery, and your quiet inner voice. When this card appears upright, it is a powerful sign to trust your gut feelings and look for a deeper understanding of the world. Instead of rushing to find logical answers, she invites you to slow down and notice things that are hidden just beneath the surface. \n\nHowever, if she appears reversed, you might be ignoring your feelings, leading to confusion and doubt. You may also be keeping secrets for too long or letting external noise drown out your inner wisdom. To find balance, quiet your mind and trust your instincts."
+  },
+  {
+    "id": 3,
+    "arcana": "major",
+    "number": 3,
+    "suit": null,
+    "rank": null,
+    "image_path": "3.webp",
+    "name": "The Empress",
+    "keywords": [
+      "care",
+      "plenty",
+      "growth"
+    ],
+    "meaning_upright": "Taking care of things, being creative, and having plenty.",
+    "meaning_reversed": "Difficulty creating, lack of care, or depending too much on others.",
+    "archetype": "The Mother",
+    "description": "The Empress is the ultimate mother figure of the Tarot, radiating warmth, abundance, and unconditional love. Symbolizing a time of growth and plenty, she encourages you to connect with nature and embrace your creative power. When this card appears upright, it is a wonderful sign to take care of yourself and nurse your projects into reality. Everything you need is already flowing toward you. \n\nHowever, if the card is reversed, it warns of a block in this creative energy. You might feel a lack of care, struggle to bring your ideas to life, or depend too much on others. It is a gentle reminder to slow down, focus on self-care, and reclaim your personal strength."
+  },
+  {
+    "id": 4,
+    "arcana": "major",
+    "number": 4,
+    "suit": null,
+    "rank": null,
+    "image_path": "4.webp",
+    "name": "The Emperor",
+    "keywords": [
+      "structure",
+      "leadership",
+      "stability"
+    ],
+    "meaning_upright": "Good organization, leadership, and a strong foundation.",
+    "meaning_reversed": "Being too strict, problems with control, or weak leadership.",
+    "archetype": "The Ruler",
+    "description": "The Emperor sits firmly on his stone throne, representing ultimate structure, stability, and leadership. As a powerful father figure, his energy is all about creating solid foundations and bringing order to chaos. When this card appears upright, it is a reassuring sign that you have the power to take charge of your life. It encourages good organization and clear thinking, helping you build a secure future. He reminds us that true strength comes from self-discipline and protecting those we care about. \n\nHowever, when reversed, the Emperor warns of control issues and being too strict. It can also point to weak leadership or a lack of direction, urging you to find balance."
+  },
+  {
+    "id": 5,
+    "arcana": "major",
+    "number": 5,
+    "suit": null,
+    "rank": null,
+    "image_path": "5.webp",
+    "name": "The Hierophant",
+    "keywords": [
+      "tradition",
+      "education",
+      "beliefs"
+    ],
+    "meaning_upright": "Following traditions, learning from a teacher, and shared values.",
+    "meaning_reversed": "Ignoring traditions, personal freedom, and questioning rules.",
+    "archetype": "The Teacher",
+    "description": "The Hierophant represents a bridge between daily life and sacred wisdom, serving as a powerful symbol of tradition, structured learning, and shared beliefs. This card brings a comforting energy of established knowledge, suggesting it might be time to learn from a mentor or follow a proven path. It is all about respecting the rules of the game and finding strength in shared community values. \n\nHowever, this card also has a rebellious side. When its energy is flipped, it encourages you to question authority and search for personal freedom. Instead of blindly following outdated traditions, you are invited to listen to your own inner voice and bravely walk your own path."
+  },
+  {
+    "id": 6,
+    "arcana": "major",
+    "number": 6,
+    "suit": null,
+    "rank": null,
+    "image_path": "6.webp",
+    "name": "The Lovers",
+    "keywords": [
+      "choice",
+      "partnership",
+      "shared values"
+    ],
+    "meaning_upright": "A strong partnership, an important choice, and agreement between people.",
+    "meaning_reversed": "Disagreement, poor choices, or fear of a serious relationship.",
+    "archetype": "The Beloved",
+    "description": "The Lovers card radiates a powerful energy of harmony, connection, and mutual respect. At its heart, it represents a strong partnership built on shared values and trust. When this card appears, it often signals a time of agreement and deep understanding between people, whether in romance, friendship, or business. However, it is not just about love; it is also about making an important choice. The card urges you to look at your options carefully and align your decisions with your true self.\n\nWhen reversed, the card points to conflict or poor choices. It can signal disagreement with a partner or a fear of a serious relationship. Ultimately, it asks you to find inner peace to move forward."
+  },
+  {
+    "id": 7,
+    "arcana": "major",
+    "number": 7,
+    "suit": null,
+    "rank": null,
+    "image_path": "7.webp",
+    "name": "The Chariot",
+    "keywords": [
+      "motivation",
+      "success",
+      "self-control"
+    ],
+    "meaning_upright": "Strong focus, steady movement, and achieving goals.",
+    "meaning_reversed": "Feeling lost, lack of control, or feeling tired from working too hard.",
+    "archetype": "The Winner",
+    "description": "The Chariot represents the ultimate symbol of willpower, motivation, and triumph. When this card appears, it brings a surge of energy, urging you to take the reins of your life. It speaks of aligning your mind and heart to overcome any obstacle in your way. With strong focus and self-control, you can easily direct conflicting forces toward steady movement and success. \n\nHowever, when the Chariot is reversed, the journey stalls. You may feel lost, suffer from a lack of control, or feel completely tired from working too hard. It is a gentle warning to stop pushing so hard, regain your balance, and realign your goals before moving forward again."
+  },
+  {
+    "id": 8,
+    "arcana": "major",
+    "number": 8,
+    "suit": null,
+    "rank": null,
+    "image_path": "8.webp",
+    "name": "Strength",
+    "keywords": [
+      "courage",
+      "patience",
+      "inner strength"
+    ],
+    "meaning_upright": "You have courage, patience, and quiet inner strength.",
+    "meaning_reversed": "You feel doubt, you are impatient, or you are trying too hard to force a result.",
+    "archetype": "The Heart",
+    "description": "The Strength card is a beautiful reminder that true power does not come from physical force, but from quiet inner strength. When this card appears, it shows a gentle figure taming a wild lion, symbolizing how we can master our fears and passions through love, patience, and courage. Instead of fighting your obstacles with anger, Strength encourages you to face them with a calm mind. You already have the resilience needed to get through this, so trust in your ability to stay patient. \n\nHowever, if this card shows up reversed, you might be feeling self-doubt or impatience. You could be trying too hard to force a result. Take a deep breath and let go of the struggle."
+  },
+  {
+    "id": 9,
+    "arcana": "major",
+    "number": 9,
+    "suit": null,
+    "rank": null,
+    "image_path": "9.webp",
+    "name": "The Hermit",
+    "keywords": [
+      "being alone",
+      "wisdom",
+      "guidance"
+    ],
+    "meaning_upright": "Time alone, understanding, and looking for answers inside yourself.",
+    "meaning_reversed": "Feeling lonely, avoiding people, or refusing help from others.",
+    "archetype": "The Wise Teacher",
+    "description": "The Hermit stands alone on a dark mountain, holding a single lantern to light his path. This card represents a powerful time for self-reflection and inner guidance. When the Hermit appears, it is a sign to step back from the busy world and look for answers inside yourself. This is not about feeling lonely, but about finding true wisdom in quiet moments. By spending time alone, you can gain a deeper understanding of your life. \n\nHowever, if the card is reversed, the energy shifts. Instead of peaceful solitude, you might feel isolated or start avoiding people. Be careful not to shut the world out or refuse helpful advice from those who care."
+  },
+  {
+    "id": 10,
+    "arcana": "major",
+    "number": 10,
+    "suit": null,
+    "rank": null,
+    "image_path": "10.webp",
+    "name": "Wheel of Fortune",
+    "keywords": [
+      "cycles",
+      "change",
+      "luck"
+    ],
+    "meaning_upright": "A turning point, new cycles, and changes in luck.",
+    "meaning_reversed": "Fighting against change, delays, or repeating the same mistakes.",
+    "archetype": "The Wheel",
+    "description": "The Wheel of Fortune represents the ever-spinning nature of life, reminding us that nothing stays the same forever. This powerful card brings a strong wave of energy, signaling a major turning point in your journey. When it appears, it tells you that a new cycle is beginning, often bringing a welcome shift in luck. Just like a wheel, life has its ups and downs, but this card encourages you to embrace the natural flow of destiny.\n\nHowever, when you fight against these inevitable changes, you may experience frustrating delays or find yourself repeating the same old mistakes. Instead of resisting, the card invites you to let go of control and trust the process, allowing the universe to move you forward."
+  },
+  {
+    "id": 11,
+    "arcana": "major",
+    "number": 11,
+    "suit": null,
+    "rank": null,
+    "image_path": "11.webp",
+    "name": "Justice",
+    "keywords": [
+      "truth",
+      "fairness",
+      "responsibility"
+    ],
+    "meaning_upright": "Truth, fairness, and making good choices.",
+    "meaning_reversed": "Unfairness, refusing to accept the truth, or avoiding results.",
+    "archetype": "The Judge",
+    "description": "The Justice card is a powerful symbol of balance, truth, and personal responsibility. It shines a clear light on your life, urging you to look at things exactly as they are. This card represents the law of cause and effect, reminding us that every choice has a consequence. Justice encourages you to weigh your options carefully and act with integrity. \n\nUpright, it brings a message of fairness, truth, and making good choices that will ultimately pay off. However, when reversed, it warns against unfairness, refusing to accept the truth, or trying to avoid the results of your actions. Ultimately, Justice is a gentle nudge to face reality and take responsibility for your life."
+  },
+  {
+    "id": 12,
+    "arcana": "major",
+    "number": 12,
+    "suit": null,
+    "rank": null,
+    "image_path": "12.webp",
+    "name": "The Hanged Man",
+    "keywords": [
+      "pause",
+      "different_view",
+      "letting_go"
+    ],
+    "meaning_upright": "Take a break, stop trying to control things, and look at the situation in a new way.",
+    "meaning_reversed": "Waiting too long, being unwilling to change, or fear of moving forward.",
+    "archetype": "The Learner",
+    "description": "The Hanged Man is a powerful symbol of voluntary surrender and a peaceful pause. Hanging upside down, he represents the decision to stop fighting the current and look at the world from a completely new angle. This card is not about defeat, but about the wisdom of letting go. When life feels stuck, the upright Hanged Man invites you to release your need for control, take a break, and wait.\n\nHowever, if this card appears reversed, it warns that your temporary pause has turned into hesitation. You might be waiting too long or resisting a necessary change out of fear. It is a gentle wake-up call to stop stalling and move forward."
+  },
+  {
+    "id": 13,
+    "arcana": "major",
+    "number": 13,
+    "suit": null,
+    "rank": null,
+    "image_path": "13.webp",
+    "name": "Death",
+    "keywords": [
+      "endings",
+      "change",
+      "letting go"
+    ],
+    "meaning_upright": "A situation is ending to allow for new growth.",
+    "meaning_reversed": "Holding on to the past or fear of change.",
+    "archetype": "The Transformer",
+    "description": "The Death card is one of the most misunderstood cards in the Tarot, but its energy is actually deeply positive. It does not represent physical death; instead, it signals powerful transformation, endings, and the necessity of letting go. When this card appears, it shows that a major chapter of your life is closing to make room for fresh opportunities and new growth. \n\nUpright, it encourages you to embrace this natural cycle of life, clearing away the old to welcome the new. However, if it appears reversed, it warns that you might be holding on to the past out of a fear of change, resisting the natural flow of progress. Trust the process and let the old ways fade."
+  },
+  {
+    "id": 14,
+    "arcana": "major",
+    "number": 14,
+    "suit": null,
+    "rank": null,
+    "image_path": "14.webp",
+    "name": "Temperance",
+    "keywords": [
+      "balance",
+      "healing",
+      "moderation"
+    ],
+    "meaning_upright": "Balance, healing, and combining things in the right way.",
+    "meaning_reversed": "Too much of something, being out of balance, or a lack of harmony.",
+    "archetype": "The Alchemist",
+    "description": "Temperance represents the art of finding perfect balance and peace in your life. The card often shows an angel gently pouring liquid between two cups, symbolizing the flow of energy and the blending of different parts of your life into a harmonious whole. This card brings a powerful message of healing, patience, and moderation. It encourages you to take a middle path, avoid extremes, and mix different areas of your life in just the right way. \n\nWhen reversed, it warns of a lack of harmony. You might be overdoing something, feeling out of sync, or experiencing a clash of values. Temperance urges you to slow down, listen to your needs, and restore your inner peace."
+  },
+  {
+    "id": 15,
+    "arcana": "major",
+    "number": 15,
+    "suit": null,
+    "rank": null,
+    "image_path": "15.webp",
+    "name": "The Devil",
+    "keywords": [
+      "being stuck",
+      "bad habits",
+      "temptation"
+    ],
+    "meaning_upright": "Feeling trapped by habits or material desires. You may feel unable to change your situation.",
+    "meaning_reversed": "Breaking free from bad patterns. Taking back control of your life.",
+    "archetype": "The Shadow",
+    "description": "The Devil is a powerful card that speaks directly to our shadow self. It embodies the heavy energy of temptation, bad habits, and the feeling of being stuck in a toxic cycle. When this card appears, it reflects a situation where you feel trapped by material desires, believing you have no way out. However, the true secret of the Devil lies in its symbolism; the chains around your neck are actually loose. Upright, it serves as a wake-up call to recognize where you are giving away your power. When reversed, it brings a message of hope, showing that you are ready to break free from these patterns and take back control of your life."
+  },
+  {
+    "id": 16,
+    "arcana": "major",
+    "number": 16,
+    "suit": null,
+    "rank": null,
+    "image_path": "16.webp",
+    "name": "The Tower",
+    "keywords": [
+      "sudden change",
+      "truth",
+      "starting over"
+    ],
+    "meaning_upright": "A sudden change that reveals the truth and removes things that are not solid.",
+    "meaning_reversed": "Trying to stop a necessary change, ongoing problems, or fear of the future.",
+    "archetype": "The Lightning",
+    "description": "The Tower is a powerful symbol of sudden disruption and ultimate truth. It depicts a tall fortress struck by lightning, representing unexpected events that shatter our fragile illusions. Although this card can feel terrifying, its energy is liberating. The flash of lightning destroys weak structures and reveals the absolute truth, leaving only what is genuinely strong. It forces us to sweep away the debris and start over on solid ground.\n\nWhen reversed, the card shows that you might be resisting this necessary change. Clinging to the past only creates ongoing problems and a fear of the future. Instead of fighting the inevitable, let go and trust that this collapse is clearing the way for a better start."
+  },
+  {
+    "id": 17,
+    "arcana": "major",
+    "number": 17,
+    "suit": null,
+    "rank": null,
+    "image_path": "17.webp",
+    "name": "The Star",
+    "keywords": [
+      "hope",
+      "fresh start",
+      "guidance"
+    ],
+    "meaning_upright": "You have hope for the future. Things are getting better.",
+    "meaning_reversed": "You feel discouraged or have many doubts. It is hard to stay positive.",
+    "archetype": "The Guide",
+    "description": "The Star is a beautiful card of hope and renewal that shines brightly after a difficult storm. Acting as a beacon of gentle guidance, it signals a fresh start and promises that things are finally getting better. When upright, this card fills you with faith and reassures you that your future is bright. However, if The Star appears reversed, you might be feeling deeply discouraged. When doubts cloud your mind, it is hard to stay positive. Even so, this card serves as a gentle reminder to trust the journey. The light is still there, waiting to guide you forward as soon as you let go of your fears."
+  },
+  {
+    "id": 18,
+    "arcana": "major",
+    "number": 18,
+    "suit": null,
+    "rank": null,
+    "image_path": "18.webp",
+    "name": "The Moon",
+    "keywords": [
+      "confusion",
+      "feelings",
+      "the unknown"
+    ],
+    "meaning_upright": "Things are not clear. Trust your feelings and move slowly.",
+    "meaning_reversed": "Truth is becoming clear. You feel less afraid.",
+    "archetype": "The Dream",
+    "description": "The Moon invites you into a world of shadows, dreams, and the deep unknown. When this card appears, things are rarely what they seem, and confusion can easily cloud your judgment. The glowing moon sheds a dim light on the path ahead, urging you not to rush but to pay attention to your feelings. This card represents a time of illusion, where your subconscious mind takes the lead. \n\nWhen upright, it is a sign that things are not clear, so you must trust your feelings and move slowly. However, if the card is reversed, the fog is finally lifting. Truth is becoming clear, and you will soon feel less afraid as you step back into the light."
+  },
+  {
+    "id": 19,
+    "arcana": "major",
+    "number": 19,
+    "suit": null,
+    "rank": null,
+    "image_path": "19.webp",
+    "name": "The Sun",
+    "keywords": [
+      "happiness",
+      "success",
+      "energy"
+    ],
+    "meaning_upright": "Happiness, energy, and feeling successful.",
+    "meaning_reversed": "Small problems, feeling sad, or a lack of confidence.",
+    "archetype": "The Light",
+    "description": "The Sun is one of the most joyful and encouraging cards in the Major Arcana. It shines a warm light on your path, bringing immense happiness, positive energy, and success. Symbolically, this card represents clarity and truth, washing away all doubt. When it appears, you are entering a period of growth and vitality, where you feel confident and truly alive.\n\nHowever, even the brightest sun can be blocked by clouds. When reversed, the card suggests temporary sadness, small problems, or a lack of confidence. You might feel drained of your usual energy, but this is only a brief phase. The sun is still there, and your joy will soon return."
+  },
+  {
+    "id": 20,
+    "arcana": "major",
+    "number": 20,
+    "suit": null,
+    "rank": null,
+    "image_path": "20.webp",
+    "name": "Judgement",
+    "keywords": [
+      "new understanding",
+      "review",
+      "important choice"
+    ],
+    "meaning_upright": "A new understanding, looking at your past, and listening to your inner purpose.",
+    "meaning_reversed": "Doubting yourself, being too hard on yourself, or avoiding a choice.",
+    "archetype": "The Call",
+    "description": "The Judgement card is a powerful symbol of spiritual awakening and deep self-reflection. When this Major Arcana card appears, it brings a wave of clarity, urging you to review your past actions with honesty. It is all about gaining a new understanding of your life journey and listening closely to your inner purpose. This card signals a time of transition where you must make an important choice to move forward.\n\nHowever, if you are holding back, Judgement warns against doubting yourself or being too hard on your mistakes. Avoiding this crucial decision only delays your growth. Trust your inner voice, let go of old regrets, and step confidently into your bright new chapter."
+  },
+  {
+    "id": 21,
+    "arcana": "major",
+    "number": 21,
+    "suit": null,
+    "rank": null,
+    "image_path": "21.webp",
+    "name": "The World",
+    "keywords": [
+      "finishing",
+      "bringing things together",
+      "success"
+    ],
+    "meaning_upright": "You have finished a task. You feel complete and successful.",
+    "meaning_reversed": "You have unfinished work. You are waiting for a final result.",
+    "archetype": "The Whole",
+    "description": "The World represents the ultimate culmination of your journey, radiating the energy of success and wholeness. When this card appears upright, it shows that you have finally crossed the finish line. You have brought different parts of your life together and now feel complete. It is a wonderful time to celebrate your achievements and enjoy the well-deserved fruits of your labor. \n\nHowever, if the card is reversed, it suggests that there is still some unfinished work holding you back. You might be waiting for a final result or struggling to tie up loose ends. Take a moment to finish what you started before moving on to your next adventure."
+  },
+  {
+    "id": 22,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "wands",
+    "rank": "ace",
+    "image_path": "22.webp",
+    "name": "Ace of Wands",
+    "keywords": [
+      "new idea",
+      "energy",
+      "starting"
+    ],
+    "meaning_upright": "A new idea or a strong desire to start something.",
+    "meaning_reversed": "Delays, low energy, or a lack of interest.",
+    "archetype": null,
+    "description": "The Ace of Wands is a powerful symbol of fresh starts, raw energy, and sudden inspiration. Picture a hand reaching out from a cloud, offering a glowing wooden wand that bursts with green leaves. This image represents a gift of pure potential and the spark of a brilliant new idea. When this card appears upright, it brings a surge of excitement and a strong desire to start a new project. It urges you to trust your gut and take action. However, when the card is reversed, that passionate fire begins to fade. You might experience frustrating delays, suffer from low energy, or simply lose interest in what once excited you."
+  },
+  {
+    "id": 23,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "wands",
+    "rank": "two",
+    "image_path": "23.webp",
+    "name": "Two of Wands",
+    "keywords": [
+      "planning",
+      "choices",
+      "looking ahead"
+    ],
+    "meaning_upright": "Making plans for the future and thinking about new goals.",
+    "meaning_reversed": "Fear of the future or staying in your comfort zone.",
+    "archetype": null,
+    "description": "The Two of Wands captures a moment of quiet power and anticipation. Picture a figure standing on a high balcony, holding a globe while looking out over a vast horizon. This card is all about the energy of planning, making choices, and looking ahead. You have achieved your first success, but now you are standing at a crossroads, deciding your next move. \n\nWhen this card appears reversed, it warns you about staying in your comfort zone. It often shows a fear of the unknown or hesitation to take action. The card reminds you that while staying safe feels easy, real growth only happens when you are brave enough to face the future."
+  },
+  {
+    "id": 24,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "wands",
+    "rank": "three",
+    "image_path": "24.webp",
+    "name": "Three of Wands",
+    "keywords": [
+      "growth",
+      "progress",
+      "moving forward"
+    ],
+    "meaning_upright": "Growth is happening. You are making progress. You are starting to see results.",
+    "meaning_reversed": "Things are delayed. There are problems. You are not finishing what you started.",
+    "archetype": null,
+    "description": "The Three of Wands is a powerful card of forward momentum and expansion. It shows a figure standing on a cliff, looking out over the sea as ships sail into the distance. This represents the exciting moment when your plans start to bear fruit. You have taken the first steps, and now you are beginning to see real progress. It is a time of growth and looking toward the horizon with confidence. Your hard work is paying off. \n\nHowever, when this card appears reversed, it signals that your plans have hit a roadblock. You might experience frustrating delays or struggle to finish what you started. Instead of moving forward, you may feel stuck, reminding you to re-evaluate your strategy."
+  },
+  {
+    "id": 25,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "wands",
+    "rank": "four",
+    "image_path": "25.webp",
+    "name": "Four of Wands",
+    "keywords": [
+      "celebration",
+      "home",
+      "achievement"
+    ],
+    "meaning_upright": "A happy event, feeling safe at home, and reaching a goal.",
+    "meaning_reversed": "Problems at home or an event that does not feel right.",
+    "archetype": null,
+    "description": "The Four of Wands welcomes you with a warm embrace of joy, stability, and success. Visually, the four sturdy wands form a strong foundation decorated with a beautiful garland, symbolizing a safe haven and a happy home. This card shines with the positive energy of reaching a major milestone or celebrating a happy event with your loved ones. It is a wonderful sign of harmony and feeling truly secure. \n\nHowever, when this card appears upside down, the harmony is temporarily disrupted. It suggests there might be some tension at home or a celebration that does not quite feel right. It simply asks you to resolve any conflicts and rebuild the stable foundation you need to move forward."
+  },
+  {
+    "id": 26,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "wands",
+    "rank": "five",
+    "image_path": "26.webp",
+    "name": "Five of Wands",
+    "keywords": [
+      "competition",
+      "disagreement",
+      "challenge"
+    ],
+    "meaning_upright": "There is competition. People have different opinions. You learn by facing challenges.",
+    "meaning_reversed": "Avoiding a fight. You are stepping away from arguments that do not help you.",
+    "archetype": null,
+    "description": "The Five of Wands represents a dynamic clash of energies, often shown as people struggling or competing with wooden staffs. This card brings a wave of healthy competition, disagreements, and daily struggles where everyone wants to be heard. \n\nWhen it appears upright, it points to a lively environment filled with different opinions. While it feels stressful, this challenge is actually a great way to grow and learn by testing your skills. On the other hand, when the card is reversed, the tension begins to fade. You are likely stepping away from useless arguments and avoiding fights that do not help you, wisely choosing peace of mind over unnecessary drama."
+  },
+  {
+    "id": 27,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "wands",
+    "rank": "six",
+    "image_path": "27.webp",
+    "name": "Six of Wands",
+    "keywords": [
+      "praise",
+      "success",
+      "self-confidence"
+    ],
+    "meaning_upright": "You are winning or achieving your goals. People notice your hard work.",
+    "meaning_reversed": "You feel low confidence. You do not feel appreciated for your work.",
+    "archetype": null,
+    "description": "The Six of Wands is the ultimate card of victory, recognition, and self-confidence. Symbolized by a rider wearing a laurel wreath and holding a wand high in the air, this card represents a moment of triumph after a long struggle. When this card appears upright, it brings a wave of positive energy. You are achieving your goals, and people are finally noticing your hard work. It is a time for well-deserved praise and holding your head high. \n\nHowever, when the card is reversed, the mood changes. You might suffer from low self-confidence and feel like your efforts are going completely unnoticed. It serves as a reminder to rebuild your inner strength when appreciation from others is lacking."
+  },
+  {
+    "id": 28,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "wands",
+    "rank": "seven",
+    "image_path": "28.webp",
+    "name": "Seven of Wands",
+    "keywords": [
+      "defense",
+      "courage",
+      "boundaries"
+    ],
+    "meaning_upright": "You are holding your position and defending your ideas.",
+    "meaning_reversed": "You are quitting too early or feeling unable to handle the pressure.",
+    "archetype": null,
+    "description": "The Seven of Wands is a powerful symbol of courage, boundaries, and determination. When this card appears, it shows you have reached the high ground, but now you must defend your position. Others may challenge your ideas, but you have the strength to stand your ground and protect what you have built. It is a clear call to hold your position with confidence.\n\nHowever, if the card is reversed, it suggests that constant pressure is wearing you down. You might feel overwhelmed and tempted to quit too early, letting others cross your boundaries. This is a gentle sign to step back, regain your energy, and rebuild your defense."
+  },
+  {
+    "id": 29,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "wands",
+    "rank": "eight",
+    "image_path": "29.webp",
+    "name": "Eight of Wands",
+    "keywords": [
+      "speed",
+      "action",
+      "news"
+    ],
+    "meaning_upright": "Things are moving very fast. You will see quick progress.",
+    "meaning_reversed": "Things are slowing down. There may be confusion or a lack of focus.",
+    "archetype": null,
+    "description": "The Eight of Wands is all about rapid change and high energy. In the traditional image, eight wooden staffs fly through the air, pointing to a swift journey. When this card appears upright, it is a clear sign that things are moving very fast in your life. You can expect quick progress, sudden inspiration, or important news. The waiting game is over, and the path ahead is wide open to take action. \n\nHowever, if the card is reversed, the energy shifts. The flying wands lose their direction, meaning things are slowing down. You might face unexpected delays, confusion, or a frustrating lack of focus. Instead of rushing, use this moment to pause and regroup."
+  },
+  {
+    "id": 30,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "wands",
+    "rank": "nine",
+    "image_path": "30.webp",
+    "name": "Nine of Wands",
+    "keywords": [
+      "strength",
+      "keep going",
+      "being careful"
+    ],
+    "meaning_upright": "You are tired, but you keep going. You stay strong through hard times.",
+    "meaning_reversed": "You are exhausted. You are too worried about others. You do not ask for help.",
+    "archetype": null,
+    "description": "The Nine of Wands represents resilience and inner strength when you are close to the finish line. In the traditional imagery, a weary warrior stands guard, holding a staff for support. Even though you are incredibly tired right now, this card encourages you to keep going. You have faced many challenges, making you naturally careful, but you must stay strong through these hard times.\n\nWhen reversed, the card warns that you are completely exhausted. You are carrying too much weight on your shoulders, worrying too much about others while refusing to ask for help. It is finally time to let your guard down and accept support."
+  },
+  {
+    "id": 31,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "wands",
+    "rank": "ten",
+    "image_path": "31.webp",
+    "name": "Ten of Wands",
+    "keywords": [
+      "hard work",
+      "duty",
+      "stress"
+    ],
+    "meaning_upright": "You have many responsibilities and are carrying too much.",
+    "meaning_reversed": "You need to share tasks, let go of work, or you are tired from too much stress.",
+    "archetype": null,
+    "description": "The Ten of Wands represents the heavy burden of taking on too much. In this card, we see the energy of hard work turning into pure stress and duty. You have climbed high, but now you are carrying a massive load of responsibilities on your shoulders, barely able to see the road ahead. If you pull this card upright, it is a clear sign that you are overwhelmed and pushing yourself to the absolute limit.\n\nWhen reversed, the card serves as a gentle wake-up call. It urges you to share your tasks, delegate some of your work, and let go of what is not yours to carry before you burn out completely."
+  },
+  {
+    "id": 32,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "wands",
+    "rank": "page",
+    "image_path": "32.webp",
+    "name": "Page of Wands",
+    "keywords": [
+      "curiosity",
+      "learning",
+      "news"
+    ],
+    "meaning_upright": "You are interested in new things. You are exploring ideas. You may receive exciting news.",
+    "meaning_reversed": "You act without thinking. You face delays. You do not have a clear plan.",
+    "archetype": null,
+    "description": "The Page of Wands brings a burst of fresh, fiery energy into your life. Representing a young explorer standing in a vast desert, this card symbolizes the spark of curiosity and the joy of learning something new. When this card appears, it encourages you to explore fresh ideas and stay open to unexpected possibilities. You might soon receive exciting news that sets your imagination on fire. \n\nHowever, if the card is reversed, it serves as a gentle warning. You might be rushing into things without a clear plan or acting on impulse. This can lead to frustrating delays. To harness this card's power, embrace your inner student, but make sure to think before you leap."
+  },
+  {
+    "id": 33,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "wands",
+    "rank": "knight",
+    "image_path": "33.webp",
+    "name": "Knight of Wands",
+    "keywords": [
+      "adventure",
+      "bravery",
+      "action"
+    ],
+    "meaning_upright": "Taking quick action, seeking adventure, and moving forward.",
+    "meaning_reversed": "Being reckless, acting too fast, or changing your mind often.",
+    "archetype": null,
+    "description": "The Knight of Wands is the ultimate symbol of passion, bravery, and fast-paced energy. Charged with a fiery spirit, this card represents a bold adventurer who is always ready to take action and charge forward into the unknown. When this card appears, it urges you to follow your heart, embrace new challenges, and make bold moves without hesitation. It is a powerful call to chase your dreams with absolute confidence. \n\nHowever, this intense fire can sometimes burn too bright. When reversed, the card warns against being reckless, rushing into situations too fast, or constantly changing your mind. It reminds us to balance our excitement with a little patience to avoid burning out."
+  },
+  {
+    "id": 34,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "wands",
+    "rank": "queen",
+    "image_path": "34.webp",
+    "name": "Queen of Wands",
+    "keywords": [
+      "confidence",
+      "kindness",
+      "leadership"
+    ],
+    "meaning_upright": "You are confident, kind, and a good leader.",
+    "meaning_reversed": "You feel insecure, jealous, or want too much attention.",
+    "archetype": null,
+    "description": "The Queen of Wands glows with warmth, passion, and vibrant energy. Sitting proudly on her throne, she represents a natural leader who rules with a kind heart and absolute confidence. She holds a sunflower, symbolizing joy and life, showing that her strength comes from a place of love and optimism. When this card appears upright, it is a wonderful sign. It means you are stepping into your power, leading others with grace, and sharing your generous spirit. \n\nHowever, if the card is reversed, this fiery energy shifts. You might struggle with deep insecurities or feel jealous of others. Sometimes, it warns that you are seeking too much attention. The Queen reminds you to reclaim your inner balance and shine bright."
+  },
+  {
+    "id": 35,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "wands",
+    "rank": "king",
+    "image_path": "35.webp",
+    "name": "King of Wands",
+    "keywords": [
+      "planning",
+      "skill",
+      "bravery"
+    ],
+    "meaning_upright": "A leader with a clear plan and great skill.",
+    "meaning_reversed": "Acting without thinking, pride, or being too controlling.",
+    "archetype": null,
+    "description": "The King of Wands is the ultimate symbol of bold leadership, vision, and creative energy. He represents a natural leader who does not just dream big but also possesses the skill and bravery to make things happen. When you see him, he encourages you to take charge of your life with a clear plan and steady focus. He is the master of his own fate, inspiring everyone around him with his fiery passion and determination. \n\nHowever, when this card appears reversed, it serves as a warning. It suggests you might be acting without thinking, letting your pride get in the way, or becoming too controlling. To find your balance, you must channel his fiery energy wisely."
+  },
+  {
+    "id": 36,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "Cups",
+    "rank": "Ace",
+    "image_path": "36.webp",
+    "name": "Ace of Cups",
+    "keywords": [
+      "love",
+      "honesty",
+      "new beginnings"
+    ],
+    "meaning_upright": "A new start in your feelings. A time for love and kindness.",
+    "meaning_reversed": "Hard to share feelings. Trouble giving or receiving love.",
+    "archetype": null,
+    "description": "The Ace of Cups represents a beautiful new beginning for your heart. As a symbol of pure emotion, this card shows a cup overflowing with clean water, representing a deep well of love, joy, and honesty. When this card appears upright, it brings a wave of positive energy, inviting you to open your heart. It is a wonderful time for love and kindness to flow into your life. \n\nHowever, if the card appears reversed, it suggests that you might be holding back. You could find it hard to share your true feelings or struggle with giving and receiving love. Treat this as a gentle reminder to clear your emotional blocks and heal."
+  },
+  {
+    "id": 37,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "cups",
+    "rank": "two",
+    "image_path": "37.webp",
+    "name": "Two of Cups",
+    "keywords": [
+      "connection",
+      "partnership",
+      "agreement"
+    ],
+    "meaning_upright": "A strong connection between two people. Working well together.",
+    "meaning_reversed": "Problems in a relationship. A lack of balance or poor communication.",
+    "archetype": null,
+    "description": "The Two of Cups radiates a beautiful energy of mutual respect, balance, and deep connection. It represents the sweet moment when two forces flow together in perfect harmony. In a reading, this card shines a light on successful partnerships, whether in love, friendship, or business. It shows that you are on the same page with someone, sharing a strong bond and working well together. \n\nHowever, when this card appears upside down, it warns of friction. It points to a lack of balance, poor communication, or a fading spark. You might feel disconnected from your partner or struggle to reach an agreement. It is a gentle reminder to listen carefully and restore harmony."
+  },
+  {
+    "id": 38,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "cups",
+    "rank": "three",
+    "image_path": "38.webp",
+    "name": "Three of Cups",
+    "keywords": [
+      "friendship",
+      "celebration",
+      "support"
+    ],
+    "meaning_upright": "A time for friendship, happy events, and helping each other.",
+    "meaning_reversed": "Spending too much time on parties or having problems with friends.",
+    "archetype": null,
+    "description": "The Three of Cups is a beautiful card of joy, connection, and shared happiness. When this card appears, it brings a warm wave of positive energy, signaling a wonderful time for friendship and celebration. It often shows up when happy events are on the horizon, encouraging you to raise a glass with the people who lift you up. This card is all about mutual support and appreciating your inner circle.\n\nHowever, if the card is reversed, it serves as a gentle reality check. It might mean you are spending too much time partying and neglecting your responsibilities, or that there is some friction and misunderstanding among your friends. Overall, it reminds us of the power of community."
+  },
+  {
+    "id": 39,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "cups",
+    "rank": "four",
+    "image_path": "39.webp",
+    "name": "Four of Cups",
+    "keywords": [
+      "boredom",
+      "thinking",
+      "choosing"
+    ],
+    "meaning_upright": "You feel bored or unhappy. You are thinking about your life and your choices.",
+    "meaning_reversed": "You feel interested again. You are ready to accept a new opportunity.",
+    "archetype": null,
+    "description": "The Four of Cups represents a time of quiet reflection and discontent. Imagine sitting under a tree, lost in thought, while ignoring the gifts right in front of you. When upright, this card shows that you feel bored or unhappy, overthinking your life choices while stuck in a rut. It is a gentle reminder that focusing too much on what is missing can make you miss wonderful new opportunities. \n\nHowever, when the card is reversed, the heavy fog of boredom begins to lift. You are finally ready to open your eyes, shake off the apathy, and welcome fresh possibilities with excitement and a renewed sense of interest."
+  },
+  {
+    "id": 40,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "cups",
+    "rank": "five",
+    "image_path": "40.webp",
+    "name": "Five of Cups",
+    "keywords": [
+      "loss",
+      "sadness",
+      "regret"
+    ],
+    "meaning_upright": "You are feeling sad about a loss. You are focusing on your mistakes.",
+    "meaning_reversed": "You are starting to heal. You are looking at the good things you still have.",
+    "archetype": null,
+    "description": "The Five of Cups carries a heavy energy of sadness, loss, and regret. The traditional imagery shows a cloaked figure staring at three spilled cups, representing a deep focus on past mistakes and what went wrong. It is easy to get trapped in this grief, crying over spilled milk while ignoring the two full cups standing right behind you. When upright, this card reflects a painful time of mourning a loss. \n\nHowever, when reversed, a beautiful shift occurs. You finally begin to heal, turning away from old disappointments to appreciate the good things you still have. It is a gentle reminder that even after the hardest times, hope and new beginnings are always within reach."
+  },
+  {
+    "id": 41,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "cups",
+    "rank": "six",
+    "image_path": "41.webp",
+    "name": "Six of Cups",
+    "keywords": [
+      "the past",
+      "kindness",
+      "happy memories"
+    ],
+    "meaning_upright": "Thinking about the past with happiness. Acts of kindness and simple joy.",
+    "meaning_reversed": "Focusing too much on the past. Trouble moving forward.",
+    "archetype": null,
+    "description": "The Six of Cups brings a warm wave of nostalgia, wrapping you in the sweet comfort of happy memories. It represents a gentle time when life was simpler, filled with pure joy. Symbolized by children sharing cups of flowers, this card speaks of genuine acts of kindness and reconnecting with your inner child. When upright, it invites you to look back with a smile and share love freely. \n\nHowever, if this card appears reversed, it warns against getting stuck in yesterday. Clinging to the past can stop you from moving forward. It is a gentle reminder to let go of old times and enjoy the here and now."
+  },
+  {
+    "id": 42,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "cups",
+    "rank": "seven",
+    "image_path": "42.webp",
+    "name": "Seven of Cups",
+    "keywords": [
+      "choices",
+      "imagination",
+      "confusion"
+    ],
+    "meaning_upright": "You have many choices. It is hard to know what is real and what to focus on.",
+    "meaning_reversed": "You are gaining clarity. You can now make a clear decision and focus.",
+    "archetype": null,
+    "description": "The Seven of Cups brings us into a world of dreams, illusions, and endless possibilities. In this card, seven cups float in the clouds, each holding a different tempting offer—from riches and power to hidden dangers. This represents the overwhelming power of your imagination and the confusion that comes with having too many options. When upright, it warns you that not everything is as it seems. It is hard to know what is real and where to focus your energy.\n\nHowever, when reversed, the heavy fog of confusion finally lifts. You are gaining clarity, letting you see the truth, make a clear decision, and focus on what truly matters."
+  },
+  {
+    "id": 43,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "cups",
+    "rank": "eight",
+    "image_path": "43.webp",
+    "name": "Eight of Cups",
+    "keywords": [
+      "leaving",
+      "searching",
+      "change"
+    ],
+    "meaning_upright": "Leaving a situation to look for something more meaningful.",
+    "meaning_reversed": "Being afraid to change or returning to something old.",
+    "archetype": null,
+    "description": "The Eight of Cups represents a powerful turning point, showing a figure walking away from a row of cups into the dark mountains. This image captures the difficult but necessary choice to leave behind what no longer serves you. It is about searching for something more meaningful, even when walking into the unknown feels scary. When upright, this card encourages you to follow your heart and move on to better things. However, if it appears reversed, it warns that a fear of change is holding you back, or that you are tempted to return to old, unhealthy habits. Ultimately, it invites you to embrace transition and find true fulfillment."
+  },
+  {
+    "id": 44,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "cups",
+    "rank": "nine",
+    "image_path": "44.webp",
+    "name": "Nine of Cups",
+    "keywords": [
+      "happiness",
+      "wishes coming true",
+      "being satisfied"
+    ],
+    "meaning_upright": "You are happy and satisfied. Your goals are achieved.",
+    "meaning_reversed": "You have too much of a good thing. You are not happy despite having what you wanted.",
+    "archetype": null,
+    "description": "The Nine of Cups, often called the wish card, radiates pure joy and emotional fulfillment. Its energy is all about feeling content with where you are in life. When this card appears upright, it brings a warm wave of happiness, showing that your hard work has paid off and your dreams are coming true. You are sitting pretty, enjoying the fruits of your labor and celebrating your achievements. \n\nHowever, if the card is reversed, it serves as a gentle reality check. It warns against having too much of a good thing. You might have achieved your goals, yet you still feel empty inside, proving that true happiness must come from within."
+  },
+  {
+    "id": 45,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "cups",
+    "rank": "ten",
+    "image_path": "45.webp",
+    "name": "Ten of Cups",
+    "keywords": [
+      "harmony",
+      "family",
+      "happiness"
+    ],
+    "meaning_upright": "Peace, happiness, and satisfaction in your life.",
+    "meaning_reversed": "Problems at home or expecting too much.",
+    "archetype": null,
+    "description": "The Ten of Cups represents the ultimate dream of emotional fulfillment and joy. This card is a beautiful symbol of harmony, family, and pure happiness, often showing a loving family under a rainbow of cups. It brings a powerful energy of peace, happiness, and satisfaction into your life, assuring you that you are surrounded by love. \n\nHowever, when this card appears reversed, it warns of potential problems at home or expecting too much from those around you. It suggests that unrealistic expectations might be causing tension. Ultimately, this card encourages you to appreciate your loved ones, heal your relationships, and focus on creating real peace in your daily life."
+  },
+  {
+    "id": 46,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "cups",
+    "rank": "page",
+    "image_path": "46.webp",
+    "name": "Page of Cups",
+    "keywords": [
+      "news",
+      "openness",
+      "surprise"
+    ],
+    "meaning_upright": "You receive a kind message. You are curious about your feelings.",
+    "meaning_reversed": "You act without thinking about your feelings. You feel confused.",
+    "archetype": null,
+    "description": "The Page of Cups is a gentle messenger of the tarot, bringing a wave of fresh, emotional energy. This card shows a young person holding a cup, surprised by a fish popping out of it, which symbolizes the unexpected nature of our feelings. It encourages you to stay open to the world and embrace your creativity. When upright, you can expect pleasant news or a kind message. It invites you to explore your emotions with curiosity. \n\nHowever, if this card is reversed, it serves as a warning. You might be acting on impulse without thinking about your feelings, leaving you confused. Take a deep breath and reconnect with your heart."
+  },
+  {
+    "id": 47,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "cups",
+    "rank": "knight",
+    "image_path": "47.webp",
+    "name": "Knight of Cups",
+    "keywords": [
+      "romance",
+      "invitation",
+      "idealism"
+    ],
+    "meaning_upright": "A new romantic opportunity, an invitation, or listening to your feelings.",
+    "meaning_reversed": "Being moody, feeling disappointed, or having unrealistic expectations.",
+    "archetype": null,
+    "description": "The Knight of Cups is the ultimate dreamer of the tarot, gently riding in on a white horse to deliver a message from the heart. Clad in armor decorated with fish, he represents a beautiful balance between deep emotion and active pursuit. When this card appears upright, it brings a warm invitation, a new romantic opportunity, or a gentle push to start listening to your feelings. He represents a time of creative inspiration and pure idealism, urging you to follow your dreams. \n\nHowever, if this card arrives reversed, the dream can easily fade. You might experience sudden moodiness, deep disappointment, or find yourself trapped by unrealistic expectations. It is a reminder to keep your feet on the ground."
+  },
+  {
+    "id": 48,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "cups",
+    "rank": "queen",
+    "image_path": "48.webp",
+    "name": "Queen of Cups",
+    "keywords": [
+      "kindness",
+      "feelings",
+      "care"
+    ],
+    "meaning_upright": "You understand the feelings of others. You are kind and calm.",
+    "meaning_reversed": "You feel too much stress. You need better personal boundaries.",
+    "archetype": null,
+    "description": "The Queen of Cups represents the gentle power of emotional wisdom and deep care. Sitting by the calm sea, she holds a decorated cup, symbolizing her connection to her feelings. This card radiates pure kindness and peaceful energy. When she appears upright, she shows that you deeply understand the feelings of others. You are kind, calm, and a natural helper who brings comfort to those around you. \n\nHowever, if the card is reversed, it warns that you are carrying too much emotional weight and feeling too much stress. This is a gentle reminder that you need to set better personal boundaries. You must protect your own energy and offer yourself the same care you so freely give to everyone else."
+  },
+  {
+    "id": 49,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "cups",
+    "rank": "king",
+    "image_path": "49.webp",
+    "name": "King of Cups",
+    "keywords": [
+      "calm",
+      "kindness",
+      "balance"
+    ],
+    "meaning_upright": "A person who is calm, kind, and in control of their emotions.",
+    "meaning_reversed": "Using emotions to control others or hiding your true feelings.",
+    "archetype": null,
+    "description": "The King of Cups represents a powerful force of emotional balance and kindness. Sitting on his throne amidst turbulent waters, he remains completely calm, showing his unique ability to master his feelings without suppressing them. He is a mature figure who listens with an open heart and offers gentle guidance. When this card appears upright, it encourages you to stay cool under pressure and treat others with compassion. It shows you can navigate difficult situations by balancing your mind and heart. \n\nHowever, when reversed, this quiet strength can turn into a shadow. It warns against using emotions to control others or hiding your true feelings. This card asks you to find your inner peace."
+  },
+  {
+    "id": 50,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "swords",
+    "rank": "ace",
+    "image_path": "50.webp",
+    "name": "Ace of Swords",
+    "keywords": [
+      "clear thinking",
+      "truth",
+      "new ideas"
+    ],
+    "meaning_upright": "Clear thinking, finding the truth, and a new idea.",
+    "meaning_reversed": "Confusion, not having the right facts, or difficulty thinking clearly.",
+    "archetype": null,
+    "description": "The Ace of Swords represents a powerful breakthrough of the mind. It brings a sudden flash of insight, like a sharp blade cutting through the fog of confusion. When this card appears upright, it delivers a surge of mental clarity and brilliant new ideas. It encourages you to seek the truth and speak your mind with confidence, helping you see things exactly as they are to make wise decisions. However, when the card is reversed, this mental energy gets blocked. You might feel deeply confused, struggle to think clearly, or realize you do not have all the right facts. It warns you to step back and clear your head before making your next move."
+  },
+  {
+    "id": 51,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "swords",
+    "rank": "two",
+    "image_path": "51.webp",
+    "name": "Two of Swords",
+    "keywords": [
+      "waiting",
+      "choice",
+      "avoiding a problem"
+    ],
+    "meaning_upright": "A situation where no progress is made. You must make a difficult decision. You are protecting your feelings.",
+    "meaning_reversed": "You stop being undecided. The truth becomes clear. You feel overwhelmed by too much information.",
+    "archetype": null,
+    "description": "The Two of Swords depicts a powerful moment of stillness and hesitation. A blindfolded figure sits calmly, balancing two heavy swords across their chest. This imagery represents a difficult choice you are trying to avoid, often because you are protecting your feelings from a painful truth. You are caught in a stalemate where no progress can be made until you face the issue head-on. When this card appears, it tells you that waiting will not solve the problem.\n\nIn reverse, the card shows that the blindfold is finally coming off. You are ready to make a decision and the truth becomes clear, though you might feel overwhelmed by a sudden flood of new information."
+  },
+  {
+    "id": 52,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "swords",
+    "rank": "three",
+    "image_path": "52.webp",
+    "name": "Three of Swords",
+    "keywords": [
+      "sadness",
+      "pain",
+      "truth"
+    ],
+    "meaning_upright": "Feeling sad or hurt. Learning a difficult truth.",
+    "meaning_reversed": "Healing from pain. Choosing to forgive. Moving forward.",
+    "archetype": null,
+    "description": "The Three of Swords speaks directly to the heart. Visually, it depicts a heart pierced by three swords under a stormy sky, representing deep sadness, emotional pain, and heartbreak. This card appears when you are facing a difficult truth that is hard to swallow. It reminds us that pain is a natural part of life and that honesty can hurt before it clears the air.\n\nWhen reversed, the energy shifts toward hope and recovery. It signals that you are finally healing from your pain, choosing to forgive, and letting go of old grudges. This transition helps you release the sorrow that held you back, allowing you to move forward with a lighter heart."
+  },
+  {
+    "id": 53,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "swords",
+    "rank": "four",
+    "image_path": "53.webp",
+    "name": "Four of Swords",
+    "keywords": [
+      "rest",
+      "recovery",
+      "pause"
+    ],
+    "meaning_upright": "It is time to rest and recover. Take a break to heal.",
+    "meaning_reversed": "You are not resting enough. You are returning to work too quickly.",
+    "archetype": null,
+    "description": "The Four of Swords is your gentle reminder to press pause and take a step back from the chaos of daily life. Its peaceful energy is all about quiet reflection, recovery, and giving your mind and body the downtime they need. When this card appears upright, it is a clear sign to recharge your batteries and heal before moving forward.\n\nHowever, if the card shows up reversed, it serves as a vital warning. You are likely pushing yourself too hard and returning to work too quickly without fully recovering. Remember that true healing cannot be rushed, so do not try to run on empty. Take a deep breath and simply rest."
+  },
+  {
+    "id": 54,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "swords",
+    "rank": "five",
+    "image_path": "54.webp",
+    "name": "Five of Swords",
+    "keywords": [
+      "disagreement",
+      "pride",
+      "selfishness"
+    ],
+    "meaning_upright": "There is a disagreement. You may win, but it hurts your relationships.",
+    "meaning_reversed": "You choose to stop fighting. You decide to move on from a difficult situation.",
+    "archetype": null,
+    "description": "The Five of Swords brings a tense energy of conflict and disagreement. In its upright position, pride and selfishness take center stage. You might win the argument, but this victory comes with a heavy price. By focusing only on being right, you risk damaging your relationships and leaving others defeated. It is a reminder that some battles are not worth winning if they leave you alone. \n\nWhen reversed, the energy shifts toward healing. You choose to stop fighting and lay down your weapons. Instead of holding onto anger, you decide to walk away from a difficult situation and move on. This transition allows you to choose peace of mind over pride."
+  },
+  {
+    "id": 55,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "swords",
+    "rank": "six",
+    "image_path": "55.webp",
+    "name": "Six of Swords",
+    "keywords": [
+      "change",
+      "healing",
+      "leaving the past"
+    ],
+    "meaning_upright": "Moving away from a difficult situation toward a better future.",
+    "meaning_reversed": "Trouble letting go of the past or moving forward.",
+    "archetype": null,
+    "description": "The Six of Swords is a card of transition, healing, and quiet hope. It represents the moment you decide to leave a difficult situation behind and move toward a calmer, brighter future. The energy here is about letting go of old pain and stepping into a period of recovery. Even if the journey feels sad or heavy, it is a necessary step toward mental peace. This card reassures you that the worst is behind you and smoother waters lie ahead. \n\nHowever, if this card appears reversed, it suggests you are having trouble letting go of the past. You might be resisting change or feeling stuck in old habits, making it difficult to move forward."
+  },
+  {
+    "id": 56,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "swords",
+    "rank": "seven",
+    "image_path": "56.webp",
+    "name": "Seven of Swords",
+    "keywords": [
+      "planning",
+      "keeping secrets",
+      "avoiding a situation"
+    ],
+    "meaning_upright": "You are using a plan to reach a goal. You may be keeping your actions private.",
+    "meaning_reversed": "You are telling the truth, being found out, or changing your plans.",
+    "archetype": null,
+    "description": "The Seven of Swords carries a clever, strategic energy about working behind the scenes. When this card appears, you are likely using a smart plan to reach your goals. Instead of facing a conflict head-on, you might be keeping your actions private or avoiding a tricky situation to protect yourself. It represents a quiet strategist who plays their cards close to their chest to get things done. \n\nHowever, when the card is reversed, the truth comes to light. Your secrets may be found out, or you might decide to come clean, change your plans, and finally face the music with honesty."
+  },
+  {
+    "id": 57,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "swords",
+    "rank": "eight",
+    "image_path": "57.webp",
+    "name": "Eight of Swords",
+    "keywords": [
+      "feeling trapped",
+      "fear",
+      "limiting your own progress"
+    ],
+    "meaning_upright": "You feel stuck because of fear or your own negative thoughts.",
+    "meaning_reversed": "You are becoming free, seeing things clearly, and moving forward.",
+    "archetype": null,
+    "description": "The Eight of Swords represents a powerful mental trap where fear holds you hostage. Visually, it depicts a person bound and blindfolded, encircled by sharp blades. While this image feels helpless, the true message is that your confinement is self-imposed. The ropes are loose, and the swords do not block every exit. This card shows that your own negative thoughts and anxiety are what truly limit your progress. You might feel completely stuck, but the power to change lies within you.\n\nWhen reversed, the card brings a breath of fresh air. It shows that you are finally opening your eyes, breaking free from your mental cage, and seeing things clearly. By facing your fears, you can finally move forward."
+  },
+  {
+    "id": 58,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "swords",
+    "rank": "nine",
+    "image_path": "58.webp",
+    "name": "Nine of Swords",
+    "keywords": [
+      "anxiety",
+      "worry",
+      "lack of sleep"
+    ],
+    "meaning_upright": "You feel nervous and worried. You may have trouble sleeping.",
+    "meaning_reversed": "You find relief. You receive help or face your fears.",
+    "archetype": null,
+    "description": "The Nine of Swords depicts a person sitting up in bed, holding their head in their hands under the weight of nine heavy swords. This card represents your deepest worries, anxiety, and sleepless nights. The swords hanging above do not touch the figure, symbolizing that most of your fears are actually creations of your own mind. When upright, this card shows that you are feeling overwhelmed, stressed, and unable to sleep due to racing thoughts. It is a clear sign to stop overthinking. When reversed, the card brings a message of hope. It indicates that the worst is behind you, you are finally finding relief, facing your fears, and receiving the help you need to move forward."
+  },
+  {
+    "id": 59,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "swords",
+    "rank": "ten",
+    "image_path": "59.webp",
+    "name": "Ten of Swords",
+    "keywords": [
+      "ending",
+      "betrayal",
+      "letting go"
+    ],
+    "meaning_upright": "A final ending, a difficult truth, and moving on.",
+    "meaning_reversed": "Recovery, getting stronger, and a new start.",
+    "archetype": null,
+    "description": "The Ten of Swords marks a dramatic but necessary turning point. It represents a painful ending or a deep betrayal that leaves you feeling defeated. The swords in the figure's back show that a difficult truth has finally come to light, and there is no going back. While this energy feels heavy, it carries a powerful message of letting go. Having hit rock bottom, you have nowhere to go but up. \n\nWhen the card appears reversed, it brings a welcome message of recovery. You are finally getting stronger and healing from the wounds of the past. This position promises a new start, proving that even after the darkest night, the sun will always rise again."
+  },
+  {
+    "id": 60,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "swords",
+    "rank": "page",
+    "image_path": "60.webp",
+    "name": "Page of Swords",
+    "keywords": [
+      "curiosity",
+      "searching for the truth",
+      "being alert"
+    ],
+    "meaning_upright": "You are curious, looking for the truth, and paying attention to your surroundings.",
+    "meaning_reversed": "You are sharing rumors, acting too quickly, or making decisions without enough information.",
+    "archetype": null,
+    "description": "The Page of Swords brings a fresh breeze of mental energy, representing a sharp, curious mind. In the traditional imagery, a young figure holds a sword upright against a windy sky, standing alert and ready for action. This card encourages you to look for the truth and pay close attention to your surroundings. Upright, it shows you are eager to learn, ask the right questions, and face challenges with an open mind. \n\nHowever, if the card is reversed, it warns you to slow down. You might be acting too quickly on gossip or making big decisions without enough information. Remember to think twice and double-check your facts before you leap."
+  },
+  {
+    "id": 61,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "swords",
+    "rank": "knight",
+    "image_path": "61.webp",
+    "name": "Knight of Swords",
+    "keywords": [
+      "being direct",
+      "speed",
+      "motivation"
+    ],
+    "meaning_upright": "Taking quick action, moving fast, and thinking clearly.",
+    "meaning_reversed": "Acting without thinking, being unkind, or moving too fast.",
+    "archetype": null,
+    "description": "The Knight of Swords is a powerful card of action, intellect, and pure momentum. When this card appears, it brings a rush of energy that pushes you to charge forward and tackle your goals head-on. Driven by strong motivation and mental clarity, this Knight does not beat around the bush. He represents the thrill of taking quick action and being incredibly direct.\n\nHowever, this fierce energy is a double-edged sword. If you move too fast without thinking, you risk making careless mistakes or hurting others with unkind words. The key is to harness this incredible speed while staying mindful, ensuring your sharp mind guides you forward instead of causing unnecessary trouble."
+  },
+  {
+    "id": 62,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "swords",
+    "rank": "queen",
+    "image_path": "62.webp",
+    "name": "Queen of Swords",
+    "keywords": [
+      "good judgment",
+      "independence",
+      "clear thinking"
+    ],
+    "meaning_upright": "Using good judgment, being independent, and setting clear personal limits.",
+    "meaning_reversed": "Being unfriendly, feeling bitter, or using unkind words.",
+    "archetype": null,
+    "description": "The Queen of Swords represents the ultimate power of clear thinking, good judgment, and independence. Sitting on her throne with a sword held high, she encourages you to look at situations logically and rely on facts rather than emotions. This card is all about knowing your worth and setting clear personal limits without feeling guilty. She inspires you to speak your truth and stand on your own two feet.\n\nHowever, when this card is reversed, her sharp intellect can become a weapon. You might find yourself feeling bitter, acting unfriendly, or using unkind words that push people away. It is a clear sign to soften your edges and make sure your boundaries do not turn into cold walls."
+  },
+  {
+    "id": 63,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "swords",
+    "rank": "king",
+    "image_path": "63.webp",
+    "name": "King of Swords",
+    "keywords": [
+      "logic",
+      "authority",
+      "truth"
+    ],
+    "meaning_upright": "You use logic, keep authority, and tell the truth.",
+    "meaning_reversed": "You misuse power or make unfair, strict judgments.",
+    "archetype": null,
+    "description": "The King of Swords represents the ultimate authority of the mind. Sitting on his throne with a sharp, double-edged blade, this card embodies the power of clear thinking, logic, and absolute truth. When this card appears upright, it encourages you to stand tall in your authority and speak your mind with confidence. You are called to judge situations objectively, relying on facts rather than emotions to make the right decisions. \n\nHowever, when this card is reversed, this intellectual energy can turn cold and ruthless. You might be misusing your power or making unfair, overly strict judgments. It warns you not to use words as weapons, urging you to balance logic with compassion."
+  },
+  {
+    "id": 64,
+    "arcana": "minor",
+    "number": 1,
+    "suit": "pentacles",
+    "rank": "ace",
+    "image_path": "64.webp",
+    "name": "Ace of Pentacles",
+    "keywords": [
+      "new opportunity",
+      "growth",
+      "money"
+    ],
+    "meaning_upright": "A real chance to start something successful.",
+    "meaning_reversed": "A missed chance or a weak plan.",
+    "archetype": null,
+    "description": "The Ace of Pentacles represents a fresh start and a golden opportunity waiting to be seized. In tarot, this card shows a hand reaching from the clouds, holding a giant gold coin. It symbolizes a solid foundation for your future, especially regarding money, career, and personal growth. When upright, this card brings positive energy, signaling a real chance to start something successful. It is a green light to plant new seeds and invest in your dreams.\n\nHowever, if the card is reversed, it warns of a missed chance or a weak plan. To make the most of this card, you must stay grounded and turn your ideas into real-world success."
+  },
+  {
+    "id": 65,
+    "arcana": "minor",
+    "number": 2,
+    "suit": "pentacles",
+    "rank": "two",
+    "image_path": "65.webp",
+    "name": "Two of Pentacles",
+    "keywords": [
+      "balance",
+      "flexibility",
+      "managing tasks"
+    ],
+    "meaning_upright": "You are balancing your priorities and adjusting to changes.",
+    "meaning_reversed": "You have too many responsibilities or you are struggling to stay balanced.",
+    "archetype": null,
+    "description": "The Two of Pentacles captures the delicate dance of daily life. It shows a figure gracefully juggling two large coins, representing your resources and choices, tied together by an infinity symbol. This card is all about flexibility and managing tasks. When upright, it brings a wave of positive energy, showing that you can successfully balance your priorities and adapt to sudden changes.\n\nHowever, if this card appears reversed, it serves as a gentle warning. You might be taking on too many responsibilities at once, making it hard to stay balanced. Ultimately, the card reminds you to find your rhythm, stay grounded, and know when to take a step back."
+  },
+  {
+    "id": 66,
+    "arcana": "minor",
+    "number": 3,
+    "suit": "pentacles",
+    "rank": "three",
+    "image_path": "66.webp",
+    "name": "Three of Pentacles",
+    "keywords": [
+      "teamwork",
+      "skill",
+      "learning"
+    ],
+    "meaning_upright": "Working well with others, practicing a skill, and learning through experience.",
+    "meaning_reversed": "Difficulty working in a group or poor quality of work.",
+    "archetype": null,
+    "description": "The Three of Pentacles represents the power of collaboration, skill, and learning. Its energy is highly constructive, showing how different talents can come together to build something beautiful and lasting. When upright, this card is a positive sign that teamwork and dedication are paying off. It encourages you to learn through experience and take pride in your craft.\n\nHowever, if the card appears reversed, it warns of difficulties working with others or a drop in the quality of your work due to poor communication. Ultimately, this card reminds us that we achieve our greatest goals when we cooperate, practice patiently, and value the contributions of everyone involved."
+  },
+  {
+    "id": 67,
+    "arcana": "minor",
+    "number": 4,
+    "suit": "pentacles",
+    "rank": "four",
+    "image_path": "67.webp",
+    "name": "Four of Pentacles",
+    "keywords": [
+      "safety",
+      "control",
+      "saving"
+    ],
+    "meaning_upright": "You want safety and control. You are holding on to your money or belongings.",
+    "meaning_reversed": "You need to let go. You are making choices because you are afraid of losing things.",
+    "archetype": null,
+    "description": "The Four of Pentacles represents a strong desire for safety, stability, and control in your life. In traditional imagery, a figure sits tightly clutching their coins, representing a deep-seated need to protect what they have worked hard to earn. This card shows that you are holding on tight to your money, possessions, or even your emotions. While saving for a rainy day is wise, this energy warns against becoming too closed off. \n\nWhen reversed, the card serves as a gentle wake-up call to let go of your fears. You might be making choices purely out of anxiety about losing what you own. True security does not come from hoarding, but from trusting the flow of life."
+  },
+  {
+    "id": 68,
+    "arcana": "minor",
+    "number": 5,
+    "suit": "pentacles",
+    "rank": "five",
+    "image_path": "68.webp",
+    "name": "Five of Pentacles",
+    "keywords": [
+      "difficulty",
+      "needing help",
+      "feeling left out"
+    ],
+    "meaning_upright": "You are going through a difficult time. You may feel like you do not have enough money or support. It is a good time to ask others for help.",
+    "meaning_reversed": "Things are starting to get better. You are finding the help you need. Your situation is improving.",
+    "archetype": null,
+    "description": "The Five of Pentacles carries a heavy, wintery energy, often showing people struggling through the cold while passing a warm, glowing window. It represents financial hardship, loneliness, and feeling left out. However, the light in the window reminds us that comfort is always nearby if we look up. \n\nWhen this card is upright, you might be going through a tough stretch, feeling overwhelmed by money worries or a lack of support. It is a sign that you do not have to suffer alone, and it is time to ask for help. If the card is reversed, the storm is finally passing. You are finding the support you need, and your situation is steadily improving."
+  },
+  {
+    "id": 69,
+    "arcana": "minor",
+    "number": 6,
+    "suit": "pentacles",
+    "rank": "six",
+    "image_path": "69.webp",
+    "name": "Six of Pentacles",
+    "keywords": [
+      "giving",
+      "receiving",
+      "fairness"
+    ],
+    "meaning_upright": "You give and receive help in a fair and kind way.",
+    "meaning_reversed": "The exchange is not fair, or there are hidden conditions.",
+    "archetype": null,
+    "description": "The Six of Pentacles is a beautiful card of balance, representing the natural flow of giving and receiving. Its energy centers on fairness, kindness, and community support. When this card appears upright, it shows a healthy exchange of resources, where help is shared with genuine care and no strings attached. Whether you are offering support or receiving a well-deserved helping hand, the process is fair and respectful. \n\nHowever, when reversed, this delicate balance is disrupted. It warns of an unfair exchange, where someone might be taking advantage of others or offering help with hidden conditions. It is a reminder to ensure that your relationships remain balanced, honest, and truly supportive for everyone involved."
+  },
+  {
+    "id": 70,
+    "arcana": "minor",
+    "number": 7,
+    "suit": "pentacles",
+    "rank": "seven",
+    "image_path": "70.webp",
+    "name": "Seven of Pentacles",
+    "keywords": [
+      "patience",
+      "planning",
+      "review"
+    ],
+    "meaning_upright": "Be patient. You are working toward a long-term goal. It is a good time to check your progress.",
+    "meaning_reversed": "You feel impatient. You are worried that your hard work is not producing results fast enough.",
+    "archetype": null,
+    "description": "The Seven of Pentacles shows a moment of quiet pause, like a gardener looking over a growing harvest. This card represents patience, planning, and taking a step back to review your progress. You have been working hard toward a long-term goal, and now is the time to check your results and plan your next steps. It is a reminder that good things take time to grow, so trust the process. \n\nHowever, if this card appears reversed, it highlights feelings of impatience and worry. You might feel that your hard work is not paying off fast enough. Instead of giving up, use this energy to re-evaluate your path and remember that patience is key."
+  },
+  {
+    "id": 71,
+    "arcana": "minor",
+    "number": 8,
+    "suit": "pentacles",
+    "rank": "eight",
+    "image_path": "71.webp",
+    "name": "Eight of Pentacles",
+    "keywords": [
+      "practice",
+      "skill",
+      "hard work"
+    ],
+    "meaning_upright": "Practicing a skill and working hard to get better at it.",
+    "meaning_reversed": "Doing work poorly or feeling bored with daily tasks.",
+    "archetype": null,
+    "description": "The Eight of Pentacles represents the power of dedication and focus. Picture a craftsman carefully carving golden coins, showing his commitment to mastering his trade. This card brings an energy of steady progress, encouraging you to roll up your sleeves and put in the hard work. It is all about practice, building your skills, and taking pride in your daily efforts. True expertise comes from patience and repetition. However, if this card appears reversed, it warns against rushing through tasks or doing sloppy work. You might simply feel bored and burned out by your routine. Ultimately, this card invites you to find joy in your progress and commit to doing your best."
+  },
+  {
+    "id": 72,
+    "arcana": "minor",
+    "number": 9,
+    "suit": "pentacles",
+    "rank": "nine",
+    "image_path": "72.webp",
+    "name": "Nine of Pentacles",
+    "keywords": [
+      "being independent",
+      "comfort",
+      "valuing yourself"
+    ],
+    "meaning_upright": "You are independent, comfortable, and you value yourself.",
+    "meaning_reversed": "You rely too much on others or feel insecure, even after success.",
+    "archetype": null,
+    "description": "The Nine of Pentacles represents a time of material comfort and personal independence. In traditional tarot, we see a figure standing in a lush, fruitful garden, symbolizing the rich rewards of hard work. This card radiates a calm, self-sufficient energy, showing that you have built a stable and secure life. It is a powerful reminder to value yourself and enjoy the fruits of your labor without relying on others.\n\nHowever, if this card appears reversed, it warns that you might be relying too much on external validation or feeling insecure despite your success. It encourages you to reconnect with your self-worth and reclaim your personal freedom."
+  },
+  {
+    "id": 73,
+    "arcana": "minor",
+    "number": 10,
+    "suit": "pentacles",
+    "rank": "ten",
+    "image_path": "73.webp",
+    "name": "Ten of Pentacles",
+    "keywords": [
+      "long-term success",
+      "family",
+      "security"
+    ],
+    "meaning_upright": "A strong family, lasting success, and financial security.",
+    "meaning_reversed": "Problems with money, family arguments, or a lack of stability.",
+    "archetype": null,
+    "description": "The Ten of Pentacles is the ultimate symbol of long-term success, family, and deep security. It shows an elderly man surrounded by loved ones and golden coins, representing wealth that passes down through generations. This card is all about building a solid foundation and enjoying a peaceful home where everyone feels safe. When upright, it promises lasting financial security and strong family bonds.\n\nHowever, if this card appears reversed, it warns of potential money problems, family arguments, or a sudden lack of stability. It is a gentle reminder to focus on what truly matters, repair your relationships, and protect your hard-earned peace of mind."
+  },
+  {
+    "id": 74,
+    "arcana": "minor",
+    "number": 11,
+    "suit": "pentacles",
+    "rank": "page",
+    "image_path": "74.webp",
+    "name": "Page of Pentacles",
+    "keywords": [
+      "learning",
+      "opportunity",
+      "planning"
+    ],
+    "meaning_upright": "You are learning something new, starting a new project, or making a careful plan.",
+    "meaning_reversed": "You are delaying your work or not finishing what you started.",
+    "archetype": null,
+    "description": "The Page of Pentacles represents a fresh start full of potential and quiet ambition. In this card, we see a young person focusing deeply on a single gold coin, symbolizing a new spark of inspiration or a practical opportunity. It carries a grounded energy of learning and careful planning. When this card appears upright, it is a green light to start a new project, learn a valuable skill, or map out your future steps with care. \n\nHowever, if the card is reversed, it serves as a gentle warning. You might be putting off your work or leaving important tasks unfinished. Now is the time to regain your focus, turn your dreams into reality, and commit to finishing what you started."
+  },
+  {
+    "id": 75,
+    "arcana": "minor",
+    "number": 12,
+    "suit": "pentacles",
+    "rank": "knight",
+    "image_path": "75.webp",
+    "name": "Knight of Pentacles",
+    "keywords": [
+      "patience",
+      "hard work",
+      "reliability"
+    ],
+    "meaning_upright": "Moving forward slowly and doing your work well.",
+    "meaning_reversed": "Making no progress or refusing to change your habits.",
+    "archetype": null,
+    "description": "The Knight of Pentacles represents the ultimate symbol of patience, hard work, and reliability. Unlike other knights who rush into battle, this steady warrior moves forward slowly, making sure every detail is perfect. He sits on a calm horse, focusing on his golden coin. This card brings a grounded energy, reminding you that great things take time. When upright, it encourages you to stay committed and do your work well. \n\nHowever, if the card is reversed, it serves as a warning. You might feel like you are making no progress at all, or you could be stuck because you refuse to change your old habits. It is time to break free from stubborn routines."
+  },
+  {
+    "id": 76,
+    "arcana": "minor",
+    "number": 13,
+    "suit": "pentacles",
+    "rank": "queen",
+    "image_path": "76.webp",
+    "name": "Queen of Pentacles",
+    "keywords": [
+      "care",
+      "practical skills",
+      "home life"
+    ],
+    "meaning_upright": "Being helpful, creating comfort, and taking care of daily needs.",
+    "meaning_reversed": "Problems balancing work and home, or not taking care of yourself.",
+    "archetype": null,
+    "description": "The Queen of Pentacles radiates a warm, nurturing energy, deeply rooted in the beauty of everyday life. As a symbol of practical skills and home life, she represents the ultimate caregiver who knows how to make any space feel welcoming and secure. When this card appears upright, it encourages you to focus on daily needs, create comfort, and offer a helping hand to those around you, finding joy in building a stable foundation. However, when reversed, the card points to a struggle in balancing work and home, or a tendency to neglect your own well-being. It serves as a gentle reminder to pause and practice self-care before taking care of others."
+  },
+  {
+    "id": 77,
+    "arcana": "minor",
+    "number": 14,
+    "suit": "pentacles",
+    "rank": "king",
+    "image_path": "77.webp",
+    "name": "King of Pentacles",
+    "keywords": [
+      "wealth",
+      "stability",
+      "provider"
+    ],
+    "meaning_upright": "You have success, financial security, and the ability to support others.",
+    "meaning_reversed": "Focusing too much on money or using wealth to control people.",
+    "archetype": null,
+    "description": "The King of Pentacles represents the ultimate symbol of wealth, stability, and security. Sitting on his throne surrounded by rich vines and carvings, he embodies material success and a reliable nature. This card brings a grounding energy, showing that you have worked hard to achieve financial comfort and are now in a position to support others. As a true provider, you use your resources wisely to build a safe haven for your loved ones. \n\nHowever, when this card appears reversed, it warns against the dangers of greed and control. You might be focusing too much on money, letting material assets define your worth. It can also suggest using your financial power to dominate others instead of helping them."
+  }
+]

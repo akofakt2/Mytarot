@@ -33,18 +33,21 @@
                             alt="{{ card.name }}" style="max-width: 100%; height: 100%; object-fit: fill;">
                     </figure>
                 </div>
+                <hr style="margin-top: 20px;">                
             </section>
+            
             <section id="info" class="card-section visually-hidden">
+                <section class="card-section">
+                    <h2>{{ ui.card_of_day_explanation_title }}</h2>
+                    <p>{{ card_of_day_explanation }}</p>
+                </section>
                 <div class="card-info">
                     <h2>{{ card.name }}</h2>
                     {% if card.description %}
                     <p class="card-description">{{ card.description }}</p>
                     {% endif %}
                 </div>
-                <section class="card-section">
-                    <h2>{{ ui.card_of_day_explanation_title }}</h2>
-                    <p>{{ card_of_day_explanation }}</p>
-                </section>
+
             </section>
             <section class="cta">
                 <div class="tarot-cta-box">

@@ -1465,3 +1465,9 @@ footer {
     box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
     background-color: #c5a059;
 }
+
+hr {    
+    border: 0;
+    height: 3px; /* Hrúbka čiary v strede */
+    background: linear-gradient(to right, transparent, var(--card-gold), transparent);
+}
