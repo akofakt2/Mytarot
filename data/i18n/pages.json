@@ -55,6 +55,20 @@
       "upright_heading": "Pozycja prosta",
       "reversed_heading": "Pozycja odwrócona"
     }
+  },
+  "de": {
+    "landing": {
+      "title": "Tarot-Legung",
+      "start_button": "Legung starten"
+    },
+    "reading": {
+      "question_label": "Frage",
+      "submit_button": "Karten ziehen"
+    },
+    "card_detail": {
+      "upright_heading": "Aufrechte Position",
+      "reversed_heading": "Umgekehrte Position"
+    }
   }
 }
 

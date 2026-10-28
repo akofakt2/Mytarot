@@ -26,6 +26,13 @@
     "card_of_day": "karta-dnia",
     "about_app": "o-aplikacji",
     "about_tarot": "o-tarocie"
+  },
+  "de": {
+    "cards_list": "karten",
+    "card": "karte",
+    "card_of_day": "karte-des-tages",
+    "about_app": "ueber-die-app",
+    "about_tarot": "ueber-tarot"
   }
 }
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+
+<head>
+    {% include 'includes/head_common.html' %}
+    {% include 'meta/' ~ locale ~ '/about_app.html' %}
+</head>
+
+<body>
+    {% include 'nav.html' %}
+
+    <div class="main-layout card-detail">
+        <article class="card-article">
+            <header class="card-detail-header">
+                <p class="card-id">&nbsp;</p>
+            </header>
+            <section class="card-section" style="width: 95%;margin: 0 auto;">
+                <h2>{{ui.nav_about_app}}</h2>
+                <p>Online-Tarotkarten beantworten deine Fragen jederzeit. 
+                    goTarot.org wurde als Ort für Menschen geschaffen, die nach Antworten, Orientierung oder einfach einem besseren Verständnis für ihr Leben suchen. Wir verstehen das Tarot-Kartenlegen als ein einfühlsames und zugleich präzises Werkzeug, das Dinge beim Namen nennen kann, die wir oft nur erahnen. Wir bieten Online-Tarot-Legungen schnell, übersichtlich und mit dem Ziel, dir echten Mehrwert für deinen Alltag zu bringen.
+                </p>
+            </section>
+            <section class="card-section" style="width: 95%;margin: 0 auto;">
+                <h2>Warum du unsere App wählen solltest:</h2>
+
+                <p>
+                <ul>
+                    <li>Online-Tarotkarten ohne unnötiges Warten</li>
+                    <li>Schnelle und klare Legungen</li>
+                    <li>Diskreter und respektvoller Umgang</li>
+                    <li>Einfache Bedienung</li>
+                    <li>Jederzeit und von überall erreichbar</li>
+                    <li>Große Übersicht aller Tarotkarten</li>
+                    <li>Karte des Tages für schnelle Antworten</li>
+                </ul>
+                </p>
+            </section>
+            <section class="card-section" style="width: 95%;margin: 0 auto;">
+                <h2>Was du hier findest</h2>
+                <p>
+                    Auf dieser Website findest du Tarot-Legungen zu folgenden Themen:
+                <ul>
+                    <li>Liebe und Beziehungen</li>
+                    <li>Beruf und Finanzen</li>
+                    <li>Persönliche Entwicklung</li>
+                    <li>Wichtige Lebensentscheidungen</li>
+                </ul>
+                </p>
+                <p>
+                    Jede Legung wird individuell passend zu deiner Frage erstellt. Wir legen Wert darauf, dass die Antworten nicht rätselhaft, sondern vor allem nützlich und leicht verständlich sind.<br>
+                    Wir sehen Tarot als eine Möglichkeit, Dinge aus einem neuen Blickwinkel zu betrachten und Zusammenhänge zu erkennen, die uns sonst entgehen. Die Karten bestätigen oft genau das, was wir tief im Inneren schon spüren, und helfen uns dabei, den nächsten Schritt klar zu sehen.
+                </p>
+            </section>
+            <section class="card-section" style="width: 95%;margin: 0 auto;">
+                <h2>Entwicklung und Unterstützung</h2>
+                <p>
+                    Diese Website wurde von der Firma <a href="https://r2ot.sk" target="_blank" rel="noopener"
+                        style="text-decoration: none; color: #c5a059;">r2ot.sk</a> entwickelt mit dem Ziel, einen sicheren und diskreten Raum zu schaffen, um deine Fragen besser zu verstehen und Antworten darauf zu finden.
+                </p>
+                <p>
+                    Für das reibungslose Funktionieren und die Verbesserung unserer Dienste nutzen wir Cookies von Google Analytics und AdSense. Diese technischen Daten helfen uns, die grundlegenden Funktionen der Website sicherzustellen und zu verstehen, wie du sie nutzt, damit wir sie stetig verbessern können.
+                <p>
+                </p>
+                Wir arbeiten außerdem an einer mobilen PWA-App für dich, damit du deine Tarotkarten immer griffbereit hast, wenn du einen Rat brauchst.
+                </p>
+
+            </section>
+
+        </article>
+        <footer>
+            {% include 'includes/footer_copyright.html' %}
+        </footer>
+    </div>
+</body>
+
+</html>
